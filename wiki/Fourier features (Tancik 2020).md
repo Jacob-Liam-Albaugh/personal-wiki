@@ -62,10 +62,6 @@ The MLP then sees $\gamma(v)$, so the effective kernel is $h_{\mathrm{NTK}}\circ
 - Relevant to [[Neural implicit flow]] and to [[PINN]] solution networks with sharp features. Wiki note: the PINN link is a suggested use, not made in this paper.
 - Stationary-kernel vocabulary: [[Gaussian process]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Attention is all you need (Vaswani 2017)]], [[Spectral bias (Rahaman 2019)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[NIF (Pan 2023)]], [[When and why PINNs fail (Wang 2022)]]

@@ -183,10 +183,6 @@ Wiki notes:
 - **Compared with GANs**: truncation in BigGAN is the analogy; the paper beats BigGAN-deep at both FID and IS at $w=4$ ([[GAN]]).
 - **Conditional sampling in other forms**: [[Diffusion posterior sampling]] steers an unconditional diffusion model with a likelihood gradient at sampling time (classifier-guidance-like, needs a differentiable forward model); classifier-free guidance instead bakes the conditional score into the network. Wiki note: this comparison is the wiki's, not the paper's.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[DDPM (Ho 2020)]], [[Score SDE (Song 2021)]]
 %% refs:end %%

@@ -91,10 +91,6 @@ $$f\star\psi(ts)=\sum_h\sum_k f_k(h)\,L_t[L_s\psi_k(h)]$$
 - The paper's scattering-network related work uses wavelets plus group averaging; compare [[Wavelet transform]].
 - A GAN version of the same idea is [[Group equivariant GANs (Dey 2021)]].
 
-
-
-
-
 %% refs:start %%
 **Cited by in this wiki**: [[Deep Sets paper (Zaheer 2017)]], [[Group equivariant GANs (Dey 2021)]], [[Rotation augmentation for CNNs (Quiroga 2018)]]
 %% refs:end %%

@@ -76,10 +76,6 @@ Setup: three layers, 200 tanh units, Adam at $10^{-3}$, 2000 steps for the simpl
 - Sits in [[Physics-informed machine learning]] as an inductive bias (conservation law built into the architecture) vs. the loss-based approach of [[PINN]].
 - Cites Schmidt and Lipson 2009 (genetic search for conservation laws) as inspiration; compare [[SINDy]] for sparse equation discovery.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Neural ODEs (Chen 2018)]]
 **Cited by in this wiki**: [[DeepONet (Lu 2021)]], [[LNNs (Cranmer 2020)]], [[Symbolic models from deep learning (Cranmer 2020)]]

@@ -75,10 +75,6 @@ EmpiricalBench (§3.2, Table 2): Hubble, Kepler, Newton gravitation, Planck, Lea
 - GP denoising uses a [[Gaussian process]] with a Gaussian kernel.
 - Part of the physics-discovery line with [[Physics-informed machine learning]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[SINDy autoencoders (Champion 2019)]], [[Symbolic models from deep learning (Cranmer 2020)]]
 %% refs:end %%

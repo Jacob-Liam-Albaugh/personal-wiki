@@ -66,10 +66,6 @@ Features give a large gain over the featureless variants (VGAE* about 84 to 88 o
 - Uses [[Adam paper (Kingma 2015)]] and [[Glorot init (Glorot 2010)]].
 - Variational inference background: [[Bayesian neural networks]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Glorot init (Glorot 2010)]], [[VAE paper (Kingma 2014)]]
 %% refs:end %%

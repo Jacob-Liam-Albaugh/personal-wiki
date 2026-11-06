@@ -267,10 +267,6 @@ Wiki note: the benchmark PDEs are all smooth-solution, mostly periodic or simple
 - Later work: [[LNO (Cao 2023)]] (Laplace transform instead of Fourier basis; [[LNO]] is not discussed here, Wiki note: only related as a later alternative to the FNO basis) and the overview [[Operator learning review (Kovachki 2024)]].
 - Benchmark PDEs: [[Darcy flow]], [[Burgers equation]], [[Navier-Stokes equations]]. General setting: [[Operator learning]], [[Neural operator]], [[Kernel integral operator]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[PINNs (Raissi 2019)]], [[SIREN paper (Sitzmann 2020)]]
 **Cited by in this wiki**: [[NIF (Pan 2023)]], [[Operator learning review (Kovachki 2024)]]

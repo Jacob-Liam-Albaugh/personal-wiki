@@ -68,10 +68,6 @@ Notes on Navier-Stokes: assuming $u=\psi_y$, $v=-\psi_x$ makes the continuity eq
 - Alternative view: [[Physics-informed prior]] / [[Information field theory]]; the loss as a MAP objective in [[PINN]].
 - Neural fields vs operators: [[NIF (Pan 2023)]], [[Operator learning]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[Tensor basis NN turbulence (Ling 2016)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]], [[Respecting causality (Wang 2022)]], [[SINDy delay autoencoders (Bakarji 2022)]], [[SIREN paper (Sitzmann 2020)]], [[When and why PINNs fail (Wang 2022)]]

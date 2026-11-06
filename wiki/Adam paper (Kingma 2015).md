@@ -91,10 +91,6 @@ Wiki note: the regret proof is the paper's only theory; this page has not checke
 - Used as the standard optimizer for the VAE and normalizing flow papers ([[VAE paper (Kingma 2014)]]).
 - The diagonal preconditioner idea is shared with preconditioned [[SGLD]] and Riemannian samplers ([[Riemannian manifold HMC]]).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]], [[Amortized VI when and why (Margossian 2024)]], [[Attention is all you need (Vaswani 2017)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[DDPM (Ho 2020)]], [[Deep Sets paper (Zaheer 2017)]], [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[HNNs (Greydanus 2019)]], [[IFT thermal conductivity (Alberts 2026)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[Respecting causality (Wang 2022)]], [[SINDy autoencoders (Champion 2019)]], [[Spectral bias (Rahaman 2019)]], [[Symbolic models from deep learning (Cranmer 2020)]], [[Variational dropout (Kingma 2015)]], [[Variational graph auto-encoder (Kipf 2016)]], [[When and why PINNs fail (Wang 2022)]]

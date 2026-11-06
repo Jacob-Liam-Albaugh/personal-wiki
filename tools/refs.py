@@ -145,7 +145,7 @@ def main(n, dry):
             else:
                 clusters.append(dict(sur=sur, yr=yr, ws=ws, text=e, by={src}))
     for name, pg in pages.items():
-        s = re.sub(rf"\n?{re.escape(START)}.*?{re.escape(END)}\n?", "\n", pg["text"], flags=re.S)
+        s = re.sub(rf"\n*{re.escape(START)}.*?{re.escape(END)}\n*", "\n\n", pg["text"], flags=re.S)
         lines = []
         if cites[name]:
             lines.append("**Cites in this wiki**: " + ", ".join(f"[[{t}]]" for t in sorted(cites[name])))

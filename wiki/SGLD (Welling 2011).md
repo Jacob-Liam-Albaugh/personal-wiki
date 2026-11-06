@@ -101,10 +101,6 @@ Wiki note: the experiments compare against corrected Langevin only, not against 
 - Related concepts: [[Langevin dynamics]], [[Metropolis-Hastings correction]], [[SGLD]], [[SGLD]].
 - Duplicates in the library: `Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf` (same paper) and a Finder alias in `Stochastic Methods/`. This page's source-ref is the `IFT/` copy; `areas` records all three folders.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[RMHMC (Girolami 2011)]]
 **Cited by in this wiki**: [[AMAGOLD (Zhang 2020)]], [[Cyclical SG-MCMC (Zhang 2020)]], [[IFT thermal conductivity (Alberts 2026)]], [[Low-precision SGLD (Zhang 2022)]], [[PIFT (Alberts 2023)]], [[Variational dropout (Kingma 2015)]]

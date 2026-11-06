@@ -90,7 +90,6 @@ $$\Gamma=\mathrm{diag}(X^\top X)^{1/2}$$
 - Residual nets drop dropout in favor of batch normalization: [[ResNet paper (He 2016)]].
 - Concept page: [[Dropout]].
 
-
 %% refs:start %%
 **Cited by in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[Priors in Bayesian deep learning (Fortuin 2022)]], [[Variational dropout (Kingma 2015)]]
 %% refs:end %%

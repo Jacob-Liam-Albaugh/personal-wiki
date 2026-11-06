@@ -78,10 +78,6 @@ The authors note the choice is only partially resolved: other energy-compatible 
 - Viscoelastic constitutive models also appear in [[Kelvin-Voigt viscoelasticity]] and [[Markovian homogenized viscoelasticity (Bhattacharya 2023)]]; compare [[Markovian constitutive model]].
 - Compare [[Navier-Stokes equations]] (the Newtonian limit).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[SINDy autoencoders (Champion 2019)]]
 %% refs:end %%

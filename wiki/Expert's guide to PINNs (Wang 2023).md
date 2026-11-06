@@ -77,10 +77,6 @@ Best relative $L^2$ error with the pipeline:
 
 Ablations disable one component at a time with 4 layers x 256 tanh, Adam, lr $10^{-3}$ (p. 10). Examples: Allen-Cahn full algorithm $5.84\times10^{-4}$ in the ablation, and removing Fourier features is the worst case, $4.35\times10^{-1}$. Lid-driven cavity trained directly at high $Re$ is unstable, and PINNs struggle above $Re=1000$; a ladder $Re=[100,400,1000,3200]$ fixes training (§7.5). Wiki note: the large errors on chaotic KS, cavity and torus flows show the pipeline is a baseline, not a solution; see [[Navier-Stokes equations]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Fourier features (Tancik 2020)]], [[Glorot init (Glorot 2010)]], [[PINNs (Raissi 2019)]], [[Respecting causality (Wang 2022)]], [[SIREN paper (Sitzmann 2020)]], [[Spectral bias (Rahaman 2019)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%

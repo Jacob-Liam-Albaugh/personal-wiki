@@ -56,10 +56,6 @@ Stated (§5, pp. 10-11): needs clean, nearly noise-free data because derivatives
 - The latent ODE is a sparse analogue of a [[Neural ODE]] vector field; compare structured fields in [[Hamiltonian neural network]].
 - Related to [[Dynamic mode decomposition]] / Koopman (linear latent dynamics) and to [[Principal component analysis]] (linear coordinates).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Glorot init (Glorot 2010)]]
 **Cited by in this wiki**: [[Energy-based kernels for viscoelastic flow (Otto 2024)]], [[NIF (Pan 2023)]], [[PySR (Cranmer 2023)]], [[SINDy delay autoencoders (Bakarji 2022)]]

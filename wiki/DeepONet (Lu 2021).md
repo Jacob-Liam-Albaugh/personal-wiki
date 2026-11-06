@@ -138,10 +138,6 @@ Wiki note: (1) Evaluation is on in-distribution test functions except for the si
 - Wiki note: this reading-group copy may duplicate a copy elsewhere in the library (e.g. `Operators/Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf`); the coordinator will confirm whether to treat them as one source.
 - In the same reading-group batch, [[Markovian homogenized viscoelasticity (Bhattacharya 2023)]] cites universal approximation results for operators ([6], Chen-Chen) when motivating operator learning.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[HNNs (Greydanus 2019)]], [[Neural ODEs (Chen 2018)]]
 **Cited by in this wiki**: [[FNO (Li 2021)]], [[LNO (Cao 2023)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]], [[PIFT (Alberts 2023)]], [[When and why PINNs fail (Wang 2022)]]

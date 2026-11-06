@@ -61,10 +61,6 @@ Practical choices (p. 4): four layers, 500 hidden units, batch size 32, decaying
 - The graph variant is a [[Graph neural network]].
 - See [[Hamiltonian neural network]], [[Lagrangian neural network]], [[Physics-informed machine learning]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Glorot init (Glorot 2010)]], [[HNNs (Greydanus 2019)]], [[Neural ODEs (Chen 2018)]], [[Symbolic models from deep learning (Cranmer 2020)]]
 **Cited by in this wiki**: [[Symbolic models from deep learning (Cranmer 2020)]]

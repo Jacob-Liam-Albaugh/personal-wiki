@@ -58,10 +58,6 @@ A base model is trained on unrotated data, copied, then some layers are retraine
 
 This is the empirical counterpoint to built-in [[Equivariance]]: the architectural route ([[Group equivariant CNN]], [[e3nn]]) buys data efficiency and exactness, while augmentation buys simplicity. Only classification accuracy on small image sets is tested, so conclusions for physics-style regression are not covered.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Group equivariant CNNs (Cohen 2016)]]
 %% refs:end %%

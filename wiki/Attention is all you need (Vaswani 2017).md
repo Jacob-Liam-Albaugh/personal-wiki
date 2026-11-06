@@ -93,10 +93,6 @@ The abstract says 41.8 BLEU for English-French but the body text of §6.1 says 4
 
 Later work in this batch modifies each piece: [[Mixture of experts]] replaces the FFN, [[DeepSeek-V2 (DeepSeek-AI 2024)]] compresses the attention cache, and [[Mamba (Gu 2023)]] replaces attention with a [[State space model]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Dropout paper (Srivastava 2014)]]
 **Cited by in this wiki**: [[DDPM (Ho 2020)]], [[DeepONet (Lu 2021)]], [[Fourier features (Tancik 2020)]], [[MHA2MLA (Ji 2025)]], [[Mamba (Gu 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]]

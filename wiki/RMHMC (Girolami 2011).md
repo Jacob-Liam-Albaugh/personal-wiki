@@ -85,10 +85,6 @@ A Gibbs variant (eq. 19-20) alternates momentum resampling with the leapfrog tra
 - Metric from the Fisher matrix: the same natural-gradient idea that [[Adam paper (Kingma 2015)]] approximates with a diagonal second-moment estimate (Wiki note).
 - Gaussian and Bayesian-neural-network posteriors are the use case at scale: [[Gaussian process]], [[Bayesian neural networks]].
 
-
-
-
-
 %% refs:start %%
 **Cited by in this wiki**: [[SGLD (Welling 2011)]]
 %% refs:end %%

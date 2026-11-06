@@ -127,10 +127,6 @@ For any random input the Wiener-Askey chaos converges in general. The exponentia
 - The Hermite case sits next to the [[Karhunen-Loève expansion]] in practice: a KL expansion of a random field supplies the Gaussian variables $\xi_i$ that Hermite chaos then expands. See [[KL expansion note (Alexanderian 2015)]].
 - The Wiener-Hermite chaos refers back to the [[Wiener process]].
 
-
-
-
-
 %% refs:start %%
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]]
 %% refs:end %%

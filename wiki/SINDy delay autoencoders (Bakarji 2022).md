@@ -59,10 +59,6 @@ Authors: optimizer prone to local minima and over-fitting; unknown whether any l
 - Related to [[Dynamic mode decomposition]] on delay coordinates (HAVOK, linear closure), and to [[Symbolic regression]] (genetic programming) as the earlier parsimonious-model route.
 - Suggests invertible networks to enforce the diffeomorphism by construction.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[PINNs (Raissi 2019)]], [[SINDy autoencoders (Champion 2019)]], [[Tensor basis NN turbulence (Ling 2016)]]
 %% refs:end %%

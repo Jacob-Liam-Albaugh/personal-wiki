@@ -148,10 +148,6 @@ Wiki note: low precision is simulated in QPyTorch, so the latency and memory gai
 - Same first author as [[AMAGOLD (Zhang 2020)]]; complementary: AMAGOLD removes discretization bias with a Metropolis correction, whereas here the question is quantization bias. Combining them is not studied (**[unverified]** that it is feasible).
 - Proof technique: Theorem 4 of Dalalyan & Karagulyan (2019), Langevin with noisy gradients (App. B, p. 12). See [[Langevin dynamics]], [[Wasserstein distance]], [[Variance-corrected quantization]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[SGLD (Welling 2011)]]
 %% refs:end %%

@@ -60,10 +60,6 @@ Network sizes must be chosen by hand and grow with spatial complexity; training 
 - Compared with [[Graph neural network]] mesh methods: online cost scales with graph size there, not here.
 - A neural-field form of reduced-order modelling; see [[Surrogate model]] and [[Physics-informed machine learning]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[Fourier features (Tancik 2020)]], [[Neural operator (Kovachki 2022)]], [[Physics-informed ML review (Karniadakis 2021)]], [[SINDy autoencoders (Champion 2019)]], [[Spectral bias (Rahaman 2019)]]
 %% refs:end %%

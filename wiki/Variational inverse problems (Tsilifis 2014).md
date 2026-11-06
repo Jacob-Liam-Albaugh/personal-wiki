@@ -92,10 +92,6 @@ Wiki note: the examples are low dimensional (6 to 7 unknowns) and the ELBO is a 
 - The per-dataset optimisation here is the "F-VI-like" setting studied in [[Amortized VI when and why (Margossian 2024)]]; there the question is when one shared inference function can reproduce per-observation optima.
 - Related lab-adjacent method pages: [[SGLD]] (alternative gradient-based posterior sampler), [[Information field theory]] (field-valued Bayesian inference).
 
-
-
-
-
 %% refs:start %%
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]]
 %% refs:end %%

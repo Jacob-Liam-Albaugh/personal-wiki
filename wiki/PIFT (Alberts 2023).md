@@ -153,10 +153,6 @@ Wiki note: the published values for the noise in Examples 2 and 4 (both printed 
 - The paper cites the follow-up on well-posedness and the choice of $\beta$ (Alberts, Bilionis, arXiv:2401.14224, cited in [[IFT thermal conductivity (Alberts 2026)]], not read here).
 - Code: github PredictiveScienceLab/pift-paper-2023 (as cited in the paper).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[DeepONet (Lu 2021)]], [[SGLD (Welling 2011)]]
 **Cited by in this wiki**: [[IFT thermal conductivity (Alberts 2026)]]

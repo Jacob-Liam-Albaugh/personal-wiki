@@ -161,10 +161,6 @@ Wiki notes:
 - Derived "from a purely variational perspective", where the restrictions of [[Langevin dynamics]] are not relevant (p. 9); this is offered as a partial explanation for better few-step quality (the paper's speculation).
 - Wiki note: the ODE view foreshadows [[Flow matching]]-style deterministic transport maps.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[DDPM (Ho 2020)]], [[Score SDE (Song 2021)]]
 %% refs:end %%

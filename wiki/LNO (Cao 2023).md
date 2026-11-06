@@ -121,10 +121,6 @@ Wiki notes (not claimed in the paper):
 - Motivated by DeepONet's universality background ([[DeepONet (Lu 2021)]], [[Universal approximation for operators]]); no approximation theory for LNO itself is given.
 - Mathematical background in [[Laplace transform]] and [[LNO#Pole-residue method|pole residue method]] (structural dynamics literature, refs. [6,7]).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]]
 %% refs:end %%

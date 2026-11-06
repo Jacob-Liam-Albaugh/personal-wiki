@@ -68,10 +68,6 @@ A max-pool variant, $\sigma(\lambda x + \gamma\,\mathrm{maxpool}(x)\mathbf{1})$,
 - Cranmer's graph networks sum edge messages for the same reason: [[Symbolic models from deep learning (Cranmer 2020)]].
 - Kernel mean embeddings and exchangeability link to [[Kernel methods]] and [[Bayesian neural networks]] (Wiki note, via de Finetti).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Group equivariant CNNs (Cohen 2016)]]
 %% refs:end %%

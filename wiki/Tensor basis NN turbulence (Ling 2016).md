@@ -82,7 +82,6 @@ A broader training set is needed, and the TBNN is not queried every solver itera
 
 This is hard-wired [[Equivariance]] via an invariant function basis rather than a symmetric layer type, an alternative to the group-convolution route of [[Group equivariant CNN]] and [[e3nn]].
 
-
 %% refs:start %%
 **Cited by in this wiki**: [[Operator learning review (Kovachki 2024)]], [[PINNs (Raissi 2019)]], [[SINDy delay autoencoders (Bakarji 2022)]]
 %% refs:end %%

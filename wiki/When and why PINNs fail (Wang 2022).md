@@ -81,10 +81,6 @@ For the wave equation the NTK does not stay fixed: eigenvalues first move outwar
 - Optimizers used: [[Gradient descent]], [[Adam]]. Matrix analysis is eigenvalue/[[Singular value decomposition]] based.
 - Related frameworks: [[Physics-informed machine learning]], [[Physics-informed prior]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[DeepONet (Lu 2021)]], [[Fourier features (Tancik 2020)]], [[Glorot init (Glorot 2010)]], [[PINNs (Raissi 2019)]], [[Spectral bias (Rahaman 2019)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[Respecting causality (Wang 2022)]]

@@ -100,10 +100,6 @@ Wiki note: results are for mean-field Gaussians and small problems; the theorem 
 - The per-dataset optimisation of [[Variational inverse problems (Tsilifis 2014)]] is the F-VI analogue that amortization replaces.
 - Uses the [[Reparameterization trick]] and [[ELBO]]; frames the VAE encoder as A-VI. Mentions semi-amortized VI (A-VI then F-VI refinement) as justification when the gap cannot be closed.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]]

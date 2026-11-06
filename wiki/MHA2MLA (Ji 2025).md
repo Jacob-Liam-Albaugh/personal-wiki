@@ -67,10 +67,6 @@ I read the method and part of the table; ablations and conclusion not read in de
 
 The central trick, factorising a pretrained weight by truncated SVD to initialise a low-rank bottleneck, is a direct use of [[Singular value decomposition]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]]
 %% refs:end %%

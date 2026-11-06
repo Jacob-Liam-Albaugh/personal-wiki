@@ -4,6 +4,8 @@
 !/CLAUDE.md
 !/.gitignore
 !/tools/
+!/README.md
+!/Makefile
 tools/.cache/
 __pycache__/
 .DS_Store

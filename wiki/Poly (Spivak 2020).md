@@ -85,10 +85,6 @@ A short extended abstract: proofs are mostly cited. The book [[Polynomial Functo
 - Applied use: [[Polynomial equipment interfaces (Bilionis 2026)]], [[Protocols are lenses]].
 - Background: [[Category]], [[Functor]], [[Natural transformation]], [[Monoidal category]].
 
-
-
-
-
 %% refs:start %%
 **Cited by in this wiki**: [[Polynomial equipment interfaces (Bilionis 2026)]]
 %% refs:end %%

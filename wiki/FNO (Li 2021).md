@@ -168,10 +168,6 @@ Wiki note: the truncation to a few modes presupposes a smooth solution; the benc
 - Surveyed in [[Operator learning review (Kovachki 2024)]].
 - General setting: [[Operator learning]], [[Kernel integral operator]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]], [[DeepONet (Lu 2021)]], [[PINNs (Raissi 2019)]], [[SIREN paper (Sitzmann 2020)]]
 **Cited by in this wiki**: [[LNO (Cao 2023)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]]

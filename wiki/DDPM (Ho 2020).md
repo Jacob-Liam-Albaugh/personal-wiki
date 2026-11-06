@@ -162,10 +162,6 @@ Wiki notes:
 - Wiki note: later [[Flow matching]] methods regress a velocity field with a similar simple squared-error objective along a prescribed interpolation path.
 - Method pages: [[DDPM]], [[Noise prediction]], [[Noise schedule]], [[Diffusion models]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Attention is all you need (Vaswani 2017)]], [[Neural ODEs (Chen 2018)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]]

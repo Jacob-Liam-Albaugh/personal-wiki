@@ -121,10 +121,6 @@ Local reparameterization has the lowest variance among variational estimators in
 - Alternative to MCMC for network weights: the paper cites Neal 1995 and Welling and Teh 2011 ([[SGLD (Welling 2011)]], [[SGLD]]) for sampling-based Bayesian networks (p. 1). Averaging over samples relates to [[Bayesian model averaging]] (Wiki note).
 - Wiki note: any [[Reparameterization trick]] gradient with a shared noise draw per minibatch has this covariance issue; the fix applies when the noise passes through a low-dimensional intermediate (activations).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Dropout paper (Srivastava 2014)]], [[SGLD (Welling 2011)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]]

@@ -67,10 +67,6 @@ Read at statement level: every Def, Prop, Lemma and Cor of the chapter, with Def
 - Next: [[Polynomial Functors ch2 - Polynomial functors]], where sums of representables become the objects of Poly.
 - Concept pages: [[Yoneda lemma]], [[Functor]], [[Natural transformation]]. The wiki's existing [[Polynomial functor]] page builds on Def 2.1.
 
-
-
-
-
 %% refs:start %%
 **Cited by in this wiki**: [[Polynomial equipment interfaces (Bilionis 2026)]]
 %% refs:end %%

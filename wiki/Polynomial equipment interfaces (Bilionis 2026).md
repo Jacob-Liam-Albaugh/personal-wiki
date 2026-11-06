@@ -251,10 +251,6 @@ Wiki notes (not from the paper): (i) no associativity or unit laws are establish
 - Protocols as lenses into $H_R=y+R$ are the paper's own construction; the paper cites SiLA 2, OPC UA LADS and SBOL-style protocol representations only as the "workflow/equipment standards" context (refs [6]-[8]) and self-driving-laboratory work (refs [3]-[5]).
 - Lens-based interface translation ([[Protocol transport along a lens]]) is the compositional-reuse mechanism: one protocol, many devices.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Poly (Spivak 2020)]], [[Polynomial Functors ch1 - Representable functors]]
 %% refs:end %%

@@ -115,10 +115,6 @@ Wiki note: the paper's theorems concern stationarity and a spectral gap relative
 - Same first author as [[Cyclical SG-MCMC (Zhang 2020)]] (which sidesteps MH and accepts bias) and [[Low-precision SGLD (Zhang 2022)]]. Zhang et al. 2020 cited in §6.3 for the SGD-momentum burn-in is the cyclical paper.
 - Related concepts: [[Metropolis-Hastings correction]], [[Langevin dynamics]], [[SGHMC]], [[AMAGOLD]], [[AMAGOLD]], [[SG-MCMC]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[SGLD (Welling 2011)]]
 %% refs:end %%

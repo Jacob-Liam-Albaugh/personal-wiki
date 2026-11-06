@@ -106,10 +106,6 @@ Wiki note (not in paper): Theorem 2 and the "equivalent to all VI problems" clai
 - Uses surrogates (residual nets, PINN-style energy loss: [[PINN]]) in place of the forward model; compares conceptually to operator-learning approaches ([[Operator learning]], [[DeepONet]]).
 - Complementary samplers: [[SGLD]]; flow/diffusion-style generative alternatives: [[Diffusion models]], [[Flow matching]] (Wiki note: not discussed in this paper).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Amortized VI when and why (Margossian 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[VAE paper (Kingma 2014)]], [[Variational inverse problems (Tsilifis 2014)]], [[Wiener-Askey chaos (Xiu 2002)]]
 %% refs:end %%

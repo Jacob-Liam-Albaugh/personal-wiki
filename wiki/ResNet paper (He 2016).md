@@ -62,7 +62,6 @@ Wiki note: the paper does not mention the ODE view of residual updates, which la
 - Residual updates $x+F(x)$ are the discrete form that [[Neural ODE]] takes to the continuous limit.
 - Concept page: [[ResNet]].
 
-
 %% refs:start %%
 **Cites in this wiki**: [[Glorot init (Glorot 2010)]]
 %% refs:end %%

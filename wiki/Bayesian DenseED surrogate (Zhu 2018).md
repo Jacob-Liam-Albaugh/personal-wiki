@@ -100,10 +100,6 @@ Wiki note: 20 particles is a small ensemble for a posterior over about 240k weig
 - Contrast with [[SDE-BNN (Xu 2022)]]: parametric stochastic-process posterior vs non-parametric particle posterior.
 - Wiki note: a GP surrogate is the classical Bayesian alternative to a neural surrogate with uncertainty; see [[Gaussian processes and kernel methods (Kanagawa 2018)]] for the GP and kernel-ridge picture and [[Multi-fidelity GP for tissue expansion (Lee 2020)]] for a GP surrogate in a physical-simulation setting.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[VAE paper (Kingma 2014)]], [[Variational dropout (Kingma 2015)]], [[Wiener-Askey chaos (Xiu 2002)]]
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]], [[FNO (Li 2021)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[PINNs (Raissi 2019)]]

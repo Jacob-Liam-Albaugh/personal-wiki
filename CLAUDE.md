@@ -95,13 +95,12 @@ When the user adds a source or asks you to ingest one:
 6. Update `wiki/meta/index.md`, `wiki/meta/sources.md` (status → ingested), and for reading
    group papers `wiki/meta/reading-group.md`.
 7. Append an entry to `wiki/meta/log.md` with the date, sources, and pages touched.
-8. Run `python3 tools/authors.py && python3 tools/refs.py --n 2` from the repo root. The first
-   builds `wiki/authors/` and links each paper's `authors`. The second rewrites each paper's
-   `%% refs:start %%` block (Cites / Cited by in this wiki) and `wiki/meta/wanted-papers.md`,
-   which lists works outside the wiki cited by at least n wiki sources. Tell the user about new wanted entries.
-9. Rebuild the graphify graph with `uv tool run --from graphifyy python -I tools/graph.py .`.
-   It writes the untracked `graphify-out/`. Query it with `graphify query "..."`, `graphify path "A" "B"`
-   or `graphify explain "X"`.
+8. Run `make` from the repo root. `make authors` builds `wiki/authors/` and links each paper's
+   `authors`. `make refs` rewrites each paper's `%% refs:start %%` block (Cites / Cited by in this
+   wiki) and `wiki/meta/wanted-papers.md`, which lists works outside the wiki cited by at least
+   n wiki sources (`make refs N=3` to change n). Tell the user about new wanted entries.
+   `make graph` rebuilds the untracked `graphify-out/`; query it with `graphify query "..."`,
+   `graphify path "A" "B"` or `graphify explain "X"`.
 
 A single source may touch 10-15 wiki pages. That is normal.
 

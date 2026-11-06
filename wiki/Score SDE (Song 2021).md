@@ -277,10 +277,6 @@ Wiki note (not in paper): FID/NLL comparisons depend on dequantization and check
 - Wiki note: [[Intro to VAEs (Kingma 2019)]] is the VAE counterpart (a likelihood-based latent model); the 1024x1024 CelebA-HQ experiment follows the VQ-VAE-2 setup (batch 8, EMA 0.9999; App. H.3). The DDPM ELBO rows in Table 2 relate to [[ELBO]], and the reverse-time SDE with learned $s_\theta$ is a [[SDE-BNN (Xu 2022)|neural sde]]-style object. See [[KL divergence]] for the ELBO terms in App. F.
 - Architecture borrows from GANs (BigGAN blocks, StyleGAN2 FIR, skip rescaling); see [[GAN]] and [[Group equivariant GANs (Dey 2021)]] for another GAN-based paper in this wiki.
 
-
-
-
-
 %% refs:start %%
 **Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]]
 %% refs:end %%

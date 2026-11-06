@@ -61,10 +61,6 @@ Weights act as angular frequencies and biases as phase offsets. Few weights exce
 - Contrast with [[Neural ODE]], which pairs a solver with learned dynamics (source: Sitzmann 2020, §2). Related representation idea: [[Neural implicit flow]].
 - The initialization argument parallels [[Glorot init (Glorot 2010)]] (variance preservation); see [[Weight initialization]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Glorot init (Glorot 2010)]], [[PINNs (Raissi 2019)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]]

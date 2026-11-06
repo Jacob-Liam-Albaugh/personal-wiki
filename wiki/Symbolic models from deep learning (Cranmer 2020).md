@@ -70,10 +70,6 @@ Regularize the messages (an $L_1$ penalty with weight $10^{-2}$, or a KL penalty
 - Hamiltonian structure: [[Hamiltonian neural network]], [[Lagrangian neural network]].
 - A different route to interpretable dynamics is [[SINDy]].
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[HNNs (Greydanus 2019)]], [[LNNs (Cranmer 2020)]]
 **Cited by in this wiki**: [[LNNs (Cranmer 2020)]], [[PySR (Cranmer 2023)]]

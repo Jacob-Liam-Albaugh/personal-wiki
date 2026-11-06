@@ -103,10 +103,6 @@ Wiki note: the review gives no quantitative comparison across prior families, so
 - General background: [[Bayesian neural networks]], [[Variational inference]], [[KL divergence]], [[Gaussian process]], [[Normalizing flows]], [[Bayesian model averaging]], [[SG-MCMC]].
 - Function-space prior ideas connect to [[Physics-informed prior]] (Wiki note).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[Dropout paper (Srivastava 2014)]], [[VAE paper (Kingma 2014)]]
 %% refs:end %%

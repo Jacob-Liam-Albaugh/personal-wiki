@@ -132,10 +132,6 @@ Wiki note: improvement on CIFAR-10 is smaller and the G-CNN G&D variant is sligh
 - Wiki note: [[Score SDE (Song 2021)]] reports GAN baselines (StyleGAN2-ADA FID 2.92 unconditional on CIFAR-10) and uses the same BigGAN-style blocks in its NCSN++, so the equivariant-layer idea could in principle transfer to [[Diffusion models]] score networks; the paper does not test this. **[unverified]**
 - Equivariant generative priors for physical fields: [[Generative priors for turbulence (Wang 2026)]] (Wiki note, check relevance).
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Group equivariant CNNs (Cohen 2016)]]
 %% refs:end %%

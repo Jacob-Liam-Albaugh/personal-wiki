@@ -80,10 +80,6 @@ Limits: for the chaotic KS case with $u_0=\cos x(1+\sin x)$ to $T=0.9$, the tran
 
 Wiki note: the two KS error values (2.46e-2 vs 2.26e-2) disagree inside the paper; the page reports both.
 
-
-
-
-
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Glorot init (Glorot 2010)]], [[PINNs (Raissi 2019)]], [[Physics-informed ML review (Karniadakis 2021)]], [[When and why PINNs fail (Wang 2022)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]]

@@ -63,10 +63,6 @@ The example is viscous Burgers ([[Burgers equation]]). The weights matter for tr
 
 Digital twins; transformations between models (nonlinear dynamics to Koopman, Poisson to Hamiltonian, Nesterov to ODE); discovering intrinsic variables with manifold learning, autoencoders and [[SINDy]]-style dictionaries; active learning; and a changing meaning of "understanding". Open needs: standardized benchmarks and new mathematics.
 
-
-
-
-
 %% refs:start %%
 **Cited by in this wiki**: [[IFT thermal conductivity (Alberts 2026)]], [[NIF (Pan 2023)]], [[Respecting causality (Wang 2022)]]
 %% refs:end %%
