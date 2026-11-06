@@ -26,12 +26,15 @@
 - 8 concept pages added: DDPM, DDIM, noise prediction, noise schedule, classifier guidance, classifier-free guidance, contrastive learning, zero-shot transfer. Updated Diffusion models, Flow matching, Score matching (Tweedie's formula) and ELBO (the diffusion bound).
 - **Renamed every page to a readable title** (e.g. `SGLD (Welling 2011)`, `ELBO`), with all links rewritten. Every page now carries topic tags, and graph view colours nodes by them. The naming and tag rules are in CLAUDE.md.
 
+## Done (batch 5)
+- ME 697 book part 1 (`ml-software/`): 4 lecture pages and 11 concept pages (JAX transformations, autodiff, optimizers, initialization). New topic tags `optimization` and `software`.
+
 ## Queue (about 172 files), in this order
 IFT/ is fully ingested (batch 1). The user's priority after Operators: generative models, then the advanced SciML course book.
 1. Bayesian/ — the remaining papers.
 2. ~~Operators/~~ done (batch 3).
 3. ~~Generative~~ done (batch 3).
-4. **Next:** `advanced-scientific-machine-learning/` — Bilionis course book (Jupyter Book, ~100 chapters in `book/_toc.yml`), part by part: ML software, uncertainty propagation, high-dim UP / operators, inverse problems, PINNs, stochastic inverse problems.
+4. **Next:** `advanced-scientific-machine-learning/` (part 1 done, batch 5) — Bilionis course book (Jupyter Book, ~100 chapters in `book/_toc.yml`), part by part: ML software, uncertainty propagation, high-dim UP / operators, inverse problems, PINNs, stochastic inverse problems.
 5. Physics Informed Architectures/.
 6. Stochastic Methods/ — the four Karhunen-Loève papers. These will fill out [[karhunen-loeve-expansion]].
 7. ML/, Guassian Processes/, Symmetries/, LLMs/.

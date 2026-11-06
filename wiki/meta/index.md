@@ -127,14 +127,21 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | Page | Type | Title |
 |---|---|---|
 | [[CLIP (Radford 2021)]] | paper | CLIP: Learning Transferable Visual Models From Natural Language Supervision (Radford 2021) |
+| [[Adam]] | method | Adam |
+| [[Automatic differentiation]] | method | Automatic differentiation |
 | [[Contrastive learning]] | concept | Contrastive learning (CLIP objective) |
 | [[Diffusion posterior sampling]] | method | Conditioning generative priors (posterior sampling) |
 | [[Flow matching]] | method | Flow matching |
 | [[GAN]] | concept | Generative adversarial network (GAN) |
+| [[Gradient descent]] | method | Gradient descent |
 | [[Local reparameterization trick]] | method | Local reparameterization trick |
+| [[Momentum]] | method | Momentum |
+| [[Newton's method]] | method | Newton's method |
 | [[Normalizing flows]] | method | Normalizing flows |
+| [[SGD]] | method | Stochastic gradient descent (SGD) |
 | [[VAE]] | method | Variational autoencoder (VAE) |
 | [[Variational dropout]] | method | Variational dropout |
+| [[Weight initialization]] | concept | Weight initialization |
 | [[Zero-shot transfer]] | concept | Zero-shot transfer |
 
 ## Gaussian processes
@@ -157,6 +164,19 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[KL divergence]] | definition | Kullback-Leibler divergence |
 | [[Laplace transform]] | definition | Laplace transform |
 | [[Wasserstein distance]] | definition | Wasserstein-2 distance |
+
+## ME 697 course (Advanced SciML)
+
+| Page | Type | Title |
+|---|---|---|
+| [[JAX random keys]] | concept | JAX random keys |
+| [[JIT compilation]] | definition | JIT compilation |
+| [[ME697 1.1 - Functional programming in JAX]] | lecture | ME697 1.1 - Functional programming in JAX |
+| [[ME697 1.2 - Types and pytrees]] | lecture | ME697 1.2 - Types and pytrees |
+| [[ME697 1.3 - Differentiation]] | lecture | ME697 1.3 - Differentiation |
+| [[ME697 1.4 - Optimization]] | lecture | ME697 1.4 - Optimization |
+| [[Pytree]] | definition | Pytree |
+| [[vmap]] | definition | vmap |
 
 ## Planned pages (linked, not yet written)
 

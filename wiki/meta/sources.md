@@ -359,18 +359,18 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 ## advanced-scientific-machine-learning (ME 697 book repo)
 
-Jupyter-book source in `advanced-scientific-machine-learning/book/`, chapters from `_toc.yml`. Status for all: **queued** (ingest by chapter).
+Jupyter-book source in `advanced-scientific-machine-learning/book/`, chapters from `_toc.yml`, ingested chapter by chapter.
 
-| Chapter | Folder |
-|---|---|
-| Modern Machine Learning Software | `ml-software/` |
-| Uncertainty Propagation through Scientific Models | `up/` |
-| High-dimensional Uncertainty Propagation | `hup/` |
-| Inverse Problems in Deterministic Scientific Models | `inverse/` |
-| Physics-informed Neural Networks (PINNs) | `pinns/` |
-| Inverse Problems in Stochastic Scientific Models | `sinverse/` |
-| Homework Problems | `homework/` |
-| (not in `_toc.yml`) | `ift/`, `dynamics/` |
+| Chapter | Folder | Status |
+|---|---|---|
+| Modern Machine Learning Software | `ml-software/` | ingested → [[ME697 1.1 - Functional programming in JAX]], [[ME697 1.2 - Types and pytrees]], [[ME697 1.3 - Differentiation]], [[ME697 1.4 - Optimization]] |
+| Uncertainty Propagation through Scientific Models | `up/` | queued |
+| High-dimensional Uncertainty Propagation | `hup/` | queued |
+| Inverse Problems in Deterministic Scientific Models | `inverse/` | queued |
+| Physics-informed Neural Networks (PINNs) | `pinns/` | queued |
+| Inverse Problems in Stochastic Scientific Models | `sinverse/` | queued |
+| Homework Problems | `homework/` | queued |
+| (not in `_toc.yml`) | `ift/`, `dynamics/` | queued |
 
 ## Totals
 

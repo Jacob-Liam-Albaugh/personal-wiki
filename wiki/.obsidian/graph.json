@@ -99,6 +99,20 @@
       }
     },
     {
+      "query": "tag:#optimization",
+      "color": {
+        "a": 1,
+        "rgb": 12597547
+      }
+    },
+    {
+      "query": "tag:#software",
+      "color": {
+        "a": 1,
+        "rgb": 3426654
+      }
+    },
+    {
       "query": "tag:#ml",
       "color": {
         "a": 1,

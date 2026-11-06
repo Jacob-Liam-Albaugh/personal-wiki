@@ -142,7 +142,7 @@ Tags are topics only, never page type, provenance or status.
 
 Topics (several per page; graph view colours by them, first match wins in this order):
 `diffusion`, `generative`, `sampling`, `mcmc`, `vi`, `ift`, `bayesian`, `inverse-problems`,
-`operators`, `physics-informed`, `category-theory`, `mechanics`, `symmetry`, `gp`, `pde`, `ml`.
+`operators`, `physics-informed`, `category-theory`, `mechanics`, `symmetry`, `gp`, `pde`, `optimization`, `software`, `ml`.
 A new topic tag is recorded here before it is used.
 
 ### Meta pages (hidden from graph view)

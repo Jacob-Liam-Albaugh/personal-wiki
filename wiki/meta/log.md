@@ -71,3 +71,10 @@
 ## [2026-11-06] tags | topic tags only
 - Removed the `paper`, `lab`, `reading-group` and `meta` tags. Tags are now topics only; stubs use `status: lead` frontmatter.
 - Checked links across the rename: all 734 earlier page-to-page links survive, and there are 868 now. Restored graph.json, which Obsidian had overwritten (tag nodes on, colour groups gone).
+
+## [2026-11-06] ingest | ME 697 book part 1 (ml-software)
+- Sources: `advanced-scientific-machine-learning/book/ml-software/` (functional_programming, types_and_models, differentiation, optimization).
+- Lecture pages: [[ME697 1.1 - Functional programming in JAX]], [[ME697 1.2 - Types and pytrees]], [[ME697 1.3 - Differentiation]], [[ME697 1.4 - Optimization]].
+- Concept pages: [[JIT compilation]], [[vmap]], [[JAX random keys]], [[Pytree]], [[Automatic differentiation]], [[Gradient descent]], [[Momentum]], [[SGD]], [[Adam]], [[Newton's method]], [[Weight initialization]].
+- New topic tags: `optimization`, `software` (CLAUDE.md, graph colours).
+- Flags on the source: the jvp signature (returns a pair), where ε sits in Adam, and the book's "He" bound, which is LeCun-uniform.
