@@ -128,6 +128,19 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[variational-autoencoder]] | method | Variational autoencoder (VAE) |
 | [[variational-dropout]] | method | Variational dropout |
 
+## Gaussian processes
+
+| Page | Type | Title |
+|---|---|---|
+| [[gaussian-process]] | concept | Gaussian process |
+
+## Symmetry & equivariance
+
+| Page | Type | Title |
+|---|---|---|
+| [[dey-2021-group-equivariant-gans]] | paper | Group Equivariant GANs (Dey 2021) |
+| [[equivariance]] | definition | Equivariance |
+
 ## Mathematics
 
 | Page | Type | Title |
