@@ -40,4 +40,4 @@ In score-based generation the gradient comes from a learned score, $\nabla\log p
 
 ## Related pages
 - [[Wasserstein distance]] · [[SGHMC]]
-- Book sampler progression: random-walk MH, [[Hamiltonian Monte Carlo]], [[NUTS]] ([[ME697 4.2 - Sampling posteriors]]). Wiki note: Langevin methods are the gradient-only relative; the book does not treat them in Part 4.
+- Book sampler progression: random-walk MH, [[Hamiltonian Monte Carlo]], [[NUTS]] ([[Markov chain Monte Carlo]]). Wiki note: Langevin methods are the gradient-only relative; the book does not treat them in Part 4.

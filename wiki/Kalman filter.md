@@ -45,10 +45,11 @@ $$
 
 ## Relation to the book
 - Exact for linear drift with additive Gaussian noise, such as an [[Ornstein-Uhlenbeck process]] observed with Gaussian noise.
-- The stochastic Duffing oscillator of [[ME697 6.2 - Filtering and smoothing]] has the cubic term $\beta x^3$, so the state law is non-Gaussian and the book uses a bootstrap [[Particle filter]]. Extended and unscented Kalman filters are Gaussian approximations of that case **[unverified]**.
+- The stochastic Duffing oscillator of [[Particle filter]] has the cubic term $\beta x^3$, so the state law is non-Gaussian and the book uses a bootstrap [[Particle filter]]. Extended and unscented Kalman filters are Gaussian approximations of that case **[unverified]**.
 - The Gaussian marginal likelihood from the filter's innovations makes [[Expectation-maximization]] and likelihood calibration exact in the linear case.
 - The smoothing analogue is the Rauch-Tung-Striebel smoother **[unverified]**.
 
+**Covered in**: ASML book sinverse/fs (ME 697 6.2)
 **Sources**: none in `advanced-scientific-machine-learning/book/`; context from `sinverse/fs/intro.md`.
 **Last updated**: 2026-11-06
 
@@ -56,4 +57,3 @@ $$
 
 ## Related pages
 - [[Particle filter]] · [[Stochastic state-space model]] · [[Ornstein-Uhlenbeck process]] · [[Gaussian process]]
-- [[ME697 6.2 - Filtering and smoothing]]

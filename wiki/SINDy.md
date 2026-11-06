@@ -37,14 +37,15 @@ tags: [physics-informed, optimization, ml]
 
 ## Where it appears
 - Both SINDy papers above; also as the "parsimonious model discovery" branch of [[Physics-informed machine learning]] (alongside [[Symbolic regression]]).
-- ME 697 `inverse/data` replicates Brunton et al. (2016): fifth-degree polynomial library with `LassoCV` for 2D linear, 2D cubic and 3D linear systems (`02_sindy_1.ipynb`), and the Lorenz system with sequentially thresholded least squares, threshold 0.025, because `LassoCV` failed even after scaling (`03_sindy_2.ipynb`). The learned Lorenz trajectories diverge (chaos) but the attractor matches, also with noise $\eta=10$ on the derivatives. See [[ME697 4.7 - Data-driven modeling]] and [[LASSO]].
+- ME 697 `inverse/data` replicates Brunton et al. (2016): fifth-degree polynomial library with `LassoCV` for 2D linear, 2D cubic and 3D linear systems (`02_sindy_1.ipynb`), and the Lorenz system with sequentially thresholded least squares, threshold 0.025, because `LassoCV` failed even after scaling (`03_sindy_2.ipynb`). The learned Lorenz trajectories diverge (chaos) but the attractor matches, also with noise $\eta=10$ on the derivatives. See SINDy and [[LASSO]].
 
 ## Examples
 
 > [!example] Homework 7, problems 1-2 (source: homework/07_homework.ipynb)
 > Partially observed Lorenz: SINDy fails on the observed coordinate alone; build a Hankel matrix, take its SVD to three dimensions, run degree-5 SINDy on the principal components. Then SINDy on noisy data with derivatives from the `derivative` package.
 
-**Sources**: `Physics Informed Architectures/Brunton, Champion, Lusch, Kutz - SINDy - Data-Driven Discovery of Coordinates and Governing Equations.pdf`, `Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf`.
+**Covered in**: ASML book inverse/data (ME 697 4.7); homework 7
+**Sources**: `Physics Informed Architectures/Brunton, Champion, Lusch, Kutz - SINDy - Data-Driven Discovery of Coordinates and Governing Equations.pdf`, `Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf`, `advanced-scientific-machine-learning/book/inverse/data/intro.md`, `01_lasso.ipynb`, `02_sindy_1.ipynb`, `03_sindy_2.ipynb`, `04_nodes.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -2,7 +2,7 @@
 type: concept
 area: digital
 areas: [digital]
-source-ref: "ECE 270 lectures 08_31, 09_28, 10_05 (Wakerly ch. 9, 10)"
+source-ref: "ECE 270 lectures 08_31, 09_28, 10_03, 10_05, 10_17 (Wakerly ch. 9, 10)"
 tags: [digital-logic]
 ---
 
@@ -26,11 +26,9 @@ tags: [digital-logic]
 ## Timing
 - Setup and hold times must be met, or the flip-flop can go metastable. (source: 09_28(2).pdf, p. 8-9, 17-20)
 - Clock speed up to 4 GHz inside chips and 500 MHz between chips on a PCB. (source: 10_05.pdf, p. 8)
-- See [[Static timing and propagation delay]].
+- See [[Static timing and propagation delay]] and [[Timing diagram]].
 
-## Where it appears
-[[ECE270 week 02 08_31 - Boolean algebra and canonical forms]], [[ECE270 week 06 09_28 - Latches and flip-flops]], [[ECE270 week 07 10_03 - Counters and shift registers]], [[ECE270 week 07 10_05 - Finite state machines]].
-
+**Covered in**: ECE 270 08_31, 09_28, 10_03, 10_05, 10_17 (ECE 27000/week 02/08_31.pdf, week 06/09_28(2).pdf, week 07/10_03.pdf, week 07/10_05.pdf, week 09/10_17.pdf)
 **Sources**: `ECE 27000/week 02/08_31.pdf`, `ECE 27000/week 06/09_28(2).pdf`, `ECE 27000/week 07/10_03.pdf`, `ECE 27000/week 07/10_05.pdf`, `ECE 27000/week 09/10_17.pdf`.
 **Last updated**: 2026-11-06
 
@@ -42,4 +40,3 @@ tags: [digital-logic]
 - [[Finite state machine]]
 - [[Timing diagram]]
 - [[Static timing and propagation delay]]
-- [[ECE270 week 06 09_28 - Latches and flip-flops]]

@@ -35,12 +35,15 @@ Put a Jeffreys prior $p(\sigma)\propto1/\sigma$ on $\sigma$. With $\theta=\log\s
 
 ## Failure modes
 - Only captures one mode; multimodal or [[Identifiability|non-identifiable]] posteriors (flat ridges) give a singular or misleading Hessian.
-- Wiki note: the book's text gives the sign of the $x$-$\theta$ mixed derivative of the log posterior as $+2e^{-2\theta}\cdots$; for $L=\log p$ it is negative, and $+$ is correct for $-L$, which the code uses. See [[ME697 4.1 - Classical and Bayesian inverse problems]].
+- Wiki note: the book's text gives the sign of the $x$-$\theta$ mixed derivative of the log posterior as $+2e^{-2\theta}\cdots$; for $L=\log p$ it is negative, and $+$ is correct for $-L$, which the code uses. See [[Bayesian inverse problems]].
+- Wiki note, basics/05 code: `var_post_sigma` uses the fixed-noise covariance, not the noise-augmented one; it prints "variance" but computes a standard deviation; samples use `mu`, not `mu_noise`. The text says $x\in\mathbb R^5$ but the code vectors have 6 entries.
+- Wiki note, basics/04: the Jacobian definition repeats $\partial/\partial x_1$ at its end, the Taylor term has a typo `(x-x_{0j})`, and `find_minimum` overwrites `status`, so "converged" is never reported.
 
 ## Where it appears
-- [[ME697 4.1 - Classical and Bayesian inverse problems]]: derivation and catalysis example.
-- [[ME697 4.3 - Variational inference]]: the same problem solved by a full-rank Gaussian guide, a natural comparison.
+- [[Bayesian inverse problems]]: derivation and catalysis example.
+- [[Variational inference]]: the same problem solved by a full-rank Gaussian guide, a natural comparison.
 
+**Covered in**: ASML book inverse/basics (ME 697 4.1)
 **Sources**: `advanced-scientific-machine-learning/book/inverse/basics/04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`.
 **Last updated**: 2026-11-06
 

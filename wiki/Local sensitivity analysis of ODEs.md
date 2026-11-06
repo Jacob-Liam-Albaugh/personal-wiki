@@ -34,11 +34,16 @@ Solve the original IVP, then this linear one with the same solver.
 - The book calls the sensitivity ODE the "method of adjoints". It is the forward sensitivity equation. The adjoint method runs backward in time and is cheaper for many parameters and a scalar output.
 - Higher accuracy keeping nonlinearity: [[Polynomial chaos]].
 
-**Sources**: `advanced-scientific-machine-learning/book/up/sensitivity_analysis/01_theory.md`, `02_diff_ode.md`, `03_example_ode.ipynb`, `04_example_lorenz.ipynb`.
+> [!example] Homework 2, Duffing local sensitivity (source: homework/02_homework.ipynb)
+> Duffing oscillator with $\alpha=1$, $\beta=5$, $\gamma=8$, $\delta=0.02$, $\omega=0.5$ for the attractor. With $\theta\sim N(\mu,\Sigma)$, get credible intervals for $x(t)$, and a Gaussian-process view with covariance
+> $$\mathrm{Cov}[x(t),x(0)]=\nabla_\theta x(t)\,\Sigma\,\nabla_\theta x(0)^T$$
+
+**Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1); homework 2
+**Sources**: `advanced-scientific-machine-learning/book/up/sensitivity_analysis/01_theory.md`, `02_diff_ode.md`, `03_example_ode.ipynb`, `04_example_lorenz.ipynb`, `advanced-scientific-machine-learning/book/up/intro.md`, `up/sensitivity_analysis/00_intro.md`, `08_global_sensitivity_analysis.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
 - [[Sensitivity analysis]] · [[Sobol indices]] · [[Polynomial chaos]] · [[Gaussian process]]
-- [[Automatic differentiation]] · [[ME697 1.3 - Differentiation]] · [[ME697 2.1 - Sensitivity analysis]]
+- [[Automatic differentiation]]

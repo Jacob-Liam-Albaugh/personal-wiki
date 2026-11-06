@@ -18,7 +18,7 @@ tags: [software, optimization, ml]
 
 **General graphs**: a DAG of primitives becomes a chain using a fanout $x\mapsto(x,x)$ with Jacobian $[I;I]$. Example: $x^2+x$ is `add ∘ (sqr, id) ∘ fanout`.
 
-**Compared with** finite differences ($n+1$ evaluations, truncation vs round-off error) and symbolic differentiation (no loops or branches, expression swell); see [[ME697 1.3 - Differentiation]].
+**Compared with** finite differences ($n+1$ evaluations, truncation vs round-off error) and symbolic differentiation (no loops or branches, expression swell).
 
 **In JAX**
 ```
@@ -38,10 +38,20 @@ hessian  :: ([a] -> a)
 - PINN residuals need derivatives of the network output with respect to inputs, taken by AD ([[PINNs (Raissi 2019)]]; [[Physics-informed ML review (Karniadakis 2021)]], Box 3).
 - Neural ODE gradients use the adjoint method instead of backprop through the solver: [[Adjoint sensitivity method]], [[Neural ODEs (Chen 2018)]].
 
-**Sources**: `advanced-scientific-machine-learning/book/ml-software/differentiation/03_autodiff.ipynb`, `04_jax_grad.ipynb`, `types_and_models/03_haskell.md`.
+## Alternatives to autodiff (book, differentiation 01-02)
+- **Forward difference**:
+  $$f'(x)\approx\frac{f(x+h)-f(x)}{h}$$
+  Truncation error falls with $h$ and round-off error grows as $h\to0$, so a log-log error plot shows an optimal $h$. A gradient in $n$ dimensions costs $n+1$ evaluations.
+- **Symbolic** (sympy expression trees): cannot differentiate through loops or conditionals, and expressions swell; nested softplus $\log(1+e^{wx+b})$ grows quickly.
+
+> [!example] RBF regression with grad (04)
+> Generalized linear model on [[Random features model|RBF features]], squared loss. `grad(loss, argnums=0)` differentiates in the weights and `argnums=(0, 1, 2)` returns a tuple of gradients. A plain [[Gradient descent]] loop fits it.
+
+**Covered in**: ASML book ml-software/differentiation (ME 697 1.3)
+**Sources**: `advanced-scientific-machine-learning/book/ml-software/differentiation/03_autodiff.ipynb`, `04_jax_grad.ipynb`, `types_and_models/03_haskell.md`, `advanced-scientific-machine-learning/book/ml-software/differentiation/01_numerical.ipynb`, `02_symbolic.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 1.3 - Differentiation]] · [[ME697 1.2 - Types and pytrees]] · [[JIT compilation]]
+- [[Pytree]] · [[JIT compilation]]

@@ -44,13 +44,14 @@ As $t\to\infty$ the law tends to the stationary $N(\mu,\ \sigma^2/(2\lambda))$.
 - The stationary density solves the [[Fokker-Planck equation]]. The same drift with a potential $U$, $dX=-\nabla U\,dt+\sqrt2\,dW$, is [[Langevin dynamics]].
 - Contrast with [[Geometric Brownian motion]], whose noise scales with the state.
 
-**Wiki note**: the notebook's `estimate_sigma` has misplaced parentheses (see [[ME697 6.1 - Stochastic differential equations]]), and $\lambda$ is in rescaled time. The "AR(1)" and "exponential covariance" remarks are standard facts, not stated in the source **[unverified here]**.
+**Wiki note**: the notebook's `estimate_sigma` computes `sqrt((2*lam*var)/1 - exp(-2*lam*t))`; the intended formula is $\sqrt{2\lambda\,\mathrm{var}/(1-e^{-2\lambda t})}$. Also $\lambda$ is in rescaled time. The "AR(1)" and "exponential covariance" remarks are standard facts, not stated in the source **[unverified here]**.
 
+**Covered in**: ASML book sinverse/sodes (ME 697 6.1)
 **Sources**: `advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 6.1 - Stochastic differential equations]] · [[Stochastic differential equation]] · [[Geometric Brownian motion]] · [[Euler-Maruyama method]]
+- [[Stochastic differential equation]] · [[Geometric Brownian motion]] · [[Euler-Maruyama method]]
 - [[Brownian motion]] · [[Wiener process]] · [[Langevin dynamics]] · [[Fokker-Planck equation]] · [[Gaussian process]]

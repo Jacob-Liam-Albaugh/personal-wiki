@@ -37,6 +37,9 @@
   - `test_tools.py` is the self-check.
 - Ingest routine: write the pages, then run `python3 tools/authors.py` and `python3 tools/refs.py --n 2`. Download the wanted papers at the top of the list next.
 
+## Done (restructure)
+- Pages are organised by topic, not class. The 142 lecture pages were folded into topic pages and removed; homework sits on topic pages as `[!example]` callouts. See the 2026-11-06 restructure entry in `wiki/meta/log.md`.
+
 ## Open checks against the PDFs
 - Alberts & Bilionis 2023, eq. 22: the SGLD noise convention.
 - The PIFT Ex. 2 and Ex. 4 noise values.

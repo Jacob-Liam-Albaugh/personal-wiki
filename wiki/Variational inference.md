@@ -33,17 +33,20 @@ tags: [bayesian, vi]
 - [[Amortized VI when and why (Margossian 2024)]]: when amortized matches factorized.
 - [[VAE paper (Kingma 2014)]] · [[Variational dropout (Kingma 2015)]] · [[Intro to VAEs (Kingma 2019)]] (variational EM, App. A).
 - [[SDE-BNN (Xu 2022)]] (path-space VI) · [[Bayesian DenseED surrogate (Zhu 2018)]] (SVGD as VI).
-- Sparse variational GPs for large-data surrogates: [[Surrogate model]], [[ME697 2.3 - Surrogates]].
-- Book chapter on guide families (diagonal, low-rank, full-rank Cholesky, transformed, Gamma/Beta, composite), KL non-negativity by Jensen, ELBO derivation and reparameterized gradients: [[ME697 4.3 - Variational inference]]. (source: `inverse/vi/01_basics.md`)
-- Full-rank Gaussian guide on [[Catalysis problem]] with 27 parameters. (source: `inverse/vi/02_catalysis.ipynb`)
+- Sparse variational GPs for large-data surrogates: [[Surrogate model]].
+- Book chapter on guide families (diagonal, low-rank, full-rank Cholesky, transformed, Gamma/Beta, composite), KL non-negativity by Jensen, ELBO derivation and reparameterized gradients. (source: `inverse/vi/01_basics.md`)
+- Full-rank Gaussian guide on [[Catalysis problem]] with 27 parameters, fitted with minibatch ELBO estimates and compared with the [[Laplace approximation]] result. (source: `inverse/vi/02_catalysis.ipynb`)
 - Wiki note: the book's low-rank covariance $\sum_{i\le k}e^{\lambda_i}u_iu_i^T$ with $k<d$ is singular, so it has no density unless a diagonal term is added. (source: `inverse/vi/01_basics.md`)
+- Wiki note, vi/01: "Example 1 ... univariate Gaussian" shows a multivariate Gaussian, and "Example 2 multivariate" shows the transformed guide (titles swapped).
+- Wiki note, vi/02: the text says $\lambda=1/0.1$ but the code uses `lambda_=1/0.005`; the text says $\mu_\phi\in\mathbb R_+^5$ although it is six real numbers; `k_transformation` is defined but `T` uses `exp(gamma*x)`; the text's $\tilde k=180k/500$ is only a time rescaling for a linear system.
 
 ## Examples
 
 > [!example] Homework 6, problems 2-3 (source: homework/06_homework.ipynb)
 > Rank-$k$ covariance parameterization is positive semi-definite, multi-point convexity, Jensen's inequality. Then mean-field and full-rank Gaussian VI for the acetaminophen model.
 
-**Sources**: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`.
+**Covered in**: ASML book inverse/vi (ME 697 4.3); homework 6
+**Sources**: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, `advanced-scientific-machine-learning/book/inverse/vi/intro.md`, `01_basics.md`, `02_catalysis.ipynb`, `03_3d_reconstruction.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -48,7 +48,7 @@ For Lipschitz or $C^r$ operators, a ReLU DeepONet needs size $\ge\exp(c\,\vareps
 - [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]], [[FNO (Li 2021)]] (its low-rank baseline is "similar to unstacked DeepONet").
 - [[Markovian homogenized viscoelasticity (Bhattacharya 2023)]] — the recurrent model there is set against DeepONet-style operator learning.
 - [[Physics-informed ML review (Karniadakis 2021)]] — PINN-trained DeepONet for real-time prediction (p. 7-8).
-- Assigned reading and JAX tutorial link in [[ME697 3.2 - Operator learning]] (source: `hup/op/01_reading.md`, `02_deeponet.ipynb`). The notebook is a stub.
+- Assigned reading and JAX tutorial link in [[Operator learning]] (source: `hup/op/01_reading.md`, `02_deeponet.ipynb`). The notebook is a stub.
 
 **Sources**: `26.10.22 - DeepONets.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06

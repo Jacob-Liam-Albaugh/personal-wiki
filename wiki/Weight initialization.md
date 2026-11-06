@@ -32,11 +32,12 @@ tags: [optimization, ml]
 - SIREN uses its own init U(-sqrt(6/n), sqrt(6/n)) with omega0=30 (source: Sitzmann 2020, §3.2). See [[SIREN]].
 - [[Glorot init (Glorot 2010)]].
 
+**Covered in**: ASML book ml-software/optimization (ME 697 1.4)
 **Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/08_initialization.ipynb`, `01_optimization_problems.md`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 1.4 - Optimization]] · [[Gradient descent]] · [[Adam]]
+- [[Gradient descent]] · [[Adam]]
 - Initialization scale for attention and state space models: [[Attention is all you need (Vaswani 2017)]], [[Mamba (Gu 2023)]].

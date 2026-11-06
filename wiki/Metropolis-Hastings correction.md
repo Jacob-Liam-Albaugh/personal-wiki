@@ -23,9 +23,10 @@ tags: [sampling, mcmc]
 > Prove the Metropolis-Hastings kernel satisfies detailed balance. [[Particle MCMC]] reuses the same acceptance rule with an estimated likelihood.
 
 ## Where it appears
-- Random-walk Metropolis-Hastings with a Gaussian proposal run with `blackjax.rmh` on a banana density, with burn-in, thinning and split R-hat: [[Markov chain Monte Carlo]], [[ME697 4.2 - Sampling posteriors]]. (source: `inverse/sampling/02_mcmc_blackjax.ipynb`)
+- Random-walk Metropolis-Hastings with a Gaussian proposal run with `blackjax.rmh` on a banana density, with burn-in, thinning and split R-hat: [[Markov chain Monte Carlo]]. (source: `inverse/sampling/02_mcmc_blackjax.ipynb`)
 - The same accept/reject step ends each [[Hamiltonian Monte Carlo]] trajectory. **[unverified]** in the notebook text.
 
+**Covered in**: ASML book inverse/sampling (ME 697 4.2); homework 6
 **Sources**: `IFT/Ruqi Zhang - AMAGOLD.pdf`, `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 

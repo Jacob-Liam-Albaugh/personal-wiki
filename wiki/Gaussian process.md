@@ -40,13 +40,13 @@ Hyperparameters fit by maximising the marginal likelihood (eq. 35).
 - [[Neural tangent kernel]] — infinite-width networks behave as kernel regression.
 - [[Wiener process]] is the GP with kernel $s\wedge t$; KL expansion samples GPs ([[Karhunen-Loève expansion]], [[Mercer's theorem]]).
 - First-order propagation of Gaussian parameter uncertainty through an ODE gives a vector-valued GP with covariance $\nabla_\theta x\,\Sigma\,\nabla_\theta x^T$: [[Local sensitivity analysis of ODEs]] (source: `up/sensitivity_analysis/01_theory.md`).
-- GP surrogates, exact versus sparse variational: [[Surrogate model]], [[ME697 2.3 - Surrogates]].
-- Multi-fidelity GPs (Kennedy-O'Hagan and nonlinear): [[Multi-fidelity modeling]], [[ME697 2.4 - Multi-fidelity modeling]].
+- GP surrogates, exact versus sparse variational: [[Surrogate model]].
+- Multi-fidelity GPs (Kennedy-O'Hagan and nonlinear): [[Multi-fidelity modeling]].
 - GP with uncertainty sampling for active learning: [[Active learning]].
-- GP as random-field input to a PDE, expanded by KLE: [[ME697 3.1 - Functional inputs]].
+- GP as random-field input to a PDE, expanded by KLE: [[Karhunen-Loève expansion]].
 
 ## Related pages
 - [[Random features model]] (kernel link, Kovachki et al. 2024 p. 11) · [[Bayesian neural networks]] · [[Information field theory]]
 - Fourier-feature networks in the NTK regime behave like kernel regression with a stationary kernel set by B (Tancik 2020). Link [[Fourier features]].
 - [[Kernel methods]], [[RKHS]], [[Kernel composition]], [[Multi-fidelity Gaussian process]].
-- Field-valued unknowns in the planned PDE inverse problems (empty in the book): [[ME697 4.6 - PDE inverse problems]].
+- Field-valued unknowns in the planned PDE inverse problems (empty in the book): [[Bayesian inverse problems]].

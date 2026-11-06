@@ -31,11 +31,26 @@ tags: [signals]
 
 (source: Topic DSP.3.C, p. 10; Python examples, pp. 1-2)
 
+## Seam picture and Python example
+> [!definition] Why leakage appears
+> For $N=6$ and $\omega_x=\pi/2$ the samples are $1,j,-1,-j,1,j$, whose periodic extension repeats $1,j$ at the seam: a little hiccup in the smooth sinusoid, whose frequency content must show up in the spectrum. The DFT implicitly assumes an $N$-periodic input, so any record that is not a whole number of periods has such a seam.
+>
+> (source: Topic DSP.3.C, pp. 6-8)
+
+The DTFT of a product is the periodic convolution $\frac1{2\pi}\int_{2\pi}X_1(e^{j\theta})X_2(e^{j(\omega-\theta)})d\theta$. For $x=e^{j\omega_xn}$ the spectrum is $X=\pi\delta(\omega-\omega_x)$ (period $2\pi$), which with the window gives $\tilde X=\tfrac12W(e^{j(\omega-\omega_x)})$ above: a shifted copy of the window's DTFT, not a clean spike (source: Topic DSP.3.C, pp. 8-9).
+
+Python example (source: Topic DSP.3.C Python Examples Spectral Leakage Feb 6, 2025.pdf, pp. 1-2): the test signal has period 14 but is observed over 64 samples, not a whole number of periods.
+- $N=64$: two broad peaks with skirts, which demonstrates leakage.
+- $N=128$ (zero padding): more spectral samples, with ripples around the peaks.
+- $N=1024$: more structure of the sampled DTFT appears, the sidelobes of the window's DTFT.
+- A plot of the periodic extension repeats the 64-sample block and shows a kink at each seam.
+Zero padding therefore reveals the leakage rather than fixing it; there are ways to accommodate it by choosing other windows.
+
+**Covered in**: ECE 438 DSP.3.C (Topic DSP.3.C more on DFT; Topic DSP.3.C Python Examples Spectral Leakage)
 **Sources**: `Digital Signal Processing/Topic DSP.3.C more on DFT Feb 2, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.C Python Examples Spectral Leakage Feb 6, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ECE438 DSP.3.C - More on DFT]] · [[ECE438 DSP.3.C - Spectral leakage Python examples]]
 - [[DFT]] · [[DTFT]] · [[FFT]] · [[Fourier transform]] · [[Convolution]] · [[Aliasing]]

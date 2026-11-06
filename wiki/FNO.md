@@ -42,7 +42,7 @@ The JMLR Burgers numbers are about 8× lower than the ICLR ones. The JMLR run dr
 - [[Neural operator (Kovachki 2022)]]: one of four [[Neural operator]] parametrizations, the best in nearly all tests.
 - [[LNO (Cao 2023)]]: the 4-layer baseline that LNO beats with one Laplace layer.
 - [[Operator learning review (Kovachki 2024)]]: a nonlinear-manifold architecture.
-- Assigned reading and Burgers JAX tutorial link in [[ME697 3.2 - Operator learning]] (source: `hup/op/01_reading.md`, `03_fno.ipynb`). Translation-equivariant convolution in Fourier space, compared with group symmetries in [[ME697 2.6 - Symmetries]].
+- Assigned reading and Burgers JAX tutorial link in [[Operator learning]] (source: `hup/op/01_reading.md`, `03_fno.ipynb`). Translation-equivariant convolution in Fourier space, compared with group symmetries in [[Equivariance]].
 
 **Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
 **Last updated**: 2026-11-06

@@ -24,7 +24,7 @@ tags: [operators, ml]
 ## Where it appears
 - [[Operator learning review (Kovachki 2024)]].
 - "PCANN" is a baseline in [[FNO (Li 2021)]] Table 3 (Burgers, 0.038-0.040).
-- The PCA used for output reduction in [[Principal component analysis]] and [[ME697 3.1 - Functional inputs]] is the finite-dimensional version of its encoder.
+- The PCA used for output reduction in [[Principal component analysis]] and [[Karhunen-Loève expansion]] is the finite-dimensional version of its encoder.
 
 **Sources**: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06

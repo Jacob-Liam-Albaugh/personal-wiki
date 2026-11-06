@@ -10,6 +10,7 @@ tags: [inverse-problems, bayesian, vi, uq]
 
 **Summary**: The running inverse problem of Part 4: infer five rate constants (and the noise level) of a six-species linear reaction network from noisy concentrations. It is solved classically, by [[Laplace approximation]], and by [[Variational inference]].
 
+**Covered in**: ASML book inverse/basics (ME 697 4.1)
 **Sources**: `advanced-scientific-machine-learning/book/inverse/basics/02_classic_example.ipynb`, `05_laplace_example.ipynb`, `vi/02_catalysis.ipynb`.
 **Last updated**: 2026-11-06
 
@@ -27,12 +28,12 @@ $$x_i=\log(180\,k_i).$$
 Five species are measured at six times $t_j=30j$ minutes. The data vector is $y=\mathrm{vec}(Y)\in\mathbb R^{30}$.
 
 ## Three solutions
-- **Classical**: Adam, learning rate 0.1, 100 iterations, loss scaled by 500, diffrax Tsit5 (basics/02). See [[ME697 4.1 - Classical and Bayesian inverse problems]].
+- **Classical**: Adam, learning rate 0.1, 100 iterations, loss scaled by 500, diffrax Tsit5 (basics/02). See [[Bayesian inverse problems]].
 - **Laplace**: $\sigma=5$, $\gamma=10$, 300 Adam iterations; Hessian by finite differences (basics/05).
-- **VI**: all unknowns mapped to standard-normal $x\in\mathbb R^6$ (rates lognormal with $\gamma=2$, noise variance exponential), a full-rank Gaussian guide with 27 parameters, Adam $5\cdot10^{-2}$, batch 5, 3000 steps (vi/02). See [[ME697 4.3 - Variational inference]].
+- **VI**: all unknowns mapped to standard-normal $x\in\mathbb R^6$ (rates lognormal with $\gamma=2$, noise variance exponential), a full-rank Gaussian guide with 27 parameters, Adam $5\cdot10^{-2}$, batch 5, 3000 steps (vi/02). See [[Variational inference]].
 
 Wiki note: the vectors in the code have six entries while the text says five rates; the sixth is the noise parameter in the VI notebook and a prior-only entry in the Laplace one.
 
 ## Related pages
 - [[Bayesian inverse problems]] · [[ELBO]] · [[Surrogate model]]
-- [[ME697 4.5 - ODE inverse problems]]
+- [[Identifiability]]

@@ -10,9 +10,17 @@ tags: [operators, ml]
 
 ## Where it appears
 - [[NIF (Pan 2023)]] — parametric neural fields with a shared ParameterNet and ShapeNet (see [[Neural implicit flow]]); [[Physics-informed ML review (Karniadakis 2021)]] names operator regression for the big-data, unknown-physics regime (Box 1).
-- Functional inputs and outputs as operators, and dimension reduction (KLE in, PCA out) as the alternative to learning the map: [[ME697 3.1 - Functional inputs]], [[ME697 3.2 - Operator learning]].
+- Functional inputs and outputs as operators, and dimension reduction (KLE in, PCA out) as the alternative to learning the map: [[Karhunen-Loève expansion]], [[Principal component analysis]].
 
-**Sources**: `26.10.22 - DeepONets.pdf`, `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
+> [!definition] Solver as operator (book, hup/funcin/01)
+> For $-\nabla\cdot(a\nabla u)=f$ in $\Omega$ with $u=g$ on $\partial\Omega$, the solver is a map between function spaces
+> $$S:\mathcal A\times\mathcal F\times\mathcal G\to\mathcal U,\qquad (a,f,g)\mapsto u$$
+> Maps with functional inputs and outputs are operators. Surrogates, [[Polynomial chaos]] and GPs trained on the discretized input suffer the curse of dimensionality; the remedies are to reduce input dimension ([[Karhunen-Loève expansion]] in, [[Principal component analysis]] out) or to learn the operator directly.
+
+The book's operator-learning chapter (hup/op) is a reading list: [[DeepONet (Lu 2021)]] and [[FNO (Li 2021)]], plus two external JAX tutorials by Ceyron (`simple_deepOnet_in_JAX`, antiderivative operator; `simple_FNO_in_JAX`, 1D Burgers), whose notebooks here are stubs. Citation note: the book cites the FNO paper as the 2020 arXiv preprint (arXiv:2010.08895), the wiki page the 2021 version.
+
+**Covered in**: ASML book hup/op (ME 697 3.2)
+**Sources**: `26.10.22 - DeepONets.pdf`, `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, `advanced-scientific-machine-learning/book/hup/op/intro.md`, `01_reading.md`, `02_deeponet.ipynb`, `03_fno.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

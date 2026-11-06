@@ -40,4 +40,4 @@ $$H=\tfrac d2\log(2\pi e)+\mathbb E\log|\det\partial G/\partial Z_0|.$$
 
 ## Related pages
 - [[Amortized VI]] · [[Flow matching]] · [[Diffusion models]]
-- The book's guide families (diagonal, full-rank, transformed Gaussians) are the non-flow baseline that flows extend: [[ME697 4.3 - Variational inference]]. (source: `inverse/vi/01_basics.md`) Wiki note: the book does not mention flows in Part 4 sources read.
+- The book's guide families (diagonal, full-rank, transformed Gaussians) are the non-flow baseline that flows extend: [[Variational inference]]. (source: `inverse/vi/01_basics.md`) Wiki note: the book does not mention flows in Part 4 sources read.

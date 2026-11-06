@@ -31,14 +31,15 @@ Then $\log p(w_j)=-|w_j|/b+\text{const}$, and with a Gaussian likelihood the L1 
 > Data from $0.2x+0.3x^2+0.4x^3$, noise 0.01, 100 points; 20 features (monomials $x^0..x^9$, $\sin(2\pi ix)$ for $i=0..9$). `LassoCV` is compared with Ridge using cross-validated strength; the book reports that LASSO is sparser (source: data/01).
 
 ## Where it appears
-- [[ME697 4.7 - Data-driven modeling]]: fitted per state in [[SINDy]] with `LassoCV`; on the Lorenz system `LassoCV` failed and sequentially thresholded least squares was used instead.
+- Fitted per state in [[SINDy]] with `LassoCV`; on the Lorenz system `LassoCV` failed and sequentially thresholded least squares was used instead.
 
+**Covered in**: ASML book inverse/data (ME 697 4.7)
 **Sources**: `advanced-scientific-machine-learning/book/inverse/data/01_lasso.ipynb`, `02_sindy_1.ipynb`, `03_sindy_2.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[Gradient descent]] · [[ME697 1.4 - Optimization]] · [[Weight initialization]]
+- [[Gradient descent]] · [[Weight initialization]]
 - [[SINDy]] · [[Neural ODE]]
 - The absolute-value trick turning $\min\sum c_i|x_i|$ into an LP is the LP form of $\ell_1$ penalties: [[BT ch1 - Introduction]] (p. 18, 1.3), [[Linear programming]].

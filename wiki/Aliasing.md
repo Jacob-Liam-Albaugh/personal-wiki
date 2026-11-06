@@ -22,11 +22,24 @@ tags: [signals]
 ## 2D
 Downsampling an image by 3 tiles the spectrum $3\times3$; the replicas pile onto the central piece. Unfiltered downsampling shows aliasing energy on an extension of the main lobe; a hard ideal filter rings, so a non-ideal filter is better. Moral: always filter before downsampling (IP.2 aliasing, pp. 3-11).
 
-**Sources**: `Digital Signal Processing/Topic DSP.4.A Sampling CT.pdf`, `Digital Signal Processing/Topic DSP.4.B Sampling DT.pdf`, `Digital Signal Processing/Topic IP.2 aliasing-ece438-250328-share.pdf`.
+### Recap and display recipe for images
+Sampling a 1D signal too infrequently gives aliasing; it is eliminated if an ideal low-pass filter is applied first, and a non-ideal low-pass removes much of the high-frequency content and is far better than no filtering before downsampling. Pictures taken off the web (real-estate photos, a brick wall) show aliasing from poor resizing; the slides follow Reibman and Suthaharan (2008), a no-reference spatial aliasing measure for image resizing (source: Topic IP.2 aliasing slides, pp. 1-3).
+
+> [!algorithm] How the spectrum is displayed
+> Apply a Blackman window to a patch, take the 2D FFT, plot $\log|F(u,v)|$. Energy in the Fourier domain lies perpendicular to the image edges, but location is lost.
+>
+> (source: Topic IP.2 aliasing slides, p. 3)
+
+> [!example] Downsampling by 3 and filtered versus unfiltered
+> After downsampling by 3, the centre piece of the $3\times3$ tiling of the spectrum is the main component (the core); the other pieces pile on top of each other and add, and the actual spectrum of the downsampled patch shows this overlap (pp. 5-7). Comparing an ideally filtered with an unfiltered downsample, the aliasing energy lies clearly on an extension of the main lobe. The hard ideal filter causes ringing, used here only for illustration (pp. 7-9).
+
+Lecture-27 note: aliasing of a sampled image is the same replica overlap in the 2D transform, using the bed-of-nails sampling model on [[Fourier transform]]. For the reconstruction side see [[Image interpolation]].
+
+**Covered in**: ECE 438 IP.2 Aliasing (Topic IP.2 aliasing slides), DSP.4.A/B aliasing parts, L17, L26-L27 (aliasing in images)
+**Sources**: `Digital Signal Processing/Topic DSP.4.A Sampling CT.pdf`, `Digital Signal Processing/Topic DSP.4.B Sampling DT.pdf`, `Digital Signal Processing/Topic IP.2 aliasing-ece438-250328-share.pdf`, `Digital Signal Processing/front page/L17 Feb 24, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ECE438 DSP.4.A - Sampling CT]] · [[ECE438 DSP.4.B - Sampling DT]] · [[ECE438 IP.2 - Aliasing]] · [[ECE438 L17 - Anti-aliasing prefilter and non-ideal interpolation]] · [[ECE438 L26 - Continuous-space FT and aliasing in images]]
-- [[Sampling theorem]] · [[Digital filter]] · [[Fourier transform]] · [[DTFT]] · [[Spatial filtering]]
+- [[Sampling theorem]] · [[Digital filter]] · [[Fourier transform]] · [[DTFT]] · [[Spatial filtering]] · [[Image interpolation]]

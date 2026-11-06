@@ -25,7 +25,8 @@ Combined: $\nabla^2V=-\rho_v/\varepsilon$ ([[Poisson and Laplace equations]]).
 ## Wiki note
 Time-varying extension: [[Maxwell's equations]]. Magnetic counterpart: [[Magnetostatics]].
 
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott), [[ECE311 lect_4 - Coulomb's law]], [[ECE311 lect_5 - Gauss' law and divergence theorem]], [[ECE311 lect_6 - Applications of Gauss' law]], [[ECE311 lect_7 - Electric potential and Stokes' theorem]], [[ECE311 lect_8 - Electric potential and dipole]], [[ECE311 lect_9 - Materials and conductor boundary conditions]], [[ECE311 lect_10 - Displacement field and boundary conditions]], [[ECE311 lect_11 - Electrostatic energy and forces]], [[ECE311 lect_12 - Poisson and Laplace equations]], [[ECE311 lect_14 - Capacitance and method of images]]. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_4-lect_12, lect_14 (Electromagnetics/Lectures Slides/lect_4.pdf to lect_14.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_4.pdf` to `lect_12.pdf` and `lect_14.pdf`; order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---
@@ -35,13 +36,3 @@ Time-varying extension: [[Maxwell's equations]]. Magnetic counterpart: [[Magneto
 - [[Magnetostatics]]
 - [[Vector calculus for EM]]
 - [[PINN]]
-- [[ECE311 lect_4 - Coulomb's law]]
-- [[ECE311 lect_5 - Gauss' law and divergence theorem]]
-- [[ECE311 lect_6 - Applications of Gauss' law]]
-- [[ECE311 lect_7 - Electric potential and Stokes' theorem]]
-- [[ECE311 lect_8 - Electric potential and dipole]]
-- [[ECE311 lect_9 - Materials and conductor boundary conditions]]
-- [[ECE311 lect_10 - Displacement field and boundary conditions]]
-- [[ECE311 lect_11 - Electrostatic energy and forces]]
-- [[ECE311 lect_12 - Poisson and Laplace equations]]
-- [[ECE311 lect_14 - Capacitance and method of images]]

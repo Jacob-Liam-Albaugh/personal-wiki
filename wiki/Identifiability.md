@@ -10,7 +10,8 @@ tags: [inverse-problems, bayesian, uq, mcmc]
 
 **Summary**: Parameters are identifiable when the data determine them uniquely (for infinite data). If only a combination is determined, the likelihood is flat along other directions and the posterior is a ridge governed by the prior.
 
-**Sources**: `advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`, `hbayes/04_amortized_vi.ipynb`.
+**Covered in**: ASML book inverse/odes (ME 697 4.5)
+**Sources**: `advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`, `hbayes/04_amortized_vi.ipynb`, `advanced-scientific-machine-learning/book/inverse/odes/intro.md`, `01_basics.md`, `03_dyn_system_multiple_traj.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
@@ -28,7 +29,7 @@ Truth $m=k=1.5$, noise $0.05$, 50 observations. Priors $m\sim U(1,2)$, $k\sim U(
 Wiki note: the book writes $m\ddot x=kx$, whose solutions are exponentials, not cosines; the sign is a typo.
 
 ## Inverse kinematics (source: hbayes/04)
-The text discusses non-identifiability of the joint angles given the end position, mode seeking by VI, and the variational versus amortization gap. Wiki note: a redundant arm generally has several joint configurations for one end position, so the posterior can be multimodal. **[unverified]**
+The setup is a 4-DOF arm (slider height plus three joint angles, link lengths $(0.5,0.5,1.0)$, noise variance $10^{-4}$) with prior $\mathcal N(0,\mathrm{diag}(1/16,1/4,1/4,1/4))$. The guide is $q_\phi(\xi|y)=\mathcal N(\mu_\phi(y),L_\phi L_\phi^T)$ with three MLPs (2-20-10-out, relu; diagonal by softplus plus $10^{-6}$), trained on noisy prior samples with [[Adam]] (learning rate 0.01, times 0.1 at step 5000, 10000 steps, 5 particles, batch 30). The text discusses non-identifiability of the joint angles given the end position, mode seeking by VI, and the variational versus amortization gap; see [[Amortized VI]]. Wiki note: a redundant arm generally has several joint configurations for one end position, so the posterior can be multimodal. **[unverified]**
 
 ## Consequences
 - Sampling: slow mixing, large ESS loss; see [[NUTS]].
@@ -37,5 +38,5 @@ The text discusses non-identifiability of the joint angles given the end positio
 - Check by plotting the pairwise posterior, or reparameterize in the identifiable combination.
 
 ## Related pages
-- [[Bayesian inverse problems]] · [[ME697 4.5 - ODE inverse problems]] · [[ME697 4.4 - Hierarchical Bayes]]
-- [[Sensitivity analysis]] · [[Hierarchical Bayesian model]]
+- [[Bayesian inverse problems]] · [[Hierarchical Bayesian model]]
+- [[Sensitivity analysis]]

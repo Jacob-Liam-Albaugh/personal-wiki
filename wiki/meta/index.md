@@ -335,7 +335,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Wasserstein distance]] | definition | Wasserstein-2 distance |
 | [[Wavelet transform]] | concept | Wavelet transform |
 
-## ME 697 course (Advanced SciML)
+## Scientific ML (ASML book)
 
 | Page | Type | Title |
 |---|---|---|
@@ -347,37 +347,6 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[JIT compilation]] | definition | JIT compilation |
 | [[Latin hypercube sampling]] | method | Latin hypercube sampling |
 | [[Local sensitivity analysis of ODEs]] | method | Local sensitivity analysis of ODEs |
-| [[ME697 1.1 - Functional programming in JAX]] | lecture | ME697 1.1 - Functional programming in JAX |
-| [[ME697 1.2 - Types and pytrees]] | lecture | ME697 1.2 - Types and pytrees |
-| [[ME697 1.3 - Differentiation]] | lecture | ME697 1.3 - Differentiation |
-| [[ME697 1.4 - Optimization]] | lecture | ME697 1.4 - Optimization |
-| [[ME697 2.1 - Sensitivity analysis]] | lecture | ME697 2.1 - Sensitivity analysis |
-| [[ME697 2.2 - Polynomial chaos]] | lecture | ME697 2.2 - Polynomial chaos |
-| [[ME697 2.3 - Surrogates]] | lecture | ME697 2.3 - Surrogates |
-| [[ME697 2.4 - Multi-fidelity modeling]] | lecture | ME697 2.4 - Multi-fidelity modeling |
-| [[ME697 2.5 - Active learning]] | lecture | ME697 2.5 - Active learning |
-| [[ME697 2.6 - Symmetries]] | lecture | ME697 2.6 - Symmetries |
-| [[ME697 3.1 - Functional inputs]] | lecture | ME697 3.1 - Functional inputs |
-| [[ME697 3.2 - Operator learning]] | lecture | ME697 3.2 - Operator learning |
-| [[ME697 4.1 - Classical and Bayesian inverse problems]] | lecture | ME697 4.1 - Classical and Bayesian inverse problems |
-| [[ME697 4.2 - Sampling posteriors]] | lecture | ME697 4.2 - Sampling posteriors |
-| [[ME697 4.3 - Variational inference]] | lecture | ME697 4.3 - Variational inference |
-| [[ME697 4.4 - Hierarchical Bayes]] | lecture | ME697 4.4 - Hierarchical Bayes |
-| [[ME697 4.5 - ODE inverse problems]] | lecture | ME697 4.5 - ODE inverse problems |
-| [[ME697 4.6 - PDE inverse problems]] | lecture | ME697 4.6 - PDE inverse problems |
-| [[ME697 4.7 - Data-driven modeling]] | lecture | ME697 4.7 - Data-driven modeling |
-| [[ME697 5.1 - PINN basics]] | lecture | ME697 5.1 - PINN basics |
-| [[ME697 5.2 - Parametric PINNs]] | lecture | ME697 5.2 - Parametric PINNs |
-| [[ME697 5.3 - PINNs for inverse problems]] | lecture | ME697 5.3 - PINNs for inverse problems |
-| [[ME697 6.1 - Stochastic differential equations]] | lecture | ME697 6.1 - Stochastic differential equations |
-| [[ME697 6.2 - Filtering and smoothing]] | lecture | ME697 6.2 - Filtering and smoothing |
-| [[ME697 6.3 - Calibration of stochastic models]] | lecture | ME697 6.3 - Calibration of stochastic models |
-| [[ME697 7 - Homework]] | lecture | ME697 7 - Homework |
-| [[ME697 DMD - Dynamic mode decomposition]] | lecture | ME697 DMD - Dynamic mode decomposition |
-| [[ME697 IFT.1 - Parameter calibration with PIFT]] | lecture | ME697 IFT.1 - Parameter calibration with PIFT |
-| [[ME697 IFT.2 - Bayesian inference over fields]] | lecture | ME697 IFT.2 - Bayesian inference over fields |
-| [[ME697 IFT.3 - Physics-informed information field theory]] | lecture | ME697 IFT.3 - Physics-informed information field theory |
-| [[ME697 ROM - SVD, PCA and POD]] | lecture | ME697 ROM - SVD, PCA and POD |
 | [[Multi-fidelity modeling]] | concept | Multi-fidelity modeling |
 | [[Non-dimensionalization]] | method | Non-dimensionalization |
 | [[Parametric PINN]] | method | Parametric PINN |
@@ -391,7 +360,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Surrogate model]] | concept | Surrogate model |
 | [[vmap]] | definition | vmap |
 
-## ECE 438 DSP
+## Signal and image processing
 
 | Page | Type | Title |
 |---|---|---|
@@ -400,61 +369,14 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[DFT]] | definition | DFT |
 | [[DTFT]] | definition | DTFT |
 | [[Digital filter]] | concept | Digital filter |
+| [[Digital image]] | concept | Digital image |
 | [[Discrete-time signal]] | definition | Discrete-time signal |
-| [[ECE438 301R 2.1 - Power and energy]] | lecture | ECE438 301R 2.1 - Power and energy |
-| [[ECE438 301R 2.2 - Time transformations]] | lecture | ECE438 301R 2.2 - Time transformations |
-| [[ECE438 301R 2.3 - Period of a signal]] | lecture | ECE438 301R 2.3 - Period of a signal |
-| [[ECE438 DSP.1 - DT signals]] | lecture | ECE438 DSP.1 - DT signals |
-| [[ECE438 DSP.2 - DT systems]] | lecture | ECE438 DSP.2 - DT systems |
-| [[ECE438 DSP.3.A - DT frequency analysis 1]] | lecture | ECE438 DSP.3.A - DT frequency analysis 1 |
-| [[ECE438 DSP.3.B - DT frequency analysis 2]] | lecture | ECE438 DSP.3.B - DT frequency analysis 2 |
-| [[ECE438 DSP.3.C - More on DFT]] | lecture | ECE438 DSP.3.C - More on DFT |
-| [[ECE438 DSP.3.C - Spectral leakage Python examples]] | lecture | ECE438 DSP.3.C - Spectral leakage Python examples |
-| [[ECE438 DSP.3.D - Convolution with DFT]] | lecture | ECE438 DSP.3.D - Convolution with DFT |
-| [[ECE438 DSP.3.E - FFT]] | lecture | ECE438 DSP.3.E - FFT |
-| [[ECE438 DSP.4.A - Sampling CT]] | lecture | ECE438 DSP.4.A - Sampling CT |
-| [[ECE438 DSP.4.B - Sampling DT]] | lecture | ECE438 DSP.4.B - Sampling DT |
-| [[ECE438 DSP.5 - Quantization]] | lecture | ECE438 DSP.5 - Quantization |
-| [[ECE438 DSP.6 - z-transforms]] | lecture | ECE438 DSP.6 - z-transforms |
-| [[ECE438 IP.1 - Image processing overview]] | lecture | ECE438 IP.1 - Image processing overview |
-| [[ECE438 IP.2 - Aliasing]] | lecture | ECE438 IP.2 - Aliasing |
-| [[ECE438 IP.2 - Sampling, quantization, interpolation]] | lecture | ECE438 IP.2 - Sampling, quantization, interpolation |
-| [[ECE438 IP.3 - Continuous-space FT]] | lecture | ECE438 IP.3 - Continuous-space FT |
-| [[ECE438 IP.4.A - Histograms]] | lecture | ECE438 IP.4.A - Histograms |
-| [[ECE438 IP.4.B - Spatial filtering]] | lecture | ECE438 IP.4.B - Spatial filtering |
-| [[ECE438 IP.5 - Image transforms and wavelets]] | lecture | ECE438 IP.5 - Image transforms and wavelets |
-| [[ECE438 IP.6 - Image compression]] | lecture | ECE438 IP.6 - Image compression |
-| [[ECE438 IP.7 - Multiresolution image processing]] | lecture | ECE438 IP.7 - Multiresolution image processing |
-| [[ECE438 L15 - Sampling a CT signal]] | lecture | ECE438 L15 - Sampling a CT signal |
-| [[ECE438 L16 - Impulse-train sampling in the frequency domain]] | lecture | ECE438 L16 - Impulse-train sampling in the frequency domain |
-| [[ECE438 L17 - Anti-aliasing prefilter and non-ideal interpolation]] | lecture | ECE438 L17 - Anti-aliasing prefilter and non-ideal interpolation |
-| [[ECE438 L18 - DT interpolation, decimation and quantization]] | lecture | ECE438 L18 - DT interpolation, decimation and quantization |
-| [[ECE438 L19 - Quantization]] | lecture | ECE438 L19 - Quantization |
-| [[ECE438 L20 - Optimal quantization and the z-transform]] | lecture | ECE438 L20 - Optimal quantization and the z-transform |
-| [[ECE438 L21 - z-transform and optimal quantizer recap]] | lecture | ECE438 L21 - z-transform and optimal quantizer recap |
-| [[ECE438 L22 - More z-transform and exam 2 topics]] | lecture | ECE438 L22 - More z-transform and exam 2 topics |
-| [[ECE438 L23 - System stability, causality and eigenfunctions]] | lecture | ECE438 L23 - System stability, causality and eigenfunctions |
-| [[ECE438 L24 - Digital image processing begins]] | lecture | ECE438 L24 - Digital image processing begins |
-| [[ECE438 L25 - Sampling, bit depth and interpolation of images]] | lecture | ECE438 L25 - Sampling, bit depth and interpolation of images |
-| [[ECE438 L26 - Continuous-space FT and aliasing in images]] | lecture | ECE438 L26 - Continuous-space FT and aliasing in images |
-| [[ECE438 L27 - CSFT properties, image aliasing and histograms]] | lecture | ECE438 L27 - CSFT properties, image aliasing and histograms |
-| [[ECE438 L28 - Gray-scale transformations and spatial filters]] | lecture | ECE438 L28 - Gray-scale transformations and spatial filters |
-| [[ECE438 L29 - Histogram equalization derivation]] | lecture | ECE438 L29 - Histogram equalization derivation |
-| [[ECE438 L30 - High-pass filtering, 2D DSFT and median filtering]] | lecture | ECE438 L30 - High-pass filtering, 2D DSFT and median filtering |
-| [[ECE438 L31 - Non-linear filters and the 2D DSFT]] | lecture | ECE438 L31 - Non-linear filters and the 2D DSFT |
-| [[ECE438 L32 - 2D image transforms and Exam 3 coverage]] | lecture | ECE438 L32 - 2D image transforms and Exam 3 coverage |
-| [[ECE438 L33 - Specific 2D image transforms]] | lecture | ECE438 L33 - Specific 2D image transforms |
-| [[ECE438 L34 - Image compression basics]] | lecture | ECE438 L34 - Image compression basics |
-| [[ECE438 L35 - Huffman coding, entropy and spatial prediction]] | lecture | ECE438 L35 - Huffman coding, entropy and spatial prediction |
-| [[ECE438 L36 - Fidelity, block transform coding and JPEG]] | lecture | ECE438 L36 - Fidelity, block transform coding and JPEG |
-| [[ECE438 L37 - Block transform coding and multiresolution processing]] | lecture | ECE438 L37 - Block transform coding and multiresolution processing |
-| [[ECE438 L38 - Gaussian and Laplacian pyramids]] | lecture | ECE438 L38 - Gaussian and Laplacian pyramids |
-| [[ECE438 L39 - Dyadic filter banks and wavelets]] | lecture | ECE438 L39 - Dyadic filter banks and wavelets |
-| [[ECE438 L40 - Wavelets and images, final exam logistics]] | lecture | ECE438 L40 - Wavelets and images, final exam logistics |
 | [[FFT]] | method | FFT |
 | [[Fourier transform]] | definition | Fourier transform |
 | [[Histogram equalization]] | method | Histogram equalization |
 | [[Image compression]] | concept | Image compression |
+| [[Image interpolation]] | method | Image interpolation |
+| [[Image transforms]] | method | Image transforms |
 | [[LTI system]] | definition | LTI system |
 | [[Quantization]] | method | Quantization |
 | [[Sampling theorem]] | theorem | Sampling theorem |
@@ -462,7 +384,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Spectral leakage]] | concept | Spectral leakage |
 | [[Z-transform]] | definition | Z-transform |
 
-## ECE 270 digital systems
+## Digital logic
 
 | Page | Type | Title |
 |---|---|---|
@@ -471,26 +393,6 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[CMOS logic]] | concept | CMOS logic |
 | [[Counters and registers]] | concept | Counters and registers |
 | [[Decoder and multiplexer]] | concept | Decoder and multiplexer |
-| [[ECE270 week 01 08_22 - Intro and number systems]] | lecture | ECE270 week 01 08_22 - Intro and number systems |
-| [[ECE270 week 01 08_24 - Transistors and CMOS gates]] | lecture | ECE270 week 01 08_24 - Transistors and CMOS gates |
-| [[ECE270 week 02 08_29 - CMOS electrical behavior]] | lecture | ECE270 week 02 08_29 - CMOS electrical behavior |
-| [[ECE270 week 02 08_31 - Boolean algebra and canonical forms]] | lecture | ECE270 week 02 08_31 - Boolean algebra and canonical forms |
-| [[ECE270 week 03 09_07 - Circuit analysis and Karnaugh maps]] | lecture | ECE270 week 03 09_07 - Circuit analysis and Karnaugh maps |
-| [[ECE270 week 04 09_12 - Hazards, documentation and timing]] | lecture | ECE270 week 04 09_12 - Hazards, documentation and timing |
-| [[ECE270 week 04 09_14 - Verilog modules and combinational design]] | lecture | ECE270 week 04 09_14 - Verilog modules and combinational design |
-| [[ECE270 week 05 09_19 - Verilog behavior and test benches]] | lecture | ECE270 week 05 09_19 - Verilog behavior and test benches |
-| [[ECE270 week 05 09_21 - Decoders, multiplexers and encoders]] | lecture | ECE270 week 05 09_21 - Decoders, multiplexers and encoders |
-| [[ECE270 week 06 09_28 - Latches and flip-flops]] | lecture | ECE270 week 06 09_28 - Latches and flip-flops |
-| [[ECE270 week 07 10_03 - Counters and shift registers]] | lecture | ECE270 week 07 10_03 - Counters and shift registers |
-| [[ECE270 week 07 10_05 - Finite state machines]] | lecture | ECE270 week 07 10_05 - Finite state machines |
-| [[ECE270 week 08 10_12 - State machine design and Verilog]] | lecture | ECE270 week 08 10_12 - State machine design and Verilog |
-| [[ECE270 week 09 10_17 - State minimization and encoding]] | lecture | ECE270 week 09 10_17 - State minimization and encoding |
-| [[ECE270 week 10 10_24 - Verilog state machines and test benches]] | lecture | ECE270 week 10 10_24 - Verilog state machines and test benches |
-| [[ECE270 week 10 10_26 - Verilog examples and two's complement]] | lecture | ECE270 week 10 10_26 - Verilog examples and two's complement |
-| [[ECE270 week 11 10_31 - Binary arithmetic, codes and adders]] | lecture | ECE270 week 11 10_31 - Binary arithmetic, codes and adders |
-| [[ECE270 week 11 11_02 - Adders, ALUs and shifters]] | lecture | ECE270 week 11 11_02 - Adders, ALUs and shifters |
-| [[ECE270 week 12 11_07 - Shifters, multipliers and division]] | lecture | ECE270 week 12 11_07 - Shifters, multipliers and division |
-| [[ECE270 week 12 11_09 - State machine applications]] | lecture | ECE270 week 12 11_09 - State machine applications |
 | [[Finite state machine]] | concept | Finite state machine |
 | [[Hazards]] | concept | Hazards |
 | [[Karnaugh map]] | concept | Karnaugh map |
@@ -505,7 +407,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Timing diagram]] | concept | Timing diagram |
 | [[Verilog]] | concept | Verilog |
 
-## ECE 311 electromagnetics
+## Electromagnetics
 
 | Page | Type | Title |
 |---|---|---|
@@ -514,47 +416,6 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Capacitance]] | concept | Capacitance |
 | [[Coulomb's law]] | concept | Coulomb's law |
 | [[Dielectric polarization]] | concept | Dielectric polarization |
-| [[ECE311 lect_1 - Units and vectors]] | lecture | ECE311 lect_1 - Units and vectors |
-| [[ECE311 lect_10 - Displacement field and boundary conditions]] | lecture | ECE311 lect_10 - Displacement field and boundary conditions |
-| [[ECE311 lect_11 - Electrostatic energy and forces]] | lecture | ECE311 lect_11 - Electrostatic energy and forces |
-| [[ECE311 lect_12 - Poisson and Laplace equations]] | lecture | ECE311 lect_12 - Poisson and Laplace equations |
-| [[ECE311 lect_14 - Capacitance and method of images]] | lecture | ECE311 lect_14 - Capacitance and method of images |
-| [[ECE311 lect_15 - Current density and Ohm's law]] | lecture | ECE311 lect_15 - Current density and Ohm's law |
-| [[ECE311 lect_16 - Power dissipation and conducting boundaries]] | lecture | ECE311 lect_16 - Power dissipation and conducting boundaries |
-| [[ECE311 lect_17 - Magnetic fields and Biot-Savart law]] | lecture | ECE311 lect_17 - Magnetic fields and Biot-Savart law |
-| [[ECE311 lect_18 - Ampere's law]] | lecture | ECE311 lect_18 - Ampere's law |
-| [[ECE311 lect_19 - Vector magnetic potential]] | lecture | ECE311 lect_19 - Vector magnetic potential |
-| [[ECE311 lect_2 - Coordinate systems]] | lecture | ECE311 lect_2 - Coordinate systems |
-| [[ECE311 lect_20 - Magnetic dipole and materials]] | lecture | ECE311 lect_20 - Magnetic dipole and materials |
-| [[ECE311 lect_21 - Magnetic field H and materials]] | lecture | ECE311 lect_21 - Magnetic field H and materials |
-| [[ECE311 lect_22 - Magnetic boundary conditions and inductance]] | lecture | ECE311 lect_22 - Magnetic boundary conditions and inductance |
-| [[ECE311 lect_23 - Magnetostatic energy and inductance]] | lecture | ECE311 lect_23 - Magnetostatic energy and inductance |
-| [[ECE311 lect_24 - Magnetic forces and torques]] | lecture | ECE311 lect_24 - Magnetic forces and torques |
-| [[ECE311 lect_25 - Faraday's law]] | lecture | ECE311 lect_25 - Faraday's law |
-| [[ECE311 lect_27 - Displacement current and Maxwell's equations]] | lecture | ECE311 lect_27 - Displacement current and Maxwell's equations |
-| [[ECE311 lect_28 - Potentials and time-harmonic fields]] | lecture | ECE311 lect_28 - Potentials and time-harmonic fields |
-| [[ECE311 lect_29 - Wave equation and plane waves]] | lecture | ECE311 lect_29 - Wave equation and plane waves |
-| [[ECE311 lect_3 - Gradient divergence curl]] | lecture | ECE311 lect_3 - Gradient divergence curl |
-| [[ECE311 lect_30 - Plane waves]] | lecture | ECE311 lect_30 - Plane waves |
-| [[ECE311 lect_31 - Plane waves in lossy media]] | lecture | ECE311 lect_31 - Plane waves in lossy media |
-| [[ECE311 lect_32 - EM spectrum]] | lecture | ECE311 lect_32 - EM spectrum |
-| [[ECE311 lect_33 - Polarization]] | lecture | ECE311 lect_33 - Polarization |
-| [[ECE311 lect_34 - Plane wave power flow]] | lecture | ECE311 lect_34 - Plane wave power flow |
-| [[ECE311 lect_35 - Power absorption]] | lecture | ECE311 lect_35 - Power absorption |
-| [[ECE311 lect_36 - Reflection and transmission]] | lecture | ECE311 lect_36 - Reflection and transmission |
-| [[ECE311 lect_37 - Standing waves]] | lecture | ECE311 lect_37 - Standing waves |
-| [[ECE311 lect_38 - Transmission lines intro]] | lecture | ECE311 lect_38 - Transmission lines intro |
-| [[ECE311 lect_39 - Transmission line losses]] | lecture | ECE311 lect_39 - Transmission line losses |
-| [[ECE311 lect_4 - Coulomb's law]] | lecture | ECE311 lect_4 - Coulomb's law |
-| [[ECE311 lect_41 - Finite-length lines and input impedance]] | lecture | ECE311 lect_41 - Finite-length lines and input impedance |
-| [[ECE311 lect_42 - SWR and lines as circuit elements]] | lecture | ECE311 lect_42 - SWR and lines as circuit elements |
-| [[ECE311 lect_43 - Impedance matching]] | lecture | ECE311 lect_43 - Impedance matching |
-| [[ECE311 lect_44 - Pulses on transmission lines]] | lecture | ECE311 lect_44 - Pulses on transmission lines |
-| [[ECE311 lect_5 - Gauss' law and divergence theorem]] | lecture | ECE311 lect_5 - Gauss' law and divergence theorem |
-| [[ECE311 lect_6 - Applications of Gauss' law]] | lecture | ECE311 lect_6 - Applications of Gauss' law |
-| [[ECE311 lect_7 - Electric potential and Stokes' theorem]] | lecture | ECE311 lect_7 - Electric potential and Stokes' theorem |
-| [[ECE311 lect_8 - Electric potential and dipole]] | lecture | ECE311 lect_8 - Electric potential and dipole |
-| [[ECE311 lect_9 - Materials and conductor boundary conditions]] | lecture | ECE311 lect_9 - Materials and conductor boundary conditions |
 | [[Electric potential]] | concept | Electric potential |
 | [[Electromagnetic wave]] | concept | Electromagnetic wave |
 | [[Electrostatic energy]] | concept | Electrostatic energy |

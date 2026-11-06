@@ -125,4 +125,4 @@ Wiki note: $\beta=1000$ is set rather than inferred; the paper defers justificat
 - [[PIFT (Alberts 2023)]]
 - [[SGLD (Welling 2011)]]
 - [[Generative priors for turbulence (Wang 2026)]]
-- Wiki note: the book's placeholder "Inferring thermal conductivity" (`inverse/pdes/02_thermal.ipynb`, empty) names the same problem: [[ME697 4.6 - PDE inverse problems]].
+- Wiki note: the book's placeholder "Inferring thermal conductivity" (`inverse/pdes/02_thermal.ipynb`, empty) names the same problem: [[Bayesian inverse problems]].

@@ -27,7 +27,7 @@ $$
 Reusing the stored $\hat Z$ is what keeps the chain exact when $\hat Z$ is unbiased **[unverified: standard result, not stated in the source]**. See [[Metropolis-Hastings correction]].
 
 > [!example] Duffing oscillator
-> Flat prior, start $\alpha_0=-1.5$, $\beta_0=1.5$, $\delta_0=0.5$, $s_0=1.0$. 1000 particles, proposal scale 0.01, 10,000 iterations, 381.48 s. "Not amazing, but the true parameters are in the range of the posterior." Far more expensive than [[Expectation-maximization]] (source: 04_pmcmc_example.ipynb).
+> Flat prior, start $\alpha_0=-1.5$, $\beta_0=1.5$, $\delta_0=0.5$, $s_0=1.0$. 1000 particles, proposal scale 0.01, 10,000 iterations, 381.48 s. "Not amazing, but the true parameters are in the range of the posterior." Far more expensive than [[Expectation-maximization]]. The notebook asks whether the system is [[Identifiability|identifiable]] (source: 04_pmcmc_example.ipynb).
 
 ## Notes
 - Gives a posterior, so it can reveal weak identifiability (wide or ridge-shaped marginals); the notebook asks "Do you think this system is identifiable?" See [[Identifiability]].
@@ -35,11 +35,12 @@ Reusing the stored $\hat Z$ is what keeps the chain exact when $\hat Z$ is unbia
 
 **Wiki note**: in the notebook the code passes `s_0` in the control slot of `Duffing(...)`, and the markdown ratio has a stray parenthesis and no hat on $Z'$.
 
+**Covered in**: ASML book sinverse/cali (ME 697 6.3)
 **Sources**: `advanced-scientific-machine-learning/book/sinverse/cali/04_pmcmc_example.ipynb`, `03_pmcmc_theory.md`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 6.3 - Calibration of stochastic models]] · [[Particle filter]] · [[Expectation-maximization]] · [[Markov chain Monte Carlo]]
+- [[Expectation-maximization]] · [[Particle filter]] · [[Markov chain Monte Carlo]]
 - [[Metropolis-Hastings correction]] · [[Stochastic state-space model]] · [[Bayesian inverse problems]]

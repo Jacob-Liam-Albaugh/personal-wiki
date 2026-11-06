@@ -36,4 +36,4 @@ Wiki note: Poly also has the composition product $\triangleleft$ and the Dirichl
 ---
 
 ## Related pages
-- [[Polynomial functor]] · [[Poly coproduct]] · [[Poly product]] · [[Poly parallel product]]
+- [[Polynomial functor]] · [[Poly product]] · [[Poly parallel product]]

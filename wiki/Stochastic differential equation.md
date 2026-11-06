@@ -30,15 +30,16 @@ Here $W$ is a [[Wiener process]] ([[Brownian motion]]), $a$ is the drift and $b$
 - Gradient drift with unit noise: [[Langevin dynamics]], used for sampling in [[SGLD]].
 
 ## Inverse problems for SDEs
-Observed through noise, an SDE becomes a state-space model. Filtering and smoothing recover the state ([[Particle filter]]), calibration recovers parameters ([[Expectation-maximization]], [[Particle MCMC]]). See [[ME697 6.2 - Filtering and smoothing]] and [[ME697 6.3 - Calibration of stochastic models]].
+Observed through noise, an SDE becomes a state-space model. Filtering and smoothing recover the state ([[Particle filter]]), calibration recovers parameters ([[Expectation-maximization]], [[Particle MCMC]]).
 
 **Wiki note**: the book does not define the Itô integral or Itô's lemma beyond using the log transform for GBM. For a full treatment see the stochastic-methods pages linked from [[Brownian motion]].
 
-**Sources**: `advanced-scientific-machine-learning/book/sinverse/intro.md`, `sinverse/sodes/intro.md`, `02_bm.ipynb`, `03_stochastic_exponential_growth.ipynb`, `04_ornstein_uhlenbeck.ipynb`.
+**Covered in**: ASML book sinverse/sodes (ME 697 6.1)
+**Sources**: `advanced-scientific-machine-learning/book/sinverse/intro.md`, `sinverse/sodes/intro.md`, `02_bm.ipynb`, `03_stochastic_exponential_growth.ipynb`, `04_ornstein_uhlenbeck.ipynb`, `sinverse/sodes/01_reading.md`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 6.1 - Stochastic differential equations]] · [[Euler-Maruyama method]] · [[Geometric Brownian motion]] · [[Ornstein-Uhlenbeck process]]
+- [[Euler-Maruyama method]] · [[Geometric Brownian motion]] · [[Ornstein-Uhlenbeck process]]
 - [[Stochastic state-space model]] · [[Wiener process]] · [[Fokker-Planck equation]] · [[Langevin dynamics]]

@@ -26,13 +26,14 @@ tags: [mcmc, sampling, bayesian]
 > A curved target with $b=1$ and $\rho=0.9$ (high curvature), five chains of 200 samples, burn-in 50, run with `blackjax.hmc`.
 
 ## Where it appears
-- [[ME697 4.2 - Sampling posteriors]].
+- [[Markov chain Monte Carlo]].
 
 ## Related ideas
 - [[SGHMC]] is the stochastic-gradient version with friction.
 - [[Riemannian manifold HMC]] replaces the constant mass matrix by a position-dependent metric.
 - [[Langevin dynamics]] is the overdamped, one-step limit.
 
+**Covered in**: ASML book inverse/sampling (ME 697 4.2)
 **Sources**: `advanced-scientific-machine-learning/book/inverse/sampling/03_hmc_blackjax.ipynb`.
 **Last updated**: 2026-11-06
 

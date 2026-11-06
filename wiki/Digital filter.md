@@ -30,13 +30,13 @@ It is easier to build a good low-pass digitally than in analog, so interpolate b
 Linear spatial filtering is 2D convolution with a small kernel $h(k,\ell)$. DC preserving if $\sum h=1$; separable if $h=h_1(k)h_2(\ell)$ (IP.4.B, p. 5). Smoothing kernel $\frac1{16}\begin{bmatrix}1&2&1\\2&4&2\\1&2&1\end{bmatrix}$ has response $\frac12(1+\cos\mu)$ per axis (p. 11); the edge kernel with centre $8/9$ sums to zero. See [[Spatial filtering]].
 
 ## Implementation
-Direct convolution, or via the [[DFT]]/[[FFT]] with zero padding and overlap-add or overlap-save for long signals ([[ECE438 DSP.3.D - Convolution with DFT]]).
+Direct convolution, or via the [[DFT]]/[[FFT]] with zero padding and overlap-add or overlap-save for long signals (see [[Convolution]]).
 
+**Covered in**: ECE 438 DSP.4.A, DSP.4.B, DSP.6, IP.4.B (filtering content, held on Sampling theorem, Z-transform and Spatial filtering)
 **Sources**: `Digital Signal Processing/Topic DSP.4.B Sampling DT.pdf`, `Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf`, `Digital Signal Processing/Topic IP.4.B spatial filtering Apr 4, 2025.pdf`, `Digital Signal Processing/Topic DSP.4.A Sampling CT.pdf`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ECE438 DSP.4.B - Sampling DT]] · [[ECE438 DSP.6 - z-transforms]] · [[ECE438 IP.4.B - Spatial filtering]]
-- [[LTI system]] · [[Convolution]] · [[Z-transform]] · [[DTFT]] · [[FFT]] · [[Spatial filtering]] · [[Aliasing]] · [[Wavelet transform]]
+- [[LTI system]] · [[Convolution]] · [[Z-transform]] · [[DTFT]] · [[FFT]] · [[Spatial filtering]] · [[Aliasing]] · [[Wavelet transform]] · [[Sampling theorem]]

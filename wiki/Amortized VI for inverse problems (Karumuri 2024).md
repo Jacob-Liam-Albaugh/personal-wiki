@@ -131,4 +131,4 @@ Wiki note (not in paper): Theorem 2 and the "equivalent to all VI problems" clai
 - [[SGLD]]
 - [[Diffusion models]]
 - [[Flow matching]]
-- Reproduced in the ME 697 book as the inverse-kinematics example (§3.4 of the paper): [[ME697 4.4 - Hierarchical Bayes]]. (source: `inverse/hbayes/04_amortized_vi.ipynb`)
+- Reproduced in the ME 697 book as the inverse-kinematics example (§3.4 of the paper): [[Hierarchical Bayesian model]]. (source: `inverse/hbayes/04_amortized_vi.ipynb`)

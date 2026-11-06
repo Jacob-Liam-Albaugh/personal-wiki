@@ -30,7 +30,7 @@ This wiki writes SGLD as Welling-Teh do: drift $\frac\epsilon2\nabla\log p$, noi
 ## In the lab papers
 - [[PIFT (Alberts 2023)]]: energy gradient by importance sampling $X\sim q$, $n=b=1$, $\alpha_1=0.51$; unsuitable for multimodal posteriors. Hyperparameters via [[Nested SGLD]].
 - [[IFT thermal conductivity (Alberts 2026)]]: $\alpha_2=0.01$, $\alpha_3=0.51$, $\alpha_1=0.1/\beta$.
-- [[ME697 6.1 - Stochastic differential equations]] supplies the SDE background (Itô calculus, [[Brownian motion]]).
+- [[Stochastic differential equation]] supplies the SDE background (Itô calculus, [[Brownian motion]]).
 
 ## Where it appears
 - [[SGLD (Welling 2011)]] (introduces it) · [[Cyclical SG-MCMC (Zhang 2020)]] · [[Low-precision SGLD (Zhang 2022)]] · the two IFT papers above · [[Diffusion posterior sampling]] (D-Flow SGLD, cited).

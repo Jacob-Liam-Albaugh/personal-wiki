@@ -28,7 +28,7 @@ Compare the Fourier transform, $\mathcal F\{x\}(\omega)=\int_{-\infty}^\infty x\
 
 ## Related / discrete-time counterpart
 - [[Z-transform]] is the discrete-time analogue; on the unit circle it reduces to the [[DTFT]], and on the imaginary axis the Laplace transform reduces to the [[Fourier transform]]. (source: Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf, p. 1; ece301final_equation-sheet.pdf, p. 1)
-- See [[ECE438 DSP.6 - z-transforms]].
+- See [[Z-transform]].
 
 **Sources**: `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
 **Last updated**: 2026-11-06

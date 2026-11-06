@@ -32,8 +32,9 @@ tags: [physics-informed, ml, optimization]
 - [[Neural ODEs (Chen 2018)]] — origin.
 - [[HNNs (Greydanus 2019)]], [[LNNs (Cranmer 2020)]] — integrate learned vector fields with Runge-Kutta.
 - [[SINDy autoencoders (Champion 2019)]] — latent dynamics are a sparse ODE.
-- ME 697 `inverse/data/04_nodes.ipynb` is a title-only stub "Neural ODEs"; [[ME697 4.7 - Data-driven modeling]].
+- ME 697 `inverse/data/04_nodes.ipynb` is a title-only stub "Neural ODEs"; [[SINDy]].
 
+**Covered in**: ASML book inverse/data (ME 697 4.7)
 **Sources**: `Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf`, `Greydanus, Dzamba, Yosinski - HNNs.pdf`.
 **Last updated**: 2026-11-06
 

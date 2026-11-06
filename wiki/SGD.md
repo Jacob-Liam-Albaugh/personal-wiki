@@ -24,12 +24,16 @@ With a constant $\alpha$ the iterates keep wandering around the optimum (book, 0
 - [[Momentum]], [[Adam]]: use the same minibatch gradient with extra state.
 - Stochastic L-BFGS-B exists (named in the book, 07) for second-order methods; see [[Newton's method]].
 
+> [!example] Quadratic regression (05)
+> Equinox model $\theta_0+\theta_1x+\theta_2x^2$ trained by minibatch SGD; constant-rate iterates wiggle around the least-squares fit.
+
+**Covered in**: ASML book ml-software/optimization (ME 697 1.4)
 **Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/05_sgd.ipynb`, `01_optimization_problems.md`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 1.4 - Optimization]] · [[Gradient descent]] · [[vmap]] (per-example gradients)
+- [[Gradient descent]] · [[vmap]] (per-example gradients)
 - [[Init and momentum (Sutskever 2013)]], [[Dropout]] (SGD with a stochastic mask; Srivastava 2014, §5).
 - [[Attention is all you need (Vaswani 2017)]]: Adam with warmup for the Transformer.

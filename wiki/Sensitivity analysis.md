@@ -19,7 +19,7 @@ tags: [uq, sampling, optimization]
 ## Global sensitivity
 - Decompose the output variance into contributions of each input and of their interactions: [[Sobol indices]].
 - Needs many model runs on a space-filling design ([[Latin hypercube sampling]], Sobol sequence), or a cheap [[Surrogate model]] or [[Polynomial chaos]] expansion, from which the indices come almost free.
-- Duffing example: early output variance is dominated by one parameter ($\gamma$), later by another ($\omega$), and interactions matter because first-order indices do not sum to 1 (source: `08_global_sensitivity_analysis.ipynb`).
+- Duffing example, $\ddot x+\delta\dot x+\alpha x+\beta x^3=\gamma\cos(\omega t)$ with nominal $(\alpha,\beta,\gamma,\delta,\omega)=(1,5,0.37,0.1,1)$, zero initial state, $t\in[0,50]$ (limit cycle): early output variance is dominated by one parameter ($\gamma$), later by another ($\omega$), and interactions matter because first-order indices do not sum to 1 (source: `08_global_sensitivity_analysis.ipynb`).
 
 ## Choosing a method
 | Question | Tool |
@@ -32,9 +32,10 @@ tags: [uq, sampling, optimization]
 Wiki note: this table is a summary of the lecture's structure, not a table from the book.
 
 ## Where it appears
-- [[ME697 2.1 - Sensitivity analysis]] (local and global, SALib), [[ME697 2.2 - Polynomial chaos]] (indices from coefficients), [[ME697 2.3 - Surrogates]] (indices from a surrogate).
-- Related idea in optimization: the gradient is a local sensitivity; see [[ME697 1.3 - Differentiation]] and [[Automatic differentiation]].
+- Local and global methods (SALib); [[Polynomial chaos]] (indices from coefficients), [[Surrogate model]] (indices from a surrogate).
+- Related idea in optimization: the gradient is a local sensitivity; see [[Automatic differentiation]].
 
+**Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1)
 **Sources**: `advanced-scientific-machine-learning/book/up/sensitivity_analysis/00_intro.md`, `01_theory.md`, `04_example_lorenz.ipynb`, `08_global_sensitivity_analysis.ipynb`.
 **Last updated**: 2026-11-06
 
@@ -43,4 +44,3 @@ Wiki note: this table is a summary of the lecture's structure, not a table from 
 ## Related pages
 - [[Local sensitivity analysis of ODEs]] · [[Sobol indices]] · [[Latin hypercube sampling]] · [[Polynomial chaos]]
 - [[Surrogate model]] · [[Gaussian process]] · [[Fokker-Planck equation]]
-- [[ME697 2.1 - Sensitivity analysis]]

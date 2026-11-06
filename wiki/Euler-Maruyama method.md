@@ -28,6 +28,7 @@ The Gaussian increment replaces $dW$ because $W(t+\Delta t)-W(t)\sim N(0,\Delta 
 - Strong order 1/2, weak order 1. **[unverified: standard result, not in the source]**
 - Larger steps can leave the state space (negative values for GBM).
 
+**Covered in**: ASML book sinverse/sodes (ME 697 6.1)
 **Sources**: `advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`, `04_ornstein_uhlenbeck.ipynb`, `sinverse/fs/02_filter.ipynb`.
 **Last updated**: 2026-11-06
 
@@ -35,4 +36,4 @@ The Gaussian increment replaces $dW$ because $W(t+\Delta t)-W(t)\sim N(0,\Delta 
 
 ## Related pages
 - [[Stochastic differential equation]] · [[Stochastic state-space model]] · [[Langevin dynamics]] · [[SGLD]] · [[Brownian motion]]
-- [[ME697 6.1 - Stochastic differential equations]] · [[ME697 6.2 - Filtering and smoothing]]
+- [[Particle filter]]

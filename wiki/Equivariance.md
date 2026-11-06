@@ -18,6 +18,8 @@ tags: [symmetry, ml]
 
 **Intuition**: transform then process equals process then transform. Building this into a network means it never has to learn the symmetry from data.
 
+The action of $g$ on input and output spaces may differ. Example: atom positions $\mathbf r_i$ in, forces $\mathbf f_i$ out. Under $g=(\mathbf b,A)\in E(3)$, positions go to $A\mathbf r_i+\mathbf b$ but forces only to $A\mathbf f_i$, since translation leaves forces unchanged (source: `up/symmetries/01_symmetries.md`).
+
 Ordinary convolution is equivariant to translations. Pooling over the group turns an equivariant feature map into an invariant one.
 
 ## Group equivariant convolution
@@ -45,7 +47,7 @@ To keep the parameter count equal to a CNN, the number of filters is divided by 
 - [[e3nn]] ([[e3nn Euclidean networks (Geiger 2022)]]): E(3) equivariance with irreps and tensor products.
 - [[Tensor basis NN turbulence (Ling 2016)]]: invariance built in through an integrity basis.
 - [[Rotation augmentation for CNNs (Quiroga 2018)]]: augmentation as the alternative to built-in symmetry.
-- Groups, $E(n)=T(n)\rtimes O(n)$, invariance versus equivariance with the atoms-to-forces example, and an e3nn tetris classifier: [[ME697 2.6 - Symmetries]] (source: `up/symmetries/01_symmetries.md`, `02_e3nn.ipynb`).
+- The [[e3nn]] page holds the tetris classifier (source: `02_e3nn.ipynb`).
 - Wiki note: the book's action $(\mathbf b,A)\mathbf x=A(\mathbf x+\mathbf b)$ does not match its composition law, which is that of $\mathbf x\mapsto A\mathbf x+\mathbf b$. Also, the e3nn notebook says the network "learned" to drop `1e` outputs; the `Linear` layer drops them by construction.
 
 ## Examples
@@ -55,7 +57,39 @@ To keep the parameter count equal to a CNN, the number of filters is divided by 
 > [!example] Homework 4, permutation group (source: homework/04_homework.ipynb)
 > The symmetric group $S_n$, cycles and transpositions, permutation matrices (Cayley's theorem), and a faithful $2\times2$ complex representation of $S_3$.
 
-**Sources**: `Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`.
+## Groups and the Euclidean group (book, up/symmetries/01)
+> [!definition] Group
+> A set $G$ with $G\times G\to G$, $(g_1,g_2)\mapsto g_1g_2$, with closure, associativity, identity $e$ and inverses. Examples: $(\mathbb Z,+)$, $(\mathbb R,+)$, the translation group $T(n)$, $GL(n,\mathbb R)$, and
+> $$SO(n)=\{A: AA^{T}=I,\ \det A=1\}$$
+> $$O(n)=\{A: AA^{T}=I\}$$
+> with $SO(n)\le O(n)\le GL(n)$. Elements of $O(n)$ outside $SO(n)$ are reflections. Rotations in 3D do not commute.
+
+- **Homomorphism**: $\phi(g_1g_2)=\phi(g_1)\phi(g_2)$; bijective means isomorphism. Examples: $x\mapsto x\bmod3$ from $\mathbb Z$ to $\mathbb Z_3$ (not injective), $x\mapsto e^x$ from $(\mathbb R,+)$ to $(\mathbb R^+,\times)$ (isomorphism).
+- **Group of transformations**: bijections of a set $V$ under composition. **Representation**: matrices for group elements, e.g. $GL(V)\cong GL(n)$ via a basis.
+
+> [!definition] Euclidean group
+> Isometries of $\mathbb R^n$:
+> $$E(n)\cong T(n)\rtimes O(n)$$
+> Elements $(\mathbf b,A)$ compose as
+> $$(\mathbf b_1,A_1)(\mathbf b_2,A_2)=(\mathbf b_1+A_1\mathbf b_2,\ A_1A_2)$$
+
+> [!theorem] Semidirect product
+> If $H,K\le G$, $H\cap K=\{e\}$, $G=HK$ uniquely, and $H$ is normal, then $G\cong H\rtimes K$ with
+> $$(h_1,k_1)(h_2,k_2)=(h_1\,k_1h_2k_1^{-1},\ k_1k_2)$$
+> Proof idea: insert $k_1^{-1}k_1$ in $h_1k_1h_2k_2$. For $E(n)$ write $f=t_{\mathbf b}\,g$ with $\mathbf b=f(\mathbf 0)$ and $g$ orthogonal; $T(n)$ is normal and $T(n)\cap O(n)=\{e\}$.
+
+**Invariance versus equivariance with different actions**: $g$ may act on input and output by different representations. Atom positions $\mathbf r_i$ in, forces $\mathbf f_i$ out: under $g=(\mathbf b,A)\in E(3)$ positions go to $A\mathbf r_i+\mathbf b$ but forces only to $A\mathbf f_i$.
+
+**Invariant by averaging**: for finite $G$ and any $h_\theta$,
+$$f_\theta(\mathbf x)=\sum_{g\in G}h_\theta(g\mathbf x)$$
+is invariant. For continuous $G$ the sum becomes a Haar integral $\int_G h_\theta(g\mathbf x)\,dg$, usually hard for Lie groups.
+
+Wiki notes on the book's section:
+- The normality proof gets $ft_{\mathbf b}f^{-1}=t_{f(\mathbf b)}$; for $f(\mathbf x)=A\mathbf x+\mathbf c$ it is $t_{A\mathbf b}$ because $\mathbf c$ cancels. The conclusion (a translation) is unaffected.
+- Typo: "$g(\mathbf x)=t_{\mathbf b}^{-1}f(\mathbf x)=\mathbf x=f(x)-\mathbf b$" has a stray "$=\mathbf x$", and "$f$ is a homomorphism" appears where $\phi$ is meant.
+
+**Covered in**: ASML book up/symmetries (ME 697 2.6); homework 4
+**Sources**: `Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`, `advanced-scientific-machine-learning/book/up/symmetries/intro.md`, `01_symmetries.md`, `02_e3nn.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

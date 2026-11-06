@@ -26,6 +26,8 @@ tags: [mcmc, sampling, bayesian, inverse-problems]
 - **ESS**: effective sample size, the number of independent samples the correlated chain is worth.
 - **Trace plots**: made with arviz.
 
+Wiki note: sampling/02 says to change the `alpha` parameter, but the proposal's parameter is `sigma`.
+
 Wiki note: the notebook calls $\hat V$ "an estimate of the variance between chains". It is the pooled estimate of the marginal variance that combines within-chain and between-chain parts.
 
 ## Variants in this course
@@ -35,10 +37,11 @@ Wiki note: the notebook calls $\hat V$ "an estimate of the variance between chai
 - [[SGLD]] and [[SG-MCMC]]: stochastic-gradient versions for large data, with [[Metropolis-Hastings correction]] discussed on its own page.
 
 ## Where it appears
-- [[ME697 4.2 - Sampling posteriors]]; [[ME697 4.4 - Hierarchical Bayes]] and [[ME697 4.5 - ODE inverse problems]] use NUTS.
+- [[Hierarchical Bayesian model]] and [[Identifiability]] use [[NUTS]].
 - Reference text: Gelman et al., *Bayesian Data Analysis* ch. 11, and ME 539 Lecture 27 (cited by the book, not read).
 
-**Sources**: `advanced-scientific-machine-learning/book/inverse/sampling/01_mcmc_basics.md`, `02_mcmc_blackjax.ipynb`.
+**Covered in**: ASML book inverse/sampling (ME 697 4.2); homework 6
+**Sources**: `advanced-scientific-machine-learning/book/inverse/sampling/01_mcmc_basics.md`, `02_mcmc_blackjax.ipynb`, `advanced-scientific-machine-learning/book/inverse/sampling/intro.md`, `03_hmc_blackjax.ipynb`, `04_nuts_blackjax.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

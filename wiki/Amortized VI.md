@@ -32,9 +32,10 @@ tags: [bayesian, vi, ml]
 - [[Amortized VI for inverse problems (Karumuri 2024)]]: guides trained on simulated datasets for inverse problems.
 - [[Amortized VI when and why (Margossian 2024)]]: theory of when amortization costs nothing.
 - [[VAE paper (Kingma 2014)]] · [[Intro to VAEs (Kingma 2019)]] (p. 4 coins "amortized inference"): the VAE encoder.
-- Inverse kinematics example: guide $q_\phi(\xi|y)=\mathcal N(\mu_\phi(y),L_\phi L_\phi^T)$ with three MLPs, trained on prior samples. Discusses mode seeking and variational versus amortization gap. (source: `inverse/hbayes/04_amortized_vi.ipynb`; [[ME697 4.4 - Hierarchical Bayes]])
-- Duffing oscillator: AVI is much faster at inference but its solution space is a subset of per-dataset VI. (source: `inverse/odes/03_dyn_system_multiple_traj.ipynb`; [[ME697 4.5 - ODE inverse problems]])
+- Inverse kinematics example: guide $q_\phi(\xi|y)=\mathcal N(\mu_\phi(y),L_\phi L_\phi^T)$ with three MLPs, trained on prior samples. Discusses mode seeking and variational versus amortization gap. (source: `inverse/hbayes/04_amortized_vi.ipynb`; [[Hierarchical Bayesian model]])
+- Duffing oscillator: AVI is much faster at inference but its solution space is a subset of per-dataset VI. (source: `inverse/odes/03_dyn_system_multiple_traj.ipynb`; [[Identifiability]])
 
+**Covered in**: ASML book inverse/hbayes (ME 697 4.4)
 **Sources**: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06
 

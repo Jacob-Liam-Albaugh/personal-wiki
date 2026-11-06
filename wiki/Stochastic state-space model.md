@@ -22,13 +22,20 @@ The transition comes from an [[Euler-Maruyama method]] step of an [[Stochastic d
 Not to be confused with the deep-learning "State space model" of the sequence-model literature (S4, Mamba), see [[State space model]].
 
 ## Example: stochastic Duffing oscillator
-State $(x,v)$, force $\gamma\cos(\omega t)$, noise on both components. The transition is
+The oscillator with white-noise forcing $\xi(t)$ is
 
 $$
-N\big(\text{Euler step},\ \mathrm{diag}(\sigma_x^2,\sigma_v^2)\,\Delta t\big),
+\ddot x + \delta\dot x + \alpha x + \beta x^3
+= \gamma\cos(\omega t) + \sigma\,\xi(t).
 $$
 
-and only $x$ is observed with noise standard deviation $s$. Parameters: $\omega=1.2$, $\alpha=-1$, $\beta=1$, $\delta=0.3$, $\gamma=0.5$, $\sigma_x=0.01$, $\sigma_v=0.05$, $s=0.1$, $\Delta t=0.1$.
+Written as a 2D SDE for state $(x,v)$ with noise on both components and discretized by Euler-Maruyama, the transition is Gaussian:
+
+$$
+p(x_t\mid x_{t-1},u_t) = N\big(\cdot\,,\ \mathrm{diag}(\sigma_x^2,\sigma_v^2)\,\Delta t\big),
+$$
+
+centered at the Euler step, and only $x$ is observed with noise standard deviation $s$. Parameters: $\omega=1.2$, $\alpha=-1$, $\beta=1$, $\delta=0.3$, $\gamma=0.5$, $\sigma_x=0.01$, $\sigma_v=0.05$, $s=0.1$, $\Delta t=0.1$.
 
 ## Inference tasks
 | Task | Target | Tool |
@@ -40,13 +47,16 @@ and only $x$ is observed with noise standard deviation $s$. Parameters: $\omega=
 
 The likelihood $p_\theta(y_{1:T})$ is an integral over all state paths, which is why exact calibration is hard.
 
+**Wiki note**: the Duffing text writes $dX_1=X_2$ without $dt$, and gives the control as $\omega\cos(\cdot)$ while the code uses $\gamma\cos(\omega t)$.
+
 **Wiki note**: for the case of an [[Ornstein-Uhlenbeck process]] with Gaussian noise, the model is linear-Gaussian and exact filtering is the Kalman filter.
 
+**Covered in**: ASML book sinverse/fs (ME 697 6.2); ASML book sinverse/cali (ME 697 6.3)
 **Sources**: `advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `sinverse/cali/02_em_example.ipynb`, `04_pmcmc_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 6.2 - Filtering and smoothing]] · [[ME697 6.3 - Calibration of stochastic models]]
-- [[Particle filter]] · [[Kalman filter]] · [[Expectation-maximization]] · [[Particle MCMC]] · [[Euler-Maruyama method]]
+- [[Particle filter]] · [[Expectation-maximization]]
+- [[Kalman filter]] · [[Particle MCMC]] · [[Euler-Maruyama method]]

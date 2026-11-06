@@ -34,18 +34,22 @@ tags: [optimization, ml]
 
 ## Where it appears
 - Adam followed by L-BFGS is the standard PINN optimizer pair ([[Physics-informed ML review (Karniadakis 2021)]], Box 3).
-- Used to fit surrogate MLPs (lr $10^{-3}$, 5000 iterations) and GP hyperparameters (lr 0.01), and the e3nn classifier (lr 0.01): [[ME697 2.3 - Surrogates]], [[ME697 2.6 - Symmetries]], [[ME697 3.1 - Functional inputs]].
+- Used to fit surrogate MLPs (lr $10^{-3}$, 5000 iterations) and GP hyperparameters (lr 0.01), and the e3nn classifier (lr 0.01): [[Surrogate model]], [[Equivariance]], [[Karhunen-Loève expansion]].
 
 ## In the paper
 - Defaults: $\alpha=0.001$, $\beta_1=0.9$, $\beta_2=0.999$, $\epsilon=10^{-8}$ (Alg. 1, p. 2).
 - Wiki note: Algorithm 1 puts $\epsilon$ outside the root, $\hat m_t/(\sqrt{\hat v_t}+\epsilon)$, and so does the efficient variant (p. 2). The book's inside-the-root form is wrong.
 - [[Adam paper (Kingma 2015)]]. The regret proof (§4) is questioned in later literature **[unverified]**.
 
-**Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`.
+> [!example] Homework 1, problem 5: autoencoder (source: homework/01_homework.ipynb)
+> MNIST autoencoder, latent dimension 2, two hidden layers of 128 ReLU units, Equinox and Optax, Adam at $10^{-3}$, batch 32; then fit a 10-component Gaussian mixture to the latent space and sample from it.
+
+**Covered in**: ASML book ml-software/optimization (ME 697 1.4); homework 1
+**Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`, `advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `09_gpu_training.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 1.4 - Optimization]] · [[SGD]] · [[Momentum]] · [[Variational inference]] (ELBO usually trained with Adam)
+- [[Gradient descent]] · [[SGD]] · [[Momentum]] · [[Variational inference]] (ELBO usually trained with Adam)
 - [[DeepSeek-V2 (DeepSeek-AI 2024)]]: AdamW with $\beta_1=0.9$, $\beta_2=0.95$, weight decay 0.1 (source: §3.1.2).

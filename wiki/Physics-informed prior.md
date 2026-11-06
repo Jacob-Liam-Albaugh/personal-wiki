@@ -15,6 +15,14 @@ source-ref: "Alberts & Bilionis 2023, eqs. 12-15, 20-21, pp. 6-10"
 
 **Intuition**: $\beta$ is how much you trust the model. $\beta\to\infty$ pins the field to a PDE solution; small $\beta$ gives a broad prior that lets data correct model-form error.
 
+The book's ift/physics takeaway is that the smoothing problem can be posed by a prior over the space of state functions biased by the physics; this is the field-level version of smoothing in [[Stochastic state-space model]]. For a residual $r[u]$ and weight $\lambda$ the squared-residual choice penalizes violation of the governing equation:
+
+$$
+p[u] \propto \exp\Big(-\tfrac{\lambda}{2}\,\|r[u]\|^2\Big).
+$$
+
+A [[PINN]] is the MAP estimate under this prior (Wiki note).
+
 ## Model-trust parameter β
 - Can be inferred: Jeffreys prior in log-space (paper 1, Ex. 2), where it tracked model-form error.
 - Fixed values used: $\beta=10^5$ (paper 1 Ex. 3), 50 (Ex. 4), 1000 (paper 2).
@@ -32,9 +40,10 @@ source-ref: "Alberts & Bilionis 2023, eqs. 12-15, 20-21, pp. 6-10"
 - [[PIFT (Alberts 2023)]] — defines it.
 - [[IFT thermal conductivity (Alberts 2026)]] — Dirichlet energy of steady heat conduction.
 - [[Physics-informed machine learning]] — the same physics-as-prior idea at the level of loss functions; [[Physics-informed ML review (Karniadakis 2021)]], p. 7: soft-penalty PINN equals MAP with a physics-based likelihood.
-- [[ME697 5.1 - PINN basics]], [[ME697 IFT.3 - Physics-informed information field theory]].
+- [[PINN]].
 
-**Sources**: `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
+**Covered in**: ASML book ift/physics (ME 697 IFT.3)
+**Sources**: `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `advanced-scientific-machine-learning/book/ift/intro.md`, `ift/physics/intro.md`.
 **Last updated**: 2026-11-06
 
 ---

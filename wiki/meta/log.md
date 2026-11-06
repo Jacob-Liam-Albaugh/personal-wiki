@@ -74,7 +74,7 @@
 
 ## [2026-11-06] ingest | ME 697 book part 1 (ml-software)
 - Sources: `advanced-scientific-machine-learning/book/ml-software/` (functional_programming, types_and_models, differentiation, optimization).
-- Lecture pages: [[ME697 1.1 - Functional programming in JAX]], [[ME697 1.2 - Types and pytrees]], [[ME697 1.3 - Differentiation]], [[ME697 1.4 - Optimization]].
+- Lecture pages: [[JIT compilation]], [[Pytree]], [[Automatic differentiation]], [[Gradient descent]].
 - Concept pages: [[JIT compilation]], [[vmap]], [[JAX random keys]], [[Pytree]], [[Automatic differentiation]], [[Gradient descent]], [[Momentum]], [[SGD]], [[Adam]], [[Newton's method]], [[Weight initialization]].
 - New topic tags: `optimization`, `software` (CLAUDE.md, graph colours).
 - Flags on the source: the jvp signature (returns a pair), where ε sits in Adam, and the book's "He" bound, which is LeCun-uniform.
@@ -93,4 +93,11 @@
   - [unverified] items in the BT/BJS chapters. Printed page = pdf page − 16.
   - Polynomial Functors ch9: `Mod` and the general form of Yoneda.
   - IFT.1-3 and 5.3 are stubs.
-  - Slide errors are noted on the IP lecture pages.
+  - Slide errors are noted on the topic pages (Image compression, Fourier transform, DFT, FFT, Z-transform).
+
+## [2026-11-06] restructure | Course notes folded into topic pages
+- All 142 lecture pages (ME 697 31, ECE 438 50, ECE 311 41, ECE 270 20) were merged into topic pages and removed. Links were rewritten to the topic that now holds the content.
+- New topic pages: [[Digital image]], [[Image interpolation]], [[Image transforms]]. Topic pages carry a plain-text **Covered in** line naming the class material.
+- ME 697 homework sits on the topic it exercises as `[!example]` callouts, citing the ASML book section.
+- Course logistics (exam dates, quizzes, rooms, grading) dropped. [[index]] sections are named by topic, not course.
+

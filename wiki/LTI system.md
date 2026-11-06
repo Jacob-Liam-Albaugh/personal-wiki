@@ -29,6 +29,7 @@ tags: [signals]
 > [!theorem] Eigenfunction
 > $$x[n]=e^{j\omega n}\ \Rightarrow\ y[n]=H(e^{j\omega})\,e^{j\omega n}$$
 > $$H(e^{j\omega})=\sum_kh[k]e^{-j\omega k}$$
+> Proof: $y[n]=\sum_kh[k]e^{j\omega(n-k)}=e^{j\omega n}\sum_kh[k]e^{-j\omega k}$.
 > More generally $z_0^n\to z_0^nH(z_0)$ for $z_0$ in the ROC.
 >
 > (source: Topic DSP.3.A, p. 4; Topic DSP.6, p. 16)
@@ -49,14 +50,41 @@ tags: [signals]
 
 Wiki note: the unit-step input in the instability example shows why BIBO is a statement about all bounded inputs: one bad input is enough.
 
-## Where it appears
-- [[Transmission line]]: lossless lines as delay elements, reflection analysis for pulses ([[ECE311 lect_44 - Pulses on transmission lines]]).
+### Proof techniques
+Time invariance test: shift the input, run the system, and compare with the shifted output; they must agree for every $x$. To show non-linearity either expand both sides for general $a_1,a_2,x_1,x_2$ or give one counterexample (a single $a_1,x_1$ suffices) (source: Topic DSP.2, pp. 3-8).
 
-**Sources**: `Digital Signal Processing/Topic DSP.2 DT systems UPDATED Jan 22, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.A DT frequency analysis Part 1 Jan 31, 2025.pdf`, `Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf`, `Digital Signal Processing/exam_1_review_transcribed.pdf`.
+The impulse response comes from writing any input as $x[n]=\sum_kx[k]\delta[n-k]$: by linearity and time invariance each term maps to a weighted, shifted copy of $h$ (source: Topic DSP.2, pp. 9-13). The recipe for evaluating the sum by hand is on [[Convolution]].
+
+> [!theorem] BIBO stability of an LTI system
+> The system is BIBO stable iff $\sum_k|h[k]|<\infty$.
+> Sufficiency: if $|x|\le B$ then $|y[n]|\le\sum_k|h[k]||x[n-k]|\le B\sum_k|h[k]|$.
+> Necessity: if the sum diverges, a bounded input such as $x[n]=\mathrm{sgn}\,h[-n]$ gives an unbounded output at $n=0$.
+>
+> (source: Topic DSP.2, pp. 15-17)
+
+> [!example] Accumulator $y[n]=\sum_{k=0}^{n}x[k]$, $n\ge0$, else $0$
+> Linear: both sides expand to $\sum_k[a_1x_1(k)+a_2x_2(k)]$. Time varying: $x=\delta[n]$ gives $u[n]$, but $x[n+1]$ gives $0\ne u[n+1]$, because the clock starts at $n=0$. Not BIBO stable: $x[n]=1$ gives $y[n]=n+1\to\infty$.
+>
+> (source: Topic DSP.2, pp. 3-8, 15)
+
+> [!example] $y[n]=2x[n]+3$
+> Not linear: with $a_1=2$, $a_2=0$, $x_1=1$, $\mathcal S(a_1x_1)=7$ but $a_1\mathcal S(x_1)=10$. Time invariant: replace $n$ by $n-n_0$ everywhere. BIBO stable: $|y|\le2|x|+3\le2B+3$, even though it is not linear.
+>
+> (source: Topic DSP.2, pp. 5-8, 15)
+
+### FIR and IIR
+An FIR system is a DT LTI system with a finite impulse response; an IIR system has an infinite one. If $H(z)$ is a ratio of polynomials, factoring numerator and denominator gives the zeros and poles, which govern the behaviour of the system (source: L23 Mar 10, 2025.pdf, p. 1). See [[Z-transform]] and [[Digital filter]].
+
+Given an input-output relationship, the preferred way to find $H(e^{j\omega})$ is to take the DTFT of both sides, using the time-shift property $x[n-n_0]\leftrightarrow e^{-j\omega n_0}X$ and the convolution property $Y=XH$ (source: L15 Feb 19, 2025.pdf, p. 1); see [[DTFT]].
+
+## Where it appears
+- [[Transmission line]]: lossless lines as delay elements, reflection analysis for pulses ([[Transmission line]]).
+
+**Covered in**: ECE 438 DSP.2 (Topic DSP.2 DT systems), L23 (L23 Mar 10, 2025.pdf), L15 (L15 Feb 19, 2025.pdf)
+**Sources**: `Digital Signal Processing/Topic DSP.2 DT systems UPDATED Jan 22, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.A DT frequency analysis Part 1 Jan 31, 2025.pdf`, `Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf`, `Digital Signal Processing/exam_1_review_transcribed.pdf`, `Digital Signal Processing/front page/L23 Mar 10, 2025.pdf`, `Digital Signal Processing/front page/L15 Feb 19, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ECE438 DSP.2 - DT systems]] · [[ECE438 DSP.6 - z-transforms]] · [[ECE438 L23 - System stability, causality and eigenfunctions]]
 - [[Convolution]] · [[Digital filter]] · [[DTFT]] · [[DFT]] · [[Z-transform]] · [[Fourier transform]] · [[Discrete-time signal]]

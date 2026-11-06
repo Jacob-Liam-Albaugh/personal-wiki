@@ -87,7 +87,8 @@ When the user adds a source or asks you to ingest one:
 2. Discuss key takeaways with the user before writing anything. When the user has asked
    for a batch ingest, write the pages and put the takeaways in the log entry and the
    end-of-turn summary instead.
-3. Create a source page in `wiki/` (type `paper`, or `lecture` for course notes).
+3. Create a source page in `wiki/` (type `paper`). Course notes (lectures, slides, homework)
+   get no page of their own: fold them into topic pages (step 4); see "Course notes".
 4. Create or update definition / theorem / method / concept pages for each major idea.
    Prefer updating an existing page over creating a near-duplicate.
 5. Add `[[wiki-links]]` both ways: source page → concept pages, concept page → every source
@@ -113,7 +114,6 @@ ingested one chapter per source page (`spivak-niu-poly-ch1.md`, ...).
 ## Page types and templates
 
 - `paper` — one research paper (or one book chapter)
-- `lecture` — one lecture / topic file from course notes
 - `definition` — a defined object (Gaussian process, neural operator, polynomial functor, ...)
 - `theorem` — a named theorem, proposition, or lemma worth a standalone page
 - `method` — an algorithm or model (SGLD, DeepONet, PINN, Adam, SINDy, ...)
@@ -123,7 +123,7 @@ ingested one chapter per source page (`spivak-niu-poly-ch1.md`, ...).
 
 ```yaml
 ---
-type: paper | lecture | definition | theorem | method | concept
+type: paper | definition | theorem | method | concept
 area: <slug>
 areas: [<slug>, ...]          # optional, extra areas
 source-ref: "<short pointer, e.g. 'Welling, Teh 2011, eq. 4' or 'Topic DSP.6, §3'>"
@@ -147,9 +147,6 @@ The body line `**Authors**: Max Welling, Yee Whye Teh · ...` must give full nam
 Author pages (`type: author`) live in `wiki/authors/`, one per person, and are generated.
 Graph view colours them with the group `path:authors`; add `-path:authors` to the graph
 search to hide them, the same way tags are toggled.
-
-Lecture pages add `course:` (`ece438`, `ece270`, `ece311`, `me697`) and `lecture:` (the
-file's own label, e.g. `DSP.3.E`, `L22`, `lect_14`, `week 07 10_03`).
 
 Tags are topics only, never page type, provenance or status.
 
@@ -249,11 +246,15 @@ Navigation/bookkeeping pages (`index.md`, `log.md`, `sources.md`, `reading-group
 - [[...]]
 ```
 
-### Lecture pages
+### Course notes
 
-Course-note pages follow the paper template with sections "Topics", "Key results",
-"Examples", in place of Problem/Method/Results. Homework and exam-review problems are folded
-into the relevant definition/method page as `> [!example]` callouts, cited to their file.
+Organise by topic, never by class. Lecture notes, slides and book sections from a course
+(ECE 270, ECE 311, ECE 438, ME 697) are merged into the definition / method / concept page
+for their topic, with a plain-text line above `**Sources**:` naming where it was covered,
+e.g. `**Covered in**: ECE 438 IP.6, L34-L36` or `**Covered in**: ASML book up/polynomial_chaos
+(ME 697 2.2); homework 3`. ME 697 follows the Advanced Scientific Machine Learning book
+(`advanced-scientific-machine-learning/book/`). Homework and exam-review problems go on the
+topic page they exercise as `> [!example]` callouts, cited to their file.
 
 ### Notation
 
@@ -319,8 +320,7 @@ When asked to lint or audit the wiki:
   `_text books/` and `advanced-scientific-machine-learning/` are never touched.
 - Page names are short, readable titles, scannable in graph view. Concepts use the common
   name or acronym (`SGLD.md`, `ELBO.md`, `Classifier-free guidance.md`). Paper pages are
-  `<short name> (<Firstauthor> <year>).md` (e.g. `SGLD (Welling 2011).md`); lecture pages are
-  `<COURSE> <lecture> - <topic>.md` (e.g. `ECE438 DSP.3.E - FFT.md`); book chapters are
+  `<short name> (<Firstauthor> <year>).md` (e.g. `SGLD (Welling 2011).md`); book chapters are
   `<Book short> ch<N> - <topic>.md` (e.g. `Seven Sketches ch1 - Generative effects.md`). No `: / # | ^ [ ] ?`.
 - Write in clear, plain language.
 - When uncertain how to categorize something, ask the user.

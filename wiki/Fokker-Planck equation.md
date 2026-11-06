@@ -27,7 +27,11 @@ Song et al. also note that for non-affine drift, the DSM transition kernel can b
 ## Where it appears
 - [[Score SDE (Song 2021)]].
 - [[Brownian motion]]: Einstein's diffusion equation for the particle density is the simplest case (source: Einstein 1905, eq. 10, [[Brownian movement (Einstein 1905)]]).
-- Derivation for random initial data by flux balance and the divergence theorem, with the exponential-decay example checked against Monte Carlo: [[ME697 2.1 - Sensitivity analysis]] (source: `up/sensitivity_analysis/05_fokker_planck.ipynb`).
+- Random initial data: for $\dot x=f(x,t)$ with $x_0\sim p_0$ the density of $X_t$ obeys
+
+  $$\partial_t p=-\nabla\cdot(f\,p),\qquad p(x,0)=p_0(x)$$
+
+  derived from a flux balance on a volume $V$ and the divergence theorem. It is not the general form (that needs SDEs) and is hopeless to solve in high dimension. The exponential-decay example $\dot x=-\lambda x$, $x_0\sim\mathcal N(\mu_0,\sigma_0^2)$ gives $\partial_t p=\lambda\,\partial_x(x\,p)$ and a Gaussian $p$, checked against Monte Carlo: [[Sensitivity analysis]] (source: `up/sensitivity_analysis/05_fokker_planck.ipynb`).
 - Wiki note: for $\dot x=-\lambda x$ the book gives
 
   $$\sigma_t^2=\sigma_0^2e^{-2\lambda t}+\tfrac{\mu_0^2}{2\lambda}(1-e^{-2\lambda t})$$
@@ -37,6 +41,7 @@ Song et al. also note that for non-affine drift, the DSM transition kernel can b
 - [[Ornstein-Uhlenbeck process]] and [[Geometric Brownian motion]] are SDEs whose densities obey a Fokker-Planck equation (Wiki note; the book does not state it) (source: sinverse/sodes).
 - [[Brownian motion]]: Einstein's diffusion equation for the particle density is the simplest case (source: Einstein 1905, eq. 10, [[Brownian movement (Einstein 1905)]]).
 
+**Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1)
 **Sources**: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
 **Last updated**: 2026-11-06
 

@@ -21,14 +21,14 @@ tags: [bayesian, ml]
 - Particles: [[SVGD]], used by [[Bayesian DenseED surrogate (Zhu 2018)]] with 20 particles.
 - Ensembles: deep ensembles as a cheap posterior proxy (Fortuin eq. 33).
 - Averaging over the result: [[Bayesian model averaging]].
-- [[Parametric PINN]] and [[ME697 5.3 - PINNs for inverse problems]]: the book lists a Bayesian PINN example notebook (`02_example_Bayesian_pinns.ipynb`) but it is a stub, so no inference route is described (source: pinns/inverse).
+- [[Parametric PINN]] and [[PINN]]: the book lists a Bayesian PINN example notebook (`02_example_Bayesian_pinns.ipynb`) but it is a stub, so no inference route is described (source: pinns/inverse).
 
 ## Priors (Fortuin)
 - Isotropic Gaussian is the default and often misspecified; Fortuin links it to the cold-posterior effect.
 - Heavy-tailed alternatives: Student-t (Gaussian with Gamma precision, used by Zhu §3.1), horseshoe.
 - Infinite-width limits give [[Gaussian process]] kernels (NNGP, NTK).
 - Function-space priors avoid weight-space symmetry but make the KL infinite (§4.2).
-- [[Physics-informed prior]] pages tie to [[ME697 IFT.3 - Physics-informed information field theory]].
+- [[Physics-informed prior]] pages tie to [[Physics-informed prior]].
 
 ## Calibration
 - Xu Table 1: SDE-BNN has lower ECE than ResNet32 on MNIST and CIFAR-10, but on CIFAR-10 it is worse than MFVI ResNet32 and deep ensembles.

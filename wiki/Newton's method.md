@@ -26,10 +26,11 @@ tags: [optimization]
 ## Where it appears
 - Newton's method on the log-barrier problem and on the perturbed optimality system gives primal and primal-dual path-following interior point methods: [[Interior point method]], [[BT ch9 - Interior point methods]] (§9.4-9.5), [[BJS ch8 - Complexity of the simplex algorithm and polynomial-time algorithms]] (§8.6).
 
+**Covered in**: ASML book ml-software/optimization (ME 697 1.4)
 **Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/07_second_order.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 1.4 - Optimization]] · [[Gradient descent]] · [[Adam]]
+- [[Gradient descent]] · [[Adam]]

@@ -125,4 +125,4 @@ Dual: maximize $g(\mathbf p)$ subject to $\mathbf p\ge\mathbf0$. Theorem 4.17 (w
 ## Related pages
 - [[LP duality]] · [[Farkas lemma]] · [[Dual simplex method]] · [[Simplex method]] · [[Linear programming]] · [[Polyhedron]]
 - [[BT ch3 - The simplex method]] · [[BT ch5 - Sensitivity analysis]] · [[BT ch6 - Large scale optimization]] · [[BJS ch6 - Duality and sensitivity analysis]]
-- [[Convex set]] · [[ME697 1.4 - Optimization]]
+- [[Convex set]] · [[Gradient descent]]

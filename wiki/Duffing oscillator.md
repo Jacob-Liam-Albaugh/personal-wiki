@@ -10,6 +10,7 @@ tags: [inverse-problems, bayesian, vi, mechanics]
 
 **Summary**: A damped, driven oscillator with a cubic restoring term, used in the book as a test bed for VI versus [[Amortized VI]] with many observed trajectories.
 
+**Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1); homework 2
 **Sources**: `advanced-scientific-machine-learning/book/inverse/odes/03_dyn_system_multiple_traj.ipynb`.
 **Last updated**: 2026-11-06
 
@@ -31,4 +32,4 @@ $$\theta=(x_0,v_0,\omega_n,\xi,\beta).$$
 A full-covariance Gaussian guide on a transformed space (with the Jacobian $|\det J_T|$) is trained per dataset (VI) and over many datasets (AVI, expected [[ELBO]] over $p(y)$, 1000 steps on a GPU, diverging trajectories filtered). VI reconstructs better; AVI is much faster at inference; AVI's solution space is a subset of VI's.
 
 ## Related pages
-- [[ME697 4.5 - ODE inverse problems]] · [[Variational inference]] · [[Identifiability]] · [[Neural ODE]]
+- [[Identifiability]] · [[Variational inference]] · [[Neural ODE]]

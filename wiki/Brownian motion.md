@@ -30,6 +30,7 @@ The limit of a random walk with space step $1/\sqrt n$ and time step $1/n$ is th
 
 Wiki note: the same $\sqrt t$ growth appears as the noise term in [[Langevin dynamics]] and [[SGLD]]; the density's diffusion equation is a special case of the [[Fokker-Planck equation]].
 
+**Covered in**: ASML book sinverse/sodes (ME 697 6.1)
 **Sources**: Einstein 1905; Li.
 **Last updated**: 2026-11-06
 
@@ -41,4 +42,4 @@ Wiki note: the same $\sqrt t$ growth appears as the noise term in [[Langevin dyn
 - [[Brownian motion construction (Li n.d.)]]
 - [[Karhunen-Loève expansion]]
 - [[Quantum option pricing KL (Prakash 2025)]]
-- [[Stochastic differential equation]], [[Euler-Maruyama method]], [[Geometric Brownian motion]], [[Ornstein-Uhlenbeck process]], [[ME697 6.1 - Stochastic differential equations]].
+- [[Stochastic differential equation]], [[Euler-Maruyama method]], [[Geometric Brownian motion]], [[Ornstein-Uhlenbeck process]], [[Stochastic differential equation]].

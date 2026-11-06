@@ -13,14 +13,16 @@ tags: [software, sampling]
 
 **Why**: a global seed is hidden state, which breaks purity and therefore [[JIT compilation]] and [[vmap]]. Passing keys keeps random functions pure and reproducible.
 
-**Pattern** (book, 04): split one key into `n` keys and `lax.scan` over them; the book runs a 100,000-step random walk this way.
+> [!example] Random walk with scan (04)
+> Split one key into many, then `lax.scan` over them to take 100,000 random-walk steps inside one compiled loop.
 
 **Never reuse a key** for two draws that should be independent. Wiki note: this matters for the injected noise in [[SGLD]], [[SGHMC]] and [[Langevin dynamics]], and for the noise in the [[Reparameterization trick]].
 
+**Covered in**: ASML book ml-software/functional_programming (ME 697 1.1)
 **Sources**: `advanced-scientific-machine-learning/book/ml-software/functional_programming/04_random.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 1.1 - Functional programming in JAX]] · [[JIT compilation]] · [[vmap]]
+- [[JIT compilation]] · [[vmap]]

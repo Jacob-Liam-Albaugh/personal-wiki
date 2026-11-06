@@ -27,12 +27,18 @@ otherwise shrink $\alpha\leftarrow c_2\alpha$ and retry.
 - Subgradient optimization of the concave piecewise linear Lagrangean dual of an integer program, with step $\theta_t=\alpha_t(\hat Z_D-Z(\mathbf p^t))/\|\mathbf s^t\|^2$ (form read from text, unverified): [[BT ch11 - Integer programming]] (pp. 502-507).
 - Affine scaling takes a steepest-descent-like step on the cost inside a scaling ellipsoid: [[Interior point method]], [[BT ch9 - Interior point methods]] (Lemma 9.2, p. 397).
 
-**Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `02_gradient_descent.ipynb`, `03_momentum.ipynb`.
+> [!example] 1D and 2D test functions (02-03)
+> $f(x)=x^4-3x^3+2$ from $x_0=2$, and the saddle function
+> $$f(x)=x_0^4-2x_0^2+x_1^2$$
+> used for gradient descent, momentum and Nesterov.
+
+**Covered in**: ASML book ml-software/optimization (ME 697 1.4)
+**Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `02_gradient_descent.ipynb`, `03_momentum.ipynb`, `09_gpu_training.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[ME697 1.4 - Optimization]] · [[Automatic differentiation]] · [[Pytree]]
+- [[Automatic differentiation]] · [[Pytree]]
 - [[Init and momentum (Sutskever 2013)]], [[Adam paper (Kingma 2015)]].
 - Large-model training recipes: [[DeepSeek-V2 (DeepSeek-AI 2024)]] (AdamW, stepwise learning rate decay).

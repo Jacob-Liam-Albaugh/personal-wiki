@@ -22,15 +22,15 @@ tags: [gp]
 - [[IFT thermal conductivity (Alberts 2026)]] — $k(u)=\exp(a_1+a_2u+\sum_{n=1}^{25}z_n\lambda_n^{1/2}\varphi_n(u))$ with exact Hermite eigenpairs of the SE kernel (eq. 10, App. A).
 
 Wiki note: [[PCA-Net]] uses the empirical version, PCA of sampled input and output functions, as its encoder and decoder.
-- KLE of a GP with a Nystrom implementation in JAX, truncation at 95% of $\sum_i\lambda_i$, and use as the input stage of a UQ pipeline (KLE in, PCA out, one GP per coefficient): [[ME697 3.1 - Functional inputs]] (source: `hup/funcin/04_kle.ipynb`, `05_up_example.ipynb`, `06_up_hout_example.ipynb`).
+- KLE of a GP with a Nystrom implementation in JAX, truncation at 95% of $\sum_i\lambda_i$, and use as the input stage of a UQ pipeline (KLE in, PCA out, one GP per coefficient) (source: `hup/funcin/04_kle.ipynb`, `05_up_example.ipynb`, `06_up_hout_example.ipynb`).
 - Same orthonormal-expansion device for random variables: [[Polynomial chaos]]. Data-driven counterpart: [[Principal component analysis]].
-- Wiki note: the book's KLE display has typos and the Nystrom eigenfunction extension is asymmetric for non-uniform weights; see [[ME697 3.1 - Functional inputs]].
+- Wiki note: the book's KLE display has typos and the Nystrom eigenfunction extension is asymmetric for non-uniform weights.
 - [[Proper orthogonal decomposition]]: the POD basis of a random field is its KL basis (Wiki note; the book treats them in separate chapters).
 
 > [!example] Homework 5, problem 3 (source: homework/05_homework.ipynb)
 > KL model of oil-reservoir permeability on $[0,356]\times[0,670]$ m, positive and conditioned on a geologist's estimate.
 
-- [[ME697 6.1 - Stochastic differential equations]] uses a KL expansion for the Brownian bridge (source: sinverse/sodes).
+- [[Stochastic differential equation]] uses a KL expansion for the Brownian bridge (source: sinverse/sodes).
 
 ## Queued sources
 Four KL papers in `Stochastic Methods/` (Alexanderian; Betz-Papaioannou-Straub; Deheuvels; Prakash et al.) should extend this page with the Mercer / convergence statements. Everything beyond the formula above is **[unverified]** until then.
@@ -40,10 +40,45 @@ Four KL papers in `Stochastic Methods/` (Alexanderian; Betz-Papaioannou-Straub; 
 - the expansion uses the same eigenfunctions as the RKHS basis, but with coefficients of variance one, so the sample has infinite RKHS norm (source: Kanagawa 2018, Thm 4.3, p. 31).
 
 ## Related / finite-dimensional analogue
-- The best m-term approximation of a vector in an orthogonal basis (keep the m largest coefficients) is the idea that the [[DFT]] page and [[ECE438 DSP.3.B - DT frequency analysis 2]] develop for fixed Fourier bases; Karhunen-Loève chooses the basis from the data. (source: Digital Signal Processing/Topic DSP.3.B DT frequency analysis Part 2 Jan 31, 2025.pdf, pp. 2-4)
-- See also [[ECE438 IP.5 - Image transforms and wavelets]].
+- The best m-term approximation of a vector in an orthogonal basis (keep the m largest coefficients) is the idea that the [[DFT]] page and [[DFT]] develop for fixed Fourier bases; Karhunen-Loève chooses the basis from the data. (source: Digital Signal Processing/Topic DSP.3.B DT frequency analysis Part 2 Jan 31, 2025.pdf, pp. 2-4)
+- See also [[Image transforms]].
 
-**Sources**: `26.10.22 - DeepONets.pdf`, `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
+## Gaussian random field expansion (book, hup/funcin/04)
+> [!definition] KLE of a GP
+> For $f\sim\mathrm{GP}(m,k)$:
+> $$f(\mathbf x)=m(\mathbf x)+\sum_{i=1}^{\infty}\xi_i\sqrt{\lambda_i}\,\phi_i(\mathbf x)$$
+> with independent $\xi_i\sim\mathcal N(0,1)$ and $(\lambda_i,\phi_i)$ the eigenpairs of the covariance operator,
+> $$\int k(\mathbf x,\mathbf x')\phi_i(\mathbf x')\,d\mathbf x'=\lambda_i\phi_i(\mathbf x)$$
+> Pointwise variance is $\sum_i\lambda_i\phi_i^2(\mathbf x)$ and the field energy is
+> $$\mathcal E[f]=\int\mathbb V[f(\mathbf x)]\,d\mathbf x=\sum_i\lambda_i$$
+> Truncate at the smallest $M$ with $\sum_{i\le M}\lambda_i\ge\alpha\sum_i\lambda_i$, typically $\alpha=0.95$. An infinite-dimensional field becomes $M$ standard normals.
+
+> [!algorithm] Nystrom KLE
+> 1. Quadrature points $\mathbf x_q$ with weights $w_q$ (uniform grid on $[0,1]$ or $[0,1]^2$).
+> 2. Eigendecompose the discretized operator $K_{qq'}w_{q'}$.
+> 3. Keep eigenvalues until the cumulative energy exceeds $\alpha$.
+> 4. Extend eigenfunctions off the grid by $\phi_i(\mathbf x)=\lambda_i^{-1}\sum_q v_{qi}\sqrt{w_q}\,k(\mathbf x,\mathbf x_q)$.
+> For a GP conditioned on data the same code expands the posterior GP, whose eigenfunctions are pinned near zero at observed inputs.
+
+- A larger lengthscale (smoother samples) gives faster eigenvalue decay, because the leading eigenfunctions are the smoothest.
+- Rough kernels need many terms: with the exponential kernel and $\alpha=0.8$ the sampled fields look too smooth; the truncation removed the roughness.
+
+> [!example] Stochastic heat equation to one number (05)
+> Steady rod $\frac{d}{dx}\big(c\,\frac{du}{dx}\big)=0$, $u(0)=1$, $u(1)=0$. Conductivity $c=\exp\{g\}$, $g\sim\mathrm{GP}(0,\,0.5\,k_{SE})$ with lengthscale 0.1, KLE with $\alpha=0.95$ on 1000 quadrature points; finite-volume solver (FiPy, 500 cells); quantity of interest $u(0.5)$.
+> 1. Draw 200 samples of $\boldsymbol\xi$, solve, keep $u(0.5)$; 80/20 train/test split.
+> 2. Fit an ARD squared-exponential GP from $\boldsymbol\xi$ to $u(0.5)$ by minibatch marginal likelihood with [[Adam]] (1000 steps, lr 0.01, batch 100).
+> 3. The parity plot is good; push 2000 new $\boldsymbol\xi$ through the cheap GP for a histogram of $u(0.5)$.
+> The whole-field version is on [[Principal component analysis]].
+
+Wiki notes on the book's section:
+- The KLE equation is printed with $\phi_i(\mathbf x')$ on the right (should be $\phi_i(\mathbf x)$) and the orthonormality integral mixes $\mathbf x$ and $\mathbf x'$.
+- The matrix $K_{qq'}w_{q'}$ is symmetric only for uniform weights, which the code uses; for general weights symmetrize with $w^{1/2}Kw^{1/2}$ before `eigh`. The default grid with weights $1/n_q$ is a crude rectangle rule.
+- In 1D, $c\,u'$ is constant, so $u(x)=1-\int_0^xc^{-1}\big/\int_0^1c^{-1}$ (derived here; handy to check the FiPy solver).
+- The text defines $c=c_0\exp\{g\}$ but the code sets $c_0=1$. Minibatches are drawn with replacement and batch 100 nearly equals the 160 training points, so duplicate inputs plus a $10^{-6}$ jitter condition the marginal likelihood poorly.
+- A log-Gaussian coefficient is positive but not bounded away from zero, so elliptic theory needs extra conditions **[unverified]**.
+
+**Covered in**: ASML book hup/funcin (ME 697 3.1); homework 5
+**Sources**: `26.10.22 - DeepONets.pdf`, `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `03_pca.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`, `06_up_hout_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

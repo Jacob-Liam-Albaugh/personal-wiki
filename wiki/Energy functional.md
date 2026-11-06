@@ -32,12 +32,13 @@ Evaluate $E$ by quadrature on the network output, with the boundary condition im
 > [!failure] Accuracy
 > The book found the energy loss less accurate than the residual loss on its example (source: energy.ipynb).
 
-**Wiki note**: the energy notebook contains a `kx`/`ky` slip in `tE_term1`; see [[ME697 5.1 - PINN basics]]. The energy form is the quadratic case of a [[Physics-informed prior]] energy.
+**Wiki note**: the energy notebook contains a `kx`/`ky` slip in `tE_term1`; see [[PINN]]. The energy form is the quadratic case of a [[Physics-informed prior]] energy.
 
+**Covered in**: ASML book pinns/basics (ME 697 5.1)
 **Sources**: `advanced-scientific-machine-learning/book/pinns/basics/energy.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[PINN]] · [[Physics-informed prior]] · [[Non-dimensionalization]] · [[ME697 5.1 - PINN basics]] · [[Information field theory]]
+- [[PINN]] · [[Physics-informed prior]] · [[Non-dimensionalization]] · [[Information field theory]]
