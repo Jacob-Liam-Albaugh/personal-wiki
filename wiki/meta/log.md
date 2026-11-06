@@ -106,3 +106,9 @@
 - Root folder renamed `Papers` → `personal-wiki`. Topic folders moved under `papers/`; ECE 270/311/438 and ME 697 (with the `advanced-scientific-machine-learning` repo) under `courses/`; `_text books` → `text_books/`, joined by Linear Optimization, the three Spivak books and Basu.
 - Every source path in pages, [[sources]] and tools rewritten; all `file:` paths resolve.
 - The `advanced-scientific-machine-learning` repo moved from `courses/ME 697/` to `text_books/`.
+
+## [2026-11-06] restructure | Textbook chapter pages folded into topic pages
+- Removed all 43 per-chapter book pages (Bertsimas-Tsitsiklis ch1-12, Bazaraa-Jarvis-Sherali ch1-12, Basu ch2-4, Polynomial Functors ch1-9, Seven Sketches ch1-7). Their content now lives on topic pages, each with a `**Covered in**` line naming the book and chapter.
+- Where two books cover a topic (simplex method, LP duality, polyhedra, network flows), they are merged on one page.
+- New topic pages: LP modelling, Simplex initialization and anticycling, Revised simplex method, LP sensitivity analysis, Complexity of linear programming, LP in practice, Affine scaling method, Path-following interior point methods, Network simplex method, Transportation problem, Assignment problem, Maximum flow problem, Shortest path problem, Out-of-kilter algorithm, Multicommodity flow, Column generation, Benders decomposition, Branch and bound, Lagrangian relaxation, Lagrangian duality, Subgradient method, Cutting-plane methods, Vertical and cartesian lens, Retrofunctor, Cofree comonoid on a polynomial, Topos, Signal flow graph, Hypergraph category.
+- Links to chapter pages were retargeted to the topic page holding that chapter's main content. [[sources]] and [[index]] were regenerated, and CLAUDE.md now says books fold into topics like course notes.

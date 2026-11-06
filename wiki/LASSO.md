@@ -33,8 +33,11 @@ Then $\log p(w_j)=-|w_j|/b+\text{const}$, and with a Gaussian likelihood the L1 
 ## Where it appears
 - Fitted per state in [[SINDy]] with `LassoCV`; on the Lorenz system `LassoCV` failed and sequentially thresholded least squares was used instead.
 
-**Covered in**: ASML book inverse/data (ME 697 4.7)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/data/01_lasso.ipynb`, `02_sindy_1.ipynb`, `03_sindy_2.ipynb`.
+## As a linear program
+The absolute-value trick of [[LP modelling]] turns $\min\sum c_i|x_i|$ with $c_i\ge0$ and linear constraints $\mathbf A\mathbf x\ge\mathbf b$ into an LP (BT p. 18, 1.3), which is the LP form of an $\ell_1$ penalty. In the constrained form above with a linear loss or an $\ell_1$ loss the whole problem is a [[Linear programming]] problem; with the squared loss it is a quadratic program.
+
+**Covered in**: ASML book inverse/data (ME 697 4.7); Bertsimas-Tsitsiklis ch. 1 §1.3 (absolute values, p. 18)
+**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/data/01_lasso.ipynb`, `02_sindy_1.ipynb`, `03_sindy_2.ipynb`; `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 1).
 **Last updated**: 2026-11-06
 
 ---
@@ -42,4 +45,4 @@ Then $\log p(w_j)=-|w_j|/b+\text{const}$, and with a Gaussian likelihood the L1 
 ## Related pages
 - [[Gradient descent]] · [[Weight initialization]]
 - [[SINDy]] · [[Neural ODE]]
-- The absolute-value trick turning $\min\sum c_i|x_i|$ into an LP is the LP form of $\ell_1$ penalties: [[BT ch1 - Introduction]] (p. 18, 1.3), [[Linear programming]].
+- [[LP modelling]] · [[Linear programming]]

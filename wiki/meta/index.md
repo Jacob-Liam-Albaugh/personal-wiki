@@ -7,30 +7,16 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | Page | Type | Title |
 |---|---|---|
 | [[Poly (Spivak 2020)]] | paper | Poly: An abundant categorical setting for mode-dependent dynamics |
-| [[Polynomial Functors ch1 - Representable functors]] | paper | Polynomial Functors ch1 - Representable functors |
-| [[Polynomial Functors ch2 - Polynomial functors]] | paper | Polynomial Functors ch2 - Polynomial functors |
-| [[Polynomial Functors ch3 - The category of polynomial functors]] | paper | Polynomial Functors ch3 - The category of polynomial functors |
-| [[Polynomial Functors ch4 - Dynamical systems as dependent lenses]] | paper | Polynomial Functors ch4 - Dynamical systems as dependent lenses |
-| [[Polynomial Functors ch5 - More categorical properties]] | paper | Polynomial Functors ch5 - More categorical properties |
-| [[Polynomial Functors ch6 - The composition product]] | paper | Polynomial Functors ch6 - The composition product |
-| [[Polynomial Functors ch7 - Polynomial comonoids and retrofunctors]] | paper | Polynomial Functors ch7 - Polynomial comonoids and retrofunctors |
-| [[Polynomial Functors ch8 - Categorical properties of polynomial comonoids]] | paper | Polynomial Functors ch8 - Categorical properties of polynomial comonoids |
-| [[Polynomial Functors ch9 - New horizons]] | paper | Polynomial Functors ch9 - New horizons |
 | [[Polynomial equipment interfaces (Bilionis 2026)]] | paper | Polynomial equipment interfaces and experimental protocols (Bilionis 2026) |
-| [[Seven Sketches ch1 - Generative effects]] | paper | Seven Sketches ch1 - Generative effects |
-| [[Seven Sketches ch2 - Resource theories]] | paper | Seven Sketches ch2 - Resource theories |
-| [[Seven Sketches ch3 - Databases]] | paper | Seven Sketches ch3 - Databases |
-| [[Seven Sketches ch4 - Collaborative design]] | paper | Seven Sketches ch4 - Collaborative design |
-| [[Seven Sketches ch5 - Signal flow graphs]] | paper | Seven Sketches ch5 - Signal flow graphs |
-| [[Seven Sketches ch6 - Electric circuits]] | paper | Seven Sketches ch6 - Electric circuits |
-| [[Seven Sketches ch7 - Logic of behavior]] | paper | Seven Sketches ch7 - Logic of behavior |
 | [[Adjunction]] | definition | Adjunction |
 | [[Category]] | definition | Category |
+| [[Cofree comonoid on a polynomial]] | theorem | Cofree comonoid on a polynomial |
 | [[Dependent lens]] | definition | Dependent lens |
 | [[Dynamical system as lens]] | definition | Dynamical system as a lens |
 | [[Enriched category]] | definition | Enriched category |
 | [[Functor]] | definition | Functor |
 | [[Galois connection]] | definition | Galois connection |
+| [[Hypergraph category]] | concept | Hypergraph category |
 | [[Modeled playability]] | definition | Modeled playability |
 | [[Monoidal category]] | definition | Monoidal category |
 | [[Moore machine]] | definition | Moore machine |
@@ -47,10 +33,14 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Protocol transport along a lens]] | method | Protocol transport along a lens |
 | [[Protocols are lenses]] | theorem | Protocols are lenses |
 | [[Quantale]] | definition | Quantale |
+| [[Retrofunctor]] | definition | Retrofunctor |
 | [[Same-position restriction lens]] | theorem | Same-position restriction lens |
 | [[Sequential protocol composition]] | method | Sequential protocol composition |
+| [[Signal flow graph]] | concept | Signal flow graph |
 | [[Supported experimental protocol]] | definition | Supported experimental protocol |
+| [[Topos]] | concept | Topos |
 | [[Universal property]] | concept | Universal property |
+| [[Vertical and cartesian lens]] | definition | Vertical and cartesian lens |
 | [[Yoneda lemma]] | theorem | Yoneda lemma |
 
 ## Operator learning
@@ -284,39 +274,19 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 
 | Page | Type | Title |
 |---|---|---|
-| [[BJS ch1 - Introduction]] | paper | BJS ch1 - Introduction |
-| [[BJS ch10 - Transportation and assignment problems]] | paper | BJS ch10 - Transportation and assignment problems |
-| [[BJS ch11 - The out-of-kilter algorithm]] | paper | BJS ch11 - The out-of-kilter algorithm |
-| [[BJS ch12 - Maximal flow shortest path multicommodity flow and network synthesis]] | paper | BJS ch12 - Maximal flow shortest path multicommodity flow and network synthesis |
-| [[BJS ch2 - Linear algebra convex analysis and polyhedral sets]] | paper | BJS ch2 - Linear algebra convex analysis and polyhedral sets |
-| [[BJS ch3 - The simplex method]] | paper | BJS ch3 - The simplex method |
-| [[BJS ch4 - Starting solution and convergence]] | paper | BJS ch4 - Starting solution and convergence |
-| [[BJS ch5 - Special simplex implementations and optimality conditions]] | paper | BJS ch5 - Special simplex implementations and optimality conditions |
-| [[BJS ch6 - Duality and sensitivity analysis]] | paper | BJS ch6 - Duality and sensitivity analysis |
-| [[BJS ch7 - The decomposition principle]] | paper | BJS ch7 - The decomposition principle |
-| [[BJS ch8 - Complexity of the simplex algorithm and polynomial-time algorithms]] | paper | BJS ch8 - Complexity of the simplex algorithm and polynomial-time algorithms |
-| [[BJS ch9 - Minimal cost network flows]] | paper | BJS ch9 - Minimal cost network flows |
-| [[BT ch1 - Introduction]] | paper | BT ch1 - Introduction |
-| [[BT ch10 - Integer programming formulations]] | paper | BT ch10 - Integer programming formulations |
-| [[BT ch11 - Integer programming]] | paper | BT ch11 - Integer programming |
-| [[BT ch12 - The art in linear optimization]] | paper | BT ch12 - The art in linear optimization |
-| [[BT ch2 - Geometry of linear programming]] | paper | BT ch2 - Geometry of linear programming |
-| [[BT ch3 - The simplex method]] | paper | BT ch3 - The simplex method |
-| [[BT ch4 - Duality theory]] | paper | BT ch4 - Duality theory |
-| [[BT ch5 - Sensitivity analysis]] | paper | BT ch5 - Sensitivity analysis |
-| [[BT ch6 - Large scale optimization]] | paper | BT ch6 - Large scale optimization |
-| [[BT ch7 - Network flows]] | paper | BT ch7 - Network flows |
-| [[BT ch8 - Complexity of LP and the ellipsoid method]] | paper | BT ch8 - Complexity of LP and the ellipsoid method |
-| [[BT ch9 - Interior point methods]] | paper | BT ch9 - Interior point methods |
-| [[Basu ch2 - Convex sets]] | paper | Basu ch2 - Convex sets |
-| [[Basu ch3 - Convex functions]] | paper | Basu ch3 - Convex functions |
-| [[Basu ch4 - Convex optimization]] | paper | Basu ch4 - Convex optimization |
 | [[Polyhedral representation theorem (n.d.)]] | paper | Polyhedral representation theorem (n.d.) |
 | [[Riemannian convergence (Sormani 2011)]] | paper | Riemannian convergence (Sormani 2011) |
 | [[Wavelets vs Fourier (Strang 1993)]] | paper | Wavelets vs Fourier (Strang 1993) |
+| [[Affine scaling method]] | method | Affine scaling method |
+| [[Assignment problem]] | method | Assignment problem |
 | [[Basic feasible solution]] | definition | Basic feasible solution |
+| [[Benders decomposition]] | method | Benders decomposition |
+| [[Branch and bound]] | method | Branch and bound |
+| [[Column generation]] | method | Column generation |
+| [[Complexity of linear programming]] | concept | Complexity of linear programming |
 | [[Convex function]] | definition | Convex function |
 | [[Convex set]] | definition | Convex set |
+| [[Cutting-plane methods]] | method | Cutting-plane methods |
 | [[Dantzig-Wolfe decomposition]] | method | Dantzig-Wolfe decomposition |
 | [[Dual simplex method]] | method | Dual simplex method |
 | [[Ellipsoid method]] | method | Ellipsoid method |
@@ -326,16 +296,31 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[KKT conditions]] | theorem | KKT conditions |
 | [[KL divergence]] | definition | Kullback-Leibler divergence |
 | [[LP duality]] | theorem | LP duality |
+| [[LP in practice]] | concept | LP in practice |
+| [[LP modelling]] | concept | LP modelling |
+| [[LP sensitivity analysis]] | method | LP sensitivity analysis |
+| [[Lagrangian duality]] | concept | Lagrangian duality |
+| [[Lagrangian relaxation]] | method | Lagrangian relaxation |
 | [[Laplace transform]] | definition | Laplace transform |
 | [[Linear programming]] | definition | Linear programming |
+| [[Maximum flow problem]] | method | Maximum flow problem |
 | [[Mercer's theorem]] | theorem | Mercer's theorem |
+| [[Multicommodity flow]] | method | Multicommodity flow |
 | [[Network flow problem]] | concept | Network flow problem |
+| [[Network simplex method]] | method | Network simplex method |
+| [[Out-of-kilter algorithm]] | method | Out-of-kilter algorithm |
+| [[Path-following interior point methods]] | method | Path-following interior point methods |
 | [[Polyhedron]] | definition | Polyhedron |
+| [[Revised simplex method]] | method | Revised simplex method |
+| [[Shortest path problem]] | method | Shortest path problem |
+| [[Simplex initialization and anticycling]] | method | Simplex initialization and anticycling |
 | [[Simplex method]] | method | Simplex method |
+| [[Subgradient method]] | method | Subgradient method |
+| [[Transportation problem]] | method | Transportation problem |
 | [[Wasserstein distance]] | definition | Wasserstein-2 distance |
 | [[Wavelet transform]] | concept | Wavelet transform |
 
-## Scientific ML (ASML book)
+## Scientific ML
 
 | Page | Type | Title |
 |---|---|---|

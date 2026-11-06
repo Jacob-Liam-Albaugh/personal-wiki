@@ -24,16 +24,16 @@ otherwise shrink $\alpha\leftarrow c_2\alpha$ and retry.
 
 ## Where it appears
 - [[Neural tangent kernel]] — gradient-descent dynamics of a network in function space are governed by the NTK; [[When and why PINNs fail (Wang 2022)]].
-- Subgradient optimization of the concave piecewise linear Lagrangean dual of an integer program, with step $\theta_t=\alpha_t(\hat Z_D-Z(\mathbf p^t))/\|\mathbf s^t\|^2$ (form read from text, unverified): [[BT ch11 - Integer programming]] (pp. 502-507).
-- Affine scaling takes a steepest-descent-like step on the cost inside a scaling ellipsoid: [[Interior point method]], [[BT ch9 - Interior point methods]] (Lemma 9.2, p. 397).
+- Subgradient optimization of the concave piecewise linear Lagrangean dual of an integer program, with step $\theta_t=\alpha_t(\hat Z_D-Z(\mathbf p^t))/\|\mathbf s^t\|^2$ (form read from text, unverified): [[Lagrangian relaxation]], [[Subgradient method]], [[Integer programming]] (BT pp. 502-507).
+- Affine scaling takes a steepest-descent-like step on the cost inside a scaling ellipsoid: [[Interior point method]] (BT Lemma 9.2, p. 397).
 
 > [!example] 1D and 2D test functions (02-03)
 > $f(x)=x^4-3x^3+2$ from $x_0=2$, and the saddle function
 > $$f(x)=x_0^4-2x_0^2+x_1^2$$
 > used for gradient descent, momentum and Nesterov.
 
-**Covered in**: ASML book ml-software/optimization (ME 697 1.4)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `02_gradient_descent.ipynb`, `03_momentum.ipynb`, `09_gpu_training.ipynb`.
+**Covered in**: ASML book ml-software/optimization (ME 697 1.4); Bertsimas-Tsitsiklis ch. 11 §11.4 (pp. 502-507) and ch. 9 (affine scaling step, p. 397), as cross-references only
+**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `02_gradient_descent.ipynb`, `03_momentum.ipynb`, `09_gpu_training.ipynb`; `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 9, 11).
 **Last updated**: 2026-11-06
 
 ---

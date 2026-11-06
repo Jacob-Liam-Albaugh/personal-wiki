@@ -109,13 +109,13 @@ A single source may touch 10-15 wiki pages. That is normal.
 
 **Ingest order.** Reading-group papers and lab (Bilionis) papers first, then the other
 research folders, then course notes. Textbooks and the ME 697 repo are **reference-only**: they
-are ingested chapter by chapter only when the user asks, or cited from a concept page to give
-another place to look. Long books (Seven Sketches, Poly, Polynomial Functors, BDA3, GPML) are
-ingested one chapter per source page (`spivak-niu-poly-ch1.md`, ...).
+are ingested only when the user asks, or cited from a concept page to give another place to
+look. Book chapters are never pages of their own: their content folds into topic pages, the same
+way as course notes (see Course notes).
 
 ## Page types and templates
 
-- `paper` — one research paper (or one book chapter)
+- `paper` — one research paper (never a book or book chapter)
 - `definition` — a defined object (Gaussian process, neural operator, polynomial functor, ...)
 - `theorem` — a named theorem, proposition, or lemma worth a standalone page
 - `method` — an algorithm or model (SGLD, DeepONet, PINN, Adam, SINDy, ...)
@@ -248,9 +248,11 @@ Navigation/bookkeeping pages (`index.md`, `log.md`, `sources.md`, `reading-group
 - [[...]]
 ```
 
-### Course notes
+### Course notes and textbooks
 
-Organise by topic, never by class. Lecture notes, slides and book sections from a course
+Organise by topic, never by class, book or chapter. Textbook chapters fold into topic pages the
+same way, e.g. `**Covered in**: Bertsimas-Tsitsiklis ch. 2 (pp. 42-57); Bazaraa-Jarvis-Sherali
+ch. 2`; when two books treat a topic, merge them on one page and note where they differ. Lecture notes, slides and book sections from a course
 (ECE 270, ECE 311, ECE 438, ME 697) are merged into the definition / method / concept page
 for their topic, with a plain-text line above `**Sources**:` naming where it was covered,
 e.g. `**Covered in**: ECE 438 IP.6, L34-L36` or `**Covered in**: ASML book up/polynomial_chaos
@@ -322,7 +324,7 @@ When asked to lint or audit the wiki:
   `text_books/` (including `advanced-scientific-machine-learning/`) is never touched.
 - Page names are short, readable titles, scannable in graph view. Concepts use the common
   name or acronym (`SGLD.md`, `ELBO.md`, `Classifier-free guidance.md`). Paper pages are
-  `<short name> (<Firstauthor> <year>).md` (e.g. `SGLD (Welling 2011).md`); book chapters are
-  `<Book short> ch<N> - <topic>.md` (e.g. `Seven Sketches ch1 - Generative effects.md`). No `: / # | ^ [ ] ?`.
+  `<short name> (<Firstauthor> <year>).md` (e.g. `SGLD (Welling 2011).md`). Never name a page
+  after a course, lecture, book or chapter. No `: / # | ^ [ ] ?`.
 - Write in clear, plain language.
 - When uncertain how to categorize something, ask the user.

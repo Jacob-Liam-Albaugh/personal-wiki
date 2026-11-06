@@ -26,6 +26,14 @@ tags: [category-theory]
 - Ex 4.7 (p. 86): moving in the plane, $\mathbb{R}^2 y^{\mathbb{R}^2} \to \mathbb{R}^2 y^{[0,\infty) \times [0, 2\pi)}$.
 - Ex 4.9 (p. 87): a function $f : A \to I$ is a memoryless Moore machine $Iy^I \to Iy^A$.
 
+- Ex 4.43 (p. 103): the do-nothing section. Ex 4.46 (p. 107): the repeater, which turns silences into repeated outputs. Ex 4.47 (p. 108): paddling, a machine with interface $\mathbb{N}y$ built from two intermediate constraints.
+- Ex 4.66 (p. 118): graphs as wiring diagrams and cellular automata.
+- Ex 6.43 (p. 199), Ex 6.44 (p. 200): the $n$-fold product $\varphi^{\triangleright n}$ and transition lenses of a state system ([[Poly composition product]]).
+
+## State systems as comonoids
+
+The state system $Sy^S$ carries a do-nothing section $\epsilon$ and a transition lens $\delta : Sy^S \to Sy^S \triangleright Sy^S$ (Ex 7.3, p. 228; Ex 7.6, p. 230 draws $3y^3$ as trees). Together they make $Sy^S$ a [[Polynomial comonoid]] (Ex 7.19, p. 238): the category with objects $S$ and exactly one morphism between each pair (Ex 7.38, p. 249). Not every polynomial comonoid is a state system (Ex 7.22; $y^2 + y$ is a comonoid, Ex 7.23, p. 239). Ex 7.13 (p. 236): a system returning every other position. A Moore machine is then a coalgebra, and retrofunctors between state categories are very well-behaved lenses (Ex 7.85, p. 266). See [[Retrofunctor]].
+
 ## Generalization
 
 - Replacing the interface $Iy^A$ by any polynomial $p$ gives a dependent dynamical system $Sy^S \to p$ (Def 4.18, p. 90): the available inputs may depend on the output. See [[Dynamical system as lens]].
@@ -34,9 +42,10 @@ tags: [category-theory]
 
 ## Where it appears
 
-[[Poly (Spivak 2020)]] · [[Polynomial Functors ch4 - Dynamical systems as dependent lenses]] · [[Dependent lens]]
+[[Poly (Spivak 2020)]] · [[Dependent lens]]
 
-**Sources**: Niu-Spivak, Polynomial Functors (2024), ch. 4 (pp. 83-90); Spivak, Poly (2020), Prop. 3.1. Page numbers are printed pages.
+**Covered in**: Niu-Spivak, Polynomial Functors ch. 4 (pp. 83-93, 103-118); ch. 6 (pp. 199-200); ch. 7 (pp. 228-239)
+**Sources**: Niu-Spivak, Polynomial Functors (2024), ch. 4, 6, 7; Spivak, Poly (2020), Prop. 3.1; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`. Page numbers are printed pages.
 **Last updated**: 2026-11-06
 
 ---

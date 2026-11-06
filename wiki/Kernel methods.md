@@ -48,7 +48,12 @@ Exact fit costs $O(N^3)$. Cheaper routes:
 - [[Duvenaud thesis (Duvenaud 2014)]]: designing and searching kernel structure.
 - [[Kernel integral operator]]: the operator whose eigenpairs give Mercer.
 
-**Sources**: Kanagawa et al. 2018 (`papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf`); Duvenaud 2014; Greengard and O'Neil 2022.
+## Convexity link
+
+The PSD cone is a [[Convex set]] (a convex cone), and a PSD Gram matrix is the quadratic-form convexity condition behind kernel ridge regression's convex objective ([[Convex function]]; Basu 2018, Thm 1.18, Thm 3.30, pp. 7, 52).
+
+**Covered in**: Basu, Introduction to Convexity ch. 1 and 3 (PSD facts, pp. 7, 52)
+**Sources**: `text_books/Mathmatics/Basu - Intro to Convexity.pdf` (ch. 1, 3); Kanagawa et al. 2018 (`papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf`); Duvenaud 2014; Greengard and O'Neil 2022.
 **Last updated**: 2026-11-06
 
 ---

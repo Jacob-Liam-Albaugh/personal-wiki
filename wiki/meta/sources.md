@@ -318,8 +318,8 @@ Regenerate the file list when files are added; keep the status column in sync on
 | File | Pages | Status | Notes |
 |---|---|---|---|
 | `Spivak - Poly.pdf` | 14 | ingested → [[Poly (Spivak 2020)]] |  |
-| `Spivak, Fong - Seven Sketches in Compositionality.pdf` | 354 | ingested → [[Seven Sketches ch1 - Generative effects]] |  |
-| `Spivak, Niu - Polynomial Functors.pdf` | 375 | ingested → [[Polynomial Functors ch7 - Polynomial comonoids and retrofunctors]] |  |
+| `Spivak, Fong - Seven Sketches in Compositionality.pdf` | 354 | ingested → [[Galois connection]] |  |
+| `Spivak, Niu - Polynomial Functors.pdf` | 375 | ingested → [[Polynomial comonoid]] |  |
 
 ## text_books/Computer Science
 
@@ -350,15 +350,15 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `BJS full book.pdf` | 764 | ingested → [[BJS ch1 - Introduction]] | old OCR text layer (748/764 pages); math garbled, read equations from page images |
-| `MIT (ch 1-2).pdf` | 80 | ingested → [[BT ch1 - Introduction]] |  |
-| `MIT (ch 1-5).pdf` | 605 | ingested → [[BT ch1 - Introduction]] | old OCR text layer (587/605 pages); math garbled, read equations from page images |
+| `BJS full book.pdf` | 764 | ingested → [[Linear programming]] | old OCR text layer (748/764 pages); math garbled, read equations from page images |
+| `MIT (ch 1-2).pdf` | 80 | ingested → [[Linear programming]] |  |
+| `MIT (ch 1-5).pdf` | 605 | ingested → [[Linear programming]] | old OCR text layer (587/605 pages); math garbled, read equations from page images |
 
 ## text_books/Mathmatics
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `Basu - Intro to Convexity.pdf` | 94 | ingested → [[Basu ch4 - Convex optimization]] |  |
+| `Basu - Intro to Convexity.pdf` | 94 | ingested → [[Lagrangian duality]] |  |
 | `Baysian Data Analysis 3rd ed.pdf` |  | reference |  |
 | `Differential Equations.pdf` |  | reference |  |
 | `Functional Inegration & Quantum Physics.pdf` |  | reference |  |

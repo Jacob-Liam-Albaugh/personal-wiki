@@ -77,11 +77,11 @@ $$Sy^S \to Iy^A$$
 
 ## Limitations
 
-A short extended abstract: proofs are mostly cited. The book [[Polynomial Functors ch1 - Representable functors]] onward supplies full statements. Notation differs: this paper writes $\circ$ for composition; the book defines $p \circ q$ (Def. 6.1, p. 180) and also writes it $p \triangleright q$ (Cor. 6.5, p. 180).
+A short extended abstract: proofs are mostly cited. The book [[Yoneda lemma]] onward supplies full statements. Notation differs: this paper writes $\circ$ for composition; the book defines $p \circ q$ (Def. 6.1, p. 180) and also writes it $p \triangleright q$ (Cor. 6.5, p. 180).
 
 ## Connections
 
-- Book treatment: [[Polynomial Functors ch3 - The category of polynomial functors]], [[Polynomial Functors ch6 - The composition product]], [[Polynomial Functors ch7 - Polynomial comonoids and retrofunctors]].
+- Book treatment: [[Dependent lens]], [[Poly composition product]], [[Polynomial comonoid]].
 - Applied use: [[Polynomial equipment interfaces (Bilionis 2026)]], [[Protocols are lenses]].
 - Background: [[Category]], [[Functor]], [[Natural transformation]], [[Monoidal category]].
 

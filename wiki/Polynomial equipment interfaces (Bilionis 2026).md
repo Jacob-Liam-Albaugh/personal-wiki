@@ -252,7 +252,7 @@ Wiki notes (not from the paper): (i) no associativity or unit laws are establish
 - Lens-based interface translation ([[Protocol transport along a lens]]) is the compositional-reuse mechanism: one protocol, many devices.
 
 %% refs:start %%
-**Cites in this wiki**: [[Poly (Spivak 2020)]], [[Polynomial Functors ch1 - Representable functors]]
+**Cites in this wiki**: [[Poly (Spivak 2020)]]
 %% refs:end %%
 
 **Sources**: `papers/DSL/Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`.
@@ -274,4 +274,4 @@ Wiki notes (not from the paper): (i) no associativity or unit laws are establish
 - [[Protocol transport along a lens]]
 - [[Sequential protocol composition]]
 - [[Same-position restriction lens]]
-- Background: [[Poly (Spivak 2020)]], [[Polynomial Functors ch6 - The composition product]].
+- Background: [[Poly (Spivak 2020)]], [[Poly composition product]].
