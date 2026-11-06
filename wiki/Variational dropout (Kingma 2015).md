@@ -3,7 +3,7 @@ type: paper
 area: bayesian
 areas: [bayesian, ml]
 source-ref: "Kingma, Salimans, Welling 2015, NIPS, §2.3, §3, eqs. 3-12"
-tags: [paper, bayesian, vi, ml]
+tags: [bayesian, vi, ml]
 authors: [Kingma, Salimans, Welling]
 year: 2015
 venue: "NIPS 2015 (Advances in Neural Information Processing Systems 28)"

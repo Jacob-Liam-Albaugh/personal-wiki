@@ -3,7 +3,7 @@ type: paper
 area: bayesian
 areas: [bayesian, ml]
 source-ref: "Kingma, Welling 2014, ICLR (arXiv:1312.6114v10), eqs. 1-10"
-tags: [paper, bayesian, vi, generative, ml]
+tags: [bayesian, vi, generative, ml]
 authors: [Kingma, Welling]
 year: 2014
 venue: "ICLR 2014 (arXiv:1312.6114v10, 1 May 2014)"

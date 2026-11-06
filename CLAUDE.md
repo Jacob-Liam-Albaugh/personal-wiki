@@ -37,7 +37,7 @@ The existing topic folders **are** the raw layer. They are not moved into a `raw
   _text books/                 -- textbooks; has its own git repo (git-lfs) -- read only
   advanced-scientific-machine-learning/ -- ME 697 jupyter-book repo; its own git repo -- read only
 wiki/                          -- markdown pages maintained by Claude (flat; Obsidian vault root)
-wiki/meta/                     -- navigation / bookkeeping scaffolding (tagged meta)
+wiki/meta/                     -- navigation / bookkeeping scaffolding (hidden from graph by path)
 wiki/meta/index.md             -- table of contents for the whole wiki, one section per area
 wiki/meta/log.md               -- append-only record of all operations
 wiki/meta/sources.md           -- inventory of every source file and its ingest status
@@ -121,7 +121,8 @@ type: paper | lecture | definition | theorem | method | concept
 area: <slug>
 areas: [<slug>, ...]          # optional, extra areas
 source-ref: "<short pointer, e.g. 'Welling, Teh 2011, eq. 4' or 'Topic DSP.6, §3'>"
-tags: [paper, <topic>, ...]   # status tags plus topic tags, see below
+tags: [<topic>, ...]          # topic tags only, see below
+status: lead                  # only on stubs not built from an ingested source
 ---
 ```
 
@@ -137,27 +138,18 @@ file: "Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin
 Lecture pages add `course:` (`ece438`, `ece270`, `ece311`, `me697`) and `lecture:` (the
 file's own label, e.g. `DSP.3.E`, `L22`, `lect_14`, `week 07 10_03`).
 
-Tags:
+Tags are topics only, never page type, provenance or status.
 
-- `lab` — a paper authored by Bilionis or his group.
-- `reading-group` — discussed in the PSL reading group (also listed in `reading-group.md`).
-- `lead` — a stub created from a citation or from memory, not from an ingested source; see
-  Sources below.
-- `meta` — navigation scaffolding (below).
-- `paper` — every paper page.
-
-Topic tags (several per page; graph view colours by them, first match wins in this order):
+Topics (several per page; graph view colours by them, first match wins in this order):
 `diffusion`, `generative`, `sampling`, `mcmc`, `vi`, `ift`, `bayesian`, `inverse-problems`,
 `operators`, `physics-informed`, `category-theory`, `mechanics`, `symmetry`, `gp`, `pde`, `ml`.
 A new topic tag is recorded here before it is used.
 
 ### Meta pages (hidden from graph view)
 
-Navigation/bookkeeping pages carry `tags: [meta]` so graph view can hide them with
-`-tag:#meta`. Apply it to `index.md`, `log.md`, `sources.md`, `reading-group.md`, and area
-overview lists that only duplicate links. Do **not** tag substantive overview pages that carry
-real content (e.g. a comparison of DeepONet and FNO). Meta pages need only `tags: [meta]`, and
-live in `wiki/meta/`.
+Navigation/bookkeeping pages (`index.md`, `log.md`, `sources.md`, `reading-group.md`) live in
+`wiki/meta/` and carry no tags. Graph view hides them with the filter `-path:meta`, and
+`.obsidian/app.json` excludes the folder.
 
 ### Obsidian callouts
 
@@ -268,7 +260,7 @@ other notation on its own source page.
    give another place to look, or to fix notation.
 4. **Claude's background knowledge** may fill gaps only when labelled. A claim with no
    ingested source is marked **[unverified]**. A page created from a citation or from memory
-   (no source read) carries the `lead` tag and a one-line note saying so.
+   (no source read) carries `status: lead` and a one-line note saying so.
 
 ### Citation format
 
@@ -300,7 +292,7 @@ When asked to lint or audit the wiki:
 - Contradictions between pages
 - Orphan pages (no inbound links)
 - Concepts mentioned on several pages that lack their own page
-- `lead` pages whose source is now in the folder and could be ingested
+- `status: lead` pages whose source is now in the folder and could be ingested
 - `sources.md` drift: files on disk missing from the inventory, or inventory rows whose file is gone
 - Frontmatter completeness and template conformance per `type`
 - Report findings as a numbered list with suggested fixes

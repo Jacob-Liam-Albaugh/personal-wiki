@@ -3,7 +3,7 @@ type: paper
 area: operators
 areas: [operators, ml]
 source-ref: "Lu, Jin, Pang, Zhang, Karniadakis 2021, Nat. Mach. Intell. 3, 218-229"
-tags: [reading-group, paper, operators, ml]
+tags: [operators, ml]
 authors: [Lu, Jin, Pang, Zhang, Karniadakis]
 year: 2021
 venue: "Nature Machine Intelligence 3, 218-229"

@@ -3,7 +3,7 @@ type: paper
 area: ift
 areas: [ift, stochastic]
 source-ref: "Wang 2026, Phys. Rev. Fluids 11, 090502"
-tags: [paper, diffusion, generative, inverse-problems, pde]
+tags: [diffusion, generative, inverse-problems, pde]
 authors: [Wang]
 year: 2026
 venue: "Physical Review Fluids 11, 090502 (Invited Article)"

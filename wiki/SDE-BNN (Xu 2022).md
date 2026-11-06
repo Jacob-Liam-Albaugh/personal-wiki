@@ -3,7 +3,7 @@ type: paper
 area: bayesian
 areas: [bayesian, stochastic]
 source-ref: "Xu, Chen, Li, Duvenaud 2022 (AISTATS), eqs. 3-12"
-tags: [paper, bayesian, vi, ml]
+tags: [bayesian, vi, ml]
 authors: [Xu, Chen, Li, Duvenaud]
 year: 2022
 venue: "AISTATS 2022 (PMLR 151); arXiv:2102.06559v4"

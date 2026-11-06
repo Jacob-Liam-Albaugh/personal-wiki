@@ -3,7 +3,7 @@ type: paper
 area: stochastic
 areas: [stochastic, ml]
 source-ref: "Ho, Jain, Abbeel 2020, NeurIPS, eqs. 1-7, 11-14; Alg. 1-2; Tables 1-2"
-tags: [paper, diffusion, generative, ml]
+tags: [diffusion, generative, ml]
 authors: [Ho, Jain, Abbeel]
 year: 2020
 venue: "NeurIPS 2020 (arXiv:2006.11239v2)"

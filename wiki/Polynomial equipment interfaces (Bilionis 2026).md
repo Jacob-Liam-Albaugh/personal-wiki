@@ -3,7 +3,7 @@ type: paper
 area: dsl
 areas: [dsl]
 source-ref: "Bilionis 2026, Polynomial Equipment Interfaces and Experimental Protocols (Sept 2026)"
-tags: [lab, paper, category-theory]
+tags: [category-theory]
 authors: [Bilionis]
 year: 2026
 venue: "preprint (September 2026)"

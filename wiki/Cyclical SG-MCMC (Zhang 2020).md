@@ -3,7 +3,7 @@ type: paper
 area: ift
 areas: [ift, bayesian, stochastic]
 source-ref: "Zhang, Li, Zhang, Chen, Wilson 2020, ICLR, eq. 1, Alg. 1, Thm. 1-2"
-tags: [paper, sampling, mcmc, bayesian]
+tags: [sampling, mcmc, bayesian]
 authors: [Zhang, Li, Zhang, Chen, Wilson]
 year: 2020
 venue: "ICLR"

@@ -3,7 +3,7 @@ type: paper
 area: operators
 areas: [operators, math]
 source-ref: "Cao, Goswami, Karniadakis 2023, arXiv:2303.10528v2, eqs. 8-18"
-tags: [paper, operators, ml, pde]
+tags: [operators, ml, pde]
 authors: [Cao, Goswami, Karniadakis]
 year: 2023
 venue: "arXiv:2303.10528v2 [cs.LG], preprint submitted to Elsevier, 30-31 May 2023"

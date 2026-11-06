@@ -3,7 +3,7 @@ type: paper
 area: stochastic
 areas: [stochastic, ml]
 source-ref: "Ho, Salimans 2022, arXiv:2207.12598v1, eqs. 1-6, Alg. 1-2, Tables 1-2"
-tags: [paper, diffusion, generative, ml]
+tags: [diffusion, generative, ml]
 authors: [Ho, Salimans]
 year: 2022
 venue: "arXiv:2207.12598v1 (26 Jul 2022); short version at NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications"

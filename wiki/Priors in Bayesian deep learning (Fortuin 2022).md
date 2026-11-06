@@ -3,7 +3,7 @@ type: paper
 area: bayesian
 areas: [bayesian, gp, ml]
 source-ref: "Fortuin 2022 (arXiv:2105.06868v3), eqs. 8-11, 24, 30-34, 36"
-tags: [paper, bayesian, ml]
+tags: [bayesian, ml]
 authors: [Fortuin]
 year: 2022
 venue: "arXiv preprint (stat.ML), v3 18 Mar 2022"

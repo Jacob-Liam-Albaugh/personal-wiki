@@ -3,7 +3,7 @@ type: paper
 area: stochastic
 areas: [stochastic, ml]
 source-ref: "Song, Sohl-Dickstein, Kingma, Kumar, Ermon, Poole 2021, ICLR, eqs. 5-7, 11-13, 29; Alg. 1-5"
-tags: [paper, diffusion, generative, sampling]
+tags: [diffusion, generative, sampling]
 authors: [Song, Sohl-Dickstein, Kingma, Kumar, Ermon, Poole]
 year: 2021
 venue: "ICLR 2021 (arXiv:2011.13456v2, 10 Feb 2021)"

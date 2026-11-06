@@ -3,7 +3,7 @@ type: paper
 area: ift
 areas: [ift, bayesian, physics-informed]
 source-ref: "Alberts, Bilionis 2023, J. Comput. Phys. 486, 112100"
-tags: [lab, paper, ift, bayesian, physics-informed, inverse-problems, sampling]
+tags: [ift, bayesian, physics-informed, inverse-problems, sampling]
 authors: [Alberts, Bilionis]
 year: 2023
 venue: "Journal of Computational Physics 486, 112100"

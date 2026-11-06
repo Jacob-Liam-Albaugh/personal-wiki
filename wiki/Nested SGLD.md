@@ -2,7 +2,7 @@
 type: method
 area: ift
 areas: [ift, bayesian]
-tags: [lab, sampling, mcmc, ift]
+tags: [sampling, mcmc, ift]
 source-ref: "Alberts & Bilionis 2023, eqs. 24-27, Alg. 3, App. B; Alberts et al. 2026, eq. 13"
 ---
 

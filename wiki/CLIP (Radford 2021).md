@@ -3,7 +3,7 @@ type: paper
 area: ml
 areas: [ml]
 source-ref: "Radford et al. 2021, ICML (PMLR 139), Fig. 3 pseudocode, §2.1-2.5, §3.1-3.4, §6; supplementary Apps. A-I"
-tags: [paper, ml, generative]
+tags: [ml, generative]
 authors: [Radford, Kim, Hallacy, Ramesh, Goh, Agarwal, Sastry, Askell, Mishkin, Clark, Krueger, Sutskever]
 year: 2021
 venue: "ICML 2021 (PMLR 139)"

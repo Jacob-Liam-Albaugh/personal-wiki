@@ -1,7 +1,3 @@
----
-tags: [meta]
----
-
 # Index
 
 Every wiki page, by primary area. Papers first, then the other page types. Inventory of source files: [[sources]]. Reading group: [[reading-group]]. History: [[log]].

@@ -3,7 +3,7 @@ type: paper
 area: bayesian
 areas: [bayesian, stochastic]
 source-ref: "Zhu, Zabaras 2018 (J. Comput. Phys.), Alg. 1, eqs. 11-17"
-tags: [paper, bayesian, operators, ml]
+tags: [bayesian, operators, ml]
 authors: [Zhu, Zabaras]
 year: 2018
 venue: "Journal of Computational Physics (preprint submitted Jan 2018; arXiv:1801.06879v1)"

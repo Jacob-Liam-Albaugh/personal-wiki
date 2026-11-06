@@ -3,7 +3,7 @@ type: paper
 area: operators
 areas: [operators, ml, pde]
 source-ref: "Li, Kovachki, Azizzadenesheli, Liu, Bhattacharya, Stuart, Anandkumar 2021, ICLR 2021; arXiv:2010.08895v3"
-tags: [paper, operators, ml, pde]
+tags: [operators, ml, pde]
 authors: [Li, Kovachki, Azizzadenesheli, Liu, Bhattacharya, Stuart, Anandkumar]
 year: 2021
 venue: "ICLR 2021; arXiv:2010.08895v3"

@@ -3,7 +3,7 @@ type: paper
 area: stochastic
 areas: [stochastic, ml]
 source-ref: "Song, Meng, Ermon 2021, ICLR, eqs. 5-7, 9-16; Thm. 1; Prop. 1; Tables 1-3"
-tags: [paper, diffusion, generative, sampling]
+tags: [diffusion, generative, sampling]
 authors: [Song, Meng, Ermon]
 year: 2021
 venue: "ICLR 2021 (arXiv:2010.02502v4)"

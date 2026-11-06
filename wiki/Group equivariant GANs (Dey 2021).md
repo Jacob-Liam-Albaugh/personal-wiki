@@ -3,7 +3,7 @@ type: paper
 area: symmetry
 areas: [symmetry, ml]
 source-ref: "Dey, Chen, Ghafurian 2021, ICLR, §3-4, Tables 1-4"
-tags: [paper, symmetry, generative, ml]
+tags: [symmetry, generative, ml]
 authors: [Dey, Chen, Ghafurian]
 year: 2021
 venue: "ICLR 2021 (arXiv:2005.01683v2, 30 Mar 2021)"

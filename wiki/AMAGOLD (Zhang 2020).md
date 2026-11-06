@@ -3,7 +3,7 @@ type: paper
 area: ift
 areas: [ift, bayesian, stochastic]
 source-ref: "Zhang, Cooper, De Sa 2020, AISTATS, Alg. 2, eq. 6, Thm. 1-2"
-tags: [paper, sampling, mcmc, bayesian]
+tags: [sampling, mcmc, bayesian]
 authors: [Zhang, Cooper, De Sa]
 year: 2020
 venue: "AISTATS (PMLR 108)"

@@ -1,7 +1,3 @@
----
-tags: [meta]
----
-
 # Source inventory
 
 Every source file in the Papers folder and its ingest status. Status values: **ingested** (source page exists), **queued** (not yet read), **reference** (textbook; ingested by chapter on request), **alias** (Finder alias, ~1 KB, not a PDF), **duplicate** (another copy is the canonical source).

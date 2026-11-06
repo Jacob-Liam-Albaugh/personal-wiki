@@ -1,7 +1,3 @@
----
-tags: [meta]
----
-
 # PSL reading group
 
 | Date | Paper | Page |

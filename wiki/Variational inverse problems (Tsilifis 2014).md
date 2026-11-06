@@ -3,7 +3,7 @@ type: paper
 area: bayesian
 areas: [inverse-problems]
 source-ref: "Tsilifis, Bilionis, Katsounaros, Zabaras 2014, arXiv:1410.5522"
-tags: [lab, paper, bayesian, vi, inverse-problems]
+tags: [bayesian, vi, inverse-problems]
 authors: [Tsilifis, Bilionis, Katsounaros, Zabaras]
 year: 2014
 venue: "arXiv:1410.5522 (stat.ML), submitted to Inverse Problems"

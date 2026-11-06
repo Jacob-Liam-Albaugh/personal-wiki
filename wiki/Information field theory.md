@@ -2,7 +2,7 @@
 type: concept
 area: ift
 areas: [ift, bayesian]
-tags: [lab, ift, bayesian]
+tags: [ift, bayesian]
 source-ref: "Alberts & Bilionis 2023, eqs. 2-11, 18, pp. 4-7"
 ---
 

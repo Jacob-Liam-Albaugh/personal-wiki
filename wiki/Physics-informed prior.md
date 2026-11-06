@@ -2,7 +2,7 @@
 type: definition
 area: ift
 areas: [ift, physics-informed]
-tags: [lab, ift, physics-informed, bayesian]
+tags: [ift, physics-informed, bayesian]
 source-ref: "Alberts & Bilionis 2023, eqs. 12-15, 20-21, pp. 6-10"
 ---
 

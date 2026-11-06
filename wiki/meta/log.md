@@ -1,7 +1,3 @@
----
-tags: [meta]
----
-
 # Log
 
 ## 2026-11-06 — setup and first ingest
@@ -71,3 +67,7 @@ tags: [meta]
   - [[ELBO]]: the diffusion bound.
 - Renamed all pages to short readable titles, rewrote every link, and added topic tags. Graph view colours nodes by tag, and meta/ is excluded from it.
 - Open flag: the DDIM γ-independence claim depends on there being no parameter sharing across $t$ (p. 4).
+
+## [2026-11-06] tags | topic tags only
+- Removed the `paper`, `lab`, `reading-group` and `meta` tags. Tags are now topics only; stubs use `status: lead` frontmatter.
+- Checked links across the rename: all 734 earlier page-to-page links survive, and there are 868 now. Restored graph.json, which Obsidian had overwritten (tag nodes on, colour groups gone).

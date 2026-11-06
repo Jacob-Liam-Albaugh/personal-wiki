@@ -3,7 +3,7 @@ type: paper
 area: ift
 areas: [ift, bayesian, stochastic]
 source-ref: "Zhang, Wilson, De Sa 2022, ICML (PMLR 162), Alg. 1-2, Thm. 1-3"
-tags: [paper, sampling, mcmc]
+tags: [sampling, mcmc]
 authors: [Zhang, Wilson, De Sa]
 year: 2022
 venue: "ICML (PMLR 162)"

@@ -3,7 +3,7 @@ type: paper
 area: bayesian
 areas: [inverse-problems, scientific-machine-learning]
 source-ref: "Karumuri, Bilionis 2024, arXiv:2305.20004v3"
-tags: [lab, paper, bayesian, vi, inverse-problems, ml]
+tags: [bayesian, vi, inverse-problems, ml]
 authors: [Karumuri, Bilionis]
 year: 2024
 venue: "arXiv:2305.20004v3 (stat.ML), 28 May 2024 (preprint; no journal given in the PDF)"

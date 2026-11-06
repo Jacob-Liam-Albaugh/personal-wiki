@@ -3,7 +3,7 @@ type: paper
 area: operators
 areas: [operators, ml, math]
 source-ref: "Kovachki, Lanthaler, Stuart 2024, arXiv:2402.15715v1, §3-5"
-tags: [paper, operators, ml]
+tags: [operators, ml]
 authors: [Kovachki, Lanthaler, Stuart]
 year: 2024
 venue: "arXiv:2402.15715v1 [cs.LG], 24 Feb 2024 (dated 27 Feb 2024); review article"

@@ -3,7 +3,7 @@ type: paper
 area: operators
 areas: [operators, ml, pde]
 source-ref: "Kovachki, Li, Liu, Azizzadenesheli, Bhattacharya, Stuart, Anandkumar 2022, JMLR 23 (2022) 1-97"
-tags: [paper, operators, ml]
+tags: [operators, ml]
 authors: [Kovachki, Li, Liu, Azizzadenesheli, Bhattacharya, Stuart, Anandkumar]
 year: 2022
 venue: "JMLR 23 (2022) 1-97; arXiv:2108.08481v6"

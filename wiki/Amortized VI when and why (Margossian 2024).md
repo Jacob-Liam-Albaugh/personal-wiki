@@ -3,7 +3,7 @@ type: paper
 area: bayesian
 areas: [variational-inference]
 source-ref: "Margossian, Blei 2024, UAI, arXiv:2307.11018v4"
-tags: [paper, bayesian, vi]
+tags: [bayesian, vi]
 authors: [Margossian, Blei]
 year: 2024
 venue: "UAI 2024 (40th Conference on Uncertainty in Artificial Intelligence)"

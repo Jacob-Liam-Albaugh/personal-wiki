@@ -3,7 +3,7 @@ type: paper
 area: ift
 areas: [ift, bayesian, physics-informed]
 source-ref: "Alberts, Thomas, Daryabeigi, Bilionis 2026, arXiv:2601.15427v1"
-tags: [lab, paper, ift, bayesian, physics-informed, inverse-problems]
+tags: [ift, bayesian, physics-informed, inverse-problems]
 authors: [Alberts, Thomas, Daryabeigi, Bilionis]
 year: 2026
 venue: "arXiv:2601.15427v1 (Jan 2026)"

@@ -3,7 +3,7 @@ type: paper
 area: ift
 areas: [ift, bayesian, stochastic]
 source-ref: "Welling, Teh 2011, ICML, eq. 4"
-tags: [paper, sampling, mcmc, bayesian]
+tags: [sampling, mcmc, bayesian]
 authors: [Welling, Teh]
 year: 2011
 venue: "ICML (Proceedings of the 28th International Conference on Machine Learning)"

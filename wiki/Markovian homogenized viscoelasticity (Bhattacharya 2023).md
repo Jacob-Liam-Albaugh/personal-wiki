@@ -3,7 +3,7 @@ type: paper
 area: operators
 areas: [operators, physics-informed]
 source-ref: "Bhattacharya, Liu, Stuart, Trautner 2023, Multiscale Model. Simul. 21(2), 641-679"
-tags: [reading-group, paper, operators, mechanics, ml]
+tags: [operators, mechanics, ml]
 authors: [Bhattacharya, Liu, Stuart, Trautner]
 year: 2023
 venue: "SIAM Multiscale Modeling & Simulation 21(2), 641-679"
