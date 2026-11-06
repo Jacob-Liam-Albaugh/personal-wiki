@@ -21,6 +21,11 @@
 - 4 Operators/ papers and 2 generative papers (score SDE, Group Equivariant GANs) ingested.
 - 17 concept pages added and diffusion-models rewritten as a hub. Sub-topics live as sections on hub pages.
 
+## Done (batch 4)
+- 5 Diffusion/ papers ingested: DDPM, DDIM, classifier-free guidance, CLIP (with its supplement), and the Nakkiran tutorial. The Song and Wang copies in Diffusion/ are duplicates.
+- 8 concept pages added: DDPM, DDIM, noise prediction, noise schedule, classifier guidance, classifier-free guidance, contrastive learning, zero-shot transfer. Updated Diffusion models, Flow matching, Score matching (Tweedie's formula) and ELBO (the diffusion bound).
+- **Renamed every page to a readable title** (e.g. `SGLD (Welling 2011)`, `ELBO`), with all links rewritten. Every page now carries topic tags, and graph view colours nodes by them. The naming and tag rules are in CLAUDE.md.
+
 ## Queue (about 172 files), in this order
 IFT/ is fully ingested (batch 1). The user's priority after Operators: generative models, then the advanced SciML course book.
 1. Bayesian/ — the remaining papers.

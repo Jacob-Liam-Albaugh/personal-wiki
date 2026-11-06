@@ -12,35 +12,48 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `26.10.22 - DeepONets.pdf` | 12 | ingested → [[lu-2021-deeponet]] |  |
-| `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf` | 39 | ingested → [[bhattacharya-2023-markovian-homogenized-viscoelasticity]] |  |
+| `26.10.22 - DeepONets.pdf` | 12 | ingested → [[DeepONet (Lu 2021)]] |  |
+| `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf` | 39 | ingested → [[Markovian homogenized viscoelasticity (Bhattacharya 2023)]] |  |
 
 ## Bayesian
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
 | `Baysian Data Analysis 3rd ed` |  | alias | points to _text books/Mathmatics/Baysian Data Analysis 3rd ed.pdf |
-| `Bilionis, Alberts - Physics Informed Information Field Theory.pdf` | 32 | ingested → [[alberts-2023-pift]] | arXiv preprint of the JCP 2023 paper in IFT/ |
-| `Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf` | 49 | ingested → [[karumuri-2024-amortized-vi-inverse-problems]] |  |
+| `Bilionis, Alberts - Physics Informed Information Field Theory.pdf` | 32 | ingested → [[PIFT (Alberts 2023)]] | arXiv preprint of the JCP 2023 paper in IFT/ |
+| `Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf` | 49 | ingested → [[Amortized VI for inverse problems (Karumuri 2024)]] |  |
 | `Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression` |  | alias | points to Guassian Processes/ copy |
-| `Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf` | 23 | ingested → [[tsilifis-2014-variational-inverse-problems]] |  |
-| `Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf` | 18 | ingested → [[xu-2022-sde-bnn]] |  |
-| `Fortuin - Priors in Bayesian Deep Learning.pdf` | 28 | ingested → [[fortuin-2022-priors-in-bdl]] |  |
-| `Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf` | 14 | ingested → [[kingma-2014-aevb]] |  |
-| `Kingma, Welling - Intro to Variational Autoencoders.pdf` | 44 | ingested → [[kingma-2019-intro-vae]] | incomplete: front matter, ch. 1 and appendix only; ch. 2-5 missing |
-| `Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf` | 9 | ingested → [[kingma-2015-variational-dropout]] | main text only; appendices A-F missing |
-| `Margossian, Blei - Amortized Variational Inference When & Why.pdf` | 16 | ingested → [[margossian-2024-amortized-vi-when-why]] |  |
-| `Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf` | 8 | ingested → [[welling-2011-sgld]] | duplicate (identical file) of the IFT/ copy |
-| `Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf` | 52 | ingested → [[zhu-2018-bayesian-denseed-surrogate]] |  |
+| `Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf` | 23 | ingested → [[Variational inverse problems (Tsilifis 2014)]] |  |
+| `Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf` | 18 | ingested → [[SDE-BNN (Xu 2022)]] |  |
+| `Fortuin - Priors in Bayesian Deep Learning.pdf` | 28 | ingested → [[Priors in Bayesian deep learning (Fortuin 2022)]] |  |
+| `Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf` | 14 | ingested → [[VAE paper (Kingma 2014)]] |  |
+| `Kingma, Welling - Intro to Variational Autoencoders.pdf` | 44 | ingested → [[Intro to VAEs (Kingma 2019)]] | incomplete: front matter, ch. 1 and appendix only; ch. 2-5 missing |
+| `Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf` | 9 | ingested → [[Variational dropout (Kingma 2015)]] | main text only; appendices A-F missing |
+| `Margossian, Blei - Amortized Variational Inference When & Why.pdf` | 16 | ingested → [[Amortized VI when and why (Margossian 2024)]] |  |
+| `Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf` | 8 | ingested → [[SGLD (Welling 2011)]] | duplicate (identical file) of the IFT/ copy |
+| `Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf` | 52 | ingested → [[Bayesian DenseED surrogate (Zhu 2018)]] |  |
 
 ## DSL
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf` | 16 | ingested → [[bilionis-2026-polynomial-equipment-interfaces]] |  |
+| `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf` | 16 | ingested → [[Polynomial equipment interfaces (Bilionis 2026)]] |  |
 | `Spivak - Poly.pdf` | 14 | queued |  |
 | `Spivak, Fong - Seven Sketches in Compositionality.pdf` | 354 | queued |  |
 | `Spivak, Niu - Polynomial Functors.pdf` | 375 | queued |  |
+
+## Diffusion
+
+| File | Pages | Status | Notes |
+|---|---|---|---|
+| `Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf` | 25 | ingested → [[DDPM (Ho 2020)]] |  |
+| `Ho, Salimans - Classifier-Free Diffusion Guidance.pdf` | 14 | ingested → [[Classifier-free guidance (Ho 2022)]] |  |
+| `Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf` | 77 | ingested → [[Step-by-step diffusion (Nakkiran 2025)]] |  |
+| `Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf` | 25 | ingested → [[CLIP (Radford 2021)]] |  |
+| `Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf` | 16 | ingested → [[CLIP (Radford 2021)]] |  |
+| `Song et al - Score-Based Generative Modeling through Stochastic Differential Equations.pdf` | 36 | ingested → [[Score SDE (Song 2021)]] | same ICLR 2021 text as the Stochastic Methods/ copy (different file bytes) |
+| `Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf` | 22 | ingested → [[DDIM (Song 2021)]] |  |
+| `Wang - Generative priors for spatiotemporal turbulence.pdf` | 24 | ingested → [[Generative priors for turbulence (Wang 2026)]] | duplicate (identical file) of the IFT/ copy |
 
 ## Digital Signal Processing
 
@@ -195,13 +208,13 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `Bilionis, Alberts - IFT Thermal Conductivity.pdf` | 25 | ingested → [[alberts-2026-ift-thermal-conductivity]] |  |
-| `Bilionis, Alberts - IFT.pdf` | 30 | ingested → [[alberts-2023-pift]] |  |
-| `Ruqi Zhang - AMAGOLD.pdf` | 10 | ingested → [[zhang-2020-amagold]] |  |
-| `Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf` | 27 | ingested → [[zhang-2020-cyclical-sg-mcmc]] |  |
-| `Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf` | 21 | ingested → [[zhang-2022-low-precision-sgld]] |  |
-| `Wang - Generative priors for spatiotemporal turbulence.pdf` | 24 | ingested → [[wang-2026-generative-priors-turbulence]] |  |
-| `Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf` | 8 | ingested → [[welling-2011-sgld]] |  |
+| `Bilionis, Alberts - IFT Thermal Conductivity.pdf` | 25 | ingested → [[IFT thermal conductivity (Alberts 2026)]] |  |
+| `Bilionis, Alberts - IFT.pdf` | 30 | ingested → [[PIFT (Alberts 2023)]] |  |
+| `Ruqi Zhang - AMAGOLD.pdf` | 10 | ingested → [[AMAGOLD (Zhang 2020)]] |  |
+| `Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf` | 27 | ingested → [[Cyclical SG-MCMC (Zhang 2020)]] |  |
+| `Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf` | 21 | ingested → [[Low-precision SGLD (Zhang 2022)]] |  |
+| `Wang - Generative priors for spatiotemporal turbulence.pdf` | 24 | ingested → [[Generative priors for turbulence (Wang 2026)]] |  |
+| `Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf` | 8 | ingested → [[SGLD (Welling 2011)]] |  |
 
 ## LLMs
 
@@ -251,11 +264,11 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf` | 19 | ingested → [[cao-2023-lno]] |  |
-| `Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf` | 22 | ingested → [[lu-2021-deeponet]] | arXiv preprint of the Nature MI 2021 paper read in the reading group |
-| `Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf` | 16 | ingested → [[li-2021-fno]] |  |
-| `Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf` | 97 | ingested → [[kovachki-2022-neural-operator]] |  |
-| `Stuart - Operator Leraning - Algorithms and Analysis.pdf` | 36 | ingested → [[kovachki-2024-operator-learning-review]] |  |
+| `Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf` | 19 | ingested → [[LNO (Cao 2023)]] |  |
+| `Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf` | 22 | ingested → [[DeepONet (Lu 2021)]] | arXiv preprint of the Nature MI 2021 paper read in the reading group |
+| `Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf` | 16 | ingested → [[FNO (Li 2021)]] |  |
+| `Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf` | 97 | ingested → [[Neural operator (Kovachki 2022)]] |  |
+| `Stuart - Operator Leraning - Algorithms and Analysis.pdf` | 36 | ingested → [[Operator learning review (Kovachki 2024)]] |  |
 
 ## Physics Informed Architectures
 
@@ -285,7 +298,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Deheuvels - Karhunen-Loeve Expantions of mean-centered Wiener Processes.pdf` | 15 | queued |  |
 | `Einstein - Brownian Movement.pdf` | 11 | queued |  |
 | `Karniadakis, Xiu - The Weiner - Askey Polynomial Chaos for Stochastic Differential Equations.pdf` | 26 | queued |  |
-| `Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf` | 36 | ingested → [[song-2021-score-sde]] |  |
+| `Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf` | 36 | ingested → [[Score SDE (Song 2021)]] |  |
 | `Li - Construction of Brownian Motion.pdf` | 12 | queued |  |
 | `Prakash, Sun, Chakrabarti, Che - Quantum Option Pricing via the Karhunen-Loéve Expansion.pdf` | 25 | queued |  |
 | `Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics` |  | alias | points to Bayesian/ copy |
@@ -294,7 +307,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `Dey, Chen, Ghafurian - Group Equivariant GANs.pdf` | 28 | ingested → [[dey-2021-group-equivariant-gans]] |  |
+| `Dey, Chen, Ghafurian - Group Equivariant GANs.pdf` | 28 | ingested → [[Group equivariant GANs (Dey 2021)]] |  |
 | `Geiger, Smidt - e3nn Euclidean Neural Networks.pdf` | 22 | queued |  |
 | `Ling - Reynolds Turbulence Modelling DNN with Embedded Invariance.pdf` | 12 | queued |  |
 | `Quiroga, Ronchetti - Data Augmentaion for Rotational Invariance in CNNs.pdf` | 16 | queued |  |
@@ -365,4 +378,4 @@ Jupyter-book source in `advanced-scientific-machine-learning/book/`, chapters fr
 
 ## Totals
 
-alias: 8, ingested: 28, queued: 172, reference: 35
+alias: 8, ingested: 36, queued: 172, reference: 35

@@ -68,7 +68,7 @@ Every content page has one primary `area` and may list more in `areas`. Area slu
 | `ml` | deep-learning foundations: optimizers, init, architectures, spectral bias | `ML/`, `LLMs/` |
 | `operators` | operator learning: DeepONet, FNO, LNO, neural operators | `Operators/` |
 | `physics-informed` | PINNs, HNN/LNN, neural ODEs, SINDy, NIF | `Physics Informed Architectures/` |
-| `stochastic` | Brownian motion, Karhunen-Loève, polynomial chaos, SDEs, score models | `Stochastic Methods/`, `Generative ML/` |
+| `stochastic` | Brownian motion, Karhunen-Loève, polynomial chaos, SDEs, score models, diffusion | `Stochastic Methods/`, `Generative ML/`, `Diffusion/` |
 | `symmetry` | equivariance and invariance in networks | `Symmetries/` |
 | `gp` | Gaussian processes and kernel methods | `Guassian Processes/` |
 | `math` | convexity, linear optimization, transforms | `Math/`, `Linear Optimization/`, `Transforms/` |
@@ -121,7 +121,7 @@ type: paper | lecture | definition | theorem | method | concept
 area: <slug>
 areas: [<slug>, ...]          # optional, extra areas
 source-ref: "<short pointer, e.g. 'Welling, Teh 2011, eq. 4' or 'Topic DSP.6, §3'>"
-tags: []                      # optional: meta, reading-group, lab, lead
+tags: [paper, <topic>, ...]   # status tags plus topic tags, see below
 ---
 ```
 
@@ -144,6 +144,12 @@ Tags:
 - `lead` — a stub created from a citation or from memory, not from an ingested source; see
   Sources below.
 - `meta` — navigation scaffolding (below).
+- `paper` — every paper page.
+
+Topic tags (several per page; graph view colours by them, first match wins in this order):
+`diffusion`, `generative`, `sampling`, `mcmc`, `vi`, `ift`, `bayesian`, `inverse-problems`,
+`operators`, `physics-informed`, `category-theory`, `mechanics`, `symmetry`, `gp`, `pde`, `ml`.
+A new topic tag is recorded here before it is used.
 
 ### Meta pages (hidden from graph view)
 
@@ -306,7 +312,9 @@ When asked to lint or audit the wiki:
 - Git tracks only `wiki/`, `notes/`, `CLAUDE.md`, `.gitignore`; commit after each ingest or
   batch of edits on `main`. Local only: no remotes, no pushes. The nested repos in
   `_text books/` and `advanced-scientific-machine-learning/` are never touched.
-- Page names lowercase with hyphens. Source pages: `<firstauthor>-<year>-<short-title>.md`
-  (e.g. `welling-2011-sgld.md`); lecture pages: `<course>-<lecture>.md` (e.g. `ece438-dsp-3e-fft.md`).
+- Page names are short, readable titles, scannable in graph view. Concepts use the common
+  name or acronym (`SGLD.md`, `ELBO.md`, `Classifier-free guidance.md`). Paper pages are
+  `<short name> (<Firstauthor> <year>).md` (e.g. `SGLD (Welling 2011).md`); lecture pages are
+  `<COURSE> <lecture> - <topic>.md` (e.g. `ECE438 DSP.3.E - FFT.md`). No `: / # | ^ [ ] ?`.
 - Write in clear, plain language.
 - When uncertain how to categorize something, ask the user.

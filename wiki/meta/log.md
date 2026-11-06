@@ -29,11 +29,11 @@ tags: [meta]
 
 ## 2026-11-06 — Bayesian batch
 - Ingested 9 papers from Bayesian/:
-  - lab VI: [[tsilifis-2014-variational-inverse-problems]], [[karumuri-2024-amortized-vi-inverse-problems]];
-  - [[margossian-2024-amortized-vi-when-why]];
-  - Kingma: [[kingma-2014-aevb]], [[kingma-2015-variational-dropout]], [[kingma-2019-intro-vae]];
-  - [[xu-2022-sde-bnn]], [[fortuin-2022-priors-in-bdl]], [[zhu-2018-bayesian-denseed-surrogate]].
-- Wrote 13 concept pages: [[variational-inference]], [[evidence-lower-bound]], [[kl-divergence]], [[reparameterization-trick]], [[amortized-variational-inference]], [[normalizing-flows]], [[bayesian-inverse-problems]], [[variational-autoencoder]], [[local-reparameterization-trick]], [[variational-dropout]], [[bayesian-neural-networks]], [[stein-variational-gradient-descent]], [[gaussian-process]]. The wiki now has 70 pages; [[sources]] shows 22 ingested and 178 queued.
+  - lab VI: [[Variational inverse problems (Tsilifis 2014)]], [[Amortized VI for inverse problems (Karumuri 2024)]];
+  - [[Amortized VI when and why (Margossian 2024)]];
+  - Kingma: [[VAE paper (Kingma 2014)]], [[Variational dropout (Kingma 2015)]], [[Intro to VAEs (Kingma 2019)]];
+  - [[SDE-BNN (Xu 2022)]], [[Priors in Bayesian deep learning (Fortuin 2022)]], [[Bayesian DenseED surrogate (Zhu 2018)]].
+- Wrote 13 concept pages: [[Variational inference]], [[ELBO]], [[KL divergence]], [[Reparameterization trick]], [[Amortized VI]], [[Normalizing flows]], [[Bayesian inverse problems]], [[VAE]], [[Local reparameterization trick]], [[Variational dropout]], [[Bayesian neural networks]], [[SVGD]], [[Gaussian process]]. The wiki now has 70 pages; [[sources]] shows 22 ingested and 178 queued.
 - Incomplete PDFs:
   - Intro to VAEs has only ch. 1 and the appendix.
   - Variational Dropout has no appendices.
@@ -44,15 +44,15 @@ tags: [meta]
   - Tsilifis Alg. 1 prints $w_i=1/N$ where $1/L$ is meant.
 
 ## 2026-11-06 — Operators and generative batch
-- Ingested 4 papers from Operators/: [[kovachki-2022-neural-operator]], [[li-2021-fno]], [[cao-2023-lno]], [[kovachki-2024-operator-learning-review]].
-- Ingested 2 generative papers: [[song-2021-score-sde]] (Stochastic Methods/; the Generative ML/ entry is an alias) and [[dey-2021-group-equivariant-gans]] (Symmetries/).
+- Ingested 4 papers from Operators/: [[Neural operator (Kovachki 2022)]], [[FNO (Li 2021)]], [[LNO (Cao 2023)]], [[Operator learning review (Kovachki 2024)]].
+- Ingested 2 generative papers: [[Score SDE (Song 2021)]] (Stochastic Methods/; the Generative ML/ entry is an alias) and [[Group equivariant GANs (Dey 2021)]] (Symmetries/).
 - New concept pages:
-  - operators: [[neural-operator]], [[kernel-integral-operator]], [[fourier-neural-operator]], [[laplace-neural-operator]], [[laplace-transform]], [[discretization-invariance]], [[encoder-decoder-architecture]], [[pca-net]], [[random-features-model]], [[curse-of-parametric-complexity]];
-  - benchmarks: [[darcy-flow]], [[burgers-equation]], [[navier-stokes-equations]];
-  - generative: [[score-matching]], [[fokker-planck-equation]], [[generative-adversarial-network]], [[equivariance]].
-- Rewrote [[diffusion-models]] as a hub. Small sub-topics are sections on hub pages, not separate pages (e.g. graph and low-rank NO on [[neural-operator]], VE/VP SDEs on [[diffusion-models]]).
-- Updated [[operator-learning]], [[deeponet]], [[universal-approximation-theorem-for-operators]], [[flow-matching]], [[diffusion-posterior-sampling]], [[langevin-dynamics]], [[normalizing-flows]], [[karhunen-loeve-expansion]], [[gaussian-process]].
-- Checked against page images: Score-SDE Table 1; LNO eq. 3 really omits the factor $s$ (noted on [[laplace-transform]]).
+  - operators: [[Neural operator]], [[Kernel integral operator]], [[FNO]], [[LNO]], [[Laplace transform]], [[Discretization invariance]], [[Encoder-decoder operators]], [[PCA-Net]], [[Random features model]], [[Curse of parametric complexity]];
+  - benchmarks: [[Darcy flow]], [[Burgers equation]], [[Navier-Stokes equations]];
+  - generative: [[Score matching]], [[Fokker-Planck equation]], [[GAN]], [[Equivariance]].
+- Rewrote [[Diffusion models]] as a hub. Small sub-topics are sections on hub pages, not separate pages (e.g. graph and low-rank NO on [[Neural operator]], VE/VP SDEs on [[Diffusion models]]).
+- Updated [[Operator learning]], [[DeepONet]], [[Universal approximation for operators]], [[Flow matching]], [[Diffusion posterior sampling]], [[Langevin dynamics]], [[Normalizing flows]], [[Karhunen-Loève expansion]], [[Gaussian process]].
+- Checked against page images: Score-SDE Table 1; LNO eq. 3 really omits the factor $s$ (noted on [[Laplace transform]]).
 - Open flags:
   - LNO Fig. 3 values were read by eye (±0.02, **[unverified]**). By those readings the GRU beats LNO in 3 cases.
   - LNO's "exponential convergence" claim is never analysed in the paper.
@@ -60,3 +60,14 @@ tags: [meta]
   - Review Thm 4.1 prints the composition in the wrong order.
   - Burgers FNO error is about 8× lower in the JMLR paper than in ICLR (0.0018 vs 0.0139-0.0160); the text does not say why.
   - Kovachki JMLR table page cites are approximate.
+
+## 2026-11-06 — Diffusion batch, renames, topic tags
+- Ingested 5 papers from Diffusion/: [[DDPM (Ho 2020)]], [[DDIM (Song 2021)]], [[Classifier-free guidance (Ho 2022)]], [[CLIP (Radford 2021)]] (main text and supplement), and [[Step-by-step diffusion (Nakkiran 2025)]]. The Diffusion/ copies of Song 2021 and Wang 2026 are duplicates.
+- New concept pages: [[DDPM]], [[DDIM]], [[Noise prediction]], [[Noise schedule]], [[Classifier guidance]], [[Classifier-free guidance]], [[Contrastive learning]], [[Zero-shot transfer]].
+- Updated:
+  - [[Diffusion models]]: discrete-time links, a Guidance section, DDIM Prop. 1;
+  - [[Flow matching]]: linear flows, DDIM as a flow;
+  - [[Score matching]]: a Tweedie's formula section;
+  - [[ELBO]]: the diffusion bound.
+- Renamed all pages to short readable titles, rewrote every link, and added topic tags. Graph view colours nodes by tag, and meta/ is excluded from it.
+- Open flag: the DDIM γ-independence claim depends on there being no parameter sharing across $t$ (p. 4).
