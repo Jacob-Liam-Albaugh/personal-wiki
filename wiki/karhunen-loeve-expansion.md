@@ -20,6 +20,8 @@ source-ref: "Lu et al. 2021, p. 9"
 - [[alberts-2023-pift]] — Ex. 3b: 10-term KLE of a squared-exponential GP (lengthscale 0.3, >99% variance) via Nyström.
 - [[alberts-2026-ift-thermal-conductivity]] — $k(u)=\exp(a_1+a_2u+\sum_{n=1}^{25}z_n\lambda_n^{1/2}\varphi_n(u))$ with exact Hermite eigenpairs of the SE kernel (eq. 10, App. A).
 
+Wiki note: [[pca-net]] uses the empirical version, PCA of sampled input and output functions, as its encoder and decoder.
+
 ## Queued sources
 Four KL papers in `Stochastic Methods/` (Alexanderian; Betz-Papaioannou-Straub; Deheuvels; Prakash et al.) should extend this page with the Mercer / convergence statements. Everything beyond the formula above is **[unverified]** until then.
 
@@ -29,4 +31,4 @@ Four KL papers in `Stochastic Methods/` (Alexanderian; Betz-Papaioannou-Straub; 
 ---
 
 ## Related pages
-- [[deeponet]]
+- [[deeponet]] · [[pca-net]]

@@ -251,11 +251,11 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf` | 19 | queued |  |
+| `Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf` | 19 | ingested → [[cao-2023-lno]] |  |
 | `Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf` | 22 | ingested → [[lu-2021-deeponet]] | arXiv preprint of the Nature MI 2021 paper read in the reading group |
-| `Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf` | 16 | queued |  |
-| `Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf` | 97 | queued |  |
-| `Stuart - Operator Leraning - Algorithms and Analysis.pdf` | 36 | queued |  |
+| `Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf` | 16 | ingested → [[li-2021-fno]] |  |
+| `Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf` | 97 | ingested → [[kovachki-2022-neural-operator]] |  |
+| `Stuart - Operator Leraning - Algorithms and Analysis.pdf` | 36 | ingested → [[kovachki-2024-operator-learning-review]] |  |
 
 ## Physics Informed Architectures
 
@@ -285,7 +285,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Deheuvels - Karhunen-Loeve Expantions of mean-centered Wiener Processes.pdf` | 15 | queued |  |
 | `Einstein - Brownian Movement.pdf` | 11 | queued |  |
 | `Karniadakis, Xiu - The Weiner - Askey Polynomial Chaos for Stochastic Differential Equations.pdf` | 26 | queued |  |
-| `Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf` | 36 | queued |  |
+| `Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf` | 36 | ingested → [[song-2021-score-sde]] |  |
 | `Li - Construction of Brownian Motion.pdf` | 12 | queued |  |
 | `Prakash, Sun, Chakrabarti, Che - Quantum Option Pricing via the Karhunen-Loéve Expansion.pdf` | 25 | queued |  |
 | `Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics` |  | alias | points to Bayesian/ copy |
@@ -294,7 +294,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `Dey, Chen, Ghafurian - Group Equivariant GANs.pdf` | 28 | queued |  |
+| `Dey, Chen, Ghafurian - Group Equivariant GANs.pdf` | 28 | ingested → [[dey-2021-group-equivariant-gans]] |  |
 | `Geiger, Smidt - e3nn Euclidean Neural Networks.pdf` | 22 | queued |  |
 | `Ling - Reynolds Turbulence Modelling DNN with Embedded Invariance.pdf` | 12 | queued |  |
 | `Quiroga, Ronchetti - Data Augmentaion for Rotational Invariance in CNNs.pdf` | 16 | queued |  |
@@ -365,4 +365,4 @@ Jupyter-book source in `advanced-scientific-machine-learning/book/`, chapters fr
 
 ## Totals
 
-alias: 8, ingested: 22, queued: 178, reference: 35
+alias: 8, ingested: 28, queued: 172, reference: 35

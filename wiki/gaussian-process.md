@@ -30,4 +30,4 @@ Hyperparameters fit by maximising the marginal likelihood (eq. 35).
 - [[zhu-2018-bayesian-denseed-surrogate]]: GPs as the surrogate baseline that scales badly in input dimension; the input field itself is a GP sampled by [[karhunen-loeve-expansion]].
 
 ## Related pages
-- [[bayesian-neural-networks]] · [[information-field-theory]]
+- [[random-features-model]] (kernel link, Kovachki et al. 2024 p. 11) · [[bayesian-neural-networks]] · [[information-field-theory]]

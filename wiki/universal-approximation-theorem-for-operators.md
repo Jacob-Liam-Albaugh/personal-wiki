@@ -21,14 +21,33 @@ source-ref: "Chen & Chen 1995, as Theorem 1 in Lu et al. 2021; Theorem 2, p. 3"
 
 **Intuition / when to use it**: it guarantees existence only: no rate, no bound on $m$, $p$. Rates for ODE operators come from Theorem 3 on [[deeponet]].
 
+## Later forms
+> [!theorem] Neural operators (Kovachki et al. 2022, Thms 11-14, pp. 50-51)
+> - Thm 11: for continuous $\mathcal G^\dagger$ and compact $K$, some [[neural-operator]] is within $\varepsilon$ uniformly on $K$.
+> - Thm 12: the same for inputs in $C^{m_1}$, with derivative inputs.
+> - Thm 13: approximation in $L^2_\mu$ for measurable $\mathcal G^\dagger$.
+> - Thm 14: the $L^2_\mu$ analogue for $C^{m_1}$ inputs.
+
+> [!theorem] Review statements (Kovachki et al. 2024, §4, pp. 12-15)
+> - Thm 4.1: [[encoder-decoder-architecture|encoder-decoder nets]] are universal between Banach spaces with the approximation property.
+> - Thm 4.2: Chen-Chen restated with sensor encoder, shallow branch and trunk.
+> - Thm 4.4: [[pca-net]] is universal.
+> - Thm 4.5 and Cor. 4.6: neural operators are universal, which covers [[fourier-neural-operator|FNO]].
+
+> [!warning]
+> The review prints Thm 4.1's composition as $F_U\circ\alpha\circ G_V$. Read it as $G_V\circ\alpha\circ F_U$.
+
+None of these give rates. For lower bounds see [[curse-of-parametric-complexity]].
+
 ## Where it appears
 - [[lu-2021-deeponet]] — the basis of the architecture.
+- [[kovachki-2022-neural-operator]], [[kovachki-2024-operator-learning-review]].
 - [[bhattacharya-2023-markovian-homogenized-viscoelasticity]] — cited (p. 6, ref. [6]) in the literature review.
 
-**Sources**: `26.10.22 - DeepONets.pdf`.
+**Sources**: `26.10.22 - DeepONets.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
 ---
 
 ## Related pages
-- [[deeponet]] · [[operator-learning]]
+- [[deeponet]] · [[operator-learning]] · [[neural-operator]]

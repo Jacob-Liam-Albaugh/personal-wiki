@@ -29,10 +29,26 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | Page | Type | Title |
 |---|---|---|
 | [[bhattacharya-2023-markovian-homogenized-viscoelasticity]] | paper | Learning Markovian homogenized models in viscoelasticity (Bhattacharya 2023) |
+| [[cao-2023-lno]] | paper | LNO: Laplace Neural Operator (Cao 2023) |
+| [[kovachki-2022-neural-operator]] | paper | Neural Operator: learning maps between function spaces (Kovachki 2022) |
+| [[kovachki-2024-operator-learning-review]] | paper | Operator Learning: Algorithms and Analysis (Kovachki 2024) |
+| [[li-2021-fno]] | paper | Fourier Neural Operator for parametric PDEs (Li 2021) |
 | [[lu-2021-deeponet]] | paper | Learning nonlinear operators via DeepONet (Lu 2021) |
+| [[burgers-equation]] | concept | Burgers' equation (benchmark) |
+| [[curse-of-parametric-complexity]] | theorem | Curse of parametric complexity |
+| [[darcy-flow]] | concept | Darcy flow (benchmark) |
 | [[deeponet]] | method | DeepONet |
+| [[discretization-invariance]] | definition | Discretization invariance |
+| [[encoder-decoder-architecture]] | concept | Encoder-decoder architecture (operator learning) |
+| [[fourier-neural-operator]] | method | Fourier neural operator (FNO) |
+| [[kernel-integral-operator]] | definition | Kernel integral operator |
+| [[laplace-neural-operator]] | method | Laplace neural operator (LNO) |
 | [[markovian-homogenized-constitutive-model]] | definition | Markovian homogenized constitutive model |
+| [[navier-stokes-equations]] | concept | Navier-Stokes equations (2-D vorticity benchmark) |
+| [[neural-operator]] | method | Neural operator |
 | [[operator-learning]] | concept | Operator learning |
+| [[pca-net]] | method | PCA-Net |
+| [[random-features-model]] | method | Random features model (operator) |
 | [[recurrent-constitutive-model]] | method | Recurrent constitutive model |
 | [[universal-approximation-theorem-for-operators]] | theorem | Universal approximation theorem for operators |
 
@@ -64,11 +80,15 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 
 | Page | Type | Title |
 |---|---|---|
+| [[song-2021-score-sde]] | paper | Score-Based Generative Modeling Through SDEs (Song 2021) |
 | [[amagold]] | method | AMAGOLD (amortized Metropolis adjustment) |
 | [[cyclical-sg-mcmc]] | method | Cyclical SG-MCMC |
+| [[diffusion-models]] | method | Diffusion models (score-based SDE view) |
+| [[fokker-planck-equation]] | definition | Fokker-Planck equation |
 | [[karhunen-loeve-expansion]] | definition | Karhunen-Loève expansion |
 | [[langevin-dynamics]] | definition | Langevin dynamics |
 | [[metropolis-hastings-correction]] | method | Metropolis-Hastings correction |
+| [[score-matching]] | method | Score matching |
 | [[stochastic-gradient-hmc]] | method | Stochastic-gradient HMC (and HMC) |
 | [[stochastic-gradient-langevin-dynamics]] | method | Stochastic gradient Langevin dynamics (SGLD) |
 | [[stochastic-gradient-mcmc]] | concept | Stochastic-gradient MCMC |
@@ -100,9 +120,9 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 
 | Page | Type | Title |
 |---|---|---|
-| [[diffusion-models]] | method | Diffusion models (score-based SDE view) |
 | [[diffusion-posterior-sampling]] | method | Conditioning generative priors (posterior sampling) |
 | [[flow-matching]] | method | Flow matching |
+| [[generative-adversarial-network]] | concept | Generative adversarial network (GAN) |
 | [[local-reparameterization-trick]] | method | Local reparameterization trick |
 | [[normalizing-flows]] | method | Normalizing flows |
 | [[variational-autoencoder]] | method | Variational autoencoder (VAE) |
@@ -113,6 +133,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | Page | Type | Title |
 |---|---|---|
 | [[kl-divergence]] | definition | Kullback-Leibler divergence |
+| [[laplace-transform]] | definition | Laplace transform |
 | [[wasserstein-distance]] | definition | Wasserstein-2 distance |
 
 ## Planned pages (linked, not yet written)

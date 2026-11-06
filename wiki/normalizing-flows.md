@@ -28,6 +28,7 @@ $$H=\tfrac d2\log(2\pi e)+\mathbb E\log|\det\partial G/\partial Z_0|.$$
 - [[karumuri-2024-amortized-vi-inverse-problems]]: the flow guide recovers the two-mode kinematics posterior.
 - [[xu-2022-sde-bnn]]: flow-based BNN posteriors as prior work.
 - [[fortuin-2022-priors-in-bdl]]: flow priors for VAEs (eq. 39).
+- [[song-2021-score-sde]]: the probability-flow ODE is a continuous flow with exact likelihood (eq. 39); Table 2 compares it with RealNVP, Glow, FFJORD and Flow++.
 - [[kingma-2019-intro-vae]]: ch. 3 (IAF) is listed in the contents but missing from the PDF.
 
 **Sources**: `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.

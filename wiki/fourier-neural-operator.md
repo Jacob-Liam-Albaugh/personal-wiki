@@ -1,0 +1,51 @@
+---
+type: method
+area: operators
+areas: [operators, ml]
+source-ref: "Li et al. 2021, eqs. 2, 4-5, Def. 3, p. 5"
+---
+
+# Fourier neural operator (FNO)
+
+> [!algorithm] Fourier layer (Li et al. 2021, eqs. 2, 4-5, p. 5)
+> $$v_{t+1}(x)=\sigma\big(Wv_t(x)+(\mathcal K(\phi)v_t)(x)\big)$$
+> $$(\mathcal K(\phi)v_t)(x)=\mathcal F^{-1}\big(R_\phi\cdot(\mathcal Fv_t)\big)(x)$$
+> $$(R\cdot\mathcal Fv_t)_{k,l}=\sum_jR_{k,l,j}\,(\mathcal Fv_t)_{k,j}$$
+> Only the lowest $k_{\max}$ modes are kept. $R\in\mathbb C^{k_{\max}\times d_v\times d_v}$, with $R(-k)=R^*(k)$ so outputs are real.
+>
+> (source: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, p. 5)
+
+**Intuition**: a [[kernel-integral-operator]] with a translation-invariant kernel $\kappa(x-y)$ is a convolution, which is diagonal in Fourier space. Learn the diagonal directly and truncate it. The local term $W$ restores high frequencies and non-periodic boundary behaviour (p. 9).
+
+## Practicalities
+- With the FFT the cost is $O(n\log n)$; the FFT needs a uniform grid.
+- Defaults: $k_{\max}=16$ in 1-D, $12$ in 2-D; 4 Fourier layers.
+- Hyperparameters in the review's notation: width $d_c$, cutoff $k_{\max}$, depth $L$ (source: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, §3.3, pp. 8-9).
+- Universality follows from the averaging-operator result, because the zero mode makes a constant kernel available (review Cor. 4.6, p. 15). See [[universal-approximation-theorem-for-operators]].
+
+## Benchmarks (relative $L^2$ error)
+| Problem | FNO | Next best | Source |
+|---|---|---|---|
+| [[burgers-equation]], $\nu=0.1$, $s=256$-$8192$ | 0.0139-0.0160 | low-rank NO 0.0189-0.0221 | Li et al. 2021, Table 3, p. 15 |
+| [[burgers-equation]] (JMLR retune) | 0.0018-0.0020 | | Kovachki et al. 2022 |
+| [[darcy-flow]] | 0.0098-0.0109 | DeepONet 0.046-0.049 | Kovachki et al. 2022, Table 2 |
+| [[navier-stokes-equations]], $\nu=10^{-3}$, $N=200$ | 0.0098 (FNO-3D, $s=64$) | | Kovachki et al. 2022, Table 5 |
+
+> [!warning] Name clash
+> In the FNO and Neural Operator papers "LNO" means the **low-rank** neural operator, not the [[laplace-neural-operator]].
+
+The JMLR Burgers numbers are about 8× lower than the ICLR ones. The JMLR run drops batch norm and is retuned; the paper gives no other reason (Wiki note). Train-coarse, test-fine results are on [[discretization-invariance#Zero-shot super-resolution|zero-shot super-resolution]].
+
+## Where it appears
+- [[li-2021-fno]]: introduces it.
+- [[kovachki-2022-neural-operator]]: one of four [[neural-operator]] parametrizations, the best in nearly all tests.
+- [[cao-2023-lno]]: the 4-layer baseline that LNO beats with one Laplace layer.
+- [[kovachki-2024-operator-learning-review]]: a nonlinear-manifold architecture.
+
+**Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
+**Last updated**: 2026-11-06
+
+---
+
+## Related pages
+- [[neural-operator]] · [[laplace-neural-operator]] · [[deeponet]] · [[operator-learning]]

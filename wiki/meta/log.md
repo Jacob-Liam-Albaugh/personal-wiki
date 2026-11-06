@@ -42,3 +42,21 @@ tags: [meta]
   - The Zhu & Zabaras equations were garbled in extraction. The SVGD form is standard and marked **[unverified]**.
   - The Fortuin NTK recursion is marked **[unverified]**.
   - Tsilifis Alg. 1 prints $w_i=1/N$ where $1/L$ is meant.
+
+## 2026-11-06 — Operators and generative batch
+- Ingested 4 papers from Operators/: [[kovachki-2022-neural-operator]], [[li-2021-fno]], [[cao-2023-lno]], [[kovachki-2024-operator-learning-review]].
+- Ingested 2 generative papers: [[song-2021-score-sde]] (Stochastic Methods/; the Generative ML/ entry is an alias) and [[dey-2021-group-equivariant-gans]] (Symmetries/).
+- New concept pages:
+  - operators: [[neural-operator]], [[kernel-integral-operator]], [[fourier-neural-operator]], [[laplace-neural-operator]], [[laplace-transform]], [[discretization-invariance]], [[encoder-decoder-architecture]], [[pca-net]], [[random-features-model]], [[curse-of-parametric-complexity]];
+  - benchmarks: [[darcy-flow]], [[burgers-equation]], [[navier-stokes-equations]];
+  - generative: [[score-matching]], [[fokker-planck-equation]], [[generative-adversarial-network]], [[equivariance]].
+- Rewrote [[diffusion-models]] as a hub. Small sub-topics are sections on hub pages, not separate pages (e.g. graph and low-rank NO on [[neural-operator]], VE/VP SDEs on [[diffusion-models]]).
+- Updated [[operator-learning]], [[deeponet]], [[universal-approximation-theorem-for-operators]], [[flow-matching]], [[diffusion-posterior-sampling]], [[langevin-dynamics]], [[normalizing-flows]], [[karhunen-loeve-expansion]], [[gaussian-process]].
+- Checked against page images: Score-SDE Table 1; LNO eq. 3 really omits the factor $s$ (noted on [[laplace-transform]]).
+- Open flags:
+  - LNO Fig. 3 values were read by eye (±0.02, **[unverified]**). By those readings the GRU beats LNO in 3 cases.
+  - LNO's "exponential convergence" claim is never analysed in the paper.
+  - Review eq. 5.12 exponent (p. 27) is unverified.
+  - Review Thm 4.1 prints the composition in the wrong order.
+  - Burgers FNO error is about 8× lower in the JMLR paper than in ICLR (0.0018 vs 0.0139-0.0160); the text does not say why.
+  - Kovachki JMLR table page cites are approximate.
