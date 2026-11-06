@@ -45,7 +45,7 @@ tags: [optimization, ml]
 > MNIST autoencoder, latent dimension 2, two hidden layers of 128 ReLU units, Equinox and Optax, Adam at $10^{-3}$, batch 32; then fit a 10-component Gaussian mixture to the latent space and sample from it.
 
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4); homework 1
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `09_gpu_training.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`, `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `09_gpu_training.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

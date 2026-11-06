@@ -42,7 +42,7 @@ Wiki notes:
 - Symmetry background (groups, $E(n)=T(n)\rtimes O(n)$) is on [[Equivariance]].
 
 **Covered in**: ASML book up/symmetries (ME 697 2.6)
-**Sources**: Geiger & Smidt 2022, `courses/ME 697/advanced-scientific-machine-learning/book/up/symmetries/intro.md`, `01_symmetries.md`, `02_e3nn.ipynb`.
+**Sources**: Geiger & Smidt 2022, `text_books/advanced-scientific-machine-learning/book/up/symmetries/intro.md`, `01_symmetries.md`, `02_e3nn.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

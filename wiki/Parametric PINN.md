@@ -57,7 +57,7 @@ Sample $(x,\xi)$ jointly and minimize with [[Adam]] using unbiased gradient esti
 > Parametric neo-Hookean problem with the applied displacement $\delta\in[0,0.5]$ as network input, see [[PINN]].
 
 **Covered in**: ASML book pinns/parametric (ME 697 5.2); homework 7
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/pinns/parametric`, `courses/ME 697/advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/parametric/parametric_example.ipynb`, `pinns/parametric/physics-informed_nops.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/pinns/parametric`, `text_books/advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/parametric/parametric_example.ipynb`, `pinns/parametric/physics-informed_nops.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

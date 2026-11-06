@@ -35,7 +35,7 @@ Evaluate $E$ by quadrature on the network output, with the boundary condition im
 **Wiki note**: the energy notebook contains a `kx`/`ky` slip in `tE_term1`; see [[PINN]]. The energy form is the quadratic case of a [[Physics-informed prior]] energy.
 
 **Covered in**: ASML book pinns/basics (ME 697 5.1)
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/pinns/basics/energy.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/pinns/basics/energy.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

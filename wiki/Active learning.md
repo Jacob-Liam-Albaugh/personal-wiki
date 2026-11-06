@@ -72,7 +72,7 @@ Wiki notes:
 - The multi-fidelity example subtracts a cost from a dimensionless variance ratio, so $\lambda$ also sets the exchange rate between them.
 
 **Covered in**: ASML book up/al (ME 697 2.5); homework 4
-**Sources**: ME 697 book `up/al/`, `courses/ME 697/advanced-scientific-machine-learning/book/up/al/intro.md`, `01_al_basics.md`, `02_al.ipynb`.
+**Sources**: ME 697 book `up/al/`, `text_books/advanced-scientific-machine-learning/book/up/al/intro.md`, `01_al_basics.md`, `02_al.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

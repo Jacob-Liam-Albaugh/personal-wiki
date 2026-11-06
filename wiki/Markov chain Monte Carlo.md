@@ -41,7 +41,7 @@ Wiki note: the notebook calls $\hat V$ "an estimate of the variance between chai
 - Reference text: Gelman et al., *Bayesian Data Analysis* ch. 11, and ME 539 Lecture 27 (cited by the book, not read).
 
 **Covered in**: ASML book inverse/sampling (ME 697 4.2); homework 6
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/inverse/sampling/01_mcmc_basics.md`, `02_mcmc_blackjax.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/inverse/sampling/intro.md`, `03_hmc_blackjax.ipynb`, `04_nuts_blackjax.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/sampling/01_mcmc_basics.md`, `02_mcmc_blackjax.ipynb`, `text_books/advanced-scientific-machine-learning/book/inverse/sampling/intro.md`, `03_hmc_blackjax.ipynb`, `04_nuts_blackjax.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

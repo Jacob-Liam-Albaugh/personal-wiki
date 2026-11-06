@@ -48,7 +48,7 @@ hessian  :: ([a] -> a)
 > Generalized linear model on [[Random features model|RBF features]], squared loss. `grad(loss, argnums=0)` differentiates in the weights and `argnums=(0, 1, 2)` returns a tuple of gradients. A plain [[Gradient descent]] loop fits it.
 
 **Covered in**: ASML book ml-software/differentiation (ME 697 1.3)
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/differentiation/03_autodiff.ipynb`, `04_jax_grad.ipynb`, `types_and_models/03_haskell.md`, `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/differentiation/01_numerical.ipynb`, `02_symbolic.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/differentiation/03_autodiff.ipynb`, `04_jax_grad.ipynb`, `types_and_models/03_haskell.md`, `text_books/advanced-scientific-machine-learning/book/ml-software/differentiation/01_numerical.ipynb`, `02_symbolic.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -34,7 +34,7 @@ tags: [mcmc, sampling, bayesian]
 - [[Langevin dynamics]] is the overdamped, one-step limit.
 
 **Covered in**: ASML book inverse/sampling (ME 697 4.2)
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/inverse/sampling/03_hmc_blackjax.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/sampling/03_hmc_blackjax.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -11,7 +11,7 @@ tags: [inverse-problems, bayesian, vi, mechanics]
 **Summary**: A damped, driven oscillator with a cubic restoring term, used in the book as a test bed for VI versus [[Amortized VI]] with many observed trajectories.
 
 **Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1); homework 2
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/inverse/odes/03_dyn_system_multiple_traj.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/odes/03_dyn_system_multiple_traj.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

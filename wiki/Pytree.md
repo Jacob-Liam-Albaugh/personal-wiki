@@ -53,7 +53,7 @@ Currying: a two-argument function has type `T -> U -> V`. Python annotations suc
 > An `eqx.Module` with `eqx.nn.Linear` layers; `__call__` decorated with `@partial(vmap, in_axes=(None, 0))` so it maps over a batch.
 
 **Covered in**: ASML book ml-software/types_and_models (ME 697 1.2)
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/types_and_models/04_pytrees.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/types_and_models/01_why.md`, `02_typing.md`, `03_haskell.md`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/types_and_models/04_pytrees.ipynb`, `text_books/advanced-scientific-machine-learning/book/ml-software/types_and_models/01_why.md`, `02_typing.md`, `03_haskell.md`.
 **Last updated**: 2026-11-06
 
 ---

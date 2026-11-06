@@ -382,9 +382,9 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `cribsheets/net-http.pdf` |  | reference |  |
 | code, cribsheets, HTML books | | reference | 387 non-PDF files, not listed individually |
 
-## courses/ME 697/advanced-scientific-machine-learning (book repo)
+## text_books/advanced-scientific-machine-learning (ME 697 book repo)
 
-Jupyter-book source in `courses/ME 697/advanced-scientific-machine-learning/book/`, chapters from `_toc.yml`, ingested chapter by chapter.
+Jupyter-book source in `text_books/advanced-scientific-machine-learning/book/`, chapters from `_toc.yml`, ingested chapter by chapter.
 
 | Chapter | Folder | Status |
 |---|---|---|

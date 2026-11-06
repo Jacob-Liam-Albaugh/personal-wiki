@@ -33,7 +33,7 @@ $$v_{t+1}=\beta v_t-\alpha\nabla f(x_t+\beta v_t)$$
 - [[Init and momentum (Sutskever 2013)]].
 
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4)
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/optimization/03_momentum.ipynb`, `04_optax.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/03_momentum.ipynb`, `04_optax.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

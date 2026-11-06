@@ -28,7 +28,7 @@ tags: [software]
 > $x_{n+1}=r\,x_n(1-x_n)$ vectorized over $r$ and $x_0$ with `vmap`; output shape (1000, 100, 10000); period-doubling plot.
 
 **Covered in**: ASML book ml-software/functional_programming (ME 697 1.1); homework 1
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/functional_programming/03_vectorization.ipynb`, `types_and_models/03_haskell.md`, `types_and_models/04_pytrees.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/functional_programming/01_primer.ipynb`, `02_jit.ipynb`, `04_random.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/functional_programming/03_vectorization.ipynb`, `types_and_models/03_haskell.md`, `types_and_models/04_pytrees.ipynb`, `text_books/advanced-scientific-machine-learning/book/ml-software/functional_programming/01_primer.ipynb`, `02_jit.ipynb`, `04_random.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

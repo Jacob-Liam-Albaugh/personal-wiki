@@ -33,7 +33,7 @@ tags: [optimization, ml]
 - [[Glorot init (Glorot 2010)]].
 
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4)
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/optimization/08_initialization.ipynb`, `01_optimization_problems.md`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/08_initialization.ipynb`, `01_optimization_problems.md`.
 **Last updated**: 2026-11-06
 
 ---

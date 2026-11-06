@@ -73,7 +73,7 @@
 - Checked links across the rename: all 734 earlier page-to-page links survive, and there are 868 now. Restored graph.json, which Obsidian had overwritten (tag nodes on, colour groups gone).
 
 ## [2026-11-06] ingest | ME 697 book part 1 (ml-software)
-- Sources: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/` (functional_programming, types_and_models, differentiation, optimization).
+- Sources: `text_books/advanced-scientific-machine-learning/book/ml-software/` (functional_programming, types_and_models, differentiation, optimization).
 - Lecture pages: [[JIT compilation]], [[Pytree]], [[Automatic differentiation]], [[Gradient descent]].
 - Concept pages: [[JIT compilation]], [[vmap]], [[JAX random keys]], [[Pytree]], [[Automatic differentiation]], [[Gradient descent]], [[Momentum]], [[SGD]], [[Adam]], [[Newton's method]], [[Weight initialization]].
 - New topic tags: `optimization`, `software` (CLAUDE.md, graph colours).
@@ -105,3 +105,4 @@
 ## [2026-11-06] reorg | Sources split into papers/, courses/, text_books/
 - Root folder renamed `Papers` → `personal-wiki`. Topic folders moved under `papers/`; ECE 270/311/438 and ME 697 (with the `advanced-scientific-machine-learning` repo) under `courses/`; `_text books` → `text_books/`, joined by Linear Optimization, the three Spivak books and Basu.
 - Every source path in pages, [[sources]] and tools rewritten; all `file:` paths resolve.
+- The `advanced-scientific-machine-learning` repo moved from `courses/ME 697/` to `text_books/`.

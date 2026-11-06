@@ -19,7 +19,7 @@ tags: [software, sampling]
 **Never reuse a key** for two draws that should be independent. Wiki note: this matters for the injected noise in [[SGLD]], [[SGHMC]] and [[Langevin dynamics]], and for the noise in the [[Reparameterization trick]].
 
 **Covered in**: ASML book ml-software/functional_programming (ME 697 1.1)
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/functional_programming/04_random.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/functional_programming/04_random.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

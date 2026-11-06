@@ -27,7 +27,7 @@ tags: [software]
 > Fibonacci with tail recursion and no loops; `foldl` and its use for sum and product; Fibonacci again with `lax.scan` plus `jit`.
 
 **Covered in**: ASML book ml-software/functional_programming (ME 697 1.1); ASML book ml-software/optimization (ME 697 1.4); homework 1
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/functional_programming/02_jit.ipynb`, `optimization/09_gpu_training.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/functional_programming/01_primer.ipynb`, `03_vectorization.ipynb`, `04_random.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/functional_programming/02_jit.ipynb`, `optimization/09_gpu_training.ipynb`, `text_books/advanced-scientific-machine-learning/book/ml-software/functional_programming/01_primer.ipynb`, `03_vectorization.ipynb`, `04_random.ipynb`, `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`.
 **Last updated**: 2026-11-06
 
 ---

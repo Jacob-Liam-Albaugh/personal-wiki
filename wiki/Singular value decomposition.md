@@ -32,7 +32,7 @@ Image compression and PCA ([[Principal component analysis]]), dimension reductio
 - Appears next to the separable 2D transforms in [[Image transforms]] and [[Image transforms]]. **[unverified]** whether the lecture names the SVD; link is by topic. (source: courses/ECE 438/Topic IP.5 image transforms and wavelets Apr 14, 2025.pdf)
 
 **Covered in**: ASML book hup/funcin (ME 697 3.1)
-**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb`, `03_pca.ipynb`.
+**Sources**: `text_books/advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb`, `03_pca.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

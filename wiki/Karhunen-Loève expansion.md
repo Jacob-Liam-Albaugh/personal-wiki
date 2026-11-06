@@ -78,7 +78,7 @@ Wiki notes on the book's section:
 - A log-Gaussian coefficient is positive but not bounded away from zero, so elliptic theory needs extra conditions **[unverified]**.
 
 **Covered in**: ASML book hup/funcin (ME 697 3.1); homework 5
-**Sources**: `26.10.22 - DeepONets.pdf`, `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `courses/ME 697/advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `03_pca.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`, `06_up_hout_example.ipynb`.
+**Sources**: `26.10.22 - DeepONets.pdf`, `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `text_books/advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `03_pca.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`, `06_up_hout_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
