@@ -36,7 +36,7 @@ Sampling a 1D signal too infrequently gives aliasing; it is eliminated if an ide
 Lecture-27 note: aliasing of a sampled image is the same replica overlap in the 2D transform, using the bed-of-nails sampling model on [[Fourier transform]]. For the reconstruction side see [[Image interpolation]].
 
 **Covered in**: ECE 438 IP.2 Aliasing (Topic IP.2 aliasing slides), DSP.4.A/B aliasing parts, L17, L26-L27 (aliasing in images)
-**Sources**: `Digital Signal Processing/Topic DSP.4.A Sampling CT.pdf`, `Digital Signal Processing/Topic DSP.4.B Sampling DT.pdf`, `Digital Signal Processing/Topic IP.2 aliasing-ece438-250328-share.pdf`, `Digital Signal Processing/front page/L17 Feb 24, 2025.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.4.A Sampling CT.pdf`, `courses/ECE 438/Topic DSP.4.B Sampling DT.pdf`, `courses/ECE 438/Topic IP.2 aliasing-ece438-250328-share.pdf`, `courses/ECE 438/front page/L17 Feb 24, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

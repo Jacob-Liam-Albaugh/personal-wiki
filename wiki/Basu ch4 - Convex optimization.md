@@ -7,14 +7,14 @@ tags: [optimization]
 authors: ["[[Amitabh Basu]]"]
 year: 2018
 venue: "Lecture notes, Johns Hopkins University, compiled 6 Dec 2018"
-file: "Math/Convexity/Basu - Intro to Convexity.pdf"
+file: "text_books/Mathmatics/Basu - Intro to Convexity.pdf"
 ---
 
 # Basu ch4 - Convex optimization
 
 **Summary**: Chapter 4 of Basu's notes. Minimising a [[Convex function]] over a [[Convex set]]: optimality conditions through tangent and normal cones, the projected subgradient method and its dimension-free rate, conic duality (weak duality, Slater, complementary slackness, saddle points), and cutting-plane methods (center of gravity, ellipsoid).
 
-**Authors**: Amitabh Basu · **Year**: 2018 · **File**: `Math/Convexity/Basu - Intro to Convexity.pdf` · Previous: [[Basu ch3 - Convex functions]]
+**Authors**: Amitabh Basu · **Year**: 2018 · **File**: `text_books/Mathmatics/Basu - Intro to Convexity.pdf` · Previous: [[Basu ch3 - Convex functions]]
 
 ---
 
@@ -92,7 +92,7 @@ Comparison to subgradient: cutting planes are dimension-dependent but converge i
 - Wiki note: the projected subgradient method is the non-smooth ancestor of stochastic gradient training; the $MR/\sqrt N$ bound is the classical non-smooth rate.
 - Convexity of the objective rests on [[Convex function]]; feasible sets on [[Convex set]] and [[Polyhedron]].
 
-**Sources**: `Math/Convexity/Basu - Intro to Convexity.pdf` (pp. 67-93; proofs skimmed, statements of Thm 4.46-4.48 taken from the summary lines, update formulas not read).
+**Sources**: `text_books/Mathmatics/Basu - Intro to Convexity.pdf` (pp. 67-93; proofs skimmed, statements of Thm 4.46-4.48 taken from the summary lines, update formulas not read).
 **Last updated**: 2026-11-06
 
 ---

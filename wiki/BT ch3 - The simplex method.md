@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch3 - The simplex method
 
 **Summary**: Derives the [[Simplex method]] from basic directions and reduced costs, proves optimality conditions and finite termination for nondegenerate problems, covers the tableau and revised implementations, anticycling rules (lexicographic, Bland), Phase I / big-M initialization, column geometry and what is known about running time.
 
-**Authors**: Dimitris Bertsimas, John N. Tsitsiklis · **Year**: 1997 · **File**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf pp. 97-154). Cites use printed pages; pdf = printed + 16.
+**Authors**: Dimitris Bertsimas, John N. Tsitsiklis · **Year**: 1997 · **File**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf pp. 97-154). Cites use printed pages; pdf = printed + 16.
 
 ---
 
@@ -94,7 +94,7 @@ Worst-case behaviour is exponential for known rules, while practice is much bett
 - Complexity questions continue in [[BT ch8 - Complexity of LP and the ellipsoid method]] and [[BT ch9 - Interior point methods]].
 - The dual simplex method is in [[BT ch4 - Duality theory]] (§4.5).
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 97-154).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 97-154).
 **Last updated**: 2026-11-06
 
 ---

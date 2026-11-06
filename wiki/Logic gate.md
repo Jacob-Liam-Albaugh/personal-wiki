@@ -35,8 +35,8 @@ tags: [digital-logic]
 ## Delay
 - Each gate has propagation delay $t_{pLH}$ and $t_{pHL}$; see [[Static timing and propagation delay]] and [[Timing diagram]]. (source: 08_29.pdf, p. 21-27)
 
-**Covered in**: ECE 270 08_22, 08_24, 09_12, 09_14 (ECE 27000/week 01/08_22.pdf, week 01/08_24.pdf, week 04/09_12.pdf, week 04/09_14.pdf)
-**Sources**: `ECE 27000/week 01/08_22.pdf`, `ECE 27000/week 01/08_24.pdf`, `ECE 27000/week 02/08_29.pdf`, `ECE 27000/week 04/09_12.pdf`, `ECE 27000/week 04/09_14.pdf`.
+**Covered in**: ECE 270 08_22, 08_24, 09_12, 09_14 (courses/ECE 270/week 01/08_22.pdf, week 01/08_24.pdf, week 04/09_12.pdf, week 04/09_14.pdf)
+**Sources**: `courses/ECE 270/week 01/08_22.pdf`, `courses/ECE 270/week 01/08_24.pdf`, `courses/ECE 270/week 02/08_29.pdf`, `courses/ECE 270/week 04/09_12.pdf`, `courses/ECE 270/week 04/09_14.pdf`.
 **Last updated**: 2026-11-06
 
 ---

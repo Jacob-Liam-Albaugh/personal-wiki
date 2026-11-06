@@ -7,14 +7,14 @@ tags: [sampling, mcmc]
 authors: ["[[Ruqi Zhang]]", "[[Andrew Gordon Wilson]]", "[[Christopher De Sa]]"]
 year: 2022
 venue: "ICML (PMLR 162)"
-file: "IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf"
+file: "papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf"
 ---
 
 # Low-Precision Stochastic Gradient Langevin Dynamics (Zhang 2022)
 
 **Summary**: Studies [[SGLD]] when weights and gradients are stored in few bits. With a full-precision weight buffer, a 2-Wasserstein bound shows the quantization bias enters as $O(\Delta_W^2)$ for SGLD versus $O(\Delta_W)$ for SGD. With a low-precision buffer, naive SGLD gets the variance wrong and diverges as the step size shrinks; a variance-corrected quantizer $Q_{vc}$ fixes this. Experiments on MNIST, CIFAR, IMDB and ImageNet use simulated 8-bit arithmetic.
 
-**Authors**: Ruqi Zhang, Andrew Gordon Wilson, Christopher De Sa · **Year**: 2022 (ICML, PMLR 162) · **File**: `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`
+**Authors**: Ruqi Zhang, Andrew Gordon Wilson, Christopher De Sa · **Year**: 2022 (ICML, PMLR 162) · **File**: `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`
 
 Not a Bilionis-lab paper (no `lab` tag). Extraction note: several formulas (Theorem 1-3 bounds, Eq. 5) were read from the text layer, which is partially garbled for fractions and square roots; the forms below follow the proofs in Appendix B-D where they could be cross-checked, and a few terms are marked **[unverified]**.
 
@@ -152,7 +152,7 @@ Wiki note: low precision is simulated in QPyTorch, so the latency and memory gai
 **Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[SGLD (Welling 2011)]]
 %% refs:end %%
 
-**Sources**: `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
 ---

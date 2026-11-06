@@ -7,14 +7,14 @@ tags: [ml, optimization, bayesian]
 authors: ["[[Nitish Srivastava]]", "[[Geoffrey Hinton]]", "[[Alex Krizhevsky]]", "[[Ilya Sutskever]]", "[[Ruslan Salakhutdinov]]"]
 year: 2014
 venue: "JMLR 15 (2014) 1929-1958"
-file: "ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf"
+file: "papers/ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf"
 ---
 
 # Dropout paper (Srivastava 2014)
 
 **Summary**: Randomly removes units (with their connections) during training, so each step trains a different "thinned" network. At test time one unthinned network with weights scaled by the retention probability $p$ approximates the average over all thinned nets. This cuts overfitting and set records on SVHN, ImageNet, CIFAR-100 and MNIST at the time.
 
-**Authors**: Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov · **Year**: 2014 · **File**: `ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf` (the file name lists Hinton first; the first author is Srivastava)
+**Authors**: Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov · **Year**: 2014 · **File**: `papers/ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf` (the file name lists Hinton first; the first author is Srivastava)
 
 ---
 
@@ -94,7 +94,7 @@ $$\Gamma=\mathrm{diag}(X^\top X)^{1/2}$$
 **Cited by in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[Priors in Bayesian deep learning (Fortuin 2022)]], [[Variational dropout (Kingma 2015)]]
 %% refs:end %%
 
-**Sources**: `ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf`.
+**Sources**: `papers/ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf`.
 **Last updated**: 2026-11-06
 
 ---

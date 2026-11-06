@@ -7,14 +7,14 @@ tags: [physics-informed, ml, optimization]
 authors: ["[[Joseph Bakarji]]", "[[Kathleen Champion]]", "[[J. Nathan Kutz]]", "[[Steven L. Brunton]]"]
 year: 2022
 venue: "arXiv 2201.05136"
-file: "Physics Informed Architectures/Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf"
+file: "papers/Physics Informed Architectures/Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf"
 ---
 
 # Discovering governing equations from partial measurements with deep delay autoencoders (Bakarji 2022)
 
 **Summary**: When only a scalar $y(t)$ of a larger state is measured, time-delay embedding (Takens) gives a diffeomorphic copy of the attractor, but in unknown coordinates. This paper extends the [[SINDy autoencoders (Champion 2019)]] to learn a map from the delay-embedded vector to coordinates where the dynamics are sparse, adding three delay-specific losses. Tested on Lorenz, Rossler, Lotka-Volterra and a video of a chaotic waterwheel.
 
-**Authors**: Joseph Bakarji, Kathleen Champion, J. Nathan Kutz, Steven L. Brunton · **Year**: 2022 · **File**: `Physics Informed Architectures/Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf`
+**Authors**: Joseph Bakarji, Kathleen Champion, J. Nathan Kutz, Steven L. Brunton · **Year**: 2022 · **File**: `papers/Physics Informed Architectures/Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf`
 
 ---
 
@@ -63,7 +63,7 @@ Authors: optimizer prone to local minima and over-fitting; unknown whether any l
 **Cites in this wiki**: [[PINNs (Raissi 2019)]], [[SINDy autoencoders (Champion 2019)]], [[Tensor basis NN turbulence (Ling 2016)]]
 %% refs:end %%
 
-**Sources**: `Physics Informed Architectures/Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf`.
 **Last updated**: 2026-11-06
 
 ---

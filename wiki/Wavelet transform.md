@@ -109,8 +109,8 @@ Compression with wavelets (JPEG-2000) is on [[Image compression]].
 
 
 
-**Covered in**: ECE 438 IP.7, L38-L40 (Digital Signal Processing/Topic IP.7 Multiresolution image processing Apr 18, 2025.pdf)
-**Sources**: Strang, Bull. AMS 1993, Digital Signal Processing/Topic IP.7 Multiresolution image processing Apr 18, 2025.pdf, `Digital Signal Processing/front page/L38 Apr 28, 2025.pdf`, `Digital Signal Processing/front page/L39 Apr 30, 2025.pdf`, `Digital Signal Processing/front page/L40 May 2, 2025.pdf`.
+**Covered in**: ECE 438 IP.7, L38-L40 (courses/ECE 438/Topic IP.7 Multiresolution image processing Apr 18, 2025.pdf)
+**Sources**: Strang, Bull. AMS 1993, courses/ECE 438/Topic IP.7 Multiresolution image processing Apr 18, 2025.pdf, `courses/ECE 438/front page/L38 Apr 28, 2025.pdf`, `courses/ECE 438/front page/L39 Apr 30, 2025.pdf`, `courses/ECE 438/front page/L40 May 2, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

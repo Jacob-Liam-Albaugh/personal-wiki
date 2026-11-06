@@ -6,7 +6,7 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch11 - Integer programming
@@ -137,7 +137,7 @@ Other methods not covered: genetic algorithms, tabu search, interior point metho
 - Wiki note: Lagrangean relaxation and the Dantzig-Wolfe master are two views of the same convexified problem (Theorem 11.4 and [[BT ch6 - Large scale optimization]]); Theorem 11.4 is the integer analogue of strong duality only after replacing $X$ by $\mathrm{CH}(X)$.
 - Wiki note: subgradient steps for a concave dual function are plain projected [[Gradient descent]] with nonsmooth steps.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 495-548, printed pp. 479-532). Pages viewed as images: pdf 498, 510, 512. All other equations and statements read from the text layer and marked where uncertain.
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 495-548, printed pp. 479-532). Pages viewed as images: pdf 498, 510, 512. All other equations and statements read from the text layer and marked where uncertain.
 **Last updated**: 2026-11-06
 
 ---

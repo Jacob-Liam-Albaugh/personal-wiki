@@ -7,7 +7,7 @@ tags: [physics-informed, pde, optimization, ml]
 authors: ["[[Sifan Wang]]", "[[Shyam Sankaran]]", "[[Paris Perdikaris]]"]
 year: 2022
 venue: "arXiv:2203.07404"
-file: "Physics Informed Architectures/Wang, Sankaran, Perdikaris - Respecting Causality is All You Need for Training PINNs.pdf"
+file: "papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - Respecting Causality is All You Need for Training PINNs.pdf"
 ---
 
 # Respecting causality is all you need for training PINNs (Wang 2022)
@@ -85,7 +85,7 @@ Wiki note: the two KS error values (2.46e-2 vs 2.26e-2) disagree inside the pape
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]]
 %% refs:end %%
 
-**Sources**: `Physics Informed Architectures/Wang, Sankaran, Perdikaris - Respecting Causality is All You Need for Training PINNs.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - Respecting Causality is All You Need for Training PINNs.pdf`.
 **Last updated**: 2026-11-06
 
 ---

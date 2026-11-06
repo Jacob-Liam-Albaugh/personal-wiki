@@ -29,7 +29,7 @@ The Gaussian increment replaces $dW$ because $W(t+\Delta t)-W(t)\sim N(0,\Delta 
 - Larger steps can leave the state space (negative values for GBM).
 
 **Covered in**: ASML book sinverse/sodes (ME 697 6.1)
-**Sources**: `advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`, `04_ornstein_uhlenbeck.ipynb`, `sinverse/fs/02_filter.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`, `04_ornstein_uhlenbeck.ipynb`, `sinverse/fs/02_filter.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

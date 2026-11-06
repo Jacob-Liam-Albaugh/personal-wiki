@@ -24,7 +24,7 @@ tags: [sampling, mcmc, bayesian]
 
 Wiki note: in large neural networks the full metric is infeasible, which is why stochastic-gradient samplers ([[SGLD]], [[SGHMC]]) and diagonal preconditioners ([[Adam]]) dominate.
 
-**Sources**: `ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf`.
+**Sources**: `papers/ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf`.
 **Last updated**: 2026-11-06
 
 ---

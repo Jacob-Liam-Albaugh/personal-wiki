@@ -41,7 +41,7 @@
 
 ## 2026-11-06 — Operators and generative batch
 - Ingested 4 papers from Operators/: [[Neural operator (Kovachki 2022)]], [[FNO (Li 2021)]], [[LNO (Cao 2023)]], [[Operator learning review (Kovachki 2024)]].
-- Ingested 2 generative papers: [[Score SDE (Song 2021)]] (Stochastic Methods/; the Generative ML/ entry is an alias) and [[Group equivariant GANs (Dey 2021)]] (Symmetries/).
+- Ingested 2 generative papers: [[Score SDE (Song 2021)]] (papers/Stochastic Methods/; the Generative ML/ entry is an alias) and [[Group equivariant GANs (Dey 2021)]] (papers/Symmetries/).
 - New concept pages:
   - operators: [[Neural operator]], [[Kernel integral operator]], [[FNO]], [[LNO]], [[Laplace transform]], [[Discretization invariance]], [[Encoder-decoder operators]], [[PCA-Net]], [[Random features model]], [[Curse of parametric complexity]];
   - benchmarks: [[Darcy flow]], [[Burgers equation]], [[Navier-Stokes equations]];
@@ -73,7 +73,7 @@
 - Checked links across the rename: all 734 earlier page-to-page links survive, and there are 868 now. Restored graph.json, which Obsidian had overwritten (tag nodes on, colour groups gone).
 
 ## [2026-11-06] ingest | ME 697 book part 1 (ml-software)
-- Sources: `advanced-scientific-machine-learning/book/ml-software/` (functional_programming, types_and_models, differentiation, optimization).
+- Sources: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/` (functional_programming, types_and_models, differentiation, optimization).
 - Lecture pages: [[JIT compilation]], [[Pytree]], [[Automatic differentiation]], [[Gradient descent]].
 - Concept pages: [[JIT compilation]], [[vmap]], [[JAX random keys]], [[Pytree]], [[Automatic differentiation]], [[Gradient descent]], [[Momentum]], [[SGD]], [[Adam]], [[Newton's method]], [[Weight initialization]].
 - New topic tags: `optimization`, `software` (CLAUDE.md, graph colours).
@@ -81,12 +81,12 @@
 
 ## [2026-11-06] ingest | everything else, authors, references
 - Ingested the rest of the library:
-  - Papers from Bayesian/, Physics Informed Architectures/, Stochastic Methods/, ML/, Guassian Processes/, Symmetries/, LLMs/, Math/, Transforms/.
+  - Papers from Bayesian/, papers/Physics Informed Architectures/, papers/Stochastic Methods/, papers/ML/, papers/Guassian Processes/, papers/Symmetries/, papers/LLMs/, papers/Math/, papers/Transforms/.
   - ME 697 book parts 2-6 (31 lecture pages in all).
   - Course notes: ECE 438 (50 pages), ECE 311 (41), ECE 270 (20).
   - Books by chapter: *Poly* ch1-9, *Seven Sketches* ch1-7, Bertsimas-Tsitsiklis ch1-12, Bazaraa-Jarvis-Sherali ch1-12.
 - The wiki now has 121 paper pages, 142 lecture pages, and 240 concept, method, definition and theorem pages. [[sources]] lists 208 ingested, 35 reference, 8 alias and 0 queued.
-- `_text books/` reference items are not ingested.
+- `text_books/` reference items are not ingested.
 - Authors: `tools/authors.py` builds `authors/` (205 author pages) from each page's **Authors** line and links them from `authors:` frontmatter. In graph view, hide them with `-path:authors`.
 - References: `tools/refs.py --n 2` writes **Cites / Cited by in this wiki** blocks (128 links) and [[wanted-papers]], which lists 176 outside works cited by 2 or more sources. Rerun both tools after every ingest.
 - Open flags:
@@ -101,3 +101,7 @@
 - ME 697 homework sits on the topic it exercises as `[!example]` callouts, citing the ASML book section.
 - Course logistics (exam dates, quizzes, rooms, grading) dropped. [[index]] sections are named by topic, not course.
 
+
+## [2026-11-06] reorg | Sources split into papers/, courses/, text_books/
+- Root folder renamed `Papers` → `personal-wiki`. Topic folders moved under `papers/`; ECE 270/311/438 and ME 697 (with the `advanced-scientific-machine-learning` repo) under `courses/`; `_text books` → `text_books/`, joined by Linear Optimization, the three Spivak books and Basu.
+- Every source path in pages, [[sources]] and tools rewritten; all `file:` paths resolve.

@@ -12,7 +12,7 @@ tags: [operators, ml]
 > $$\Psi_{PCA}(u;\theta)(y)=\sum_{j=1}^{d_V}\alpha_j(F_Uu;\theta)\,\psi_j(y)$$
 > $\phi_j$: leading eigenfunctions of the input covariance under $\mu$. $\psi_j$: leading eigenfunctions of the output covariance under $\Psi^\dagger_\#\mu$. $\alpha$: a neural network.
 >
-> (source: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, p. 7)
+> (source: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, p. 7)
 
 **Intuition**: compress inputs and outputs with PCA, then learn a finite-dimensional map between the coefficients. It is the data-driven [[Encoder-decoder operators]]. The PCA bases are empirical [[Karhunen-Loève expansion]] modes (Wiki note).
 
@@ -26,7 +26,7 @@ tags: [operators, ml]
 - "PCANN" is a baseline in [[FNO (Li 2021)]] Table 3 (Burgers, 0.038-0.040).
 - The PCA used for output reduction in [[Principal component analysis]] and [[Karhunen-Loève expansion]] is the finite-dimensional version of its encoder.
 
-**Sources**: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
+**Sources**: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
 ---

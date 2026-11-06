@@ -87,8 +87,8 @@ For 3 bits and 4 states $C(8,4) = 70$. Wiki note: this counts subsets of codes; 
 
 Wiki note: the slides treat regular expressions and state machines as equivalent; only the examples are shown, not the theorem. (source: 10_17.pdf, p. 2)
 
-**Covered in**: ECE 270 10_05, 10_12, 10_17, 10_24, 10_26, 11_09 (ECE 27000/week 07/10_05.pdf, week 08/10_12.pdf, week 09/10_17.pdf, week 10/10_24.pdf, week 10/10_26.pdf, week 12/11_09(1).pdf)
-**Sources**: `ECE 27000/week 07/10_05.pdf`, `ECE 27000/week 08/10_12.pdf`, `ECE 27000/week 09/10_17.pdf`, `ECE 27000/week 10/10_24.pdf`, `ECE 27000/week 10/10_26.pdf`, `ECE 27000/week 12/11_09(1).pdf`.
+**Covered in**: ECE 270 10_05, 10_12, 10_17, 10_24, 10_26, 11_09 (courses/ECE 270/week 07/10_05.pdf, week 08/10_12.pdf, week 09/10_17.pdf, week 10/10_24.pdf, week 10/10_26.pdf, week 12/11_09(1).pdf)
+**Sources**: `courses/ECE 270/week 07/10_05.pdf`, `courses/ECE 270/week 08/10_12.pdf`, `courses/ECE 270/week 09/10_17.pdf`, `courses/ECE 270/week 10/10_24.pdf`, `courses/ECE 270/week 10/10_26.pdf`, `courses/ECE 270/week 12/11_09(1).pdf`.
 **Last updated**: 2026-11-06
 
 ---

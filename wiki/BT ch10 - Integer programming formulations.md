@@ -6,7 +6,7 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch10 - Integer programming formulations
@@ -76,7 +76,7 @@ Integer programming is a flexible modeling tool. Stronger formulations, even wit
 - Wiki note: the cutset constraints are the same cut inequalities that appear in the separation example of [[BT ch8 - Complexity of LP and the ellipsoid method]] and the network cuts of [[BT ch7 - Network flows]].
 - Source credits (p. 477-478): the matching convex hull result to Edmonds (1971); matching algorithms in Papadimitriou and Steiglitz (1982).
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 467-494, printed pp. 451-478). Pages viewed as images: pdf 483; the rest read from the text layer.
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 467-494, printed pp. 451-478). Pages viewed as images: pdf 483; the rest read from the text layer.
 **Last updated**: 2026-11-06
 
 ---

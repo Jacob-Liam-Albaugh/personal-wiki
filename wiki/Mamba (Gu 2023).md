@@ -7,14 +7,14 @@ tags: [ml, signals]
 authors: ["[[Albert Gu]]", "[[Tri Dao]]"]
 year: 2023
 venue: "arXiv:2312.00752 (v2, 31 May 2024)"
-file: "LLMs/Gu, Dao - Mamba.pdf"
+file: "papers/LLMs/Gu, Dao - Mamba.pdf"
 ---
 
 # Mamba (Gu 2023)
 
 **Summary**: Makes structured state space model parameters depend on the input (selection), which lets a linear-time recurrent model filter and remember content like attention does. A hardware-aware scan keeps it fast, and a single homogeneous block, with no attention or MLP, forms the Mamba architecture.
 
-**Authors**: Albert Gu, Tri Dao · **Year**: 2023 (v1; the PDF is v2, 2024) · **File**: `LLMs/Gu, Dao - Mamba.pdf`
+**Authors**: Albert Gu, Tri Dao · **Year**: 2023 (v1; the PDF is v2, 2024) · **File**: `papers/LLMs/Gu, Dao - Mamba.pdf`
 
 ---
 

@@ -6,7 +6,7 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch6 - Large scale optimization
@@ -75,7 +75,7 @@ Benders is delayed constraint generation (cutting planes), essentially Dantzig-W
 - Dantzig-Wolfe is credited to Dantzig and Wolfe, stochastic programming to Dantzig in the 1950s (notes, p. 263).
 - Wiki note: column generation is the same idea as the pricing step of the network simplex method in [[BT ch7 - Network flows]].
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 247-280, printed pp. 231-263).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 247-280, printed pp. 231-263).
 **Last updated**: 2026-11-06
 
 ---

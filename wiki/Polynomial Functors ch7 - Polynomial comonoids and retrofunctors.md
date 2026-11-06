@@ -5,7 +5,7 @@ source-ref: "Niu-Spivak 2024, ch. 7"
 authors: ["[[Nelson Niu]]", "[[David I. Spivak]]"]
 year: 2024
 venue: book draft
-file: "DSL/Spivak, Niu - Polynomial Functors.pdf"
+file: "text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf"
 tags: [category-theory]
 ---
 
@@ -13,7 +13,7 @@ tags: [category-theory]
 
 **Summary**: Comonoids in (Poly, y, tri) are small categories (Ahman-Uustalu), with positions as objects and directions as morphisms; their morphisms are retrofunctors, and coalgebras of a comonoid are discrete opfibrations or copresheaves.
 
-**Authors**: Nelson Niu, David I. Spivak · **Year**: 2024 · **File**: `DSL/Spivak, Niu - Polynomial Functors.pdf`
+**Authors**: Nelson Niu, David I. Spivak · **Year**: 2024 · **File**: `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`
 
 ---
 ## Problem

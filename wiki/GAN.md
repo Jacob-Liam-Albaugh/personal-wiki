@@ -10,7 +10,7 @@ tags: [generative, ml]
 
 **Summary**: a generator $G(z)$ maps noise to samples and a discriminator $D$ tells real from fake. The two train against each other. No likelihood is computed. This wiki meets GANs as a baseline family and as the testbed for [[Equivariance|equivariant]] layers.
 
-**Sources**: `Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`, `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
+**Sources**: `papers/Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`, `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
 **Last updated**: 2026-11-06
 
 ---

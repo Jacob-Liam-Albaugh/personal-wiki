@@ -26,8 +26,8 @@ tags: [digital-logic]
 ## Handling
 - Gate oxides are damaged by electrostatic discharge, $Q = CV$; wrist straps and static-shielding bags protect them. (source: 08_29.pdf, p. 19-20)
 
-**Covered in**: ECE 270 08_24, 08_29 (ECE 27000/week 01/08_24.pdf, week 02/08_29.pdf)
-**Sources**: `ECE 27000/week 01/08_24.pdf`, `ECE 27000/week 02/08_29.pdf`.
+**Covered in**: ECE 270 08_24, 08_29 (courses/ECE 270/week 01/08_24.pdf, week 02/08_29.pdf)
+**Sources**: `courses/ECE 270/week 01/08_24.pdf`, `courses/ECE 270/week 02/08_29.pdf`.
 **Last updated**: 2026-11-06
 
 ---

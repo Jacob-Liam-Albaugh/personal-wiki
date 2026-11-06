@@ -7,14 +7,14 @@ tags: [gp, bayesian, mcmc]
 authors: ["[[Philip Greengard]]", "[[Michael O'Neil]]"]
 year: 2022
 venue: "arXiv:2108.05924v2 [stat.CO], 24 Aug 2022"
-file: "Guassian Processes/Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf"
+file: "papers/Guassian Processes/Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf"
 ---
 
 # Reduced-rank GPs (Greengard 2022)
 
 **Summary**: Turns a GP on an interval (or rectangle) into its [[Karhunen-Loève expansion]], computed once by Nystrom quadrature of the covariance integral operator. GP regression then becomes ridge regression on $m$ fixed basis functions at cost $O(Nm^2)$ instead of $O(N^3)$. Works for non-translation-invariant kernels, and comes with a fast Bayesian hyperparameter algorithm. Practical in 1-3 dimensions.
 
-**Authors**: Philip Greengard, Michael O'Neil · **Year**: 2022 · **File**: `Guassian Processes/Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf`
+**Authors**: Philip Greengard, Michael O'Neil · **Year**: 2022 · **File**: `papers/Guassian Processes/Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf`
 
 ---
 
@@ -101,7 +101,7 @@ Wiki note: needs a bounded rectangular domain containing all data and test point
 - Kernel choices (squared exponential, Matern): [[Kernel composition]], [[Duvenaud thesis (Duvenaud 2014)]].
 - Pairs with [[Markov chain Monte Carlo]] for the fully Bayesian version.
 
-**Sources**: `Guassian Processes/Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf`.
+**Sources**: `papers/Guassian Processes/Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -30,8 +30,8 @@ tags: [digital-logic]
 ## In Verilog
 - `Vrcntr4u`: `always @(posedge CLK)` with clear, load, count, hold branches. See [[Verilog]]. (source: 10_03.pdf, p. 12)
 
-**Covered in**: ECE 270 10_03, 11_07 (ECE 27000/week 07/10_03.pdf, week 12/11_07.pdf)
-**Sources**: `ECE 27000/week 07/10_03.pdf`, `ECE 27000/week 12/11_07.pdf`.
+**Covered in**: ECE 270 10_03, 11_07 (courses/ECE 270/week 07/10_03.pdf, week 12/11_07.pdf)
+**Sources**: `courses/ECE 270/week 07/10_03.pdf`, `courses/ECE 270/week 12/11_07.pdf`.
 **Last updated**: 2026-11-06
 
 ---

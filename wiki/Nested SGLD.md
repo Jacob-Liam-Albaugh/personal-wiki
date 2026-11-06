@@ -26,7 +26,7 @@ source-ref: "Alberts & Bilionis 2023, eqs. 24-27, Alg. 3, App. B; Alberts et al.
 - [[PIFT (Alberts 2023)]] — introduces it.
 - [[IFT thermal conductivity (Alberts 2026)]] — infers the 25 KLE coefficients of $k(u)$ and log-GP hyperparameters (eq. 13, log-density sign convention).
 
-**Sources**: `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
+**Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -73,8 +73,8 @@ A wavelet transform shown as a block transform (Fig. 6.18). Basis images start v
 
 Compaction is what [[Image compression]] exploits (DCT in JPEG). Wiki note: unitarity is the same orthonormal-basis idea behind the [[Karhunen-Loève expansion]] and [[Principal component analysis]]; the slides do not make this link.
 
-**Covered in**: ECE 438 IP.5, L32, L33 (Digital Signal Processing/Topic IP.5 image transforms and wavelets Apr 14, 2025.pdf)
-**Sources**: `Digital Signal Processing/Topic IP.5 image transforms and wavelets Apr 14, 2025.pdf`, `Digital Signal Processing/front page/L32 Apr 11, 2025.pdf`, `Digital Signal Processing/front page/L33 Apr 14, 2025.pdf`.
+**Covered in**: ECE 438 IP.5, L32, L33 (courses/ECE 438/Topic IP.5 image transforms and wavelets Apr 14, 2025.pdf)
+**Sources**: `courses/ECE 438/Topic IP.5 image transforms and wavelets Apr 14, 2025.pdf`, `courses/ECE 438/front page/L32 Apr 11, 2025.pdf`, `courses/ECE 438/front page/L33 Apr 14, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -26,8 +26,8 @@ for a $\lambda/4$ retarder.
 > [!example] Examples 33-2 to 33-4 (lect_33, PDF pp. 6-7)
 > Right circular light through a $\lambda/4$ retarder with vertical fast axis becomes linear at $+45^\circ$; with horizontal fast axis, linear at $-45^\circ$. Reflection off a screen is rejected by a polarizer plus $\lambda/4$ retarder at $45^\circ$ because the returning wave is orthogonal to the transmission axis.
 
-**Covered in**: ECE 311 lect_33 (Electromagnetics/Lectures Slides/lect_33.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_33.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_33 (courses/ECE 311/Lectures Slides/lect_33.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_33.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

@@ -7,14 +7,14 @@ tags: [bayesian, vi, generative, ml]
 authors: ["[[Diederik P. Kingma]]", "[[Max Welling]]"]
 year: 2019
 venue: "Foundations and Trends in Machine Learning, vol. 12, no. 4, pp. 307-392"
-file: "Bayesian/Kingma, Welling - Intro to Variational Autoencoders.pdf"
+file: "papers/Bayesian/Kingma, Welling - Intro to Variational Autoencoders.pdf"
 ---
 
 # An Introduction to Variational Autoencoders (Kingma, Welling 2019)
 
 **Summary**: A monograph that expands [[VAE paper (Kingma 2014)]] into a tutorial on variational autoencoders and deep latent-variable models. The PDF in this folder contains only the front matter, the motivation and background chapter (ch. 1) and the appendix (notation, MAP, variational EM, MCMC-EM, SGD). Chapters 2-5 (VAE/ELBO/reparameterization, flexible posteriors and IAF, deeper generative models, conclusion) listed in its table of contents are not in the file.
 
-**Authors**: Diederik P. Kingma (Google), Max Welling (University of Amsterdam; Qualcomm) · **Year**: 2019 · **File**: `Bayesian/Kingma, Welling - Intro to Variational Autoencoders.pdf`
+**Authors**: Diederik P. Kingma (Google), Max Welling (University of Amsterdam; Qualcomm) · **Year**: 2019 · **File**: `papers/Bayesian/Kingma, Welling - Intro to Variational Autoencoders.pdf`
 
 Page cites below use the monograph's own printed page numbers (ch. 1 on pp. 2-14, appendix pp. 67-73). The PDF is 44 pages; the text jumps from printed p. 14 straight to Acknowledgements (p. 65).
 
@@ -97,7 +97,7 @@ None: this is an expository monograph. The only quantitative statements in the P
 - The MCMC-EM discussion relates the VAE to MCMC-based alternatives; see [[SGLD]], [[SGLD (Welling 2011)]] for SG-MCMC over network weights.
 - Wiki note: the references include Sohl-Dickstein et al. 2015 (nonequilibrium thermodynamics), the diffusion-model precursor; see [[Diffusion models]]. Mentioned only as a reference-list entry in this PDF.
 
-**Sources**: `Bayesian/Kingma, Welling - Intro to Variational Autoencoders.pdf`.
+**Sources**: `papers/Bayesian/Kingma, Welling - Intro to Variational Autoencoders.pdf`.
 **Last updated**: 2026-11-06
 
 ---

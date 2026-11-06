@@ -36,8 +36,8 @@ Excess charge on a conductor sits on its surface; $E=0$ inside, so a closed cond
 > [!example] Coaxial cable shield (lect_6, pp. 6-7)
 > Inner conductor radius $a$ with $\rho_s$: the outer shield (radius $b$) must carry $\rho_s'=-\rho_sa/b$ for no field outside, i.e. $\rho_\ell'=-\rho_\ell$. The charge sits on the shield's inner surface.
 
-**Covered in**: ECE 311 lect_5, lect_6 (Electromagnetics/Lectures Slides/lect_5.pdf, Electromagnetics/Lectures Slides/lect_6.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_5.pdf`, `Electromagnetics/Lectures Slides/lect_6.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_5, lect_6 (courses/ECE 311/Lectures Slides/lect_5.pdf, courses/ECE 311/Lectures Slides/lect_6.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_5.pdf`, `courses/ECE 311/Lectures Slides/lect_6.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

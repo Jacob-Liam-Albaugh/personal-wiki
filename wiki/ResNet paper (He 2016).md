@@ -7,14 +7,14 @@ tags: [ml, optimization]
 authors: ["[[Kaiming He]]", "[[Xiangyu Zhang]]", "[[Shaoqing Ren]]", "[[Jian Sun]]"]
 year: 2016
 venue: "CVPR 2016 (arXiv 1512.03385v1)"
-file: "ML/He, Zhang, Ren, Sun - ResNets.pdf"
+file: "papers/ML/He, Zhang, Ren, Sun - ResNets.pdf"
 ---
 
 # ResNet paper (He 2016)
 
 **Summary**: Reformulates stacked layers as learning a residual $F(x)=H(x)-x$ added back through a parameter-free identity shortcut, $y=F(x)+x$. This fixes the "degradation" of plain deep nets, where more layers raise training error, and gives networks up to 152 layers on ImageNet (and 1202 on CIFAR-10) that train easily. An ensemble won ILSVRC 2015 classification at 3.57% top-5 test error.
 
-**Authors**: Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun · **Year**: 2016 (the PDF is the arXiv v1 of Dec 2015) · **File**: `ML/He, Zhang, Ren, Sun - ResNets.pdf`
+**Authors**: Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun · **Year**: 2016 (the PDF is the arXiv v1 of Dec 2015) · **File**: `papers/ML/He, Zhang, Ren, Sun - ResNets.pdf`
 
 ---
 
@@ -66,7 +66,7 @@ Wiki note: the paper does not mention the ODE view of residual updates, which la
 **Cites in this wiki**: [[Glorot init (Glorot 2010)]]
 %% refs:end %%
 
-**Sources**: `ML/He, Zhang, Ren, Sun - ResNets.pdf`.
+**Sources**: `papers/ML/He, Zhang, Ren, Sun - ResNets.pdf`.
 **Last updated**: 2026-11-06
 
 ---

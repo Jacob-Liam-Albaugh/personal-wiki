@@ -7,14 +7,14 @@ tags: [ml, physics-informed, pde, signals]
 authors: ["[[Vincent Sitzmann]]", "[[Julien Martel]]", "[[Alexander Bergman]]", "[[David Lindell]]", "[[Gordon Wetzstein]]"]
 year: 2020
 venue: "NeurIPS 2020 (arXiv:2006.09661v1)"
-file: "ML/Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf"
+file: "papers/ML/Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf"
 ---
 
 # SIREN paper (Sitzmann 2020)
 
 **Summary**: An MLP with sine activations (a SIREN) represents signals and their derivatives far better than ReLU, tanh or positional-encoding networks. A specific initialization keeps activation statistics stable with depth. SIRENs are trained on images, video, signed distance fields and on PDE constraints (Poisson, Eikonal, Helmholtz, wave equation).
 
-**Authors**: Vincent Sitzmann, Julien Martel, Alexander Bergman, David Lindell, Gordon Wetzstein · **Year**: 2020 · **File**: `ML/Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf`
+**Authors**: Vincent Sitzmann, Julien Martel, Alexander Bergman, David Lindell, Gordon Wetzstein · **Year**: 2020 · **File**: `papers/ML/Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf`
 
 ---
 
@@ -66,7 +66,7 @@ Weights act as angular frequencies and biases as phase offsets. Few weights exce
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]]
 %% refs:end %%
 
-**Sources**: `ML/Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf`.
+**Sources**: `papers/ML/Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf`.
 **Last updated**: 2026-11-06
 
 ---

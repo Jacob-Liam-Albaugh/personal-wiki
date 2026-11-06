@@ -5,7 +5,7 @@ source-ref: "Niu-Spivak 2024, ch. 2"
 authors: ["[[Nelson Niu]]", "[[David I. Spivak]]"]
 year: 2024
 venue: book draft
-file: "DSL/Spivak, Niu - Polynomial Functors.pdf"
+file: "text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf"
 tags: [category-theory]
 ---
 
@@ -13,7 +13,7 @@ tags: [category-theory]
 
 **Summary**: Definition of polynomial functors as sums of representables, positions and directions, action on functions, linear and monomial polynomials, and corolla-forest pictures.
 
-**Authors**: Nelson Niu, David I. Spivak · **Year**: 2024 · **File**: `DSL/Spivak, Niu - Polynomial Functors.pdf`
+**Authors**: Nelson Niu, David I. Spivak · **Year**: 2024 · **File**: `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`
 
 ---
 ## Problem

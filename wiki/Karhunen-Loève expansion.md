@@ -33,14 +33,14 @@ Wiki note: [[PCA-Net]] uses the empirical version, PCA of sampled input and outp
 - [[Stochastic differential equation]] uses a KL expansion for the Brownian bridge (source: sinverse/sodes).
 
 ## Queued sources
-Four KL papers in `Stochastic Methods/` (Alexanderian; Betz-Papaioannou-Straub; Deheuvels; Prakash et al.) should extend this page with the Mercer / convergence statements. Everything beyond the formula above is **[unverified]** until then.
+Four KL papers in `papers/Stochastic Methods/` (Alexanderian; Betz-Papaioannou-Straub; Deheuvels; Prakash et al.) should extend this page with the Mercer / convergence statements. Everything beyond the formula above is **[unverified]** until then.
 
 ## Properties
 - among all order-m expansions with iid N(0,1) coefficients, the truncated KL expansion minimises the L2 error of the effective kernel (source: Greengard-O'Neil 2022, eq. 1.10, p. 3). Error decays exponentially in m for smooth kernels and no slower than O(1/m^(j+1)) for kernels with j continuous derivatives (Thm 3, pp. 4-5).
 - the expansion uses the same eigenfunctions as the RKHS basis, but with coefficients of variance one, so the sample has infinite RKHS norm (source: Kanagawa 2018, Thm 4.3, p. 31).
 
 ## Related / finite-dimensional analogue
-- The best m-term approximation of a vector in an orthogonal basis (keep the m largest coefficients) is the idea that the [[DFT]] page and [[DFT]] develop for fixed Fourier bases; Karhunen-Loève chooses the basis from the data. (source: Digital Signal Processing/Topic DSP.3.B DT frequency analysis Part 2 Jan 31, 2025.pdf, pp. 2-4)
+- The best m-term approximation of a vector in an orthogonal basis (keep the m largest coefficients) is the idea that the [[DFT]] page and [[DFT]] develop for fixed Fourier bases; Karhunen-Loève chooses the basis from the data. (source: courses/ECE 438/Topic DSP.3.B DT frequency analysis Part 2 Jan 31, 2025.pdf, pp. 2-4)
 - See also [[Image transforms]].
 
 ## Gaussian random field expansion (book, hup/funcin/04)
@@ -78,7 +78,7 @@ Wiki notes on the book's section:
 - A log-Gaussian coefficient is positive but not bounded away from zero, so elliptic theory needs extra conditions **[unverified]**.
 
 **Covered in**: ASML book hup/funcin (ME 697 3.1); homework 5
-**Sources**: `26.10.22 - DeepONets.pdf`, `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `03_pca.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`, `06_up_hout_example.ipynb`.
+**Sources**: `26.10.22 - DeepONets.pdf`, `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `courses/ME 697/advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `03_pca.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`, `06_up_hout_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

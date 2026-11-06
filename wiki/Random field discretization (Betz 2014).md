@@ -7,14 +7,14 @@ tags: [uq, gp]
 authors: ["[[Wolfgang Betz]]", "[[Iason Papaioannou]]", "[[Daniel Straub]]"]
 year: 2014
 venue: "Computer Methods in Applied Mechanics and Engineering 271, 109-129"
-file: "Stochastic Methods/Betz, Papaioannou, Straub - Karhunen-Loève Expansion for Discretization of RFs.pdf"
+file: "papers/Stochastic Methods/Betz, Papaioannou, Straub - Karhunen-Loève Expansion for Discretization of RFs.pdf"
 ---
 
 # Random field discretization (Betz 2014)
 
 **Summary**: Compares numerical ways to solve the Fredholm integral eigenvalue problem behind the [[Karhunen-Loève expansion]] of a random field on an arbitrary domain: Nyström, collocation, and Galerkin (finite element and a proposed finite cell method). Shows that the EOLE method is a special case of Nyström with equal weights, and finds EOLE cheapest to set up while FEM and FCM are cheapest to evaluate.
 
-**Authors**: Wolfgang Betz, Iason Papaioannou, Daniel Straub · **Year**: 2014 · **File**: `Stochastic Methods/Betz, Papaioannou, Straub - Karhunen-Loève Expansion for Discretization of RFs.pdf`
+**Authors**: Wolfgang Betz, Iason Papaioannou, Daniel Straub · **Year**: 2014 · **File**: `papers/Stochastic Methods/Betz, Papaioannou, Straub - Karhunen-Loève Expansion for Discretization of RFs.pdf`
 
 ---
 
@@ -75,7 +75,7 @@ Wiki note: this is the practical companion to the theory in [[KL expansion note 
 - KL gives the Gaussian inputs of a [[Polynomial chaos]] expansion ([[Wiener-Askey chaos (Xiu 2002)]]).
 - A Gaussian field is a [[Gaussian process]]; the covariance kernel is the GP kernel.
 
-**Sources**: `Stochastic Methods/Betz, Papaioannou, Straub - Karhunen-Loève Expansion for Discretization of RFs.pdf`.
+**Sources**: `papers/Stochastic Methods/Betz, Papaioannou, Straub - Karhunen-Loève Expansion for Discretization of RFs.pdf`.
 **Last updated**: 2026-11-06
 
 ---

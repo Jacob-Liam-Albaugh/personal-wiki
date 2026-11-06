@@ -1,4 +1,4 @@
-# LLM Wiki — Papers library
+# LLM Wiki — personal library
 
 A personal knowledge base maintained by Claude Code, built over this folder of papers,
 course notes and textbooks. Based on Andrej Karpathy's LLM Wiki pattern.
@@ -23,19 +23,21 @@ not content; content goes in `wiki/`.
 
 ## Folder structure
 
-The existing topic folders **are** the raw layer. They are not moved into a `raw/` folder
-(they sit in iCloud, two contain their own git repos, and other tools point at them).
+`papers/`, `courses/` and `text_books/` are the raw layer. Wiki pages cite sources by paths
+relative to this folder (`papers/IFT/...`).
 
 ```
-<topic folders>/               -- source documents (immutable -- never modify, rename or move)
+papers/                        -- research papers, by topic (source documents; never modify)
   PSL Reading Group/           -- lab reading group, files named YY.MM.DD - <title>.pdf
-  Bayesian/ DSL/ IFT/ ML/ Operators/ Physics Informed Architectures/ Stochastic Methods/
-  Symmetries/ Guassian Processes/ Generative ML/ LLMs/ Transforms/ Math/ Linear Optimization/
-  Digital Signal Processing/   -- ECE 438 course notes (+ ECE 301 review)
-  ECE 27000/                   -- ECE 270 digital systems, weekly lecture notes
-  Electromagnetics/            -- ECE 311 lecture slides
-  _text books/                 -- textbooks; has its own git repo (git-lfs) -- read only
-  advanced-scientific-machine-learning/ -- ME 697 jupyter-book repo; its own git repo -- read only
+  Bayesian/ DSL/ Diffusion/ Generative ML/ Guassian Processes/ IFT/ LLMs/ ML/ Math/ Operators/
+  Physics Informed Architectures/ Stochastic Methods/ Symmetries/ Transforms/
+courses/                       -- class material
+  ECE 270/                     -- digital systems, weekly lecture notes
+  ECE 311/                     -- electromagnetics lecture slides
+  ECE 438/                     -- DSP course notes (+ ECE 301 review)
+  ME 697/                      -- syllabus, videos, homework, data
+    advanced-scientific-machine-learning/ -- jupyter-book repo; its own git repo -- read only
+text_books/                    -- textbooks; its own git repo (git-lfs) -- read only
 wiki/                          -- markdown pages maintained by Claude (flat; Obsidian vault root)
 wiki/meta/                     -- navigation / bookkeeping scaffolding (hidden from graph by path)
 wiki/meta/index.md             -- table of contents for the whole wiki, one section per area
@@ -50,8 +52,8 @@ alone, so links work regardless of subfolder.
 
 ### Duplicates and aliases
 
-The same paper often sits in several topic folders (e.g. Welling-Teh SGLD is in `Bayesian/`,
-`IFT/` and `Stochastic Methods/`), and some entries are ~1 KB Finder aliases, not PDFs. A paper
+The same paper often sits in several topic folders (e.g. Welling-Teh SGLD is in `papers/Bayesian/`,
+`papers/IFT/` and `papers/Stochastic Methods/`), and some entries are ~1 KB Finder aliases, not PDFs. A paper
 gets **one** source page. Its `source-ref` names the real PDF; `sources.md` lists every other
 path as a duplicate or alias of it. A paper's presence in several folders is useful signal:
 record those folders in its `areas` list.
@@ -62,20 +64,20 @@ Every content page has one primary `area` and may list more in `areas`. Area slu
 
 | Slug | Covers | Main folders |
 |---|---|---|
-| `bayesian` | Bayesian inference, VI, inverse problems, MCMC | `Bayesian/` |
-| `ift` | information field theory, SG-MCMC used for IFT | `IFT/` |
-| `dsl` | polynomial functors, applied category theory, Bilionis Poly DSL | `DSL/` |
-| `ml` | deep-learning foundations: optimizers, init, architectures, spectral bias | `ML/`, `LLMs/` |
-| `operators` | operator learning: DeepONet, FNO, LNO, neural operators | `Operators/` |
-| `physics-informed` | PINNs, HNN/LNN, neural ODEs, SINDy, NIF | `Physics Informed Architectures/` |
-| `stochastic` | Brownian motion, Karhunen-Loève, polynomial chaos, SDEs, score models, diffusion | `Stochastic Methods/`, `Generative ML/`, `Diffusion/` |
-| `symmetry` | equivariance and invariance in networks | `Symmetries/` |
-| `gp` | Gaussian processes and kernel methods | `Guassian Processes/` |
-| `math` | convexity, linear optimization, transforms | `Math/`, `Linear Optimization/`, `Transforms/` |
-| `dsp` | ECE 438 DSP and image processing | `Digital Signal Processing/` |
-| `digital` | ECE 270 digital systems | `ECE 27000/` |
-| `em` | ECE 311 electromagnetics | `Electromagnetics/` |
-| `me697` | ME 697 course book (`advanced-scientific-machine-learning/book/`) | course repo |
+| `bayesian` | Bayesian inference, VI, inverse problems, MCMC | `papers/Bayesian/` |
+| `ift` | information field theory, SG-MCMC used for IFT | `papers/IFT/` |
+| `dsl` | polynomial functors, applied category theory, Bilionis Poly DSL | `papers/DSL/` |
+| `ml` | deep-learning foundations: optimizers, init, architectures, spectral bias | `papers/ML/`, `papers/LLMs/` |
+| `operators` | operator learning: DeepONet, FNO, LNO, neural operators | `papers/Operators/` |
+| `physics-informed` | PINNs, HNN/LNN, neural ODEs, SINDy, NIF | `papers/Physics Informed Architectures/` |
+| `stochastic` | Brownian motion, Karhunen-Loève, polynomial chaos, SDEs, score models, diffusion | `papers/Stochastic Methods/`, `papers/Generative ML/`, `papers/Diffusion/` |
+| `symmetry` | equivariance and invariance in networks | `papers/Symmetries/` |
+| `gp` | Gaussian processes and kernel methods | `papers/Guassian Processes/` |
+| `math` | convexity, linear optimization, transforms | `papers/Math/`, `text_books/Linear Optimization/`, `papers/Transforms/` |
+| `dsp` | ECE 438 DSP and image processing | `courses/ECE 438/` |
+| `digital` | ECE 270 digital systems | `courses/ECE 270/` |
+| `em` | ECE 311 electromagnetics | `courses/ECE 311/` |
+| `me697` | ME 697 course book (`courses/ME 697/advanced-scientific-machine-learning/book/`) | course repo |
 
 A new folder gets a new slug, recorded here before it is used.
 
@@ -138,7 +140,7 @@ Paper pages add:
 authors: ["[[Max Welling]]", "[[Yee Whye Teh]]"]   # written by tools/authors.py
 year: 2011
 venue: "ICML"                 # if known from the PDF
-file: "Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf"
+file: "papers/Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf"
 ```
 
 The body line `**Authors**: Max Welling, Yee Whye Teh · ...` must give full names in PDF order;
@@ -253,7 +255,7 @@ Organise by topic, never by class. Lecture notes, slides and book sections from 
 for their topic, with a plain-text line above `**Sources**:` naming where it was covered,
 e.g. `**Covered in**: ECE 438 IP.6, L34-L36` or `**Covered in**: ASML book up/polynomial_chaos
 (ME 697 2.2); homework 3`. ME 697 follows the Advanced Scientific Machine Learning book
-(`advanced-scientific-machine-learning/book/`). Homework and exam-review problems go on the
+(`courses/ME 697/advanced-scientific-machine-learning/book/`). Homework and exam-review problems go on the
 topic page they exercise as `> [!example]` callouts, cited to their file.
 
 ### Notation
@@ -317,7 +319,7 @@ When asked to lint or audit the wiki:
 - Always update `wiki/meta/index.md` and `wiki/meta/log.md` after changes.
 - Git tracks only `wiki/`, `notes/`, `CLAUDE.md`, `.gitignore`; commit after each ingest or
   batch of edits on `main`. Local only: no remotes, no pushes. The nested repos in
-  `_text books/` and `advanced-scientific-machine-learning/` are never touched.
+  `text_books/` and `courses/ME 697/advanced-scientific-machine-learning/` are never touched.
 - Page names are short, readable titles, scannable in graph view. Concepts use the common
   name or acronym (`SGLD.md`, `ELBO.md`, `Classifier-free guidance.md`). Paper pages are
   `<short name> (<Firstauthor> <year>).md` (e.g. `SGLD (Welling 2011).md`); book chapters are

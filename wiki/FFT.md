@@ -52,7 +52,7 @@ and $W_N^{2rk}=W_{N/2}^{rk}$ gives $X[k]=G[k]+W_N^kH[k]$. The twiddle factor $W_
 Fast linear [[Convolution]] by overlap-add and overlap-save relies on this speedup. Image spectra use a 2D FFT; see [[Aliasing]] for the display recipe.
 
 **Covered in**: ECE 438 DSP.3.E (Topic DSP.3.E the FFT); Topic DSP.3.B cost count
-**Sources**: `Digital Signal Processing/Topic DSP.3.E the FFT Feb 12, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.B DT frequency analysis Part 2 Jan 31, 2025.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.3.E the FFT Feb 12, 2025.pdf`, `courses/ECE 438/Topic DSP.3.B DT frequency analysis Part 2 Jan 31, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

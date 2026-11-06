@@ -46,8 +46,8 @@ $$A_0 = H_1 + H_3 + H_5 + H_7$$
 ## In Verilog
 - Structural (`Vr2to4dec_s`), dataflow (`Vr2to4dec_d`, `assign Y0 = EN ? ... : 0;`) and behavioral (`Vr2to4dec_b1`, `case ({A1,A0})`) decoders; 8-bit 2-input mux `Vrmux2in8b_d` and 4-input `Vrmux4in8b` with `case (S)` and `default: Y = 8'bx`; priority encoder `Vr8inprior3`. See [[Verilog]]. (source: 09_21.pdf, p. 10-12, 21-25)
 
-**Covered in**: ECE 270 09_21, 11_07 (ECE 27000/week 05/09_21.pdf, week 12/11_07.pdf)
-**Sources**: `ECE 27000/week 05/09_21.pdf`, `ECE 27000/week 12/11_07.pdf`.
+**Covered in**: ECE 270 09_21, 11_07 (courses/ECE 270/week 05/09_21.pdf, week 12/11_07.pdf)
+**Sources**: `courses/ECE 270/week 05/09_21.pdf`, `courses/ECE 270/week 12/11_07.pdf`.
 **Last updated**: 2026-11-06
 
 ---

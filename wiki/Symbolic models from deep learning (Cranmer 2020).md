@@ -7,14 +7,14 @@ tags: [ml, physics-informed, mechanics]
 authors: ["[[Miles Cranmer]]", "[[Alvaro Sanchez-Gonzalez]]", "[[Peter Battaglia]]", "[[Kyle Cranmer]]", "[[David Spergel]]", "[[Shirley Ho]]"]
 year: 2020
 venue: "NeurIPS 2020"
-file: "ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf"
+file: "papers/ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf"
 ---
 
 # Symbolic models from deep learning (Cranmer 2020)
 
 **Summary**: Trains a Graph Network with a sparse (compact) latent message space, then fits [[Symbolic regression]] separately to its internal functions (edge, node, global). This extends symbolic regression to high-dimensional data and recovers known force laws and Hamiltonians. On a dark matter simulation it finds a new formula for halo overdensity that beats a hand-designed one and generalizes out of distribution better than the network it came from.
 
-**Authors**: Miles Cranmer, Alvaro Sanchez-Gonzalez, Peter Battaglia, Kyle Cranmer, David Spergel, Shirley Ho · **Year**: 2020 · **File**: `ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`
+**Authors**: Miles Cranmer, Alvaro Sanchez-Gonzalez, Peter Battaglia, Kyle Cranmer, David Spergel, Shirley Ho · **Year**: 2020 · **File**: `papers/ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`
 
 ---
 
@@ -75,7 +75,7 @@ Regularize the messages (an $L_1$ penalty with weight $10^{-2}$, or a KL penalty
 **Cited by in this wiki**: [[LNNs (Cranmer 2020)]], [[PySR (Cranmer 2023)]]
 %% refs:end %%
 
-**Sources**: `ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`.
+**Sources**: `papers/ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -50,7 +50,7 @@ For Lipschitz or $C^r$ operators, a ReLU DeepONet needs size $\ge\exp(c\,\vareps
 - [[Physics-informed ML review (Karniadakis 2021)]] — PINN-trained DeepONet for real-time prediction (p. 7-8).
 - Assigned reading and JAX tutorial link in [[Operator learning]] (source: `hup/op/01_reading.md`, `02_deeponet.ipynb`). The notebook is a stub.
 
-**Sources**: `26.10.22 - DeepONets.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
+**Sources**: `26.10.22 - DeepONets.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
 ---

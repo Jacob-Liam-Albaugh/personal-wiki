@@ -7,14 +7,14 @@ tags: [operators, ml, pde]
 authors: ["[[Qianying Cao]]", "[[Somdatta Goswami]]", "[[George Em Karniadakis]]"]
 year: 2023
 venue: "arXiv:2303.10528v2 [cs.LG], preprint submitted to Elsevier, 30-31 May 2023"
-file: "Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf"
+file: "papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf"
 ---
 
 # LNO: Laplace Neural Operator (Cao 2023)
 
 **Summary**: The paper replaces the Fourier-domain kernel of the [[FNO]] with a kernel written in the [[Laplace transform]] domain in pole-residue form, so that one "Laplace layer" produces both a transient response (from learned system poles) and a steady-state response (from the input's Fourier modes). On three ODEs and three PDEs with train/test inputs of different form, one Laplace layer beats a four-layer FNO.
 
-**Authors**: Qianying Cao, Somdatta Goswami, George Em Karniadakis (Dalian Univ. of Technology; Brown Univ.) · **Year**: 2023 (arXiv v2 dated 30 May 2023; the file is the preprint) · **File**: `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`
+**Authors**: Qianying Cao, Somdatta Goswami, George Em Karniadakis (Dalian Univ. of Technology; Brown Univ.) · **Year**: 2023 (arXiv v2 dated 30 May 2023; the file is the preprint) · **File**: `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`
 
 Wiki note: the file name lists Karniadakis first, but the PDF's author order is Cao, Goswami, Karniadakis (Karniadakis is corresponding author), so the slug uses Cao. The PDF carries no journal venue; a later journal version may exist **[unverified]**.
 
@@ -125,7 +125,7 @@ Wiki notes (not claimed in the paper):
 **Cites in this wiki**: [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]]
 %% refs:end %%
 
-**Sources**: `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
+**Sources**: `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
 ---

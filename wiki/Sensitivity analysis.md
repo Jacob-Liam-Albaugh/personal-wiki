@@ -36,7 +36,7 @@ Wiki note: this table is a summary of the lecture's structure, not a table from 
 - Related idea in optimization: the gradient is a local sensitivity; see [[Automatic differentiation]].
 
 **Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1)
-**Sources**: `advanced-scientific-machine-learning/book/up/sensitivity_analysis/00_intro.md`, `01_theory.md`, `04_example_lorenz.ipynb`, `08_global_sensitivity_analysis.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/up/sensitivity_analysis/00_intro.md`, `01_theory.md`, `04_example_lorenz.ipynb`, `08_global_sensitivity_analysis.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

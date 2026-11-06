@@ -36,7 +36,7 @@ $$(c_j-\mathbf p'\mathbf A_j)x_j=0\quad\forall j$$
 - [[BT ch11 - Integer programming]]: Lagrangean duality.
 - [[BJS ch11 - The out-of-kilter algorithm]]: dual of the circulation problem.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 4-6, 9, 11); `Linear Optimization/BJS full book.pdf` (ch. 6, 11).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 4-6, 9, 11); `text_books/Linear Optimization/BJS full book.pdf` (ch. 6, 11).
 **Last updated**: 2026-11-06
 
 ---

@@ -22,7 +22,7 @@ tags: [sampling, mcmc, bayesian]
 - [[Cyclical SG-MCMC (Zhang 2020)]] — defines it.
 - [[Low-precision SGLD (Zhang 2022)]] — cSGLD with 7 cycles in low precision.
 
-**Sources**: `IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`.
 **Last updated**: 2026-11-06
 
 ---

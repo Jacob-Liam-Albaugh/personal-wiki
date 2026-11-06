@@ -10,7 +10,7 @@ tags: [diffusion, generative]
 
 **Summary**: the schedule says how much noise the forward process has added by each time. It fixes the marginals $q(x_t\mid x_0)$, so it fixes the training targets and the sampler's step sizes. The papers here parameterize it four ways.
 
-**Sources**: `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`, `Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`, `Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.
+**Sources**: `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`, `papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`, `papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.
 **Last updated**: 2026-11-06
 
 ---

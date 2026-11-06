@@ -7,14 +7,14 @@ tags: [operators, ml]
 authors: ["[[Nikola B. Kovachki]]", "[[Zongyi Li]]", "[[Burigede Liu]]", "[[Kamyar Azizzadenesheli]]", "[[Kaushik Bhattacharya]]", "[[Andrew M. Stuart]]", "[[Anima Anandkumar]]"]
 year: 2022
 venue: "JMLR 23 (2022) 1-97; arXiv:2108.08481v6"
-file: "Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf"
+file: "papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf"
 ---
 
 # Neural Operator: learning maps between function spaces (Kovachki 2022)
 
 **Summary**: Defines the neural operator, a composition of pointwise lifting, iterated nonlocal kernel-integral layers and pointwise projection, which learns a map between Banach function spaces with a fixed parameter count and is discretization invariant. Four concrete parametrizations are given (graph, low-rank, multipole, Fourier), a universal approximation theorem is proved for the integral-operator class, and the methods are benchmarked on Poisson, Darcy, Burgers and Navier-Stokes. The Fourier version is best in nearly all benchmarks.
 
-**Authors**: Nikola Kovachki, Zongyi Li, Burigede Liu, Kamyar Azizzadenesheli, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar · **Year**: 2022 (JMLR 23, submitted 12/21, revised 10/22, published 12/22) · **File**: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`
+**Authors**: Nikola Kovachki, Zongyi Li, Burigede Liu, Kamyar Azizzadenesheli, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar · **Year**: 2022 (JMLR 23, submitted 12/21, revised 10/22, published 12/22) · **File**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`
 
 ---
 
@@ -272,7 +272,7 @@ Wiki note: the benchmark PDEs are all smooth-solution, mostly periodic or simple
 **Cited by in this wiki**: [[NIF (Pan 2023)]], [[Operator learning review (Kovachki 2024)]]
 %% refs:end %%
 
-**Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf` (appendix proofs A-G not read in detail; theorem statements are from §8).
+**Sources**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf` (appendix proofs A-G not read in detail; theorem statements are from §8).
 **Last updated**: 2026-11-06
 
 ---

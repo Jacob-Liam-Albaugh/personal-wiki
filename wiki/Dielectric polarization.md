@@ -37,8 +37,8 @@ with $\rho_s$ free surface charge. Without free surface charge normal $D$ is con
 ## Analogue
 Magnetic version: [[Magnetic materials]] with $M$, $H$.
 
-**Covered in**: ECE 311 lect_9, lect_10 (Electromagnetics/Lectures Slides/lect_9.pdf, Electromagnetics/Lectures Slides/lect_10.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_9.pdf`, `Electromagnetics/Lectures Slides/lect_10.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_9, lect_10 (courses/ECE 311/Lectures Slides/lect_9.pdf, courses/ECE 311/Lectures Slides/lect_10.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_9.pdf`, `courses/ECE 311/Lectures Slides/lect_10.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

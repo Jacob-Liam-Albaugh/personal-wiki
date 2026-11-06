@@ -7,7 +7,7 @@ tags: [physics-informed, pde, ml, uq]
 authors: ["[[George Em Karniadakis]]", "[[Ioannis G. Kevrekidis]]", "[[Lu Lu]]", "[[Paris Perdikaris]]", "[[Sifan Wang]]", "[[Liu Yang]]"]
 year: 2021
 venue: "Nature Reviews Physics"
-file: "Physics Informed Architectures/Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf"
+file: "papers/Physics Informed Architectures/Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf"
 ---
 
 # Physics-informed machine learning review (Karniadakis 2021)
@@ -67,7 +67,7 @@ Digital twins; transformations between models (nonlinear dynamics to Koopman, Po
 **Cited by in this wiki**: [[IFT thermal conductivity (Alberts 2026)]], [[NIF (Pan 2023)]], [[Respecting causality (Wang 2022)]]
 %% refs:end %%
 
-**Sources**: `Physics Informed Architectures/Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -92,8 +92,8 @@ module VrNbitadder(A, B, CIN, S, COUT);  // parameter N = 64
 - Barrel shifter `Vrbarrel16(DIN, S, C, DOUT)`: 16-bit data, 4-bit shift amount S (0 to 15), 3-bit mode C with parameters naming the six codes. Functions loop `N = S` times, e.g. `Vrol` with `TMPD = {TMPD[14:0], TMPD[15]}` and `Vror` with `TMPD = {TMPD[0], TMPD[15:1]}`; the body is `always @ (DIN or S or C) case (C)` with one `DOUT = Vrol(DIN,S)`-style line per code and `default: DOUT = DIN;`. (source: 11_07.pdf, p. 10)
 - Adder/ALU test bench `VrNbitgcladd_tb`: instantiates `VrNbitALU_e #(.N(N))` with `.S(3'b011)`; a `task checkadd` computes expected sum `xpectS = A+B+CIN`, group generate `xpectG = ((A+B) >= 2**N)` and propagate `xpectP` (a 1 in every bit of A|B) and prints `$display("ERROR: ...")` on a mismatch; an `initial` block loops over all `ci`, `ai`, `bi`, applies each vector, waits `#10`, calls `checkadd`, prints the error count and calls `$stop(1)`. See [[Verilog]]. (source: 11_02.pdf, p. 20-21)
 
-**Covered in**: ECE 270 10_26, 10_31, 11_02, 11_07 (ECE 27000/week 10/10_26.pdf, week 11/10_31.pdf, week 11/11_02.pdf, week 12/11_07.pdf)
-**Sources**: `ECE 27000/week 10/10_26.pdf`, `ECE 27000/week 11/10_31.pdf`, `ECE 27000/week 11/11_02.pdf`, `ECE 27000/week 12/11_07.pdf`.
+**Covered in**: ECE 270 10_26, 10_31, 11_02, 11_07 (courses/ECE 270/week 10/10_26.pdf, week 11/10_31.pdf, week 11/11_02.pdf, week 12/11_07.pdf)
+**Sources**: `courses/ECE 270/week 10/10_26.pdf`, `courses/ECE 270/week 11/10_31.pdf`, `courses/ECE 270/week 11/11_02.pdf`, `courses/ECE 270/week 12/11_07.pdf`.
 **Last updated**: 2026-11-06
 
 ---

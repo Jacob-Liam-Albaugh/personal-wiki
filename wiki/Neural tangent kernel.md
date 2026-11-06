@@ -34,7 +34,7 @@ Each block has its own spectrum, and an unbalanced pair gives different converge
 - The PINN NTK is reported as degenerate, with most eigenvalues near zero (Fig. 2c, p. 7).
 - Wiki note: the constant-kernel regime is the "lazy" regime; feature learning is outside it. This is general background, **[unverified]** against these sources.
 
-**Sources**: `Physics Informed Architectures/Wang, Yu, Perdikaris - When and Why PINNs Fail to Train - A Neural Tangent Kernel Perspective.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Wang, Yu, Perdikaris - When and Why PINNs Fail to Train - A Neural Tangent Kernel Perspective.pdf`.
 **Last updated**: 2026-11-06
 
 ---

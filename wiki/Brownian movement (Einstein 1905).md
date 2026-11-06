@@ -7,14 +7,14 @@ tags: [uq]
 authors: ["[[Albert Einstein]]"]
 year: 1905
 venue: "Annalen der Physik 17, 549 (Dover translation by Cowper, 'Investigations on the Theory of the Brownian Movement')"
-file: "Stochastic Methods/Einstein - Brownian Movement.pdf"
+file: "papers/Stochastic Methods/Einstein - Brownian Movement.pdf"
 ---
 
 # Brownian movement (Einstein 1905)
 
 **Summary**: Argues from the molecular-kinetic theory of heat that microscopically visible particles suspended in a liquid must move irregularly by thermal agitation, with a mean displacement growing as the square root of time. Links the diffusion coefficient to viscosity and particle size, which makes the atomic size (Avogadro's number) measurable from the motion.
 
-**Authors**: Albert Einstein · **Year**: 1905 · **File**: `Stochastic Methods/Einstein - Brownian Movement.pdf`
+**Authors**: Albert Einstein · **Year**: 1905 · **File**: `papers/Stochastic Methods/Einstein - Brownian Movement.pdf`
 
 ---
 
@@ -62,7 +62,7 @@ Wiki note: the mathematical object Einstein describes, independent Gaussian incr
 - Mathematical construction and path properties: [[Brownian motion construction (Li n.d.)]]. Invariance principle in that note is the "random steps in the limit" picture of §4.
 - The same $\sqrt t$ scaling appears as the noise in [[Langevin dynamics]] and [[SGLD]].
 
-**Sources**: `Stochastic Methods/Einstein - Brownian Movement.pdf`.
+**Sources**: `papers/Stochastic Methods/Einstein - Brownian Movement.pdf`.
 **Last updated**: 2026-11-06
 
 ---

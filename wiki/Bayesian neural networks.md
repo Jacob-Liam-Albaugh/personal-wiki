@@ -10,7 +10,7 @@ tags: [bayesian, ml]
 
 **Summary**: put a prior on network weights (or functions) and predict by averaging over the posterior, $p(y^*\mid x^*,D)=\int p(y^*\mid x^*,w)\,p(w\mid D)\,dw$, approximated by samples, particles or a variational $q$.
 
-**Sources**: `Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`, `Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`, `Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf`.
+**Sources**: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`, `papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`, `papers/Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch7 - The decomposition principle
 
 **Summary**: Dantzig-Wolfe decomposition for linear programs whose constraints split into complicating constraints $\mathbf A\mathbf x=\mathbf b$ and a structured polyhedron $X$. The problem is rewritten over the extreme points of $X$ as a master problem and solved by the revised simplex method, with a subproblem over $X$ pricing the columns. The chapter also covers an unbounded $X$, block diagonal structure, and the equivalence with Benders and Lagrangian relaxation. See [[Dantzig-Wolfe decomposition]], [[BT ch6 - Large scale optimization]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 339-392). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 339-392). Cites use printed pages; pdf = printed + 16.
 
 ## Motivation (p. 339)
 Corporate and logistics models can have thousands of rows and a seemingly unlimited number of columns. The Dantzig-Wolfe, Benders and Lagrangian relaxation techniques, "all equivalent for linear programming problems", are called the decomposition principle. The constraints are partitioned into general (complicating) constraints and constraints with special structure, where special structure helps efficiency but is not needed (p. 339, text).
@@ -58,7 +58,7 @@ with $\mathbf w$ unrestricted. Fixing $\mathbf w$ leaves a linear program in $\m
 ## Notes
 - Wiki note: [[BT ch6 - Large scale optimization]] presents the same idea with the resolution theorem and also Benders cuts; here the decomposition is derived from the representation theorem of BJS ch2.
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 355-408, printed pp. 339-392). Pages viewed as images: pdf 356 (printed 340), 357 (341), 359 (343). Remaining sections read from headings and the text layer.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 355-408, printed pp. 339-392). Pages viewed as images: pdf 356 (printed 340), 357 (341), 359 (343). Remaining sections read from headings and the text layer.
 **Last updated**: 2026-11-06
 
 ---

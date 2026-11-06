@@ -5,7 +5,7 @@ source-ref: "Spivak 2020, arXiv 2005.01894"
 authors: ["[[David I. Spivak]]"]
 year: 2020
 venue: arXiv math.CT
-file: "DSL/Spivak - Poly.pdf"
+file: "text_books/Category Theory/Spivak - Poly.pdf"
 tags: [category-theory]
 ---
 
@@ -13,7 +13,7 @@ tags: [category-theory]
 
 **Summary**: Introduces the category Poly of polynomial functors Set -> Set and its four monoidal structures, and shows that mode-dependent dynamical systems (Moore machines, wiring diagrams, categories as comonoids) all live there as lenses and comonoids.
 
-**Authors**: David I. Spivak · **Year**: 2020 · **File**: `DSL/Spivak - Poly.pdf`
+**Authors**: David I. Spivak · **Year**: 2020 · **File**: `text_books/Category Theory/Spivak - Poly.pdf`
 
 ---
 

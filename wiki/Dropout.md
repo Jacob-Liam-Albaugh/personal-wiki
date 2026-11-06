@@ -10,7 +10,7 @@ tags: [ml, optimization, bayesian]
 
 **Summary**: A regularizer that multiplies hidden activations by random Bernoulli masks during training, so each step trains a random thinned subnetwork. At test time the full net is used with scaled weights, approximating an average over exponentially many subnetworks.
 
-**Sources**: `ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf`.
+**Sources**: `papers/ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf`.
 **Last updated**: 2026-11-06
 
 ---

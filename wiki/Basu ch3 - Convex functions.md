@@ -7,14 +7,14 @@ tags: [optimization]
 authors: ["[[Amitabh Basu]]"]
 year: 2018
 venue: "Lecture notes, Johns Hopkins University, compiled 6 Dec 2018"
-file: "Math/Convexity/Basu - Intro to Convexity.pdf"
+file: "text_books/Mathmatics/Basu - Intro to Convexity.pdf"
 ---
 
 # Basu ch3 - Convex functions
 
 **Summary**: Chapter 3 of Basu's notes. A [[Convex function]] is one whose epigraph is a [[Convex set]], so the set theory of [[Basu ch2 - Convex sets]] transfers. The chapter covers closure operations, continuity, gradient and Hessian tests, sublinear functions (gauges and support functions) as the function-side of closed convex sets, and subgradients with directional derivatives.
 
-**Authors**: Amitabh Basu · **Year**: 2018 · **File**: `Math/Convexity/Basu - Intro to Convexity.pdf` · Previous: [[Basu ch2 - Convex sets]] · Next: [[Basu ch4 - Convex optimization]]
+**Authors**: Amitabh Basu · **Year**: 2018 · **File**: `text_books/Mathmatics/Basu - Intro to Convexity.pdf` · Previous: [[Basu ch2 - Convex sets]] · Next: [[Basu ch4 - Convex optimization]]
 
 ---
 
@@ -97,7 +97,7 @@ Holder and Cauchy-Schwarz are the $\ell_p$/$\ell_q$ and Euclidean cases.
 - Wiki note: a PSD kernel matrix is the Hessian-style convexity condition for quadratic forms; see [[RKHS]], [[Kernel methods]].
 - Subgradients feed the subgradient algorithm in [[Basu ch4 - Convex optimization]].
 
-**Sources**: `Math/Convexity/Basu - Intro to Convexity.pdf` (pp. 41-67; proofs skimmed, Thm 3.62 only partly read).
+**Sources**: `text_books/Mathmatics/Basu - Intro to Convexity.pdf` (pp. 41-67; proofs skimmed, Thm 3.62 only partly read).
 **Last updated**: 2026-11-06
 
 ---

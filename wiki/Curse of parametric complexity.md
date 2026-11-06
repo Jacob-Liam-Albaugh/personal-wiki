@@ -13,7 +13,7 @@ tags: [operators, ml]
 > has
 > $$\operatorname{size}(\psi)\ge\exp\big(c\,\varepsilon^{-1/(\alpha r)}\big)$$
 >
-> (source: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, pp. 25-26; the review attributes it to its ref. [78, Ex. 2.17])
+> (source: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, pp. 25-26; the review attributes it to its ref. [78, Ex. 2.17])
 
 **Intuition**: for operators that are merely Lipschitz or $C^r$, standard architectures need a parameter count exponential in a power of $1/\varepsilon$. Smoothness in the usual sense is not enough. Efficient operator learning needs extra structure.
 
@@ -37,7 +37,7 @@ The review lists:
 ## Where it appears
 - [[Operator learning review (Kovachki 2024)]]: the central negative result.
 
-**Sources**: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
+**Sources**: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
 ---

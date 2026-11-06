@@ -49,7 +49,7 @@ A function is convex iff its epigraph is a convex set ([[Convex function]]). Fea
 - Separating hyperplane theorem for a closed convex set and an outside point, used to prove [[Farkas lemma]] and strong duality: [[BT ch4 - Duality theory]] (Thm 4.11, p. 170).
 - Convex sets, polyhedral sets, extreme points and directions: [[BJS ch2 - Linear algebra convex analysis and polyhedral sets]].
 
-**Sources**: `Math/Convexity/Basu - Intro to Convexity.pdf`.
+**Sources**: `text_books/Mathmatics/Basu - Intro to Convexity.pdf`.
 **Last updated**: 2026-11-06
 
 ---

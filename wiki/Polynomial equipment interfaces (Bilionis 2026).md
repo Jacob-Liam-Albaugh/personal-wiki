@@ -7,14 +7,14 @@ tags: [category-theory]
 authors: ["[[Ilias Bilionis]]"]
 year: 2026
 venue: "preprint (September 2026)"
-file: "DSL/Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf"
+file: "papers/DSL/Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf"
 ---
 
 # Polynomial equipment interfaces and experimental protocols (Bilionis 2026)
 
 **Summary**: Specialises the calculus of [[Polynomial functor]]s and [[Dependent lens]]es to laboratory equipment. An interface is a polynomial (positions = observations, directions = admissible requests), a system is a lens out of a state monomial, and a *supported protocol* is a selector that picks an admissible action plus the next protocol state, or stops with a typed reason. The paper proves that transporting a protocol along a lens preserves execution on the lens-exposed model, and that sequential composition is sound given a handoff condition.
 
-**Authors**: Ilias Bilionis · **Year**: 2026 · **File**: `DSL/Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`
+**Authors**: Ilias Bilionis · **Year**: 2026 · **File**: `papers/DSL/Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`
 
 ---
 
@@ -255,7 +255,7 @@ Wiki notes (not from the paper): (i) no associativity or unit laws are establish
 **Cites in this wiki**: [[Poly (Spivak 2020)]], [[Polynomial Functors ch1 - Representable functors]]
 %% refs:end %%
 
-**Sources**: `DSL/Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`.
+**Sources**: `papers/DSL/Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`.
 **Last updated**: 2026-11-06
 
 ---

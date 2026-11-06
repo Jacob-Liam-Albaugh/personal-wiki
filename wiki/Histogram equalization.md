@@ -80,8 +80,8 @@ Wiki note: $T$ is non-decreasing but equal-valued pixels cannot be split, so the
 
 
 
-**Covered in**: ECE 438 IP.4.A, L28, L29 (Digital Signal Processing/Topic IP.4.A Histograms Apr 2, 2025.pdf)
-**Sources**: `Digital Signal Processing/Topic IP.4.A Histograms Apr 2, 2025.pdf`, `Digital Signal Processing/Probability mini review Apr 11, 2025.pdf`, `Digital Signal Processing/front page/L28 Apr 2, 2025.pdf`, `Digital Signal Processing/front page/L29 Apr 4, 2025.pdf`.
+**Covered in**: ECE 438 IP.4.A, L28, L29 (courses/ECE 438/Topic IP.4.A Histograms Apr 2, 2025.pdf)
+**Sources**: `courses/ECE 438/Topic IP.4.A Histograms Apr 2, 2025.pdf`, `courses/ECE 438/Probability mini review Apr 11, 2025.pdf`, `courses/ECE 438/front page/L28 Apr 2, 2025.pdf`, `courses/ECE 438/front page/L29 Apr 4, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

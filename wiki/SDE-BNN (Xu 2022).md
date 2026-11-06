@@ -7,14 +7,14 @@ tags: [bayesian, vi, ml]
 authors: ["[[Winnie Xu]]", "[[Ricky T. Q. Chen]]", "[[Xuechen Li]]", "[[David Duvenaud]]"]
 year: 2022
 venue: "AISTATS 2022 (PMLR 151); arXiv:2102.06559v4"
-file: "Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf"
+file: "papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf"
 ---
 
 # Infinitely Deep BNNs with SDEs (Xu 2022)
 
 **Summary**: The paper treats the weights of a continuous-depth residual network as a stochastic process with an Ornstein-Uhlenbeck prior and learns an implicit, non-Gaussian, non-factorised approximate posterior over weight paths, itself an SDE with a neural-network drift. Training maximises a path-space [[ELBO]] with a "sticking the landing" low-variance gradient estimator. On MNIST and CIFAR-10 it beats mean-field baselines on calibration and is competitive with discrete-depth BNNs.
 
-**Authors**: Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud (the filename lists Chen first; the paper's own order is Xu first) · **Year**: 2022 · **File**: `Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`
+**Authors**: Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud (the filename lists Chen first; the paper's own order is Xu first) · **Year**: 2022 · **File**: `papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`
 
 ---
 
@@ -35,7 +35,7 @@ The goal is [[Variational inference]] in the limit of infinitely many residual l
 > The KL between the induced path measures is
 > $$D_{KL}(\mu_q\|\mu_p)=\mathbb{E}_{q_\phi(w)}\!\int_0^1 \tfrac12\|u(t,\phi)\|_2^2\,dt,\qquad
 > u(t,\phi)=g_\theta(w_t,t)^{-1}\big[f_\theta(w_t,t)-f_\phi(w_t,t)\big].$$
-> (source: `Bayesian/Chen, Xu, Li, Duvenaud ...pdf`, eqs. 3-6, p. 3)
+> (source: `papers/Bayesian/Chen, Xu, Li, Duvenaud ...pdf`, eqs. 3-6, p. 3)
 
 The shared diffusion is required for the KL to be finite. The authors cite Boue and Dupuis (1998) for a one-to-one correspondence between path measures and drifts, and Tzen-Raginsky for the Girsanov form showing the ELBO is tight at the optimal drift. So any path measure near the true posterior can be reached by a suitably expressive drift network (p. 3).
 
@@ -108,7 +108,7 @@ Wiki note: none of the baselines include a function-space or [[SVGD]] posterior,
 - Compared with [[Bayesian DenseED surrogate (Zhu 2018)]]: Zhu uses a particle-based posterior over a fixed-architecture CNN; this paper puts a stochastic process on the weights over depth. Wiki note: neither is a function-space prior.
 - Related background in the wiki: [[Bayesian model averaging]], [[Langevin dynamics]] (OU process is the simplest Langevin diffusion; Wiki note).
 
-**Sources**: `Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`. A Finder alias to the same paper sits at `Stochastic Methods/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns` (not a separate source).
+**Sources**: `papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`. A Finder alias to the same paper sits at `papers/Stochastic Methods/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns` (not a separate source).
 **Last updated**: 2026-11-06
 
 ---

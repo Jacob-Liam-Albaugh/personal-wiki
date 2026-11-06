@@ -34,7 +34,7 @@ tags: [optimization]
 - [[BT ch8 - Complexity of LP and the ellipsoid method]], [[BJS ch8 - Complexity of the simplex algorithm and polynomial-time algorithms]]: running time.
 - [[BJS ch9 - Minimal cost network flows]], [[BT ch7 - Network flows]]: tree-based version.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 3, 8); `Linear Optimization/BJS full book.pdf` (ch. 3-5, 8-9).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 3, 8); `text_books/Linear Optimization/BJS full book.pdf` (ch. 3-5, 8-9).
 **Last updated**: 2026-11-06
 
 ---

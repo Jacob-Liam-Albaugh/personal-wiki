@@ -120,8 +120,8 @@ Lesson: PSNR compares pixels, so it penalises harmless geometric changes and is 
 
 
 
-**Covered in**: ECE 438 IP.6, L34-L37 (Digital Signal Processing/Topic IP.6 Image compression Apr 23, 2025.pdf); Reibman examples
-**Sources**: `Digital Signal Processing/Topic IP.6 Image compression Apr 23, 2025.pdf`, `Digital Signal Processing/reibman_purdue08-examples.pdf`, `Digital Signal Processing/front page/L34 Apr 18, 2025.pdf`, `Digital Signal Processing/front page/L35 Apr 21, 2025.pdf`, `Digital Signal Processing/front page/L36 Apr 23, 2025.pdf`, `Digital Signal Processing/front page/L37 Apr 25, 2025.pdf`.
+**Covered in**: ECE 438 IP.6, L34-L37 (courses/ECE 438/Topic IP.6 Image compression Apr 23, 2025.pdf); Reibman examples
+**Sources**: `courses/ECE 438/Topic IP.6 Image compression Apr 23, 2025.pdf`, `courses/ECE 438/reibman_purdue08-examples.pdf`, `courses/ECE 438/front page/L34 Apr 18, 2025.pdf`, `courses/ECE 438/front page/L35 Apr 21, 2025.pdf`, `courses/ECE 438/front page/L36 Apr 23, 2025.pdf`, `courses/ECE 438/front page/L37 Apr 25, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

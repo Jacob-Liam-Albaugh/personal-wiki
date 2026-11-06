@@ -5,7 +5,7 @@ source-ref: "Niu-Spivak 2024, ch. 8"
 authors: ["[[Nelson Niu]]", "[[David I. Spivak]]"]
 year: 2024
 venue: book draft
-file: "DSL/Spivak, Niu - Polynomial Functors.pdf"
+file: "text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf"
 tags: [category-theory]
 ---
 
@@ -13,7 +13,7 @@ tags: [category-theory]
 
 **Summary**: Cofree comonoids on trees, the adjunction between Cat-sharp and Poly, monoids and arrow fields, factorizations and limits in Cat-sharp, and comodules, bicomodules and prafunctors.
 
-**Authors**: Nelson Niu, David I. Spivak · **Year**: 2024 · **File**: `DSL/Spivak, Niu - Polynomial Functors.pdf`
+**Authors**: Nelson Niu, David I. Spivak · **Year**: 2024 · **File**: `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`
 
 ---
 ## Problem

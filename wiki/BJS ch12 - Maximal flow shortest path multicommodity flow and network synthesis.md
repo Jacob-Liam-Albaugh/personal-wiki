@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch12 - Maximal flow shortest path multicommodity flow and network synthesis
 
 **Summary**: Specialized network flow problems. The maximal flow problem with its dual, cuts, the augmenting path algorithm and the max flow min cut theorem; shortest paths by a label-setting method for nonnegative costs and label-correcting methods for arbitrary costs; multicommodity flow solved by decomposition; and network synthesis of multiterminal flow networks. See [[Network flow problem]], [[LP duality]], [[BJS ch11 - The out-of-kilter algorithm]], [[BJS ch7 - The decomposition principle]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 607-680). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 607-680). Cites use printed pages; pdf = printed + 16.
 
 ## Overview (p. 607)
 Maximal flow and shortest path can be solved by the network simplex method of [[BJS ch9 - Minimal cost network flows]] or the out-of-kilter algorithm, but their frequency and the efficient specialized procedures justify separate treatment. Multicommodity flow distinguishes types of units, with supplies and demands per commodity. Synthesis (design) problems construct an optimal network rather than analyze a given one (p. 607, text).
@@ -100,7 +100,7 @@ A network design problem, as opposed to the analysis problems so far (p. 654, te
 - Wiki note: Theorem 12.1 is LP duality for the maximal flow problem, as the dual above shows, so it is a special case of [[LP duality]]. The book states (p. 540) that Theorem 10.1 of [[BJS ch10 - Transportation and assignment problems]] is a special case of it, as Exercise 12.17 asks the reader to show.
 - Wiki note: [[BT ch7 - Network flows]] covers the same network flow problem.
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 623-696, printed pp. 607-680). Pages viewed as images: pdf 628 (printed 612) and 644 (628). All other content (formulations, cuts, dual, Dijkstra, PSP, multicommodity, synthesis) read from the text layer, which garbles math, so those equations are reconstructed from the text and not checked against an image. Sections on capacity scaling, extensions and synthesis beyond the dominant tree were not read in detail.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 623-696, printed pp. 607-680). Pages viewed as images: pdf 628 (printed 612) and 644 (628). All other content (formulations, cuts, dual, Dijkstra, PSP, multicommodity, synthesis) read from the text layer, which garbles math, so those equations are reconstructed from the text and not checked against an image. Sections on capacity scaling, extensions and synthesis beyond the dominant tree were not read in detail.
 **Last updated**: 2026-11-06
 
 ---

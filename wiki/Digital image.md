@@ -48,8 +48,8 @@ English terms for these artifacts (checkerboard, jaggies, false contouring) over
 ## Course outline
 A. continuous-space and Fourier analysis, acquisition ([[Fourier transform]]); B. sampling, quantisation, bit planes, geometric transforms ([[Image interpolation]]); C. intensity transformations, spatial filtering, enhancement ([[Histogram equalization]], [[Spatial filtering]]); D. frequency analysis and the 2D DFT ([[DFT]]); E. reconstruction and the Radon transform; F. wavelets and image transforms ([[Image transforms]], [[Wavelet transform]]); G. compression ([[Image compression]]). Not covered: human visual system, segmentation, classification, colour spaces, computer vision (IP.1, p. 3). Fig. 1.23 (fundamental steps in digital image processing) and similar figures come from the textbook; morphological processing and pattern classification chapters are crossed out (IP.1, pp. 1-2).
 
-**Covered in**: ECE 438 IP.1, IP.2 (resolution and bit depth), L24, L25, L26 (Digital Signal Processing/Topic IP.1 Image processing overview Mar 23, 2025.pdf)
-**Sources**: `Digital Signal Processing/Topic IP.1 Image processing overview Mar 23, 2025.pdf`, `Digital Signal Processing/Topic IP.2 Sampling, quantization, interpolation Mar 23, 2025 .pdf`, `Digital Signal Processing/front page/L24 Mar 24, 2025.pdf`, `Digital Signal Processing/front page/L25 Mar 26, 2025.pdf`, `Digital Signal Processing/front page/L26 Mar 26, 2025.pdf`.
+**Covered in**: ECE 438 IP.1, IP.2 (resolution and bit depth), L24, L25, L26 (courses/ECE 438/Topic IP.1 Image processing overview Mar 23, 2025.pdf)
+**Sources**: `courses/ECE 438/Topic IP.1 Image processing overview Mar 23, 2025.pdf`, `courses/ECE 438/Topic IP.2 Sampling, quantization, interpolation Mar 23, 2025 .pdf`, `courses/ECE 438/front page/L24 Mar 24, 2025.pdf`, `courses/ECE 438/front page/L25 Mar 26, 2025.pdf`, `courses/ECE 438/front page/L26 Mar 26, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

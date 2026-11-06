@@ -14,7 +14,7 @@ tags: [diffusion, generative, sampling]
 > $$\hat x_0=\frac{x_t-\sqrt{1-\alpha_t}\,\epsilon_\theta(x_t)}{\sqrt{\alpha_t}}$$
 > $\sigma_t=0$ is DDIM, a deterministic map. The DDPM value of $\sigma_t$ recovers [[DDPM]].
 >
-> (source: `Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`, p. 5)
+> (source: `papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`, p. 5)
 
 **Intuition**: many forward processes have the same one-step marginals $q(x_t\mid x_0)$ as DDPM. The DDPM loss sees only those marginals, so one trained network serves all of them. Pick the noise-free one, and you can also skip steps.
 
@@ -64,7 +64,7 @@ x_{t-Δt} = x_t + λ (μ_{t-Δt}(x_t) - x_t)
 - [[Step-by-step diffusion (Nakkiran 2025)]]: Chapters 3-4.
 - [[Classifier-free guidance (Ho 2022)]]: named as a drop-in sampler for Alg. 2.
 
-**Sources**: `Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`, `Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
+**Sources**: `papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
 **Last updated**: 2026-11-06
 
 ---

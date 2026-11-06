@@ -12,7 +12,7 @@ tags: [generative, ml, vi]
 > Base $z_0\sim N(0,I)$, invertible $T=T_K\circ\dots\circ T_1$, $\xi=T(z_0)$:
 > $$q_\lambda(\xi)=q(z_0)\,\Big|\det\tfrac{\partial\xi}{\partial z_0}\Big|^{-1}.$$
 >
-> (source: `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, eq. 6)
+> (source: `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, eq. 6)
 
 **Intuition**: build a flexible density by warping a Gaussian through maps whose Jacobian determinant is cheap. Unlike a Gaussian guide, it can be multimodal.
 
@@ -33,7 +33,7 @@ $$H=\tfrac d2\log(2\pi e)+\mathbb E\log|\det\partial G/\partial Z_0|.$$
 - [[Intro to VAEs (Kingma 2019)]]: ch. 3 (IAF) is listed in the contents but missing from the PDF.
 - [[Neural ODEs (Chen 2018)]] — continuous normalizing flows: log-density changes by an integral of a trace instead of a determinant (see [[Neural ODE]]).
 
-**Sources**: `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
+**Sources**: `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06
 
 ---

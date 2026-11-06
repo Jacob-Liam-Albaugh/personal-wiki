@@ -31,7 +31,7 @@ tags: [optimization]
 ## Representations
 - a nonempty polyhedron is exactly conv(V) + cone(D) for finite V and D (Minkowski-Weyl; source: Basu 2018, Thms 2.77, 2.81, 2.82, pp. 33-34). Extreme points correspond to constraint sets whose tight rows have rank d (Thm 2.70, p. 31).
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf`; `Linear Optimization/BJS full book.pdf`.
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf`; `text_books/Linear Optimization/BJS full book.pdf`.
 **Last updated**: 2026-11-06
 
 ---

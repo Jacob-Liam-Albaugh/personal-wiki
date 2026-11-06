@@ -32,7 +32,7 @@ The bootstrap smoother keeps whole trajectories and conditions on all data, givi
 - In the linear-Gaussian case the [[Kalman filter]] is exact and cheaper.
 
 **Covered in**: ASML book sinverse/fs (ME 697 6.2)
-**Sources**: `advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `01_reading.md` (heading "Particle Filters" only), `advanced-scientific-machine-learning/book/sinverse/fs/intro.md`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `01_reading.md` (heading "Particle Filters" only), `courses/ME 697/advanced-scientific-machine-learning/book/sinverse/fs/intro.md`.
 **Last updated**: 2026-11-06
 
 ---

@@ -27,7 +27,7 @@ tags: [sampling, mcmc]
 - The same accept/reject step ends each [[Hamiltonian Monte Carlo]] trajectory. **[unverified]** in the notebook text.
 
 **Covered in**: ASML book inverse/sampling (ME 697 4.2); homework 6
-**Sources**: `IFT/Ruqi Zhang - AMAGOLD.pdf`, `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - AMAGOLD.pdf`, `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
 ---

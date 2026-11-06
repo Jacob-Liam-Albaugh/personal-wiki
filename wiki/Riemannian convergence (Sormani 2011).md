@@ -7,14 +7,14 @@ tags: [ml]
 authors: ["[[Christina Sormani]]"]
 year: 2011
 venue: "arXiv:1006.0411v2 [math.DG] (survey)"
-file: "ML/Sormani - How Riemannian Manifolds Converge.pdf"
+file: "papers/ML/Sormani - How Riemannian Manifolds Converge.pdf"
 ---
 
 # Riemannian convergence (Sormani 2011)
 
 **Summary**: An illustrated survey of ways a sequence of manifolds can converge when smooth convergence fails. Extrinsic notions (Hausdorff, flat, varifold) apply to submanifolds of Euclidean space. Intrinsic notions (Gromov-Hausdorff, metric measure, intrinsic flat, ultralimit) apply to abstract Riemannian manifolds. Each notion preserves some properties and loses others.
 
-**Authors**: Christina Sormani · **Year**: 2011 · **File**: `ML/Sormani - How Riemannian Manifolds Converge.pdf`
+**Authors**: Christina Sormani · **Year**: 2011 · **File**: `papers/ML/Sormani - How Riemannian Manifolds Converge.pdf`
 
 ---
 
@@ -49,11 +49,11 @@ No new theorems. Key examples: tori collapsing to a circle (eq. 24, $d_{GH}\le\p
 
 ## Connections
 
-- Why it sits in `ML/`: Wiki note, probably background for manifold geometry. This is a **flag**; the source gives no link to machine learning.
+- Why it sits in `papers/ML/`: Wiki note, probably background for manifold geometry. This is a **flag**; the source gives no link to machine learning.
 - The Riemannian metric picture for samplers: [[Riemannian manifold HMC]] and [[RMHMC (Girolami 2011)]] treat parameter space as a manifold with a Fisher metric. Sormani's survey concerns convergence of sequences of manifolds, which is a different question. Wiki note.
 - Manifold hypothesis for data: [[Spectral bias (Rahaman 2019)]] §4 assumes data on a lower-dimensional manifold.
 
-**Sources**: `ML/Sormani - How Riemannian Manifolds Converge.pdf`.
+**Sources**: `papers/ML/Sormani - How Riemannian Manifolds Converge.pdf`.
 **Last updated**: 2026-11-06
 
 ---

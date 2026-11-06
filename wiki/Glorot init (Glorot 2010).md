@@ -7,14 +7,14 @@ tags: [optimization, ml]
 authors: ["[[Xavier Glorot]]", "[[Yoshua Bengio]]"]
 year: 2010
 venue: "AISTATS 2010 (JMLR W&CP 9)"
-file: "ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf"
+file: "papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf"
 ---
 
 # Glorot init (Glorot 2010)
 
 **Summary**: Studies why plain SGD on deep feedforward nets from random initialization trains badly. Finds that sigmoid saturates the top hidden layer, that softsign saturates more gently, and that keeping layer-to-layer variances of activations and back-propagated gradients equal gives a "normalized initialization" with variance $2/(n_j+n_{j+1})$. This is the rule now called Xavier or Glorot initialization.
 
-**Authors**: Xavier Glorot, Yoshua Bengio · **Year**: 2010 · **File**: `ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf`
+**Authors**: Xavier Glorot, Yoshua Bengio · **Year**: 2010 · **File**: `papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf`
 
 ---
 
@@ -73,7 +73,7 @@ The paper also notes the weight-gradient variance is equal across layers even wh
 
 Authors: many observations remain unexplained, such as the sequential tanh saturation (p. 8). The derivation assumes a linear regime at initialization, and the authors say it cannot be used during learning because weights stop being independent of activations (§4.3, p. 6).
 
-Wiki note: the analysis covers symmetric activations with $f'(0)=1$ (tanh, softsign). ReLU is not treated, and He initialization is not in the `ML/` folder, so this wiki has no source for it. See [[Weight initialization]].
+Wiki note: the analysis covers symmetric activations with $f'(0)=1$ (tanh, softsign). ReLU is not treated, and He initialization is not in the `papers/ML/` folder, so this wiki has no source for it. See [[Weight initialization]].
 
 ## Connections
 
@@ -82,10 +82,10 @@ Wiki note: the analysis covers symmetric activations with $f'(0)=1$ (tanh, softs
 - The "standard" init here is the rule the ME 697 book labels He ([[Weight initialization]]).
 
 %% refs:start %%
-**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[LNNs (Cranmer 2020)]], [[ResNet paper (He 2016)]], [[Respecting causality (Wang 2022)]], [[SINDy autoencoders (Champion 2019)]], [[SIREN paper (Sitzmann 2020)]], [[Variational graph auto-encoder (Kipf 2016)]], [[When and why PINNs fail (Wang 2022)]]
+**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[Init and momentum (Sutskever 2013)]], [[LNNs (Cranmer 2020)]], [[ResNet paper (He 2016)]], [[Respecting causality (Wang 2022)]], [[SINDy autoencoders (Champion 2019)]], [[SIREN paper (Sitzmann 2020)]], [[Variational graph auto-encoder (Kipf 2016)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
-**Sources**: `ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf`.
+**Sources**: `papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf`.
 **Last updated**: 2026-11-06
 
 ---

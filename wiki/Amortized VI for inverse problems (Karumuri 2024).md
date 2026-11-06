@@ -7,14 +7,14 @@ tags: [bayesian, vi, inverse-problems, ml]
 authors: ["[[Sharmila Karumuri]]", "[[Ilias Bilionis]]"]
 year: 2024
 venue: "arXiv:2305.20004v3 (stat.ML), 28 May 2024 (preprint; no journal given in the PDF)"
-file: "Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf"
+file: "papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf"
 ---
 
 # Learning to solve Bayesian inverse problems with amortized VI (Karumuri 2024)
 
 **Summary**: Learns the *Bayesian inverse map* (data to posterior) once, by maximising the expected ELBO over all datasets the model can generate. The posterior is a full-rank Gaussian or a conditional normalizing flow whose parameters are the output of an amortization network, so a new posterior costs one forward pass. Three benchmarks match NUTS MCMC; the Gaussian guide fails on a multimodal problem, the flow guide largely recovers it.
 
-**Authors**: Sharmila Karumuri, Ilias Bilionis (Purdue) · **Year**: 2024 · **File**: `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`
+**Authors**: Sharmila Karumuri, Ilias Bilionis (Purdue) · **Year**: 2024 · **File**: `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`
 
 Wiki note: filename lists Bilionis first; the paper's first author is Karumuri (corresponding author).
 
@@ -110,7 +110,7 @@ Wiki note (not in paper): Theorem 2 and the "equivalent to all VI problems" clai
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Amortized VI when and why (Margossian 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[VAE paper (Kingma 2014)]], [[Variational inverse problems (Tsilifis 2014)]], [[Wiener-Askey chaos (Xiu 2002)]]
 %% refs:end %%
 
-**Sources**: `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
+**Sources**: `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06
 
 ---

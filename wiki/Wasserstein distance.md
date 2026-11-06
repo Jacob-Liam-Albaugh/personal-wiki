@@ -15,7 +15,7 @@ tags: [generative]
 ## Where it appears
 - [[Cyclical SG-MCMC]] (Thm 2) · [[Variance-corrected quantization]] (Thms 1-3) · [[Langevin dynamics]] (Dalalyan-Karagulyan bound).
 
-**Sources**: `IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`, `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`, `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
 ---

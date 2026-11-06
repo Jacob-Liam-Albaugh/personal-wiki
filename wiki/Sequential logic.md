@@ -28,8 +28,8 @@ tags: [digital-logic]
 - Clock speed up to 4 GHz inside chips and 500 MHz between chips on a PCB. (source: 10_05.pdf, p. 8)
 - See [[Static timing and propagation delay]] and [[Timing diagram]].
 
-**Covered in**: ECE 270 08_31, 09_28, 10_03, 10_05, 10_17 (ECE 27000/week 02/08_31.pdf, week 06/09_28(2).pdf, week 07/10_03.pdf, week 07/10_05.pdf, week 09/10_17.pdf)
-**Sources**: `ECE 27000/week 02/08_31.pdf`, `ECE 27000/week 06/09_28(2).pdf`, `ECE 27000/week 07/10_03.pdf`, `ECE 27000/week 07/10_05.pdf`, `ECE 27000/week 09/10_17.pdf`.
+**Covered in**: ECE 270 08_31, 09_28, 10_03, 10_05, 10_17 (courses/ECE 270/week 02/08_31.pdf, week 06/09_28(2).pdf, week 07/10_03.pdf, week 07/10_05.pdf, week 09/10_17.pdf)
+**Sources**: `courses/ECE 270/week 02/08_31.pdf`, `courses/ECE 270/week 06/09_28(2).pdf`, `courses/ECE 270/week 07/10_03.pdf`, `courses/ECE 270/week 07/10_05.pdf`, `courses/ECE 270/week 09/10_17.pdf`.
 **Last updated**: 2026-11-06
 
 ---

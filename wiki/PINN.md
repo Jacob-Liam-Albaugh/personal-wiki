@@ -20,7 +20,7 @@ tags: [physics-informed, ml, pde]
 ## Where it appears
 - [[PIFT (Alberts 2023)]] — derivations.
 - [[IFT thermal conductivity (Alberts 2026)]] — contrast; cites Hao & Bilionis (neural information field filter, not read) for B-PINN's poor extrapolation.
-- [[PINNs (Raissi 2019)]] — original continuous-time and discrete-time (implicit Runge-Kutta) formulations (source: Physics Informed Architectures/Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf).
+- [[PINNs (Raissi 2019)]] — original continuous-time and discrete-time (implicit Runge-Kutta) formulations (source: papers/Physics Informed Architectures/Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf).
 - [[When and why PINNs fail (Wang 2022)]] — NTK analysis: boundary and residual loss blocks converge at different rates; adaptive weights from Tr(K) ratios; see [[Neural tangent kernel]].
 - [[Respecting causality (Wang 2022)]] — causal weights along time; temporal convergence rate as a stopping criterion.
 - [[Expert's guide to PINNs (Wang 2023)]] — training pipeline: non-dimensionalization, Fourier features, random weight factorization, loss balancing, curriculum.
@@ -89,7 +89,7 @@ $$
 - Wiki note: the energy loss was less accurate than the residual loss in the book's Poisson example (source: pinns/basics/energy.ipynb).
 
 **Covered in**: ASML book pinns/basics (ME 697 5.1); ASML book pinns/inverse (ME 697 5.3); homework 7
-**Sources**: `IFT/Bilionis, Alberts - IFT.pdf`, `advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/basics/forward.ipynb`, `pinns/basics/spectral_bias.ipynb`, `pinns/basics/energy.ipynb`, `advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/inverse/01_pinns_inverse_example.ipynb`, `pinns/inverse/02_example_Bayesian_pinns.ipynb`, `homework/00_intro.md`, `homework/01_homework.ipynb through 07_homework.ipynb`.
+**Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `courses/ME 697/advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/basics/forward.ipynb`, `pinns/basics/spectral_bias.ipynb`, `pinns/basics/energy.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/inverse/01_pinns_inverse_example.ipynb`, `pinns/inverse/02_example_Bayesian_pinns.ipynb`, `homework/00_intro.md`, `homework/01_homework.ipynb through 07_homework.ipynb`.
 **Last updated**: 2026-11-06
 
 ---
@@ -98,4 +98,4 @@ $$
 - [[Physics-informed prior]] · [[Information field theory]]
 - [[Physics-informed machine learning]] · [[PINNs (Raissi 2019)]] · [[When and why PINNs fail (Wang 2022)]] · [[Respecting causality (Wang 2022)]] · [[Expert's guide to PINNs (Wang 2023)]] · [[Neural tangent kernel]] · [[Physics-informed ML review (Karniadakis 2021)]]
 - [[SIREN]] (smooth derivatives for PDE losses, Sitzmann 2020 §4), [[Spectral bias]], [[Fourier features]].
-- [[Poisson and Laplace equations]], [[Maxwell's equations]]: classical PDEs of electrostatics and electromagnetics that PINNs can solve (source: Electromagnetics/Lectures Slides/lect_12.pdf).
+- [[Poisson and Laplace equations]], [[Maxwell's equations]]: classical PDEs of electrostatics and electromagnetics that PINNs can solve (source: courses/ECE 311/Lectures Slides/lect_12.pdf).

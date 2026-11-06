@@ -81,7 +81,7 @@ Given an input-output relationship, the preferred way to find $H(e^{j\omega})$ i
 - [[Transmission line]]: lossless lines as delay elements, reflection analysis for pulses ([[Transmission line]]).
 
 **Covered in**: ECE 438 DSP.2 (Topic DSP.2 DT systems), L23 (L23 Mar 10, 2025.pdf), L15 (L15 Feb 19, 2025.pdf)
-**Sources**: `Digital Signal Processing/Topic DSP.2 DT systems UPDATED Jan 22, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.A DT frequency analysis Part 1 Jan 31, 2025.pdf`, `Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf`, `Digital Signal Processing/exam_1_review_transcribed.pdf`, `Digital Signal Processing/front page/L23 Mar 10, 2025.pdf`, `Digital Signal Processing/front page/L15 Feb 19, 2025.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.2 DT systems UPDATED Jan 22, 2025.pdf`, `courses/ECE 438/Topic DSP.3.A DT frequency analysis Part 1 Jan 31, 2025.pdf`, `courses/ECE 438/Topic DSP.6 z-transforms March 7, 2025.pdf`, `courses/ECE 438/exam_1_review_transcribed.pdf`, `courses/ECE 438/front page/L23 Mar 10, 2025.pdf`, `courses/ECE 438/front page/L15 Feb 19, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

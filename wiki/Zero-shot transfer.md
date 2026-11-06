@@ -10,7 +10,7 @@ tags: [ml]
 
 **Summary**: use a pretrained model on a new task without training on that task's examples. CLIP embeds every class name (wrapped in a prompt) with its text encoder and labels an image by the closest one. The class embeddings act as the weights of a linear classifier. CLIP treats this as a test of task learning rather than representation learning (main p. 4).
 
-**Sources**: `Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf`, `Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf`.
+**Sources**: `papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf`, `papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf`.
 **Last updated**: 2026-11-06
 
 ---

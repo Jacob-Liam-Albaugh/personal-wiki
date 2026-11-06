@@ -10,7 +10,7 @@ tags: [ml]
 
 **Summary**: instead of predicting a target, learn embeddings in which matched pairs score higher than mismatched ones. CLIP applies this to (image, text) pairs. In a batch of $ pairs it raises the cosine similarity of the $ true pairs and lowers it for the ^2-N$ wrong ones. The loss is a symmetric cross-entropy over the similarity matrix (main p. 3).
 
-**Sources**: `Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf`, `Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf`.
+**Sources**: `papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf`, `papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf`.
 **Last updated**: 2026-11-06
 
 ---

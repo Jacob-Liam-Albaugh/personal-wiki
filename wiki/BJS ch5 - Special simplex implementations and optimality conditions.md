@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch5 - Special simplex implementations and optimality conditions
 
 **Summary**: Implementations of the simplex method that keep only the basis inverse (revised simplex), a variant that handles lower and upper bounds without enlarging the basis, a constructive proof of Farkas' lemma from the simplex method, and the Karush-Kuhn-Tucker conditions for linear programs, shown to be necessary and sufficient. See [[Simplex method]], [[Farkas lemma]], [[KKT conditions]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 201-258). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 201-258). Cites use printed pages; pdf = printed + 16.
 
 ## The revised simplex method (§5.1, p. 201-221)
 It performs the same steps as the simplex method but keeps only a smaller array, saving storage (p. 201, text). Steps for a minimization problem with basis $\mathbf B$ and inverse $\mathbf B^{-1}$ (p. 201, text layer, garbled math):
@@ -53,7 +53,7 @@ The vectors $\mathbf w,\mathbf v$ are the Lagrangian multipliers (dual variables
 - Wiki note: BT derive duality and the optimality conditions without KKT, through reduced costs and the dual simplex view in [[BT ch4 - Duality theory]]; their Farkas lemma is in the same chapter.
 - Wiki note: the multipliers $\mathbf w=\mathbf c_B\mathbf B^{-1}$ of the revised simplex method are exactly the dual solution that complementary slackness above pairs with the primal basic solution.
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 217-274, printed pp. 201-258). Pages viewed as images: pdf 250 (printed 234), 253 (237), 254 (238), 255 (239). The revised simplex steps and bounded variable material come from the text layer, whose math is garbled. Example 5.6 values were read from the image of pdf 250 only for the last tableau.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 217-274, printed pp. 201-258). Pages viewed as images: pdf 250 (printed 234), 253 (237), 254 (238), 255 (239). The revised simplex steps and bounded variable material come from the text layer, whose math is garbled. Example 5.6 values were read from the image of pdf 250 only for the last tableau.
 **Last updated**: 2026-11-06
 
 ---

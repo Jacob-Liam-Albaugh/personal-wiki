@@ -6,7 +6,7 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch4 - Duality theory
@@ -117,7 +117,7 @@ Dual: maximize $g(\mathbf p)$ subject to $\mathbf p\ge\mathbf0$. Theorem 4.17 (w
 - Wiki note: sensitivity analysis of the optimal basis ([[BT ch5 - Sensitivity analysis]]) is built on the formulas here: $\mathbf p'=\mathbf c_B'\mathbf B^{-1}$ and the dual simplex method.
 - Wiki note: statements of Cor. 4.3, Thm 4.7-4.8, 4.12-4.14 and 4.16 above are paraphrased from headings and the text layer, not read as page images. **[unverified]**
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 155-216, printed pp. 139-200).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 155-216, printed pp. 139-200).
 **Last updated**: 2026-11-06
 
 ---

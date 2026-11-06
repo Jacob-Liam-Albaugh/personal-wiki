@@ -7,14 +7,14 @@ tags: [sampling, mcmc, bayesian]
 authors: ["[[Ruqi Zhang]]", "[[Chunyuan Li]]", "[[Jianyi Zhang]]", "[[Changyou Chen]]", "[[Andrew Gordon Wilson]]"]
 year: 2020
 venue: "ICLR"
-file: "IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf"
+file: "papers/IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf"
 ---
 
 # Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning (Zhang 2020)
 
 **Summary**: Replaces the decreasing step-size schedule of SG-MCMC with a cyclical cosine schedule. Each cycle has a large-step exploration stage (zero-temperature, i.e. plain SGD) that jumps to a new mode and a small-step sampling stage that characterizes it, so a single run visits several modes of a neural-network posterior. The paper proves non-asymptotic weak and 2-Wasserstein bounds for cyclical SGLD and reports gains on CIFAR-10/100, ImageNet and out-of-distribution entropy.
 
-**Authors**: Ruqi Zhang, Chunyuan Li, Jianyi Zhang, Changyou Chen, Andrew Gordon Wilson · **Year**: 2020 (ICLR) · **File**: `IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`
+**Authors**: Ruqi Zhang, Chunyuan Li, Jianyi Zhang, Changyou Chen, Andrew Gordon Wilson · **Year**: 2020 (ICLR) · **File**: `papers/IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`
 
 Not a Bilionis-lab paper (no `lab` tag). Note the file name says "Ruqi Zhang" but the first author is Zhang, with Wilson as senior author.
 
@@ -118,7 +118,7 @@ Wiki note: Theorem 2's bound grows with $K\alpha_0$ and $\alpha_0^2K$ in the num
 **Cited by in this wiki**: [[AMAGOLD (Zhang 2020)]], [[Low-precision SGLD (Zhang 2022)]], [[Priors in Bayesian deep learning (Fortuin 2022)]]
 %% refs:end %%
 
-**Sources**: `IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`.
 **Last updated**: 2026-11-06
 
 ---

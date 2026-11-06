@@ -11,7 +11,7 @@ source-ref: "Alberts & Bilionis 2023, eqs. 2-11, 18, pp. 4-7"
 **Summary**: Bayesian inference over fields, written as path integrals. A quadratic action gives a closed-form free theory equal to Wiener filtering / GP regression; physics enters through the prior energy.
 
 **Covered in**: ASML book ift/calibration (ME 697 IFT.1); ASML book ift/fields (ME 697 IFT.2)
-**Sources**: `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `advanced-scientific-machine-learning/book/ift/intro.md`, `ift/calibration/intro.md`, `advanced-scientific-machine-learning/book/ift/intro.md`, `ift/fields/intro.md`.
+**Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `courses/ME 697/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/calibration/intro.md`, `courses/ME 697/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/fields/intro.md`.
 **Last updated**: 2026-11-06
 
 ---

@@ -14,7 +14,7 @@ tags: [symmetry, ml]
 > $$\text{invariant: }\Phi(g\cdot x)=\Phi(x)$$
 > for all $g\in G$.
 >
-> (source: `Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`, p. 3)
+> (source: `papers/Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`, p. 3)
 
 **Intuition**: transform then process equals process then transform. Building this into a network means it never has to learn the symmetry from data.
 
@@ -89,7 +89,7 @@ Wiki notes on the book's section:
 - Typo: "$g(\mathbf x)=t_{\mathbf b}^{-1}f(\mathbf x)=\mathbf x=f(x)-\mathbf b$" has a stray "$=\mathbf x$", and "$f$ is a homomorphism" appears where $\phi$ is meant.
 
 **Covered in**: ASML book up/symmetries (ME 697 2.6); homework 4
-**Sources**: `Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`, `advanced-scientific-machine-learning/book/up/symmetries/intro.md`, `01_symmetries.md`, `02_e3nn.ipynb`.
+**Sources**: `papers/Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`, `courses/ME 697/advanced-scientific-machine-learning/book/up/symmetries/intro.md`, `01_symmetries.md`, `02_e3nn.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

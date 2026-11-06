@@ -41,7 +41,7 @@ Same basis as $H_k$ but unit-variance coefficients, so $\|f\|^2_{H_k}=\sum z_i^2
 - Error bar: for $\|f\|_{H_k}\le1$, the pointwise error is bounded by the posterior standard deviation (source: Kanagawa 2018, Prop 3.10, p. 26). With noise the bound uses $k^\sigma=k+\sigma^2\delta$ (Prop 3.8, p. 24).
 - Examples: Brownian motion has the first-order Sobolev space as RKHS (source: Kanagawa 2018, Ex. 4.1, p. 35).
 
-**Sources**: `Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf`; `Guassian Processes/Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf`.
+**Sources**: `papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf`; `papers/Guassian Processes/Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf`.
 **Last updated**: 2026-11-06
 
 ---

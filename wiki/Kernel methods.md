@@ -48,7 +48,7 @@ Exact fit costs $O(N^3)$. Cheaper routes:
 - [[Duvenaud thesis (Duvenaud 2014)]]: designing and searching kernel structure.
 - [[Kernel integral operator]]: the operator whose eigenpairs give Mercer.
 
-**Sources**: Kanagawa et al. 2018 (`Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf`); Duvenaud 2014; Greengard and O'Neil 2022.
+**Sources**: Kanagawa et al. 2018 (`papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf`); Duvenaud 2014; Greengard and O'Neil 2022.
 **Last updated**: 2026-11-06
 
 ---

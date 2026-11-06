@@ -13,7 +13,7 @@ tags: [bayesian, vi, generative]
 > $$\log p(y)=\mathcal F[q]+\mathrm{KL}\big(q\,\|\,p(\omega\mid y)\big),$$
 > $$\mathcal F[q]=\mathbb E_q\Big[\log\tfrac{p(y,\omega)}{q(\omega)}\Big]=H[q]+\mathbb E_q[\log p(y,\omega)]\le\log p(y).$$
 >
-> (source: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, eqs. 9-13)
+> (source: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, eqs. 9-13)
 
 **Intuition**: $\log p(y)$ does not depend on $q$, so raising the bound is the same as shrinking the KL gap to the posterior. It needs only the joint, never the evidence.
 
@@ -48,7 +48,7 @@ L_0     = -log p_θ(x_0|x_1)
 - Expected ELBO over $p(y)$ is the amortized objective, used for the [[Duffing oscillator]]. (source: `inverse/odes/03_dyn_system_multiple_traj.ipynb`)
 
 **Covered in**: ASML book inverse/vi (ME 697 4.3)
-**Sources**: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`.
+**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`.
 **Last updated**: 2026-11-06
 
 ---

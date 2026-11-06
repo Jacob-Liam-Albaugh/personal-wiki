@@ -13,7 +13,7 @@ tags: [sampling, vi, bayesian]
 > $$\theta^i\leftarrow\theta^i+\epsilon\,\phi(\theta^i)$$
 > $$\phi(\theta)=\tfrac1S\textstyle\sum_j\big[k(\theta^j,\theta)\nabla\log p(\theta^j)+\nabla_{\theta^j}k(\theta^j,\theta)\big].$$
 >
-> (source: `Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf`, Alg. 1)
+> (source: `papers/Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf`, Alg. 1)
 
 **Intuition**: the first term pulls particles uphill on the posterior, smoothed by the kernel; the second pushes them apart so they do not collapse to the mode. With one particle it is gradient ascent to the MAP.
 
@@ -30,7 +30,7 @@ The update is the steepest-descent direction for KL in the kernel's RKHS (Zhu p.
 - [[Bayesian DenseED surrogate (Zhu 2018)]]: inference for a Bayesian DenseED surrogate.
 - [[Priors in Bayesian deep learning (Fortuin 2022)]]: as an ensemble-style approximation.
 
-**Sources**: `Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf`, `Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
+**Sources**: `papers/Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf`, `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
 **Last updated**: 2026-11-06
 
 ---

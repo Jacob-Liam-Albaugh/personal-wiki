@@ -35,7 +35,7 @@ Observed through noise, an SDE becomes a state-space model. Filtering and smooth
 **Wiki note**: the book does not define the Itô integral or Itô's lemma beyond using the log transform for GBM. For a full treatment see the stochastic-methods pages linked from [[Brownian motion]].
 
 **Covered in**: ASML book sinverse/sodes (ME 697 6.1)
-**Sources**: `advanced-scientific-machine-learning/book/sinverse/intro.md`, `sinverse/sodes/intro.md`, `02_bm.ipynb`, `03_stochastic_exponential_growth.ipynb`, `04_ornstein_uhlenbeck.ipynb`, `sinverse/sodes/01_reading.md`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/sinverse/intro.md`, `sinverse/sodes/intro.md`, `02_bm.ipynb`, `03_stochastic_exponential_growth.ipynb`, `04_ornstein_uhlenbeck.ipynb`, `sinverse/sodes/01_reading.md`.
 **Last updated**: 2026-11-06
 
 ---

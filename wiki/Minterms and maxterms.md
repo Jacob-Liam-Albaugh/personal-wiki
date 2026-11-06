@@ -34,8 +34,8 @@ tags: [digital-logic]
 - A [[Karnaugh map]] simplifies a canonical sum by merging adjacent minterms. (source: 09_07.pdf, p. 21-23)
 - The $\Sigma$ and $\Pi$ lists are two of the seven ways to specify a function. (source: 08_31.pdf, p. 21)
 
-**Covered in**: ECE 270 08_31, 09_07 (ECE 27000/week 02/08_31.pdf, week 03/09_07.pdf)
-**Sources**: `ECE 27000/week 02/08_31.pdf`, `ECE 27000/week 03/09_07.pdf`, `ECE 27000/week 05/09_19.pdf`.
+**Covered in**: ECE 270 08_31, 09_07 (courses/ECE 270/week 02/08_31.pdf, week 03/09_07.pdf)
+**Sources**: `courses/ECE 270/week 02/08_31.pdf`, `courses/ECE 270/week 03/09_07.pdf`, `courses/ECE 270/week 05/09_19.pdf`.
 **Last updated**: 2026-11-06
 
 ---

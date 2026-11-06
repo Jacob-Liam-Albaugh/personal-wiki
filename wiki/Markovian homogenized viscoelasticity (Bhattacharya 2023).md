@@ -7,14 +7,14 @@ tags: [operators, mechanics, ml]
 authors: ["[[Kaushik Bhattacharya]]", "[[Burigede Liu]]", "[[Andrew M. Stuart]]", "[[Margaret Trautner]]"]
 year: 2023
 venue: "SIAM Multiscale Modeling & Simulation 21(2), 641-679"
-file: "PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf"
+file: "papers/PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf"
 ---
 
 # Learning Markovian homogenized models in viscoelasticity (Bhattacharya 2023)
 
 **Summary**: For 1D Kelvin-Voigt (KV) viscoelasticity with a rapidly varying periodic microstructure, the homogenized constitutive law has memory, but for piecewise-constant media that memory is exactly a finite set of exponentially decaying hidden variables (a Markovian ODE system). The authors prove this, prove a neural network (RNN) with the same structure can approximate it, and show numerically that an RNN trained on cell-problem data reproduces fine-scale FEM at far lower cost. The same architecture also learns a 1D elasto-viscoplastic law.
 
-**Authors**: Kaushik Bhattacharya, Burigede Liu, Andrew Stuart, Margaret Trautner · **Year**: 2023 · **File**: `PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`
+**Authors**: Kaushik Bhattacharya, Burigede Liu, Andrew Stuart, Margaret Trautner · **Year**: 2023 · **File**: `papers/PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`
 
 Discussed in the PSL reading group on 2026-10-29.
 
@@ -172,10 +172,10 @@ Wiki note: (1) Error results are given as plots, so exact figures (beyond the 7%
 - Related to hidden-variable / internal-variable models in continuum mechanics ([[Markovian constitutive model]]) and to physics-informed surrogates ([15], [14]) that put the differential operator into the loss (p. 6).
 - Uses [[Homogenization]] (two-scale expansion, harmonic averaging) and the [[Homogenization]] to derive the memory kernel.
 - Companion empirical work [21] (Liu, Kovachki, Li, Azizzadenesheli, Anandkumar, Bhattacharya, Stuart; learning plasticity) is not in the wiki.
-- Wiki note: the reading-group copy of this paper may duplicate a copy elsewhere in the library (the same applies to [[DeepONet (Lu 2021)]], e.g. `Operators/Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf`); the coordinator will confirm.
+- Wiki note: the reading-group copy of this paper may duplicate a copy elsewhere in the library (the same applies to [[DeepONet (Lu 2021)]], e.g. `papers/Operators/Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf`); the coordinator will confirm.
 
 
-**Sources**: `PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`.
+**Sources**: `papers/PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`.
 **Last updated**: 2026-11-06
 
 ---

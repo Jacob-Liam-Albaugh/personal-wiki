@@ -32,7 +32,7 @@ Hand-tuned sizes, long training, wide output layer (see [[NIF (Pan 2023)]], §4.
 ## Where it appears
 - [[NIF (Pan 2023)]]; contrast with [[Neural operator]] / [[Operator learning]] which learn solution operators between function spaces, and [[Surrogate model]] more generally.
 
-**Sources**: `Physics Informed Architectures/Brunton, Pan, Kutz - NIF - Neural Implicit Flow.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Brunton, Pan, Kutz - NIF - Neural Implicit Flow.pdf`.
 **Last updated**: 2026-11-06
 
 ---

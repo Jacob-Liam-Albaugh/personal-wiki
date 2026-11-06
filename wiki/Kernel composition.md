@@ -48,7 +48,7 @@ The ABCD search starts from base kernels and greedily applies replace, add and m
 - Multi-fidelity models compose a kernel on the input with a kernel linking fidelity levels ([[Multi-fidelity Gaussian process]]).
 - Wiki note: the RKHS of a sum kernel is the sum of the RKHSs; this follows from standard theory and is not proved in the sources here. **[unverified]**
 
-**Sources**: `Guassian Processes/Duvenaud - Thesis - Automatic Model Construction with Gaussian Processes.pdf`.
+**Sources**: `papers/Guassian Processes/Duvenaud - Thesis - Automatic Model Construction with Gaussian Processes.pdf`.
 **Last updated**: 2026-11-06
 
 ---

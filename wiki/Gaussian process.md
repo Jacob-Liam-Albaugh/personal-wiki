@@ -17,7 +17,7 @@ tags: [gp, bayesian]
 - GP regression on a bounded domain can be run at O(N m^2) with a truncated KL basis computed once by Nystrom quadrature (source: Greengard-O'Neil 2022, Alg. 1, p. 6). See [[Reduced-rank GPs (Greengard 2022)]].
 - a two-fidelity GP surrogate for a tissue model is in [[Multi-fidelity GP for tissue expansion (Lee 2020)]].
 
-**Sources**: `Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
+**Sources**: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
 **Last updated**: 2026-11-06
 
 ---

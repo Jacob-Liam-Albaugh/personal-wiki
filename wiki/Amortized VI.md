@@ -14,7 +14,7 @@ tags: [bayesian, vi, ml]
 > Over whole datasets (Karumuri): $\lambda=\lambda(y)$ and
 > $$\mathrm{AELBO}[\lambda]=\mathbb E_Y\big[\mathrm{ELBO}(\lambda(Y);Y)\big].$$
 >
-> (source: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, eq. 3; `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, eq. 2)
+> (source: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, eq. 3; `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, eq. 2)
 
 **Intuition**: pay once to train a network that maps data to a posterior approximation, then get new posteriors with one forward pass. The price is the **amortization gap**: the shared function may not reach each datum's optimum.
 
@@ -36,7 +36,7 @@ tags: [bayesian, vi, ml]
 - Duffing oscillator: AVI is much faster at inference but its solution space is a subset of per-dataset VI. (source: `inverse/odes/03_dyn_system_multiple_traj.ipynb`; [[Identifiability]])
 
 **Covered in**: ASML book inverse/hbayes (ME 697 4.4)
-**Sources**: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
+**Sources**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06
 
 ---

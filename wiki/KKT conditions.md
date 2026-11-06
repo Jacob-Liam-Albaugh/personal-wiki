@@ -30,7 +30,7 @@ tags: [optimization]
 - [[BJS ch8 - Complexity of the simplex algorithm and polynomial-time algorithms]]: perturbed KKT system in path following.
 - [[BJS ch11 - The out-of-kilter algorithm]]: circulation optimality conditions.
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (ch. 5, 8, 11); `Linear Optimization/MIT (ch 1-5).pdf` (ch. 9).
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (ch. 5, 8, 11); `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 9).
 **Last updated**: 2026-11-06
 
 ---

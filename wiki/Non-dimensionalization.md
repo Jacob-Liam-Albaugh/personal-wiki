@@ -32,7 +32,7 @@ Set $\tilde x=x/L_x$, $\tilde y=y/L_y$, $\tilde u=u/u_s$, $\tilde f=f/f_s$. The 
 **Wiki note**: the two notebooks use different scale choices, so their $k_x,k_y$ values are not comparable; the energy notebook also has a `kx`/`ky` slip in one energy term (flagged on the lecture page).
 
 **Covered in**: ASML book pinns/basics (ME 697 5.1)
-**Sources**: `advanced-scientific-machine-learning/book/pinns/basics/forward.ipynb`, `energy.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/pinns/basics/forward.ipynb`, `energy.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -22,8 +22,8 @@ tags: [digital-logic]
 ## Wiki note on universality
 Wiki note: the slides show the two-level conversions; the statement that NAND alone (or NOR alone) can build any gate follows from them plus DeMorgan and is not stated as a theorem on the slides **[unverified]**.
 
-**Covered in**: ECE 270 08_24, 08_31, 09_07 (ECE 27000/week 01/08_24.pdf, week 02/08_31.pdf, week 03/09_07.pdf)
-**Sources**: `ECE 27000/week 01/08_24.pdf`, `ECE 27000/week 02/08_31.pdf`, `ECE 27000/week 03/09_07.pdf`.
+**Covered in**: ECE 270 08_24, 08_31, 09_07 (courses/ECE 270/week 01/08_24.pdf, week 02/08_31.pdf, week 03/09_07.pdf)
+**Sources**: `courses/ECE 270/week 01/08_24.pdf`, `courses/ECE 270/week 02/08_31.pdf`, `courses/ECE 270/week 03/09_07.pdf`.
 **Last updated**: 2026-11-06
 
 ---

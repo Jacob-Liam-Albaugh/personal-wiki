@@ -30,8 +30,8 @@ Magnetized material is modelled by equivalent currents ([[Magnetic materials]]).
 $B=\nabla\times A$ still holds because $\nabla\cdot B=0$. Faraday's law gives (p. 1)
 $$E=-\nabla V-\frac{\partial A}{\partial t}$$
 
-**Covered in**: ECE 311 lect_19, lect_20, lect_28 (Electromagnetics/Lectures Slides/lect_19.pdf, Electromagnetics/Lectures Slides/lect_20.pdf, Electromagnetics/Lectures Slides/lect_28.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_19.pdf`, `Electromagnetics/Lectures Slides/lect_20.pdf`, `Electromagnetics/Lectures Slides/lect_28.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_19, lect_20, lect_28 (courses/ECE 311/Lectures Slides/lect_19.pdf, courses/ECE 311/Lectures Slides/lect_20.pdf, courses/ECE 311/Lectures Slides/lect_28.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_19.pdf`, `courses/ECE 311/Lectures Slides/lect_20.pdf`, `courses/ECE 311/Lectures Slides/lect_28.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

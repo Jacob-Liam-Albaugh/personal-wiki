@@ -7,14 +7,14 @@ tags: [physics-informed, mechanics, ml]
 authors: ["[[Miles Cranmer]]", "[[Sam Greydanus]]", "[[Stephan Hoyer]]", "[[Peter Battaglia]]", "[[David Spergel]]", "[[Shirley Ho]]"]
 year: 2020
 venue: "ICLR 2020 workshop (arXiv 2003.04630)"
-file: "Physics Informed Architectures/Cranmer, Greydanus, Ho - LNNs.pdf"
+file: "papers/Physics Informed Architectures/Cranmer, Greydanus, Ho - LNNs.pdf"
 ---
 
 # Lagrangian Neural Networks (Cranmer 2020)
 
 **Summary**: Learn a black-box Lagrangian $L_\theta(q,\dot q)$ with a network and recover accelerations by solving the Euler-Lagrange equation numerically with automatic differentiation. Unlike [[HNNs (Greydanus 2019)]], no canonical momenta are needed, so it works in arbitrary coordinates. Shown on a double pendulum, a relativistic particle, and a 1D wave equation via a Lagrangian graph network.
 
-**Authors**: Miles Cranmer, Sam Greydanus, Stephan Hoyer, Peter Battaglia, David Spergel, Shirley Ho · **Year**: 2020 · **File**: `Physics Informed Architectures/Cranmer, Greydanus, Ho - LNNs.pdf`
+**Authors**: Miles Cranmer, Sam Greydanus, Stephan Hoyer, Peter Battaglia, David Spergel, Shirley Ho · **Year**: 2020 · **File**: `papers/Physics Informed Architectures/Cranmer, Greydanus, Ho - LNNs.pdf`
 
 ---
 
@@ -66,7 +66,7 @@ Practical choices (p. 4): four layers, 500 hidden units, batch size 32, decaying
 **Cited by in this wiki**: [[Symbolic models from deep learning (Cranmer 2020)]]
 %% refs:end %%
 
-**Sources**: `Physics Informed Architectures/Cranmer, Greydanus, Ho - LNNs.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Cranmer, Greydanus, Ho - LNNs.pdf`.
 **Last updated**: 2026-11-06
 
 ---

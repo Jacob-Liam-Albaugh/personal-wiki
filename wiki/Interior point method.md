@@ -33,7 +33,7 @@ $$\mathbf d^*=-\beta\frac{\mathbf Y^2(\mathbf c-\mathbf A'\mathbf p)}{\|\mathbf 
 - [[BJS ch8 - Complexity of the simplex algorithm and polynomial-time algorithms]]: Karmarkar, affine scaling, predictor-corrector.
 - [[BT ch12 - The art in linear optimization]]: simplex versus interior point codes in practice.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 9, 12); `Linear Optimization/BJS full book.pdf` (ch. 8).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 9, 12); `text_books/Linear Optimization/BJS full book.pdf` (ch. 8).
 **Last updated**: 2026-11-06
 
 ---

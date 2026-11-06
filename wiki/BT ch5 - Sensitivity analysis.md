@@ -6,7 +6,7 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch5 - Sensitivity analysis
@@ -80,7 +80,7 @@ The optimal cost $g(\theta)=\min_i(\mathbf c+\theta\mathbf d)'\mathbf x^i$ is pi
 ## Notes
 - Wiki note: the table of changes above condenses §5.1; exact ranges for each case are the cited inequalities and examples. The condensed rows for the new equality constraint and nonbasic column are paraphrased from the text layer **[unverified]** against page images.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 217-245, printed pp. 201-229).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 217-245, printed pp. 201-229).
 **Last updated**: 2026-11-06
 
 ---

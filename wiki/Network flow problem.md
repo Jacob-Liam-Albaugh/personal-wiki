@@ -29,7 +29,7 @@ tags: [optimization]
 - [[BJS ch11 - The out-of-kilter algorithm]]: primal-dual circulation method.
 - [[BJS ch12 - Maximal flow shortest path multicommodity flow and network synthesis]]: path and cut problems.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 7); `Linear Optimization/BJS full book.pdf` (ch. 9-12).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 7); `text_books/Linear Optimization/BJS full book.pdf` (ch. 9-12).
 **Last updated**: 2026-11-06
 
 ---

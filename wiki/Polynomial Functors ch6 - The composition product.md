@@ -5,7 +5,7 @@ source-ref: "Niu-Spivak 2024, ch. 6"
 authors: ["[[Nelson Niu]]", "[[David I. Spivak]]"]
 year: 2024
 venue: book draft
-file: "DSL/Spivak, Niu - Polynomial Functors.pdf"
+file: "text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf"
 tags: [category-theory]
 ---
 
@@ -13,7 +13,7 @@ tags: [category-theory]
 
 **Summary**: The composition product p composed with q (written p tri q), its closed formulas, lenses into composites, dynamical systems as coalgebras, distributivity, coclosure, connected limits, and the duoidal structure with the parallel product.
 
-**Authors**: Nelson Niu, David I. Spivak · **Year**: 2024 · **File**: `DSL/Spivak, Niu - Polynomial Functors.pdf`
+**Authors**: Nelson Niu, David I. Spivak · **Year**: 2024 · **File**: `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`
 
 ---
 ## Problem

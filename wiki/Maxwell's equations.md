@@ -30,8 +30,8 @@ $$\nabla\times H=J_v+\frac{\partial D}{\partial t}$$
 - Energy flow: [[Poynting theorem]].
 - A good conductor is one with $\sigma/\omega\varepsilon\gg1$ ([[Electromagnetic wave]]).
 
-**Covered in**: ECE 311 lect_1, lect_25, lect_27, lect_28 (Electromagnetics/Lectures Slides/lect_1.pdf, Electromagnetics/Lectures Slides/lect_25.pdf, Electromagnetics/Lectures Slides/lect_27.pdf, Electromagnetics/Lectures Slides/lect_28.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_1.pdf`, `Electromagnetics/Lectures Slides/lect_25.pdf`, `Electromagnetics/Lectures Slides/lect_27.pdf`, `Electromagnetics/Lectures Slides/lect_28.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_1, lect_25, lect_27, lect_28 (courses/ECE 311/Lectures Slides/lect_1.pdf, courses/ECE 311/Lectures Slides/lect_25.pdf, courses/ECE 311/Lectures Slides/lect_27.pdf, courses/ECE 311/Lectures Slides/lect_28.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_1.pdf`, `courses/ECE 311/Lectures Slides/lect_25.pdf`, `courses/ECE 311/Lectures Slides/lect_27.pdf`, `courses/ECE 311/Lectures Slides/lect_28.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

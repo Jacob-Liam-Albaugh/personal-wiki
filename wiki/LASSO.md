@@ -34,7 +34,7 @@ Then $\log p(w_j)=-|w_j|/b+\text{const}$, and with a Gaussian likelihood the L1 
 - Fitted per state in [[SINDy]] with `LassoCV`; on the Lorenz system `LassoCV` failed and sequentially thresholded least squares was used instead.
 
 **Covered in**: ASML book inverse/data (ME 697 4.7)
-**Sources**: `advanced-scientific-machine-learning/book/inverse/data/01_lasso.ipynb`, `02_sindy_1.ipynb`, `03_sindy_2.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/inverse/data/01_lasso.ipynb`, `02_sindy_1.ipynb`, `03_sindy_2.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

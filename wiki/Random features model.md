@@ -13,7 +13,7 @@ tags: [operators, ml]
 > The features $\gamma_j$ are drawn once and frozen. Only the linear weights $\theta$ are trained, so the fit is convex with a unique minimizer.
 > Fourier example: $\psi(u;\gamma)=\sigma\big(\mathcal F^{-1}(\chi\,\mathcal F_\gamma\,\mathcal Fu)\big)$, with $\gamma$ a Gaussian random field.
 >
-> (source: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, pp. 9-10)
+> (source: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, pp. 9-10)
 
 **Intuition**: a kernel method in disguise. The review relates it to kernel methods (p. 11). Wiki note: as $M\to\infty$ it tends to kernel regression with the induced kernel, which links it to [[Gaussian process]] regression. The outputs still lie on a nonlinear manifold, because $\psi$ is nonlinear in $u$.
 
@@ -27,7 +27,7 @@ The review says its analysis can account for finite samples, finite parameters a
 - a one-hidden-layer network with infinitely many iid-weight features is a GP by the central limit theorem (source: Duvenaud 2014, eqs. 5.4-5.5, p. 61).
 - Greengard and O'Neil note that random Fourier features are cheap but not L2-optimal compared with the KL basis (source: Greengard-O'Neil 2022, p. 3).
 
-**Sources**: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
+**Sources**: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
 ---

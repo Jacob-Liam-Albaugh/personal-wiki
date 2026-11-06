@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch11 - The out-of-kilter algorithm
 
 **Summary**: A primal-dual method for minimal cost network flow that starts dual feasible and drives every arc "into kilter", that is, toward complementary slackness. The chapter derives the circulatory formulation, its dual and the optimality conditions (Theorem 11.1), then gives the primal phase (flow change on a cycle), the dual phase (change of node potentials), a labeling implementation and a finiteness argument, and closes with relaxation algorithms. See [[Network flow problem]], [[LP duality]], [[BJS ch9 - Minimal cost network flows]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 567-606). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 567-606). Cites use printed pages; pdf = printed + 16.
 
 ## Overview (p. 567)
 It is another method for minimal cost network flow, similar to the primal-dual algorithm in starting from dual feasibility, but unlike a strict primal-dual method it does not always maintain complementary slackness; attaining it is the principal thrust (p. 567, image seen). State-of-the-art primal simplex codes run two to three times faster than traditional out-of-kilter codes, while primal-dual methods built on its ingredients run two to four times faster than the best primal simplex code, with larger speedups on large problems (p. 567, image seen).
@@ -78,7 +78,7 @@ $$\theta(\mathbf w)=\mathbf w\mathbf b+\min\{(\mathbf c-\mathbf w\mathbf A)\math
 - Wiki note: the three conditions of Theorem 11.1 are the complementary slackness conditions of [[LP duality]] for the bounded-variable network LP, in the sense of [[KKT conditions]].
 - Wiki note: [[BT ch7 - Network flows]] treats the same network flow problem.
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 583-622, printed pp. 567-606). Pages viewed as images: pdf 583 (printed 567), 585 (569), 586 (570). The rest (kilter tables, primal phase, dual phase, labeling, penalty function, relaxation) read from the text layer, with garbled math, so the corresponding statements are paraphrased rather than transcribed.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 583-622, printed pp. 567-606). Pages viewed as images: pdf 583 (printed 567), 585 (569), 586 (570). The rest (kilter tables, primal phase, dual phase, labeling, penalty function, relaxation) read from the text layer, with garbled math, so the corresponding statements are paraphrased rather than transcribed.
 **Last updated**: 2026-11-06
 
 ---

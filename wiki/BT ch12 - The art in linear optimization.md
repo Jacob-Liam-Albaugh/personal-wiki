@@ -6,7 +6,7 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch12 - The art in linear optimization
@@ -68,7 +68,7 @@ Modeling, exploiting structure and fine tuning algorithms turn LP technology int
 - Wiki note: the single machine convex hull is an example of the "exponentially many facets, polynomial separation" pattern that makes cutting plane methods work, shared with the spanning tree formulation of [[BT ch10 - Integer programming formulations]].
 - Source credits (p. 567-568): Table 12.1 to Weber (1995); fleet assignment study by Hane et al.; air traffic model by Bertsimas and Stock (1997); single machine formulation by Queyranne (1993), the ordering rule of Theorem 12.1 by Smith (1956), the job shop heuristic motivated by Schulz (1996).
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 549-584, printed pp. 533-568). Pages viewed as images: pdf 570. Pdf 571 (Theorem 12.2) and the case study tables were read from the text layer. The credits in Notes are from the text of p. 567.
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 549-584, printed pp. 533-568). Pages viewed as images: pdf 570. Pdf 571 (Theorem 12.2) and the case study tables were read from the text layer. The credits in Notes are from the text of p. 567.
 **Last updated**: 2026-11-06
 
 ---

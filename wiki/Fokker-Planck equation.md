@@ -12,7 +12,7 @@ tags: [sampling, pde]
 > For $dx=f(x,t)\,dt+G(x,t)\,dw$ the marginal density $p_t$ obeys
 > $$\partial_tp_t=-\sum_i\partial_i[f_ip_t]+\tfrac12\sum_{i,j}\partial_i\partial_j\Big[\textstyle\sum_kG_{ik}G_{jk}\,p_t\Big]$$
 >
-> (source: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, p. 16)
+> (source: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, p. 16)
 
 **Intuition**: the SDE moves particles; Fokker-Planck moves the density. Drift transports it and diffusion spreads it.
 
@@ -42,7 +42,7 @@ Song et al. also note that for non-affine drift, the DSM transition kernel can b
 - [[Brownian motion]]: Einstein's diffusion equation for the particle density is the simplest case (source: Einstein 1905, eq. 10, [[Brownian movement (Einstein 1905)]]).
 
 **Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1)
-**Sources**: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
+**Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -25,8 +25,8 @@ With no surface current and linear media, $\mu_1H_{1n}=\mu_2H_{2n}$ and $H_{1t}=
 > [!example] Refraction of $B$ (lect_22, p. 1)
 > The slides derive the relation between $\theta_1$ and $\theta_2$ from the two boundary conditions.
 
-**Covered in**: ECE 311 lect_20, lect_21, lect_22 (Electromagnetics/Lectures Slides/lect_20.pdf, Electromagnetics/Lectures Slides/lect_21.pdf, Electromagnetics/Lectures Slides/lect_22.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_20.pdf`, `Electromagnetics/Lectures Slides/lect_21.pdf`, `Electromagnetics/Lectures Slides/lect_22.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_20, lect_21, lect_22 (courses/ECE 311/Lectures Slides/lect_20.pdf, courses/ECE 311/Lectures Slides/lect_21.pdf, courses/ECE 311/Lectures Slides/lect_22.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_20.pdf`, `courses/ECE 311/Lectures Slides/lect_21.pdf`, `courses/ECE 311/Lectures Slides/lect_22.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

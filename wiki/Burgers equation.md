@@ -10,7 +10,7 @@ tags: [pde, operators]
 
 **Summary**: 1-D viscous Burgers, the simplest nonlinear advection-diffusion PDE. In operator learning the benchmark map is $u_0\mapsto u(\cdot,1)$.
 
-**Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
+**Sources**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
 ---

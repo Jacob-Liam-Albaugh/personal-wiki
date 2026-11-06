@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch2 - Linear algebra convex analysis and polyhedral sets
 
 **Summary**: Background in linear algebra (vectors, matrices, simultaneous equations), convex sets and functions, and a geometric treatment of polyhedral sets: faces, extreme points, extreme directions, and the representation theorem that writes every point of a polyhedral set as a convex combination of extreme points plus a nonnegative combination of extreme directions. See [[Polyhedron]], [[Convex set]], [[Convex function]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 45-90). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 45-90). Cites use printed pages; pdf = printed + 16.
 
 ## Vectors, matrices, equations (§2.1-2.3, p. 45-64)
 Standard material (p. 45-63): linear independence, bases and rank of a vector set, matrix operations, elementary row operations and pivoting, row echelon form and inverses (Examples 2.1-2.3). Simultaneous equations $\mathbf A\mathbf x=\mathbf b$ are solved by reducing the augmented matrix to upper triangular form with elementary operations and back substitution (§2.3, p. 61-64, Example 2.4). A general solution is a particular solution plus a free-parameter combination, e.g. a free $x_4=\lambda$ gives $x_3=-2-\tfrac14\lambda$ and $x_2=4+\tfrac14\lambda$ (p. 64, read from text). This is the machinery behind basic solutions in [[BJS ch3 - The simplex method]].
@@ -54,7 +54,7 @@ Exercises on linear algebra, convex sets, representations and Farkas-type result
 - Wiki note: BT prove an equivalent resolution theorem for polyhedra with extreme rays in [[BT ch2 - Geometry of linear programming]] and [[BT ch4 - Duality theory]] (Theorem 4.15 as used in [[BT ch6 - Large scale optimization]]). BJS's version is stated for $\{\mathbf A\mathbf x\le\mathbf b,\mathbf x\ge\mathbf0\}$ and "extreme direction" corresponds to BT's extreme ray.
 - Wiki note: the claim in [[Polyhedron]] that unbounded polyhedra are the sum of the convex hull of extreme points and the cone of extreme directions is Theorem 2.1 above.
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 61-106, printed pp. 45-90). Pages viewed as images: pdf 89 (printed 73) and 93 (printed 77, Theorem 2.1). All else from the text layer.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 61-106, printed pp. 45-90). Pages viewed as images: pdf 89 (printed 73) and 93 (printed 77, Theorem 2.1). All else from the text layer.
 **Last updated**: 2026-11-06
 
 ---

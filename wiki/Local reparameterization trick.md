@@ -14,7 +14,7 @@ tags: [vi, ml]
 > $$b_{mj}=\gamma_{mj}+\sqrt{\delta_{mj}}\,\zeta_{mj},\quad\zeta_{mj}\sim N(0,1).$$
 > Sample $b$ directly instead of $w$.
 >
-> (source: `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, eq. 6)
+> (source: `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, eq. 6)
 
 **Intuition**: sharing one weight sample across a minibatch correlates the per-example gradient terms, and that covariance does not shrink with batch size. Sampling the activations gives each example independent noise at the cost of one extra matrix product.
 
@@ -30,7 +30,7 @@ Local noise makes $\mathrm{Cov}[L_i,L_j]=0$.
 ## Where it appears
 - [[Variational dropout (Kingma 2015)]] (defines it).
 
-**Sources**: `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`.
+**Sources**: `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`.
 **Last updated**: 2026-11-06
 
 ---

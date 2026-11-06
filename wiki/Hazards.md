@@ -36,8 +36,8 @@ tags: [digital-logic]
 > Outputs decoded combinationally from a counter can glitch when more than one counter bit changes. Register the decoded outputs to remove the glitches (Figs. 11-9, 11-10).
 > (source: 10_03.pdf, p. 9-11)
 
-**Covered in**: ECE 270 09_07, 09_12, 10_03 (ECE 27000/week 03/09_07.pdf, week 04/09_12.pdf, week 07/10_03.pdf)
-**Sources**: `ECE 27000/week 03/09_07.pdf`, `ECE 27000/week 04/09_12.pdf`, `ECE 27000/week 07/10_03.pdf`.
+**Covered in**: ECE 270 09_07, 09_12, 10_03 (courses/ECE 270/week 03/09_07.pdf, week 04/09_12.pdf, week 07/10_03.pdf)
+**Sources**: `courses/ECE 270/week 03/09_07.pdf`, `courses/ECE 270/week 04/09_12.pdf`, `courses/ECE 270/week 07/10_03.pdf`.
 **Last updated**: 2026-11-06
 
 ---

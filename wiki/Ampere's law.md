@@ -23,8 +23,8 @@ Symmetric currents (wire, sheet) give $B$ directly. Straight wire of radius $a$,
 > [!example] Infinite current sheet (lect_18, Example 18-2, p. 3)
 > A rectangular Amperian loop around a sheet of uniform surface current; the field is uniform on each side.
 
-**Covered in**: ECE 311 lect_18 (Electromagnetics/Lectures Slides/lect_18.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_18.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_18 (courses/ECE 311/Lectures Slides/lect_18.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_18.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

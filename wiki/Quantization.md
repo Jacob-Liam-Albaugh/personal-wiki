@@ -70,7 +70,7 @@ and setting $\partial/\partial x_k=0$ (with $x_1=-\infty$, $x_{L+1}=\infty$) giv
 Bit depth is quantization of pixel amplitude, $L=2^k$ levels. Reducing it at a fixed display size produces false contouring and a dull, washed-out look at 16, 8, 4, 2 levels; see [[Digital image]] (source: Topic IP.2 Sampling, quantization, interpolation, Fig. 2.24).
 
 **Covered in**: ECE 438 DSP.5, L19-L21 (Topic DSP.5 Quantization; L19 Feb 28, L20 Mar 3, L21 Mar 5, 2025 front pages); image bit depth from IP.2
-**Sources**: `Digital Signal Processing/Topic DSP.5 Quantization Feb 23, 2025.pdf`, `Digital Signal Processing/Probability mini review Apr 11, 2025.pdf`, `Digital Signal Processing/front page/L19 Feb 28, 2025.pdf`, `Digital Signal Processing/front page/L20 Mar 3, 2025.pdf`, `Digital Signal Processing/front page/L21 Mar 5, 2025.pdf`, `Digital Signal Processing/Topic IP.2 Sampling, quantization, interpolation Mar 23, 2025 .pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.5 Quantization Feb 23, 2025.pdf`, `courses/ECE 438/Probability mini review Apr 11, 2025.pdf`, `courses/ECE 438/front page/L19 Feb 28, 2025.pdf`, `courses/ECE 438/front page/L20 Mar 3, 2025.pdf`, `courses/ECE 438/front page/L21 Mar 5, 2025.pdf`, `courses/ECE 438/Topic IP.2 Sampling, quantization, interpolation Mar 23, 2025 .pdf`.
 **Last updated**: 2026-11-06
 
 ---

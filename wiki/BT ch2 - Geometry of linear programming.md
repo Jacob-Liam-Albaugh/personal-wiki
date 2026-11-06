@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch2 - Geometry of linear programming
 
 **Summary**: Chapter 2 defines [[Polyhedron|polyhedra]] and convex sets, gives three equivalent notions of a corner (extreme point, vertex, [[Basic feasible solution]]), specializes to standard form, treats degeneracy, and proves that an LP with an extreme point has an optimal extreme point.
 
-**Authors**: Dimitris Bertsimas, John N. Tsitsiklis · **Year**: 1997 · **File**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf pp. 57-96). Cites use printed pages; pdf = printed + 16.
+**Authors**: Dimitris Bertsimas, John N. Tsitsiklis · **Year**: 1997 · **File**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf pp. 57-96). Cites use printed pages; pdf = printed + 16.
 
 ---
 
@@ -91,7 +91,7 @@ The chapter says the proofs in 2.5-2.6 may be skipped by readers who only care a
 - [[BJS ch2 - Linear algebra convex analysis and polyhedral sets]] and [[BJS ch3 - The simplex method]] cover the same ground; BJS use extreme directions where BT use "contains a line".
 - Used by [[BT ch3 - The simplex method]] (basis changes move between adjacent BFS) and [[BT ch4 - Duality theory]] (representation and cones, §4.8-4.9).
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 57-96); also `MIT (ch 1-2).pdf`.
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 57-96); also `MIT (ch 1-2).pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch6 - Duality and sensitivity analysis
 
 **Summary**: Defines the dual of a linear program in canonical and standard form, proves the fundamental theorem of duality and complementary slackness, and uses the dual to build the dual simplex method and the primal-dual method. The chapter ends with sensitivity analysis (changes in costs, right-hand sides, columns) and parametric analysis. See [[LP duality]], [[Dual simplex method]], [[KKT conditions]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 259-338). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 259-338). Cites use printed pages; pdf = printed + 16.
 
 ## Formulation of the dual (§6.1, p. 259-264)
 The chapter opens by calling the original problem the primal and its associated problem the dual. "Primal" was suggested by Dantzig's father, who was a mathematician, to avoid the phrase "the original problem of which this is the dual", and the dual of the dual is the primal (p. 259, image seen). Two equivalent forms.
@@ -75,7 +75,7 @@ Sensitivity analysis studies changes in the cost vector, right-hand side and con
 - Wiki note: BT treat the same pair of problems and the fundamental theorem in [[BT ch4 - Duality theory]]; the notation differs ($\mathbf p$ there, $\mathbf w$ here).
 - Wiki note: here the dual optimum is read off the optimal basis as $\mathbf w^*=\mathbf c_B\mathbf B^{-1}$ ([[Simplex method]]).
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 275-354, printed pp. 259-338). Pages viewed as images: pdf 275 (printed 259), 276 (260), 283 (267), 284 (268), 299 (283), 300 (284). Dual simplex details (printed 279-285) and the sections on the economic interpretation, primal-dual method, sensitivity and parametric analysis were read only as headings or text layer and are not transcribed beyond what is cited.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 275-354, printed pp. 259-338). Pages viewed as images: pdf 275 (printed 259), 276 (260), 283 (267), 284 (268), 299 (283), 300 (284). Dual simplex details (printed 279-285) and the sections on the economic interpretation, primal-dual method, sensitivity and parametric analysis were read only as headings or text layer and are not transcribed beyond what is cited.
 **Last updated**: 2026-11-06
 
 ---

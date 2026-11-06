@@ -61,7 +61,7 @@ Columns of $V$ are the modes; $Z$ holds the coefficients. Truncating at rank $r$
 **Wiki note**: the book's `cumsum(s)/sum(s)` uses singular values, not their squares, so it does not equal captured energy. The claim "n much smaller than m" in the text is also unclear **[unverified]**.
 
 **Covered in**: ASML book reduced_order_modeling (ME 697 ROM); homework 5
-**Sources**: `advanced-scientific-machine-learning/book/reduced_order_modeling/`, `homework/05`, `advanced-scientific-machine-learning/book/reduced_order_modeling/01_svd.ipynb`, `02_pca.ipynb`, `03_pod.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/reduced_order_modeling/`, `homework/05`, `courses/ME 697/advanced-scientific-machine-learning/book/reduced_order_modeling/01_svd.ipynb`, `02_pca.ipynb`, `03_pod.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -46,8 +46,8 @@ tags: [signals]
 
 The interpolation kernels are 2D [[Convolution]] filters ([[Digital filter]]). Shrinking without a low-pass prefilter causes [[Aliasing]]; the frequency-domain view follows [[Fourier transform]] in 2D. Background on images: [[Digital image]].
 
-**Covered in**: ECE 438 IP.2 (Sampling, quantization, interpolation), pp. 11-17 (Digital Signal Processing/Topic IP.2 Sampling, quantization, interpolation Mar 23, 2025 .pdf)
-**Sources**: `Digital Signal Processing/Topic IP.2 Sampling, quantization, interpolation Mar 23, 2025 .pdf`.
+**Covered in**: ECE 438 IP.2 (Sampling, quantization, interpolation), pp. 11-17 (courses/ECE 438/Topic IP.2 Sampling, quantization, interpolation Mar 23, 2025 .pdf)
+**Sources**: `courses/ECE 438/Topic IP.2 Sampling, quantization, interpolation Mar 23, 2025 .pdf`.
 **Last updated**: 2026-11-06
 
 ---

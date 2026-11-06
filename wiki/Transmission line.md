@@ -112,8 +112,8 @@ $$V(\infty)=\frac{V_1^+(1+\Gamma_L)}{1-\Gamma_g\Gamma_L}=V_g\frac{R_L}{R_g+R_L}$
 > [!example] Example 44-1 (lect_44, PDF pp. 3-5, checked)
 > $R_0=50$, $R_g=100$, $R_L=25$ give $\Gamma_L=-1/3$ and $\Gamma_g=+1/3$, with $V_1^+=V_g/3$. Successive pulses: $V_1^-=-V_1^+/3$, $V_2^+=-V_1^+/9$, $V_2^-=+V_1^+/27$, $V_3^+=+V_1^+/81$.
 
-**Covered in**: ECE 311 lect_38, lect_39, lect_41, lect_42, lect_44 (Electromagnetics/Lectures Slides/lect_38.pdf, Electromagnetics/Lectures Slides/lect_39.pdf, Electromagnetics/Lectures Slides/lect_41.pdf, Electromagnetics/Lectures Slides/lect_42.pdf, Electromagnetics/Lectures Slides/lect_44.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_38.pdf`, `Electromagnetics/Lectures Slides/lect_39.pdf`, `Electromagnetics/Lectures Slides/lect_41.pdf`, `Electromagnetics/Lectures Slides/lect_42.pdf`, `Electromagnetics/Lectures Slides/lect_44.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_38, lect_39, lect_41, lect_42, lect_44 (courses/ECE 311/Lectures Slides/lect_38.pdf, courses/ECE 311/Lectures Slides/lect_39.pdf, courses/ECE 311/Lectures Slides/lect_41.pdf, courses/ECE 311/Lectures Slides/lect_42.pdf, courses/ECE 311/Lectures Slides/lect_44.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_38.pdf`, `courses/ECE 311/Lectures Slides/lect_39.pdf`, `courses/ECE 311/Lectures Slides/lect_41.pdf`, `courses/ECE 311/Lectures Slides/lect_42.pdf`, `courses/ECE 311/Lectures Slides/lect_44.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

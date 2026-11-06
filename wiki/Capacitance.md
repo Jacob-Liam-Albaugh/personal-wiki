@@ -26,8 +26,8 @@ Coax of length $L$ and radii $a<b$: $C=2\pi\varepsilon L/\ln(b/a)$, so $C'=2\pi\
 ## Transmission lines
 Capacitance per unit length gives $C'$ of a [[Transmission line]]: $C'=\varepsilon w/d$ (parallel plate), $2\pi\varepsilon/\ln(b/a)$ (coax), $\pi\varepsilon_0/\cosh^{-1}(d/2a)$ (twin lead).
 
-**Covered in**: ECE 311 lect_12, lect_14, lect_15, lect_38 (Electromagnetics/Lectures Slides/lect_12.pdf, Electromagnetics/Lectures Slides/lect_14.pdf, Electromagnetics/Lectures Slides/lect_15.pdf, Electromagnetics/Lectures Slides/lect_38.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_12.pdf`, `Electromagnetics/Lectures Slides/lect_14.pdf`, `Electromagnetics/Lectures Slides/lect_15.pdf`, `Electromagnetics/Lectures Slides/lect_38.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_12, lect_14, lect_15, lect_38 (courses/ECE 311/Lectures Slides/lect_12.pdf, courses/ECE 311/Lectures Slides/lect_14.pdf, courses/ECE 311/Lectures Slides/lect_15.pdf, courses/ECE 311/Lectures Slides/lect_38.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_12.pdf`, `courses/ECE 311/Lectures Slides/lect_14.pdf`, `courses/ECE 311/Lectures Slides/lect_15.pdf`, `courses/ECE 311/Lectures Slides/lect_38.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

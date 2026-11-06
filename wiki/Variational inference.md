@@ -13,7 +13,7 @@ tags: [bayesian, vi]
 > $$q^*=\arg\min_{q\in\mathcal Q}\mathrm{KL}\big(q(\theta,z)\,\|\,p(\theta,z\mid x)\big),$$
 > equivalently maximise the [[ELBO]] $\mathcal F[q]$.
 >
-> (source: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, eq. 1)
+> (source: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, eq. 1)
 
 **Intuition**: replace sampling from the posterior with optimisation over a family of simple distributions. The answer is only as good as the family, and the reverse-KL objective is mode-seeking, so a unimodal family locks onto one mode of a multimodal posterior.
 
@@ -46,7 +46,7 @@ tags: [bayesian, vi]
 > Rank-$k$ covariance parameterization is positive semi-definite, multi-point convexity, Jensen's inequality. Then mean-field and full-rank Gaussian VI for the acetaminophen model.
 
 **Covered in**: ASML book inverse/vi (ME 697 4.3); homework 6
-**Sources**: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, `advanced-scientific-machine-learning/book/inverse/vi/intro.md`, `01_basics.md`, `02_catalysis.ipynb`, `03_3d_reconstruction.ipynb`.
+**Sources**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, `courses/ME 697/advanced-scientific-machine-learning/book/inverse/vi/intro.md`, `01_basics.md`, `02_catalysis.ipynb`, `03_3d_reconstruction.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

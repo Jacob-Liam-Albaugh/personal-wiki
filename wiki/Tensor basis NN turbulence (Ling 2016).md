@@ -7,14 +7,14 @@ tags: [ml, symmetry, pde]
 authors: ["[[Julia Ling]]", "[[Andrew Kurzawski]]", "[[Jeremy Templeton]]"]
 year: 2016
 venue: "J. Fluid Mech. 807, 155-166; doi 10.1017/jfm.2016.615"
-file: "Symmetries/Ling - Reynolds Turbulence Modelling DNN with Embedded Invariance.pdf"
+file: "papers/Symmetries/Ling - Reynolds Turbulence Modelling DNN with Embedded Invariance.pdf"
 ---
 
 # Tensor basis NN turbulence (Ling 2016)
 
 **Summary**: A tensor basis neural network (TBNN) predicts the RANS Reynolds-stress anisotropy tensor with Galilean and rotational invariance built into the architecture. It beats linear and quadratic eddy-viscosity models on two held-out flows and a plain MLP on the duct.
 
-**Authors**: Julia Ling, Andrew Kurzawski, Jeremy Templeton · **Year**: 2016 · **File**: `Symmetries/Ling - Reynolds Turbulence Modelling DNN with Embedded Invariance.pdf`
+**Authors**: Julia Ling, Andrew Kurzawski, Jeremy Templeton · **Year**: 2016 · **File**: `papers/Symmetries/Ling - Reynolds Turbulence Modelling DNN with Embedded Invariance.pdf`
 
 ---
 

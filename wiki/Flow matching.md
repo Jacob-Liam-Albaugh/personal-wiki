@@ -44,7 +44,7 @@ Wiki note: the deterministic [[Diffusion models#Probability-flow ODE|probability
 - [[Generative priors for turbulence (Wang 2026)]].
 - [[Step-by-step diffusion (Nakkiran 2025)]]: Chapter 4.
 
-**Sources**: `IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
+**Sources**: `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -33,7 +33,7 @@ Juxtaposition is Cartesian product (`AB = A\times B`); $Sy^S = \sum_{s\in S} y^S
 - [[Polynomial equipment interfaces (Bilionis 2026)]] — the interface type of every instrument and example.
 
 ## Textbook references
-- `DSL/Spivak, Niu - Polynomial Functors.pdf` (queued) — the general theory; this page should be extended from its Ch. 1-2 on ingest.
+- `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf` (queued) — the general theory; this page should be extended from its Ch. 1-2 on ingest.
 - Positions/directions notation and Prop. 2.6 ($I \cong p(1)$): [[Polynomial Functors ch2 - Polynomial functors]] (source: Spivak, Niu - Polynomial Functors.pdf, Def. 2.1, Prop. 2.6, Def. 2.8).
 - Overview of the whole setting: [[Poly (Spivak 2020)]]. Monoidal structures: [[Poly product]], [[Poly parallel product]], [[Poly composition product]].
 

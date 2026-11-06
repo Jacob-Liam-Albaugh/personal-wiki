@@ -7,14 +7,14 @@ tags: [operators, ml]
 authors: ["[[Nikola B. Kovachki]]", "[[Samuel Lanthaler]]", "[[Andrew M. Stuart]]"]
 year: 2024
 venue: "arXiv:2402.15715v1 [cs.LG], 24 Feb 2024 (dated 27 Feb 2024); review article"
-file: "Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf"
+file: "papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf"
 ---
 
 # Operator Learning: Algorithms and Analysis (Kovachki 2024)
 
 **Summary**: A review of [[Operator learning]] (supervised learning of maps between Banach spaces) that defines four architecture families (PCA-Net, DeepONet, FNO / neural operators, random features), states the universal approximation theorems, and then surveys quantitative error and sample complexity for linear, holomorphic and general Lipschitz operators. Its central negative result is the [[Curse of parametric complexity]]: for general Lipschitz or Frechet-differentiable operators, standard architectures need model size exponential in $\varepsilon^{-1}$.
 
-**Authors**: Nikola B. Kovachki, Samuel Lanthaler, Andrew M. Stuart · **Year**: 2024 · **File**: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`
+**Authors**: Nikola B. Kovachki, Samuel Lanthaler, Andrew M. Stuart · **Year**: 2024 · **File**: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`
 
 Wiki note: the file name lists only Stuart (and misspells "Learning"); the PDF's first author is Kovachki, so the slug is kovachki-2024-operator-learning-review. The paper gives no published venue, only the arXiv stamp. Pages cited below are the PDF's own page numbers.
 
@@ -262,7 +262,7 @@ Wiki notes (labelled): the review's scope is approximation and sample complexity
 **Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]], [[Tensor basis NN turbulence (Ling 2016)]]
 %% refs:end %%
 
-**Sources**: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
+**Sources**: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
 ---

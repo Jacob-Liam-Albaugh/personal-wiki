@@ -7,14 +7,14 @@ tags: [diffusion, generative, ml]
 authors: ["[[Jonathan Ho]]", "[[Ajay Jain]]", "[[Pieter Abbeel]]"]
 year: 2020
 venue: "NeurIPS 2020 (arXiv:2006.11239v2)"
-file: "Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf"
+file: "papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf"
 ---
 
 # Denoising Diffusion Probabilistic Models (Ho 2020)
 
 **Summary**: Shows that diffusion probabilistic models (a fixed Gaussian noising Markov chain plus a learned Gaussian reverse chain, trained on a variational bound) can produce high quality images. Predicting the noise $\epsilon$ instead of the posterior mean gives a simplified, reweighted bound $L_\text{simple}$ that equals denoising score matching over many noise levels, with a sampler that resembles Langevin dynamics. On unconditional CIFAR-10 it reaches IS 9.46 and FID 3.17 (p. 5, Table 1); log likelihood is not competitive (NLL $\le$ 3.75 bits/dim).
 
-**Authors**: Jonathan Ho, Ajay Jain, Pieter Abbeel (UC Berkeley) · **Year**: 2020 · **File**: `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`
+**Authors**: Jonathan Ho, Ajay Jain, Pieter Abbeel (UC Berkeley) · **Year**: 2020 · **File**: `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`
 
 ---
 
@@ -167,7 +167,7 @@ Wiki notes:
 **Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]]
 %% refs:end %%
 
-**Sources**: `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`.
+**Sources**: `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`.
 **Last updated**: 2026-11-06
 
 ---

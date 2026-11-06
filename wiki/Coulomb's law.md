@@ -30,8 +30,8 @@ Charged spherical shell (pp. 7-9): $E=0$ inside a uniform shell and $E=Q/(4\pi\v
 ## Use
 Direct integration is practical only for simple geometry; symmetry problems use [[Gauss's law]], others use [[Electric potential]].
 
-**Covered in**: ECE 311 lect_4 (Electromagnetics/Lectures Slides/lect_4.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_4.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_4 (courses/ECE 311/Lectures Slides/lect_4.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_4.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

@@ -44,7 +44,7 @@ Pairs (Table 5.2, p. 8): $\delta[n]\leftrightarrow1$; $a^nu[n]\leftrightarrow\fr
 The DTFT is not directly computable: it needs an infinite sum and a continuous frequency axis. Truncating to $N$ samples and sampling $\omega_k=2\pi k/N$ gives the [[DFT]], and the truncation is what causes [[Spectral leakage]] (source: Topic DSP.3.C, pp. 2-3). For a CT sampled by an impulse train, $\Omega=\omega T$ links the DTFT to the CT transform.
 
 **Covered in**: ECE 438 DSP.3.C DTFT recap, L15 (Topic DSP.3.C more on DFT; L15 Feb 19, 2025 front page)
-**Sources**: `Digital Signal Processing/Topic DSP.3.C more on DFT Feb 2, 2025.pdf`, `Digital Signal Processing/Topic DSP.4.B Sampling DT.pdf`, `Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf`, `Digital Signal Processing/301 Review/ece301final_equation-sheet.pdf`, `Digital Signal Processing/front page/L15 Feb 19, 2025.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.3.C more on DFT Feb 2, 2025.pdf`, `courses/ECE 438/Topic DSP.4.B Sampling DT.pdf`, `courses/ECE 438/Topic DSP.6 z-transforms March 7, 2025.pdf`, `courses/ECE 438/301 Review/ece301final_equation-sheet.pdf`, `courses/ECE 438/front page/L15 Feb 19, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

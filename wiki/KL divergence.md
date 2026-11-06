@@ -12,7 +12,7 @@ tags: [bayesian, vi]
 > $$\mathrm{KL}(q\,\|\,p)=\mathbb E_q\Big[\log\tfrac{q}{p}\Big]\ge0,$$
 > with equality iff $q=p$. Not symmetric.
 >
-> (source: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, eqs. 7-8)
+> (source: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, eqs. 7-8)
 
 **Intuition**: the information lost when $q$ stands in for $p$. Minimising $\mathrm{KL}(q\|p)$ over $q$ (reverse KL, as in [[Variational inference]]) punishes mass where $p$ is small, so it is mode-seeking.
 
@@ -38,7 +38,7 @@ tags: [bayesian, vi]
 > [!example] Homework 6, problem 2 (source: homework/06_homework.ipynb)
 > Show $D_{KL}(p\|q)\ge0$ using Jensen's inequality.
 
-**Sources**: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`.
+**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`.
 **Last updated**: 2026-11-06
 
 ---

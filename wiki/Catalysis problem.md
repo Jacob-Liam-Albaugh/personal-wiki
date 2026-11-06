@@ -11,7 +11,7 @@ tags: [inverse-problems, bayesian, vi, uq]
 **Summary**: The running inverse problem of Part 4: infer five rate constants (and the noise level) of a six-species linear reaction network from noisy concentrations. It is solved classically, by [[Laplace approximation]], and by [[Variational inference]].
 
 **Covered in**: ASML book inverse/basics (ME 697 4.1)
-**Sources**: `advanced-scientific-machine-learning/book/inverse/basics/02_classic_example.ipynb`, `05_laplace_example.ipynb`, `vi/02_catalysis.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/inverse/basics/02_classic_example.ipynb`, `05_laplace_example.ipynb`, `vi/02_catalysis.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

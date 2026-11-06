@@ -27,7 +27,7 @@ tags: [optimization]
 - [[BT ch4 - Duality theory]]: §4.6-4.7, with the separating hyperplane theorem (link to [[Convex set]]).
 - [[BJS ch5 - Special simplex implementations and optimality conditions]]: §5.3, with geometric interpretation.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 4); `Linear Optimization/BJS full book.pdf` (ch. 5).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 4); `text_books/Linear Optimization/BJS full book.pdf` (ch. 5).
 **Last updated**: 2026-11-06
 
 ---

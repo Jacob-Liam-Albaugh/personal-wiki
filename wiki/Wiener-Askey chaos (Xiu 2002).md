@@ -7,14 +7,14 @@ tags: [uq, pde]
 authors: ["[[Dongbin Xiu]]", "[[George Em Karniadakis]]"]
 year: 2002
 venue: "SIAM J. Sci. Comput. 24(2), 619-644"
-file: "Stochastic Methods/Karniadakis, Xiu - The Weiner - Askey Polynomial Chaos for Stochastic Differential Equations.pdf"
+file: "papers/Stochastic Methods/Karniadakis, Xiu - The Weiner - Askey Polynomial Chaos for Stochastic Differential Equations.pdf"
 ---
 
 # Wiener-Askey chaos (Xiu 2002)
 
 **Summary**: Generalises Wiener's Hermite chaos to the full Askey scheme of orthogonal polynomials. The polynomial family is matched to the input distribution (Gaussian with Hermite, gamma with Laguerre, and so on). A decay-rate ODE with random coefficient shows exponential convergence for every matched pair.
 
-**Authors**: Dongbin Xiu, George Em Karniadakis · **Year**: 2002 · **File**: `Stochastic Methods/Karniadakis, Xiu - The Weiner - Askey Polynomial Chaos for Stochastic Differential Equations.pdf`
+**Authors**: Dongbin Xiu, George Em Karniadakis · **Year**: 2002 · **File**: `papers/Stochastic Methods/Karniadakis, Xiu - The Weiner - Askey Polynomial Chaos for Stochastic Differential Equations.pdf`
 
 ---
 

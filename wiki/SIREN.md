@@ -22,7 +22,7 @@ tags: [ml, physics-informed, signals]
 - Used as a PDE solver representation in the same spirit as [[PINN]].
 - Sensitive to the initialization scale: $\omega_0$ sets the starting bandwidth.
 
-**Sources**: `ML/Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf`.
+**Sources**: `papers/ML/Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf`.
 **Last updated**: 2026-11-06
 
 ---

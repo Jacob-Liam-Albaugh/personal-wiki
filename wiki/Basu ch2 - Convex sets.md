@@ -7,14 +7,14 @@ tags: [optimization]
 authors: ["[[Amitabh Basu]]"]
 year: 2018
 venue: "Lecture notes, Johns Hopkins University, compiled 6 Dec 2018"
-file: "Math/Convexity/Basu - Intro to Convexity.pdf"
+file: "text_books/Mathmatics/Basu - Intro to Convexity.pdf"
 ---
 
 # Basu ch2 - Convex sets
 
 **Summary**: Chapters 1-2 of Basu's notes. Ch. 1 fixes notation (norms, closed and compact sets, PSD matrices). Ch. 2 builds the theory of [[Convex set]]s: hulls and cones, the two ways to describe a closed convex set (by halfspaces or by points and directions), the combinatorial theorems of Radon, Helly and Caratheodory, and the structure of polyhedra up to the Minkowski-Weyl theorem.
 
-**Authors**: Amitabh Basu · **Year**: 2018 · **File**: `Math/Convexity/Basu - Intro to Convexity.pdf` · Next: [[Basu ch3 - Convex functions]], [[Basu ch4 - Convex optimization]]
+**Authors**: Amitabh Basu · **Year**: 2018 · **File**: `text_books/Mathmatics/Basu - Intro to Convexity.pdf` · Next: [[Basu ch3 - Convex functions]], [[Basu ch4 - Convex optimization]]
 
 ---
 
@@ -99,7 +99,7 @@ A separate three-page proof by Fourier-Motzkin elimination is on [[Polyhedral re
 - Wiki note: Radon and Helly are the origin of the VC-dimension count for linear classifiers.
 - Next chapter builds [[Convex function]]s on these sets through the epigraph.
 
-**Sources**: `Math/Convexity/Basu - Intro to Convexity.pdf` (pp. 1-41 read, most proofs skimmed; proofs of Thm 2.89 and 2.95 not checked).
+**Sources**: `text_books/Mathmatics/Basu - Intro to Convexity.pdf` (pp. 1-41 read, most proofs skimmed; proofs of Thm 2.89 and 2.95 not checked).
 **Last updated**: 2026-11-06
 
 ---

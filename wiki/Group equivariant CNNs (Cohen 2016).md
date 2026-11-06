@@ -7,14 +7,14 @@ tags: [symmetry, ml]
 authors: ["[[Taco S. Cohen]]", "[[Max Welling]]"]
 year: 2016
 venue: "ICML 2016 (PMLR 48); arXiv:1602.07576"
-file: "Symmetries/Welling, Cohen - Group Equivariant CNNs.pdf"
+file: "papers/Symmetries/Welling, Cohen - Group Equivariant CNNs.pdf"
 ---
 
 # Group equivariant CNNs (Cohen 2016)
 
 **Summary**: Generalises convolution from translations to a larger symmetry group $G$ (90-degree rotations and mirror flips on a square grid). Feature maps become functions on the group, and every layer is shown to commute with $G$. Replacing ordinary convolutions with p4 or p4m convolutions improved results on rotated MNIST and CIFAR10 at roughly fixed parameter count.
 
-**Authors**: Taco S. Cohen, Max Welling · **Year**: 2016 · **File**: `Symmetries/Welling, Cohen - Group Equivariant CNNs.pdf`
+**Authors**: Taco S. Cohen, Max Welling · **Year**: 2016 · **File**: `papers/Symmetries/Welling, Cohen - Group Equivariant CNNs.pdf`
 
 ---
 

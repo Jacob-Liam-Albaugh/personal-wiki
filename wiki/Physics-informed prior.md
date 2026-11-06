@@ -43,7 +43,7 @@ A [[PINN]] is the MAP estimate under this prior (Wiki note).
 - [[PINN]].
 
 **Covered in**: ASML book ift/physics (ME 697 IFT.3)
-**Sources**: `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `advanced-scientific-machine-learning/book/ift/intro.md`, `ift/physics/intro.md`.
+**Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `courses/ME 697/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/physics/intro.md`.
 **Last updated**: 2026-11-06
 
 ---

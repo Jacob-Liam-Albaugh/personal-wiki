@@ -7,14 +7,14 @@ tags: [gp, bayesian, ml]
 authors: ["[[Motonobu Kanagawa]]", "[[Philipp Hennig]]", "[[Dino Sejdinovic]]", "[[Bharath K. Sriperumbudur]]"]
 year: 2018
 venue: "arXiv review, 10 Jul 2018"
-file: "Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf"
+file: "papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf"
 ---
 
 # Gaussian processes and kernel methods (Kanagawa 2018)
 
 **Summary**: A review that matches up the Bayesian view ([[Gaussian process]]) and the frequentist view ([[Kernel methods]], [[RKHS]]) of the same positive definite kernel. GP posterior mean equals kernel ridge regression; posterior standard deviation equals a worst-case error; GP draws miss the RKHS but lie in a slightly larger "power" space; convergence rates, MMD and Bayesian quadrature match too.
 
-**Authors**: Motonobu Kanagawa, Philipp Hennig, Dino Sejdinovic, Bharath K. Sriperumbudur · **Year**: 2018 · **File**: `Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf`
+**Authors**: Motonobu Kanagawa, Philipp Hennig, Dino Sejdinovic, Bharath K. Sriperumbudur · **Year**: 2018 · **File**: `papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf`
 
 ---
 
@@ -83,7 +83,7 @@ $$\mathrm{MMD}^2(P,Q)=E_{f\sim GP(0,k)}\big[(Pf-Qf)^2\big].$$
 - Wiki note: for surrogate use ([[Surrogate model]], [[Multi-fidelity Gaussian process]]) the useful consequences are that noise level equals regularisation, and $\sqrt{\bar k}$ is a certified error bar for functions of bounded RKHS norm.
 - [[Random features model]] approximates the same kernel with finite features.
 
-**Sources**: `Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf` (§2-6 read; §7, HSIC and appendices not read in detail).
+**Sources**: `papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf` (§2-6 read; §7, HSIC and appendices not read in detail).
 **Last updated**: 2026-11-06
 
 ---

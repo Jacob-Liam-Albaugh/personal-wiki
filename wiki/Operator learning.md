@@ -20,7 +20,7 @@ tags: [operators, ml]
 The book's operator-learning chapter (hup/op) is a reading list: [[DeepONet (Lu 2021)]] and [[FNO (Li 2021)]], plus two external JAX tutorials by Ceyron (`simple_deepOnet_in_JAX`, antiderivative operator; `simple_FNO_in_JAX`, 1D Burgers), whose notebooks here are stubs. Citation note: the book cites the FNO paper as the 2020 arXiv preprint (arXiv:2010.08895), the wiki page the 2021 version.
 
 **Covered in**: ASML book hup/op (ME 697 3.2)
-**Sources**: `26.10.22 - DeepONets.pdf`, `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, `advanced-scientific-machine-learning/book/hup/op/intro.md`, `01_reading.md`, `02_deeponet.ipynb`, `03_fno.ipynb`.
+**Sources**: `26.10.22 - DeepONets.pdf`, `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, `courses/ME 697/advanced-scientific-machine-learning/book/hup/op/intro.md`, `01_reading.md`, `02_deeponet.ipynb`, `03_fno.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

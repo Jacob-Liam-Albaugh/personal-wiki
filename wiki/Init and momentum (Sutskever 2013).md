@@ -7,14 +7,14 @@ tags: [optimization, ml]
 authors: ["[[Ilya Sutskever]]", "[[James Martens]]", "[[George Dahl]]", "[[Geoffrey Hinton]]"]
 year: 2013
 venue: "ICML 2013 (PMLR 28)"
-file: "ML/Hinton, Sutskever, Martens, Dahl - On the Importance of Init and Momentum in DL.pdf"
+file: "papers/ML/Hinton, Sutskever, Martens, Dahl - On the Importance of Initialization and Momentum in DL.pdf"
 ---
 
 # Init and momentum (Sutskever 2013)
 
 **Summary**: Shows that plain minibatch SGD with classical or Nesterov momentum, a well-chosen random initialization and a slowly increasing momentum schedule can train deep autoencoders and RNNs with long-range dependencies to errors close to or better than Hessian-free optimization. Also analyzes how Nesterov's method differs from classical momentum on quadratics.
 
-**Authors**: Ilya Sutskever, James Martens, George Dahl, Geoffrey Hinton · **Year**: 2013 · **File**: `ML/Hinton, Sutskever, Martens, Dahl - On the Importance of Init and Momentum in DL.pdf` (the file name lists Hinton first; the paper's first author is Sutskever)
+**Authors**: Ilya Sutskever, James Martens, George Dahl, Geoffrey Hinton · **Year**: 2013 · **File**: `papers/ML/Hinton, Sutskever, Martens, Dahl - On the Importance of Initialization and Momentum in DL.pdf` (the file name lists Hinton first; the paper's first author is Sutskever)
 
 ---
 
@@ -79,7 +79,12 @@ Wiki note: the analysis is for a quadratic with exact gradients. The stochastic 
 - Compare init in [[Weight initialization]] and [[Glorot init (Glorot 2010)]].
 - Momentum plus noise gives [[SGHMC]].
 
-**Sources**: `ML/Hinton, Sutskever, Martens, Dahl - On the Importance of Init and Momentum in DL.pdf`.
+%% refs:start %%
+**Cites in this wiki**: [[Glorot init (Glorot 2010)]]
+**Cited by in this wiki**: [[Adam paper (Kingma 2015)]]
+%% refs:end %%
+
+**Sources**: `papers/ML/Hinton, Sutskever, Martens, Dahl - On the Importance of Initialization and Momentum in DL.pdf`.
 **Last updated**: 2026-11-06
 
 ---

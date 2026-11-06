@@ -7,16 +7,16 @@ tags: [bayesian, vi, ml]
 authors: ["[[Diederik P. Kingma]]", "[[Tim Salimans]]", "[[Max Welling]]"]
 year: 2015
 venue: "NIPS 2015 (Advances in Neural Information Processing Systems 28)"
-file: "Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf"
+file: "papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf"
 ---
 
 # Variational Dropout and the Local Reparameterization Trick (Kingma, Salimans, Welling 2015)
 
 **Summary**: For SGVB over network weights, sampling one weight matrix per minibatch leaves the per-example losses correlated, so gradient variance does not fall with batch size. The local reparameterization trick instead samples each layer's pre-activations directly, giving independent noise per example, variance scaling as $1/M$, and an over 200x speedup versus per-example weight samples. Gaussian dropout is a special case, and learning the dropout rates gives "variational dropout".
 
-**Authors**: Diederik P. Kingma, Tim Salimans, Max Welling (Kingma and Welling: University of Amsterdam; Salimans: Algoritmica; Welling also UC Irvine and CIFAR) · **Year**: 2015 · **File**: `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`
+**Authors**: Diederik P. Kingma, Tim Salimans, Max Welling (Kingma and Welling: University of Amsterdam; Salimans: Algoritmica; Welling also UC Irvine and CIFAR) · **Year**: 2015 · **File**: `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`
 
-The PDF has no venue header. NIPS 2015, pp. 2575-2583, comes from the citation in the reference list of [[Intro to VAEs (Kingma 2019)]]. A Finder alias of this PDF also exists at `ML/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick`; it is not a separate source. The PDF is the 9-page main text only: appendices A-F (log-uniform prior derivation, KL approximation, variance analysis) are cited in the text but are not in the file.
+The PDF has no venue header. NIPS 2015, pp. 2575-2583, comes from the citation in the reference list of [[Intro to VAEs (Kingma 2019)]]. A Finder alias of this PDF also exists at `papers/ML/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick`; it is not a separate source. The PDF is the 9-page main text only: appendices A-F (log-uniform prior derivation, KL approximation, variance analysis) are cited in the text but are not in the file.
 
 ---
 
@@ -126,7 +126,7 @@ Local reparameterization has the lowest variance among variational estimators in
 **Cited by in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]]
 %% refs:end %%
 
-**Sources**: `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`; alias `ML/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick`.
+**Sources**: `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`; alias `papers/ML/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick`.
 **Last updated**: 2026-11-06
 
 ---

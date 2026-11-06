@@ -18,7 +18,7 @@ tags: [diffusion, generative]
 > ```
 > with $t$ uniform on $\{1,\dots,T\}$.
 >
-> (source: `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, pp. 4-5)
+> (source: `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, pp. 4-5)
 
 **Intuition**: the network sees a noisy image and says what noise was added. Given $x_t$, predicting $\epsilon$, $x_0$ or the score are the same task up to known affine maps.
 
@@ -52,7 +52,7 @@ $L_{\text{simple}}$ drops the weight $\beta_t^2/(2\sigma_t^2\alpha_t(1-\bar\alph
 - [[Classifier-free guidance (Ho 2022)]]: guidance mixes two ε-predictions.
 - [[Step-by-step diffusion (Nakkiran 2025)]]: §5 and App. B.10.
 
-**Sources**: `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`, `Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.
+**Sources**: `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`, `papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.
 **Last updated**: 2026-11-06
 
 ---

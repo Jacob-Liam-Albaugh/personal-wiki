@@ -25,7 +25,7 @@ tags: [sampling, mcmc]
 ## Where it appears
 - [[Low-precision SGLD (Zhang 2022)]].
 
-**Sources**: `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
 ---

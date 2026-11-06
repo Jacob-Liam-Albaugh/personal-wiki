@@ -60,7 +60,7 @@ Wiki notes:
 - The nonlinear kernel on $(x,\tilde m_l(x))$ is a warping of the input, a form of [[Kernel composition]].
 
 **Covered in**: ASML book up/mf (ME 697 2.4); homework 4
-**Sources**: `advanced-scientific-machine-learning/book/up/mf/intro.md`, `01_mf_basics.md`, `02_mf_gps.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/up/mf/intro.md`, `01_mf_basics.md`, `02_mf_gps.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

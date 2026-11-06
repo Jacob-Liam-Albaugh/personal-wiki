@@ -14,18 +14,18 @@ tags: [operators]
 > $$\lim_{L\to\infty}R_K\big(\mathcal G(\cdot,\theta),\hat{\mathcal G}_L(\cdot,\cdot,\theta),D_L\big)=0$$
 > for every $\theta$ and every compact $K$.
 >
-> (source: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, pp. 8-9)
+> (source: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, pp. 8-9)
 
 **Intuition**: one set of weights, any mesh. The model takes a point cloud of any size, can be queried anywhere, and its output converges as the mesh is refined. The total error then splits into a discretization part and an approximation part (p. 12).
 
 > [!theorem] Theorem 8 (Kovachki et al. 2022, p. 48)
 > The neural operator class $\mathsf{NO}_n(\sigma_1,\sigma_2,\sigma_3)$ with continuous activations is discretization invariant.
 
-Sensor-based [[DeepONet]] is not: its branch net is tied to fixed sensors (Prop. 5). The review lists BelNet and VIDON as discretization-invariant DeepONet encoders (source: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, p. 13). Cao et al. assert the property for LNO but do not test it (LNO §2, p. 3).
+Sensor-based [[DeepONet]] is not: its branch net is tied to fixed sensors (Prop. 5). The review lists BelNet and VIDON as discretization-invariant DeepONet encoders (source: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, p. 13). Cao et al. assert the property for LNO but do not test it (LNO §2, p. 3).
 
 ## Zero-shot super-resolution
 Train on a coarse grid and evaluate the same weights on a finer one.
-- FNO-3D trained at 64×64×20 and evaluated at 256×256×80 on Navier-Stokes with $\nu=10^{-4}$ (source: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, Fig. 1, p. 9).
+- FNO-3D trained at 64×64×20 and evaluated at 256×256×80 on Navier-Stokes with $\nu=10^{-4}$ (source: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, Fig. 1, p. 9).
 - In Table 5 of the JMLR paper ($\nu=10^{-3}$, $N=200$), FNO-3D errors are 0.0098, 0.0101 and 0.0106 at $s=64,128,256$.
 - GNO trained on 16×16 Darcy and tested on 241×241 (§7.2.3).
 
@@ -36,7 +36,7 @@ The error stays roughly flat with resolution. That is evidence of invariance, no
 - [[FNO (Li 2021)]]: flat error across resolutions (Tables 3-4) and super-resolution.
 - [[LNO (Cao 2023)]], [[Operator learning review (Kovachki 2024)]] (Figs. 1-2).
 
-**Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`.
+**Sources**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
 ---

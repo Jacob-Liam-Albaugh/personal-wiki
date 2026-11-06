@@ -11,7 +11,7 @@ tags: [inverse-problems, bayesian, uq, mcmc]
 **Summary**: Parameters are identifiable when the data determine them uniquely (for infinite data). If only a combination is determined, the likelihood is flat along other directions and the posterior is a ridge governed by the prior.
 
 **Covered in**: ASML book inverse/odes (ME 697 4.5)
-**Sources**: `advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`, `hbayes/04_amortized_vi.ipynb`, `advanced-scientific-machine-learning/book/inverse/odes/intro.md`, `01_basics.md`, `03_dyn_system_multiple_traj.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`, `hbayes/04_amortized_vi.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/inverse/odes/intro.md`, `01_basics.md`, `03_dyn_system_multiple_traj.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

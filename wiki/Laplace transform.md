@@ -13,7 +13,7 @@ tags: [operators]
 > $$\mathcal L\{\dot x\}=s\,\mathcal L\{x\}-x(0)$$
 > $$\mathcal L\{\ddot x\}=s^2\mathcal L\{x\}-s\,x(0)-\dot x(0)$$
 >
-> (source: `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, p. 2)
+> (source: `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, p. 2)
 
 **Intuition**: a one-sided Fourier transform with an extra decay $e^{-\sigma t}$. It handles transients and growth, and its derivative rule carries the initial conditions.
 
@@ -27,10 +27,10 @@ Compare the Fourier transform, $\mathcal F\{x\}(\omega)=\int_{-\infty}^\infty x\
 - [[LNO (Cao 2023)]].
 
 ## Related / discrete-time counterpart
-- [[Z-transform]] is the discrete-time analogue; on the unit circle it reduces to the [[DTFT]], and on the imaginary axis the Laplace transform reduces to the [[Fourier transform]]. (source: Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf, p. 1; ece301final_equation-sheet.pdf, p. 1)
+- [[Z-transform]] is the discrete-time analogue; on the unit circle it reduces to the [[DTFT]], and on the imaginary axis the Laplace transform reduces to the [[Fourier transform]]. (source: courses/ECE 438/Topic DSP.6 z-transforms March 7, 2025.pdf, p. 1; ece301final_equation-sheet.pdf, p. 1)
 - See [[Z-transform]].
 
-**Sources**: `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
+**Sources**: `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
 ---

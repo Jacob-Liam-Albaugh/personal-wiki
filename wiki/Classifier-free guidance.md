@@ -15,7 +15,7 @@ tags: [diffusion, generative, ml]
 > ```
 > where $\epsilon_\theta(z)=\epsilon_\theta(z,\varnothing)$. =0$ is plain conditional sampling.
 >
-> (source: `Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`, pp. 4-5)
+> (source: `papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`, pp. 4-5)
 
 **Intuition**: push past the conditional prediction, away from the unconditional one. This gives the fidelity-for-diversity trade-off of [[Classifier guidance]] without a classifier.
 
@@ -49,7 +49,7 @@ Classifier guidance with $ reproduces eq. 6. With learned networks $\epsilon_\th
 - [[Classifier-free guidance (Ho 2022)]].
 - [[Step-by-step diffusion (Nakkiran 2025)]]: lists guidance among topics outside the tutorial's scope **[unverified]**.
 
-**Sources**: `Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`.
+**Sources**: `papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`.
 **Last updated**: 2026-11-06
 
 ---

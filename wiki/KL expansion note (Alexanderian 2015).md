@@ -7,14 +7,14 @@ tags: [uq, gp]
 authors: ["[[Alen Alexanderian]]"]
 year: 2015
 venue: "arXiv:1509.07526 (math.PR), lecture note"
-file: "Stochastic Methods/Alexanderian - the Karhunen-Loéve Expansion.pdf"
+file: "papers/Stochastic Methods/Alexanderian - the Karhunen-Loéve Expansion.pdf"
 ---
 
 # KL expansion note (Alexanderian 2015)
 
 **Summary**: A self-contained derivation of the [[Karhunen-Loève expansion]] of a centered, mean-square continuous process. The proof runs through compact self-adjoint operators on a Hilbert space and [[Mercer's theorem]]. A closing example expands a Gaussian field with exponential covariance and warns about truncating too early.
 
-**Authors**: Alen Alexanderian · **Year**: 2015 · **File**: `Stochastic Methods/Alexanderian - the Karhunen-Loéve Expansion.pdf`
+**Authors**: Alen Alexanderian · **Year**: 2015 · **File**: `papers/Stochastic Methods/Alexanderian - the Karhunen-Loéve Expansion.pdf`
 
 ---
 
@@ -79,7 +79,7 @@ Wiki note: the derivation is for $D\subset\mathbb R$ with a continuous kernel; t
 - The KL coefficients of a Gaussian field are the random inputs of the [[Polynomial chaos]] expansion in [[Wiener-Askey chaos (Xiu 2002)]].
 - Used for stochastic simulation in [[Quantum option pricing KL (Prakash 2025)]].
 
-**Sources**: `Stochastic Methods/Alexanderian - the Karhunen-Loéve Expansion.pdf`.
+**Sources**: `papers/Stochastic Methods/Alexanderian - the Karhunen-Loéve Expansion.pdf`.
 **Last updated**: 2026-11-06
 
 ---

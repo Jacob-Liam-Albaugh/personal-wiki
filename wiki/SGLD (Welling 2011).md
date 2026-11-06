@@ -7,20 +7,20 @@ tags: [sampling, mcmc, bayesian]
 authors: ["[[Max Welling]]", "[[Yee Whye Teh]]"]
 year: 2011
 venue: "ICML (Proceedings of the 28th International Conference on Machine Learning)"
-file: "IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf"
+file: "papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf"
 ---
 
 # Bayesian Learning via Stochastic Gradient Langevin Dynamics (Welling 2011)
 
 **Summary**: Adds Gaussian noise of variance equal to the step size to a Robbins-Monro mini-batch gradient step on the log posterior, and decays the step size. The iterates start as stochastic optimization and, argued heuristically, turn into samples from the full posterior as the step size goes to zero, without Metropolis-Hastings accept/reject steps. Demonstrated on a two-parameter Gaussian mixture, Bayesian logistic regression, and ICA with natural gradients.
 
-**Authors**: Max Welling, Yee Whye Teh · **Year**: 2011 · **File**: `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`
+**Authors**: Max Welling, Yee Whye Teh · **Year**: 2011 · **File**: `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`
 
 ---
 
 ## Problem
 
-Stochastic optimization ([[SGLD]]) scales to large datasets by using mini-batches but returns a point estimate (ML/MAP) that ignores parameter uncertainty and can overfit. MCMC captures uncertainty but every iteration needs the whole dataset (p. 1-2). The paper wants Bayesian posterior sampling from mini-batch data only.
+Stochastic optimization ([[SGLD]]) scales to large datasets by using mini-batches but returns a point estimate (papers/ML/MAP) that ignores parameter uncertainty and can overfit. MCMC captures uncertainty but every iteration needs the whole dataset (p. 1-2). The paper wants Bayesian posterior sampling from mini-batch data only.
 
 ## Method
 
@@ -99,14 +99,14 @@ Wiki note: the experiments compare against corrected Langevin only, not against 
 - Direct ancestor of [[SG-MCMC]]; the Zhang papers below build on it: [[Cyclical SG-MCMC (Zhang 2020)]] (cyclical step-size schedule instead of the monotone decay required here), [[AMAGOLD (Zhang 2020)]] (adds an MH-style correction for stochastic gradients, using an HMC base), [[Low-precision SGLD (Zhang 2022)]] (SGLD in low-precision arithmetic).
 - The HMC extension hinted in §6 became [[SGHMC]].
 - Related concepts: [[Langevin dynamics]], [[Metropolis-Hastings correction]], [[SGLD]], [[SGLD]].
-- Duplicates in the library: `Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf` (same paper) and a Finder alias in `Stochastic Methods/`. This page's source-ref is the `IFT/` copy; `areas` records all three folders.
+- Duplicates in the library: `papers/Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf` (same paper) and a Finder alias in `papers/Stochastic Methods/`. This page's source-ref is the `papers/IFT/` copy; `areas` records all three folders.
 
 %% refs:start %%
 **Cites in this wiki**: [[RMHMC (Girolami 2011)]]
 **Cited by in this wiki**: [[AMAGOLD (Zhang 2020)]], [[Cyclical SG-MCMC (Zhang 2020)]], [[IFT thermal conductivity (Alberts 2026)]], [[Low-precision SGLD (Zhang 2022)]], [[PIFT (Alberts 2023)]], [[Variational dropout (Kingma 2015)]]
 %% refs:end %%
 
-**Sources**: `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
+**Sources**: `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
 ---

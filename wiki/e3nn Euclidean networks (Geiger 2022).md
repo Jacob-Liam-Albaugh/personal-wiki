@@ -7,14 +7,14 @@ tags: [symmetry, ml, software]
 authors: ["[[Mario Geiger]]", "[[Tess Smidt]]"]
 year: 2022
 venue: "arXiv:2207.09453 (cs.LG); draft dated January 2021"
-file: "Symmetries/Geiger, Smidt - e3nn Euclidean Neural Networks.pdf"
+file: "papers/Symmetries/Geiger, Smidt - e3nn Euclidean Neural Networks.pdf"
 ---
 
 # e3nn Euclidean networks (Geiger 2022)
 
 **Summary**: Describes [[e3nn]], a PyTorch library for networks that are equivariant to the Euclidean group E(3) (rotations, translations, inversion). Data are typed by irreducible representations. The central operation is a general `TensorProduct` built from Clebsch-Gordan coefficients.
 
-**Authors**: Mario Geiger, Tess Smidt · **Year**: 2022 · **File**: `Symmetries/Geiger, Smidt - e3nn Euclidean Neural Networks.pdf`
+**Authors**: Mario Geiger, Tess Smidt · **Year**: 2022 · **File**: `papers/Symmetries/Geiger, Smidt - e3nn Euclidean Neural Networks.pdf`
 
 ---
 

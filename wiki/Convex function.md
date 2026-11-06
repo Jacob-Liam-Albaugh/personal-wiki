@@ -45,7 +45,7 @@ A point $x^*$ minimises $f$ iff $0\in\partial f(x^*)$ (and $0\in\partial f+N_C$ 
 - The Lagrangean dual function of an integer program is concave and piecewise linear: [[BT ch11 - Integer programming]] (p. 495, Fig. 11.6).
 - Convex functions and parametric LP value functions: [[BJS ch2 - Linear algebra convex analysis and polyhedral sets]], [[BJS ch6 - Duality and sensitivity analysis]] (§6.8).
 
-**Sources**: `Math/Convexity/Basu - Intro to Convexity.pdf`.
+**Sources**: `text_books/Mathmatics/Basu - Intro to Convexity.pdf`.
 **Last updated**: 2026-11-06
 
 ---

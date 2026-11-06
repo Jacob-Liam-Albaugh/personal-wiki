@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch4 - Starting solution and convergence
 
 **Summary**: How to start the simplex method when no identity basis is visible (artificial variables, the two-phase method, the big-M method, a single artificial variable), and how to guarantee finite termination under degeneracy (Beale's cycling example, the lexicographic rule, Bland's rule). See [[Simplex method]], [[BJS ch3 - The simplex method]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 151-200). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 151-200). Cites use printed pages; pdf = printed + 16.
 
 ## The initial basic feasible solution (§4.1, p. 151-153)
 The simplex method needs a basis $\mathbf B$ with $\hat{\mathbf b}=\mathbf B^{-1}\mathbf b\ge\mathbf0$ (p. 151, text). It can always be started from the identity (text). Easy case: constraints $\mathbf A\mathbf x\le\mathbf b$, $\mathbf x\ge\mathbf0$ with $\mathbf b\ge\mathbf0$, where the slack variables form the identity basis. Otherwise artificial variables $\mathbf x_a$ are added so that $\mathbf A\mathbf x+\mathbf x_a=\mathbf b$. A slack that already has a unit column (coefficient $+1$ in one row only) needs no artificial in that row, so fewer artificials are needed (Example 4.2, p. 154, text).
@@ -59,7 +59,7 @@ A vector $\mathbf x$ is lexicographically positive if it is not identically zero
 - Wiki note: BT cover the same material in [[BT ch3 - The simplex method]].
 - Wiki note: the two-phase method is itself an LP whose feasibility is guaranteed, so it also proves that a feasible LP has a basic feasible solution ([[Basic feasible solution]]).
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 167-216, printed pp. 151-200). Pages viewed as images: pdf 172 (printed 156) and 182 (printed 166). The rest from the text layer, which garbles math.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 167-216, printed pp. 151-200). Pages viewed as images: pdf 172 (printed 156) and 182 (printed 166). The rest from the text layer, which garbles math.
 **Last updated**: 2026-11-06
 
 ---

@@ -13,11 +13,11 @@ tags: [operators, ml]
 > $P$ lifts pointwise to $d_v$ channels, $Q$ projects pointwise back. Each layer (eq. 10):
 > $$v_{t+1}(x)=\sigma\Big(W_tv_t(x)+\int_D\kappa^{(t)}(x,y)\,v_t(y)\,d\nu_t(y)+b_t(x)\Big)$$
 >
-> (source: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, pp. 9-10)
+> (source: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, pp. 9-10)
 
 **Intuition**: a deep network in which the hidden state is a function. The pointwise part $W_t$ is local; the [[Kernel integral operator]] $\mathcal K_t$ mixes information across the domain. The parameters do not depend on any grid, which gives [[Discretization invariance]].
 
-The review form is the same: $L_\ell(v)(x)=\sigma(W_\ell v(x)+b_\ell+\mathcal K(v)(x;\gamma_\ell))$ (source: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, eq. 4.2, p. 14).
+The review form is the same: $L_\ell(v)(x)=\sigma(W_\ell v(x)+b_\ell+\mathcal K(v)(x;\gamma_\ell))$ (source: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, eq. 4.2, p. 14).
 
 ## Parametrizations of the kernel integral
 The four schemes differ only in how $\int\kappa(x,y)v(y)\,dy$ is evaluated cheaply. Direct Monte Carlo over $J$ points costs $O(J^2)$ (eq. 14).
@@ -52,7 +52,7 @@ With $W_0=0$, constant-in-$y$ kernels and sum projection, a two-layer neural ope
 > [!example] Homework 5, problem 4: Darcy flow (source: homework/05_homework.ipynb)
 > Train a Fourier neural operator for $\nabla\cdot(K\nabla p)=f$, then propagate uncertainty from a noisy $24\times24$ permeability measurement smoothed with a GP.
 
-**Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
+**Sources**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -19,7 +19,7 @@ tags: [sampling, mcmc, bayesian]
 - [[Cyclical SG-MCMC (Zhang 2020)]] — second base kernel.
 - [[Low-precision SGLD (Zhang 2022)]] — prior art (Ferianc et al., cited).
 
-**Sources**: `IFT/Ruqi Zhang - AMAGOLD.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - AMAGOLD.pdf`.
 **Last updated**: 2026-11-06
 
 ---

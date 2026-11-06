@@ -10,7 +10,7 @@ tags: [sampling, mcmc, bayesian]
 **Summary**: MCMC that replaces the full-data gradient with a minibatch estimate
 $\tilde U(\theta)=-\frac{|D|}{|\tilde D|}\sum_{x\in\tilde D}\log p(x|\theta)-\log p(\theta)$ (AMAGOLD p. 3). Cheap per step, biased unless the step goes to zero or an MH step is added.
 
-**Sources**: `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`, `IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`, `IFT/Ruqi Zhang - AMAGOLD.pdf`, `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
+**Sources**: `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`, `papers/IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`, `papers/IFT/Ruqi Zhang - AMAGOLD.pdf`, `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
 ---

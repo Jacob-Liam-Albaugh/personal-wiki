@@ -64,7 +64,7 @@ Wiki notes:
 - Workflow step 5 loops back to retraining while adding data, so the validation set is reused across iterations; that is why a separate test set (step 6) is kept.
 
 **Covered in**: ASML book up/surrogates (ME 697 2.3); homework 4
-**Sources**: `advanced-scientific-machine-learning/book/up/surrogates/01_basics_of_surrogate_models.md`, `02_nn_surrogates.ipynb`, `03_gp_surrogates.ipynb`, `04_gpr_large_data.ipynb`, `advanced-scientific-machine-learning/book/up/surrogates/intro.md`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/up/surrogates/01_basics_of_surrogate_models.md`, `02_nn_surrogates.ipynb`, `03_gp_surrogates.ipynb`, `04_gpr_large_data.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/up/surrogates/intro.md`.
 **Last updated**: 2026-11-06
 
 ---

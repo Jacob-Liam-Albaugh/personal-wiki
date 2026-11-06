@@ -32,7 +32,7 @@ and $\langle z_{ik}z_{il}\rangle=\tfrac{\sigma_k^2}{n}\delta_{kl}$.
 - Book says "$n\ll m$" for MNIST, which is wrong ($n=70000$ images, $m=784$ pixels).
 
 ## Related / transform coding
-- Data-adapted counterpart of fixed transforms such as the [[DFT]] and block transform coding in [[Image transforms]] and [[Image compression]]; see [[Image compression]]. (source: Digital Signal Processing/Topic IP.5 image transforms and wavelets Apr 14, 2025.pdf)
+- Data-adapted counterpart of fixed transforms such as the [[DFT]] and block transform coding in [[Image transforms]] and [[Image compression]]; see [[Image compression]]. (source: courses/ECE 438/Topic IP.5 image transforms and wavelets Apr 14, 2025.pdf)
 
 > [!example] Stochastic heat equation to a whole field (06)
 > Same input model as the KLE example. Collect 100 temperature fields, hold out 10%, run PCA (energy 0.95) on the 90 training fields, and train one GP per coefficient $\eta_j$ on $\boldsymbol\xi\mapsto\eta_j$. Reconstruct
@@ -44,7 +44,7 @@ Further wiki notes:
 - In 06 the displayed expansion $c(x)\approx\sum\xi_i\sqrt{\lambda_i}\phi_i$ is really for $g=\log c$, the output expansion omits the PCA mean, and the same `subkey` is reused for every coefficient's GP. Batch size 100 exceeds the 90 training points.
 
 **Covered in**: ASML book hup/funcin (ME 697 3.1)
-**Sources**: `advanced-scientific-machine-learning/book/hup/funcin/03_pca.ipynb`, `06_up_hout_example.ipynb`, `advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/hup/funcin/03_pca.ipynb`, `06_up_hout_example.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

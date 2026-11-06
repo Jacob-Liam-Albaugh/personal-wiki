@@ -84,8 +84,8 @@ tags: [digital-logic]
 - Decoder, mux and priority encoder: see [[Decoder and multiplexer]].
 - Two's complement examples in Verilog: see [[Number systems and codes]]. (source: 10_26.pdf)
 
-**Covered in**: ECE 270 09_12, 09_14, 09_19, 09_21, 09_28, 10_03, 10_12, 10_24, 10_26, 11_02 (ECE 27000/week 04/09_12.pdf, week 04/09_14.pdf, week 05/09_19.pdf, week 05/09_21.pdf, week 06/09_28(2).pdf, week 07/10_03.pdf, week 08/10_12.pdf, week 10/10_24.pdf, week 10/10_26.pdf, week 11/11_02.pdf)
-**Sources**: `ECE 27000/week 04/09_12.pdf`, `ECE 27000/week 04/09_14.pdf`, `ECE 27000/week 05/09_19.pdf`, `ECE 27000/week 05/09_21.pdf`, `ECE 27000/week 06/09_28(2).pdf`, `ECE 27000/week 07/10_03.pdf`, `ECE 27000/week 08/10_12.pdf`, `ECE 27000/week 10/10_24.pdf`, `ECE 27000/week 10/10_26.pdf`, `ECE 27000/week 11/11_02.pdf`.
+**Covered in**: ECE 270 09_12, 09_14, 09_19, 09_21, 09_28, 10_03, 10_12, 10_24, 10_26, 11_02 (courses/ECE 270/week 04/09_12.pdf, week 04/09_14.pdf, week 05/09_19.pdf, week 05/09_21.pdf, week 06/09_28(2).pdf, week 07/10_03.pdf, week 08/10_12.pdf, week 10/10_24.pdf, week 10/10_26.pdf, week 11/11_02.pdf)
+**Sources**: `courses/ECE 270/week 04/09_12.pdf`, `courses/ECE 270/week 04/09_14.pdf`, `courses/ECE 270/week 05/09_19.pdf`, `courses/ECE 270/week 05/09_21.pdf`, `courses/ECE 270/week 06/09_28(2).pdf`, `courses/ECE 270/week 07/10_03.pdf`, `courses/ECE 270/week 08/10_12.pdf`, `courses/ECE 270/week 10/10_24.pdf`, `courses/ECE 270/week 10/10_26.pdf`, `courses/ECE 270/week 11/11_02.pdf`.
 **Last updated**: 2026-11-06
 
 ---

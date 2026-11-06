@@ -7,14 +7,14 @@ tags: [sampling, mcmc, bayesian]
 authors: ["[[Ruqi Zhang]]", "[[A. Feder Cooper]]", "[[Christopher De Sa]]"]
 year: 2020
 venue: "AISTATS (PMLR 108)"
-file: "IFT/Ruqi Zhang - AMAGOLD.pdf"
+file: "papers/IFT/Ruqi Zhang - AMAGOLD.pdf"
 ---
 
 # AMAGOLD: Amortized Metropolis Adjustment for Efficient Stochastic Gradient MCMC (Zhang 2020)
 
 **Summary**: SGHMC with a constant step size is biased. AMAGOLD runs $T$ stochastic leapfrog steps and applies one Metropolis-Hastings accept/reject at the end, using an accumulated energy term so that the correction needs no extra gradient evaluations. The chain has the exact target as stationary distribution at fixed step size, and its spectral gap is within a constant factor of the full-batch L2MC chain.
 
-**Authors**: Ruqi Zhang, A. Feder Cooper, Christopher De Sa (Cornell) · **Year**: 2020 · **File**: `IFT/Ruqi Zhang - AMAGOLD.pdf`
+**Authors**: Ruqi Zhang, A. Feder Cooper, Christopher De Sa (Cornell) · **Year**: 2020 · **File**: `papers/IFT/Ruqi Zhang - AMAGOLD.pdf`
 
 Not a Bilionis-lab paper (no `lab` tag). The PDF in the library has 10 pages (main text and references); the appendices cited in the text (proofs, App. A-G) are not included in it, so proof details below are from the main text only.
 
@@ -119,7 +119,7 @@ Wiki note: the paper's theorems concern stationarity and a spectral gap relative
 **Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[SGLD (Welling 2011)]]
 %% refs:end %%
 
-**Sources**: `IFT/Ruqi Zhang - AMAGOLD.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - AMAGOLD.pdf`.
 **Last updated**: 2026-11-06
 
 ---

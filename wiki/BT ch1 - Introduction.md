@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch1 - Introduction
 
 **Summary**: Chapter 1 of *Introduction to Linear Optimization* defines the [[Linear programming]] problem in general and standard form, shows how to convert between them, models real problems as LPs, extends LP to piecewise linear convex costs, gives the graphical picture, and reviews linear algebra and operation counts.
 
-**Authors**: Dimitris Bertsimas, John N. Tsitsiklis (MIT) · **Year**: 1997 · **File**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf p. 17-56; pdf page = printed page + 16)
+**Authors**: Dimitris Bertsimas, John N. Tsitsiklis (MIT) · **Year**: 1997 · **File**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf p. 17-56; pdf page = printed page + 16)
 
 ---
 
@@ -83,7 +83,7 @@ Wiki note: the $1/x$ example is the only warning that "bounded below" does not i
 - Piecewise linear convex costs use [[Convex function]]; the $\ell_1$ trick is the LP form of [[LASSO]]-type absolute-value penalties.
 - Next: [[BT ch2 - Geometry of linear programming]].
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (also contained in `MIT (ch 1-2).pdf`, pp. 2-80 = pdf 17-95 of the larger file).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (also contained in `MIT (ch 1-2).pdf`, pp. 2-80 = pdf 17-95 of the larger file).
 **Last updated**: 2026-11-06
 
 ---

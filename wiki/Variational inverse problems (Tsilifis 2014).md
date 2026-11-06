@@ -7,14 +7,14 @@ tags: [bayesian, vi, inverse-problems]
 authors: ["[[Panagiotis Tsilifis]]", "[[Ilias Bilionis]]", "[[Ioannis Katsounaros]]", "[[Nicholas Zabaras]]"]
 year: 2014
 venue: "arXiv:1410.5522 (stat.ML), submitted to Inverse Problems"
-file: "Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf"
+file: "papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf"
 ---
 
 # Variational reformulation of Bayesian inverse problems (Tsilifis 2014)
 
 **Summary**: Casts the Bayesian solution of an inverse problem as an optimisation: maximise the [[ELBO]] over a Gaussian-mixture family, using analytic approximations that need only first and second derivatives of the forward model. On a catalysis calibration and a contaminant-source problem it matches MALA MCMC with about 50 forward solves instead of thousands, but slightly underestimates uncertainty.
 
-**Authors**: Panagiotis Tsilifis (USC), Ilias Bilionis (Purdue), Ioannis Katsounaros, Nicholas Zabaras (Warwick) · **Year**: 2014 (arXiv, 21 Oct 2014; "Submitted to: Inverse Problems") · **File**: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`
+**Authors**: Panagiotis Tsilifis (USC), Ilias Bilionis (Purdue), Ioannis Katsounaros, Nicholas Zabaras (Warwick) · **Year**: 2014 (arXiv, 21 Oct 2014; "Submitted to: Inverse Problems") · **File**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`
 
 Wiki note: the filename lists Bilionis first; the paper's first author is Tsilifis. Bilionis is the corresponding author (p. 1).
 
@@ -96,7 +96,7 @@ Wiki note: the examples are low dimensional (6 to 7 unknowns) and the ELBO is a 
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]]
 %% refs:end %%
 
-**Sources**: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`.
+**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`.
 **Last updated**: 2026-11-06
 
 ---

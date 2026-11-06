@@ -6,7 +6,7 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch7 - Network flows
@@ -96,7 +96,7 @@ Not a network flow problem but graph-structured. **Greedy (Prim) algorithm** (p.
 - Wiki note: the unimodularity behind the integrality results is stated for incidence matrices; the connection to totally unimodular matrices is developed in [[BJS ch9 - Minimal cost network flows]] and [[BJS ch10 - Transportation and assignment problems]].
 - Source credits: negative cost cycle algorithm to Klein (1967); Bellman-Ford to Ford (1956) and Bellman (notes, p. 357-358).
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 281-374, printed pp. 265-358).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 281-374, printed pp. 265-358).
 **Last updated**: 2026-11-06
 
 ---

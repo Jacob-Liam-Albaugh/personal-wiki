@@ -19,7 +19,7 @@ tags: [diffusion, generative, ml]
 > $t\sim U[0,T]$, $x(0)\sim p_0$, $x(t)\sim p_{0t}(\cdot\mid x(0))$.
 > The usual weighting is $\lambda\propto1/\mathbb E\|\nabla\log p_{0t}\|^2$.
 >
-> (source: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, p. 4)
+> (source: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, p. 4)
 
 The target is the score of the known noising kernel, not of the unknown data density. With enough data and capacity the minimizer equals $\nabla_x\log p_t$ almost everywhere (p. 4). For Gaussian kernels the target is $-(x(t)-\mu)/\sigma^2$.
 
@@ -42,7 +42,7 @@ with $\mathbb E v=0$, $\mathrm{Cov}\,v=I$.
 - [[Score SDE (Song 2021)]], [[Diffusion models]].
 - [[DDPM (Ho 2020)]], [[Step-by-step diffusion (Nakkiran 2025)]].
 
-**Sources**: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
+**Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
 **Last updated**: 2026-11-06
 
 ---

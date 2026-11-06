@@ -19,8 +19,8 @@ Rotating loop in uniform $B_0$: $v(t)=-d\Phi_M/dt$, with $\Phi_M=adB_0\cos\omega
 > [!example] Sliding bar (lect_27, Ex. 27-1, p. 1)
 > $u=20\,a_y$ m/s, $B=4\cos(10^3t-y)\,a_z$ mWb/m$^2$, rail spacing $x_0=60$ cm; the EMF has a transformer term (from $\partial B/\partial t$) and a motional term (from $u\times B$).
 
-**Covered in**: ECE 311 lect_25, lect_27 (Electromagnetics/Lectures Slides/lect_25.pdf, Electromagnetics/Lectures Slides/lect_27.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_25.pdf`, `Electromagnetics/Lectures Slides/lect_27.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_25, lect_27 (courses/ECE 311/Lectures Slides/lect_25.pdf, courses/ECE 311/Lectures Slides/lect_27.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_25.pdf`, `courses/ECE 311/Lectures Slides/lect_27.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

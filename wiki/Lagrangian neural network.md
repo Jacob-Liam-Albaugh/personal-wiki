@@ -29,7 +29,7 @@ tags: [physics-informed, mechanics, ml]
 - [[LNNs (Cranmer 2020)]] — origin and experiments.
 - [[Neural ODE]] — LNN is a Neural ODE once $\ddot q$ is integrated.
 
-**Sources**: `Physics Informed Architectures/Cranmer, Greydanus, Ho - LNNs.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Cranmer, Greydanus, Ho - LNNs.pdf`.
 **Last updated**: 2026-11-06
 
 ---

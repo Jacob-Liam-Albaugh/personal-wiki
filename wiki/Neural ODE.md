@@ -35,7 +35,7 @@ tags: [physics-informed, ml, optimization]
 - ME 697 `inverse/data/04_nodes.ipynb` is a title-only stub "Neural ODEs"; [[SINDy]].
 
 **Covered in**: ASML book inverse/data (ME 697 4.7)
-**Sources**: `Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf`, `Greydanus, Dzamba, Yosinski - HNNs.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf`, `Greydanus, Dzamba, Yosinski - HNNs.pdf`.
 **Last updated**: 2026-11-06
 
 ---

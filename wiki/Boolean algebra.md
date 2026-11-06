@@ -70,8 +70,8 @@ Label each gate output with its expression and simplify. (source: 09_07.pdf, p. 
 
 Wiki note: the slides call it switching algebra; it is the two-element Boolean algebra.
 
-**Covered in**: ECE 270 08_22, 08_31, 09_07 (ECE 27000/week 02/08_31.pdf, week 03/09_07.pdf)
-**Sources**: `ECE 27000/week 01/08_22.pdf`, `ECE 27000/week 02/08_31.pdf`, `ECE 27000/week 03/09_07.pdf`, `ECE 27000/week 04/09_12.pdf`.
+**Covered in**: ECE 270 08_22, 08_31, 09_07 (courses/ECE 270/week 02/08_31.pdf, week 03/09_07.pdf)
+**Sources**: `courses/ECE 270/week 01/08_22.pdf`, `courses/ECE 270/week 02/08_31.pdf`, `courses/ECE 270/week 03/09_07.pdf`, `courses/ECE 270/week 04/09_12.pdf`.
 **Last updated**: 2026-11-06
 
 ---

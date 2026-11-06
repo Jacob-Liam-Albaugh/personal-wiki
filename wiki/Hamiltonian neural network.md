@@ -31,7 +31,7 @@ tags: [physics-informed, mechanics, ml]
 - [[LNNs (Cranmer 2020)]] — baseline and contrast.
 - [[Neural ODE]] — HNN is a Neural ODE with a structured vector field.
 
-**Sources**: `Physics Informed Architectures/Greydanus, Dzamba, Yosinski - HNNs.pdf`, `Cranmer, Greydanus, Ho - LNNs.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Greydanus, Dzamba, Yosinski - HNNs.pdf`, `Cranmer, Greydanus, Ho - LNNs.pdf`.
 **Last updated**: 2026-11-06
 
 ---

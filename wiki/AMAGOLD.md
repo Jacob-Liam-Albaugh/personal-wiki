@@ -32,7 +32,7 @@ tags: [sampling, mcmc, bayesian]
 ## Where it appears
 - [[AMAGOLD (Zhang 2020)]].
 
-**Sources**: `IFT/Ruqi Zhang - AMAGOLD.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - AMAGOLD.pdf`.
 **Last updated**: 2026-11-06
 
 ---

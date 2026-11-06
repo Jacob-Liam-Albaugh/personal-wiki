@@ -7,14 +7,14 @@ tags: [operators, ml]
 authors: ["[[Lu Lu]]", "[[Pengzhan Jin]]", "[[Guofei Pang]]", "[[Zhongqiang Zhang]]", "[[George Em Karniadakis]]"]
 year: 2021
 venue: "Nature Machine Intelligence 3, 218-229"
-file: "PSL Reading Group/26.10.22 - DeepONets.pdf"
+file: "papers/PSL Reading Group/26.10.22 - DeepONets.pdf"
 ---
 
 # Learning nonlinear operators via DeepONet (Lu 2021)
 
 **Summary**: Extends the Chen-Chen universal approximation theorem for operators to deep networks and uses it to design DeepONet, a branch net (encodes the input function sampled at sensors) plus a trunk net (encodes the output location) merged by a dot product. On 16 test problems (explicit operators, deterministic and stochastic ODEs/PDEs) it generalises far better than FNN, ResNet and Seq2Seq baselines and shows exponential-then-polynomial error decay in training-set size.
 
-**Authors**: Lu Lu, Pengzhan Jin, Guofei Pang, Zhongqiang Zhang, George Em Karniadakis · **Year**: 2021 · **File**: `PSL Reading Group/26.10.22 - DeepONets.pdf`
+**Authors**: Lu Lu, Pengzhan Jin, Guofei Pang, Zhongqiang Zhang, George Em Karniadakis · **Year**: 2021 · **File**: `papers/PSL Reading Group/26.10.22 - DeepONets.pdf`
 
 Discussed in the PSL reading group on 2026-10-22.
 
@@ -135,7 +135,7 @@ Wiki note: (1) Evaluation is on in-distribution test functions except for the si
 - Builds on the Chen-Chen universal approximation theorem for operators ([[Universal approximation for operators]]) and the classical universal approximation theorem.
 - Compared against FNN, ResNet, Seq2Seq (LSTM/GRU with attention) and a CNN encoder-decoder baseline.
 - Uses [[Karhunen-Loève expansion]] to feed random processes into the branch/trunk nets, and the 2-Wasserstein distance to quantify the shift between GRF input spaces.
-- Wiki note: this reading-group copy may duplicate a copy elsewhere in the library (e.g. `Operators/Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf`); the coordinator will confirm whether to treat them as one source.
+- Wiki note: this reading-group copy may duplicate a copy elsewhere in the library (e.g. `papers/Operators/Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf`); the coordinator will confirm whether to treat them as one source.
 - In the same reading-group batch, [[Markovian homogenized viscoelasticity (Bhattacharya 2023)]] cites universal approximation results for operators ([6], Chen-Chen) when motivating operator learning.
 
 %% refs:start %%
@@ -143,7 +143,7 @@ Wiki note: (1) Evaluation is on in-distribution test functions except for the si
 **Cited by in this wiki**: [[FNO (Li 2021)]], [[LNO (Cao 2023)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]], [[PIFT (Alberts 2023)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
-**Sources**: `PSL Reading Group/26.10.22 - DeepONets.pdf`.
+**Sources**: `papers/PSL Reading Group/26.10.22 - DeepONets.pdf`.
 **Last updated**: 2026-11-06
 
 ---

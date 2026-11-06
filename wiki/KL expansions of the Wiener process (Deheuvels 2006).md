@@ -7,14 +7,14 @@ tags: [uq, gp]
 authors: ["[[Paul Deheuvels]]"]
 year: 2006
 venue: "IMS Lecture Notes-Monograph Series, High Dimensional Probability, Vol. 51, pp. 62-76"
-file: "Stochastic Methods/Deheuvels - Karhunen-Loeve Expantions of mean-centered Wiener Processes.pdf"
+file: "papers/Stochastic Methods/Deheuvels - Karhunen-Loeve Expantions of mean-centered Wiener Processes.pdf"
 ---
 
 # KL expansions of the Wiener process (Deheuvels 2006)
 
 **Summary**: Gives closed-form [[Karhunen-Loève expansion]]s of the mean-centered [[Wiener process]] $W(t)-\int_0^1W$, which are cosine series, and of its weighted version, whose eigenfunctions are Bessel functions. As a by-product, the $L^2[0,1]$ norm of the weighted mean-centered process has the same law as that of a weighted Brownian bridge.
 
-**Authors**: Paul Deheuvels · **Year**: 2006 · **File**: `Stochastic Methods/Deheuvels - Karhunen-Loeve Expantions of mean-centered Wiener Processes.pdf`
+**Authors**: Paul Deheuvels · **Year**: 2006 · **File**: `papers/Stochastic Methods/Deheuvels - Karhunen-Loeve Expantions of mean-centered Wiener Processes.pdf`
 
 ---
 
@@ -75,7 +75,7 @@ Wiki note: for the plain [[Wiener process]] $W$ on $[0,1]$ the classical eigenpa
 - Discretizing general random fields: [[Random field discretization (Betz 2014)]].
 - Brownian motion itself: [[Brownian motion]], [[Brownian movement (Einstein 1905)]], [[Brownian motion construction (Li n.d.)]].
 
-**Sources**: `Stochastic Methods/Deheuvels - Karhunen-Loeve Expantions of mean-centered Wiener Processes.pdf`.
+**Sources**: `papers/Stochastic Methods/Deheuvels - Karhunen-Loeve Expantions of mean-centered Wiener Processes.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -43,8 +43,8 @@ which follows from $-\mathrm{Im}(\kappa^2)=\omega\mu(\omega\varepsilon''+\sigma)
 > [!example] Example 35-3 (lect_35, PDF pp. 6-7)
 > Saltwater, 500 MHz, $\sigma=4.8$ S/m, $\varepsilon_r=80$: $\beta=122$ m$^{-1}$, $\alpha=78$ m$^{-1}$, $\lambda=0.052$ m, power halves at $z=0.0044$ m. Example 35-4 (PDF p. 7) revisits the parallel-plate line with finite conductor conductivity; not read in detail (see [[Transmission line]] for the loss model).
 
-**Covered in**: ECE 311 lect_34, lect_35 (Electromagnetics/Lectures Slides/lect_34.pdf, Electromagnetics/Lectures Slides/lect_35.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_34.pdf`, `Electromagnetics/Lectures Slides/lect_35.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_34, lect_35 (courses/ECE 311/Lectures Slides/lect_34.pdf, courses/ECE 311/Lectures Slides/lect_35.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_34.pdf`, `courses/ECE 311/Lectures Slides/lect_35.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

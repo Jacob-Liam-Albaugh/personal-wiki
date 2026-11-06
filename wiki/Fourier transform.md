@@ -116,8 +116,8 @@ Wiki note: the IP.3 handwriting gives the replica prefactor as $1/T$; for spacin
 
 
 
-**Covered in**: ECE 438 DSP.4.A, IP.3, L16, L26, L27 (Digital Signal Processing/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf)
-**Sources**: `Digital Signal Processing/301 Review/ece301final_equation-sheet.pdf`, `Digital Signal Processing/Topic DSP.4.A Sampling CT.pdf`, `Digital Signal Processing/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf`, `Digital Signal Processing/front page/L16 Feb 21, 2025.pdf`, `Digital Signal Processing/front page/L26 Mar 26, 2025.pdf`, `Digital Signal Processing/front page/L27 Mar 31, 2025.pdf`.
+**Covered in**: ECE 438 DSP.4.A, IP.3, L16, L26, L27 (courses/ECE 438/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf)
+**Sources**: `courses/ECE 438/301 Review/ece301final_equation-sheet.pdf`, `courses/ECE 438/Topic DSP.4.A Sampling CT.pdf`, `courses/ECE 438/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf`, `courses/ECE 438/front page/L16 Feb 21, 2025.pdf`, `courses/ECE 438/front page/L26 Mar 26, 2025.pdf`, `courses/ECE 438/front page/L27 Mar 31, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

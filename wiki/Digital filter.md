@@ -33,7 +33,7 @@ Linear spatial filtering is 2D convolution with a small kernel $h(k,\ell)$. DC p
 Direct convolution, or via the [[DFT]]/[[FFT]] with zero padding and overlap-add or overlap-save for long signals (see [[Convolution]]).
 
 **Covered in**: ECE 438 DSP.4.A, DSP.4.B, DSP.6, IP.4.B (filtering content, held on Sampling theorem, Z-transform and Spatial filtering)
-**Sources**: `Digital Signal Processing/Topic DSP.4.B Sampling DT.pdf`, `Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf`, `Digital Signal Processing/Topic IP.4.B spatial filtering Apr 4, 2025.pdf`, `Digital Signal Processing/Topic DSP.4.A Sampling CT.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.4.B Sampling DT.pdf`, `courses/ECE 438/Topic DSP.6 z-transforms March 7, 2025.pdf`, `courses/ECE 438/Topic IP.4.B spatial filtering Apr 4, 2025.pdf`, `courses/ECE 438/Topic DSP.4.A Sampling CT.pdf`.
 **Last updated**: 2026-11-06
 
 ---

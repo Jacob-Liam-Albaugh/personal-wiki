@@ -36,8 +36,8 @@ which Fig. 10-19 realizes with a D flip-flop and XOR.
 ## In Verilog
 - `VrDlatch`: `always @(D or G) if (G==1) Q <= D;`; `VrDff`: `always @(posedge CLK) Q <= D;`. See [[Verilog]]. (source: 09_28(2).pdf, p. 25)
 
-**Covered in**: ECE 270 09_28 (ECE 27000/week 06/09_28(2).pdf)
-**Sources**: `ECE 27000/week 06/09_28(2).pdf`.
+**Covered in**: ECE 270 09_28 (courses/ECE 270/week 06/09_28(2).pdf)
+**Sources**: `courses/ECE 270/week 06/09_28(2).pdf`.
 **Last updated**: 2026-11-06
 
 ---

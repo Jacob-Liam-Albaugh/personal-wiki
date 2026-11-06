@@ -7,14 +7,14 @@ tags: [ml]
 authors: ["[[Tao Ji]]", "[[Bin Guo]]", "[[Yuanbin Wu]]", "[[Qipeng Guo]]", "[[Lixing Shen]]", "[[Zhan Chen]]", "[[Xipeng Qiu]]", "[[Qi Zhang]]", "[[Tao Gui]]"]
 year: 2025
 venue: "arXiv:2502.14837v1"
-file: "LLMs/LLMs - DeepSeek - Multi-Head Latent Attention.pdf"
+file: "papers/LLMs/LLMs - DeepSeek - Multi-Head Latent Attention.pdf"
 ---
 
 # MHA2MLA (Ji 2025)
 
 **Summary**: A data-efficient fine-tuning recipe that converts a pretrained multi-head (or grouped-query) attention LLM into DeepSeek's multi-head latent attention (MLA). It needs 3 to 6 per mille of the pretraining data and cuts the KV cache sharply.
 
-**Authors**: Tao Ji, Bin Guo, Yuanbin Wu, Qipeng Guo, Lixing Shen, Zhan Chen, Xipeng Qiu, Qi Zhang, Tao Gui · **Year**: 2025 · **File**: `LLMs/LLMs - DeepSeek - Multi-Head Latent Attention.pdf`
+**Authors**: Tao Ji, Bin Guo, Yuanbin Wu, Qipeng Guo, Lixing Shen, Zhan Chen, Xipeng Qiu, Qi Zhang, Tao Gui · **Year**: 2025 · **File**: `papers/LLMs/LLMs - DeepSeek - Multi-Head Latent Attention.pdf`
 
 The file name says DeepSeek but this is a third-party paper about adopting MLA, not the DeepSeek MLA paper itself. The MLA definition is in [[DeepSeek-V2 (DeepSeek-AI 2024)]].
 

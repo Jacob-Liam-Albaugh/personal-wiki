@@ -31,7 +31,7 @@ tags: [optimization]
 - [[BT ch5 - Sensitivity analysis]]: re-solving after data changes.
 - [[BT ch11 - Integer programming]]: Gomory cuts and branch and bound reuse the dual simplex.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 4, 5, 11); `Linear Optimization/BJS full book.pdf` (ch. 6).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 4, 5, 11); `text_books/Linear Optimization/BJS full book.pdf` (ch. 6).
 **Last updated**: 2026-11-06
 
 ---

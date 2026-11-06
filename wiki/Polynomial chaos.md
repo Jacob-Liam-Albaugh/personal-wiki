@@ -72,7 +72,7 @@ Term count grows quickly with input dimension; poor for discontinuities, singula
 > Pythagoras $\|x+y\|^2=\|x\|^2+\|y\|^2$ for orthogonal $x,y$ and its $n$-term form; the map $T:H\to\ell^2$ from an orthonormal basis is linear, onto, one-to-one and preserves the inner product. Orthogonal polynomials for $\Xi\sim\exp(1)$ with `orthojax`, projection of $\sin$, mean and variance of $\sin(\Xi)$. Lorenz system ($\sigma=10$, $\beta=8/3$, $\rho=28$) with $x(0)\sim N(0,0.1)$, $y(0)\sim N(5,0.1)$, $z(0)\sim N(20,0.1)$: build a PCE surrogate, compare mean and variance with Monte Carlo, make three predictions, and plot densities at $t=1,2,5,10$ from 100,000 samples.
 
 **Covered in**: ASML book up/polynomial_chaos (ME 697 2.2); homework 3
-**Sources**: `advanced-scientific-machine-learning/book/up/polynomial_chaos/00_intro.md` through `08_limitations.md`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/up/polynomial_chaos/00_intro.md` through `08_limitations.md`.
 **Last updated**: 2026-11-06
 
 ---

@@ -7,14 +7,14 @@ tags: [bayesian, vi]
 authors: ["[[Charles C. Margossian]]", "[[David M. Blei]]"]
 year: 2024
 venue: "UAI 2024 (40th Conference on Uncertainty in Artificial Intelligence)"
-file: "Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf"
+file: "papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf"
 ---
 
 # Amortized variational inference: when and why? (Margossian 2024)
 
 **Summary**: Asks when amortized VI (one shared inference function mapping each observation to its local approximate posterior) can reach the same optimum as factorized (mean-field) VI. Proves that, for exchangeable latent variable models, the gap closes in general exactly for simple hierarchical models; shows how widening the function's input rescues some time-series models and that HMMs and dense hierarchical models cannot be rescued.
 
-**Authors**: Charles C. Margossian (Flatiron Institute), David M. Blei (Columbia) · **Year**: 2024 · **File**: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`
+**Authors**: Charles C. Margossian (Flatiron Institute), David M. Blei (Columbia) · **Year**: 2024 · **File**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`
 
 ---
 
@@ -105,7 +105,7 @@ Wiki note: results are for mean-field Gaussians and small problems; the theorem 
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]]
 %% refs:end %%
 
-**Sources**: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`.
+**Sources**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`.
 **Last updated**: 2026-11-06
 
 ---

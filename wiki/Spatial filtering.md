@@ -71,8 +71,8 @@ Wiki note: the sheet gives the edge-filter output at only three pixels; other gr
 
 Wiki note: low-pass filtering before downsampling is the 2D anti-aliasing prefilter ([[Aliasing]]); the pointwise counterpart is [[Histogram equalization]].
 
-**Covered in**: ECE 438 IP.4.B, L28, L30, L31 (Digital Signal Processing/Topic IP.4.B spatial filtering Apr 4, 2025.pdf)
-**Sources**: `Digital Signal Processing/Topic IP.4.B spatial filtering Apr 4, 2025.pdf`, `Digital Signal Processing/front page/L28 Apr 2, 2025.pdf`, `Digital Signal Processing/front page/L30 Apr 7, 2025.pdf`, `Digital Signal Processing/front page/L31 Apr 9, 2025.pdf`.
+**Covered in**: ECE 438 IP.4.B, L28, L30, L31 (courses/ECE 438/Topic IP.4.B spatial filtering Apr 4, 2025.pdf)
+**Sources**: `courses/ECE 438/Topic IP.4.B spatial filtering Apr 4, 2025.pdf`, `courses/ECE 438/front page/L28 Apr 2, 2025.pdf`, `courses/ECE 438/front page/L30 Apr 7, 2025.pdf`, `courses/ECE 438/front page/L31 Apr 9, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -12,7 +12,7 @@ tags: [vi, bayesian, ml]
 > Gaussian dropout $B=(A\circ\xi)\theta$, $\xi\sim N(1,\alpha)$, $\alpha=p/(1-p)$, read as a weight posterior $w_{ij}\sim N(\theta_{ij},\alpha\theta_{ij}^2)$. Maximise over $\theta$ **and** $\alpha$:
 > $$\mathbb E_{q_\alpha}[L_D(\theta)]-\mathrm{KL}\big(q_\alpha(w)\,\|\,p(w)\big).$$
 >
-> (source: `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, eq. 12)
+> (source: `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, eq. 12)
 
 **Intuition**: dropout already injects multiplicative noise; with the right prior that noise is a variational posterior, so the dropout rate can be learned instead of tuned.
 
@@ -32,7 +32,7 @@ tags: [vi, bayesian, ml]
 ## Where it appears
 - [[Variational dropout (Kingma 2015)]] (defines it) · [[Intro to VAEs (Kingma 2019)]] (cites the sparsifying follow-up).
 
-**Sources**: `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`.
+**Sources**: `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`.
 **Last updated**: 2026-11-06
 
 ---

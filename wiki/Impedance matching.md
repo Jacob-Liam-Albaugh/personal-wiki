@@ -30,8 +30,8 @@ Choose $\ell_1$ so $G_1=G_0$, then $\ell_{st}$ to cancel $B_1$.
 > [!example] Example 43-1 (lect_43, PDF pp. 4-6)
 > Match $Z_L=(25+j75)\ \Omega$ to a 50 ohm line, $G_0=20$ mS. $G_1=G_0$ gives $\tan^2\beta\ell_1+6\tan\beta\ell_1+4=0$, so $\tan\beta\ell_1=-3\pm\sqrt5=-0.7639$ or $-5.236$. Then $\beta\ell_1=142.62^\circ$ or $100.81^\circ$, $\ell_1=0.396\lambda$ or $0.280\lambda$. For $\beta\ell_1=142.62^\circ$, $B_1=-2.236G_0$, so $\cot\beta\ell_{st}=-2.236$. The PDF ends here (slide 12); the stub length and the second solution are not worked on the slides.
 
-**Covered in**: ECE 311 lect_42, lect_43 (Electromagnetics/Lectures Slides/lect_42.pdf, Electromagnetics/Lectures Slides/lect_43.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_42.pdf`, `Electromagnetics/Lectures Slides/lect_43.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_42, lect_43 (courses/ECE 311/Lectures Slides/lect_42.pdf, courses/ECE 311/Lectures Slides/lect_43.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_42.pdf`, `courses/ECE 311/Lectures Slides/lect_43.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

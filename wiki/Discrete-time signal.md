@@ -121,7 +121,7 @@ To get $x(at+b)$ there are four approaches (source: Topic 2.2, p. 6):
 In DT, scaling is not a free operation. $x[2n]$ drops samples and can alias; see [[Sampling theorem]].
 
 **Covered in**: ECE 438 DSP.1 (Topic DSP.1 DT signals), ECE 301 review 2.1-2.3 (power and energy, time transformations, period of a signal)
-**Sources**: `Digital Signal Processing/Topic DSP.1 DT signals Jan 14, 2025.pdf`, `Digital Signal Processing/301 Review/Topic 2.1 power and energy Jul 17, 2022.pdf`, `Digital Signal Processing/301 Review/Topic 2.3 period of a signal Note Jul 23, 2022.pdf`, `Digital Signal Processing/exam_1_review_transcribed.pdf`, `Digital Signal Processing/301 Review/Topic 2.2 time transformations.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.1 DT signals Jan 14, 2025.pdf`, `courses/ECE 438/301 Review/Topic 2.1 power and energy Jul 17, 2022.pdf`, `courses/ECE 438/301 Review/Topic 2.3 period of a signal Note Jul 23, 2022.pdf`, `courses/ECE 438/exam_1_review_transcribed.pdf`, `courses/ECE 438/301 Review/Topic 2.2 time transformations.pdf`.
 **Last updated**: 2026-11-06
 
 ---

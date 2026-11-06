@@ -52,7 +52,7 @@ The likelihood $p_\theta(y_{1:T})$ is an integral over all state paths, which is
 **Wiki note**: for the case of an [[Ornstein-Uhlenbeck process]] with Gaussian noise, the model is linear-Gaussian and exact filtering is the Kalman filter.
 
 **Covered in**: ASML book sinverse/fs (ME 697 6.2); ASML book sinverse/cali (ME 697 6.3)
-**Sources**: `advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `sinverse/cali/02_em_example.ipynb`, `04_pmcmc_example.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `sinverse/cali/02_em_example.ipynb`, `04_pmcmc_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -30,7 +30,7 @@ tags: [mcmc, sampling, bayesian]
 - [[Identifiability]]: harmonic oscillator.
 
 **Covered in**: ASML book inverse/sampling (ME 697 4.2); ASML book inverse/hbayes (ME 697 4.4); ASML book inverse/odes (ME 697 4.5)
-**Sources**: `advanced-scientific-machine-learning/book/inverse/sampling/04_nuts_blackjax.ipynb`, `hbayes/02_hbayes_example.ipynb`, `odes/02_identifiability.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/inverse/sampling/04_nuts_blackjax.ipynb`, `hbayes/02_hbayes_example.ipynb`, `odes/02_identifiability.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

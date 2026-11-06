@@ -73,7 +73,7 @@ Zero padding recipe: pad $x$ (length $L$) and $h$ (length $K$) to $N\ge L+K-1$, 
 > (source: Topic DSP.3.D, pp. 4-6)
 
 **Covered in**: ECE 438 DSP.3.D (Topic DSP.3.D Convolution with DFT); convolution recipe from DSP.2
-**Sources**: `Digital Signal Processing/Topic DSP.2 DT systems UPDATED Jan 22, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.D Convolution with DFT Feb 9, 2025.pdf`, `Digital Signal Processing/exam_1_review_transcribed.pdf`, `Digital Signal Processing/301 Review/ece301final_equation-sheet.pdf`, `Digital Signal Processing/301 Review/Topic 2.2 time transformations.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.2 DT systems UPDATED Jan 22, 2025.pdf`, `courses/ECE 438/Topic DSP.3.D Convolution with DFT Feb 9, 2025.pdf`, `courses/ECE 438/exam_1_review_transcribed.pdf`, `courses/ECE 438/301 Review/ece301final_equation-sheet.pdf`, `courses/ECE 438/301 Review/Topic 2.2 time transformations.pdf`.
 **Last updated**: 2026-11-06
 
 ---

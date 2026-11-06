@@ -24,7 +24,7 @@ tags: [ml, symmetry]
 - Sum aggregation matches pairwise-force structure in physics, which is why graph networks suit particle systems (Cranmer 2020).
 - Wiki note: over-smoothing and scalability limits are known in the wider literature but are not covered in these sources. **[unverified]**
 
-**Sources**: `ML/Welling, Kipf - Variational Graph Auto-Encoders.pdf`; `ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`; `ML/Zaheer, Kottur, Ravanbhakhsh, Poczos, Salakhutdinov, Smola - Deep Sets.pdf`.
+**Sources**: `papers/ML/Welling, Kipf - Variational Graph Auto-Encoders.pdf`; `papers/ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`; `papers/ML/Zaheer, Kottur, Ravanbhakhsh, Poczos, Salakhutdinov, Smola - Deep Sets.pdf`.
 **Last updated**: 2026-11-06
 
 ---

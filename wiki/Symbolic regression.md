@@ -10,7 +10,7 @@ tags: [ml, optimization, physics-informed]
 
 **Summary**: Supervised learning where the model space is closed-form analytic expressions. It is usually posed as a multi-objective search that trades prediction error against expression complexity, and returns a Pareto front of candidate formulas.
 
-**Sources**: `ML/Cranmer - PySR.pdf`; `ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`.
+**Sources**: `papers/ML/Cranmer - PySR.pdf`; `papers/ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`.
 **Last updated**: 2026-11-06
 
 ---

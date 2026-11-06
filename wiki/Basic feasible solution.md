@@ -26,7 +26,7 @@ tags: [optimization]
 - [[BJS ch2 - Linear algebra convex analysis and polyhedral sets]], [[BJS ch3 - The simplex method]], [[BJS ch4 - Starting solution and convergence]]: the same notions with the book's own notation.
 - [[BJS ch9 - Minimal cost network flows]]: tree bases.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 2-3); `Linear Optimization/BJS full book.pdf` (ch. 2-4, 9).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 2-3); `text_books/Linear Optimization/BJS full book.pdf` (ch. 2-4, 9).
 **Last updated**: 2026-11-06
 
 ---

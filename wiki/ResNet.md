@@ -10,7 +10,7 @@ tags: [ml, optimization]
 
 **Summary**: A network whose blocks compute $y=x+F(x)$: a residual branch $F$ added to an identity shortcut. The shortcut gives gradients a direct path through depth and makes "do nothing" the default for each block.
 
-**Sources**: `ML/He, Zhang, Ren, Sun - ResNets.pdf`.
+**Sources**: `papers/ML/He, Zhang, Ren, Sun - ResNets.pdf`.
 **Last updated**: 2026-11-06
 
 ---

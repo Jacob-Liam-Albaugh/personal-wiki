@@ -36,7 +36,7 @@ The expectation is estimated with a bootstrap smoother ([[Particle filter]]); th
 **Wiki note**: the "true sigma" in the notebook is $\sigma_x=0.01$, but the quantity estimated appears to be the observation noise $s$ (true 0.1).
 
 **Covered in**: ASML book sinverse/cali (ME 697 6.3)
-**Sources**: `advanced-scientific-machine-learning/book/sinverse/cali/02_em_example.ipynb`, `01_em_theory.md`, `advanced-scientific-machine-learning/book/sinverse/cali/intro.md`, `03_pmcmc_theory.md`, `04_pmcmc_example.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/sinverse/cali/02_em_example.ipynb`, `01_em_theory.md`, `courses/ME 697/advanced-scientific-machine-learning/book/sinverse/cali/intro.md`, `03_pmcmc_theory.md`, `04_pmcmc_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -7,14 +7,14 @@ tags: [sampling, mcmc, bayesian]
 authors: ["[[Mark Girolami]]", "[[Ben Calderhead]]"]
 year: 2011
 venue: "J. R. Statist. Soc. B 73 (2011) 123-214"
-file: "ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf"
+file: "papers/ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf"
 ---
 
 # RMHMC (Girolami 2011)
 
 **Summary**: Treats the parameter space as a Riemannian manifold whose metric $G(\theta)$ is the expected Fisher information (plus prior curvature). A position-dependent metric rescales and rotates the proposal, so Langevin and Hamiltonian samplers adapt to local correlation. This gives MMALA and Riemannian manifold HMC, which mix far better than plain MALA and HMC on strongly correlated or ill-conditioned posteriors.
 
-**Authors**: Mark Girolami, Ben Calderhead · **Year**: 2011 · **File**: `ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf`
+**Authors**: Mark Girolami, Ben Calderhead · **Year**: 2011 · **File**: `papers/ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf`
 
 ---
 
@@ -89,7 +89,7 @@ A Gibbs variant (eq. 19-20) alternates momentum resampling with the leapfrog tra
 **Cited by in this wiki**: [[SGLD (Welling 2011)]]
 %% refs:end %%
 
-**Sources**: `ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf`.
+**Sources**: `papers/ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf`.
 **Last updated**: 2026-11-06
 
 ---

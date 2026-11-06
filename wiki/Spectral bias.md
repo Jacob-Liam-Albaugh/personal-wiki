@@ -27,7 +27,7 @@ It is fitted from 1000 points with noise 0.1 by an MLP of width 128, depth 4, ta
 - Kernel-regime explanation: eigenvalues of the [[Neural tangent kernel]] decay with frequency, so high modes train slowly. Wiki note: this is the Tancik et al. argument.
 
 **Covered in**: ASML book pinns/basics (ME 697 5.1)
-**Sources**: `ML/Rahaman et.al. - On the Spectrial Bias of NNs.pdf`.
+**Sources**: `papers/ML/Rahaman et.al. - On the Spectrial Bias of NNs.pdf`.
 **Last updated**: 2026-11-06
 
 ---

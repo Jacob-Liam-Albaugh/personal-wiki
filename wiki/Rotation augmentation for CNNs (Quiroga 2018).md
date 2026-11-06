@@ -7,14 +7,14 @@ tags: [symmetry, ml]
 authors: ["[[Facundo Quiroga]]", "[[Franco Ronchetti]]", "[[Laura Lanzarini]]", "[[Aurelio Fernandez-Bariviera]]"]
 year: 2018
 venue: "not printed in the PDF text; year unverified"
-file: "Symmetries/Quiroga, Ronchetti - Data Augmentaion for Rotational Invariance in CNNs.pdf"
+file: "papers/Symmetries/Quiroga, Ronchetti - Data Augmentaion for Rotational Invariance in CNNs.pdf"
 ---
 
 # Rotation augmentation for CNNs (Quiroga 2018)
 
 **Summary**: Random-rotation data augmentation alone lets plain CNNs classify rotated MNIST and CIFAR10 nearly as well as unrotated data. Spatial Transformer Networks and group CNNs give no significant accuracy gain at equal parameter count. The cost of augmentation is training time only.
 
-**Authors**: Facundo Quiroga, Franco Ronchetti, Laura Lanzarini, Aurelio Fernandez-Bariviera · **Year**: 2018 **[unverified]** · **File**: `Symmetries/Quiroga, Ronchetti - Data Augmentaion for Rotational Invariance in CNNs.pdf`
+**Authors**: Facundo Quiroga, Franco Ronchetti, Laura Lanzarini, Aurelio Fernandez-Bariviera · **Year**: 2018 **[unverified]** · **File**: `papers/Symmetries/Quiroga, Ronchetti - Data Augmentaion for Rotational Invariance in CNNs.pdf`
 
 ---
 

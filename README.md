@@ -15,7 +15,7 @@ Topics include Bayesian inference, information field theory, scientific machine 
 
 ## Reading locally
 
-Clone the repository and open `wiki/` as an Obsidian vault for linked navigation, equations, and callouts. The repository contains Markdown notes; original papers and textbooks are stored separately.
+Clone the repository and open `wiki/` as an Obsidian vault for linked navigation, equations, and callouts. The repository contains Markdown notes; the sources sit beside `wiki/` in `papers/`, `courses/` and `text_books/` and are not tracked.
 
 ## Authors, citations, and graph
 

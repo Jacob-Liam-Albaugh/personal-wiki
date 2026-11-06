@@ -22,7 +22,7 @@ tags: [ml, symmetry]
 - Same structure as aggregation in a [[Graph neural network]] (a node's neighbours form a set) and as sum-over-edges messages in [[Symbolic models from deep learning (Cranmer 2020)]].
 - A symmetry-by-construction model, like those in [[Equivariance]]: build the group into the layers rather than learn it.
 
-**Sources**: `ML/Zaheer, Kottur, Ravanbhakhsh, Poczos, Salakhutdinov, Smola - Deep Sets.pdf`.
+**Sources**: `papers/ML/Zaheer, Kottur, Ravanbhakhsh, Poczos, Salakhutdinov, Smola - Deep Sets.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -77,8 +77,8 @@ Identities used: $\nabla\times\nabla V=0$ (so $E=-\nabla V$, see [[Electric pote
 > [!example] Stokes check (lect_7, pp. 5-6)
 > $A=-y\,a_x+x\,a_y$ on a rectangle: $\oint A\cdot d\ell=2x_0y_0=\int(\nabla\times A)\cdot ds$.
 
-**Covered in**: ECE 311 lect_1, lect_2, lect_3 (Electromagnetics/Lectures Slides/lect_1.pdf, Electromagnetics/Lectures Slides/lect_2.pdf, Electromagnetics/Lectures Slides/lect_3.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_1.pdf`, `Electromagnetics/Lectures Slides/lect_2.pdf`, `Electromagnetics/Lectures Slides/lect_3.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_1, lect_2, lect_3 (courses/ECE 311/Lectures Slides/lect_1.pdf, courses/ECE 311/Lectures Slides/lect_2.pdf, courses/ECE 311/Lectures Slides/lect_3.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_1.pdf`, `courses/ECE 311/Lectures Slides/lect_2.pdf`, `courses/ECE 311/Lectures Slides/lect_3.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

@@ -28,7 +28,7 @@ tags: [optimization]
 - [[BJS ch8 - Complexity of the simplex algorithm and polynomial-time algorithms]]: outline (details left to exercises).
 - [[BT ch10 - Integer programming formulations]]: separation and exponentially many constraints.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 8-10); `Linear Optimization/BJS full book.pdf` (ch. 8).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 8-10); `text_books/Linear Optimization/BJS full book.pdf` (ch. 8).
 **Last updated**: 2026-11-06
 
 ---

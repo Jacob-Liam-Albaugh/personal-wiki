@@ -27,7 +27,7 @@ $$\max\ (\mathbf w\mathbf A-\mathbf c)\mathbf x+\alpha\quad\text{s.t. }\mathbf x
 - [[BT ch6 - Large scale optimization]]: §6.1-6.4 with the cutting stock example.
 - [[BJS ch7 - The decomposition principle]]: algorithm, interpretation and extensions (sections beyond §7.1 read only as headings).
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 6); `Linear Optimization/BJS full book.pdf` (ch. 7).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 6); `text_books/Linear Optimization/BJS full book.pdf` (ch. 7).
 **Last updated**: 2026-11-06
 
 ---

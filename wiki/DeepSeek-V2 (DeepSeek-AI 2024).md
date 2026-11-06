@@ -7,14 +7,14 @@ tags: [ml, generative]
 authors: ["[[DeepSeek-AI]]"]
 year: 2024
 venue: "arXiv:2405.04434v5"
-file: "LLMs/LLMs - DeepSeek - MoE Language Model.pdf"
+file: "papers/LLMs/LLMs - DeepSeek - MoE Language Model.pdf"
 ---
 
 # DeepSeek-V2 (DeepSeek-AI 2024)
 
 **Summary**: A 236B-parameter [[Mixture of experts]] language model with 21B parameters active per token and 128K context. It pairs Multi-head Latent Attention (MLA), which compresses the key-value cache, with the DeepSeekMoE feed-forward design.
 
-**Authors**: DeepSeek-AI · **Year**: 2024 · **File**: `LLMs/LLMs - DeepSeek - MoE Language Model.pdf`
+**Authors**: DeepSeek-AI · **Year**: 2024 · **File**: `papers/LLMs/LLMs - DeepSeek - MoE Language Model.pdf`
 
 ---
 

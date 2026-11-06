@@ -25,8 +25,8 @@ Torque on a motor coil follows from the force on its sides.
 > [!example] Levitating a wire (lect_24, p. 1)
 > Two parallel wires, 1 cm apart, carry equal and opposite current $I$. With 22 gauge copper (density $8.96\times10^3$ kg/m$^3$, area $3.26\times10^{-7}$ m$^2$) the weight per length is $F_g'=0.0286$ N/m; setting $F_m'=F_g'$ gives $I=\sqrt{2\pi dF_g'/\mu_0}=37.8$ A (PDF p. 2, text layer). The slide notes this is a huge current for 22 gauge wire; the dissipation is $P'=I^2/\sigma S=76$ W/m.
 
-**Covered in**: ECE 311 lect_17, lect_24 (Electromagnetics/Lectures Slides/lect_17.pdf, Electromagnetics/Lectures Slides/lect_24.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_17.pdf`, `Electromagnetics/Lectures Slides/lect_24.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_17, lect_24 (courses/ECE 311/Lectures Slides/lect_17.pdf, courses/ECE 311/Lectures Slides/lect_24.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_17.pdf`, `courses/ECE 311/Lectures Slides/lect_24.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

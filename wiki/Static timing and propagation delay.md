@@ -32,8 +32,8 @@ A ripple adder's delay grows linearly with n; carry lookahead and prefix adders 
 
 Wiki note: the minimum clock period is set by the clock-to-output delay, the longest combinational path and the setup time; the slides show the ingredients but do not state this formula **[unverified]**.
 
-**Covered in**: ECE 270 08_29, 09_12, 09_28, 10_05, 10_31, 11_02 (ECE 27000/week 02/08_29.pdf, week 04/09_12.pdf, week 06/09_28(2).pdf, week 07/10_05.pdf, week 11/10_31.pdf, week 11/11_02.pdf)
-**Sources**: `ECE 27000/week 02/08_29.pdf`, `ECE 27000/week 04/09_12.pdf`, `ECE 27000/week 06/09_28(2).pdf`, `ECE 27000/week 07/10_05.pdf`, `ECE 27000/week 11/10_31.pdf`, `ECE 27000/week 11/11_02.pdf`.
+**Covered in**: ECE 270 08_29, 09_12, 09_28, 10_05, 10_31, 11_02 (courses/ECE 270/week 02/08_29.pdf, week 04/09_12.pdf, week 06/09_28(2).pdf, week 07/10_05.pdf, week 11/10_31.pdf, week 11/11_02.pdf)
+**Sources**: `courses/ECE 270/week 02/08_29.pdf`, `courses/ECE 270/week 04/09_12.pdf`, `courses/ECE 270/week 06/09_28(2).pdf`, `courses/ECE 270/week 07/10_05.pdf`, `courses/ECE 270/week 11/10_31.pdf`, `courses/ECE 270/week 11/11_02.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -7,14 +7,14 @@ tags: [diffusion, generative, sampling]
 authors: ["[[Yang Song]]", "[[Jascha Sohl-Dickstein]]", "[[Diederik P. Kingma]]", "[[Abhishek Kumar]]", "[[Stefano Ermon]]", "[[Ben Poole]]"]
 year: 2021
 venue: "ICLR 2021 (arXiv:2011.13456v2, 10 Feb 2021)"
-file: "Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf"
+file: "papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf"
 ---
 
 # Score-Based Generative Modeling Through SDEs (Song 2021)
 
 **Summary**: Perturbs data to a known prior with a continuous-time forward SDE, and generates by solving the reverse-time SDE (Anderson 1982), which needs only the time-dependent score $\nabla_x\log p_t(x)$, estimated by a neural network trained with denoising score matching. SMLD and DDPM are shown to be discretizations of the VE and VP SDEs; the framework adds Predictor-Corrector samplers, a probability-flow ODE (exact likelihoods, latent encoding), and conditional sampling for inpainting/colorization. Reported CIFAR-10 results: FID 2.20, IS 9.89 (NCSN++ cont. deep, VE), and 2.99 bits/dim (DDPM++ cont. deep, sub-VP) (p. 7, Tables 2-3).
 
-**Authors**: Yang Song (Stanford), Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon (Stanford), Ben Poole · **Year**: 2021 · **File**: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`
+**Authors**: Yang Song (Stanford), Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon (Stanford), Ben Poole · **Year**: 2021 · **File**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`
 
 Wiki note: the PDF's author order is Song, Sohl-Dickstein, Kingma, Kumar, Ermon, Poole (p. 1); the filename lists Kingma first. First author is Yang Song, hence the slug. The paper is "Published as a conference paper at ICLR 2021" (p. 1 header). The first author's work was partly done during an internship at Google Brain (p. 1 footnote).
 
@@ -281,7 +281,7 @@ Wiki note (not in paper): FID/NLL comparisons depend on dequantization and check
 **Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]]
 %% refs:end %%
 
-**Sources**: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
+**Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
 **Last updated**: 2026-11-06
 
 ---

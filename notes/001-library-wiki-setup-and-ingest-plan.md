@@ -3,10 +3,10 @@
 2026-11-06
 
 ## Decisions
-- **No `raw/` move.** The topic folders (Bayesian/, IFT/, Operators/, …) are the raw layer and stay where they are. Pages cite paths relative to the Papers folder.
+- **No `raw/` move.** `papers/`, `courses/` and `text_books/` are the raw layer (reorganised from flat topic folders on 2026-11-06). Pages cite paths relative to the repo root.
 - **Areas** are slugs taken from those folders and the courses: bayesian, ift, dsl, ml, operators, physics-informed, stochastic, symmetry, gp, math, dsp, digital, em, me697.
 - **Duplicates.** Each paper gets one page. The canonical copy is the published version; preprints and extra copies are listed against it in `wiki/meta/sources.md`.
-- **Reference-only sources:** `_text books/` and the ME 697 repository. They are ingested one chapter per page, and only on request.
+- **Reference-only sources:** `text_books/` and the ME 697 repository. They are ingested one chapter per page, and only on request.
 - **Git** tracks only `wiki/`, `notes/`, `CLAUDE.md` and `.gitignore`. It runs on the local `main` branch with no remote.
 
 ## Done (batch 1)
@@ -30,7 +30,7 @@
 - ME 697 book part 1 (`ml-software/`): 4 lecture pages and 11 concept pages (JAX transformations, autodiff, optimizers, initialization). New topic tags `optimization` and `software`.
 
 ## Done (batches 6 onward)
-- Everything else is ingested: the remaining papers, ME 697 parts 2-6, ECE 438/311/270, *Poly*, *Seven Sketches*, and the BT and BJS chapters. Only `_text books/` reference items are left out. Per-batch detail is in `wiki/meta/log.md`.
+- Everything else is ingested: the remaining papers, ME 697 parts 2-6, ECE 438/311/270, *Poly*, *Seven Sketches*, and the BT and BJS chapters. Only `text_books/` reference items are left out. Per-batch detail is in `wiki/meta/log.md`.
 - Added `tools/`:
   - `authors.py` builds the author pages and graph links.
   - `refs.py` builds the in-wiki citation links and `wiki/meta/wanted-papers.md` (threshold n=2).

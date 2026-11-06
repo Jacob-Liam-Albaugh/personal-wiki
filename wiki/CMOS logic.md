@@ -68,8 +68,8 @@ Kirchhoff: KVL says voltage drops around a loop sum to zero; KCL says currents i
 ## Other uses
 - A 2-input multiplexer bit can be built from transmission gates (Fig. 8-20, Fig. 6-27). See [[Decoder and multiplexer]]. (source: 11_07.pdf, p. 8; 09_21.pdf, p. 14-20)
 
-**Covered in**: ECE 270 08_24, 08_29 (ECE 27000/week 01/08_24.pdf, week 02/08_29.pdf)
-**Sources**: `ECE 27000/week 01/08_24.pdf`, `ECE 27000/week 02/08_29.pdf`, `ECE 27000/week 05/09_21.pdf`, `ECE 27000/week 12/11_07.pdf`.
+**Covered in**: ECE 270 08_24, 08_29 (courses/ECE 270/week 01/08_24.pdf, week 02/08_29.pdf)
+**Sources**: `courses/ECE 270/week 01/08_24.pdf`, `courses/ECE 270/week 02/08_29.pdf`, `courses/ECE 270/week 05/09_21.pdf`, `courses/ECE 270/week 12/11_07.pdf`.
 **Last updated**: 2026-11-06
 
 ---

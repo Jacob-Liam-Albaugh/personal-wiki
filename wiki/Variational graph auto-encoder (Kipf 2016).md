@@ -7,14 +7,14 @@ tags: [ml, vi, bayesian, generative]
 authors: ["[[Thomas Kipf]]", "[[Max Welling]]"]
 year: 2016
 venue: "arXiv:1611.07308v1 (NIPS 2016 Bayesian Deep Learning workshop)"
-file: "ML/Welling, Kipf - Variational Graph Auto-Encoders.pdf"
+file: "papers/ML/Welling, Kipf - Variational Graph Auto-Encoders.pdf"
 ---
 
 # Variational graph auto-encoder (Kipf 2016)
 
 **Summary**: A VAE for graphs. A two-layer graph convolutional network (GCN) encodes node features and adjacency into Gaussian latent variables per node. An inner-product decoder gives edge probabilities. It does unsupervised link prediction and uses node features naturally, which clearly lifts accuracy.
 
-**Authors**: Thomas Kipf, Max Welling · **Year**: 2016 · **File**: `ML/Welling, Kipf - Variational Graph Auto-Encoders.pdf` (the file name lists Welling first; the first author is Kipf)
+**Authors**: Thomas Kipf, Max Welling · **Year**: 2016 · **File**: `papers/ML/Welling, Kipf - Variational Graph Auto-Encoders.pdf` (the file name lists Welling first; the first author is Kipf)
 
 ---
 
@@ -70,7 +70,7 @@ Features give a large gain over the featureless variants (VGAE* about 84 to 88 o
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Glorot init (Glorot 2010)]], [[VAE paper (Kingma 2014)]]
 %% refs:end %%
 
-**Sources**: `ML/Welling, Kipf - Variational Graph Auto-Encoders.pdf`.
+**Sources**: `papers/ML/Welling, Kipf - Variational Graph Auto-Encoders.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -42,8 +42,8 @@ Potential falls as $1/R^2$ and field as $1/R^3$ (wiki note on exponents). The di
 ## Analogue
 Magnetic version: [[Magnetic vector potential]].
 
-**Covered in**: ECE 311 lect_7, lect_8 (Electromagnetics/Lectures Slides/lect_7.pdf, Electromagnetics/Lectures Slides/lect_8.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_7.pdf`, `Electromagnetics/Lectures Slides/lect_8.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_7, lect_8 (courses/ECE 311/Lectures Slides/lect_7.pdf, courses/ECE 311/Lectures Slides/lect_8.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_7.pdf`, `courses/ECE 311/Lectures Slides/lect_8.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

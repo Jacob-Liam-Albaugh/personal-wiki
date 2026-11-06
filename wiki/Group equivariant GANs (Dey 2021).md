@@ -7,14 +7,14 @@ tags: [symmetry, generative, ml]
 authors: ["[[Neel Dey]]", "[[Antong Chen]]", "[[Soheil Ghafurian]]"]
 year: 2021
 venue: "ICLR 2021 (arXiv:2005.01683v2, 30 Mar 2021)"
-file: "Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf"
+file: "papers/Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf"
 ---
 
 # Group Equivariant GANs (Dey 2021)
 
 **Summary**: Replaces every convolution in a GAN generator and discriminator with a p4 or p4m group convolution, so rotation (and reflection) equivariance is built in rather than learned from augmentation or consistency regularizers. Gives better FID and sample efficiency on rotation-symmetric data (RotMNIST, histology ANHIR, LYSTO) and mixed results on natural images (CIFAR-10, Food-101); the equivariant discriminator carries most of the gain (pp. 5-7).
 
-**Authors**: Neel Dey (NYU; work done during an internship at Merck), Antong Chen, Soheil Ghafurian (Merck & Co.) · **Year**: 2021 · **File**: `Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`
+**Authors**: Neel Dey (NYU; work done during an internship at Merck), Antong Chen, Soheil Ghafurian (Merck & Co.) · **Year**: 2021 · **File**: `papers/Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`
 
 ---
 
@@ -136,7 +136,7 @@ Wiki note: improvement on CIFAR-10 is smaller and the G-CNN G&D variant is sligh
 **Cites in this wiki**: [[Group equivariant CNNs (Cohen 2016)]]
 %% refs:end %%
 
-**Sources**: `Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`.
+**Sources**: `papers/Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`.
 **Last updated**: 2026-11-06
 
 ---

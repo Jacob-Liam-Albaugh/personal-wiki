@@ -69,7 +69,7 @@ $$n\alpha^nu[n]\to\frac{\alpha z^{-1}}{(1-\alpha z^{-1})^2}$$
 plus the cosine/sine and damped cosine/sine pairs. After the inversion lecture, the working picture is that the poles and zeros of a rational $H(z)$ govern system behaviour and $z^n$ is the eigenfunction of an [[LTI system]] (source: L23 Mar 10, 2025.pdf; L24 Mar 24, 2025.pdf, p. 1).
 
 **Covered in**: ECE 438 DSP.6, L20-L24 z-transform parts (Topic DSP.6 z-transforms; L22 Mar 7, L23 Mar 10, L24 Mar 24, 2025 front pages)
-**Sources**: `Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf`, `Digital Signal Processing/front page/L22 Mar 7, 2025.pdf`, `Digital Signal Processing/front page/L23 Mar 10, 2025.pdf`, `Digital Signal Processing/front page/L24 Mar 24, 2025.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.6 z-transforms March 7, 2025.pdf`, `courses/ECE 438/front page/L22 Mar 7, 2025.pdf`, `courses/ECE 438/front page/L23 Mar 10, 2025.pdf`, `courses/ECE 438/front page/L24 Mar 24, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

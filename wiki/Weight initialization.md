@@ -28,12 +28,12 @@ tags: [optimization, ml]
 ## Glorot / Xavier initialization
 - Glorot's normalized initialization: W ~ U[-sqrt(6)/sqrt(n_j+n_{j+1}), +sqrt(6)/sqrt(n_j+n_{j+1})], so Var[W] = 2/(n_j+n_{j+1}) (source: Glorot 2010, eq. 16, p. 5; compromise of eq. 10-11). The book's formula matches this.
 - Wiki note: the book labels the $n^{-1/2}$ uniform init "He". That is Glorot's baseline, $U[-1/\sqrt n,1/\sqrt n]$ with $n\,\mathrm{Var}[W]=1/3$ (Glorot 2010, eqs. 1 and 15, pp. 3, 5), not He.
-- He initialization (Var = 2/n for ReLU) is not in the ML/ folder; ResNet paper (He 2016) mentions it only as prior work **[unverified]**. Do not cite it from these sources.
+- He initialization (Var = 2/n for ReLU) is not in the papers/ML/ folder; ResNet paper (He 2016) mentions it only as prior work **[unverified]**. Do not cite it from these sources.
 - SIREN uses its own init U(-sqrt(6/n), sqrt(6/n)) with omega0=30 (source: Sitzmann 2020, §3.2). See [[SIREN]].
 - [[Glorot init (Glorot 2010)]].
 
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4)
-**Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/08_initialization.ipynb`, `01_optimization_problems.md`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/optimization/08_initialization.ipynb`, `01_optimization_problems.md`.
 **Last updated**: 2026-11-06
 
 ---

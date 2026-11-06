@@ -5,7 +5,7 @@ source-ref: "Fong-Spivak 2019, ch. 5"
 authors: ["[[Brendan Fong]]", "[[David I. Spivak]]"]
 year: 2019
 venue: book (Cambridge University Press)
-file: "DSL/Spivak, Fong - Seven Sketches in Compositionality.pdf"
+file: "text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf"
 tags: [category-theory]
 ---
 
@@ -13,7 +13,7 @@ tags: [category-theory]
 
 **Summary**: Props and presentations: free props from signatures, rigs, signal flow graphs and their matrix semantics, a complete equational presentation, monoid objects, and the prop of relations with feedback.
 
-**Authors**: Brendan Fong, David I. Spivak · **Year**: 2019 · **File**: `DSL/Spivak, Fong - Seven Sketches in Compositionality.pdf`
+**Authors**: Brendan Fong, David I. Spivak · **Year**: 2019 · **File**: `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`
 
 ---
 ## Problem

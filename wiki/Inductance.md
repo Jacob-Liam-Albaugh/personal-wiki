@@ -22,8 +22,8 @@ The electric counterpart is [[Electrostatic energy]].
 ## Transmission lines
 Per-unit-length $L'$ of coax, twin lead and parallel plates feeds [[Transmission line]] models: $L'=\mu d/w$ (parallel plate), $L'\simeq\frac{\mu}{2\pi}\ln\frac ba$ (coax), $L'\simeq\frac{\mu_0}{\pi}\cosh^{-1}\frac d{2a}$ (twin lead). With $C'$: $L'C'=\varepsilon\mu$.
 
-**Covered in**: ECE 311 lect_22, lect_23, lect_38 (Electromagnetics/Lectures Slides/lect_22.pdf, Electromagnetics/Lectures Slides/lect_23.pdf, Electromagnetics/Lectures Slides/lect_38.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_22.pdf`, `Electromagnetics/Lectures Slides/lect_23.pdf`, `Electromagnetics/Lectures Slides/lect_38.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_22, lect_23, lect_38 (courses/ECE 311/Lectures Slides/lect_22.pdf, courses/ECE 311/Lectures Slides/lect_23.pdf, courses/ECE 311/Lectures Slides/lect_38.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_22.pdf`, `courses/ECE 311/Lectures Slides/lect_23.pdf`, `courses/ECE 311/Lectures Slides/lect_38.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

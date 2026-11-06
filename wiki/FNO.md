@@ -14,14 +14,14 @@ tags: [operators, ml]
 > $$(R\cdot\mathcal Fv_t)_{k,l}=\sum_jR_{k,l,j}\,(\mathcal Fv_t)_{k,j}$$
 > Only the lowest $k_{\max}$ modes are kept. $R\in\mathbb C^{k_{\max}\times d_v\times d_v}$, with $R(-k)=R^*(k)$ so outputs are real.
 >
-> (source: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, p. 5)
+> (source: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, p. 5)
 
 **Intuition**: a [[Kernel integral operator]] with a translation-invariant kernel $\kappa(x-y)$ is a convolution, which is diagonal in Fourier space. Learn the diagonal directly and truncate it. The local term $W$ restores high frequencies and non-periodic boundary behaviour (p. 9).
 
 ## Practicalities
 - With the FFT the cost is $O(n\log n)$; the FFT needs a uniform grid.
 - Defaults: $k_{\max}=16$ in 1-D, $12$ in 2-D; 4 Fourier layers.
-- Hyperparameters in the review's notation: width $d_c$, cutoff $k_{\max}$, depth $L$ (source: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, §3.3, pp. 8-9).
+- Hyperparameters in the review's notation: width $d_c$, cutoff $k_{\max}$, depth $L$ (source: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, §3.3, pp. 8-9).
 - Universality follows from the averaging-operator result, because the zero mode makes a constant kernel available (review Cor. 4.6, p. 15). See [[Universal approximation for operators]].
 
 ## Benchmarks (relative $L^2$ error)
@@ -44,7 +44,7 @@ The JMLR Burgers numbers are about 8× lower than the ICLR ones. The JMLR run dr
 - [[Operator learning review (Kovachki 2024)]]: a nonlinear-manifold architecture.
 - Assigned reading and Burgers JAX tutorial link in [[Operator learning]] (source: `hup/op/01_reading.md`, `03_fno.ipynb`). Translation-equivariant convolution in Fourier space, compared with group symmetries in [[Equivariance]].
 
-**Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
+**Sources**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
 ---

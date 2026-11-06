@@ -10,7 +10,7 @@ tags: [pde, operators]
 
 **Summary**: incompressible Navier-Stokes on the unit torus, in vorticity form. In operator learning the benchmark map is the vorticity on $[0,10]$ to the vorticity on $(10,T]$.
 
-**Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
+**Sources**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -7,14 +7,14 @@ tags: [ift, bayesian, physics-informed, inverse-problems, sampling]
 authors: ["[[Alex Alberts]]", "[[Ilias Bilionis]]"]
 year: 2023
 venue: "Journal of Computational Physics 486, 112100"
-file: "IFT/Bilionis, Alberts - IFT.pdf"
+file: "papers/IFT/Bilionis, Alberts - IFT.pdf"
 ---
 
 # Physics-informed information field theory (Alberts 2023)
 
 **Summary**: The paper builds a Bayesian prior over fields directly from a physical energy functional, $p(\phi) \propto e^{-\beta U[\phi]}$, using the language of [[Information field theory]]. Forward problems, inverse problems (unknown physics parameters, source terms and trust $\beta$) are solved by sampling with [[SGLD]] and a nested variant for the marginal posterior over hyperparameters. The authors show that a classical [[PINN]] is the MAP estimate of this posterior and that [[PINN]] agrees with it only under restrictive conditions.
 
-**Authors**: Alex Alberts, Ilias Bilionis · **Year**: 2023 · **File**: `IFT/Bilionis, Alberts - IFT.pdf`
+**Authors**: Alex Alberts, Ilias Bilionis · **Year**: 2023 · **File**: `papers/IFT/Bilionis, Alberts - IFT.pdf`
 
 ---
 
@@ -149,7 +149,7 @@ Wiki note: the published values for the noise in Examples 2 and 4 (both printed 
 - Alberts and Bilionis authored this; the same nested SGLD is reused for thermal conductivity identification in [[IFT thermal conductivity (Alberts 2026)]], with $\beta=1000$ fixed and a log-GP prior on $k(u)$.
 - SGLD itself follows [[SGLD (Welling 2011)]]; see [[SGLD]] and [[SG-MCMC]].
 - The Gibbs-type prior $e^{-\beta U}$ plays the role of a prior over fields that a [[Generative priors for turbulence (Wang 2026)]] style learned generative prior replaces with a data-driven $p_\theta(x)$. Both then condition on observations through $p(x|y)\propto p(x)p(y|x)$. Wiki note: this is a structural analogy drawn by the wiki, not a claim in either paper.
-- Wiki note: a Finder alias named "Physics Informed Information Field Theory" exists in `Bayesian/` and `Physics Informed Architectures/`; it is likely this paper (alias not opened).
+- Wiki note: a Finder alias named "Physics Informed Information Field Theory" exists in `papers/Bayesian/` and `papers/Physics Informed Architectures/`; it is likely this paper (alias not opened).
 - The paper cites the follow-up on well-posedness and the choice of $\beta$ (Alberts, Bilionis, arXiv:2401.14224, cited in [[IFT thermal conductivity (Alberts 2026)]], not read here).
 - Code: github PredictiveScienceLab/pift-paper-2023 (as cited in the paper).
 
@@ -158,7 +158,7 @@ Wiki note: the published values for the noise in Examples 2 and 4 (both printed 
 **Cited by in this wiki**: [[IFT thermal conductivity (Alberts 2026)]]
 %% refs:end %%
 
-**Sources**: `IFT/Bilionis, Alberts - IFT.pdf`.
+**Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`.
 **Last updated**: 2026-11-06
 
 ---

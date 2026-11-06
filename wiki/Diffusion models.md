@@ -15,7 +15,7 @@ tags: [diffusion, generative, sampling]
 > $$dx=\big[f-g^2\nabla_x\log p_t(x)\big]dt+g\,d\bar w$$
 > The score $\nabla_x\log p_t$ is replaced by a network $s_\theta(x,t)$ trained by [[Score matching#Denoising score matching|denoising score matching]].
 >
-> (source: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, pp. 3-4)
+> (source: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, pp. 3-4)
 
 **Intuition**: noise the data slowly until nothing is left but a Gaussian. Then run the movie backwards. Reversal needs only the score of every intermediate marginal.
 
@@ -67,7 +67,7 @@ Conditional sampling can be sharpened at the cost of diversity:
 - [[DDPM (Ho 2020)]], [[DDIM (Song 2021)]], [[Classifier-free guidance (Ho 2022)]].
 - [[Step-by-step diffusion (Nakkiran 2025)]]: an elementary derivation, with the reverse SDE and PF-ODE as limits (Fig. 5.1, p. 50).
 
-**Sources**: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
+**Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
 **Last updated**: 2026-11-06
 
 ---

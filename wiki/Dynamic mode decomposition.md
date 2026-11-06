@@ -69,7 +69,7 @@ $$
 **Wiki note**: the text writes $b=(\Lambda W)^{-1}\tilde x_1$; dimensionally and by the eigen-relation it should be $(W\Lambda)^{-1}\tilde x_1$ as in the algorithm list. The text also says data after step 100 are unused, but the notebook uses 140 snapshots.
 
 **Covered in**: ASML book dynamics (ME 697 DMD); homework 7
-**Sources**: `advanced-scientific-machine-learning/book/dynamics/`, `advanced-scientific-machine-learning/book/dynamics/00_intro.md`, `dynamics/04_dmd.ipynb`, `dynamics/05_dmd_example.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/dynamics/`, `courses/ME 697/advanced-scientific-machine-learning/book/dynamics/00_intro.md`, `dynamics/04_dmd.ipynb`, `dynamics/05_dmd_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

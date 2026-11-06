@@ -7,14 +7,14 @@ tags: [ml, generative]
 authors: ["[[Ashish Vaswani]]", "[[Noam Shazeer]]", "[[Niki Parmar]]", "[[Jakob Uszkoreit]]", "[[Llion Jones]]", "[[Aidan N. Gomez]]", "[[Łukasz Kaiser]]", "[[Illia Polosukhin]]"]
 year: 2017
 venue: "NIPS 2017; arXiv:1706.03762v7"
-file: "LLMs/LLMs - Attention is All You Need.pdf"
+file: "papers/LLMs/LLMs - Attention is All You Need.pdf"
 ---
 
 # Attention is all you need (Vaswani 2017)
 
 **Summary**: Introduces the Transformer, a sequence-to-sequence architecture built only from attention and position-wise feed-forward layers, with no recurrence or convolution. It trains faster and in parallel, and set new translation records.
 
-**Authors**: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin (equal contribution) · **Year**: 2017 · **File**: `LLMs/LLMs - Attention is All You Need.pdf`
+**Authors**: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin (equal contribution) · **Year**: 2017 · **File**: `papers/LLMs/LLMs - Attention is All You Need.pdf`
 
 ---
 

@@ -6,14 +6,14 @@ source-ref: "Li, Lecture 12, Construction of BM and its properties, Thm 1.1, 1.5
 tags: [uq, gp]
 authors: ["[[Tiejun Li]]"]
 venue: "Lecture notes (Lecture 12), School of Mathematical Sciences, Peking University; year not stated in the PDF"
-file: "Stochastic Methods/Li - Construction of Brownian Motion.pdf"
+file: "papers/Stochastic Methods/Li - Construction of Brownian Motion.pdf"
 ---
 
 # Brownian motion construction (Li n.d.)
 
 **Summary**: Lecture notes that build the [[Wiener process]] in three ways (invariance principle, [[Karhunen-Loève expansion]], Haar basis) and then prove its basic path properties: scaling, quadratic variation $t$, infinite total variation, Hölder exponent below one half, and the law of the iterated logarithm.
 
-**Authors**: Tiejun Li · **Year**: not stated · **File**: `Stochastic Methods/Li - Construction of Brownian Motion.pdf`
+**Authors**: Tiejun Li · **Year**: not stated · **File**: `papers/Stochastic Methods/Li - Construction of Brownian Motion.pdf`
 
 ---
 
@@ -75,7 +75,7 @@ Proofs of the invariance principle and of Thm 2.4 at $\alpha=\tfrac12$ are skipp
 - Brownian increments drive SDEs: see [[Langevin dynamics]] and [[Wiener-Askey chaos (Xiu 2002)]].
 - The Haar system is the simplest [[Wavelet transform]] basis.
 
-**Sources**: `Stochastic Methods/Li - Construction of Brownian Motion.pdf`.
+**Sources**: `papers/Stochastic Methods/Li - Construction of Brownian Motion.pdf`.
 **Last updated**: 2026-11-06
 
 ---

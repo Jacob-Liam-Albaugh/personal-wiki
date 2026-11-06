@@ -87,8 +87,8 @@ $$-x = \overline{x} + 1$$
 
 The first lecture also motivated digital design with a Dance Dance Revolution scoring circuit (four XOR-like pad comparisons combined with AND; Gasser, Lu, Koh, IEEE FIE 2010) and Moore's law (storage cost fell to about one billionth from 1970 to 2022). (source: 08_22.pdf, p. 4-18)
 
-**Covered in**: ECE 270 08_22, 10_26, 10_31 (ECE 27000/week 01/08_22.pdf, ECE 27000/week 10/10_26.pdf, ECE 27000/week 11/10_31.pdf); the course follows Wakerly, *Digital Design Principles and Practices*, 5th ed.
-**Sources**: `ECE 27000/week 01/08_22.pdf`, `ECE 27000/week 10/10_26.pdf`, `ECE 27000/week 11/10_31.pdf`.
+**Covered in**: ECE 270 08_22, 10_26, 10_31 (courses/ECE 270/week 01/08_22.pdf, courses/ECE 270/week 10/10_26.pdf, courses/ECE 270/week 11/10_31.pdf); the course follows Wakerly, *Digital Design Principles and Practices*, 5th ed.
+**Sources**: `courses/ECE 270/week 01/08_22.pdf`, `courses/ECE 270/week 10/10_26.pdf`, `courses/ECE 270/week 11/10_31.pdf`.
 **Last updated**: 2026-11-06
 
 ---

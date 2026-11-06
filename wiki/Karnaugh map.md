@@ -39,8 +39,8 @@ The same function written in [[Verilog]] as a sum-of-products `assign` and as a 
 - A minimal sum of products can still contain a static-1 hazard; adding the consensus term, the group covering two adjacent groups, fixes it. See [[Hazards]]. (source: 09_12.pdf, p. 5-6)
 - Wiki note: the slides show only up to four variables.
 
-**Covered in**: ECE 270 09_07 (Circuit analysis and Karnaugh maps), 09_12, 09_19 (ECE 27000/week 03/09_07.pdf, week 04/09_12.pdf, week 05/09_19.pdf)
-**Sources**: `ECE 27000/week 03/09_07.pdf`, `ECE 27000/week 04/09_12.pdf`, `ECE 27000/week 05/09_19.pdf`.
+**Covered in**: ECE 270 09_07 (Circuit analysis and Karnaugh maps), 09_12, 09_19 (courses/ECE 270/week 03/09_07.pdf, week 04/09_12.pdf, week 05/09_19.pdf)
+**Sources**: `courses/ECE 270/week 03/09_07.pdf`, `courses/ECE 270/week 04/09_12.pdf`, `courses/ECE 270/week 05/09_19.pdf`.
 **Last updated**: 2026-11-06
 
 ---

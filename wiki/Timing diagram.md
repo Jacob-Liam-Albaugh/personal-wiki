@@ -29,8 +29,8 @@ tags: [digital-logic]
 ## Simulation waveforms
 - Verilog test benches produce waveforms such as Fig. 5-4 (prime detector, 09_19.pdf p. 30) and Fig. 12-3 (state machine simulation, 10_24.pdf p. 9). See [[Verilog]].
 
-**Covered in**: ECE 270 08_22, 08_29, 09_07, 09_12, 09_19, 09_28, 10_03, 10_05, 10_24 (ECE 27000/week 01/08_22.pdf, week 02/08_29.pdf, week 03/09_07.pdf, week 04/09_12.pdf, week 05/09_19.pdf, week 06/09_28(2).pdf, week 07/10_03.pdf, week 07/10_05.pdf, week 10/10_24.pdf)
-**Sources**: `ECE 27000/week 01/08_22.pdf`, `ECE 27000/week 02/08_29.pdf`, `ECE 27000/week 03/09_07.pdf`, `ECE 27000/week 04/09_12.pdf`, `ECE 27000/week 05/09_19.pdf`, `ECE 27000/week 06/09_28(2).pdf`, `ECE 27000/week 07/10_03.pdf`, `ECE 27000/week 07/10_05.pdf`, `ECE 27000/week 10/10_24.pdf`.
+**Covered in**: ECE 270 08_22, 08_29, 09_07, 09_12, 09_19, 09_28, 10_03, 10_05, 10_24 (courses/ECE 270/week 01/08_22.pdf, week 02/08_29.pdf, week 03/09_07.pdf, week 04/09_12.pdf, week 05/09_19.pdf, week 06/09_28(2).pdf, week 07/10_03.pdf, week 07/10_05.pdf, week 10/10_24.pdf)
+**Sources**: `courses/ECE 270/week 01/08_22.pdf`, `courses/ECE 270/week 02/08_29.pdf`, `courses/ECE 270/week 03/09_07.pdf`, `courses/ECE 270/week 04/09_12.pdf`, `courses/ECE 270/week 05/09_19.pdf`, `courses/ECE 270/week 06/09_28(2).pdf`, `courses/ECE 270/week 07/10_03.pdf`, `courses/ECE 270/week 07/10_05.pdf`, `courses/ECE 270/week 10/10_24.pdf`.
 **Last updated**: 2026-11-06
 
 ---

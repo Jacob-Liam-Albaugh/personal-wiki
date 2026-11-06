@@ -92,7 +92,7 @@ It is easier to design a good (not ideal) digital low-pass than an analog one, s
 Rational resampling by $L/D$ chains upsample by $L$, filter, filter, downsample by $D$; the two filters merge into one with gain $L$ and cutoff $\min(\pi/D,\pi/L)$. Uses: frame-rate or pixel-rate conversion, e.g. European video (625 lines, 25 fps) versus USA video (525 lines, 30 fps), and clock skew, though it is inefficient for large factors such as $L=1000$, $D=100$ (source: Topic DSP.4.B, p. 8).
 
 **Covered in**: ECE 438 DSP.4.A, DSP.4.B, L15-L18 (Topic DSP.4.A Sampling CT; Topic DSP.4.B Sampling DT; L15 Feb 19, L16 Feb 21, L17 Feb 24, L18 Feb 26, 2025 front pages)
-**Sources**: `Digital Signal Processing/Topic DSP.4.A Sampling CT.pdf`, `Digital Signal Processing/Topic DSP.4.B Sampling DT.pdf`, `Digital Signal Processing/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf`, `Digital Signal Processing/front page/L15 Feb 19, 2025.pdf`, `Digital Signal Processing/front page/L16 Feb 21, 2025.pdf`, `Digital Signal Processing/front page/L17 Feb 24, 2025.pdf`, `Digital Signal Processing/front page/L18 Feb 26, 2025.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.4.A Sampling CT.pdf`, `courses/ECE 438/Topic DSP.4.B Sampling DT.pdf`, `courses/ECE 438/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf`, `courses/ECE 438/front page/L15 Feb 19, 2025.pdf`, `courses/ECE 438/front page/L16 Feb 21, 2025.pdf`, `courses/ECE 438/front page/L17 Feb 24, 2025.pdf`, `courses/ECE 438/front page/L18 Feb 26, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

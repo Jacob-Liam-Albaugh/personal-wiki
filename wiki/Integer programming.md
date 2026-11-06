@@ -30,7 +30,7 @@ tags: [optimization]
 - [[BT ch11 - Integer programming]]: algorithms and theory.
 - [[BT ch6 - Large scale optimization]]: column generation and cutting plane tools reused here.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 10-11).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 10-11).
 **Last updated**: 2026-11-06
 
 ---

@@ -36,7 +36,7 @@ This wiki writes SGLD as Welling-Teh do: drift $\frac\epsilon2\nabla\log p$, noi
 - [[SGLD (Welling 2011)]] (introduces it) · [[Cyclical SG-MCMC (Zhang 2020)]] · [[Low-precision SGLD (Zhang 2022)]] · the two IFT papers above · [[Diffusion posterior sampling]] (D-Flow SGLD, cited).
 - [[Euler-Maruyama method]] is the same discretization as the SGLD update with a gradient drift (Wiki note; the book does not state the connection) (source: sinverse/sodes).
 
-**Sources**: `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`, `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
+**Sources**: `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`, `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
 **Last updated**: 2026-11-06
 
 ---

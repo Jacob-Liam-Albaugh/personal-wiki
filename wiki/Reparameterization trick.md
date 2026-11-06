@@ -13,7 +13,7 @@ tags: [vi, ml]
 > $$\mathbb E_{q_\phi}[f(z)]=\mathbb E_{p(\epsilon)}[f(g_\phi(\epsilon,x))]\approx\tfrac1L\textstyle\sum_l f(g_\phi(\epsilon^{(l)},x)),$$
 > which is differentiable in $\phi$.
 >
-> (source: `Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, eqs. 4-5)
+> (source: `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, eqs. 4-5)
 
 **Intuition**: move the randomness into a fixed noise variable so the gradient passes through the sample. The alternative score-function estimator $\mathbb E_q[f\,\nabla\log q]$ is unbiased but has high variance (AEVB p. 3).
 
@@ -33,7 +33,7 @@ tags: [vi, ml]
 - Written as $x=g_\phi(\epsilon)=\mu+L\epsilon$ for the full-rank Gaussian guide, giving a sample-average ELBO gradient. (source: `inverse/vi/01_basics.md`; [[Variational inference]])
 
 **Covered in**: ASML book inverse/vi (ME 697 4.3)
-**Sources**: `Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
+**Sources**: `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06
 
 ---

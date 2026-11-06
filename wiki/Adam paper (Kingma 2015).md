@@ -7,14 +7,14 @@ tags: [optimization, ml]
 authors: ["[[Diederik P. Kingma]]", "[[Jimmy Lei Ba]]"]
 year: 2015
 venue: "ICLR 2015 (arXiv 1412.6980v9)"
-file: "ML/Kingma, Lei Ba - Adam.pdf"
+file: "papers/ML/Kingma, Lei Ba - Adam.pdf"
 ---
 
 # Adam paper (Kingma 2015)
 
 **Summary**: Adam keeps exponential moving averages of the gradient and of the squared gradient, corrects both for their zero initialization, and divides one by the root of the other. It gives per-parameter step sizes bounded by the step-size hyperparameter, comes with an $O(\sqrt T)$ regret bound for online convex problems, and works well on logistic regression, MLPs and CNNs.
 
-**Authors**: Diederik P. Kingma, Jimmy Lei Ba · **Year**: 2015 · **File**: `ML/Kingma, Lei Ba - Adam.pdf`
+**Authors**: Diederik P. Kingma, Jimmy Lei Ba · **Year**: 2015 · **File**: `papers/ML/Kingma, Lei Ba - Adam.pdf`
 
 ---
 
@@ -92,11 +92,11 @@ Wiki note: the regret proof is the paper's only theory; this page has not checke
 - The diagonal preconditioner idea is shared with preconditioned [[SGLD]] and Riemannian samplers ([[Riemannian manifold HMC]]).
 
 %% refs:start %%
-**Cites in this wiki**: [[VAE paper (Kingma 2014)]]
+**Cites in this wiki**: [[Init and momentum (Sutskever 2013)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]], [[Amortized VI when and why (Margossian 2024)]], [[Attention is all you need (Vaswani 2017)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[DDPM (Ho 2020)]], [[Deep Sets paper (Zaheer 2017)]], [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[HNNs (Greydanus 2019)]], [[IFT thermal conductivity (Alberts 2026)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[Respecting causality (Wang 2022)]], [[SINDy autoencoders (Champion 2019)]], [[Spectral bias (Rahaman 2019)]], [[Symbolic models from deep learning (Cranmer 2020)]], [[Variational dropout (Kingma 2015)]], [[Variational graph auto-encoder (Kipf 2016)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
-**Sources**: `ML/Kingma, Lei Ba - Adam.pdf`.
+**Sources**: `papers/ML/Kingma, Lei Ba - Adam.pdf`.
 **Last updated**: 2026-11-06
 
 ---

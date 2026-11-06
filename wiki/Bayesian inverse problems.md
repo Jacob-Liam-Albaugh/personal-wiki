@@ -16,7 +16,7 @@ tags: [bayesian, inverse-problems]
 - Prior view of regularization: an L1 penalty is the negative log posterior under a Laplace prior, see [[LASSO]]. (source: `inverse/data/01_lasso.ipynb`)
 
 **Covered in**: ASML book inverse/basics (ME 697 4.1); ASML book inverse/pdes (ME 697 4.6)
-**Sources**: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, `advanced-scientific-machine-learning/book/inverse/intro.md`, `inverse/basics/intro.md`, `01_classic_formulation.md`, `02_classic_example.ipynb`, `03_bayesian_formulation.md`, `04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`, `advanced-scientific-machine-learning/book/inverse/pdes/intro.md`, `01_reading.md`, `02_thermal.ipynb`, `03_contamination.ipynb`.
+**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, `courses/ME 697/advanced-scientific-machine-learning/book/inverse/intro.md`, `inverse/basics/intro.md`, `01_classic_formulation.md`, `02_classic_example.ipynb`, `03_bayesian_formulation.md`, `04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`, `courses/ME 697/advanced-scientific-machine-learning/book/inverse/pdes/intro.md`, `01_reading.md`, `02_thermal.ipynb`, `03_contamination.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

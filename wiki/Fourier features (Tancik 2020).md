@@ -7,14 +7,14 @@ tags: [ml, signals, gp]
 authors: ["[[Matthew Tancik]]", "[[Pratul P. Srinivasan]]", "[[Ben Mildenhall]]", "[[Sara Fridovich-Keil]]", "[[Nithin Raghavan]]", "[[Utkarsh Singhal]]", "[[Ravi Ramamoorthi]]", "[[Jonathan T. Barron]]", "[[Ren Ng]]"]
 year: 2020
 venue: "NeurIPS 2020 (arXiv:2006.10739v1)"
-file: "ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf"
+file: "papers/ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf"
 ---
 
 # Fourier features (Tancik 2020)
 
 **Summary**: A coordinate-based MLP struggles to fit high frequencies because its neural tangent kernel (NTK) has a rapidly decaying spectrum. Passing the input through a sinusoidal map $\gamma(v)$ makes the composed NTK stationary with a tunable bandwidth. Random Gaussian frequencies, with the scale tuned, beat both no mapping and the NeRF-style positional encoding.
 
-**Authors**: Matthew Tancik, Pratul P. Srinivasan, Ben Mildenhall, Sara Fridovich-Keil, Nithin Raghavan, Utkarsh Singhal, Ravi Ramamoorthi, Jonathan T. Barron, Ren Ng · **Year**: 2020 · **File**: `ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf` (the file name misspells the first author)
+**Authors**: Matthew Tancik, Pratul P. Srinivasan, Ben Mildenhall, Sara Fridovich-Keil, Nithin Raghavan, Utkarsh Singhal, Ravi Ramamoorthi, Jonathan T. Barron, Ren Ng · **Year**: 2020 · **File**: `papers/ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf` (the file name misspells the first author)
 
 ---
 
@@ -67,7 +67,7 @@ The MLP then sees $\gamma(v)$, so the effective kernel is $h_{\mathrm{NTK}}\circ
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[NIF (Pan 2023)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
-**Sources**: `ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf`.
+**Sources**: `papers/ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf`.
 **Last updated**: 2026-11-06
 
 ---

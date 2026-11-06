@@ -15,7 +15,7 @@ Welling & Teh weight samples by step size instead (see [[SGLD]]).
 - [[Cyclical SG-MCMC (Zhang 2020)]] — ensemble across cycles.
 - [[Low-precision SGLD (Zhang 2022)]] — test-time prediction (p. 7).
 
-**Sources**: `IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`, `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`, `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
 ---

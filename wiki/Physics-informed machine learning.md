@@ -38,7 +38,7 @@ They can be mixed. Details: [[Physics-informed ML review (Karniadakis 2021)]].
 - Neural networks can be read as kernel methods with a learned kernel ([[Kernel methods]]).
 - Wiki note: the same split (exact structure versus soft penalty) recurs in operator learning ([[Operator learning]]) and [[Equivariance]].
 
-**Sources**: `Physics Informed Architectures/Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf`.
 **Last updated**: 2026-11-06
 
 ---

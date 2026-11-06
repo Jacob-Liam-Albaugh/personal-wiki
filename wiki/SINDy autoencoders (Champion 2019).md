@@ -7,14 +7,14 @@ tags: [physics-informed, ml, optimization]
 authors: ["[[Kathleen Champion]]", "[[Bethany Lusch]]", "[[J. Nathan Kutz]]", "[[Steven L. Brunton]]"]
 year: 2019
 venue: "PNAS (arXiv 1904.02107)"
-file: "Physics Informed Architectures/Brunton, Champion, Lusch, Kutz - SINDy - Data-Driven Discovery of Coordinates and Governing Equations.pdf"
+file: "papers/Physics Informed Architectures/Brunton, Champion, Lusch, Kutz - SINDy - Data-Driven Discovery of Coordinates and Governing Equations.pdf"
 ---
 
 # Data-driven discovery of coordinates and governing equations (Champion 2019)
 
 **Summary**: Trains an autoencoder and a [[SINDy]] model jointly, so the latent coordinates $z=\phi(x)$ are ones in which the dynamics are sparse in a chosen function library. Demonstrated on a 128-dimensional field built from the Lorenz system, a reaction-diffusion spiral wave, and a video of a nonlinear pendulum.
 
-**Authors**: Kathleen Champion, Bethany Lusch, J. Nathan Kutz, Steven L. Brunton · **Year**: 2019 · **File**: `Physics Informed Architectures/Brunton, Champion, Lusch, Kutz - SINDy - Data-Driven Discovery of Coordinates and Governing Equations.pdf`
+**Authors**: Kathleen Champion, Bethany Lusch, J. Nathan Kutz, Steven L. Brunton · **Year**: 2019 · **File**: `papers/Physics Informed Architectures/Brunton, Champion, Lusch, Kutz - SINDy - Data-Driven Discovery of Coordinates and Governing Equations.pdf`
 
 ---
 
@@ -61,7 +61,7 @@ Stated (§5, pp. 10-11): needs clean, nearly noise-free data because derivatives
 **Cited by in this wiki**: [[Energy-based kernels for viscoelastic flow (Otto 2024)]], [[NIF (Pan 2023)]], [[PySR (Cranmer 2023)]], [[SINDy delay autoencoders (Bakarji 2022)]]
 %% refs:end %%
 
-**Sources**: `Physics Informed Architectures/Brunton, Champion, Lusch, Kutz - SINDy - Data-Driven Discovery of Coordinates and Governing Equations.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Brunton, Champion, Lusch, Kutz - SINDy - Data-Driven Discovery of Coordinates and Governing Equations.pdf`.
 **Last updated**: 2026-11-06
 
 ---

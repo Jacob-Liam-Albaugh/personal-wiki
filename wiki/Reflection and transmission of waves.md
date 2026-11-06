@@ -40,8 +40,8 @@ Spacing between nodes (or between anti-nodes) is $\Delta z=\lambda/2$. The phase
 
 Same algebra on a [[Transmission line]].
 
-**Covered in**: ECE 311 lect_36, lect_37 (Electromagnetics/Lectures Slides/lect_36.pdf, Electromagnetics/Lectures Slides/lect_37.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_36.pdf`, `Electromagnetics/Lectures Slides/lect_37.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_36, lect_37 (courses/ECE 311/Lectures Slides/lect_36.pdf, courses/ECE 311/Lectures Slides/lect_37.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_36.pdf`, `courses/ECE 311/Lectures Slides/lect_37.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

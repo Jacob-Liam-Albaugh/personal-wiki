@@ -31,7 +31,7 @@ tags: [optimization]
 ## Duality
 - Basu derives LP strong duality from the valid-inequality theorem (Farkas) and treats the LP dual as a case of conic duality (source: Basu 2018, Thm 2.85, p. 35; ch. 4 pp. 80-84).
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (ch. 1-2, 8-9, 12); `Linear Optimization/BJS full book.pdf` (ch. 1).
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 1-2, 8-9, 12); `text_books/Linear Optimization/BJS full book.pdf` (ch. 1).
 **Last updated**: 2026-11-06
 
 ---

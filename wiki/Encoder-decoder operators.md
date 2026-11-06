@@ -9,7 +9,7 @@ tags: [operators, ml]
 
 **Summary**: approximate $\Psi^\dagger:\mathcal U\to\mathcal V$ by encoding the input to $\mathbb R^{d_U}$, mapping with a finite-dimensional network, and decoding to $\mathcal V$. PCA-Net and DeepONet are the main examples.
 
-**Sources**: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
+**Sources**: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
 ---

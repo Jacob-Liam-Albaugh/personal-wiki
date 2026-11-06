@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch3 - The simplex method
 
 **Summary**: Develops the simplex method for the standard form $\min\mathbf c\mathbf x$ s.t. $\mathbf A\mathbf x=\mathbf b$, $\mathbf x\ge\mathbf0$: extreme points and basic feasible solutions, the optimality test based on reduced costs, the entering and leaving rules, termination by optimality or unboundedness, finite convergence without degeneracy, and the tableau implementation. See [[Simplex method]], [[Basic feasible solution]], [[Linear programming]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 91-150). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 91-150). Cites use printed pages; pdf = printed + 16.
 
 Notation: the book writes the current right-hand side with a bar; this page writes it $\hat b_i$ and the column $\mathbf y_j=\mathbf B^{-1}\mathbf a_j$. The book's coefficients are $z_j-c_j$ (reduced cost is $c_j-z_j$).
 
@@ -70,7 +70,7 @@ A heading appears at pdf 150 (printed 134); the section was not read.
 - Wiki note: BT develop the same algorithm in [[BT ch3 - The simplex method]], with reduced cost written $c_j-\mathbf c_B'\mathbf B^{-1}\mathbf A_j$ and the entering rule "reduced cost negative", which is the same condition as $z_j-c_j>0$ here. BT's Theorems 3.1-3.3 play the roles of 3.1-3.4 above.
 - Wiki note: the optimality certificate $\mathbf w=\mathbf c_B\mathbf B^{-1}$ is a dual solution, developed in [[BJS ch6 - Duality and sensitivity analysis]] and [[LP duality]].
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 107-166, printed pp. 91-150). Pages viewed as images: pdf 118 (printed 102), 130 (printed 114), 138 (printed 122). Everything else read from the text layer, whose math is garbled, so those parts are described and not transcribed.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 107-166, printed pp. 91-150). Pages viewed as images: pdf 118 (printed 102), 130 (printed 114), 138 (printed 122). Everything else read from the text layer, whose math is garbled, so those parts are described and not transcribed.
 **Last updated**: 2026-11-06
 
 ---

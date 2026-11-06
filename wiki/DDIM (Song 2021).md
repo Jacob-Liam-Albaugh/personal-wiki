@@ -7,14 +7,14 @@ tags: [diffusion, generative, sampling]
 authors: ["[[Jiaming Song]]", "[[Chenlin Meng]]", "[[Stefano Ermon]]"]
 year: 2021
 venue: "ICLR 2021 (arXiv:2010.02502v4)"
-file: "Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf"
+file: "papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf"
 ---
 
 # Denoising Diffusion Implicit Models (Song 2021)
 
 **Summary**: Generalises DDPM's Markovian forward process to a family of non-Markovian processes with the same marginals $q(x_t|x_0)$, indexed by a variance vector $\sigma$. All members share the DDPM training objective up to weights (Theorem 1), so a pretrained DDPM can be reused with a different sampler. The $\sigma=0$ member (DDIM) is deterministic, can skip steps via a sub-sequence $\tau$, and gives 10x to 50x faster sampling at modest quality loss, plus latent interpolation and near-exact reconstruction.
 
-**Authors**: Jiaming Song, Chenlin Meng, Stefano Ermon (Stanford) · **Year**: 2021 · **File**: `Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`
+**Authors**: Jiaming Song, Chenlin Meng, Stefano Ermon (Stanford) · **Year**: 2021 · **File**: `papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`
 
 ---
 
@@ -165,7 +165,7 @@ Wiki notes:
 **Cites in this wiki**: [[DDPM (Ho 2020)]], [[Score SDE (Song 2021)]]
 %% refs:end %%
 
-**Sources**: `Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.
+**Sources**: `papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.
 **Last updated**: 2026-11-06
 
 ---

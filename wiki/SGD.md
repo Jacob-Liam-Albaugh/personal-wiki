@@ -28,7 +28,7 @@ With a constant $\alpha$ the iterates keep wandering around the optimum (book, 0
 > Equinox model $\theta_0+\theta_1x+\theta_2x^2$ trained by minibatch SGD; constant-rate iterates wiggle around the least-squares fit.
 
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4)
-**Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/05_sgd.ipynb`, `01_optimization_problems.md`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/ml-software/optimization/05_sgd.ipynb`, `01_optimization_problems.md`.
 **Last updated**: 2026-11-06
 
 ---

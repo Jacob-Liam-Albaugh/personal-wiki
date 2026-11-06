@@ -47,7 +47,7 @@ Python example (source: Topic DSP.3.C Python Examples Spectral Leakage Feb 6, 20
 Zero padding therefore reveals the leakage rather than fixing it; there are ways to accommodate it by choosing other windows.
 
 **Covered in**: ECE 438 DSP.3.C (Topic DSP.3.C more on DFT; Topic DSP.3.C Python Examples Spectral Leakage)
-**Sources**: `Digital Signal Processing/Topic DSP.3.C more on DFT Feb 2, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.C Python Examples Spectral Leakage Feb 6, 2025.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.3.C more on DFT Feb 2, 2025.pdf`, `courses/ECE 438/Topic DSP.3.C Python Examples Spectral Leakage Feb 6, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

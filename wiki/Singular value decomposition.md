@@ -29,10 +29,10 @@ $$\mathbf X_k=\sum_{i=1}^k\sigma_i\mathbf u_i\mathbf v_i^T$$
 Image compression and PCA ([[Principal component analysis]]), dimension reduction of PDE outputs, [[Dynamic mode decomposition]], [[PCA-Net]].
 
 ## Related / image transforms
-- Appears next to the separable 2D transforms in [[Image transforms]] and [[Image transforms]]. **[unverified]** whether the lecture names the SVD; link is by topic. (source: Digital Signal Processing/Topic IP.5 image transforms and wavelets Apr 14, 2025.pdf)
+- Appears next to the separable 2D transforms in [[Image transforms]] and [[Image transforms]]. **[unverified]** whether the lecture names the SVD; link is by topic. (source: courses/ECE 438/Topic IP.5 image transforms and wavelets Apr 14, 2025.pdf)
 
 **Covered in**: ASML book hup/funcin (ME 697 3.1)
-**Sources**: `advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb`, `03_pca.ipynb`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb`, `03_pca.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

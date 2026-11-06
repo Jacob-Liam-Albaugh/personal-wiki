@@ -13,7 +13,7 @@ tags: [operators, ml]
 > $$K_\phi(s)=\sum_{n=1}^N\frac{\beta_n}{s-\mu_n}$$
 > Architecture (Fig. 1, pp. 3-4): lift with $P$, apply one Laplace layer plus a local linear map $W$, project with $Q$.
 >
-> (source: `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, p. 5)
+> (source: `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, p. 5)
 
 **Intuition**: an FNO multiplier is a set of numbers on fixed frequencies. A pole-residue kernel is the transfer function of a linear system, so its output has a decaying transient term as well as a steady-state term. The [[Laplace transform]] also carries initial conditions, which the Fourier transform does not.
 
@@ -37,7 +37,7 @@ The first sum is the transient, the second the steady state. The idea comes from
 ## Where it appears
 - [[LNO (Cao 2023)]]: introduces it.
 
-**Sources**: `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
+**Sources**: `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
 ---

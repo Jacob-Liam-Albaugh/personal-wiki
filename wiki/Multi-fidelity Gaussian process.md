@@ -10,7 +10,7 @@ tags: [gp, uq, ml]
 
 **Summary**: A GP model that fuses data from several simulators or experiments of increasing accuracy and cost, learning the expensive function from many cheap runs and few costly ones. This page covers the GP constructions; the general idea is [[Multi-fidelity modeling]].
 
-**Sources**: `Guassian Processes/Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression.pdf`.
+**Sources**: `papers/Guassian Processes/Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression.pdf`.
 **Last updated**: 2026-11-06
 
 ---

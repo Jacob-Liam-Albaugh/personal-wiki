@@ -27,7 +27,7 @@ Wiki note: source-space conditioning has the same shape as PIFT — a prior push
 ## Where it appears
 - [[Generative priors for turbulence (Wang 2026)]].
 
-**Sources**: `IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
+**Sources**: `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
 **Last updated**: 2026-11-06
 
 ---

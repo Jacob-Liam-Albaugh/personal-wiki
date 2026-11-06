@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch9 - Minimal cost network flows
 
 **Summary**: The minimal cost network flow problem and the network simplex algorithm, which performs the simplex operations directly on a graph. A basis is a rooted spanning tree, the basis matrix is triangular with entries $0,\pm1$, so primal and dual solves are tree traversals and optimal flows are integer. See [[Network flow problem]], [[Simplex method]], [[BT ch7 - Network flows]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 453-512). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 453-512). Cites use printed pages; pdf = printed + 16.
 
 ## Overview (p. 453)
 The network simplex algorithm solves problems 200-300 times faster than a standard simplex that ignores structure other than sparsity (p. 453, text). It has worst-case exponential behavior on some transportation problems, though polynomial variants exist, and the methods of this chapter and [[BJS ch11 - The out-of-kilter algorithm]] are "by far the most effective in practice".
@@ -55,7 +55,7 @@ Example 9.1 (p. 475) runs the algorithm. §9.7 finds an initial basic feasible s
 - Wiki note: [[BT ch7 - Network flows]] covers the same network flow problem and its simplex specialization.
 - Wiki note: the transportation and assignment problems are special cases ([[BJS ch10 - Transportation and assignment problems]]), and maximal flow and shortest path are in [[BJS ch12 - Maximal flow shortest path multicommodity flow and network synthesis]].
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 469-528, printed pp. 453-512). Pages viewed as images: pdf 470 (printed 454) and 485 (469). Everything else read from the text layer, which garbles math, and from headings.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 469-528, printed pp. 453-512). Pages viewed as images: pdf 470 (printed 454) and 485 (469). Everything else read from the text layer, which garbles math, and from headings.
 **Last updated**: 2026-11-06
 
 ---

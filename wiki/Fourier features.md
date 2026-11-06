@@ -26,7 +26,7 @@ $$\phi(x) = [\cos(Bx);\ \sin(Bx)].$$
 - Fixes [[Spectral bias]]. Alternative: periodic activations ([[SIREN]]).
 
 **Covered in**: ASML book pinns/basics (ME 697 5.1)
-**Sources**: `ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf`.
+**Sources**: `papers/ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf`.
 **Last updated**: 2026-11-06
 
 ---

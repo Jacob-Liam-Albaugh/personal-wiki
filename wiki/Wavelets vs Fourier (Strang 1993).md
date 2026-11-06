@@ -7,14 +7,14 @@ tags: [signals]
 authors: ["[[Gilbert Strang]]"]
 year: 1993
 venue: "Bulletin of the AMS 28(2), 288-305; arXiv:math/9304214"
-file: "Transforms/Strang - Wavelet Transforms vs Fourier Transforms.pdf"
+file: "papers/Transforms/Strang - Wavelet Transforms vs Fourier Transforms.pdf"
 ---
 
 # Wavelets vs Fourier (Strang 1993)
 
 **Summary**: An elementary introduction to wavelets. It starts from the Haar basis, compares the fast wavelet transform (FWT) with the FFT, builds smoother Daubechies wavelets through the dilation equation, and ends with the compression contest between Fourier-based and wavelet-based standards.
 
-**Authors**: Gilbert Strang · **Year**: 1993 · **File**: `Transforms/Strang - Wavelet Transforms vs Fourier Transforms.pdf`
+**Authors**: Gilbert Strang · **Year**: 1993 · **File**: `papers/Transforms/Strang - Wavelet Transforms vs Fourier Transforms.pdf`
 
 ---
 

@@ -7,14 +7,14 @@ tags: [diffusion, generative, inverse-problems, pde]
 authors: ["[[Jian-Xun Wang]]"]
 year: 2026
 venue: "Physical Review Fluids 11, 090502 (Invited Article)"
-file: "IFT/Wang - Generative priors for spatiotemporal turbulence.pdf"
+file: "papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf"
 ---
 
 # Generative priors for spatiotemporal turbulence (Wang 2026)
 
 **Summary**: A perspective article arguing that diffusion and flow-matching models should be treated as reusable probabilistic priors $p_\theta(x)$ for turbulence rather than as surrogate architectures. A single pretrained prior can generate stochastic flow realizations, be conditioned on sparse or indirect measurements at inference time without retraining, and be scaled to large domains by local (patchwise) composition. The article also proposes six validation criteria. It is a review of the author's group's work; it contains no new experiments.
 
-**Authors**: Jian-Xun Wang (Cornell) · **Year**: 2026 · **File**: `IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`
+**Authors**: Jian-Xun Wang (Cornell) · **Year**: 2026 · **File**: `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`
 
 ---
 
@@ -122,7 +122,7 @@ Wiki note: the article has no quantitative comparison table, so the claims of ad
 - Wiki note: the article's call for "physics-as-architecture" and solver-coupled priors (Sec. VII) is the problem [[IFT thermal conductivity (Alberts 2026)]] addresses from the physics-prior side, with a PDE energy as prior.
 - Related diffusion/score-based references listed in the article: Ho et al. (DDPM) and Song et al. (score SDE) [refs. 13-14]; Lipman et al. (flow matching) [ref. 26].
 
-**Sources**: `IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`.
+**Sources**: `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch8 - Complexity of the simplex algorithm and polynomial-time algorithms
 
 **Summary**: Worst-case versus average-case complexity of the simplex method (an exponential-time example), polynomial complexity classes, Khachian's ellipsoid algorithm (outlined), Karmarkar's projective algorithm in detail, and the affine scaling and primal-dual path-following variants including a predictor-corrector scheme. See [[Ellipsoid method]], [[Interior point method]], [[BT ch8 - Complexity of LP and the ellipsoid method]], [[BT ch9 - Interior point methods]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 393-452). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 393-452). Cites use printed pages; pdf = printed + 16.
 
 ## Overview (p. 393)
 The simplex algorithm is "bad" by worst-case analysis because effort grows exponentially on certain problem classes, while average-case results help explain its practical efficiency. Polynomial-time algorithms exist. Khachian's has failed to be of practical value, so it is relegated to exercises (8.12-8.17), while Karmarkar's concept "is far more promising" and is treated in detail (p. 393, text).
@@ -39,7 +39,7 @@ Text read (p. 433-434, images not seen). The primal-dual path-following method a
 - Wiki note: BT cover the same history in [[BT ch8 - Complexity of LP and the ellipsoid method]] and [[BT ch9 - Interior point methods]]; BJS treat Karmarkar's projective algorithm in detail (§8.4-8.5).
 - Wiki note: these methods are the polynomial-time alternatives to [[Simplex method]]; the Newton step above is that of [[Newton's method]] applied to perturbed KKT conditions ([[KKT conditions]]).
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 409-466, printed pp. 393-452). Pages viewed as images: pdf 417 (printed 401) and 418 (402). The rest read from the text layer, whose math is garbled. Karmarkar's algorithm steps were not read.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 409-466, printed pp. 393-452). Pages viewed as images: pdf 417 (printed 401) and 418 (402). The rest read from the text layer, whose math is garbled. Karmarkar's algorithm steps were not read.
 **Last updated**: 2026-11-06
 
 ---

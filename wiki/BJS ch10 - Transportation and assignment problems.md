@@ -6,14 +6,14 @@ tags: [optimization]
 authors: ["[[Mokhtar S. Bazaraa]]", "[[John J. Jarvis]]", "[[Hanif D. Sherali]]"]
 year: 2010
 venue: "Wiley, Linear Programming and Network Flows, 4th ed. (textbook)"
-file: "Linear Optimization/BJS full book.pdf"
+file: "text_books/Linear Optimization/BJS full book.pdf"
 ---
 
 # BJS ch10 - Transportation and assignment problems
 
 **Summary**: The transportation problem as a network flow LP with a special incidence matrix, the simplex method carried out directly on the transportation tableau (northwest corner start, dual-variable pricing, cycle pivots), and the assignment problem solved by Kuhn's Hungarian algorithm, with brief treatments of an alternating path basis method, a successive shortest path method and the transshipment problem. See [[Network flow problem]], [[Simplex method]], [[BJS ch9 - Minimal cost network flows]].
 
-**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `Linear Optimization/BJS full book.pdf` (printed pp. 513-566). Cites use printed pages; pdf = printed + 16.
+**Authors**: Mokhtar S. Bazaraa, John J. Jarvis, Hanif D. Sherali · **Year**: 2010 · **File**: `text_books/Linear Optimization/BJS full book.pdf` (printed pp. 513-566). Cites use printed pages; pdf = printed + 16.
 
 ## Overview (p. 513)
 Both problems are special cases of network flow problems. Any finite-valued minimum cost network flow problem, capacitated or not, can be transformed into an uncapacitated transportation problem (Exercise 9.27), and any transportation problem can be transformed into an assignment problem (§10.7), though the book calls that computationally inadvisable (p. 513, text). The tableau is used because it is the customary way to present the network simplex algorithm for transportation problems.
@@ -88,7 +88,7 @@ Intermediate points where goods are neither supplied nor required can transship 
 - Wiki note: the dual-variable pricing here, $z_{ij}-c_{ij}=u_i-v_j-c_{ij}$, is the general network simplex rule $z_{ij}-c_{ij}=w_i-w_j-c_{ij}$ of chapter 9 with the transportation incidence matrix.
 - Wiki note: [[BT ch7 - Network flows]] covers the same network flow problem and its simplex specialization.
 
-**Sources**: `Linear Optimization/BJS full book.pdf` (pdf 529-582, printed pp. 513-566). Pages viewed as images: pdf 532 (printed 516), 541 (525), 557 (541). Pdf 556 (540, Theorem 10.1) was read from the text layer. All other content read from the text layer and headings, so the equations transcribed above beyond those pages are from text where noted.
+**Sources**: `text_books/Linear Optimization/BJS full book.pdf` (pdf 529-582, printed pp. 513-566). Pages viewed as images: pdf 532 (printed 516), 541 (525), 557 (541). Pdf 556 (540, Theorem 10.1) was read from the text layer. All other content read from the text layer and headings, so the equations transcribed above beyond those pages are from text where noted.
 **Last updated**: 2026-11-06
 
 ---

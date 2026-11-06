@@ -7,14 +7,14 @@ tags: [diffusion, generative]
 authors: ["[[Preetum Nakkiran]]", "[[Arwen Bradley]]", "[[Hattie Zhou]]", "[[Madhu Advani]]"]
 year: 2025
 venue: "Foundations and Trends in Computer Graphics and Vision, Vol. 17, No. 1, pp. 1-75 (DOI 10.1561/0600000114)"
-file: "Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf"
+file: "papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf"
 ---
 
 # Step-by-Step Diffusion: An Elementary Tutorial (Nakkiran 2025)
 
 **Summary**: A 77-page tutorial that derives diffusion samplers and flow matching with no SDEs, ELBOs, Langevin dynamics or scores in the core argument. A Gaussian forward process reduces generative modelling to per-step regression of conditional means; the stochastic (DDPM-like) sampler is justified by a Bayes-rule/Taylor argument, the deterministic (DDIM-like) sampler by a "pointwise, then average" transport argument, and both are then subsumed by flow matching with pointwise flows. SDE/ODE views, noise schedules, parametrizations and error sources are covered as optional or practical material (Sections 2.4, 3.5, 5). No new experiments beyond one toy spiral figure.
 
-**Authors**: Preetum Nakkiran, Arwen Bradley, Hattie Zhou, Madhu Advani (Apple; Zhou also Mila) · **Year**: 2025 · **File**: `Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`
+**Authors**: Preetum Nakkiran, Arwen Bradley, Hattie Zhou, Madhu Advani (Apple; Zhou also Mila) · **Year**: 2025 · **File**: `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`
 
 Wiki note: year is 2025 because the PDF's own citation line reads "Foundations and Trends in Computer Graphics and Vision: Vol. 17, No. 1, pp 1-75 ... (2025)" (PDF p. 1) and "(c)2025 P. Nakkiran et al." (PDF p. 3). The tutorial circulated earlier as a preprint (arXiv, 2024) **[unverified]**; the wiki slug follows the published year. Page cites below are the tutorial's printed page numbers (PDF page = printed + 2; the PDF has 77 pages, body ends printed p. 51, appendices pp. 53-68, references pp. 70-74).
 
@@ -217,7 +217,7 @@ Wiki notes (not from the paper):
 - Eq. (5.x) text on p. 49 defines $\varepsilon_t=\frac1{\sigma_t}\mathbb E[x_0-x_t\mid x_t]$ and Appendix B.10 (p. 68) writes $\mathbb E[x_0-x_t\mid x_t]\equiv\sigma_t\mathbb E[\varepsilon_t\mid x_t]$ as printed. With the paper's own $x_t=x_0+\sigma_t\varepsilon_t$ (B.10) one has $\varepsilon_t=(x_t-x_0)/\sigma_t$, so the sign appears flipped in print. The $L_2$ losses and time-weights are unaffected. **[unverified: my reading, not an erratum from the authors]**
 - Lemma B.3 (p. 65) states $\mathbb E[x_1\mid x_t]=x_t$ under the diffusion coupling to get $v_t^*=\mathbb E[x_0-x_t\mid x_t]$. Computing directly with $x_s=x_0+s(x_1-x_0)$, $x_1-x_0\sim\mathcal N(0,\sigma_q^2)$ I get $\mathbb E[x_0-x_1\mid x_s]=\tfrac1s\mathbb E[x_0-x_s\mid x_s]$, and the extra $1/s$ is exactly what the time change $s=\sqrt t$ in (B.52) needs ($ds=dt/2\sqrt t$ yields $1/(2t)$ in (3.27)). So Claim 4.1 stands; the printed intermediate line looks like a dropped factor. **[unverified]**
 - Printed lemma numbering: Lemma 2.1 in the body is restated as Lemma B.1 in the appendix (p. 57); equation numbers (2.9)-(2.10) correspond to (B.1)-(B.2).
-- Wiki's folder map in CLAUDE.md has no `Diffusion/` entry; area assigned as `stochastic` with `ml` secondary, matching [[Score SDE (Song 2021)]].
+- Wiki's folder map in CLAUDE.md has no `papers/Diffusion/` entry; area assigned as `stochastic` with `ml` secondary, matching [[Score SDE (Song 2021)]].
 
 ## Connections
 
@@ -228,7 +228,7 @@ Wiki notes (not from the paper):
 - **[[Normalizing flows]]**: DDIM and flow matching define Gaussian-to-data maps like flows and GANs, but the ideal map is fixed by $p^*$ (p. 30).
 - **Within the wiki**: [[Diffusion models]] is the hub; this tutorial supplies the elementary correctness arguments.
 
-**Sources**: `Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
+**Sources**: `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -11,7 +11,7 @@ tags: [sampling, mcmc]
 > $$d\theta=-\nabla U(\theta)\,dt+\sqrt2\,dW_t,\qquad \pi\propto e^{-U}\ \text{stationary.}$$
 > Euler-Maruyama (unadjusted Langevin): $\theta_{k+1}=\theta_k-\alpha\nabla U(\theta_k)+\sqrt{2\alpha}\,\xi_{k+1}$.
 >
-> (source: `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, eq. 1)
+> (source: `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, eq. 1)
 
 - With MH correction it is MALA; Welling & Teh use it as the proposal (eq. 3).
 - With noisy gradients $\nabla U+\zeta_k$ (Low-precision App. B, eq. 6) it covers [[SGLD]].
@@ -33,7 +33,7 @@ In score-based generation the gradient comes from a learned score, $\nabla\log p
 ## Riemannian extension
 - Girolami 2011 defines the manifold Langevin diffusion with metric G(theta), and MMALA as its discretization with a Metropolis correction (source: Girolami 2011, §3). Link [[Riemannian manifold HMC]].
 
-**Sources**: `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
+**Sources**: `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
 ---

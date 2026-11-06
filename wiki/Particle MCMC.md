@@ -36,7 +36,7 @@ Reusing the stored $\hat Z$ is what keeps the chain exact when $\hat Z$ is unbia
 **Wiki note**: in the notebook the code passes `s_0` in the control slot of `Duffing(...)`, and the markdown ratio has a stray parenthesis and no hat on $Z'$.
 
 **Covered in**: ASML book sinverse/cali (ME 697 6.3)
-**Sources**: `advanced-scientific-machine-learning/book/sinverse/cali/04_pmcmc_example.ipynb`, `03_pmcmc_theory.md`.
+**Sources**: `courses/ME 697/advanced-scientific-machine-learning/book/sinverse/cali/04_pmcmc_example.ipynb`, `03_pmcmc_theory.md`.
 **Last updated**: 2026-11-06
 
 ---

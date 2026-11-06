@@ -94,7 +94,7 @@ The DTFS is only for $N$-periodic signals and its coefficients are $N$-periodic;
 Circular convolution, its dual product property, zero padding and overlap-add/save are on [[Convolution]].
 
 **Covered in**: ECE 438 DSP.3.A, DSP.3.B, DSP.3.C (Topic DSP.3.A DT frequency analysis Part 1; Topic DSP.3.B Part 2; Topic DSP.3.C more on DFT)
-**Sources**: `Digital Signal Processing/Topic DSP.3.A DT frequency analysis Part 1 Jan 31, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.B DT frequency analysis Part 2 Jan 31, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.C more on DFT Feb 2, 2025.pdf`, `Digital Signal Processing/Topic DSP.3.D Convolution with DFT Feb 9, 2025.pdf`, `Digital Signal Processing/exam_1_review_transcribed.pdf`, `Digital Signal Processing/Topic DSP.3.C Python Examples Spectral Leakage Feb 6, 2025.pdf`.
+**Sources**: `courses/ECE 438/Topic DSP.3.A DT frequency analysis Part 1 Jan 31, 2025.pdf`, `courses/ECE 438/Topic DSP.3.B DT frequency analysis Part 2 Jan 31, 2025.pdf`, `courses/ECE 438/Topic DSP.3.C more on DFT Feb 2, 2025.pdf`, `courses/ECE 438/Topic DSP.3.D Convolution with DFT Feb 9, 2025.pdf`, `courses/ECE 438/exam_1_review_transcribed.pdf`, `courses/ECE 438/Topic DSP.3.C Python Examples Spectral Leakage Feb 6, 2025.pdf`.
 **Last updated**: 2026-11-06
 
 ---

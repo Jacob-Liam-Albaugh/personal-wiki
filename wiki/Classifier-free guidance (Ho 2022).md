@@ -7,14 +7,14 @@ tags: [diffusion, generative, ml]
 authors: ["[[Jonathan Ho]]", "[[Tim Salimans]]"]
 year: 2022
 venue: "arXiv:2207.12598v1 (26 Jul 2022); short version at NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications"
-file: "Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf"
+file: "papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf"
 ---
 
 # Classifier-Free Diffusion Guidance (Ho 2022)
 
 **Summary**: [[Classifier guidance]] (Dhariwal-Nichol) trades sample diversity for fidelity in conditional [[Diffusion models]] but needs a separate classifier trained on noisy data. Ho and Salimans train one network on both the conditional and the unconditional task (by dropping the label with probability $p_\text{uncond}$) and sample from the extrapolation $(1+w)\epsilon_\theta(z,c)-w\,\epsilon_\theta(z)$, which gives a similar FID/IS trade-off with no classifier ([[Classifier-free guidance]]). The cost is two network evaluations per sampling step.
 
-**Authors**: Jonathan Ho, Tim Salimans (Google Research, Brain team) · **Year**: 2022 · **File**: `Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`
+**Authors**: Jonathan Ho, Tim Salimans (Google Research, Brain team) · **Year**: 2022 · **File**: `papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`
 
 ---
 
@@ -187,7 +187,7 @@ Wiki notes:
 **Cites in this wiki**: [[DDPM (Ho 2020)]], [[Score SDE (Song 2021)]]
 %% refs:end %%
 
-**Sources**: `Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`.
+**Sources**: `papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`.
 **Last updated**: 2026-11-06
 
 ---

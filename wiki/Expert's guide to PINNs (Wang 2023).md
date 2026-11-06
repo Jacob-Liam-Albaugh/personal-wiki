@@ -7,7 +7,7 @@ tags: [physics-informed, pde, optimization, software]
 authors: ["[[Sifan Wang]]", "[[Shyam Sankaran]]", "[[Hanwen Wang]]", "[[Paris Perdikaris]]"]
 year: 2023
 venue: "arXiv:2308.08468"
-file: "Physics Informed Architectures/Wang, Sankaran, Perdikaris - An Expert's Guide to Training PINNs.pdf"
+file: "papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - An Expert's Guide to Training PINNs.pdf"
 ---
 
 # An expert's guide to training PINNs (Wang 2023)
@@ -81,7 +81,7 @@ Ablations disable one component at a time with 4 layers x 256 tanh, Adam, lr $10
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Fourier features (Tancik 2020)]], [[Glorot init (Glorot 2010)]], [[PINNs (Raissi 2019)]], [[Respecting causality (Wang 2022)]], [[SIREN paper (Sitzmann 2020)]], [[Spectral bias (Rahaman 2019)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
-**Sources**: `Physics Informed Architectures/Wang, Sankaran, Perdikaris - An Expert's Guide to Training PINNs.pdf`.
+**Sources**: `papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - An Expert's Guide to Training PINNs.pdf`.
 **Last updated**: 2026-11-06
 
 ---

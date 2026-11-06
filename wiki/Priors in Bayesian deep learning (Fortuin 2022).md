@@ -7,14 +7,14 @@ tags: [bayesian, ml]
 authors: ["[[Vincent Fortuin]]"]
 year: 2022
 venue: "arXiv preprint (stat.ML), v3 18 Mar 2022"
-file: "Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf"
+file: "papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf"
 ---
 
 # Priors in Bayesian Deep Learning (Fortuin 2022)
 
 **Summary**: A review of how priors are chosen, designed and learned for Gaussian processes, deep generative models (VAEs) and Bayesian neural networks. It argues that the prior is the least examined part of Bayesian deep learning, that the default isotropic Gaussian is not uninformative and can be actively harmful, and surveys structured, function-space and learned alternatives. It is a review with no experiments.
 
-**Authors**: Vincent Fortuin (ETH Zurich) · **Year**: 2022 · **File**: `Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`
+**Authors**: Vincent Fortuin (ETH Zurich) · **Year**: 2022 · **File**: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`
 
 ---
 
@@ -37,7 +37,7 @@ This is a survey; the "method" is its taxonomy. Equation numbers follow the pape
 > [!definition] NNGP kernel
 > For one hidden layer, $k_{NN}(x,x')=\sigma_w^2\,\mathbb{E}\big[\varphi(w^\top x+b)\varphi(w^\top x'+b)\big]+\sigma_b^2$, and recursively for depth,
 > $$k^{\ell}(x,x')=\sigma_w^2\,\mathbb{E}_{z\sim\mathcal{N}(0,K^{\ell-1})}\big[\varphi(z_1)\varphi(z_2)\big]+\sigma_b^2$$
-> (source: `Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`, eqs. 8-9, pp. 4-5)
+> (source: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`, eqs. 8-9, pp. 4-5)
 
 > [!definition] Neural tangent kernel
 > The NTK is $k=JJ^\top$ with $J$ the parameter Jacobian of the network output, with the layerwise recursion $k^{\ell}=k^{\ell-1}\dot\Sigma+\Sigma$ (source: eqs. 10-11, p. 5; the recursion form as I recorded it, check against the PDF before relying on the exact $\dot\Sigma$ convention **[unverified]**).
@@ -107,7 +107,7 @@ Wiki note: the review gives no quantitative comparison across prior families, so
 **Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[Dropout paper (Srivastava 2014)]], [[VAE paper (Kingma 2014)]]
 %% refs:end %%
 
-**Sources**: `Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
+**Sources**: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
 **Last updated**: 2026-11-06
 
 ---

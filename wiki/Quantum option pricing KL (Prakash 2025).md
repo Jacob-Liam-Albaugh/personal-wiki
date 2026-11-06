@@ -7,14 +7,14 @@ tags: [uq, gp]
 authors: ["[[Anupam Prakash]]", "[[Yue Sun]]", "[[Shouvanik Chakrabarti]]", "[[Charlie Che]]"]
 year: 2025
 venue: "arXiv:2402.10132 (quant-ph), v1 dated 15 Feb 2024"
-file: "Stochastic Methods/Prakash, Sun, Chakrabarti, Che - Quantum Option Pricing via the Karhunen-Loéve Expansion.pdf"
+file: "papers/Stochastic Methods/Prakash, Sun, Chakrabarti, Che - Quantum Option Pricing via the Karhunen-Loéve Expansion.pdf"
 ---
 
 # Quantum option pricing KL (Prakash 2025)
 
 **Summary**: Prices discretely monitored Asian options on a geometric Brownian motion with quantum Monte Carlo. The path is stored in a "semi-digital" register built from the truncated [[Karhunen-Loève expansion]] of [[Brownian motion]]. The same KL analysis also yields classical algorithms that match the quantum cost.
 
-**Authors**: Anupam Prakash, Yue Sun, Shouvanik Chakrabarti, Charlie Che (and co-authors) · **Year**: 2025 (the PDF is arXiv v1 dated 15 Feb 2024; the page name carries the year used in the wiki queue) · **File**: `Stochastic Methods/Prakash, Sun, Chakrabarti, Che - Quantum Option Pricing via the Karhunen-Loéve Expansion.pdf`
+**Authors**: Anupam Prakash, Yue Sun, Shouvanik Chakrabarti, Charlie Che (and co-authors) · **Year**: 2025 (the PDF is arXiv v1 dated 15 Feb 2024; the page name carries the year used in the wiki queue) · **File**: `papers/Stochastic Methods/Prakash, Sun, Chakrabarti, Che - Quantum Option Pricing via the Karhunen-Loéve Expansion.pdf`
 
 ---
 

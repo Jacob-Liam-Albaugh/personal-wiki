@@ -6,7 +6,7 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch9 - Interior point methods
@@ -161,7 +161,7 @@ The book states the path-following direction (p. 438) is a linear combination of
 - Wiki note: the term "Karush-Kuhn-Tucker" appears here for the central path system (9.17).
 - Sources credited (p. 448): Karmarkar's 1984 algorithm started the field; Dikin (1974) analyzed short-step affine scaling; Ye (1991) potential reduction. **[unverified]** for the exact attributions beyond those named.
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 409-466, printed pp. 393-450). Pages viewed as images: pdf 412, 413, 416, 425, 442; the rest read from the text layer.
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 409-466, printed pp. 393-450). Pages viewed as images: pdf 412, 413, 416, 425, 442; the rest read from the text layer.
 **Last updated**: 2026-11-06
 
 ---

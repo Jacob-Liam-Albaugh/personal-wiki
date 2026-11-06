@@ -9,7 +9,7 @@ assert not matches("Tero Karras, Samuli Laine. A style-based generator architect
 assert split_names("Max Welling and Yee Whye Teh (equal contribution)") == ["Max Welling", "Yee Whye Teh"]
 assert split_names("A. Smith, B. Jones, et al.") == ["A. Smith", "B. Jones"]
 assert split_names("Ben Mildenhall et al.") == ["Ben Mildenhall"]
-glorot = dict(first="glorot", title="Glorot init", year="2010", file="ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf")
+glorot = dict(first="glorot", title="Glorot init", year="2010", file="papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf")
 assert matches("Xavier Glorot and Yoshua Bengio. Understanding the difficulty of training deep feedforward neural networks. AISTATS 2010", glorot, "")
 odes = dict(first="chen", title="Neural ODEs", year="2018", file="P/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf")
 assert not matches("Nanxin Chen, Yu Zhang, Heiga Zen. WaveGrad: Estimating gradients for waveform generation. 2021", odes, "")

@@ -22,8 +22,8 @@ The energy density later gives the energy carried by EM waves ([[Poynting theore
 > [!example] Coaxial conductors at potential $V_0$ (lect_11, p. 4)
 > Gauss' law for $D_\rho$, then integrate $w_e$ over the volume.
 
-**Covered in**: ECE 311 lect_11 (Electromagnetics/Lectures Slides/lect_11.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_11.pdf`; lecture order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_11 (courses/ECE 311/Lectures Slides/lect_11.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_11.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

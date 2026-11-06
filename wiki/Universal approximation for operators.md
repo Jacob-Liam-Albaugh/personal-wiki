@@ -45,7 +45,7 @@ None of these give rates. For lower bounds see [[Curse of parametric complexity]
 - [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]].
 - [[Markovian homogenized viscoelasticity (Bhattacharya 2023)]] — cited (p. 6, ref. [6]) in the literature review.
 
-**Sources**: `26.10.22 - DeepONets.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
+**Sources**: `26.10.22 - DeepONets.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
 ---

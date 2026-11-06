@@ -6,7 +6,7 @@ tags: [optimization]
 authors: ["[[Dimitris Bertsimas]]", "[[John N. Tsitsiklis]]"]
 year: 1997
 venue: "Athena Scientific (textbook)"
-file: "Linear Optimization/MIT (ch 1-5).pdf"
+file: "text_books/Linear Optimization/MIT (ch 1-5).pdf"
 ---
 
 # BT ch8 - Complexity of LP and the ellipsoid method
@@ -102,7 +102,7 @@ It has exponentially many constraints. Separation: assign capacity $x_e$ to each
 - Wiki note: the ellipsoid method is the ancestor of the cutting plane idea in [[BT ch6 - Large scale optimization]] with a volume-based termination rule. For ellipsoid cut theory, compare convex feasibility via a separation oracle ([[Convex set]]).
 - Wiki note: the ellipsoid and interior point methods are polynomial; the simplex method is not known to be, but is faster in practice (pp. 360, 380).
 
-**Sources**: `Linear Optimization/MIT (ch 1-5).pdf` (pdf 375-408, printed pp. 359-392). Pages viewed as images: pdf 382, 383, 387, 394; the rest read from the text layer.
+**Sources**: `text_books/Linear Optimization/MIT (ch 1-5).pdf` (pdf 375-408, printed pp. 359-392). Pages viewed as images: pdf 382, 383, 387, 394; the rest read from the text layer.
 **Last updated**: 2026-11-06
 
 ---

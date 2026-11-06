@@ -19,7 +19,7 @@ tags: [diffusion, generative]
 > $$x_{t-1}=\tfrac{1}{\sqrt{\alpha_t}}\Big(x_t-\tfrac{1-\alpha_t}{\sqrt{1-\bar\alpha_t}}\epsilon_\theta(x_t,t)\Big)+\sigma_tz$$
 > with $\sigma_t^2=\beta_t$ or $\tilde\beta_t$, and $z=0$ at the last step.
 >
-> (source: `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, pp. 2-4)
+> (source: `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, pp. 2-4)
 
 **Intuition**: noise the data in $T$ small Gaussian steps. Each reverse step is then close to Gaussian too, so a network only has to learn its mean. It does this by predicting the noise that was added.
 
@@ -58,7 +58,7 @@ Nakkiran write a VE chain with $t\in[0,1]$ and $\sigma_t=\sigma_q\sqrt t$. This 
 - [[Step-by-step diffusion (Nakkiran 2025)]]: Chapter 2.
 - [[Score SDE (Song 2021)]]: shows it is the VP-SDE discretization.
 
-**Sources**: `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`, `Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.
+**Sources**: `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`, `papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -25,8 +25,8 @@ Combined: $\nabla^2V=-\rho_v/\varepsilon$ ([[Poisson and Laplace equations]]).
 ## Wiki note
 Time-varying extension: [[Maxwell's equations]]. Magnetic counterpart: [[Magnetostatics]].
 
-**Covered in**: ECE 311 lect_4-lect_12, lect_14 (Electromagnetics/Lectures Slides/lect_4.pdf to lect_14.pdf)
-**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `Electromagnetics/Lectures Slides/lect_4.pdf` to `lect_12.pdf` and `lect_14.pdf`; order from `Electromagnetics/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
+**Covered in**: ECE 311 lect_4-lect_12, lect_14 (courses/ECE 311/Lectures Slides/lect_4.pdf to lect_14.pdf)
+**Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_4.pdf` to `lect_12.pdf` and `lect_14.pdf`; order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06
 
 ---

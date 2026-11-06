@@ -50,7 +50,7 @@ $$
 - The smoothing analogue is the Rauch-Tung-Striebel smoother **[unverified]**.
 
 **Covered in**: ASML book sinverse/fs (ME 697 6.2)
-**Sources**: none in `advanced-scientific-machine-learning/book/`; context from `sinverse/fs/intro.md`.
+**Sources**: none in `courses/ME 697/advanced-scientific-machine-learning/book/`; context from `sinverse/fs/intro.md`.
 **Last updated**: 2026-11-06
 
 ---

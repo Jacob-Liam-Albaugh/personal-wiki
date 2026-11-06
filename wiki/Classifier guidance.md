@@ -18,7 +18,7 @@ tags: [diffusion, generative, ml]
 > p̃(z|c) ∝ p(z|c) · p(c|z)^w
 > ```
 >
-> (source: `Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`, p. 4)
+> (source: `papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`, p. 4)
 
 **Intuition**: tilt each sampling step toward images the classifier is sure about. This raises Inception score and lowers diversity, much like truncation in BigGAN or low temperature in Glow (p. 3).
 
@@ -34,7 +34,7 @@ Not in this wiki as a primary source: the method is Dhariwal and Nichol 2021. Th
 - [[Classifier-free guidance (Ho 2022)]]: the baseline that CFG replaces.
 - Wiki note: the conditional-score term matches the $\nabla_x\log p_t(y\mid x)$ term of conditional sampling in [[Diffusion models#Reverse-time SDE|score SDEs]] and [[Diffusion posterior sampling]].
 
-**Sources**: `Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`.
+**Sources**: `papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`.
 **Last updated**: 2026-11-06
 
 ---
