@@ -13,13 +13,17 @@
 - 10 papers ingested: the reading group, the lab IFT papers, the Poly DSL paper, and SG-MCMC.
 - 48 wiki pages written, and every link resolves except 3 planned pages.
 
-## Queue (about 187 files), in this order
-1. Bayesian/ — the lab VI papers (Bilionis-Karumuri, Bilionis-Tsilifis), then Kingma-Welling.
+## Done (batch 2)
+- 9 Bayesian/ papers ingested: lab VI, Margossian-Blei, three Kingma papers, SDE-BNN, Fortuin priors, Zhu-Zabaras.
+- 13 concept pages added, for 70 pages in all.
+
+## Queue (about 178 files), in this order
+1. Bayesian/ — the remaining papers.
 2. Operators/ — FNO, Neural Operators, LNO, Stuart.
 3. Physics Informed Architectures/.
 4. Stochastic Methods/ — the four Karhunen-Loève papers. These will fill out [[karhunen-loeve-expansion]].
 5. ML/, Guassian Processes/, Symmetries/, LLMs/.
-6. Math/, Transforms/, Linear Optimization/. The BJS book and MIT ch. 1-5 need OCR first.
+6. Math/, Transforms/, Linear Optimization/. The BJS book and MIT ch. 1-5 have an old OCR layer with garbled math. Read the equations from page images; re-OCR will not help.
 7. Course notes: ECE 438 (DSP), ECE 270, ECE 311 (EM).
 8. Books, chapter by chapter: Spivak-Niu *Poly*, *Seven Sketches*. These will fill the planned poly-composition-product and dirichlet-product pages.
 
@@ -29,3 +33,5 @@
 - Cyclical SG-MCMC Thm 2: the exponents.
 - Low-precision SGLD Thm 3: the A/(αm) grouping.
 - The DeepONet Thm 3 κ(m,V) rate.
+- Zhu & Zabaras: the SVGD equation form and the figure page cites.
+- Fortuin: the NTK recursion.

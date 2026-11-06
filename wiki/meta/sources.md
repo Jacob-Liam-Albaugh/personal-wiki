@@ -21,17 +21,17 @@ Regenerate the file list when files are added; keep the status column in sync on
 |---|---|---|---|
 | `Baysian Data Analysis 3rd ed` |  | alias | points to _text books/Mathmatics/Baysian Data Analysis 3rd ed.pdf |
 | `Bilionis, Alberts - Physics Informed Information Field Theory.pdf` | 32 | ingested → [[alberts-2023-pift]] | arXiv preprint of the JCP 2023 paper in IFT/ |
-| `Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf` | 49 | queued |  |
+| `Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf` | 49 | ingested → [[karumuri-2024-amortized-vi-inverse-problems]] |  |
 | `Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression` |  | alias | points to Guassian Processes/ copy |
-| `Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf` | 23 | queued |  |
-| `Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf` | 18 | queued |  |
-| `Fortuin - Priors in Bayesian Deep Learning.pdf` | 28 | queued |  |
-| `Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf` | 14 | queued |  |
-| `Kingma, Welling - Intro to Variational Autoencoders.pdf` | 44 | queued |  |
-| `Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf` | 9 | queued |  |
-| `Margossian, Blei - Amortized Variational Inference When & Why.pdf` | 16 | queued |  |
+| `Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf` | 23 | ingested → [[tsilifis-2014-variational-inverse-problems]] |  |
+| `Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf` | 18 | ingested → [[xu-2022-sde-bnn]] |  |
+| `Fortuin - Priors in Bayesian Deep Learning.pdf` | 28 | ingested → [[fortuin-2022-priors-in-bdl]] |  |
+| `Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf` | 14 | ingested → [[kingma-2014-aevb]] |  |
+| `Kingma, Welling - Intro to Variational Autoencoders.pdf` | 44 | ingested → [[kingma-2019-intro-vae]] | incomplete: front matter, ch. 1 and appendix only; ch. 2-5 missing |
+| `Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf` | 9 | ingested → [[kingma-2015-variational-dropout]] | main text only; appendices A-F missing |
+| `Margossian, Blei - Amortized Variational Inference When & Why.pdf` | 16 | ingested → [[margossian-2024-amortized-vi-when-why]] |  |
 | `Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf` | 8 | ingested → [[welling-2011-sgld]] | duplicate (identical file) of the IFT/ copy |
-| `Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf` | 52 | queued |  |
+| `Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf` | 52 | ingested → [[zhu-2018-bayesian-denseed-surrogate]] |  |
 
 ## DSL
 
@@ -216,9 +216,9 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `BJS full book.pdf` | 764 | queued | scanned, no text layer: read visually |
+| `BJS full book.pdf` | 764 | queued | old OCR text layer (748/764 pages); math garbled, read equations from page images |
 | `MIT (ch 1-2).pdf` | 80 | queued |  |
-| `MIT (ch 1-5).pdf` | 605 | queued | scanned, no text layer: read visually |
+| `MIT (ch 1-5).pdf` | 605 | queued | old OCR text layer (587/605 pages); math garbled, read equations from page images |
 
 ## ML
 
@@ -365,4 +365,4 @@ Jupyter-book source in `advanced-scientific-machine-learning/book/`, chapters fr
 
 ## Totals
 
-alias: 8, ingested: 13, queued: 187, reference: 35
+alias: 8, ingested: 22, queued: 178, reference: 35
