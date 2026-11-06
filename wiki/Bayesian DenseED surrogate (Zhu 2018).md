@@ -4,7 +4,7 @@ area: bayesian
 areas: [bayesian, stochastic]
 source-ref: "Zhu, Zabaras 2018 (J. Comput. Phys.), Alg. 1, eqs. 11-17"
 tags: [bayesian, operators, ml]
-authors: [Zhu, Zabaras]
+authors: ["[[Yinhao Zhu]]", "[[Nicholas Zabaras]]"]
 year: 2018
 venue: "Journal of Computational Physics (preprint submitted Jan 2018; arXiv:1801.06879v1)"
 file: "Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf"
@@ -98,6 +98,16 @@ Wiki note: 20 particles is a small ensemble for a posterior over about 240k weig
 - Related operator-style surrogates: [[Operator learning]] maps function to function without a fixed grid, whereas this is grid-based image regression (Wiki note).
 - Conclusion points to physics information as the next step, which connects to [[Physics-informed prior]] (Wiki note).
 - Contrast with [[SDE-BNN (Xu 2022)]]: parametric stochastic-process posterior vs non-parametric particle posterior.
+- Wiki note: a GP surrogate is the classical Bayesian alternative to a neural surrogate with uncertainty; see [[Gaussian processes and kernel methods (Kanagawa 2018)]] for the GP and kernel-ridge picture and [[Multi-fidelity GP for tissue expansion (Lee 2020)]] for a GP surrogate in a physical-simulation setting.
+
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[VAE paper (Kingma 2014)]], [[Variational dropout (Kingma 2015)]], [[Wiener-Askey chaos (Xiu 2002)]]
+**Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]], [[FNO (Li 2021)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[PINNs (Raissi 2019)]]
+%% refs:end %%
 
 **Sources**: `Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf`.
 **Last updated**: 2026-11-06
@@ -117,3 +127,4 @@ Wiki note: 20 particles is a small ensemble for a posterior over about 240k weig
 - densenet encoder decoder
 - [[Priors in Bayesian deep learning (Fortuin 2022)]]
 - [[SDE-BNN (Xu 2022)]]
+- [[Kernel methods]], [[Gaussian process]], [[Surrogate model]].

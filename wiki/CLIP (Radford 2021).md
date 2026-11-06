@@ -4,7 +4,7 @@ area: ml
 areas: [ml]
 source-ref: "Radford et al. 2021, ICML (PMLR 139), Fig. 3 pseudocode, §2.1-2.5, §3.1-3.4, §6; supplementary Apps. A-I"
 tags: [ml, generative]
-authors: [Radford, Kim, Hallacy, Ramesh, Goh, Agarwal, Sastry, Askell, Mishkin, Clark, Krueger, Sutskever]
+authors: ["[[Alec Radford]]", "[[Jong Wook Kim]]", "[[Chris Hallacy]]", "[[Aditya Ramesh]]", "[[Gabriel Goh]]", "[[Sandhini Agarwal]]", "[[Girish Sastry]]", "[[Amanda Askell]]", "[[Pamela Mishkin]]", "[[Jack Clark]]", "[[Gretchen Krueger]]", "[[Ilya Sutskever]]"]
 year: 2021
 venue: "ICML 2021 (PMLR 139)"
 file: "Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf"
@@ -164,6 +164,7 @@ Wiki notes (not stated in the paper): the 400M-pair WIT set is not released, so 
 - **With diffusion models**: CLIP's text/image embeddings are widely used as the conditioning signal for text-to-image [[Diffusion models]], where [[Classifier-free guidance]] ([[Classifier-free guidance (Ho 2022)]]) supplies the fidelity/diversity trade-off. This is Wiki knowledge, **[unverified]** from the files here: neither CLIP paper discusses diffusion.
 - **Compare**: classifier guidance ([[Classifier guidance]]) could in principle use a CLIP-style scoring model as the guiding "classifier"; **[unverified]**, not in these files.
 - The 1000x-compute estimate and the log-log scaling plot (supp. Fig. 16) put CLIP in the same empirical-scaling tradition as the GPT family (supp. p. 11).
+
 
 **Sources**: `Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf` (main), `Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf` (appendix of the ICML version).
 **Last updated**: 2026-11-06

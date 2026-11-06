@@ -4,7 +4,7 @@ area: stochastic
 areas: [stochastic, ml]
 source-ref: "Nakkiran, Bradley, Zhou, Advani 2025, FnT Computer Graphics and Vision 17(1), Alg. 2.1, 3.1, Claims 2.1/2.2/3.1/4.1, eqs. 1.11, 2.6, 2.11, 2.15, 3.1, 3.25, 4.6, 4.10"
 tags: [diffusion, generative]
-authors: [Nakkiran, Bradley, Zhou, Advani]
+authors: ["[[Preetum Nakkiran]]", "[[Arwen Bradley]]", "[[Hattie Zhou]]", "[[Madhu Advani]]"]
 year: 2025
 venue: "Foundations and Trends in Computer Graphics and Vision, Vol. 17, No. 1, pp. 1-75 (DOI 10.1561/0600000114)"
 file: "Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf"

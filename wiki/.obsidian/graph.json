@@ -8,6 +8,13 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
+      "query": "path:authors",
+      "color": {
+        "a": 1,
+        "rgb": 8421504
+      }
+    },
+    {
       "query": "tag:#diffusion",
       "color": {
         "a": 1,
@@ -99,6 +106,13 @@
       }
     },
     {
+      "query": "tag:#uq",
+      "color": {
+        "a": 1,
+        "rgb": 1482885
+      }
+    },
+    {
       "query": "tag:#optimization",
       "color": {
         "a": 1,
@@ -110,6 +124,27 @@
       "color": {
         "a": 1,
         "rgb": 3426654
+      }
+    },
+    {
+      "query": "tag:#signals",
+      "color": {
+        "a": 1,
+        "rgb": 13849600
+      }
+    },
+    {
+      "query": "tag:#electromagnetics",
+      "color": {
+        "a": 1,
+        "rgb": 2719929
+      }
+    },
+    {
+      "query": "tag:#digital-logic",
+      "color": {
+        "a": 1,
+        "rgb": 9323693
       }
     },
     {

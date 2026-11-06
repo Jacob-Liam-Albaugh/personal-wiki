@@ -36,3 +36,4 @@ $L_2$ adds the relative error in $\dot\xi$ (inaccessible: needs analytic hidden 
 
 ## Related pages
 - [[Exact Markovian law for Kelvin-Voigt]] · [[Operator learning]] · [[DeepONet]]
+- [[Energy-based kernels for viscoelastic flow (Otto 2024)]]

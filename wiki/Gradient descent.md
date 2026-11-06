@@ -22,6 +22,11 @@ otherwise shrink $\alpha\leftarrow c_2\alpha$ and retry.
 
 **Variants**: minibatch gradients give [[SGD]]; SGD plus Gaussian noise gives [[SGLD]].
 
+## Where it appears
+- [[Neural tangent kernel]] — gradient-descent dynamics of a network in function space are governed by the NTK; [[When and why PINNs fail (Wang 2022)]].
+- Subgradient optimization of the concave piecewise linear Lagrangean dual of an integer program, with step $\theta_t=\alpha_t(\hat Z_D-Z(\mathbf p^t))/\|\mathbf s^t\|^2$ (form read from text, unverified): [[BT ch11 - Integer programming]] (pp. 502-507).
+- Affine scaling takes a steepest-descent-like step on the cost inside a scaling ellipsoid: [[Interior point method]], [[BT ch9 - Interior point methods]] (Lemma 9.2, p. 397).
+
 **Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `02_gradient_descent.ipynb`, `03_momentum.ipynb`.
 **Last updated**: 2026-11-06
 
@@ -29,3 +34,5 @@ otherwise shrink $\alpha\leftarrow c_2\alpha$ and retry.
 
 ## Related pages
 - [[ME697 1.4 - Optimization]] · [[Automatic differentiation]] · [[Pytree]]
+- [[Init and momentum (Sutskever 2013)]], [[Adam paper (Kingma 2015)]].
+- Large-model training recipes: [[DeepSeek-V2 (DeepSeek-AI 2024)]] (AdamW, stepwise learning rate decay).

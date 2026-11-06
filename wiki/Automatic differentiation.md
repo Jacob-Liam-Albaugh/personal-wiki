@@ -34,6 +34,10 @@ hessian  :: ([a] -> a)
 
 **Further reading** (named in the book): Matt Johnson's Autodidact.
 
+## Where it appears
+- PINN residuals need derivatives of the network output with respect to inputs, taken by AD ([[PINNs (Raissi 2019)]]; [[Physics-informed ML review (Karniadakis 2021)]], Box 3).
+- Neural ODE gradients use the adjoint method instead of backprop through the solver: [[Adjoint sensitivity method]], [[Neural ODEs (Chen 2018)]].
+
 **Sources**: `advanced-scientific-machine-learning/book/ml-software/differentiation/03_autodiff.ipynb`, `04_jax_grad.ipynb`, `types_and_models/03_haskell.md`.
 **Last updated**: 2026-11-06
 

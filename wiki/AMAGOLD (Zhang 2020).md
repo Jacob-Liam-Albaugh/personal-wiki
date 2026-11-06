@@ -4,7 +4,7 @@ area: ift
 areas: [ift, bayesian, stochastic]
 source-ref: "Zhang, Cooper, De Sa 2020, AISTATS, Alg. 2, eq. 6, Thm. 1-2"
 tags: [sampling, mcmc, bayesian]
-authors: [Zhang, Cooper, De Sa]
+authors: ["[[Ruqi Zhang]]", "[[A. Feder Cooper]]", "[[Christopher De Sa]]"]
 year: 2020
 venue: "AISTATS (PMLR 108)"
 file: "IFT/Ruqi Zhang - AMAGOLD.pdf"
@@ -115,6 +115,14 @@ Wiki note: the paper's theorems concern stationarity and a spectral gap relative
 - Same first author as [[Cyclical SG-MCMC (Zhang 2020)]] (which sidesteps MH and accepts bias) and [[Low-precision SGLD (Zhang 2022)]]. Zhang et al. 2020 cited in §6.3 for the SGD-momentum burn-in is the cyclical paper.
 - Related concepts: [[Metropolis-Hastings correction]], [[Langevin dynamics]], [[SGHMC]], [[AMAGOLD]], [[AMAGOLD]], [[SG-MCMC]].
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[SGLD (Welling 2011)]]
+%% refs:end %%
+
 **Sources**: `IFT/Ruqi Zhang - AMAGOLD.pdf`.
 **Last updated**: 2026-11-06
 
@@ -128,7 +136,4 @@ Wiki note: the paper's theorems concern stationarity and a spectral gap relative
 - [[SGHMC]]
 - [[SG-MCMC]]
 - [[Metropolis-Hastings correction]]
-- [[SGHMC]]
-- [[AMAGOLD]]
-- [[AMAGOLD]]
 - [[Langevin dynamics]]

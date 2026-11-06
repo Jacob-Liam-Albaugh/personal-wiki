@@ -22,9 +22,26 @@ tags: [gp]
 - [[IFT thermal conductivity (Alberts 2026)]] — $k(u)=\exp(a_1+a_2u+\sum_{n=1}^{25}z_n\lambda_n^{1/2}\varphi_n(u))$ with exact Hermite eigenpairs of the SE kernel (eq. 10, App. A).
 
 Wiki note: [[PCA-Net]] uses the empirical version, PCA of sampled input and output functions, as its encoder and decoder.
+- KLE of a GP with a Nystrom implementation in JAX, truncation at 95% of $\sum_i\lambda_i$, and use as the input stage of a UQ pipeline (KLE in, PCA out, one GP per coefficient): [[ME697 3.1 - Functional inputs]] (source: `hup/funcin/04_kle.ipynb`, `05_up_example.ipynb`, `06_up_hout_example.ipynb`).
+- Same orthonormal-expansion device for random variables: [[Polynomial chaos]]. Data-driven counterpart: [[Principal component analysis]].
+- Wiki note: the book's KLE display has typos and the Nystrom eigenfunction extension is asymmetric for non-uniform weights; see [[ME697 3.1 - Functional inputs]].
+- [[Proper orthogonal decomposition]]: the POD basis of a random field is its KL basis (Wiki note; the book treats them in separate chapters).
+
+> [!example] Homework 5, problem 3 (source: homework/05_homework.ipynb)
+> KL model of oil-reservoir permeability on $[0,356]\times[0,670]$ m, positive and conditioned on a geologist's estimate.
+
+- [[ME697 6.1 - Stochastic differential equations]] uses a KL expansion for the Brownian bridge (source: sinverse/sodes).
 
 ## Queued sources
 Four KL papers in `Stochastic Methods/` (Alexanderian; Betz-Papaioannou-Straub; Deheuvels; Prakash et al.) should extend this page with the Mercer / convergence statements. Everything beyond the formula above is **[unverified]** until then.
+
+## Properties
+- among all order-m expansions with iid N(0,1) coefficients, the truncated KL expansion minimises the L2 error of the effective kernel (source: Greengard-O'Neil 2022, eq. 1.10, p. 3). Error decays exponentially in m for smooth kernels and no slower than O(1/m^(j+1)) for kernels with j continuous derivatives (Thm 3, pp. 4-5).
+- the expansion uses the same eigenfunctions as the RKHS basis, but with coefficients of variance one, so the sample has infinite RKHS norm (source: Kanagawa 2018, Thm 4.3, p. 31).
+
+## Related / finite-dimensional analogue
+- The best m-term approximation of a vector in an orthogonal basis (keep the m largest coefficients) is the idea that the [[DFT]] page and [[ECE438 DSP.3.B - DT frequency analysis 2]] develop for fixed Fourier bases; Karhunen-Loève chooses the basis from the data. (source: Digital Signal Processing/Topic DSP.3.B DT frequency analysis Part 2 Jan 31, 2025.pdf, pp. 2-4)
+- See also [[ECE438 IP.5 - Image transforms and wavelets]].
 
 **Sources**: `26.10.22 - DeepONets.pdf`, `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
 **Last updated**: 2026-11-06
@@ -33,3 +50,9 @@ Four KL papers in `Stochastic Methods/` (Alexanderian; Betz-Papaioannou-Straub; 
 
 ## Related pages
 - [[DeepONet]] · [[PCA-Net]]
+- Optional link to [[Spectral bias]]; Wiki note only, no direct source cite. Skip if the page has no related-section.
+- Convergence and Mercer: [[Mercer's theorem]]; full derivation via compact self-adjoint operators in [[KL expansion note (Alexanderian 2015)]] (source: Alexanderian 2015, Thm 3.1, 5.3, Cor 5.5). Truncation error $k(t,t)-\sum_{i\le n}\lambda_ie_i(t)^2$ goes to 0 uniformly.
+- Closed-form example: Wiener process eigenpairs $\lambda_k=((k-\frac12)\pi)^{-2}$, $e_k=\sqrt2\sin((k-\frac12)\pi t)$ (source: Li, eq. 1.6); mean-centered version gives cosines (source: Deheuvels 2006, Thm 1.1). See [[Wiener process]], [[KL expansions of the Wiener process (Deheuvels 2006)]].
+- Example: exponential kernel $\sigma^2e^{-|s-t|/L_c}$ with 6 terms, covariance error under $8\times10^{-2}$ (source: Alexanderian 2015, §6).
+- Discretized random fields: [[Random field discretization (Betz 2014)]]. Application: [[Quantum option pricing KL (Prakash 2025)]].
+- [[Reduced-rank GPs (Greengard 2022)]], [[RKHS]], [[Gaussian processes and kernel methods (Kanagawa 2018)]].

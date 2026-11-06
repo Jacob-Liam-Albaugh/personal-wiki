@@ -22,6 +22,16 @@ tags: [optimization, ml]
 
 **Wiki note**: in a [[Bayesian neural networks|BNN]] the initialization scale and the prior scale play similar roles; see [[Priors in Bayesian deep learning (Fortuin 2022)]].
 
+## Where it appears
+- [[Expert's guide to PINNs (Wang 2023)]] — random weight factorization changes the parameterization of weights to speed up PINN training.
+
+## Glorot / Xavier initialization
+- Glorot's normalized initialization: W ~ U[-sqrt(6)/sqrt(n_j+n_{j+1}), +sqrt(6)/sqrt(n_j+n_{j+1})], so Var[W] = 2/(n_j+n_{j+1}) (source: Glorot 2010, eq. 16, p. 5; compromise of eq. 10-11). The book's formula matches this.
+- Wiki note: the book labels the $n^{-1/2}$ uniform init "He". That is Glorot's baseline, $U[-1/\sqrt n,1/\sqrt n]$ with $n\,\mathrm{Var}[W]=1/3$ (Glorot 2010, eqs. 1 and 15, pp. 3, 5), not He.
+- He initialization (Var = 2/n for ReLU) is not in the ML/ folder; ResNet paper (He 2016) mentions it only as prior work **[unverified]**. Do not cite it from these sources.
+- SIREN uses its own init U(-sqrt(6/n), sqrt(6/n)) with omega0=30 (source: Sitzmann 2020, §3.2). See [[SIREN]].
+- [[Glorot init (Glorot 2010)]].
+
 **Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/08_initialization.ipynb`, `01_optimization_problems.md`.
 **Last updated**: 2026-11-06
 
@@ -29,3 +39,4 @@ tags: [optimization, ml]
 
 ## Related pages
 - [[ME697 1.4 - Optimization]] · [[Gradient descent]] · [[Adam]]
+- Initialization scale for attention and state space models: [[Attention is all you need (Vaswani 2017)]], [[Mamba (Gu 2023)]].

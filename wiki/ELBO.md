@@ -43,6 +43,9 @@ L_0     = -log p_θ(x_0|x_1)
 - [[VAE paper (Kingma 2014)]] · [[Variational dropout (Kingma 2015)]] · [[Intro to VAEs (Kingma 2019)]] (App. A eqs. A.8-A.10).
 - [[DDPM (Ho 2020)]] (eqs. 3, 5).
 - [[SDE-BNN (Xu 2022)]] (path-space ELBO, eq. 1) · [[Priors in Bayesian deep learning (Fortuin 2022)]] (VAE-prior ELBO, eqs. 12, 37).
+- Sparse variational GP surrogate maximizes the ELBO with $m=100$ inducing points: [[ME697 2.3 - Surrogates]] (source: `up/surrogates/04_gpr_large_data.ipynb`).
+- Derived in the book as $\mathrm{KL}(q\|p)=\log p(y)-\mathrm{ELBO}$, so maximizing the ELBO minimizes the KL; estimated by a sample average through reparameterization. (source: `inverse/vi/01_basics.md`; [[ME697 4.3 - Variational inference]])
+- Expected ELBO over $p(y)$ is the amortized objective, used for the [[Duffing oscillator]]. (source: `inverse/odes/03_dyn_system_multiple_traj.ipynb`)
 
 **Sources**: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`.
 **Last updated**: 2026-11-06

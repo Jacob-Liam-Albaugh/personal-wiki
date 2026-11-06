@@ -4,7 +4,7 @@ area: ift
 areas: [ift, bayesian, physics-informed]
 source-ref: "Alberts, Bilionis 2023, J. Comput. Phys. 486, 112100"
 tags: [ift, bayesian, physics-informed, inverse-problems, sampling]
-authors: [Alberts, Bilionis]
+authors: ["[[Alex Alberts]]", "[[Ilias Bilionis]]"]
 year: 2023
 venue: "Journal of Computational Physics 486, 112100"
 file: "IFT/Bilionis, Alberts - IFT.pdf"
@@ -14,7 +14,7 @@ file: "IFT/Bilionis, Alberts - IFT.pdf"
 
 **Summary**: The paper builds a Bayesian prior over fields directly from a physical energy functional, $p(\phi) \propto e^{-\beta U[\phi]}$, using the language of [[Information field theory]]. Forward problems, inverse problems (unknown physics parameters, source terms and trust $\beta$) are solved by sampling with [[SGLD]] and a nested variant for the marginal posterior over hyperparameters. The authors show that a classical [[PINN]] is the MAP estimate of this posterior and that [[PINN]] agrees with it only under restrictive conditions.
 
-**Authors**: Alberts, Bilionis · **Year**: 2023 · **File**: `IFT/Bilionis, Alberts - IFT.pdf`
+**Authors**: Alex Alberts, Ilias Bilionis · **Year**: 2023 · **File**: `IFT/Bilionis, Alberts - IFT.pdf`
 
 ---
 
@@ -153,6 +153,15 @@ Wiki note: the published values for the noise in Examples 2 and 4 (both printed 
 - The paper cites the follow-up on well-posedness and the choice of $\beta$ (Alberts, Bilionis, arXiv:2401.14224, cited in [[IFT thermal conductivity (Alberts 2026)]], not read here).
 - Code: github PredictiveScienceLab/pift-paper-2023 (as cited in the paper).
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[DeepONet (Lu 2021)]], [[SGLD (Welling 2011)]]
+**Cited by in this wiki**: [[IFT thermal conductivity (Alberts 2026)]]
+%% refs:end %%
+
 **Sources**: `IFT/Bilionis, Alberts - IFT.pdf`.
 **Last updated**: 2026-11-06
 
@@ -161,17 +170,12 @@ Wiki note: the published values for the noise in Examples 2 and 4 (both printed 
 ## Related pages
 - [[Information field theory]]
 - [[Physics-informed prior]]
-- [[Information field theory]]
-- [[Physics-informed prior]]
 - [[SGLD]]
 - [[SG-MCMC]]
 - [[Nested SGLD]]
-- [[Nested SGLD]]
-- [[PINN]]
 - [[PINN]]
 - [[Karhunen-Loève expansion]]
-- [[Physics-informed prior]]
-- [[Physics-informed prior]]
 - [[SGLD (Welling 2011)]]
 - [[IFT thermal conductivity (Alberts 2026)]]
 - [[Generative priors for turbulence (Wang 2026)]]
+- Gaussian-field priors share the [[Karhunen-Loève expansion]] machinery; see [[Mercer's theorem]].

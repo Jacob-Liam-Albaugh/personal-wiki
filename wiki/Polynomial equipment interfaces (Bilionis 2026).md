@@ -4,7 +4,7 @@ area: dsl
 areas: [dsl]
 source-ref: "Bilionis 2026, Polynomial Equipment Interfaces and Experimental Protocols (Sept 2026)"
 tags: [category-theory]
-authors: [Bilionis]
+authors: ["[[Ilias Bilionis]]"]
 year: 2026
 venue: "preprint (September 2026)"
 file: "DSL/Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf"
@@ -64,7 +64,7 @@ For $p=\sum_{i\in I}y^{A_i}$ and $q=\sum_{j\in J}y^{B_j}$ (pp. 3-4):
 
 Meaning, as the paper glosses them: the [[Poly coproduct]] picks one tagged component position and accepts a direction from it; the [[Poly product]] shows both positions and accepts *one* tagged direction from either component (it does not decide which component acts, the protocol does); the [[Poly parallel product]] (tensor) shows both positions and requests one direction from *each* in one semantic step, with no claim of wall-clock simultaneity or independence of physical effects. Fiber example: components offering `close` and `load` give a coproduct reporting one component, a product offering tagged `close` or `load`, and a tensor offering the pair (`close`,`load`) (p. 4).
 
-Wiki note: in Spivak-Niu terminology the tensor here is the parallel product $\otimes$ of Poly, not the [[dirichlet-product]] and not the composition product $\triangleleft$ ([[poly-composition-product]]); the paper uses neither of the latter two.
+Wiki note: in Spivak-Niu terminology the tensor here is the parallel product $\otimes$ of Poly ([[Poly parallel product]], also called the Dirichlet product), not the composition product $\triangleleft$ ([[Poly composition product]]), which the paper does not use.
 
 > [!theorem] Same-position restriction (Prop. 3.1)
 > If $p=\sum_{o\in O}y^{A_o}$, $q=\sum_{o\in O}y^{B_o}$ with $B_o\subseteq A_o$ for every $o$, the identity position map and the fiber inclusions $B_o\hookrightarrow A_o$ define a lens $\jmath:p\to q$.
@@ -168,7 +168,7 @@ Supported domain: every $(o,\iota_L(l))$ with $(o,l)\in E$; and $(o,\iota_K(k))$
 
 The paper explicitly does not claim associativity of $\triangleright$: it fixes a left-associated bracketing in §5.2 ("no bracket-independent associativity claim is needed", p. 10). The handoff condition is the observation check $(o,l_0)\in E$. No result value is passed across the handoff (p. 14).
 
-Wiki note: the symbol $\triangleright$ here is protocol sequencing, unrelated to the polynomial composition product $\triangleleft$ ([[poly-composition-product]]).
+Wiki note: the symbol $\triangleright$ here is protocol sequencing, unrelated to the polynomial composition product $\triangleleft$ ([[Poly composition product]]).
 
 ## Worked examples
 
@@ -251,6 +251,14 @@ Wiki notes (not from the paper): (i) no associativity or unit laws are establish
 - Protocols as lenses into $H_R=y+R$ are the paper's own construction; the paper cites SiLA 2, OPC UA LADS and SBOL-style protocol representations only as the "workflow/equipment standards" context (refs [6]-[8]) and self-driving-laboratory work (refs [3]-[5]).
 - Lens-based interface translation ([[Protocol transport along a lens]]) is the compositional-reuse mechanism: one protocol, many devices.
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Poly (Spivak 2020)]], [[Polynomial Functors ch1 - Representable functors]]
+%% refs:end %%
+
 **Sources**: `DSL/Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`.
 **Last updated**: 2026-11-06
 
@@ -259,17 +267,15 @@ Wiki notes (not from the paper): (i) no associativity or unit laws are establish
 ## Related pages
 - [[Polynomial functor]]
 - [[Dependent lens]]
-- [[Polynomial functor]]
 - [[Poly product]]
 - [[Poly coproduct]]
 - [[Poly parallel product]]
-- [[poly-composition-product]]
-- [[dirichlet-product]]
+- [[Poly composition product]]
 - [[Dynamical system as lens]]
-- [[Polynomial functor]]
 - [[Supported experimental protocol]]
 - [[Protocols are lenses]]
 - [[Modeled playability]]
 - [[Protocol transport along a lens]]
 - [[Sequential protocol composition]]
 - [[Same-position restriction lens]]
+- Background: [[Poly (Spivak 2020)]], [[Polynomial Functors ch6 - The composition product]].

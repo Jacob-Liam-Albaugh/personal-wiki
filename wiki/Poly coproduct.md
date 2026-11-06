@@ -28,6 +28,7 @@ Wiki note: Poly also has the composition product $\triangleleft$ and the Dirichl
 
 ## Where it appears
 - [[Polynomial equipment interfaces (Bilionis 2026)]] — the contrast case when comparing the three products fiber by fiber.
+- Prop. 3.3: Poly has coproducts, computed as sums: [[Polynomial Functors ch3 - The category of polynomial functors]]. Poly is extensive (source: Spivak - Poly.pdf, §2).
 
 **Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`.
 **Last updated**: 2026-11-06

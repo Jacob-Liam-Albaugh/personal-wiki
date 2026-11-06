@@ -4,7 +4,7 @@ area: stochastic
 areas: [stochastic, ml]
 source-ref: "Ho, Jain, Abbeel 2020, NeurIPS, eqs. 1-7, 11-14; Alg. 1-2; Tables 1-2"
 tags: [diffusion, generative, ml]
-authors: [Ho, Jain, Abbeel]
+authors: ["[[Jonathan Ho]]", "[[Ajay Jain]]", "[[Pieter Abbeel]]"]
 year: 2020
 venue: "NeurIPS 2020 (arXiv:2006.11239v2)"
 file: "Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf"
@@ -162,6 +162,15 @@ Wiki notes:
 - Wiki note: later [[Flow matching]] methods regress a velocity field with a similar simple squared-error objective along a prescribed interpolation path.
 - Method pages: [[DDPM]], [[Noise prediction]], [[Noise schedule]], [[Diffusion models]].
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Attention is all you need (Vaswani 2017)]], [[Neural ODEs (Chen 2018)]], [[VAE paper (Kingma 2014)]]
+**Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]]
+%% refs:end %%
+
 **Sources**: `Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`.
 **Last updated**: 2026-11-06
 
@@ -173,7 +182,6 @@ Wiki notes:
 - [[Noise prediction]]
 - [[Noise schedule]]
 - [[Score matching]]
-- [[Score matching#Denoising score matching|denoising score matching]]
 - [[Langevin dynamics]]
 - [[ELBO]]
 - [[KL divergence]]

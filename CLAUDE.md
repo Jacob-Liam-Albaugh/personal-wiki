@@ -95,6 +95,13 @@ When the user adds a source or asks you to ingest one:
 6. Update `wiki/meta/index.md`, `wiki/meta/sources.md` (status → ingested), and for reading
    group papers `wiki/meta/reading-group.md`.
 7. Append an entry to `wiki/meta/log.md` with the date, sources, and pages touched.
+8. Run `python3 tools/authors.py && python3 tools/refs.py --n 2` from the repo root. The first
+   builds `wiki/authors/` and links each paper's `authors`. The second rewrites each paper's
+   `%% refs:start %%` block (Cites / Cited by in this wiki) and `wiki/meta/wanted-papers.md`,
+   which lists works outside the wiki cited by at least n wiki sources. Tell the user about new wanted entries.
+9. Rebuild the graphify graph with `uv tool run --from graphifyy python -I tools/graph.py .`.
+   It writes the untracked `graphify-out/`. Query it with `graphify query "..."`, `graphify path "A" "B"`
+   or `graphify explain "X"`.
 
 A single source may touch 10-15 wiki pages. That is normal.
 
@@ -129,11 +136,18 @@ status: lead                  # only on stubs not built from an ingested source
 Paper pages add:
 
 ```yaml
-authors: [Welling, Teh]
+authors: ["[[Max Welling]]", "[[Yee Whye Teh]]"]   # written by tools/authors.py
 year: 2011
 venue: "ICML"                 # if known from the PDF
 file: "Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf"
 ```
+
+The body line `**Authors**: Max Welling, Yee Whye Teh · ...` must give full names in PDF order;
+`tools/authors.py` reads it. Never edit the `%% refs %%` block by hand.
+
+Author pages (`type: author`) live in `wiki/authors/`, one per person, and are generated.
+Graph view colours them with the group `path:authors`; add `-path:authors` to the graph
+search to hide them, the same way tags are toggled.
 
 Lecture pages add `course:` (`ece438`, `ece270`, `ece311`, `me697`) and `lecture:` (the
 file's own label, e.g. `DSP.3.E`, `L22`, `lect_14`, `week 07 10_03`).
@@ -142,7 +156,7 @@ Tags are topics only, never page type, provenance or status.
 
 Topics (several per page; graph view colours by them, first match wins in this order):
 `diffusion`, `generative`, `sampling`, `mcmc`, `vi`, `ift`, `bayesian`, `inverse-problems`,
-`operators`, `physics-informed`, `category-theory`, `mechanics`, `symmetry`, `gp`, `pde`, `optimization`, `software`, `ml`.
+`operators`, `physics-informed`, `category-theory`, `mechanics`, `symmetry`, `gp`, `pde`, `uq`, `optimization`, `software`, `signals`, `electromagnetics`, `digital-logic`, `ml`.
 A new topic tag is recorded here before it is used.
 
 ### Meta pages (hidden from graph view)
@@ -307,6 +321,7 @@ When asked to lint or audit the wiki:
 - Page names are short, readable titles, scannable in graph view. Concepts use the common
   name or acronym (`SGLD.md`, `ELBO.md`, `Classifier-free guidance.md`). Paper pages are
   `<short name> (<Firstauthor> <year>).md` (e.g. `SGLD (Welling 2011).md`); lecture pages are
-  `<COURSE> <lecture> - <topic>.md` (e.g. `ECE438 DSP.3.E - FFT.md`). No `: / # | ^ [ ] ?`.
+  `<COURSE> <lecture> - <topic>.md` (e.g. `ECE438 DSP.3.E - FFT.md`); book chapters are
+  `<Book short> ch<N> - <topic>.md` (e.g. `Seven Sketches ch1 - Generative effects.md`). No `: / # | ^ [ ] ?`.
 - Write in clear, plain language.
 - When uncertain how to categorize something, ask the user.

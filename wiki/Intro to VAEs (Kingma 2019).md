@@ -4,7 +4,7 @@ area: bayesian
 areas: [bayesian, ml]
 source-ref: "Kingma, Welling 2019, Found. Trends Mach. Learn. 12(4), ch. 1 and appendix A"
 tags: [bayesian, vi, generative, ml]
-authors: [Kingma, Welling]
+authors: ["[[Diederik P. Kingma]]", "[[Max Welling]]"]
 year: 2019
 venue: "Foundations and Trends in Machine Learning, vol. 12, no. 4, pp. 307-392"
 file: "Bayesian/Kingma, Welling - Intro to Variational Autoencoders.pdf"

@@ -25,6 +25,8 @@ tags: [category-theory]
 
 ## Where it appears
 - [[Polynomial equipment interfaces (Bilionis 2026)]] — systems, protocols, restriction, device-to-common translations.
+- Lens as on-positions map plus on-directions map (Prop. 3.6, Def. 3.9): [[Polynomial Functors ch3 - The category of polynomial functors]]. Hom-set formula in [[Poly (Spivak 2020)]].
+- Lenses between monomials are Hedges' bimorphic lenses (source: Spivak - Poly.pdf, §2).
 
 **Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`.
 **Last updated**: 2026-11-06

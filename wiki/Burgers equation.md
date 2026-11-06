@@ -34,6 +34,7 @@ The FNO error is flat in $s$, which is evidence of [[Discretization invariance]]
 
 ## Where it appears
 - [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]].
+- Benchmark in [[PINNs (Raissi 2019)]] and the worked example in Box 3 of [[Physics-informed ML review (Karniadakis 2021)]].
 
 ## Related pages
 - [[Darcy flow]] · [[Navier-Stokes equations]] · [[Operator learning]]

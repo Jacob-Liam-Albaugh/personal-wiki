@@ -4,7 +4,7 @@ area: stochastic
 areas: [stochastic, ml]
 source-ref: "Ho, Salimans 2022, arXiv:2207.12598v1, eqs. 1-6, Alg. 1-2, Tables 1-2"
 tags: [diffusion, generative, ml]
-authors: [Ho, Salimans]
+authors: ["[[Jonathan Ho]]", "[[Tim Salimans]]"]
 year: 2022
 venue: "arXiv:2207.12598v1 (26 Jul 2022); short version at NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications"
 file: "Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf"
@@ -182,6 +182,14 @@ Wiki notes:
 - **Sampler-agnostic**: Alg. 2 explicitly allows replacing the ancestral step with DDIM ([[DDIM (Song 2021)]]).
 - **Compared with GANs**: truncation in BigGAN is the analogy; the paper beats BigGAN-deep at both FID and IS at $w=4$ ([[GAN]]).
 - **Conditional sampling in other forms**: [[Diffusion posterior sampling]] steers an unconditional diffusion model with a likelihood gradient at sampling time (classifier-guidance-like, needs a differentiable forward model); classifier-free guidance instead bakes the conditional score into the network. Wiki note: this comparison is the wiki's, not the paper's.
+
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[DDPM (Ho 2020)]], [[Score SDE (Song 2021)]]
+%% refs:end %%
 
 **Sources**: `Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`.
 **Last updated**: 2026-11-06

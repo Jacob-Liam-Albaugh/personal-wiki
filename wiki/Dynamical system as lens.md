@@ -27,6 +27,8 @@ $$\mathrm{rd}_f(s)=f_1(\mathrm{rd}(s)),\qquad \mathrm{up}^f_s(a)=\mathrm{up}_s\b
 
 ## Where it appears
 - [[Polynomial equipment interfaces (Bilionis 2026)]] — espresso system $\varphi_E$, thermocycler $\varphi_{cycle}$, exposed systems $\varphi;f$.
+- Moore machines as lenses $Sy^S \to Iy^A$ (Def. 4.4, p. 85; Poly 2020 Prop. 3.1 names the outputs $B$): [[Moore machine]]. Dependent systems Def. 4.18: [[Polynomial Functors ch4 - Dynamical systems as dependent lenses]].
+- Comonoid generalization (Def. 3.2): [[Polynomial comonoid]].
 
 **Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`.
 **Last updated**: 2026-11-06

@@ -4,7 +4,7 @@ area: operators
 areas: [operators, ml, pde]
 source-ref: "Kovachki, Li, Liu, Azizzadenesheli, Bhattacharya, Stuart, Anandkumar 2022, JMLR 23 (2022) 1-97"
 tags: [operators, ml]
-authors: [Kovachki, Li, Liu, Azizzadenesheli, Bhattacharya, Stuart, Anandkumar]
+authors: ["[[Nikola B. Kovachki]]", "[[Zongyi Li]]", "[[Burigede Liu]]", "[[Kamyar Azizzadenesheli]]", "[[Kaushik Bhattacharya]]", "[[Andrew M. Stuart]]", "[[Anima Anandkumar]]"]
 year: 2022
 venue: "JMLR 23 (2022) 1-97; arXiv:2108.08481v6"
 file: "Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf"
@@ -14,7 +14,7 @@ file: "Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf"
 
 **Summary**: Defines the neural operator, a composition of pointwise lifting, iterated nonlocal kernel-integral layers and pointwise projection, which learns a map between Banach function spaces with a fixed parameter count and is discretization invariant. Four concrete parametrizations are given (graph, low-rank, multipole, Fourier), a universal approximation theorem is proved for the integral-operator class, and the methods are benchmarked on Poisson, Darcy, Burgers and Navier-Stokes. The Fourier version is best in nearly all benchmarks.
 
-**Authors**: Kovachki, Li, Liu, Azizzadenesheli, Bhattacharya, Stuart, Anandkumar · **Year**: 2022 (JMLR 23, submitted 12/21, revised 10/22, published 12/22) · **File**: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`
+**Authors**: Nikola Kovachki, Zongyi Li, Burigede Liu, Kamyar Azizzadenesheli, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar · **Year**: 2022 (JMLR 23, submitted 12/21, revised 10/22, published 12/22) · **File**: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`
 
 ---
 
@@ -267,6 +267,15 @@ Wiki note: the benchmark PDEs are all smooth-solution, mostly periodic or simple
 - Later work: [[LNO (Cao 2023)]] (Laplace transform instead of Fourier basis; [[LNO]] is not discussed here, Wiki note: only related as a later alternative to the FNO basis) and the overview [[Operator learning review (Kovachki 2024)]].
 - Benchmark PDEs: [[Darcy flow]], [[Burgers equation]], [[Navier-Stokes equations]]. General setting: [[Operator learning]], [[Neural operator]], [[Kernel integral operator]].
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[PINNs (Raissi 2019)]], [[SIREN paper (Sitzmann 2020)]]
+**Cited by in this wiki**: [[NIF (Pan 2023)]], [[Operator learning review (Kovachki 2024)]]
+%% refs:end %%
+
 **Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf` (appendix proofs A-G not read in detail; theorem statements are from §8).
 **Last updated**: 2026-11-06
 
@@ -278,12 +287,8 @@ Wiki note: the benchmark PDEs are all smooth-solution, mostly periodic or simple
 - [[Kernel integral operator]]
 - [[Discretization invariance]]
 - [[Universal approximation for operators]]
-- [[Neural operator#Graph neural operator|graph neural operator]]
-- [[Neural operator#Low-rank neural operator|low rank neural operator]]
-- [[Neural operator#Multipole graph neural operator|multipole graph neural operator]]
 - [[FNO]]
 - [[DeepONet]]
-- [[Discretization invariance#Zero-shot super-resolution|zero shot super resolution]]
 - [[Darcy flow]]
 - [[Burgers equation]]
 - [[Navier-Stokes equations]]

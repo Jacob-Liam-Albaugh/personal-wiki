@@ -4,7 +4,7 @@ area: ift
 areas: [ift, bayesian, stochastic]
 source-ref: "Welling, Teh 2011, ICML, eq. 4"
 tags: [sampling, mcmc, bayesian]
-authors: [Welling, Teh]
+authors: ["[[Max Welling]]", "[[Yee Whye Teh]]"]
 year: 2011
 venue: "ICML (Proceedings of the 28th International Conference on Machine Learning)"
 file: "IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf"
@@ -101,6 +101,15 @@ Wiki note: the experiments compare against corrected Langevin only, not against 
 - Related concepts: [[Langevin dynamics]], [[Metropolis-Hastings correction]], [[SGLD]], [[SGLD]].
 - Duplicates in the library: `Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf` (same paper) and a Finder alias in `Stochastic Methods/`. This page's source-ref is the `IFT/` copy; `areas` records all three folders.
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[RMHMC (Girolami 2011)]]
+**Cited by in this wiki**: [[AMAGOLD (Zhang 2020)]], [[Cyclical SG-MCMC (Zhang 2020)]], [[IFT thermal conductivity (Alberts 2026)]], [[Low-precision SGLD (Zhang 2022)]], [[PIFT (Alberts 2023)]], [[Variational dropout (Kingma 2015)]]
+%% refs:end %%
+
 **Sources**: `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
@@ -111,9 +120,6 @@ Wiki note: the experiments compare against corrected Langevin only, not against 
 - [[SG-MCMC]]
 - [[Langevin dynamics]]
 - [[Metropolis-Hastings correction]]
-- [[SGLD]]
-- [[SGLD]]
-- [[SGLD]]
 - [[SGHMC]]
 - [[Cyclical SG-MCMC (Zhang 2020)]]
 - [[AMAGOLD (Zhang 2020)]]

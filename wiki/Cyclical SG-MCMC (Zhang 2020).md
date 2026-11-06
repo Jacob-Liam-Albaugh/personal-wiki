@@ -4,7 +4,7 @@ area: ift
 areas: [ift, bayesian, stochastic]
 source-ref: "Zhang, Li, Zhang, Chen, Wilson 2020, ICLR, eq. 1, Alg. 1, Thm. 1-2"
 tags: [sampling, mcmc, bayesian]
-authors: [Zhang, Li, Zhang, Chen, Wilson]
+authors: ["[[Ruqi Zhang]]", "[[Chunyuan Li]]", "[[Jianyi Zhang]]", "[[Changyou Chen]]", "[[Andrew Gordon Wilson]]"]
 year: 2020
 venue: "ICLR"
 file: "IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf"
@@ -113,6 +113,15 @@ Wiki note: Theorem 2's bound grows with $K\alpha_0$ and $\alpha_0^2K$ in the num
 - Complementary to [[AMAGOLD (Zhang 2020)]] (same first author): AMAGOLD addresses step-size bias by a stochastic MH-style correction, whereas cSG-MCMC accepts the bias and spends large steps on exploration with no correction. [[Low-precision SGLD (Zhang 2022)]] is a third paper by the same first author, about low-precision arithmetic.
 - Related concepts: [[Langevin dynamics]], [[Metropolis-Hastings correction]], [[Cyclical SG-MCMC]], [[Cyclical SG-MCMC]], [[Wasserstein distance]], [[Bayesian model averaging]].
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[SGLD (Welling 2011)]]
+**Cited by in this wiki**: [[AMAGOLD (Zhang 2020)]], [[Low-precision SGLD (Zhang 2022)]], [[Priors in Bayesian deep learning (Fortuin 2022)]]
+%% refs:end %%
+
 **Sources**: `IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`.
 **Last updated**: 2026-11-06
 
@@ -128,5 +137,4 @@ Wiki note: Theorem 2's bound grows with $K\alpha_0$ and $\alpha_0^2K$ in the num
 - [[Cyclical SG-MCMC]]
 - [[Langevin dynamics]]
 - [[Metropolis-Hastings correction]]
-- [[Cyclical SG-MCMC]]
 - [[Wasserstein distance]]

@@ -18,6 +18,7 @@ $\sigma=E_1e+E_2(e-e^p)$, $\partial_te^p=\tfrac{E_2}{\nu}(e-e^p)$ (App. D, eq. D
 
 ## Where it appears
 - [[Markovian homogenized viscoelasticity (Bhattacharya 2023)]].
+- [[Energy-based kernels for viscoelastic flow (Otto 2024)]] — viscoelastic constitutive modelling with learned kernels (check the page for the exact model class).
 
 **Sources**: `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`.
 **Last updated**: 2026-11-06

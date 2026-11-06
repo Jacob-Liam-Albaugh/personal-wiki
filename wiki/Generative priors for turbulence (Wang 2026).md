@@ -4,7 +4,7 @@ area: ift
 areas: [ift, stochastic]
 source-ref: "Wang 2026, Phys. Rev. Fluids 11, 090502"
 tags: [diffusion, generative, inverse-problems, pde]
-authors: [Wang]
+authors: ["[[Jian-Xun Wang]]"]
 year: 2026
 venue: "Physical Review Fluids 11, 090502 (Invited Article)"
 file: "IFT/Wang - Generative priors for spatiotemporal turbulence.pdf"
@@ -14,7 +14,7 @@ file: "IFT/Wang - Generative priors for spatiotemporal turbulence.pdf"
 
 **Summary**: A perspective article arguing that diffusion and flow-matching models should be treated as reusable probabilistic priors $p_\theta(x)$ for turbulence rather than as surrogate architectures. A single pretrained prior can generate stochastic flow realizations, be conditioned on sparse or indirect measurements at inference time without retraining, and be scaled to large domains by local (patchwise) composition. The article also proposes six validation criteria. It is a review of the author's group's work; it contains no new experiments.
 
-**Authors**: J.-X. Wang (Cornell) · **Year**: 2026 · **File**: `IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`
+**Authors**: Jian-Xun Wang (Cornell) · **Year**: 2026 · **File**: `IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`
 
 ---
 
@@ -129,8 +129,6 @@ Wiki note: the article has no quantitative comparison table, so the claims of ad
 
 ## Related pages
 - [[Information field theory]]
-- [[Diffusion models]]
-- [[Diffusion models]]
 - [[Diffusion models]]
 - [[Flow matching]]
 - [[Diffusion posterior sampling]]

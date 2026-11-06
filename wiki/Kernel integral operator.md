@@ -30,6 +30,10 @@ Kovachki et al. report that the $a$-dependent kernel (eq. 8) beats the plain ker
 ## Where it appears
 - [[Neural operator (Kovachki 2022)]], [[FNO (Li 2021)]], [[LNO (Cao 2023)]], [[Operator learning review (Kovachki 2024)]] (eq. 4.2, p. 14).
 
+## Spectral properties
+- for a continuous symmetric PSD kernel on a compact interval, the integral operator has real nonnegative eigenvalues and the kernel expands as a uniformly convergent sum of eigenvalue times eigenfunction products (Mercer; source: Greengard-O'Neil 2022, Thm 1, p. 4; Kanagawa 2018, Thm 4.1, p. 30). The eigenfunctions depend on the measure, the kernel does not (Kanagawa 2018, Remark 4.1).
+- Nystrom quadrature on Gauss-Legendre nodes turns the operator into a matrix with entries sqrt(w_i w_j) k(x_i, x_j) (source: Greengard-O'Neil 2022, Alg. 1, p. 6).
+
 **Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
@@ -37,3 +41,5 @@ Kovachki et al. report that the $a$-dependent kernel (eq. 8) beats the plain ker
 
 ## Related pages
 - [[Neural operator]] · [[Operator learning]]
+- [[Neural tangent kernel]]
+- [[RKHS]], [[Kernel methods]], [[Gaussian processes and kernel methods (Kanagawa 2018)]], [[Reduced-rank GPs (Greengard 2022)]].

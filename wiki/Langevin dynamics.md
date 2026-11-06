@@ -25,6 +25,13 @@ In score-based generation the gradient comes from a learned score, $\nabla\log p
 ## Where it appears
 - [[Score SDE (Song 2021)]].
 - [[SGLD (Welling 2011)]] · [[Cyclical SG-MCMC (Zhang 2020)]] · [[AMAGOLD (Zhang 2020)]] · [[Low-precision SGLD (Zhang 2022)]].
+- The noise term is increments of a [[Wiener process]]; origin in [[Brownian motion]] and [[Brownian movement (Einstein 1905)]].
+- [[Ornstein-Uhlenbeck process]] is the linear-drift Langevin/SDE case with a Gaussian stationary law; [[Euler-Maruyama method]] is the discretization used to simulate it (source: sinverse/sodes). [[Stochastic differential equation]] gives the general setting.
+- Wiki note: the book's SDE chapter does not mention Langevin sampling; the link is the shared SDE form $dX=b\,dt+\sigma\,dW$.
+- The noise term is increments of a [[Wiener process]]; origin in [[Brownian motion]] and [[Brownian movement (Einstein 1905)]].
+
+## Riemannian extension
+- Girolami 2011 defines the manifold Langevin diffusion with metric G(theta), and MMALA as its discretization with a Metropolis correction (source: Girolami 2011, §3). Link [[Riemannian manifold HMC]].
 
 **Sources**: `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
@@ -33,3 +40,4 @@ In score-based generation the gradient comes from a learned score, $\nabla\log p
 
 ## Related pages
 - [[Wasserstein distance]] · [[SGHMC]]
+- Book sampler progression: random-walk MH, [[Hamiltonian Monte Carlo]], [[NUTS]] ([[ME697 4.2 - Sampling posteriors]]). Wiki note: Langevin methods are the gradient-only relative; the book does not treat them in Part 4.

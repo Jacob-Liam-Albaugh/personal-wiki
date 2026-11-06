@@ -4,7 +4,7 @@ area: bayesian
 areas: [bayesian, ml]
 source-ref: "Kingma, Welling 2014, ICLR (arXiv:1312.6114v10), eqs. 1-10"
 tags: [bayesian, vi, generative, ml]
-authors: [Kingma, Welling]
+authors: ["[[Diederik P. Kingma]]", "[[Max Welling]]"]
 year: 2014
 venue: "ICLR 2014 (arXiv:1312.6114v10, 1 May 2014)"
 file: "Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf"
@@ -111,6 +111,14 @@ Reliable only for latent dimension below about 5.
 - Wiki note: the same reparameterized-ELBO machinery underlies amortized posterior networks used for inverse problems ([[Amortized VI]]) and, loosely, the noise-to-sample maps in [[Diffusion models]] and [[Flow matching]]. Neither is claimed by this paper.
 - Uses HMC / gradient-based MCMC only as a baseline and as a likelihood evaluator (appendices D, E). Compare [[SGLD]] ([[SGLD (Welling 2011)]]), the other Welling method for scalable Bayesian learning; SGLD samples parameters, AEVB fits a variational family.
 
+
+
+
+
+%% refs:start %%
+**Cited by in this wiki**: [[Adam paper (Kingma 2015)]], [[Amortized VI for inverse problems (Karumuri 2024)]], [[Amortized VI when and why (Margossian 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[DDPM (Ho 2020)]], [[Priors in Bayesian deep learning (Fortuin 2022)]], [[Variational dropout (Kingma 2015)]], [[Variational graph auto-encoder (Kipf 2016)]]
+%% refs:end %%
+
 **Sources**: `Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`.
 **Last updated**: 2026-11-06
 
@@ -127,3 +135,4 @@ Reliable only for latent dimension below about 5.
 - [[Intro to VAEs (Kingma 2019)]]
 - [[Variational dropout (Kingma 2015)]]
 - [[SGLD]]
+- [[Variational graph auto-encoder (Kipf 2016)]], which uses the reparameterization trick of this paper.

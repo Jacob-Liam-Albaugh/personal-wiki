@@ -29,6 +29,8 @@ tags: [pde, operators]
 ## Where it appears
 - [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]].
 - Turbulence priors: [[Generative priors for turbulence (Wang 2026)]] (Wiki note: a different flow setting).
+- [[PINNs (Raissi 2019)]] — PINN on incompressible flow; [[NIF (Pan 2023)]] — neural implicit flow on flow-field data; [[Energy-based kernels for viscoelastic flow (Otto 2024)]].
 
 ## Related pages
 - [[Darcy flow]] · [[Burgers equation]] · [[FNO]] · [[Discretization invariance]]
+- [[Maxwell's equations]]: another classical PDE system (wiki note).

@@ -4,7 +4,7 @@ area: bayesian
 areas: [inverse-problems, scientific-machine-learning]
 source-ref: "Karumuri, Bilionis 2024, arXiv:2305.20004v3"
 tags: [bayesian, vi, inverse-problems, ml]
-authors: [Karumuri, Bilionis]
+authors: ["[[Sharmila Karumuri]]", "[[Ilias Bilionis]]"]
 year: 2024
 venue: "arXiv:2305.20004v3 (stat.ML), 28 May 2024 (preprint; no journal given in the PDF)"
 file: "Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf"
@@ -106,6 +106,14 @@ Wiki note (not in paper): Theorem 2 and the "equivalent to all VI problems" clai
 - Uses surrogates (residual nets, PINN-style energy loss: [[PINN]]) in place of the forward model; compares conceptually to operator-learning approaches ([[Operator learning]], [[DeepONet]]).
 - Complementary samplers: [[SGLD]]; flow/diffusion-style generative alternatives: [[Diffusion models]], [[Flow matching]] (Wiki note: not discussed in this paper).
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Amortized VI when and why (Margossian 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[VAE paper (Kingma 2014)]], [[Variational inverse problems (Tsilifis 2014)]], [[Wiener-Askey chaos (Xiu 2002)]]
+%% refs:end %%
+
 **Sources**: `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06
 
@@ -127,3 +135,4 @@ Wiki note (not in paper): Theorem 2 and the "equivalent to all VI problems" clai
 - [[SGLD]]
 - [[Diffusion models]]
 - [[Flow matching]]
+- Reproduced in the ME 697 book as the inverse-kinematics example (§3.4 of the paper): [[ME697 4.4 - Hierarchical Bayes]]. (source: `inverse/hbayes/04_amortized_vi.ipynb`)

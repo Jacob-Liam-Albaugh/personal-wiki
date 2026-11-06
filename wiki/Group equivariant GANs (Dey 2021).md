@@ -4,7 +4,7 @@ area: symmetry
 areas: [symmetry, ml]
 source-ref: "Dey, Chen, Ghafurian 2021, ICLR, §3-4, Tables 1-4"
 tags: [symmetry, generative, ml]
-authors: [Dey, Chen, Ghafurian]
+authors: ["[[Neel Dey]]", "[[Antong Chen]]", "[[Soheil Ghafurian]]"]
 year: 2021
 venue: "ICLR 2021 (arXiv:2005.01683v2, 30 Mar 2021)"
 file: "Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf"
@@ -132,6 +132,14 @@ Wiki note: improvement on CIFAR-10 is smaller and the G-CNN G&D variant is sligh
 - Wiki note: [[Score SDE (Song 2021)]] reports GAN baselines (StyleGAN2-ADA FID 2.92 unconditional on CIFAR-10) and uses the same BigGAN-style blocks in its NCSN++, so the equivariant-layer idea could in principle transfer to [[Diffusion models]] score networks; the paper does not test this. **[unverified]**
 - Equivariant generative priors for physical fields: [[Generative priors for turbulence (Wang 2026)]] (Wiki note, check relevance).
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Group equivariant CNNs (Cohen 2016)]]
+%% refs:end %%
+
 **Sources**: `Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`.
 **Last updated**: 2026-11-06
 
@@ -140,7 +148,7 @@ Wiki note: improvement on CIFAR-10 is smaller and the G-CNN G&D variant is sligh
 ## Related pages
 - [[GAN]]
 - [[Equivariance#Group equivariant convolution|group equivariant convolution]]
-- [[Equivariance]]
 - [[Diffusion models]]
 - [[Score SDE (Song 2021)]]
 - [[Generative priors for turbulence (Wang 2026)]]
+- [[Group equivariant CNN]], [[Group equivariant CNNs (Cohen 2016)]]: the layers it builds on.

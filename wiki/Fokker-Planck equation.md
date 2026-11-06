@@ -26,6 +26,16 @@ Song et al. also note that for non-affine drift, the DSM transition kernel can b
 
 ## Where it appears
 - [[Score SDE (Song 2021)]].
+- [[Brownian motion]]: Einstein's diffusion equation for the particle density is the simplest case (source: Einstein 1905, eq. 10, [[Brownian movement (Einstein 1905)]]).
+- Derivation for random initial data by flux balance and the divergence theorem, with the exponential-decay example checked against Monte Carlo: [[ME697 2.1 - Sensitivity analysis]] (source: `up/sensitivity_analysis/05_fokker_planck.ipynb`).
+- Wiki note: for $\dot x=-\lambda x$ the book gives
+
+  $$\sigma_t^2=\sigma_0^2e^{-2\lambda t}+\tfrac{\mu_0^2}{2\lambda}(1-e^{-2\lambda t})$$
+
+  The map is linear, so the variance is $\sigma_0^2e^{-2\lambda t}$ and the extra term does not belong. The notebook code uses the same wrong formula.
+- Naming: with no diffusion term the equation is the Liouville (continuity) equation.
+- [[Ornstein-Uhlenbeck process]] and [[Geometric Brownian motion]] are SDEs whose densities obey a Fokker-Planck equation (Wiki note; the book does not state it) (source: sinverse/sodes).
+- [[Brownian motion]]: Einstein's diffusion equation for the particle density is the simplest case (source: Einstein 1905, eq. 10, [[Brownian movement (Einstein 1905)]]).
 
 **Sources**: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
 **Last updated**: 2026-11-06

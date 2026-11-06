@@ -28,6 +28,7 @@ Wiki note: Poly also has the composition product $\triangleleft$ and the Dirichl
 
 ## Where it appears
 - [[Polynomial equipment interfaces (Bilionis 2026)]] — the raw joint interface $p_{raw} = p_{TC}\times p_H$ of thermocycler and handler, and the lens $f\times\mathrm{id}$.
+- Cartesian closed, with all limits: [[Polynomial Functors ch5 - More categorical properties]], Thm. 5.31. Contrast with [[Poly parallel product]]. Prop. 3.56 gives the product.
 
 **Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`.
 **Last updated**: 2026-11-06

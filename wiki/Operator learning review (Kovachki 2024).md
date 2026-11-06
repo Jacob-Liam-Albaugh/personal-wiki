@@ -4,7 +4,7 @@ area: operators
 areas: [operators, ml, math]
 source-ref: "Kovachki, Lanthaler, Stuart 2024, arXiv:2402.15715v1, §3-5"
 tags: [operators, ml]
-authors: [Kovachki, Lanthaler, Stuart]
+authors: ["[[Nikola B. Kovachki]]", "[[Samuel Lanthaler]]", "[[Andrew M. Stuart]]"]
 year: 2024
 venue: "arXiv:2402.15715v1 [cs.LG], 24 Feb 2024 (dated 27 Feb 2024); review article"
 file: "Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf"
@@ -257,6 +257,14 @@ Wiki notes (labelled): the review's scope is approximation and sample complexity
 - Explains why many architectures in this wiki (e.g. [[LNO (Cao 2023)]]) work empirically on PDE operators even though general Lipschitz operators suffer the curse: those PDE operators carry structure (holomorphy, explicit formulas).
 - Defines the linear-vs-nonlinear approximation distinction that separates DeepONet/PCA-Net from FNO/[[Random features model]].
 - [[Gaussian process]] link: Thm 5.1 uses a Gaussian prior over eigenvalues and Gaussian input measure, so the estimator is a Gaussian posterior mean; the review also relates the RFM to kernel methods (p. 11).
+
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]], [[Tensor basis NN turbulence (Ling 2016)]]
+%% refs:end %%
 
 **Sources**: `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06

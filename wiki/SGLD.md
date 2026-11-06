@@ -30,9 +30,11 @@ This wiki writes SGLD as Welling-Teh do: drift $\frac\epsilon2\nabla\log p$, noi
 ## In the lab papers
 - [[PIFT (Alberts 2023)]]: energy gradient by importance sampling $X\sim q$, $n=b=1$, $\alpha_1=0.51$; unsuitable for multimodal posteriors. Hyperparameters via [[Nested SGLD]].
 - [[IFT thermal conductivity (Alberts 2026)]]: $\alpha_2=0.01$, $\alpha_3=0.51$, $\alpha_1=0.1/\beta$.
+- [[ME697 6.1 - Stochastic differential equations]] supplies the SDE background (Itô calculus, [[Brownian motion]]).
 
 ## Where it appears
 - [[SGLD (Welling 2011)]] (introduces it) · [[Cyclical SG-MCMC (Zhang 2020)]] · [[Low-precision SGLD (Zhang 2022)]] · the two IFT papers above · [[Diffusion posterior sampling]] (D-Flow SGLD, cited).
+- [[Euler-Maruyama method]] is the same discretization as the SGLD update with a gradient drift (Wiki note; the book does not state the connection) (source: sinverse/sodes).
 
 **Sources**: `IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`, `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, `IFT/Bilionis, Alberts - IFT.pdf`, `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
 **Last updated**: 2026-11-06
@@ -41,3 +43,5 @@ This wiki writes SGLD as Welling-Teh do: drift $\frac\epsilon2\nabla\log p$, noi
 
 ## Related pages
 - [[Langevin dynamics]] · [[SG-MCMC]] · [[Metropolis-Hastings correction]]
+- [[RMHMC (Girolami 2011)]]: MMALA is the Riemannian Langevin step (source: Girolami 2011, §3).
+- [[Brownian motion]], [[Wiener process]].

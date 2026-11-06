@@ -32,6 +32,15 @@ tags: [optimization, ml]
 
 **Wiki note**: the RMSProp denominator is the same diagonal preconditioner idea as preconditioned [[SGLD]] (Welling-Teh §3.2).
 
+## Where it appears
+- Adam followed by L-BFGS is the standard PINN optimizer pair ([[Physics-informed ML review (Karniadakis 2021)]], Box 3).
+- Used to fit surrogate MLPs (lr $10^{-3}$, 5000 iterations) and GP hyperparameters (lr 0.01), and the e3nn classifier (lr 0.01): [[ME697 2.3 - Surrogates]], [[ME697 2.6 - Symmetries]], [[ME697 3.1 - Functional inputs]].
+
+## In the paper
+- Defaults: $\alpha=0.001$, $\beta_1=0.9$, $\beta_2=0.999$, $\epsilon=10^{-8}$ (Alg. 1, p. 2).
+- Wiki note: Algorithm 1 puts $\epsilon$ outside the root, $\hat m_t/(\sqrt{\hat v_t}+\epsilon)$, and so does the efficient variant (p. 2). The book's inside-the-root form is wrong.
+- [[Adam paper (Kingma 2015)]]. The regret proof (§4) is questioned in later literature **[unverified]**.
+
 **Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`.
 **Last updated**: 2026-11-06
 
@@ -39,3 +48,4 @@ tags: [optimization, ml]
 
 ## Related pages
 - [[ME697 1.4 - Optimization]] · [[SGD]] · [[Momentum]] · [[Variational inference]] (ELBO usually trained with Adam)
+- [[DeepSeek-V2 (DeepSeek-AI 2024)]]: AdamW with $\beta_1=0.9$, $\beta_2=0.95$, weight decay 0.1 (source: §3.1.2).

@@ -47,6 +47,11 @@ With $W_0=0$, constant-in-$y$ kernels and sum projection, a two-layer neural ope
 - [[LNO (Cao 2023)]]: the Laplace instance.
 - [[Operator learning review (Kovachki 2024)]]: places it against [[Encoder-decoder operators]] models as a nonlinear approximation.
 
+## Examples
+
+> [!example] Homework 5, problem 4: Darcy flow (source: homework/05_homework.ipynb)
+> Train a Fourier neural operator for $\nabla\cdot(K\nabla p)=f$, then propagate uncertainty from a noisy $24\times24$ permeability measurement smoothed with a GP.
+
 **Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 
@@ -54,3 +59,5 @@ With $W_0=0$, constant-in-$y$ kernels and sum projection, a two-layer neural ope
 
 ## Related pages
 - [[Operator learning]] · [[Kernel integral operator]] · [[FNO]] · [[LNO]] · [[Discretization invariance]] · [[DeepONet]]
+- [[Physics-informed machine learning]] · [[Neural implicit flow]]
+- [[Parametric PINN]] (branch-trunk ansatz), [[Proper orthogonal decomposition]].

@@ -31,3 +31,5 @@ With a constant $\alpha$ the iterates keep wandering around the optimum (book, 0
 
 ## Related pages
 - [[ME697 1.4 - Optimization]] · [[Gradient descent]] · [[vmap]] (per-example gradients)
+- [[Init and momentum (Sutskever 2013)]], [[Dropout]] (SGD with a stochastic mask; Srivastava 2014, §5).
+- [[Attention is all you need (Vaswani 2017)]]: Adam with warmup for the Transformer.

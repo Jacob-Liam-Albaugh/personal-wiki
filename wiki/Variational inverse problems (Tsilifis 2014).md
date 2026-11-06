@@ -4,7 +4,7 @@ area: bayesian
 areas: [inverse-problems]
 source-ref: "Tsilifis, Bilionis, Katsounaros, Zabaras 2014, arXiv:1410.5522"
 tags: [bayesian, vi, inverse-problems]
-authors: [Tsilifis, Bilionis, Katsounaros, Zabaras]
+authors: ["[[Panagiotis Tsilifis]]", "[[Ilias Bilionis]]", "[[Ioannis Katsounaros]]", "[[Nicholas Zabaras]]"]
 year: 2014
 venue: "arXiv:1410.5522 (stat.ML), submitted to Inverse Problems"
 file: "Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf"
@@ -92,6 +92,14 @@ Wiki note: the examples are low dimensional (6 to 7 unknowns) and the ELBO is a 
 - The per-dataset optimisation here is the "F-VI-like" setting studied in [[Amortized VI when and why (Margossian 2024)]]; there the question is when one shared inference function can reproduce per-observation optima.
 - Related lab-adjacent method pages: [[SGLD]] (alternative gradient-based posterior sampler), [[Information field theory]] (field-valued Bayesian inference).
 
+
+
+
+
+%% refs:start %%
+**Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]]
+%% refs:end %%
+
 **Sources**: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`.
 **Last updated**: 2026-11-06
 
@@ -106,3 +114,4 @@ Wiki note: the examples are low dimensional (6 to 7 unknowns) and the ELBO is a 
 - [[Amortized VI when and why (Margossian 2024)]]
 - [[SGLD]]
 - [[Information field theory]]
+- Its example 3.1 (catalysis, Katsounaros 2012 experiment) is the running example of Part 4 of the book: [[Catalysis problem]]. (source: `inverse/basics/02_classic_example.ipynb`)

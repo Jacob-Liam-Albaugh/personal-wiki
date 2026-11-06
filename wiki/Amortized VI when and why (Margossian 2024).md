@@ -4,7 +4,7 @@ area: bayesian
 areas: [variational-inference]
 source-ref: "Margossian, Blei 2024, UAI, arXiv:2307.11018v4"
 tags: [bayesian, vi]
-authors: [Margossian, Blei]
+authors: ["[[Charles C. Margossian]]", "[[David M. Blei]]"]
 year: 2024
 venue: "UAI 2024 (40th Conference on Uncertainty in Artificial Intelligence)"
 file: "Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf"
@@ -99,6 +99,15 @@ Wiki note: results are for mean-field Gaussians and small problems; the theorem 
 - Gives the theory missing from [[Amortized VI for inverse problems (Karumuri 2024)]]: that paper trains a data-to-posterior network over *whole datasets*, a different (joint-over-$y$) setting from Margossian and Blei's per-datum latents, but both rest on the same idea of one function replacing per-dataset optimisation. Its "no amortization gap" assumption in Theorem 2 is the practical counterpart of an ideal inference function. Wiki note: the inverse-problem setting has one latent $\xi$ per dataset $y$, so it is the "$N=1$ per dataset, many datasets" regime, not the exchangeable-$N$ regime analysed here; the correspondence is loose.
 - The per-dataset optimisation of [[Variational inverse problems (Tsilifis 2014)]] is the F-VI analogue that amortization replaces.
 - Uses the [[Reparameterization trick]] and [[ELBO]]; frames the VAE encoder as A-VI. Mentions semi-amortized VI (A-VI then F-VI refinement) as justification when the gap cannot be closed.
+
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[VAE paper (Kingma 2014)]]
+**Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]]
+%% refs:end %%
 
 **Sources**: `Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`.
 **Last updated**: 2026-11-06

@@ -4,7 +4,7 @@ area: operators
 areas: [operators, math]
 source-ref: "Cao, Goswami, Karniadakis 2023, arXiv:2303.10528v2, eqs. 8-18"
 tags: [operators, ml, pde]
-authors: [Cao, Goswami, Karniadakis]
+authors: ["[[Qianying Cao]]", "[[Somdatta Goswami]]", "[[George Em Karniadakis]]"]
 year: 2023
 venue: "arXiv:2303.10528v2 [cs.LG], preprint submitted to Elsevier, 30-31 May 2023"
 file: "Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf"
@@ -121,6 +121,14 @@ Wiki notes (not claimed in the paper):
 - Motivated by DeepONet's universality background ([[DeepONet (Lu 2021)]], [[Universal approximation for operators]]); no approximation theory for LNO itself is given.
 - Mathematical background in [[Laplace transform]] and [[LNO#Pole-residue method|pole residue method]] (structural dynamics literature, refs. [6,7]).
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]]
+%% refs:end %%
+
 **Sources**: `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
@@ -132,7 +140,6 @@ Wiki notes (not claimed in the paper):
 - [[FNO]]
 - [[LNO]]
 - [[Laplace transform]]
-- [[LNO#Pole-residue method|pole residue method]]
 - [[Kernel integral operator]]
 - [[Discretization invariance]]
 - [[DeepONet]]

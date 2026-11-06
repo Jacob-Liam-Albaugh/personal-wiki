@@ -4,7 +4,7 @@ area: bayesian
 areas: [bayesian, gp, ml]
 source-ref: "Fortuin 2022 (arXiv:2105.06868v3), eqs. 8-11, 24, 30-34, 36"
 tags: [bayesian, ml]
-authors: [Fortuin]
+authors: ["[[Vincent Fortuin]]"]
 year: 2022
 venue: "arXiv preprint (stat.ML), v3 18 Mar 2022"
 file: "Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf"
@@ -103,6 +103,14 @@ Wiki note: the review gives no quantitative comparison across prior families, so
 - General background: [[Bayesian neural networks]], [[Variational inference]], [[KL divergence]], [[Gaussian process]], [[Normalizing flows]], [[Bayesian model averaging]], [[SG-MCMC]].
 - Function-space prior ideas connect to [[Physics-informed prior]] (Wiki note).
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[Dropout paper (Srivastava 2014)]], [[VAE paper (Kingma 2014)]]
+%% refs:end %%
+
 **Sources**: `Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
 **Last updated**: 2026-11-06
 
@@ -120,8 +128,6 @@ Wiki note: the review gives no quantitative comparison across prior families, so
 - [[Bayesian model averaging]]
 - [[Physics-informed prior]]
 - cold posterior effect
-- [[Gaussian process|nngp kernel]]
-- [[Gaussian process|neural tangent kernel]]
 - function space prior
 - [[SDE-BNN (Xu 2022)]]
 - [[Bayesian DenseED surrogate (Zhu 2018)]]

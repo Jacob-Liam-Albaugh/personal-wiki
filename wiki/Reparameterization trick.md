@@ -30,6 +30,7 @@ tags: [vi, ml]
 ## Where it appears
 - [[VAE paper (Kingma 2014)]] (defines it) · [[Variational dropout (Kingma 2015)]] (weights, eq. 3) · [[Intro to VAEs (Kingma 2019)]] (motivation only).
 - [[Amortized VI for inverse problems (Karumuri 2024)]] · [[Amortized VI when and why (Margossian 2024)]] (Adam on ELBO gradients) · [[SDE-BNN (Xu 2022)]].
+- Written as $x=g_\phi(\epsilon)=\mu+L\epsilon$ for the full-rank Gaussian guide, giving a sample-average ELBO gradient. (source: `inverse/vi/01_basics.md`; [[ME697 4.3 - Variational inference]])
 
 **Sources**: `Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06

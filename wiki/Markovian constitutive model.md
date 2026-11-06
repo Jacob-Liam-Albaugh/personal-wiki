@@ -32,3 +32,4 @@ tags: [mechanics, operators]
 
 ## Related pages
 - [[Homogenization]] · [[Kelvin-Voigt viscoelasticity]] · [[Recurrent constitutive model]]
+- [[Energy-based kernels for viscoelastic flow (Otto 2024)]]

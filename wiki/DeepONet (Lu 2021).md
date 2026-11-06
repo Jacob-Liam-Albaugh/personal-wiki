@@ -4,7 +4,7 @@ area: operators
 areas: [operators, ml]
 source-ref: "Lu, Jin, Pang, Zhang, Karniadakis 2021, Nat. Mach. Intell. 3, 218-229"
 tags: [operators, ml]
-authors: [Lu, Jin, Pang, Zhang, Karniadakis]
+authors: ["[[Lu Lu]]", "[[Pengzhan Jin]]", "[[Guofei Pang]]", "[[Zhongqiang Zhang]]", "[[George Em Karniadakis]]"]
 year: 2021
 venue: "Nature Machine Intelligence 3, 218-229"
 file: "PSL Reading Group/26.10.22 - DeepONets.pdf"
@@ -137,6 +137,15 @@ Wiki note: (1) Evaluation is on in-distribution test functions except for the si
 - Uses [[Karhunen-Loève expansion]] to feed random processes into the branch/trunk nets, and the 2-Wasserstein distance to quantify the shift between GRF input spaces.
 - Wiki note: this reading-group copy may duplicate a copy elsewhere in the library (e.g. `Operators/Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf`); the coordinator will confirm whether to treat them as one source.
 - In the same reading-group batch, [[Markovian homogenized viscoelasticity (Bhattacharya 2023)]] cites universal approximation results for operators ([6], Chen-Chen) when motivating operator learning.
+
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[HNNs (Greydanus 2019)]], [[Neural ODEs (Chen 2018)]]
+**Cited by in this wiki**: [[FNO (Li 2021)]], [[LNO (Cao 2023)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]], [[PIFT (Alberts 2023)]], [[When and why PINNs fail (Wang 2022)]]
+%% refs:end %%
 
 **Sources**: `PSL Reading Group/26.10.22 - DeepONets.pdf`.
 **Last updated**: 2026-11-06

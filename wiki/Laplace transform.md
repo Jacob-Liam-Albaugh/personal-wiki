@@ -26,6 +26,10 @@ Compare the Fourier transform, $\mathcal F\{x\}(\omega)=\int_{-\infty}^\infty x\
 - [[LNO]]: the motivation for a pole-residue kernel.
 - [[LNO (Cao 2023)]].
 
+## Related / discrete-time counterpart
+- [[Z-transform]] is the discrete-time analogue; on the unit circle it reduces to the [[DTFT]], and on the imaginary axis the Laplace transform reduces to the [[Fourier transform]]. (source: Digital Signal Processing/Topic DSP.6 z-transforms March 7, 2025.pdf, p. 1; ece301final_equation-sheet.pdf, p. 1)
+- See [[ECE438 DSP.6 - z-transforms]].
+
 **Sources**: `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
@@ -33,3 +37,4 @@ Compare the Fourier transform, $\mathcal F\{x\}(\omega)=\int_{-\infty}^\infty x\
 
 ## Related pages
 - [[LNO]] · [[FNO]]
+- [[Poisson and Laplace equations]]: the Laplace PDE for the potential, not the Laplace transform; disambiguate (source: lect_12.pdf).

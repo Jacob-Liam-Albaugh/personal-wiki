@@ -33,11 +33,14 @@ source-ref: "Alberts & Bilionis 2023, eqs. 2-11, 18, pp. 4-7"
 - Prior from a PDE energy: [[Physics-informed prior]].
 - Sampling: [[SGLD]]; hyperparameters by [[Nested SGLD]].
 - PINNs as a limit: [[PINN]].
+- The book's `ift/` folder gives takeaways only: [[ME697 IFT.1 - Parameter calibration with PIFT]], [[ME697 IFT.2 - Bayesian inference over fields]], [[ME697 IFT.3 - Physics-informed information field theory]] (source: ift/*/).
 
 ## Where it appears
 - [[PIFT (Alberts 2023)]] — develops PIFT.
 - [[IFT thermal conductivity (Alberts 2026)]] — applies it to temperature-dependent conductivity.
 - [[Generative priors for turbulence (Wang 2026)]] — Wiki note: generative priors play the role a physics prior plays here; the paper does not mention IFT.
+- ME 697 book, `ift/`: three takeaway-only sub-chapters (calibration, fields, physics); no derivations or code beyond headings (source: ift/).
 
 ## Related pages
 - [[Karhunen-Loève expansion]] · [[SGLD (Welling 2011)]]
+- Wiki note: the Riemannian metric in RMHMC (Fisher plus prior curvature) is a natural preconditioner for field posteriors. Link [[Riemannian manifold HMC]]. No source cite.

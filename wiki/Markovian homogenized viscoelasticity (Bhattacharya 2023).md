@@ -4,7 +4,7 @@ area: operators
 areas: [operators, physics-informed]
 source-ref: "Bhattacharya, Liu, Stuart, Trautner 2023, Multiscale Model. Simul. 21(2), 641-679"
 tags: [operators, mechanics, ml]
-authors: [Bhattacharya, Liu, Stuart, Trautner]
+authors: ["[[Kaushik Bhattacharya]]", "[[Burigede Liu]]", "[[Andrew M. Stuart]]", "[[Margaret Trautner]]"]
 year: 2023
 venue: "SIAM Multiscale Modeling & Simulation 21(2), 641-679"
 file: "PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf"
@@ -174,6 +174,7 @@ Wiki note: (1) Error results are given as plots, so exact figures (beyond the 7%
 - Companion empirical work [21] (Liu, Kovachki, Li, Azizzadenesheli, Anandkumar, Bhattacharya, Stuart; learning plasticity) is not in the wiki.
 - Wiki note: the reading-group copy of this paper may duplicate a copy elsewhere in the library (the same applies to [[DeepONet (Lu 2021)]], e.g. `Operators/Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf`); the coordinator will confirm.
 
+
 **Sources**: `PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`.
 **Last updated**: 2026-11-06
 
@@ -183,7 +184,7 @@ Wiki note: (1) Error results are given as plots, so exact figures (beyond the 7%
 - [[Markovian constitutive model]]
 - [[Homogenization]]
 - [[Kelvin-Voigt viscoelasticity]]
-- [[Markovian constitutive model]]
 - [[Recurrent constitutive model]]
 - [[Operator learning]]
 - [[DeepONet (Lu 2021)]]
+- [[Energy-based kernels for viscoelastic flow (Otto 2024)]]

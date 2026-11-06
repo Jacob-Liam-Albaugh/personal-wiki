@@ -4,7 +4,7 @@ area: stochastic
 areas: [stochastic, ml]
 source-ref: "Song, Sohl-Dickstein, Kingma, Kumar, Ermon, Poole 2021, ICLR, eqs. 5-7, 11-13, 29; Alg. 1-5"
 tags: [diffusion, generative, sampling]
-authors: [Song, Sohl-Dickstein, Kingma, Kumar, Ermon, Poole]
+authors: ["[[Yang Song]]", "[[Jascha Sohl-Dickstein]]", "[[Diederik P. Kingma]]", "[[Abhishek Kumar]]", "[[Stefano Ermon]]", "[[Ben Poole]]"]
 year: 2021
 venue: "ICLR 2021 (arXiv:2011.13456v2, 10 Feb 2021)"
 file: "Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf"
@@ -277,6 +277,14 @@ Wiki note (not in paper): FID/NLL comparisons depend on dequantization and check
 - Wiki note: [[Intro to VAEs (Kingma 2019)]] is the VAE counterpart (a likelihood-based latent model); the 1024x1024 CelebA-HQ experiment follows the VQ-VAE-2 setup (batch 8, EMA 0.9999; App. H.3). The DDPM ELBO rows in Table 2 relate to [[ELBO]], and the reverse-time SDE with learned $s_\theta$ is a [[SDE-BNN (Xu 2022)|neural sde]]-style object. See [[KL divergence]] for the ELBO terms in App. F.
 - Architecture borrows from GANs (BigGAN blocks, StyleGAN2 FIR, skip rescaling); see [[GAN]] and [[Group equivariant GANs (Dey 2021)]] for another GAN-based paper in this wiki.
 
+
+
+
+
+%% refs:start %%
+**Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]]
+%% refs:end %%
+
 **Sources**: `Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
 **Last updated**: 2026-11-06
 
@@ -285,21 +293,12 @@ Wiki note (not in paper): FID/NLL comparisons depend on dequantization and check
 ## Related pages
 - [[Diffusion models]]
 - [[Score matching]]
-- [[Score matching#Denoising score matching|denoising score matching]]
-- [[Diffusion models#Reverse-time SDE|reverse time sde]]
-- [[Diffusion models#Probability-flow ODE|probability flow ode]]
-- [[Diffusion models#Predictor-corrector sampler|predictor corrector sampler]]
-- [[Diffusion models#VE, VP and sub-VP SDEs|variance exploding sde]]
-- [[Diffusion models#VE, VP and sub-VP SDEs|variance preserving sde]]
-- [[Diffusion models#SMLD and DDPM|ddpm]]
-- [[Diffusion models#SMLD and DDPM|smld]]
 - [[Fokker-Planck equation]]
 - [[Langevin dynamics]]
 - [[Normalizing flows]]
 - [[Flow matching]]
 - [[Diffusion posterior sampling]]
 - [[SDE-BNN (Xu 2022)|ornstein uhlenbeck process]]
-- [[SDE-BNN (Xu 2022)|neural sde]]
 - [[ELBO]]
 - [[KL divergence]]
 - [[Generative priors for turbulence (Wang 2026)]]

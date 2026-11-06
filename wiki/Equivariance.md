@@ -41,6 +41,19 @@ To keep the parameter count equal to a CNN, the number of filters is divided by 
 ## Where it appears
 - [[Group equivariant GANs (Dey 2021)]].
 - Wiki note: [[Discretization invariance]] is a different notion, invariance to the mesh rather than to a group action.
+- [[Group equivariant CNN]] ([[Group equivariant CNNs (Cohen 2016)]]): equivariance to p4 and p4m via G-correlation.
+- [[e3nn]] ([[e3nn Euclidean networks (Geiger 2022)]]): E(3) equivariance with irreps and tensor products.
+- [[Tensor basis NN turbulence (Ling 2016)]]: invariance built in through an integrity basis.
+- [[Rotation augmentation for CNNs (Quiroga 2018)]]: augmentation as the alternative to built-in symmetry.
+- Groups, $E(n)=T(n)\rtimes O(n)$, invariance versus equivariance with the atoms-to-forces example, and an e3nn tetris classifier: [[ME697 2.6 - Symmetries]] (source: `up/symmetries/01_symmetries.md`, `02_e3nn.ipynb`).
+- Wiki note: the book's action $(\mathbf b,A)\mathbf x=A(\mathbf x+\mathbf b)$ does not match its composition law, which is that of $\mathbf x\mapsto A\mathbf x+\mathbf b$. Also, the e3nn notebook says the network "learned" to drop `1e` outputs; the `Linear` layer drops them by construction.
+
+## Examples
+- Deep Sets gives permutation invariance as rho(sum phi(x)) (Thm 2) and the equivariant layer Theta = lambda I + gamma 11^T (Lemma 3) (source: Zaheer 2017). Link [[Deep Sets]], [[Graph neural network]].
+- a GP prior can be made invariant under a finite group by summing, multiplying or projecting the kernel over group orbits; the periodic kernel is an SE kernel on (sin x, cos x) (source: Duvenaud 2014, §2.7, eqs. 2.36-2.41, pp. 22-26). The sum-over-orbit recipe doubles marginal variance near symmetry lines and the product recipe can give zero variance in regions (pp. 23-25). Wiki note: this is invariance of a scalar function, not equivariance of a vector-valued map.
+
+> [!example] Homework 4, permutation group (source: homework/04_homework.ipynb)
+> The symmetric group $S_n$, cycles and transpositions, permutation matrices (Cayley's theorem), and a faithful $2\times2$ complex representation of $S_3$.
 
 **Sources**: `Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`.
 **Last updated**: 2026-11-06
@@ -49,3 +62,4 @@ To keep the parameter count equal to a CNN, the number of filters is divided by 
 
 ## Related pages
 - [[GAN]] · [[Diffusion models]]
+- [[Kernel composition]].

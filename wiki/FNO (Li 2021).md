@@ -4,7 +4,7 @@ area: operators
 areas: [operators, ml, pde]
 source-ref: "Li, Kovachki, Azizzadenesheli, Liu, Bhattacharya, Stuart, Anandkumar 2021, ICLR 2021; arXiv:2010.08895v3"
 tags: [operators, ml, pde]
-authors: [Li, Kovachki, Azizzadenesheli, Liu, Bhattacharya, Stuart, Anandkumar]
+authors: ["[[Zongyi Li]]", "[[Nikola B. Kovachki]]", "[[Kamyar Azizzadenesheli]]", "[[Burigede Liu]]", "[[Kaushik Bhattacharya]]", "[[Andrew M. Stuart]]", "[[Anima Anandkumar]]"]
 year: 2021
 venue: "ICLR 2021; arXiv:2010.08895v3"
 file: "Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf"
@@ -14,7 +14,7 @@ file: "Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operato
 
 **Summary**: Parametrizes the kernel of an integral operator directly in Fourier space: FFT the features, multiply the lowest modes by a learned complex tensor, inverse FFT, add a pointwise linear term. The resulting [[FNO]] is mesh-independent, costs $O(n\log n)$ on a uniform grid, and beats the baselines on Burgers, Darcy and Navier-Stokes, with zero-shot super-resolution and a roughly 4-orders-of-magnitude cheaper forward pass than a pseudo-spectral solver.
 
-**Authors**: Li, Kovachki, Azizzadenesheli, Liu, Bhattacharya, Stuart, Anandkumar · **Year**: 2021 (ICLR) · **File**: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`
+**Authors**: Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar · **Year**: 2021 (ICLR) · **File**: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`
 
 ---
 
@@ -168,6 +168,15 @@ Wiki note: the truncation to a few modes presupposes a smooth solution; the benc
 - Surveyed in [[Operator learning review (Kovachki 2024)]].
 - General setting: [[Operator learning]], [[Kernel integral operator]].
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]], [[DeepONet (Lu 2021)]], [[PINNs (Raissi 2019)]], [[SIREN paper (Sitzmann 2020)]]
+**Cited by in this wiki**: [[LNO (Cao 2023)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]]
+%% refs:end %%
+
 **Sources**: `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 
@@ -179,10 +188,6 @@ Wiki note: the truncation to a few modes presupposes a smooth solution; the benc
 - [[Operator learning]]
 - [[Kernel integral operator]]
 - [[Discretization invariance]]
-- [[Discretization invariance#Zero-shot super-resolution|zero shot super resolution]]
-- [[Neural operator#Graph neural operator|graph neural operator]]
-- [[Neural operator#Low-rank neural operator|low rank neural operator]]
-- [[Neural operator#Multipole graph neural operator|multipole graph neural operator]]
 - [[DeepONet]]
 - [[Darcy flow]]
 - [[Burgers equation]]

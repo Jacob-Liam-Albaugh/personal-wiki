@@ -29,18 +29,13 @@
 ## Done (batch 5)
 - ME 697 book part 1 (`ml-software/`): 4 lecture pages and 11 concept pages (JAX transformations, autodiff, optimizers, initialization). New topic tags `optimization` and `software`.
 
-## Queue (about 172 files), in this order
-IFT/ is fully ingested (batch 1). The user's priority after Operators: generative models, then the advanced SciML course book.
-1. Bayesian/ — the remaining papers.
-2. ~~Operators/~~ done (batch 3).
-3. ~~Generative~~ done (batch 3).
-4. **Next:** `advanced-scientific-machine-learning/` (part 1 done, batch 5) — Bilionis course book (Jupyter Book, ~100 chapters in `book/_toc.yml`), part by part: ML software, uncertainty propagation, high-dim UP / operators, inverse problems, PINNs, stochastic inverse problems.
-5. Physics Informed Architectures/.
-6. Stochastic Methods/ — the four Karhunen-Loève papers. These will fill out [[karhunen-loeve-expansion]].
-7. ML/, Guassian Processes/, Symmetries/, LLMs/.
-8. Math/, Transforms/, Linear Optimization/. The BJS book and MIT ch. 1-5 have an old OCR layer with garbled math. Read the equations from page images; re-OCR will not help.
-9. Course notes: ECE 438 (DSP), ECE 270, ECE 311 (EM).
-10. Books, chapter by chapter: Spivak-Niu *Poly*, *Seven Sketches*. These will fill the planned poly-composition-product and dirichlet-product pages.
+## Done (batches 6 onward)
+- Everything else is ingested: the remaining papers, ME 697 parts 2-6, ECE 438/311/270, *Poly*, *Seven Sketches*, and the BT and BJS chapters. Only `_text books/` reference items are left out. Per-batch detail is in `wiki/meta/log.md`.
+- Added `tools/`:
+  - `authors.py` builds the author pages and graph links.
+  - `refs.py` builds the in-wiki citation links and `wiki/meta/wanted-papers.md` (threshold n=2).
+  - `test_tools.py` is the self-check.
+- Ingest routine: write the pages, then run `python3 tools/authors.py` and `python3 tools/refs.py --n 2`. Download the wanted papers at the top of the list next.
 
 ## Open checks against the PDFs
 - Alberts & Bilionis 2023, eq. 22: the SGLD noise convention.

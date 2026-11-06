@@ -17,3 +17,10 @@ tags: [generative]
 
 **Sources**: `IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`, `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
+
+---
+## Related pages
+- [[KL divergence]]
+- [[Cyclical SG-MCMC]]
+- [[Langevin dynamics]]
+- [[Variance-corrected quantization]]

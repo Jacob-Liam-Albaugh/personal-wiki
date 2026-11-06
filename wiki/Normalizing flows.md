@@ -31,6 +31,7 @@ $$H=\tfrac d2\log(2\pi e)+\mathbb E\log|\det\partial G/\partial Z_0|.$$
 - [[Priors in Bayesian deep learning (Fortuin 2022)]]: flow priors for VAEs (eq. 39).
 - [[Score SDE (Song 2021)]]: the probability-flow ODE is a continuous flow with exact likelihood (eq. 39); Table 2 compares it with RealNVP, Glow, FFJORD and Flow++.
 - [[Intro to VAEs (Kingma 2019)]]: ch. 3 (IAF) is listed in the contents but missing from the PDF.
+- [[Neural ODEs (Chen 2018)]] — continuous normalizing flows: log-density changes by an integral of a trace instead of a determinant (see [[Neural ODE]]).
 
 **Sources**: `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06
@@ -39,3 +40,4 @@ $$H=\tfrac d2\log(2\pi e)+\mathbb E\log|\det\partial G/\partial Z_0|.$$
 
 ## Related pages
 - [[Amortized VI]] · [[Flow matching]] · [[Diffusion models]]
+- The book's guide families (diagonal, full-rank, transformed Gaussians) are the non-flow baseline that flows extend: [[ME697 4.3 - Variational inference]]. (source: `inverse/vi/01_basics.md`) Wiki note: the book does not mention flows in Part 4 sources read.

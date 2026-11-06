@@ -26,3 +26,4 @@ tags: [sampling, mcmc, bayesian]
 
 ## Related pages
 - [[AMAGOLD]] · [[Langevin dynamics]] · [[SG-MCMC]]
+- [[Riemannian manifold HMC]]: the full-batch, geometry-aware counterpart (wiki note).

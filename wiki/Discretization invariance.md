@@ -43,3 +43,4 @@ The error stays roughly flat with resolution. That is evidence of invariance, no
 
 ## Related pages
 - [[Neural operator]] · [[FNO]] · [[Operator learning]]
+- Equivariance counterpart for symmetries: [[Group equivariant CNN]], [[e3nn]].

@@ -4,7 +4,7 @@ area: stochastic
 areas: [stochastic, ml]
 source-ref: "Song, Meng, Ermon 2021, ICLR, eqs. 5-7, 9-16; Thm. 1; Prop. 1; Tables 1-3"
 tags: [diffusion, generative, sampling]
-authors: [Song, Meng, Ermon]
+authors: ["[[Jiaming Song]]", "[[Chenlin Meng]]", "[[Stefano Ermon]]"]
 year: 2021
 venue: "ICLR 2021 (arXiv:2010.02502v4)"
 file: "Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf"
@@ -160,6 +160,14 @@ Wiki notes:
 - Deterministic invertible sampling gives latent encodings like [[Normalizing flows]] and neural ODEs, and GAN-like latent interpolation ([[GAN]]); in the paper's words, "properties that resemble GANs and invertible flows" (p. 9). Compared with [[VAE]]: DDIM latents have the same dimension as the data.
 - Derived "from a purely variational perspective", where the restrictions of [[Langevin dynamics]] are not relevant (p. 9); this is offered as a partial explanation for better few-step quality (the paper's speculation).
 - Wiki note: the ODE view foreshadows [[Flow matching]]-style deterministic transport maps.
+
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[DDPM (Ho 2020)]], [[Score SDE (Song 2021)]]
+%% refs:end %%
 
 **Sources**: `Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.
 **Last updated**: 2026-11-06

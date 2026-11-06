@@ -9,6 +9,12 @@ tags: [bayesian, inverse-problems]
 
 **Summary**: infer the unknown inputs $\xi$ of a forward model $f$ from noisy data $y$ by computing a posterior, rather than a single best fit.
 
+## Where it appears
+- Book treatment in five steps: classical least squares, Bayesian posterior, [[Laplace approximation]], sampling, VI. (source: `inverse/basics/03_bayesian_formulation.md`; see [[ME697 4.1 - Classical and Bayesian inverse problems]])
+- The book calls the Bayesian formulation the "gold standard": the solution is a distribution, always exists, is unique, quantifies uncertainty, and is conditional on the model being correct. (source: `inverse/basics/03_bayesian_formulation.md`)
+- Worked examples: [[Catalysis problem]], [[Duffing oscillator]], [[Identifiability]], [[Hierarchical Bayesian model]]; samplers [[Markov chain Monte Carlo]], [[Hamiltonian Monte Carlo]], [[NUTS]].
+- Prior view of regularization: an L1 penalty is the negative log posterior under a Laplace prior, see [[LASSO]]. (source: `inverse/data/01_lasso.ipynb`)
+
 **Sources**: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06
 

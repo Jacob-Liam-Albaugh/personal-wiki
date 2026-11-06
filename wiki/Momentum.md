@@ -27,6 +27,11 @@ $$v_{t+1}=\beta v_t-\alpha\nabla f(x_t+\beta v_t)$$
 
 **In optax**: `optax.sgd(lr, momentum=β)`; the state's `trace` is the velocity, a [[Pytree]] like the parameters.
 
+## Classical and Nesterov momentum
+- Confirmed against Sutskever 2013: v_{t+1} = mu v_t - eps grad f(theta_t); theta_{t+1} = theta_t + v_{t+1} (eq. 1-2, p. 2). Nesterov: gradient at the look-ahead point theta_t + mu v_t (eq. 3-4, p. 3). The book's update formulas match.
+- Wiki note: the book's mass-and-friction derivation is not in Sutskever 2013, which motivates momentum through ill-conditioned curvature and the $\mu$ schedule (§2-3).
+- [[Init and momentum (Sutskever 2013)]].
+
 **Sources**: `advanced-scientific-machine-learning/book/ml-software/optimization/03_momentum.ipynb`, `04_optax.ipynb`.
 **Last updated**: 2026-11-06
 

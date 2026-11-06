@@ -31,6 +31,12 @@ tags: [bayesian, vi]
 - [[Variational inverse problems (Tsilifis 2014)]] · [[Amortized VI for inverse problems (Karumuri 2024)]] (mode-seeking, p. 30) · [[Amortized VI when and why (Margossian 2024)]].
 - [[VAE paper (Kingma 2014)]] · [[Variational dropout (Kingma 2015)]] · [[Intro to VAEs (Kingma 2019)]] (ML as KL to the data, p. 10).
 - [[SDE-BNN (Xu 2022)]] · [[Bayesian DenseED surrogate (Zhu 2018)]] (SVGD derivative, p. 15) · [[Priors in Bayesian deep learning (Fortuin 2022)]].
+- Non-negativity proved via Jensen's inequality in the book. (source: `inverse/vi/01_basics.md`)
+
+## Examples
+
+> [!example] Homework 6, problem 2 (source: homework/06_homework.ipynb)
+> Show $D_{KL}(p\|q)\ge0$ using Jensen's inequality.
 
 **Sources**: `Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`.
 **Last updated**: 2026-11-06

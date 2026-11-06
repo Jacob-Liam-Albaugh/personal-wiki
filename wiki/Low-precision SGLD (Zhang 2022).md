@@ -4,7 +4,7 @@ area: ift
 areas: [ift, bayesian, stochastic]
 source-ref: "Zhang, Wilson, De Sa 2022, ICML (PMLR 162), Alg. 1-2, Thm. 1-3"
 tags: [sampling, mcmc]
-authors: [Zhang, Wilson, De Sa]
+authors: ["[[Ruqi Zhang]]", "[[Andrew Gordon Wilson]]", "[[Christopher De Sa]]"]
 year: 2022
 venue: "ICML (PMLR 162)"
 file: "IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf"
@@ -148,6 +148,14 @@ Wiki note: low precision is simulated in QPyTorch, so the latency and memory gai
 - Same first author as [[AMAGOLD (Zhang 2020)]]; complementary: AMAGOLD removes discretization bias with a Metropolis correction, whereas here the question is quantization bias. Combining them is not studied (**[unverified]** that it is feasible).
 - Proof technique: Theorem 4 of Dalalyan & Karagulyan (2019), Langevin with noisy gradients (App. B, p. 12). See [[Langevin dynamics]], [[Wasserstein distance]], [[Variance-corrected quantization]].
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[SGLD (Welling 2011)]]
+%% refs:end %%
+
 **Sources**: `IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.
 **Last updated**: 2026-11-06
 
@@ -162,5 +170,4 @@ Wiki note: low precision is simulated in QPyTorch, so the latency and memory gai
 - [[Langevin dynamics]]
 - [[Wasserstein distance]]
 - [[Bayesian model averaging]]
-- [[Variance-corrected quantization]]
 - [[Variance-corrected quantization]]

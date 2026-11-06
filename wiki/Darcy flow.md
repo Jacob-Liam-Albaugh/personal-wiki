@@ -29,6 +29,7 @@ tags: [pde, operators]
 
 ## Where it appears
 - [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]].
+- The steady heat equation $\nabla\cdot(a\nabla u)=0$ with $a=\exp\{h\}$, $h$ a GP, is the same problem class: [[ME697 3.1 - Functional inputs]].
 
 ## Related pages
 - [[Operator learning]] · [[Burgers equation]] · [[Navier-Stokes equations]]

@@ -4,7 +4,7 @@ area: ift
 areas: [ift, bayesian, physics-informed]
 source-ref: "Alberts, Thomas, Daryabeigi, Bilionis 2026, arXiv:2601.15427v1"
 tags: [ift, bayesian, physics-informed, inverse-problems]
-authors: [Alberts, Thomas, Daryabeigi, Bilionis]
+authors: ["[[Alex Alberts]]", "[[Akshay Jacob Thomas]]", "[[Kamran Daryabeigi]]", "[[Ilias Bilionis]]"]
 year: 2026
 venue: "arXiv:2601.15427v1 (Jan 2026)"
 file: "IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf"
@@ -14,7 +14,7 @@ file: "IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf"
 
 **Summary**: The paper identifies the temperature-dependent thermal conductivity $k(T)$ of an Opacified Fibrous Insulation (OFI) for spacecraft thermal protection systems from NASA heat-flow-meter temperature data, with no finite-element solver in the inverse loop. It applies the [[Physics-informed prior]] of [[PIFT (Alberts 2023)]] to the 1D steady heat equation, puts a log-GP prior on $k$, and samples jointly over temperature field and conductivity with [[Nested SGLD]]. The posterior is then propagated through an ABAQUS model of a HIAD-like flexible TPS for Mars and Earth entry.
 
-**Authors**: Alberts, Thomas, Daryabeigi, Bilionis · **Year**: 2026 · **File**: `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`
+**Authors**: Alex Alberts, Akshay Jacob Thomas, Kamran Daryabeigi, Ilias Bilionis · **Year**: 2026 · **File**: `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`
 
 ---
 
@@ -105,6 +105,14 @@ Wiki note: $\beta=1000$ is set rather than inferred; the paper defers justificat
 - The wiki's SGLD pages ([[SGLD]], [[SG-MCMC]]) trace to [[SGLD (Welling 2011)]].
 - Wiki note: [[Generative priors for turbulence (Wang 2026)]] treats the same inference pattern, a prior over fields conditioned on sparse measurements through $p(x|y)\propto p(x)p(y|x)$, with a learned diffusion prior in place of a physics-derived Gibbs prior.
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[PIFT (Alberts 2023)]], [[Physics-informed ML review (Karniadakis 2021)]], [[SGLD (Welling 2011)]]
+%% refs:end %%
+
 **Sources**: `IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
 **Last updated**: 2026-11-06
 
@@ -113,14 +121,12 @@ Wiki note: $\beta=1000$ is set rather than inferred; the paper defers justificat
 ## Related pages
 - [[Information field theory]]
 - [[Physics-informed prior]]
-- [[Physics-informed prior]]
 - [[Nested SGLD]]
 - [[SGLD]]
 - [[SG-MCMC]]
 - [[Karhunen-Loève expansion]]
-- [[Physics-informed prior]]
-- [[PINN]]
 - [[PINN]]
 - [[PIFT (Alberts 2023)]]
 - [[SGLD (Welling 2011)]]
 - [[Generative priors for turbulence (Wang 2026)]]
+- Wiki note: the book's placeholder "Inferring thermal conductivity" (`inverse/pdes/02_thermal.ipynb`, empty) names the same problem: [[ME697 4.6 - PDE inverse problems]].

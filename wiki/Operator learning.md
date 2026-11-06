@@ -8,6 +8,10 @@ tags: [operators, ml]
 
 **Summary**: learning maps between function spaces from data, e.g. coefficient → PDE solution, or strain history → stress history.
 
+## Where it appears
+- [[NIF (Pan 2023)]] — parametric neural fields with a shared ParameterNet and ShapeNet (see [[Neural implicit flow]]); [[Physics-informed ML review (Karniadakis 2021)]] names operator regression for the big-data, unknown-physics regime (Box 1).
+- Functional inputs and outputs as operators, and dimension reduction (KLE in, PCA out) as the alternative to learning the map: [[ME697 3.1 - Functional inputs]], [[ME697 3.2 - Operator learning]].
+
 **Sources**: `26.10.22 - DeepONets.pdf`, `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, `Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.
 **Last updated**: 2026-11-06
 

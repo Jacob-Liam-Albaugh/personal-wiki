@@ -4,7 +4,7 @@ area: bayesian
 areas: [bayesian, ml]
 source-ref: "Kingma, Salimans, Welling 2015, NIPS, §2.3, §3, eqs. 3-12"
 tags: [bayesian, vi, ml]
-authors: [Kingma, Salimans, Welling]
+authors: ["[[Diederik P. Kingma]]", "[[Tim Salimans]]", "[[Max Welling]]"]
 year: 2015
 venue: "NIPS 2015 (Advances in Neural Information Processing Systems 28)"
 file: "Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf"
@@ -121,6 +121,15 @@ Local reparameterization has the lowest variance among variational estimators in
 - Alternative to MCMC for network weights: the paper cites Neal 1995 and Welling and Teh 2011 ([[SGLD (Welling 2011)]], [[SGLD]]) for sampling-based Bayesian networks (p. 1). Averaging over samples relates to [[Bayesian model averaging]] (Wiki note).
 - Wiki note: any [[Reparameterization trick]] gradient with a shared noise draw per minibatch has this covariance issue; the fix applies when the noise passes through a low-dimensional intermediate (activations).
 
+
+
+
+
+%% refs:start %%
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Dropout paper (Srivastava 2014)]], [[SGLD (Welling 2011)]], [[VAE paper (Kingma 2014)]]
+**Cited by in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]]
+%% refs:end %%
+
 **Sources**: `Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`; alias `ML/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick`.
 **Last updated**: 2026-11-06
 
@@ -129,11 +138,10 @@ Local reparameterization has the lowest variance among variational estimators in
 ## Related pages
 - [[Local reparameterization trick]]
 - [[Variational dropout]]
-- [[Variational dropout|gaussian dropout]]
-- [[Variational dropout|scale invariant log uniform prior]]
 - [[Reparameterization trick]]
 - [[ELBO]]
 - [[VAE paper (Kingma 2014)]]
 - [[Intro to VAEs (Kingma 2019)]]
 - [[Bayesian model averaging]]
 - [[SGLD]]
+- [[Dropout paper (Srivastava 2014)]]. Gaussian dropout noise N(1, p/(1-p)) comes from Srivastava 2014, §10.
