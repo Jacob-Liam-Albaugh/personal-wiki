@@ -122,3 +122,8 @@
 - Gaps: NTK PDF lacks its appendix; SINDy PDF has no SI; Matthews appendices skimmed; Kissas Windkessel table numbers lost in extraction. Koopman eq. 4 and AlexNet LRN/momentum checked against page images.
 - `inbox/20.3.pdf` left in the inbox: a 2019 copy of the TTUR paper (Heusel et al. 2017) published under another author's name, not the original.
 - `tools/inbox.py`: dehyphenates references, rejects junk/PII metadata titles, prefers the longer author list, substring surname match for OCR text, ignores PSL Reading Group for topic votes. CLAUDE.md ingest step 8 now checks that ingested papers leave the wanted list.
+
+## [2026-11-07] tooling | Software citations split from wanted papers
+- `tools/refs.py` recognises 36 packages (JAX, TensorFlow, PyTorch, NumPy, Matplotlib, scikit-learn, DeepXDE, ...) from a curated `SOFTWARE` pattern list.
+- Each paper's refs block gains a **Software cited** line linking into [[software]], which lists every package with the pages that cite it and one reference with a link.
+- Software no longer reaches [[wanted-papers]]; with the threshold at 4 it lists 2 papers (Krizhevsky 2009 tiny images, Heusel 2017 TTUR).

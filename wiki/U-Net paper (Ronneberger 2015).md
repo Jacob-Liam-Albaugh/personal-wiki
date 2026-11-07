@@ -74,6 +74,7 @@ The paper lists none beyond the data-hungry caveat it addresses; it asserts appl
 %% refs:start %%
 **Cites in this wiki**: [[AlexNet (Krizhevsky 2012)]]
 **Cited by in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]], [[DDIM (Song 2021)]], [[DDPM (Ho 2020)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]]
+**Software cited**: [[software#Caffe|Caffe]]
 %% refs:end %%
 
 **Sources**: `papers/Diffusion/Ronneberger, Fischer, Brox - U-Net Convolutional Networks for Biomedical Image Segmentation.pdf`.

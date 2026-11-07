@@ -83,6 +83,7 @@ Wiki note: the two KS error values (2.46e-2 vs 2.26e-2) disagree inside the pape
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Glorot init (Glorot 2010)]], [[Hidden fluid mechanics (Raissi 2020)]], [[NTK (Jacot 2018)]], [[PINNs (Raissi 2019)]], [[Physics-informed ML review (Karniadakis 2021)]], [[When and why PINNs fail (Wang 2022)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]]
+**Software cited**: [[software#DeepXDE|DeepXDE]], [[software#JAX|JAX]], [[software#Matplotlib|Matplotlib]], [[software#NumPy|NumPy]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - Respecting Causality is All You Need for Training PINNs.pdf`.

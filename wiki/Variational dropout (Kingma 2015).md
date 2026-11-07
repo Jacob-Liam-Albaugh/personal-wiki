@@ -124,6 +124,7 @@ Local reparameterization has the lowest variance among variational estimators in
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Dropout paper (Srivastava 2014)]], [[SGLD (Welling 2011)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]]
+**Software cited**: [[software#Theano|Theano]]
 %% refs:end %%
 
 **Sources**: `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`; alias `papers/ML/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick`.

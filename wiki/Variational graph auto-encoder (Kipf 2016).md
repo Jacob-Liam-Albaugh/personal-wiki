@@ -68,6 +68,7 @@ Features give a large gain over the featureless variants (VGAE* about 84 to 88 o
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Glorot init (Glorot 2010)]], [[VAE paper (Kingma 2014)]]
+**Software cited**: [[software#scikit-learn|scikit-learn]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Welling, Kipf - Variational Graph Auto-Encoders.pdf`.

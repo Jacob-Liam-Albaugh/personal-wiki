@@ -103,6 +103,7 @@ Wiki note: 20 particles is a small ensemble for a posterior over about 240k weig
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[AlexNet (Krizhevsky 2012)]], [[GAN paper (Goodfellow 2014)]], [[U-Net paper (Ronneberger 2015)]], [[VAE paper (Kingma 2014)]], [[Variational dropout (Kingma 2015)]], [[Wiener-Askey chaos (Xiu 2002)]]
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[FNO (Li 2021)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[PINNs (Raissi 2019)]]
+**Software cited**: [[software#FEniCS|FEniCS]], [[software#Theano|Theano]]
 %% refs:end %%
 
 **Sources**: `papers/Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf`.

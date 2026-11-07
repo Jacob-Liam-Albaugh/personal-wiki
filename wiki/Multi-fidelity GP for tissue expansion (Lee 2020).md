@@ -89,6 +89,10 @@ Wiki note: spatial correlation is ignored by the 100 independent grid-point GPs;
 - Hyperparameters via marginal likelihood as in [[Gaussian process]]; the GP literature background is in [[Gaussian processes and kernel methods (Kanagawa 2018)]] and [[Duvenaud thesis (Duvenaud 2014)]].
 - Same lab line as [[Bayesian DenseED surrogate (Zhu 2018)]] (surrogate for uncertainty propagation, there a neural network).
 
+%% refs:start %%
+**Software cited**: [[software#GPy|GPy]]
+%% refs:end %%
+
 **Sources**: `papers/Guassian Processes/Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression.pdf`.
 **Last updated**: 2026-11-06
 

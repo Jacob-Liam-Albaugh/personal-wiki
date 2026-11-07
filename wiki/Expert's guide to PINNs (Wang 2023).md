@@ -79,6 +79,7 @@ Ablations disable one component at a time with 4 layers x 256 tanh, Adam, lr $10
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Fourier features (Tancik 2020)]], [[Glorot init (Glorot 2010)]], [[Hidden fluid mechanics (Raissi 2020)]], [[NTK (Jacot 2018)]], [[PINNs (Raissi 2019)]], [[Respecting causality (Wang 2022)]], [[SIREN paper (Sitzmann 2020)]], [[Spectral bias (Rahaman 2019)]], [[When and why PINNs fail (Wang 2022)]]
+**Software cited**: [[software#JAX|JAX]], [[software#Matplotlib|Matplotlib]], [[software#NumPy|NumPy]], [[software#SciANN|SciANN]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - An Expert's Guide to Training PINNs.pdf`.

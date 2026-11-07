@@ -150,6 +150,7 @@ Wiki note: low precision is simulated in QPyTorch, so the latency and memory gai
 
 %% refs:start %%
 **Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[SGLD (Welling 2011)]]
+**Software cited**: [[software#QPyTorch|QPyTorch]]
 %% refs:end %%
 
 **Sources**: `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`.

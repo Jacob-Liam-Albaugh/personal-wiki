@@ -1,6 +1,6 @@
 from authors import split_names
 from inbox import best_wanted, existing, filename, ref_surnames
-from refs import matches, words
+from refs import matches, software, words
 
 ddpm = dict(first="ho", title="DDPM Denoising diffusion probabilistic models", year="2020", file="x.pdf")
 assert matches("Jonathan Ho, Ajay Jain, and Pieter Abbeel. Denoising diffusion probabilistic models. NeurIPS 2020", ddpm, "")
@@ -24,4 +24,7 @@ assert not best_wanted("Deep Residual Learning for Image Recognition", "Kaiming 
 known = [("papers/Diffusion/x.pdf", words("Score-Based Generative Modeling through Stochastic Differential Equations"))]
 assert existing("SCORE-BASED GENERATIVE MODELING STOCHASTIC DIFFERENTIAL EQUATIONS", known)
 assert not existing("Generative Modeling by Estimating Gradients of the Data Distribution", known)
+assert software("[35] James Bradbury, Roy Frostig. JAX: compos- able transformations of Python+NumPy programs, 2018.") == "JAX"
+assert software("Fabian Pedregosa et al. Scikit- learn: Machine Learning in Python. JMLR 2011.") == "scikit-learn"
+assert software("Shashank Vadyala. Physics-informed neural network method for advection using pytorch. Array 2022.") is None
 print("ok")

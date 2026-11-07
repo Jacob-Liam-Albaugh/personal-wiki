@@ -108,6 +108,7 @@ Wiki note (not in paper): Theorem 2 and the "equivalent to all VI problems" clai
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Amortized VI when and why (Margossian 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[VAE paper (Kingma 2014)]], [[Variational inverse problems (Tsilifis 2014)]], [[Wiener-Askey chaos (Xiu 2002)]]
+**Software cited**: [[software#Pyro|Pyro]]
 %% refs:end %%
 
 **Sources**: `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.

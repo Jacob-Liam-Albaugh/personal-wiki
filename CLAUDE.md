@@ -105,6 +105,9 @@ When the user adds a source or asks you to ingest one:
    `authors`. `make refs` rewrites each paper's `%% refs:start %%` block (Cites / Cited by in this
    wiki) and `wiki/meta/wanted-papers.md`, which lists works outside the wiki cited by at least
    n wiki sources (default 4; `make refs N=3` to change it). Tell the user about new wanted entries.
+   Software citations (JAX, PyTorch, ...) never enter the wanted list: `make refs` lists them on
+   each paper as **Software cited** and collects them in `wiki/meta/software.md`. A new package
+   that lands on the wanted list instead needs a pattern in `SOFTWARE` in `tools/refs.py`.
    Check that every paper just ingested has left `wanted-papers.md` (grep its title). One that
    remains means its page lacks a `file:` path or its title does not match the citations: fix the
    page and rerun `make refs`.

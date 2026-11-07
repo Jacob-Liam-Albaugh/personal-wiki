@@ -77,6 +77,7 @@ EmpiricalBench (§3.2, Table 2): Hubble, Kepler, Newton gravitation, Planck, Lea
 
 %% refs:start %%
 **Cites in this wiki**: [[Deep Koopman (Lusch 2018)]], [[Eureqa (Schmidt 2009)]], [[SINDy (Brunton 2016)]], [[SINDy autoencoders (Champion 2019)]], [[Symbolic models from deep learning (Cranmer 2020)]]
+**Software cited**: [[software#JAX|JAX]], [[software#Julia|Julia]], [[software#Matplotlib|Matplotlib]], [[software#NumPy|NumPy]], [[software#Optim.jl|Optim.jl]], [[software#PySINDy|PySINDy]], [[software#PySR|PySR]], [[software#PyTorch|PyTorch]], [[software#SymPy|SymPy]], [[software#WebPlotDigitizer|WebPlotDigitizer]], [[software#scikit-learn|scikit-learn]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Cranmer - PySR.pdf`.

@@ -79,6 +79,7 @@ Setup: three layers, 200 tanh units, Adam at $10^{-3}$, 2000 steps for the simpl
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[AlexNet (Krizhevsky 2012)]], [[Eureqa (Schmidt 2009)]], [[Neural ODEs (Chen 2018)]]
 **Cited by in this wiki**: [[DeepONet (Lu 2021)]], [[LNNs (Cranmer 2020)]], [[Symbolic models from deep learning (Cranmer 2020)]]
+**Software cited**: [[software#OpenAI Gym|OpenAI Gym]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Greydanus, Dzamba, Yosinski - HNNs.pdf`.

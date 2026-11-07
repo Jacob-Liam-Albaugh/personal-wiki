@@ -65,6 +65,7 @@ The MLP then sees $\gamma(v)$, so the effective kernel is $h_{\mathrm{NTK}}\circ
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Attention is all you need (Vaswani 2017)]], [[NTK (Jacot 2018)]], [[Spectral bias (Rahaman 2019)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[NIF (Pan 2023)]], [[When and why PINNs fail (Wang 2022)]]
+**Software cited**: [[software#JAX|JAX]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf`.

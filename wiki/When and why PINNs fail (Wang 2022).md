@@ -84,6 +84,7 @@ For the wave equation the NTK does not stay fixed: eigenvalues first move outwar
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[DeepONet (Lu 2021)]], [[Fourier features (Tancik 2020)]], [[Glorot init (Glorot 2010)]], [[Hidden fluid mechanics (Raissi 2020)]], [[NTK (Jacot 2018)]], [[PINNs (Raissi 2019)]], [[Spectral bias (Rahaman 2019)]], [[Wide networks as GPs (Matthews 2018)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[Respecting causality (Wang 2022)]]
+**Software cited**: [[software#DeepXDE|DeepXDE]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Wang, Yu, Perdikaris - When and Why PINNs Fail to Train - A Neural Tangent Kernel Perspective.pdf`.

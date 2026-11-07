@@ -4,6 +4,7 @@ Usage: python3 tools/refs.py [--n 4] [--dry-run]
 Writes a Cites / Cited by block into each page and wiki/meta/wanted-papers.md.
 """
 import json, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
+from datetime import date
 from collections import defaultdict
 from pathlib import Path
 
@@ -14,13 +15,52 @@ W = R / "wiki"
 CACHE = R / "tools" / ".cache" / "refs.json"
 WANTED = CACHE.parent / "wanted.json"
 LINKS = CACHE.parent / "links.json"
-DATE = "2026-11-06"
+DATE = date.today().isoformat()
 START, END = "%% refs:start %%", "%% refs:end %%"
 STOP = set("""with from that this their into over under using via based between through
 toward towards analysis approach method methods model models learning study note notes
 paper journal proceedings conference international review letters physical arxiv preprint
 press university vol volume pages springer elsevier ieee transactions advances neural
 information processing systems""".split())
+SOFTWARE = {
+    "JAX": r"\bjax: compos|deepmind jax ecosystem",
+    "PyTorch": r"pytorch: an imperative|automatic differentiation in pytorch",
+    "PyTorch Geometric": r"with pytorch geometric",
+    "QPyTorch": r"qpytorch: ",
+    "TensorFlow": r"\btensorflow: (a system|large-scale)",
+    "Theano": r"\btheano: ",
+    "Caffe": r"\bcaffe: convolutional",
+    "NumPy": r"numpy array: a structure|array programming with numpy",
+    "SciPy": r"\bscipy 1\.0|\bscipy: ",
+    "Matplotlib": r"\bmatplotlib: ",
+    "pandas": r"pandas-dev/pandas",
+    "scikit-learn": r"scikit-?learn: machine",
+    "scikit-image": r"scikit-image: ",
+    "SymPy": r"\bsympy: symbolic",
+    "Jupyter": r"jupyter notebooks",
+    "Julia": r"julia: a fresh",
+    "Optim.jl": r"optim: a mathematical optimization package",
+    "DeepXDE": r"deepxde: a deep learning library",
+    "DeepONet code": r"deeponet https://doi\.org/10\.5281/zenodo",
+    "SciANN": r"sciann: ",
+    "GPy": r"\bgpy: ",
+    "GPflow": r"gpflow: ",
+    "Pyro": r"pyro: deep universal",
+    "NumPyro": r"probabilistic programming in numpyro",
+    "BNNpriors": r"bnnpriors",
+    "PySR": r"pysr: fast",
+    "PySINDy": r"pysindy: ",
+    "dcgp": r"\bdcgp: ",
+    "FEniCS": r"fenics project",
+    "UQLab": r"uqlab, a framework",
+    "k-Wave": r"k-wave: matlab toolbox",
+    "NPEET": r"\(npeet\)",
+    "OpenAI Gym": r"openai gym",
+    "OpenCV": r"opencv library",
+    "Detectron2": r"\bdetectron2\b",
+    "ftfy": r"\bftfy\b",
+    "WebPlotDigitizer": r"webplotdigitizer",
+}
 
 
 def fold(s):
@@ -29,6 +69,15 @@ def fold(s):
 
 def words(s):
     return {w for w in re.findall(r"[a-z]{4,}", fold(s)) if w not in STOP}
+
+
+def dehyphen(s):
+    return re.sub(r"(\w)- (\w)", r"\1\2", s)
+
+
+def software(entry):
+    e = fold(dehyphen(entry))
+    return next((name for name, pat in SOFTWARE.items() if re.search(pat, e)), None)
 
 
 def ref_section(text):
@@ -173,6 +222,7 @@ def main(n, dry):
     for f in by_file:
         ents[f], titles[f] = entries_for(R / f, cache)
     cites, cited_by = defaultdict(set), defaultdict(set)
+    uses, sw_ref = defaultdict(set), {}
     clusters = []
     for f, es in ents.items():
         src = owner[f]
@@ -183,6 +233,11 @@ def main(n, dry):
                 for t in hit:
                     cites[src].add(t)
                     cited_by[t].add(src)
+                continue
+            if sw := software(e):
+                uses[src].add(sw)
+                if sw not in sw_ref or ("github" in e) > ("github" in sw_ref[sw]):
+                    sw_ref[sw] = e
                 continue
             sur, yr, ws = ref_key(e)
             if not sur or not yr or len(ws) < 3:
@@ -200,6 +255,8 @@ def main(n, dry):
             lines.append("**Cites in this wiki**: " + ", ".join(f"[[{t}]]" for t in sorted(cites[name])))
         if cited_by[name]:
             lines.append("**Cited by in this wiki**: " + ", ".join(f"[[{t}]]" for t in sorted(cited_by[name])))
+        if uses[name]:
+            lines.append("**Software cited**: " + ", ".join(f"[[software#{t}|{t}]]" for t in sorted(uses[name])))
         if lines:
             block = f"{START}\n" + "\n".join(lines) + f"\n{END}\n\n"
             s = re.sub(r"^(\*\*Sources\*\*:)", lambda m: block + m.group(1), s, count=1, flags=re.M)
@@ -217,6 +274,7 @@ def main(n, dry):
           f"| Cited by | Year | Reference as extracted | Link | Citing pages |\n"
           f"|---|---|---|---|---|\n{rows}\n\n**Last updated**: {DATE}\n")
     if not dry:
+        (W / "meta" / "software.md").write_text(software_md(uses, sw_ref))
         CACHE.parent.mkdir(parents=True, exist_ok=True)
         (W / "meta" / "wanted-papers.md").write_text(md)
         WANTED.write_text(json.dumps([dict(sur=c["sur"], yr=c["yr"], text=c["text"], by=sorted(c["by"]))
@@ -224,7 +282,27 @@ def main(n, dry):
         CACHE.write_text(json.dumps(cache))
     nlinks = sum(len(v) for v in cites.values())
     print(f"{len(pages)} pages with PDFs, {sum(map(len, ents.values()))} references, "
-          f"{nlinks} in-wiki citation links, {len(wanted)} wanted (n={n})")
+          f"{nlinks} in-wiki citation links, {len(wanted)} wanted (n={n}), {len(sw_ref)} software")
+
+
+def software_md(uses, sw_ref):
+    by = defaultdict(set)
+    for page, sws in uses.items():
+        for sw in sws:
+            by[sw].add(page)
+    url = links_for([e for e in sw_ref.values() if not re.search(r"github\.com", e)])
+    out = []
+    for sw in sorted(by, key=lambda t: (-len(by[t]), t.lower())):
+        e = re.sub(r"^\s*\[?\d{1,3}[.\]]?\s+", "", re.sub(r"\s+", " ", sw_ref[sw]))
+        gh = re.search(r"https?://\s*github\.com/\s*[\w.-]+(?:/\s*[\w.-]+)?", e)
+        link = f"[GitHub]({re.sub(r'\s', '', gh.group(0)).rstrip('.')})" if gh else url[sw_ref[sw]]
+        out.append(f"## {sw}\n\nCited by {len(by[sw])}: " + ", ".join(f"[[{b}]]" for b in sorted(by[sw]))
+                   + f"\n\nReference: {re.sub(r'[|\[\]]', ' ', e)[:300]} {link}\n")
+    return (f"---\ntype: meta\ntags: [software]\n---\n\n# Software\n\n"
+            f"Software, libraries and code archives cited by wiki sources, kept off [[wanted-papers]]. "
+            f"Each paper lists its own under **Software cited**. Generated by `python3 tools/refs.py`; "
+            f"add a name to `SOFTWARE` in that file to track another.\n\n" + "\n".join(out)
+            + f"\n**Last updated**: {DATE}\n")
 
 
 if __name__ == "__main__":

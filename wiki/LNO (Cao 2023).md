@@ -123,6 +123,7 @@ Wiki notes (not claimed in the paper):
 
 %% refs:start %%
 **Cites in this wiki**: [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]]
+**Software cited**: [[software#PyTorch|PyTorch]], [[software#TensorFlow|TensorFlow]]
 %% refs:end %%
 
 **Sources**: `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`.

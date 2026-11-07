@@ -105,6 +105,7 @@ Wiki note: the review gives no quantitative comparison across prior families, so
 
 %% refs:start %%
 **Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[Dropout paper (Srivastava 2014)]], [[GAN paper (Goodfellow 2014)]], [[NTK (Jacot 2018)]], [[VAE paper (Kingma 2014)]], [[Wide networks as GPs (Matthews 2018)]]
+**Software cited**: [[software#BNNpriors|BNNpriors]]
 %% refs:end %%
 
 **Sources**: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.

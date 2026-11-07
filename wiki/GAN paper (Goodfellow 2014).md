@@ -82,6 +82,7 @@ Stated (§6, p. 6): no explicit $p_g(x)$; $D$ must be synchronized with $G$, els
 %% refs:start %%
 **Cites in this wiki**: [[AlexNet (Krizhevsky 2012)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]], [[DDIM (Song 2021)]], [[DDPM (Ho 2020)]], [[Group equivariant GANs (Dey 2021)]], [[Priors in Bayesian deep learning (Fortuin 2022)]]
+**Software cited**: [[software#Theano|Theano]]
 %% refs:end %%
 
 **Sources**: `papers/Generative ML/Goodfellow et al - Generative Adversarial Nets.pdf`.

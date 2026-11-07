@@ -165,6 +165,9 @@ Wiki notes (not stated in the paper): the 400M-pair WIT set is not released, so 
 - **Compare**: classifier guidance ([[Classifier guidance]]) could in principle use a CLIP-style scoring model as the guiding "classifier"; **[unverified]**, not in these files.
 - The 1000x-compute estimate and the log-log scaling plot (supp. Fig. 16) put CLIP in the same empirical-scaling tradition as the GPT family (supp. p. 11).
 
+%% refs:start %%
+**Software cited**: [[software#Detectron2|Detectron2]], [[software#PyTorch|PyTorch]], [[software#TensorFlow|TensorFlow]], [[software#ftfy|ftfy]], [[software#pandas|pandas]], [[software#scikit-learn|scikit-learn]]
+%% refs:end %%
 
 **Sources**: `papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf` (main), `papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf` (appendix of the ICML version).
 **Last updated**: 2026-11-06

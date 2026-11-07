@@ -141,6 +141,7 @@ Wiki note: (1) Evaluation is on in-distribution test functions except for the si
 %% refs:start %%
 **Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[HNNs (Greydanus 2019)]], [[Neural ODEs (Chen 2018)]], [[Universal approximation (Hornik 1989)]]
 **Cited by in this wiki**: [[FNO (Li 2021)]], [[LNO (Cao 2023)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]], [[PIFT (Alberts 2023)]], [[When and why PINNs fail (Wang 2022)]]
+**Software cited**: [[software#DeepONet code|DeepONet code]], [[software#DeepXDE|DeepXDE]]
 %% refs:end %%
 
 **Sources**: `papers/PSL Reading Group/26.10.22 - DeepONets.pdf`.

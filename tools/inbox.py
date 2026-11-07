@@ -10,7 +10,7 @@ from pathlib import Path
 
 import fitz
 
-from refs import R, WANTED, CACHE, entries_for, fold, load_pages, matches, words
+from refs import R, WANTED, CACHE, dehyphen, entries_for, fold, load_pages, matches, words
 
 INBOX = R / "inbox"
 QUEUE = INBOX / "to-ingest.txt"
@@ -37,10 +37,6 @@ def surnames(author_field):
     names = [n.strip() for n in re.split(r";|,| and |&", author_field or "") if n.strip()]
     out = [n.split()[-1] for n in names if not re.search(r"\d|@", n) and len(n.split()) >= 2]
     return out
-
-
-def dehyphen(s):
-    return re.sub(r"(\w)- (\w)", r"\1\2", s)
 
 
 def ref_surnames(entry):

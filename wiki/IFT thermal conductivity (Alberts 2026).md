@@ -107,6 +107,7 @@ Wiki note: $\beta=1000$ is set rather than inferred; the paper defers justificat
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[PIFT (Alberts 2023)]], [[Physics-informed ML review (Karniadakis 2021)]], [[SGLD (Welling 2011)]]
+**Software cited**: [[software#JAX|JAX]]
 %% refs:end %%
 
 **Sources**: `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.

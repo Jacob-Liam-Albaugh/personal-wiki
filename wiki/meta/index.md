@@ -1,6 +1,6 @@
 # Index
 
-Every wiki page, by primary area. Papers first, then the other page types. Inventory of source files: [[sources]]. Reading group: [[reading-group]]. History: [[log]]. Papers cited by several sources but not yet in the wiki: [[wanted-papers]]. Author pages live in `authors/` (one per person, linked from each paper's `authors` property).
+Every wiki page, by primary area. Papers first, then the other page types. Inventory of source files: [[sources]]. Reading group: [[reading-group]]. History: [[log]]. Papers cited by several sources but not yet in the wiki: [[wanted-papers]]. Software cited by sources: [[software]]. Author pages live in `authors/` (one per person, linked from each paper's `authors` property).
 
 ## Poly / DSL
 

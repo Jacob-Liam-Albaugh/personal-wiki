@@ -103,6 +103,7 @@ Wiki note: results are for mean-field Gaussians and small problems; the theorem 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]]
+**Software cited**: [[software#PyTorch|PyTorch]]
 %% refs:end %%
 
 **Sources**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`.

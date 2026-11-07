@@ -73,6 +73,7 @@ Regularize the messages (an $L_1$ penalty with weight $10^{-2}$, or a KL penalty
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Eureqa (Schmidt 2009)]], [[HNNs (Greydanus 2019)]], [[LNNs (Cranmer 2020)]], [[SINDy (Brunton 2016)]]
 **Cited by in this wiki**: [[LNNs (Cranmer 2020)]], [[PySR (Cranmer 2023)]]
+**Software cited**: [[software#JAX|JAX]], [[software#Jupyter|Jupyter]], [[software#Matplotlib|Matplotlib]], [[software#NumPy|NumPy]], [[software#PySR|PySR]], [[software#PyTorch|PyTorch]], [[software#PyTorch Geometric|PyTorch Geometric]], [[software#TensorFlow|TensorFlow]], [[software#dcgp|dcgp]], [[software#scikit-learn|scikit-learn]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`.

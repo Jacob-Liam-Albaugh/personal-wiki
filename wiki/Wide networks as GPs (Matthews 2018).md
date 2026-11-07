@@ -88,6 +88,7 @@ Stated by the authors:
 
 %% refs:start %%
 **Cited by in this wiki**: [[Neural operator (Kovachki 2022)]], [[Priors in Bayesian deep learning (Fortuin 2022)]], [[When and why PINNs fail (Wang 2022)]]
+**Software cited**: [[software#GPflow|GPflow]]
 %% refs:end %%
 
 **Sources**: `papers/Guassian Processes/Matthews et al - Gaussian Process Behaviour in Wide Deep Neural Networks.pdf`.

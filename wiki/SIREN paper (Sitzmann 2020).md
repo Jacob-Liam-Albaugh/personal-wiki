@@ -64,6 +64,7 @@ Weights act as angular frequencies and biases as phase offsets. Few weights exce
 %% refs:start %%
 **Cites in this wiki**: [[Glorot init (Glorot 2010)]], [[PINNs (Raissi 2019)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]]
+**Software cited**: [[software#OpenCV|OpenCV]], [[software#k-Wave|k-Wave]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf`.

@@ -73,6 +73,7 @@ Wiki note: the model is deterministic with no uncertainty on $K$ or $\varphi$. U
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[AlexNet (Krizhevsky 2012)]], [[Eureqa (Schmidt 2009)]], [[SINDy (Brunton 2016)]], [[Universal approximation (Hornik 1989)]]
 **Cited by in this wiki**: [[NIF (Pan 2023)]], [[PySR (Cranmer 2023)]], [[SINDy autoencoders (Champion 2019)]], [[SINDy delay autoencoders (Bakarji 2022)]]
+**Software cited**: [[software#TensorFlow|TensorFlow]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Lusch, Kutz, Brunton - Deep learning for universal linear embeddings of nonlinear dynamics.pdf`.

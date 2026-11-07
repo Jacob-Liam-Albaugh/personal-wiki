@@ -11,8 +11,7 @@ Link is the publisher DOI where Crossref finds a confident title match, else arX
 
 | Cited by | Year | Reference as extracted | Link | Citing pages |
 |---|---|---|---|---|
-| 6 | 2018 |  63  James Bradbury, Roy Frostig, Peter Hawkins, Matthew James Johnson, Chris Leary, Dougal Maclaurin, George Necula, Adam Paszke, Jake VanderPlas, Skye Wanderman-Milne, and Qiao Zhang. JAX: composabl | [Scholar](https://scholar.google.com/scholar?q=%5B63%5D+James+Bradbury%2C+Roy+Frostig%2C+Peter+Hawkins%2C+Matthew+James+Johnson%2C+Chris+Leary%2C+Dougal+Maclaurin%2C+George+Necula%2C+Adam+Paszke%2C+Jake+VanderPlas%2C+Skye+Wanderman-Milne%2C+and+Qiao+Zhang.+JAX%3A+composabl) | [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[LNNs (Cranmer 2020)]], [[PySR (Cranmer 2023)]], [[Respecting causality (Wang 2022)]], [[Symbolic models from deep learning (Cranmer 2020)]] |
 | 5 | 2009 | 14.	 Krizhevsky, A. Learning multiple layers of features from tiny images. Master’s thesis, Department of Computer Science, University of Toronto, 2009. | [Scholar](https://scholar.google.com/scholar?q=14.%09+Krizhevsky%2C+A.+Learning+multiple+layers+of+features+from+tiny+images.+Master%E2%80%99s+thesis%2C+Department+of+Computer+Science%2C+University+of+Toronto%2C+2009.) | [[AlexNet (Krizhevsky 2012)]], [[GAN paper (Goodfellow 2014)]], [[Glorot init (Glorot 2010)]], [[Low-precision SGLD (Zhang 2022)]], [[Rotation augmentation for CNNs (Quiroga 2018)]] |
 | 4 | 2017 | Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, and Sepp Hochreiter. GANs trained by a two time-scale update rule converge to a local Nash equilibrium. In Advances in Neural Info | [DOI](https://doi.org/10.18034/ajase.v8i1.9) | [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]], [[DDPM (Ho 2020)]], [[Group equivariant GANs (Dey 2021)]] |
 
-**Last updated**: 2026-11-06
+**Last updated**: 2026-11-07

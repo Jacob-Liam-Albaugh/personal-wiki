@@ -61,6 +61,7 @@ Authors: optimizer prone to local minima and over-fitting; unknown whether any l
 
 %% refs:start %%
 **Cites in this wiki**: [[Deep Koopman (Lusch 2018)]], [[Eureqa (Schmidt 2009)]], [[PINNs (Raissi 2019)]], [[SINDy (Brunton 2016)]], [[SINDy autoencoders (Champion 2019)]], [[Tensor basis NN turbulence (Ling 2016)]]
+**Software cited**: [[software#PySINDy|PySINDy]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf`.
