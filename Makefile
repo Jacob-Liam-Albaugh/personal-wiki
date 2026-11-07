@@ -11,7 +11,10 @@ refs:
 graph:
 	uv tool run --from graphifyy python -I tools/graph.py .
 
+sort:
+	python3 tools/inbox.py
+
 test:
 	cd tools && python3 test_tools.py
 
-.PHONY: all authors refs graph test
+.PHONY: all authors refs graph sort test

@@ -85,6 +85,9 @@ A new folder gets a new slug, recorded here before it is used.
 
 When the user adds a source or asks you to ingest one:
 
+0. If `inbox/` holds PDFs, run `make sort`, report any DUPE/KEEP lines, then ingest every path in
+   `inbox/to-ingest.txt` and empty that file once they are ingested.
+
 1. Read the full source document (PDFs via PyMuPDF; handwritten or scanned notes visually).
 2. Discuss key takeaways with the user before writing anything. When the user has asked
    for a batch ingest, write the pages and put the takeaways in the log entry and the
