@@ -50,4 +50,5 @@ The JMLR Burgers numbers are about 8× lower than the ICLR ones. The JMLR run dr
 ---
 
 ## Related pages
+- [[Spectral diffusion]]: Fourier-mode truncation used as a diffusion latent space ([[PISD (Gallon 2026)]]).
 - [[Neural operator]] · [[LNO]] · [[DeepONet]] · [[Operator learning]]

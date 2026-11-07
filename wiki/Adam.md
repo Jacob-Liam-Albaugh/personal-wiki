@@ -35,6 +35,7 @@ tags: [optimization, ml]
 ## Where it appears
 - Adam followed by L-BFGS is the standard PINN optimizer pair ([[Physics-informed ML review (Karniadakis 2021)]], Box 3).
 - Used to fit surrogate MLPs (lr $10^{-3}$, 5000 iterations) and GP hyperparameters (lr 0.01), and the e3nn classifier (lr 0.01): [[Surrogate model]], [[Equivariance]], [[Karhunen-Loève expansion]].
+- [[PISD (Gallon 2026)]]: Adam as the guidance step inside diffusion sampling, moments kept across steps, per-frequency learning rates.
 
 ## In the paper
 - Defaults: $\alpha=0.001$, $\beta_1=0.9$, $\beta_2=0.999$, $\epsilon=10^{-8}$ (Alg. 1, p. 2).

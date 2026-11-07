@@ -138,3 +138,4 @@ Wiki note: the article has no quantitative comparison table, so the claims of ad
 - [[Physics-informed prior]]
 - [[PIFT (Alberts 2023)]]
 - [[IFT thermal conductivity (Alberts 2026)]]
+- [[PISD (Gallon 2026)]]

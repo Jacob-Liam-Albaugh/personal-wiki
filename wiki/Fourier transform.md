@@ -112,6 +112,7 @@ Wiki note: the IP.3 handwriting gives the replica prefactor as $1/T$; for spacin
 
 ## Where it appears
 - [[Wavelets vs Fourier (Strang 1993)]] and [[Wavelet transform]]: wavelets localise in both time and frequency, where Fourier is global; compare FFT with the fast wavelet transform.
+- [[Spectral diffusion]], [[PISD (Gallon 2026)]]: diffusion on truncated, data-scaled Fourier and sine coefficients.
 - [[Maxwell's equations]]: phasor notation for sinusoidal fields (source: lect_28.pdf); [[Electromagnetic wave]].
 
 

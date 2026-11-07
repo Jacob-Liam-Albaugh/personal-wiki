@@ -278,7 +278,7 @@ Wiki note (not in paper): FID/NLL comparisons depend on dequantization and check
 - Architecture borrows from GANs (BigGAN blocks, StyleGAN2 FIR, skip rescaling); see [[GAN]] and [[Group equivariant GANs (Dey 2021)]] for another GAN-based paper in this wiki.
 
 %% refs:start %%
-**Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]]
+**Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]], [[PISD (Gallon 2026)]]
 %% refs:end %%
 
 **Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.

@@ -269,7 +269,7 @@ Wiki note: the benchmark PDEs are all smooth-solution, mostly periodic or simple
 
 %% refs:start %%
 **Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[PINNs (Raissi 2019)]], [[SIREN paper (Sitzmann 2020)]], [[U-Net paper (Ronneberger 2015)]], [[Universal approximation (Hornik 1989)]], [[Wide networks as GPs (Matthews 2018)]]
-**Cited by in this wiki**: [[NIF (Pan 2023)]], [[Operator learning review (Kovachki 2024)]]
+**Cited by in this wiki**: [[NIF (Pan 2023)]], [[Operator learning review (Kovachki 2024)]], [[PISD (Gallon 2026)]]
 %% refs:end %%
 
 **Sources**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf` (appendix proofs A-G not read in detail; theorem statements are from §8).

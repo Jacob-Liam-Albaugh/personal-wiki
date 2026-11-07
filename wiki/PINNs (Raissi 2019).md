@@ -70,7 +70,7 @@ Notes on Navier-Stokes: assuming $u=\psi_y$, $v=-\psi_x$ makes the continuity eq
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[AlexNet (Krizhevsky 2012)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[SINDy (Brunton 2016)]], [[Tensor basis NN turbulence (Ling 2016)]], [[Universal approximation (Hornik 1989)]]
-**Cited by in this wiki**: [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Expert's guide to PINNs (Wang 2023)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]], [[Respecting causality (Wang 2022)]], [[SINDy delay autoencoders (Bakarji 2022)]], [[SIREN paper (Sitzmann 2020)]], [[When and why PINNs fail (Wang 2022)]]
+**Cited by in this wiki**: [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Expert's guide to PINNs (Wang 2023)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]], [[PISD (Gallon 2026)]], [[Respecting causality (Wang 2022)]], [[SINDy delay autoencoders (Bakarji 2022)]], [[SIREN paper (Sitzmann 2020)]], [[When and why PINNs fail (Wang 2022)]]
 **Software cited**: [[software#TensorFlow|TensorFlow]]
 %% refs:end %%
 

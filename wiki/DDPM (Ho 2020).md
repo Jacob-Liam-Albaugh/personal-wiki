@@ -164,7 +164,7 @@ Wiki notes:
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Attention is all you need (Vaswani 2017)]], [[GAN paper (Goodfellow 2014)]], [[Neural ODEs (Chen 2018)]], [[U-Net paper (Ronneberger 2015)]], [[VAE paper (Kingma 2014)]]
-**Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]]
+**Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]], [[PISD (Gallon 2026)]]
 %% refs:end %%
 
 **Sources**: `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`.

@@ -123,6 +123,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
+| `Gallon, Wurstemberger, Cheridito, Jentzen - Physics-Informed Diffusion Models in Spectral Space.pdf` | 18 | ingested → [[PISD (Gallon 2026)]] |  |
 | `Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf` | 19 | ingested → [[LNO (Cao 2023)]] |  |
 | `Karniadakis, Lu, Jin - DeepONets - Deep Operator Networks.pdf` | 22 | ingested → [[DeepONet (Lu 2021)]] | arXiv preprint of the Nature MI 2021 paper read in the reading group |
 | `Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf` | 16 | ingested → [[FNO (Li 2021)]] |  |

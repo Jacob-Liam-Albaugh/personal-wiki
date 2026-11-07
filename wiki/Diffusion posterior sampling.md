@@ -26,6 +26,7 @@ Wiki note: source-space conditioning has the same shape as PIFT — a prior push
 
 ## Where it appears
 - [[Generative priors for turbulence (Wang 2026)]].
+- [[PISD (Gallon 2026)]]: DPS with an extra PDE-residual term, and the GD guidance step replaced by a frequency-aware Adam step (Alg. 1). On inverse Poisson this cuts error from 49% to 14% (Table 12); FunDPS also improves with Adam (21% → 17%, Table 10).
 
 **Sources**: `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
 **Last updated**: 2026-11-06
@@ -33,4 +34,4 @@ Wiki note: source-space conditioning has the same shape as PIFT — a prior push
 ---
 
 ## Related pages
-- [[Diffusion models]] · [[Flow matching]] · [[Information field theory]]
+- [[Diffusion models]] · [[Flow matching]] · [[Information field theory]] · [[Spectral diffusion]]

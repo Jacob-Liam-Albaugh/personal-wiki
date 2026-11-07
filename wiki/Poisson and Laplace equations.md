@@ -38,3 +38,4 @@ A charge near a grounded conductor is replaced by an image charge so that the bo
 - [[Electric potential]]
 - [[Capacitance]]
 - [[PINN]]
+- [[PISD (Gallon 2026)]]

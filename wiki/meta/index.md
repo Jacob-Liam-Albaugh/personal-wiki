@@ -85,6 +85,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[LNNs (Cranmer 2020)]] | paper | Lagrangian Neural Networks (Cranmer 2020) |
 | [[NIF (Pan 2023)]] | paper | Neural Implicit Flow: a mesh-agnostic dimensionality reduction paradigm (Pan 2023) |
 | [[Neural ODEs (Chen 2018)]] | paper | Neural Ordinary Differential Equations (Chen 2018) |
+| [[PISD (Gallon 2026)]] | paper | Physics-informed diffusion models in spectral space (Gallon 2026) |
 | [[PINNs (Raissi 2019)]] | paper | Physics-informed neural networks (Raissi 2019) |
 | [[Physics-informed ML review (Karniadakis 2021)]] | paper | Physics-informed machine learning review (Karniadakis 2021) |
 | [[Respecting causality (Wang 2022)]] | paper | Respecting causality is all you need for training PINNs (Wang 2022) |
@@ -253,6 +254,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[SGD]] | method | Stochastic gradient descent (SGD) |
 | [[SIREN]] | method | SIREN |
 | [[Spectral bias]] | concept | Spectral bias |
+| [[Spectral diffusion]] | method | Spectral diffusion (scaled spectral latents) |
 | [[State space model]] | concept | State space model |
 | [[Symbolic regression]] | concept | Symbolic regression |
 | [[Transformer]] | concept | Transformer |

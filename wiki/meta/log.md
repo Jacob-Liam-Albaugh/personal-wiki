@@ -127,3 +127,9 @@
 - `tools/refs.py` recognises 36 packages (JAX, TensorFlow, PyTorch, NumPy, Matplotlib, scikit-learn, DeepXDE, ...) from a curated `SOFTWARE` pattern list.
 - Each paper's refs block gains a **Software cited** line linking into [[software]], which lists every package with the pages that cite it and one reference with a link.
 - Software no longer reaches [[wanted-papers]]; with the threshold at 4 it lists 2 papers (Krizhevsky 2009 tiny images, Heusel 2017 TTUR).
+
+## [2026-11-07] ingest | PISD (Gallon 2026)
+- Paper: [[PISD (Gallon 2026)]] (ICML 2026): diffusion on data-scaled spectral coefficients with PDE and observation guidance applied through frequency-aware Adam.
+- New page: [[Spectral diffusion]] (scaled encoding, Lemma 3.2 with proof).
+- Updated: Diffusion models, Diffusion posterior sampling, Adam, PINN, Navier-Stokes equations, Poisson and Laplace equations, Fourier transform, FNO, Generative priors for turbulence (Wang 2026).
+- Discussion step skipped at the user's request ("continue").
