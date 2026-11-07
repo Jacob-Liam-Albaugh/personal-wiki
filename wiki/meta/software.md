@@ -61,6 +61,12 @@ Cited by 2: [[ResNet paper (He 2016)]], [[U-Net paper (Ronneberger 2015)]]
 
 Reference: Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell. Caffe: Convolutional architecture for fast feature embedding. arXiv:1408.5093, 2014. [arXiv](https://arxiv.org/abs/1408.5093)
 
+## NumPyro
+
+Cited by 2: [[IFT for engineering inverse problems (Alberts 2024)]], [[PIFT (Alberts 2023)]]
+
+Reference: D. Phan, N. Pradhan, and M. Jankowiak, “Composable eﬀects for ﬂexible and ac- celerated probabilistic programming in numpyro,” arXiv preprint arXiv:1912.11554, 2019. [arXiv](https://arxiv.org/abs/1912.11554)
+
 ## PySINDy
 
 Cited by 2: [[PySR (Cranmer 2023)]], [[SINDy delay autoencoders (Bakarji 2022)]]
@@ -144,12 +150,6 @@ Reference: B. E. Treeby and B. T. Cox. k-wave: Matlab toolbox for the simulation
 Cited by 1: [[Cardiac activation PINN (Sahli Costabal 2020)]]
 
 Reference: Ver Steeg G. Non-parametric entropy estimation toolbox (NPEET). (2000). [Scholar](https://scholar.google.com/scholar?q=24.+Ver+Steeg+G.+Non-parametric+entropy+estimation+toolbox+%28NPEET%29.+%282000%29.)
-
-## NumPyro
-
-Cited by 1: [[PIFT (Alberts 2023)]]
-
-Reference: Du Phan, Neeraj Pradhan, Martin Jankowiak, Composable effects for ﬂexible and accelerated probabilistic programming in NumPyro, arXiv preprint, arXiv:1912 .11554, 2019. [Scholar](https://scholar.google.com/scholar?q=%5B61%5D+Du+Phan%2C+Neeraj+Pradhan%2C+Martin+Jankowiak%2C+Composable+effects+for+%EF%AC%82exible+and+accelerated+probabilistic+programming+in+NumPyro%2C+arXiv+preprint%2C+arXiv%3A1912+.11554%2C+2019.)
 
 ## OpenAI Gym
 

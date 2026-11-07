@@ -115,7 +115,7 @@ Wiki note: Theorem 2's bound grows with $K\alpha_0$ and $\alpha_0^2K$ in the num
 
 %% refs:start %%
 **Cites in this wiki**: [[SGLD (Welling 2011)]]
-**Cited by in this wiki**: [[AMAGOLD (Zhang 2020)]], [[Low-precision SGLD (Zhang 2022)]], [[Priors in Bayesian deep learning (Fortuin 2022)]]
+**Cited by in this wiki**: [[AMAGOLD (Zhang 2020)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[Low-precision SGLD (Zhang 2022)]], [[Priors in Bayesian deep learning (Fortuin 2022)]]
 %% refs:end %%
 
 **Sources**: `papers/IFT/Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf`.

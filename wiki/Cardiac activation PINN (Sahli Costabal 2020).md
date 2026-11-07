@@ -59,7 +59,7 @@ As stated (§4, pp. 10-11): isotropic conduction assumed (anisotropic Eikonal po
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Glorot init (Glorot 2010)]], [[PINNs (Raissi 2019)]]
-**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[PIFT (Alberts 2023)]], [[Respecting causality (Wang 2022)]], [[When and why PINNs fail (Wang 2022)]]
+**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[PIFT (Alberts 2023)]], [[Respecting causality (Wang 2022)]], [[When and why PINNs fail (Wang 2022)]]
 **Software cited**: [[software#NPEET|NPEET]], [[software#TensorFlow|TensorFlow]]
 %% refs:end %%
 

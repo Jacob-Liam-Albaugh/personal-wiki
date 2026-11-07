@@ -64,7 +64,7 @@ Wiki note: the paper's code and SI (thresholded least squares, Appendices A-C) a
 - SINDy fits $f$ in the same way a [[Neural ODE]] does, but with a sparse linear-in-parameters library instead of a network.
 
 %% refs:start %%
-**Cited by in this wiki**: [[Deep Koopman (Lusch 2018)]], [[Energy-based kernels for viscoelastic flow (Otto 2024)]], [[PINNs (Raissi 2019)]], [[PySR (Cranmer 2023)]], [[SINDy autoencoders (Champion 2019)]], [[SINDy delay autoencoders (Bakarji 2022)]], [[Symbolic models from deep learning (Cranmer 2020)]]
+**Cited by in this wiki**: [[Deep Koopman (Lusch 2018)]], [[Energy-based kernels for viscoelastic flow (Otto 2024)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[PINNs (Raissi 2019)]], [[PySR (Cranmer 2023)]], [[SINDy autoencoders (Champion 2019)]], [[SINDy delay autoencoders (Bakarji 2022)]], [[Symbolic models from deep learning (Cranmer 2020)]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Brunton, Proctor, Kutz - Discovering governing equations from data by sparse identification of nonlinear dynamical systems.pdf`.

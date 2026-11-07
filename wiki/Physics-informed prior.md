@@ -24,11 +24,12 @@ $$
 A [[PINN]] is the MAP estimate under this prior (Wiki note).
 
 ## Model-trust parameter β
+- Uniqueness of the inferred β: with a flat prior and enough data the MAP is unique; for Poisson, $\beta^*=\infty$ iff the model is exact, otherwise finite and larger for better models ([[MAP uniqueness in IFT (Alberts 2025)]], Thm. 3.3, eq. 4.4).
 - Can be inferred: Jeffreys prior in log-space (paper 1, Ex. 2), where it tracked model-form error.
 - Fixed values used: $\beta=10^5$ (paper 1 Ex. 3), 50 (Ex. 4), 1000 (paper 2).
 - Klein-Gordon case: prior $\phi\sim\mathcal N(S^{-1}q,\beta^{-1}S^{-1})$, with $S^{-1}$ the Green's function of $-\nabla^2+\alpha^2$ (eq. 20); posterior covariance → 0 as $\beta\to\infty$ (eq. 21).
 - B-PINNs: $\sigma_r^2=n/(2\beta)$ (eq. 32); see [[PINN]].
-- Choosing β: Alberts & Bilionis 2024 (arXiv:2401.14224) — cited, not read.
+- Choosing β: Alberts & Bilionis 2024 (arXiv:2401.14224); treated in [[MAP uniqueness in IFT (Alberts 2025)]] and [[Model-form error detection]]. The dissertation calls $\beta$ the "trust", proves $U=\tfrac12\phi^\dagger S\phi-q^\dagger\phi$ for Klein-Gordon step by step (p. 53), and notes the partition function diverges unless the field is truncated at the smallest physical scale (p. 55) (source: dissertation).
 
 ## Energies used
 - 1D heat / Dirichlet energy (paper 1, eq. 34); $E(u;k)=\int\frac{k(u)}2u_y^2\,dy$ for $\partial_y(k(u)\partial_yu)=0$ (paper 2, eq. 2).
@@ -39,6 +40,7 @@ A [[PINN]] is the MAP estimate under this prior (Wiki note).
 ## Where it appears
 - [[PIFT (Alberts 2023)]] — defines it.
 - [[IFT thermal conductivity (Alberts 2026)]] — Dirichlet energy of steady heat conduction.
+- [[IFT for engineering inverse problems (Alberts 2024)]] — Ch. 3 construction and Example 2 energies (cubic nonlinear ODE, pp. 105-107; Allen-Cahn, p. 114).
 - [[Physics-informed machine learning]] — the same physics-as-prior idea at the level of loss functions; [[Physics-informed ML review (Karniadakis 2021)]], p. 7: soft-penalty PINN equals MAP with a physics-based likelihood.
 - [[PINN]].
 
@@ -49,4 +51,6 @@ A [[PINN]] is the MAP estimate under this prior (Wiki note).
 ---
 
 ## Related pages
+- [[MAP uniqueness in IFT (Alberts 2025)]]
+- [[IFT for engineering inverse problems (Alberts 2024)]] · [[Model-form error detection]]
 - [[Information field theory]] · [[Nested SGLD]]

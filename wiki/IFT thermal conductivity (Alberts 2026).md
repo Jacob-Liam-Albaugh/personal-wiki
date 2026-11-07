@@ -4,7 +4,7 @@ area: ift
 areas: [ift, bayesian, physics-informed]
 source-ref: "Alberts, Thomas, Daryabeigi, Bilionis 2026, arXiv:2601.15427v1"
 tags: [ift, bayesian, physics-informed, inverse-problems]
-authors: ["[[Alex Alberts]]", "[[Akshay Jacob Thomas]]", "[[Kamran Daryabeigi]]", "[[Ilias Bilionis]]"]
+authors: ["[[Alexander Alberts]]", "[[Akshay Jacob Thomas]]", "[[Kamran Daryabeigi]]", "[[Ilias Bilionis]]"]
 year: 2026
 venue: "arXiv:2601.15427v1 (Jan 2026)"
 file: "papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf"
@@ -106,7 +106,7 @@ Wiki note: $\beta=1000$ is set rather than inferred; the paper defers justificat
 - Wiki note: [[Generative priors for turbulence (Wang 2026)]] treats the same inference pattern, a prior over fields conditioned on sparse measurements through $p(x|y)\propto p(x)p(y|x)$, with a learned diffusion prior in place of a physics-derived Gibbs prior.
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[PIFT (Alberts 2023)]], [[Physics-informed ML review (Karniadakis 2021)]], [[SGLD (Welling 2011)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[PIFT (Alberts 2023)]], [[Physics-informed ML review (Karniadakis 2021)]], [[SGLD (Welling 2011)]]
 **Software cited**: [[software#JAX|JAX]]
 %% refs:end %%
 
@@ -124,6 +124,7 @@ Wiki note: $\beta=1000$ is set rather than inferred; the paper defers justificat
 - [[Karhunen-Loève expansion]]
 - [[PINN]]
 - [[PIFT (Alberts 2023)]]
+- [[IFT for engineering inverse problems (Alberts 2024)]]
 - [[SGLD (Welling 2011)]]
 - [[Generative priors for turbulence (Wang 2026)]]
 - Wiki note: the book's placeholder "Inferring thermal conductivity" (`inverse/pdes/02_thermal.ipynb`, empty) names the same problem: [[Bayesian inverse problems]].

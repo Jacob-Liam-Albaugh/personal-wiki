@@ -86,7 +86,7 @@ A Gibbs variant (eq. 19-20) alternates momentum resampling with the leapfrog tra
 - Gaussian and Bayesian-neural-network posteriors are the use case at scale: [[Gaussian process]], [[Bayesian neural networks]].
 
 %% refs:start %%
-**Cited by in this wiki**: [[SGLD (Welling 2011)]]
+**Cited by in this wiki**: [[IFT for engineering inverse problems (Alberts 2024)]], [[SGLD (Welling 2011)]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf`.

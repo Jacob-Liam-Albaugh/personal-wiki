@@ -48,9 +48,12 @@ and the normalizing integral is the partition function. [[Brownian motion]] is t
 ## Where it appears
 - [[PIFT (Alberts 2023)]] — develops PIFT.
 - [[IFT thermal conductivity (Alberts 2026)]] — applies it to temperature-dependent conductivity.
+- [[IFT for engineering inverse problems (Alberts 2024)]] — dissertation: adds function-space background, full free-theory proofs and operator calculus (Chs. 2-3, pp. 12-58). Note: its Sec. 3.1 uses $S$ as covariance in the Gaussian density, unlike the precision convention above (pp. 37-44).
 - [[Generative priors for turbulence (Wang 2026)]] — Wiki note: generative priors play the role a physics prior plays here; the paper does not mention IFT.
 - ME 697 book, `ift/`: three takeaway-only sub-chapters (calibration, fields, physics); no derivations or code beyond headings (source: ift/).
 
 ## Related pages
+- [[MAP uniqueness in IFT (Alberts 2025)]]
+- [[IFT for engineering inverse problems (Alberts 2024)]] · [[Operator calculus for free theory]] · [[Generalized random fields]]
 - [[Karhunen-Loève expansion]] · [[SGLD (Welling 2011)]]
 - Wiki note: the Riemannian metric in RMHMC (Fisher plus prior curvature) is a natural preconditioner for field posteriors. Link [[Riemannian manifold HMC]]. No source cite.

@@ -35,4 +35,6 @@ Karumuri fixes the noise: $p(y\mid\xi)=N(y\mid f(\xi),\gamma^2I)$.
 - Field-valued unknowns: [[Information field theory]] and [[Physics-informed prior]].
 
 ## Related pages
+- [[MAP uniqueness in IFT (Alberts 2025)]]
+- [[IFT for engineering inverse problems (Alberts 2024)]]
 - [[Variational inverse problems (Tsilifis 2014)]] · [[Amortized VI for inverse problems (Karumuri 2024)]] · [[PIFT (Alberts 2023)]] · [[Karhunen-Loève expansion]]

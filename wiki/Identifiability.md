@@ -38,5 +38,7 @@ The setup is a 4-DOF arm (slider height plus three joint angles, link lengths $(
 - Check by plotting the pairwise posterior, or reparameterize in the identifiable combination.
 
 ## Related pages
+- [[MAP uniqueness in IFT (Alberts 2025)]]
+- [[IFT for engineering inverse problems (Alberts 2024)]]
 - [[Bayesian inverse problems]] · [[Hierarchical Bayesian model]]
 - [[Sensitivity analysis]]

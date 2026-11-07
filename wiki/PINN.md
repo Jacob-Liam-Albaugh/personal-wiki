@@ -19,6 +19,7 @@ tags: [physics-informed, ml, pde]
 
 ## Where it appears
 - [[PIFT (Alberts 2023)]] — derivations.
+- [[IFT for engineering inverse problems (Alberts 2024)]] — Sec. 5.2 (pp. 97-101): PINN loss equals the IFT Hamiltonian when $r_d=n/(2\sigma^2)$, $r_p=\beta$ (eq. 5.5); parameter estimation matches only with a flat parameter prior and constant $\log Z$ (eq. 5.7). Fixed-$\sigma_r$ B-PINN posteriors collapse as $m\to\infty$ (pp. 100-101). Also lists $\sigma_r^2=m/(2\beta)$ (eq. 5.9), same as the 2023 paper.
 - [[IFT thermal conductivity (Alberts 2026)]] — contrast; cites Hao & Bilionis (neural information field filter, not read) for B-PINN's poor extrapolation.
 - [[PINNs (Raissi 2019)]] — original continuous-time and discrete-time (implicit Runge-Kutta) formulations (source: papers/Physics Informed Architectures/Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf).
 - Applications: [[Hidden fluid mechanics (Raissi 2020)]] — velocity and pressure from passive-scalar data via Navier-Stokes residuals; [[Cardiovascular flow PINNs (Kissas 2020)]] — one PINN per vessel, interface losses, pressure from MRI area and velocity; [[Cardiac activation PINN (Sahli Costabal 2020)]] — [[Eikonal equation]] residual with prior-ensemble UQ and [[Active learning]].

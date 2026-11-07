@@ -112,7 +112,7 @@ Reliable only for latent dimension below about 5.
 - Uses HMC / gradient-based MCMC only as a baseline and as a likelihood evaluator (appendices D, E). Compare [[SGLD]] ([[SGLD (Welling 2011)]]), the other Welling method for scalable Bayesian learning; SGLD samples parameters, AEVB fits a variational family.
 
 %% refs:start %%
-**Cited by in this wiki**: [[Adam paper (Kingma 2015)]], [[Amortized VI for inverse problems (Karumuri 2024)]], [[Amortized VI when and why (Margossian 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[DDPM (Ho 2020)]], [[GAN paper (Goodfellow 2014)]], [[Priors in Bayesian deep learning (Fortuin 2022)]], [[Variational dropout (Kingma 2015)]], [[Variational graph auto-encoder (Kipf 2016)]]
+**Cited by in this wiki**: [[Adam paper (Kingma 2015)]], [[Amortized VI for inverse problems (Karumuri 2024)]], [[Amortized VI when and why (Margossian 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[DDPM (Ho 2020)]], [[GAN paper (Goodfellow 2014)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[Priors in Bayesian deep learning (Fortuin 2022)]], [[Variational dropout (Kingma 2015)]], [[Variational graph auto-encoder (Kipf 2016)]]
 %% refs:end %%
 
 **Sources**: `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`.

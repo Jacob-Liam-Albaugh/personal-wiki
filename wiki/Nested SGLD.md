@@ -24,6 +24,7 @@ source-ref: "Alberts & Bilionis 2023, eqs. 24-27, Alg. 3, App. B; Alberts et al.
 
 ## Where it appears
 - [[PIFT (Alberts 2023)]] — introduces it.
+- [[IFT for engineering inverse problems (Alberts 2024)]] — Sec. 5.1.2, eq. 5.4, Algorithm 3 (pp. 93-96). Note: the dissertation states $\tilde T=1$ is justified only because the field posterior was insensitive to the calibrated parameters; it would not be if they entered the likelihood (p. 96). It also flags Hessian preconditioning via Lemma 2 as future work (p. 122).
 - [[IFT thermal conductivity (Alberts 2026)]] — infers the 25 KLE coefficients of $k(u)$ and log-GP hyperparameters (eq. 13, log-density sign convention).
 
 **Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
@@ -32,4 +33,4 @@ source-ref: "Alberts & Bilionis 2023, eqs. 24-27, Alg. 3, App. B; Alberts et al.
 ---
 
 ## Related pages
-- [[SGLD]] · [[Physics-informed prior]] · [[Karhunen-Loève expansion]]
+- [[SGLD]] · [[Physics-informed prior]] · [[Karhunen-Loève expansion]] · [[MAP uniqueness in IFT (Alberts 2025)]] · [[IFT for engineering inverse problems (Alberts 2024)]]

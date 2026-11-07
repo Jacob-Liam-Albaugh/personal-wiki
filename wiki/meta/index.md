@@ -117,12 +117,17 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[AMAGOLD (Zhang 2020)]] | paper | AMAGOLD: Amortized Metropolis Adjustment for Efficient Stochastic Gradient MCMC (Zhang 2020) |
 | [[Cyclical SG-MCMC (Zhang 2020)]] | paper | Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning (Zhang 2020) |
 | [[Generative priors for turbulence (Wang 2026)]] | paper | Generative priors for spatiotemporal turbulence (Wang 2026) |
+| [[IFT for engineering inverse problems (Alberts 2024)]] | paper | An Information Field Theory Approach to Engineering Inverse Problems (Alberts 2024) |
 | [[IFT thermal conductivity (Alberts 2026)]] | paper | IFT identification of fibrous insulation conductivity (Alberts 2026) |
 | [[Low-precision SGLD (Zhang 2022)]] | paper | Low-Precision Stochastic Gradient Langevin Dynamics (Zhang 2022) |
+| [[MAP uniqueness in IFT (Alberts 2025)]] | paper | Uniqueness of MAP estimates for inverse problems under IFT (Alberts 2025) |
 | [[PIFT (Alberts 2023)]] | paper | Physics-informed information field theory (Alberts 2023) |
 | [[SGLD (Welling 2011)]] | paper | Bayesian Learning via Stochastic Gradient Langevin Dynamics (Welling 2011) |
+| [[Generalized random fields]] | concept | Generalized random fields |
 | [[Information field theory]] | concept | Information field theory |
+| [[Model-form error detection]] | concept | Model-form error detection |
 | [[Nested SGLD]] | method | Nested SGLD |
+| [[Operator calculus for free theory]] | method | Operator calculus for free theory |
 | [[Physics-informed prior]] | definition | Physics-informed functional prior |
 
 ## Stochastic methods & SG-MCMC

@@ -3,10 +3,11 @@ type: author
 tags: []
 ---
 
-# Alex Alberts
+# Alexander Alberts
 
-Pages in this wiki by Alex Alberts:
+Pages in this wiki by Alexander Alberts:
 
+- [[IFT for engineering inverse problems (Alberts 2024)]]
 - [[IFT thermal conductivity (Alberts 2026)]]
 - [[PIFT (Alberts 2023)]]
 

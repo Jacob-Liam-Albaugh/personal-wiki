@@ -133,3 +133,9 @@
 - New page: [[Spectral diffusion]] (scaled encoding, Lemma 3.2 with proof).
 - Updated: Diffusion models, Diffusion posterior sampling, Adam, PINN, Navier-Stokes equations, Poisson and Laplace equations, Fourier transform, FNO, Generative priors for turbulence (Wang 2026).
 - Discussion step skipped at the user's request ("continue").
+
+## [2026-11-07] ingest | Alberts MAP uniqueness (2025) and dissertation (2024)
+- Papers: [[MAP uniqueness in IFT (Alberts 2025)]] (arXiv 2401.14224v3): weakly well-posed IFT inverse problems, gradient/Hessian of the parameter posterior as field expectations, unique MAP for potentials linear in the parameters, Poisson model-trust example. [[IFT for engineering inverse problems (Alberts 2024)]] (Purdue PhD dissertation): chapter map onto existing IFT pages plus the PINN/B-PINN correspondence.
+- New pages: [[Generalized random fields]], [[Operator calculus for free theory]], [[Model-form error detection]].
+- Updated: Information field theory, Physics-informed prior, PIFT (Alberts 2023), Nested SGLD, PINN, Identifiability, Bayesian inverse problems, IFT thermal conductivity (Alberts 2026).
+- Batch of two: discussion step skipped.

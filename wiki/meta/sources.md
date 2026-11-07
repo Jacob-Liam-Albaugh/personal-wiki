@@ -71,6 +71,8 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
+| `Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf` | 143 | ingested → [[IFT for engineering inverse problems (Alberts 2024)]] | PhD dissertation |
+| `Alberts, Bilionis - Uniqueness of MAP estimates for inverse problems under information field theory.pdf` | 32 | ingested → [[MAP uniqueness in IFT (Alberts 2025)]] |  |
 | `Bilionis, Alberts - IFT Thermal Conductivity.pdf` | 25 | ingested → [[IFT thermal conductivity (Alberts 2026)]] |  |
 | `Bilionis, Alberts - IFT.pdf` | 30 | ingested → [[PIFT (Alberts 2023)]] |  |
 | `Ruqi Zhang - AMAGOLD.pdf` | 10 | ingested → [[AMAGOLD (Zhang 2020)]] |  |
