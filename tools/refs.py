@@ -1,6 +1,6 @@
 """Link wiki pages whose source PDFs cite each other, and list outside works cited by >= n sources.
 
-Usage: python3 tools/refs.py [--n 2] [--dry-run]
+Usage: python3 tools/refs.py [--n 4] [--dry-run]
 Writes a Cites / Cited by block into each page and wiki/meta/wanted-papers.md.
 """
 import json, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
@@ -229,4 +229,4 @@ def main(n, dry):
 
 if __name__ == "__main__":
     a = sys.argv
-    main(int(a[a.index("--n") + 1]) if "--n" in a else 2, "--dry-run" in a)
+    main(int(a[a.index("--n") + 1]) if "--n" in a else 4, "--dry-run" in a)

@@ -104,7 +104,7 @@ When the user adds a source or asks you to ingest one:
 8. Run `make` from the repo root. `make authors` builds `wiki/authors/` and links each paper's
    `authors`. `make refs` rewrites each paper's `%% refs:start %%` block (Cites / Cited by in this
    wiki) and `wiki/meta/wanted-papers.md`, which lists works outside the wiki cited by at least
-   n wiki sources (`make refs N=3` to change n). Tell the user about new wanted entries.
+   n wiki sources (default 4; `make refs N=3` to change it). Tell the user about new wanted entries.
    Check that every paper just ingested has left `wanted-papers.md` (grep its title). One that
    remains means its page lacks a `file:` path or its title does not match the citations: fix the
    page and rerun `make refs`.
