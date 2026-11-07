@@ -36,3 +36,4 @@ tags: [uq, sampling]
 
 ## Related pages
 - [[Sensitivity analysis]] · [[Sobol indices]] · [[Surrogate model]] · [[Active learning]]
+- Used for PINN collocation points in [[Cardiovascular flow PINNs (Kissas 2020)]] and [[Cardiac activation PINN (Sahli Costabal 2020)]].

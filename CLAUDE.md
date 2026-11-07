@@ -105,6 +105,9 @@ When the user adds a source or asks you to ingest one:
    `authors`. `make refs` rewrites each paper's `%% refs:start %%` block (Cites / Cited by in this
    wiki) and `wiki/meta/wanted-papers.md`, which lists works outside the wiki cited by at least
    n wiki sources (`make refs N=3` to change n). Tell the user about new wanted entries.
+   Check that every paper just ingested has left `wanted-papers.md` (grep its title). One that
+   remains means its page lacks a `file:` path or its title does not match the citations: fix the
+   page and rerun `make refs`.
    `make graph` rebuilds the untracked `graphify-out/`; query it with `graphify query "..."`,
    `graphify path "A" "B"` or `graphify explain "X"`.
 

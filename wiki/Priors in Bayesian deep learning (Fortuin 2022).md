@@ -104,7 +104,7 @@ Wiki note: the review gives no quantitative comparison across prior families, so
 - Function-space prior ideas connect to [[Physics-informed prior]] (Wiki note).
 
 %% refs:start %%
-**Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[Dropout paper (Srivastava 2014)]], [[VAE paper (Kingma 2014)]]
+**Cites in this wiki**: [[Cyclical SG-MCMC (Zhang 2020)]], [[Dropout paper (Srivastava 2014)]], [[GAN paper (Goodfellow 2014)]], [[NTK (Jacot 2018)]], [[VAE paper (Kingma 2014)]], [[Wide networks as GPs (Matthews 2018)]]
 %% refs:end %%
 
 **Sources**: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
@@ -127,3 +127,4 @@ Wiki note: the review gives no quantitative comparison across prior families, so
 - function space prior
 - [[SDE-BNN (Xu 2022)]]
 - [[Bayesian DenseED surrogate (Zhu 2018)]]
+- [[Wide networks as GPs (Matthews 2018)]] · [[Neural network Gaussian process]] · [[NTK (Jacot 2018)]]

@@ -133,7 +133,7 @@ Wiki note: improvement on CIFAR-10 is smaller and the G-CNN G&D variant is sligh
 - Equivariant generative priors for physical fields: [[Generative priors for turbulence (Wang 2026)]] (Wiki note, check relevance).
 
 %% refs:start %%
-**Cites in this wiki**: [[Group equivariant CNNs (Cohen 2016)]]
+**Cites in this wiki**: [[GAN paper (Goodfellow 2014)]], [[Group equivariant CNNs (Cohen 2016)]]
 %% refs:end %%
 
 **Sources**: `papers/Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`.

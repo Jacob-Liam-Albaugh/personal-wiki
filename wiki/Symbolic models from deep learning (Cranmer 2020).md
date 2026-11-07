@@ -71,7 +71,7 @@ Regularize the messages (an $L_1$ penalty with weight $10^{-2}$, or a KL penalty
 - A different route to interpretable dynamics is [[SINDy]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[HNNs (Greydanus 2019)]], [[LNNs (Cranmer 2020)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Eureqa (Schmidt 2009)]], [[HNNs (Greydanus 2019)]], [[LNNs (Cranmer 2020)]], [[SINDy (Brunton 2016)]]
 **Cited by in this wiki**: [[LNNs (Cranmer 2020)]], [[PySR (Cranmer 2023)]]
 %% refs:end %%
 
@@ -86,6 +86,6 @@ Regularize the messages (an $L_1$ penalty with weight $10^{-2}$, or a KL penalty
 - [[Graph neural network]]
 - [[Hamiltonian neural network]]
 - [[Lagrangian neural network]]
-- [[SINDy]]
+- [[SINDy]] · [[Eureqa (Schmidt 2009)]]
 - [[Equivariance]]
 - [[Physics-informed machine learning]]

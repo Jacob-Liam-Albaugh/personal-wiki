@@ -61,7 +61,7 @@ Network sizes must be chosen by hand and grow with spatial complexity; training 
 - A neural-field form of reduced-order modelling; see [[Surrogate model]] and [[Physics-informed machine learning]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[Fourier features (Tancik 2020)]], [[Neural operator (Kovachki 2022)]], [[Physics-informed ML review (Karniadakis 2021)]], [[SINDy autoencoders (Champion 2019)]], [[Spectral bias (Rahaman 2019)]]
+**Cites in this wiki**: [[AlexNet (Krizhevsky 2012)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[Deep Koopman (Lusch 2018)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[Fourier features (Tancik 2020)]], [[Hidden fluid mechanics (Raissi 2020)]], [[Neural operator (Kovachki 2022)]], [[Physics-informed ML review (Karniadakis 2021)]], [[SINDy autoencoders (Champion 2019)]], [[Spectral bias (Rahaman 2019)]], [[Universal approximation (Hornik 1989)]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Brunton, Pan, Kutz - NIF - Neural Implicit Flow.pdf`.

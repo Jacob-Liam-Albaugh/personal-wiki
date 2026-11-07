@@ -74,3 +74,4 @@ Conditional sampling can be sharpened at the cost of diversity:
 
 ## Related pages
 - [[Score matching]] · [[Fokker-Planck equation]] · [[Langevin dynamics]] · [[Flow matching]] · [[Normalizing flows]] · [[GAN]] · [[DDPM]] · [[DDIM]]
+- [[U-Net]] · [[GAN paper (Goodfellow 2014)]]

@@ -169,7 +169,7 @@ Wiki note: the truncation to a few modes presupposes a smooth solution; the benc
 - General setting: [[Operator learning]], [[Kernel integral operator]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]], [[DeepONet (Lu 2021)]], [[PINNs (Raissi 2019)]], [[SIREN paper (Sitzmann 2020)]]
+**Cites in this wiki**: [[Bayesian DenseED surrogate (Zhu 2018)]], [[DeepONet (Lu 2021)]], [[PINNs (Raissi 2019)]], [[SIREN paper (Sitzmann 2020)]], [[U-Net paper (Ronneberger 2015)]], [[Universal approximation (Hornik 1989)]]
 **Cited by in this wiki**: [[LNO (Cao 2023)]], [[NIF (Pan 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]]
 %% refs:end %%
 
@@ -195,3 +195,4 @@ Wiki note: the truncation to a few modes presupposes a smooth solution; the benc
 - [[DeepONet (Lu 2021)]]
 - [[LNO (Cao 2023)]]
 - [[Operator learning review (Kovachki 2024)]]
+- [[U-Net]]

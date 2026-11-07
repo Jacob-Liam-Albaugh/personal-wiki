@@ -36,6 +36,6 @@ It is fitted from 1000 points with noise 0.1 by an MLP of width 128, depth 4, ta
 - [[Spectral bias (Rahaman 2019)]]
 - [[Fourier features]]
 - [[SIREN]]
-- [[Neural tangent kernel]]
+- [[Neural tangent kernel]] · [[NTK (Jacot 2018)]] (eigenmode decay $e^{-\lambda_it}$, §5)
 - [[Physics-informed machine learning]]
 - [[Fourier transform]]

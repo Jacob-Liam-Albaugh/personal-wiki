@@ -107,3 +107,4 @@ $$\Gamma=\mathrm{diag}(X^\top X)^{1/2}$$
 - [[Variational dropout]]
 - [[ResNet paper (He 2016)]]
 - [[Momentum]]
+- [[AlexNet (Krizhevsky 2012)]]: the ImageNet network that used dropout in its dense layers

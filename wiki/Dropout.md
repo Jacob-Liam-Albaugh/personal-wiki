@@ -54,3 +54,4 @@ Wiki note: reading dropout as approximate Bayesian inference (a variational post
 - [[Adam]]
 - [[ResNet]]
 - [[SGLD]]
+- [[AlexNet (Krizhevsky 2012)]]: first large-scale use (p=0.5 on two dense layers) · [[GAN paper (Goodfellow 2014)]]: on the discriminator · [[U-Net paper (Ronneberger 2015)]]: at the end of the contracting path

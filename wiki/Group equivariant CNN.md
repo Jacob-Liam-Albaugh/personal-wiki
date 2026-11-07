@@ -48,3 +48,4 @@ Details and results: [[Group equivariant CNNs (Cohen 2016)]].
 - [[Equivariance]]
 - [[e3nn]]
 - [[Rotation augmentation for CNNs (Quiroga 2018)]]
+- [[Convolutional neural network]]

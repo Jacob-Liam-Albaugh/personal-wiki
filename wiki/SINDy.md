@@ -16,7 +16,7 @@ tags: [physics-informed, optimization, ml]
 >
 > (source: SINDy autoencoders.pdf, §2.1, p. 3; delay autoencoders.pdf, eq. 6)
 
-**Intuition**: most physical equations have few terms. Regress the time derivative on a large dictionary (polynomials, trig terms) and keep only the terms that matter. Because the problem is a linear regression it is cheap and gives a closed-form, interpretable model, unlike the weights of a [[Neural ODE]]. The original method is Brunton, Proctor, Kutz 2016 (PNAS), cited in both papers but not in this folder.
+**Intuition**: most physical equations have few terms. Regress the time derivative on a large dictionary (polynomials, trig terms) and keep only the terms that matter. Because the problem is a linear regression it is cheap and gives a closed-form, interpretable model, unlike the weights of a [[Neural ODE]]. The original method is [[SINDy (Brunton 2016)]] (PNAS), which fits a library with LASSO or thresholded least squares and was demonstrated on Lorenz, the cylinder wake (POD coordinates) and bifurcation normal forms.
 
 ## Practical points
 - Needs $m\gg p$ samples and good conditioning (sample transients and several initial conditions) (source: [[SINDy autoencoders (Champion 2019)]], p. 3).
@@ -26,6 +26,7 @@ tags: [physics-informed, optimization, ml]
 - Works only if the measured coordinates make the dynamics sparse; this motivates learned coordinates.
 
 ## Variants in this wiki
+- **Original SINDy**: [[SINDy (Brunton 2016)]]; extensions to parameters ($\dot\mu=0$) and forcing $u(t)$ are there.
 - **SINDy autoencoder**: learns coordinates $z=\phi(x)$ and $\Xi$ jointly ([[SINDy autoencoders (Champion 2019)]]).
 - **Delay SINDy autoencoder**: coordinates learned from a time-delay (Hankel) embedding of a partial measurement ([[SINDy delay autoencoders (Bakarji 2022)]]).
 - Second-order version for mechanical systems: library in $z,\dot z$ predicts $\ddot z$.
@@ -54,3 +55,4 @@ tags: [physics-informed, optimization, ml]
 - [[SINDy autoencoders (Champion 2019)]] · [[SINDy delay autoencoders (Bakarji 2022)]] · [[Neural ODE]] · [[LASSO]]
 - [[Symbolic regression]] · [[Dynamic mode decomposition]] · [[Singular value decomposition]] · [[Physics-informed machine learning]]
 - [[Dynamic mode decomposition]] (linear least-squares counterpart).
+- [[SINDy (Brunton 2016)]] · [[Eureqa (Schmidt 2009)]] · [[Koopman operator]] · [[Deep Koopman (Lusch 2018)]]

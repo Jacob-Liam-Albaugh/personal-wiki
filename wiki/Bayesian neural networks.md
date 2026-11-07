@@ -26,7 +26,7 @@ tags: [bayesian, ml]
 ## Priors (Fortuin)
 - Isotropic Gaussian is the default and often misspecified; Fortuin links it to the cold-posterior effect.
 - Heavy-tailed alternatives: Student-t (Gaussian with Gamma precision, used by Zhu §3.1), horseshoe.
-- Infinite-width limits give [[Gaussian process]] kernels (NNGP, NTK).
+- Infinite-width limits give [[Gaussian process]] kernels ([[Neural network Gaussian process]], proved in [[Wide networks as GPs (Matthews 2018)]]; [[Neural tangent kernel]] for training).
 - Function-space priors avoid weight-space symmetry but make the KL infinite (§4.2).
 - [[Physics-informed prior]] pages tie to [[Physics-informed prior]].
 
@@ -36,4 +36,5 @@ tags: [bayesian, ml]
 
 ## Related pages
 - [[Priors in Bayesian deep learning (Fortuin 2022)]] · [[Variational dropout (Kingma 2015)]] · [[SGLD (Welling 2011)]]
+- [[Wide networks as GPs (Matthews 2018)]] · [[Neural network Gaussian process]]: a 3x50 Bayesian ReLU net with HMC matches exact GP inference on five of six small datasets.
 - [[Dropout]]. Dropout as an approximate Bayesian model is a later result (Gal) not in these sources **[unverified]**; Srivastava 2014 itself treats dropout as model averaging (§1, §7).

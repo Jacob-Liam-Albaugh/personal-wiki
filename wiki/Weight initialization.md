@@ -40,4 +40,6 @@ tags: [optimization, ml]
 
 ## Related pages
 - [[Gradient descent]] · [[Adam]]
+- Width-scaled Gaussian initialization and its infinite-width limits: [[Neural network Gaussian process]], [[NTK (Jacot 2018)]] (NTK parameterization, Remark 1).
 - Initialization scale for attention and state space models: [[Attention is all you need (Vaswani 2017)]], [[Mamba (Gu 2023)]].
+- [[ReLU]] · [[AlexNet (Krizhevsky 2012)]] · [[U-Net paper (Ronneberger 2015)]]

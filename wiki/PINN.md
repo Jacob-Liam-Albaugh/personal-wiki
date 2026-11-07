@@ -21,6 +21,7 @@ tags: [physics-informed, ml, pde]
 - [[PIFT (Alberts 2023)]] — derivations.
 - [[IFT thermal conductivity (Alberts 2026)]] — contrast; cites Hao & Bilionis (neural information field filter, not read) for B-PINN's poor extrapolation.
 - [[PINNs (Raissi 2019)]] — original continuous-time and discrete-time (implicit Runge-Kutta) formulations (source: papers/Physics Informed Architectures/Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf).
+- Applications: [[Hidden fluid mechanics (Raissi 2020)]] — velocity and pressure from passive-scalar data via Navier-Stokes residuals; [[Cardiovascular flow PINNs (Kissas 2020)]] — one PINN per vessel, interface losses, pressure from MRI area and velocity; [[Cardiac activation PINN (Sahli Costabal 2020)]] — [[Eikonal equation]] residual with prior-ensemble UQ and [[Active learning]].
 - [[When and why PINNs fail (Wang 2022)]] — NTK analysis: boundary and residual loss blocks converge at different rates; adaptive weights from Tr(K) ratios; see [[Neural tangent kernel]].
 - [[Respecting causality (Wang 2022)]] — causal weights along time; temporal convergence rate as a stopping criterion.
 - [[Expert's guide to PINNs (Wang 2023)]] — training pipeline: non-dimensionalization, Fourier features, random weight factorization, loss balancing, curriculum.

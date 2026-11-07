@@ -76,7 +76,7 @@ EmpiricalBench (§3.2, Table 2): Hubble, Kepler, Newton gravitation, Planck, Lea
 - Part of the physics-discovery line with [[Physics-informed machine learning]].
 
 %% refs:start %%
-**Cites in this wiki**: [[SINDy autoencoders (Champion 2019)]], [[Symbolic models from deep learning (Cranmer 2020)]]
+**Cites in this wiki**: [[Deep Koopman (Lusch 2018)]], [[Eureqa (Schmidt 2009)]], [[SINDy (Brunton 2016)]], [[SINDy autoencoders (Champion 2019)]], [[Symbolic models from deep learning (Cranmer 2020)]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Cranmer - PySR.pdf`.
@@ -85,7 +85,7 @@ EmpiricalBench (§3.2, Table 2): Hubble, Kepler, Newton gravitation, Planck, Lea
 ---
 
 ## Related pages
-- [[Symbolic regression]]
+- [[Symbolic regression]] · [[Eureqa (Schmidt 2009)]] · [[SINDy (Brunton 2016)]]
 - [[Symbolic models from deep learning (Cranmer 2020)]]
 - [[SINDy]]
 - [[Gaussian process]]

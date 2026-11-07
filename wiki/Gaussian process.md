@@ -29,20 +29,22 @@ $$\sigma_*^2=k(x_*,x_*)-k_*^\top(K+\sigma^2I)^{-1}k_*$$
 Hyperparameters fit by maximising the marginal likelihood (eq. 35).
 
 ## Links to neural networks
-- Infinite-width networks are GPs with the NNGP kernel (eqs. 8-9):
+- Infinite-width networks are GPs with the NNGP kernel (eqs. 8-9; proved for deep networks by [[Wide networks as GPs (Matthews 2018)]], see [[Neural network Gaussian process]]):
   $$k^\ell=\sigma_w^2\,\mathbb E_{z\sim N(0,K^{\ell-1})}[\varphi(z_1)\varphi(z_2)]+\sigma_b^2$$
-- Gradient-descent training in that limit follows the neural tangent kernel $k=JJ^\top$ (eqs. 10-11; recursion detail **[unverified]**).
+- Gradient-descent training in that limit follows the neural tangent kernel $k=JJ^\top$ (eqs. 10-11); the recursion is verified in [[NTK (Jacot 2018)]], Thm 1.
 
 ## Where it appears
 - [[Priors in Bayesian deep learning (Fortuin 2022)]] (GP priors and infinite-width limits).
 - [[Bayesian DenseED surrogate (Zhu 2018)]]: GPs as the surrogate baseline that scales badly in input dimension; the input field itself is a GP sampled by [[Karhunen-Loève expansion]].
 - [[Physics-informed ML review (Karniadakis 2021)]] — GP kernels as inductive bias and GP uncertainty for active learning (pp. 4, 9).
+- [[Wide networks as GPs (Matthews 2018)]] — deep wide networks converge to GPs; finite Bayesian nets vs exact GP.
 - [[Neural tangent kernel]] — infinite-width networks behave as kernel regression.
 - [[Wiener process]] is the GP with kernel $s\wedge t$; KL expansion samples GPs ([[Karhunen-Loève expansion]], [[Mercer's theorem]]).
 - First-order propagation of Gaussian parameter uncertainty through an ODE gives a vector-valued GP with covariance $\nabla_\theta x\,\Sigma\,\nabla_\theta x^T$: [[Local sensitivity analysis of ODEs]] (source: `up/sensitivity_analysis/01_theory.md`).
 - GP surrogates, exact versus sparse variational: [[Surrogate model]].
 - Multi-fidelity GPs (Kennedy-O'Hagan and nonlinear): [[Multi-fidelity modeling]].
 - GP with uncertainty sampling for active learning: [[Active learning]].
+- GP baselines and smoothing around PINNs: periodic-kernel GP smoothing of MRI waveforms ([[Cardiovascular flow PINNs (Kissas 2020)]]); GP regression as a baseline that fails at wavefront collisions ([[Cardiac activation PINN (Sahli Costabal 2020)]]).
 - GP as random-field input to a PDE, expanded by KLE: [[Karhunen-Loève expansion]].
 
 ## Related pages

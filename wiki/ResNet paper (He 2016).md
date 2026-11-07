@@ -63,7 +63,7 @@ Wiki note: the paper does not mention the ODE view of residual updates, which la
 - Concept page: [[ResNet]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Glorot init (Glorot 2010)]]
+**Cites in this wiki**: [[AlexNet (Krizhevsky 2012)]], [[Glorot init (Glorot 2010)]]
 %% refs:end %%
 
 **Sources**: `papers/ML/He, Zhang, Ren, Sun - ResNets.pdf`.

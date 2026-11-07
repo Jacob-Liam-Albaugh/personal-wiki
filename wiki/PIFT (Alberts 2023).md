@@ -154,7 +154,7 @@ Wiki note: the published values for the noise in Examples 2 and 4 (both printed 
 - Code: github PredictiveScienceLab/pift-paper-2023 (as cited in the paper).
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[DeepONet (Lu 2021)]], [[SGLD (Welling 2011)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[DeepONet (Lu 2021)]], [[SGLD (Welling 2011)]]
 **Cited by in this wiki**: [[IFT thermal conductivity (Alberts 2026)]]
 %% refs:end %%
 

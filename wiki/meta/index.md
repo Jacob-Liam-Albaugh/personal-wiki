@@ -75,8 +75,12 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 
 | Page | Type | Title |
 |---|---|---|
+| [[Cardiac activation PINN (Sahli Costabal 2020)]] | paper | Cardiac activation PINN (Sahli Costabal 2020) |
+| [[Cardiovascular flow PINNs (Kissas 2020)]] | paper | Cardiovascular flow PINNs (Kissas 2020) |
+| [[Deep Koopman (Lusch 2018)]] | paper | Deep Koopman (Lusch 2018) |
 | [[Energy-based kernels for viscoelastic flow (Otto 2024)]] | paper | Machine learning in viscoelastic fluids via energy-based kernel embedding (Otto 2024) |
 | [[Expert's guide to PINNs (Wang 2023)]] | paper | An expert's guide to training PINNs (Wang 2023) |
+| [[Hidden fluid mechanics (Raissi 2020)]] | paper | Hidden fluid mechanics (Raissi 2020) |
 | [[HNNs (Greydanus 2019)]] | paper | Hamiltonian Neural Networks (Greydanus 2019) |
 | [[LNNs (Cranmer 2020)]] | paper | Lagrangian Neural Networks (Cranmer 2020) |
 | [[NIF (Pan 2023)]] | paper | Neural Implicit Flow: a mesh-agnostic dimensionality reduction paradigm (Pan 2023) |
@@ -84,21 +88,26 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[PINNs (Raissi 2019)]] | paper | Physics-informed neural networks (Raissi 2019) |
 | [[Physics-informed ML review (Karniadakis 2021)]] | paper | Physics-informed machine learning review (Karniadakis 2021) |
 | [[Respecting causality (Wang 2022)]] | paper | Respecting causality is all you need for training PINNs (Wang 2022) |
+| [[SINDy (Brunton 2016)]] | paper | SINDy (Brunton 2016) |
 | [[SINDy autoencoders (Champion 2019)]] | paper | Data-driven discovery of coordinates and governing equations (Champion 2019) |
 | [[SINDy delay autoencoders (Bakarji 2022)]] | paper | Discovering governing equations from partial measurements with deep delay autoencoders (Bakarji 2022) |
 | [[When and why PINNs fail (Wang 2022)]] | paper | When and why PINNs fail to train (Wang 2022) |
 | [[Adjoint sensitivity method]] | method | Adjoint sensitivity method |
+| [[Eikonal equation]] | definition | Eikonal equation |
 | [[Exact Markovian law for Kelvin-Voigt]] | theorem | Exact Markovian law for piecewise-constant Kelvin-Voigt |
 | [[Hamiltonian neural network]] | method | Hamiltonian neural network |
 | [[Homogenization]] | method | Homogenization |
 | [[Kelvin-Voigt viscoelasticity]] | definition | Kelvin-Voigt viscoelasticity |
+| [[Koopman operator]] | definition | Koopman operator |
 | [[Lagrangian neural network]] | method | Lagrangian neural network |
 | [[Neural ODE]] | method | Neural ODE |
 | [[Neural implicit flow]] | method | Neural implicit flow |
 | [[Neural tangent kernel]] | concept | Neural tangent kernel |
 | [[PINN]] | method | Physics-informed neural networks (PINN) and B-PINN |
 | [[Physics-informed machine learning]] | concept | Physics-informed machine learning |
+| [[Randomized prior functions]] | method | Randomized prior functions |
 | [[SINDy]] | method | SINDy |
+| [[Windkessel model]] | definition | Windkessel model |
 
 ## Information field theory
 
@@ -124,6 +133,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Classifier-free guidance (Ho 2022)]] | paper | Classifier-Free Diffusion Guidance (Ho 2022) |
 | [[DDIM (Song 2021)]] | paper | Denoising Diffusion Implicit Models (Song 2021) |
 | [[DDPM (Ho 2020)]] | paper | Denoising Diffusion Probabilistic Models (Ho 2020) |
+| [[GAN paper (Goodfellow 2014)]] | paper | GAN paper (Goodfellow 2014) |
 | [[KL expansion note (Alexanderian 2015)]] | paper | KL expansion note (Alexanderian 2015) |
 | [[KL expansions of the Wiener process (Deheuvels 2006)]] | paper | KL expansions of the Wiener process (Deheuvels 2006) |
 | [[Quantum option pricing KL (Prakash 2025)]] | paper | Quantum option pricing KL (Prakash 2025) |
@@ -131,6 +141,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Random field discretization (Betz 2014)]] | paper | Random field discretization (Betz 2014) |
 | [[Score SDE (Song 2021)]] | paper | Score-Based Generative Modeling Through SDEs (Song 2021) |
 | [[Step-by-step diffusion (Nakkiran 2025)]] | paper | Step-by-Step Diffusion: An Elementary Tutorial (Nakkiran 2025) |
+| [[U-Net paper (Ronneberger 2015)]] | paper | U-Net paper (Ronneberger 2015) |
 | [[Wiener-Askey chaos (Xiu 2002)]] | paper | Wiener-Askey chaos (Xiu 2002) |
 | [[AMAGOLD]] | method | AMAGOLD (amortized Metropolis adjustment) |
 | [[Brownian motion]] | concept | Brownian motion |
@@ -158,6 +169,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Score matching]] | method | Score matching |
 | [[Stochastic differential equation]] | concept | Stochastic differential equation |
 | [[Stochastic state-space model]] | definition | Stochastic state-space model |
+| [[U-Net]] | method | U-Net |
 | [[Variance-corrected quantization]] | method | Variance-corrected quantization (low-precision SGLD) |
 | [[Wiener process]] | definition | Wiener process |
 
@@ -197,26 +209,31 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | Page | Type | Title |
 |---|---|---|
 | [[Adam paper (Kingma 2015)]] | paper | Adam paper (Kingma 2015) |
+| [[AlexNet (Krizhevsky 2012)]] | paper | AlexNet (Krizhevsky 2012) |
 | [[Attention is all you need (Vaswani 2017)]] | paper | Attention is all you need (Vaswani 2017) |
 | [[CLIP (Radford 2021)]] | paper | CLIP: Learning Transferable Visual Models From Natural Language Supervision (Radford 2021) |
 | [[Deep Sets paper (Zaheer 2017)]] | paper | Deep Sets paper (Zaheer 2017) |
 | [[DeepSeek-V2 (DeepSeek-AI 2024)]] | paper | DeepSeek-V2 (DeepSeek-AI 2024) |
 | [[Dropout paper (Srivastava 2014)]] | paper | Dropout paper (Srivastava 2014) |
+| [[Eureqa (Schmidt 2009)]] | paper | Eureqa (Schmidt 2009) |
 | [[Fourier features (Tancik 2020)]] | paper | Fourier features (Tancik 2020) |
 | [[Glorot init (Glorot 2010)]] | paper | Glorot init (Glorot 2010) |
 | [[Init and momentum (Sutskever 2013)]] | paper | Init and momentum (Sutskever 2013) |
 | [[MHA2MLA (Ji 2025)]] | paper | MHA2MLA (Ji 2025) |
 | [[Mamba (Gu 2023)]] | paper | Mamba (Gu 2023) |
+| [[NTK (Jacot 2018)]] | paper | NTK (Jacot 2018) |
 | [[PySR (Cranmer 2023)]] | paper | PySR (Cranmer 2023) |
 | [[ResNet paper (He 2016)]] | paper | ResNet paper (He 2016) |
 | [[SIREN paper (Sitzmann 2020)]] | paper | SIREN paper (Sitzmann 2020) |
 | [[Spectral bias (Rahaman 2019)]] | paper | Spectral bias (Rahaman 2019) |
 | [[Symbolic models from deep learning (Cranmer 2020)]] | paper | Symbolic models from deep learning (Cranmer 2020) |
+| [[Universal approximation (Hornik 1989)]] | paper | Universal approximation (Hornik 1989) |
 | [[Variational graph auto-encoder (Kipf 2016)]] | paper | Variational graph auto-encoder (Kipf 2016) |
 | [[Adam]] | method | Adam |
 | [[Attention]] | concept | Attention |
 | [[Automatic differentiation]] | method | Automatic differentiation |
 | [[Contrastive learning]] | concept | Contrastive learning (CLIP objective) |
+| [[Convolutional neural network]] | concept | Convolutional neural network |
 | [[Deep Sets]] | method | Deep Sets |
 | [[Diffusion posterior sampling]] | method | Conditioning generative priors (posterior sampling) |
 | [[Dropout]] | concept | Dropout |
@@ -231,6 +248,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Momentum]] | method | Momentum |
 | [[Newton's method]] | method | Newton's method |
 | [[Normalizing flows]] | method | Normalizing flows |
+| [[ReLU]] | definition | ReLU |
 | [[ResNet]] | concept | ResNet |
 | [[SGD]] | method | Stochastic gradient descent (SGD) |
 | [[SIREN]] | method | SIREN |
@@ -238,6 +256,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[State space model]] | concept | State space model |
 | [[Symbolic regression]] | concept | Symbolic regression |
 | [[Transformer]] | concept | Transformer |
+| [[Universal approximation theorem]] | theorem | Universal approximation theorem |
 | [[VAE]] | method | Variational autoencoder (VAE) |
 | [[Variational dropout]] | method | Variational dropout |
 | [[Weight initialization]] | concept | Weight initialization |
@@ -251,10 +270,12 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Gaussian processes and kernel methods (Kanagawa 2018)]] | paper | Gaussian processes and kernel methods (Kanagawa 2018) |
 | [[Multi-fidelity GP for tissue expansion (Lee 2020)]] | paper | Multi-fidelity GP for tissue expansion (Lee 2020) |
 | [[Reduced-rank GPs (Greengard 2022)]] | paper | Reduced-rank GPs (Greengard 2022) |
+| [[Wide networks as GPs (Matthews 2018)]] | paper | Wide networks as GPs (Matthews 2018) |
 | [[Gaussian process]] | concept | Gaussian process |
 | [[Kernel composition]] | concept | Kernel composition |
 | [[Kernel methods]] | concept | Kernel methods |
 | [[Multi-fidelity Gaussian process]] | method | Multi-fidelity Gaussian process |
+| [[Neural network Gaussian process]] | definition | Neural network Gaussian process |
 | [[RKHS]] | definition | RKHS |
 
 ## Symmetry & equivariance

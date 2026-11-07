@@ -80,7 +80,7 @@ Wiki note: the analysis is for a quadratic with exact gradients. The stochastic 
 - Momentum plus noise gives [[SGHMC]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Glorot init (Glorot 2010)]]
+**Cites in this wiki**: [[AlexNet (Krizhevsky 2012)]], [[Glorot init (Glorot 2010)]]
 **Cited by in this wiki**: [[Adam paper (Kingma 2015)]]
 %% refs:end %%
 

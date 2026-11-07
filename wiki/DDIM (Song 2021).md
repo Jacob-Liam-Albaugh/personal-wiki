@@ -162,7 +162,7 @@ Wiki notes:
 - Wiki note: the ODE view foreshadows [[Flow matching]]-style deterministic transport maps.
 
 %% refs:start %%
-**Cites in this wiki**: [[DDPM (Ho 2020)]], [[Score SDE (Song 2021)]]
+**Cites in this wiki**: [[DDPM (Ho 2020)]], [[GAN paper (Goodfellow 2014)]], [[Score SDE (Song 2021)]], [[U-Net paper (Ronneberger 2015)]]
 %% refs:end %%
 
 **Sources**: `papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.

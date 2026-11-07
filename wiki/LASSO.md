@@ -44,5 +44,5 @@ The absolute-value trick of [[LP modelling]] turns $\min\sum c_i|x_i|$ with $c_i
 
 ## Related pages
 - [[Gradient descent]] · [[Weight initialization]]
-- [[SINDy]] · [[Neural ODE]]
+- [[SINDy]] · [[SINDy (Brunton 2016)]] · [[Neural ODE]]
 - [[LP modelling]] · [[Linear programming]]

@@ -44,6 +44,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf` | 77 | ingested → [[Step-by-step diffusion (Nakkiran 2025)]] |  |
 | `Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf` | 25 | ingested → [[CLIP (Radford 2021)]] |  |
 | `Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf` | 16 | ingested → [[CLIP (Radford 2021)]] |  |
+| `Ronneberger, Fischer, Brox - U-Net Convolutional Networks for Biomedical Image Segmentation.pdf` | 8 | ingested → [[U-Net paper (Ronneberger 2015)]] |  |
 | `Song et al - Score-Based Generative Modeling through Stochastic Differential Equations.pdf` | 36 | ingested → [[Score SDE (Song 2021)]] | same ICLR 2021 text as the papers/Stochastic Methods/ copy (different file bytes) |
 | `Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf` | 22 | ingested → [[DDIM (Song 2021)]] |  |
 | `Wang - Generative priors for spatiotemporal turbulence.pdf` | 24 | ingested → [[Generative priors for turbulence (Wang 2026)]] | duplicate (identical file) of the papers/IFT/ copy |
@@ -52,6 +53,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
+| `Goodfellow et al - Generative Adversarial Nets.pdf` | 9 | ingested → [[GAN paper (Goodfellow 2014)]] |  |
 | `Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations` |  | alias | points to papers/Stochastic Methods/ copy |
 
 ## papers/Guassian Processes
@@ -63,6 +65,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Gaussian Processes for Machine Learning` |  | alias | points to text_books/Mathmatics/Gaussian Processes for Machine Learning.pdf |
 | `Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf` | 20 | ingested → [[Reduced-rank GPs (Greengard 2022)]] |  |
 | `Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf` | 64 | ingested → [[Gaussian processes and kernel methods (Kanagawa 2018)]] |  |
+| `Matthews et al - Gaussian Process Behaviour in Wide Deep Neural Networks.pdf` | 36 | ingested → [[Wide networks as GPs (Matthews 2018)]] |  |
 
 ## papers/IFT
 
@@ -89,6 +92,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
+| `Brunton, Proctor, Kutz - Discovering governing equations from data by sparse identification of nonlinear dynamical systems.pdf` | 6 | ingested → [[SINDy (Brunton 2016)]] |  |
 | `Cranmer - PySR.pdf` | 24 | ingested → [[PySR (Cranmer 2023)]] |  |
 | `Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf` | 14 | ingested → [[Symbolic models from deep learning (Cranmer 2020)]] |  |
 | `Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf` | 92 | ingested → [[RMHMC (Girolami 2011)]] |  |
@@ -96,9 +100,13 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `He, Zhang, Ren, Sun - ResNets.pdf` | 12 | ingested → [[ResNet paper (He 2016)]] |  |
 | `Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf` | 30 | ingested → [[Dropout paper (Srivastava 2014)]] |  |
 | `Hinton, Sutskever, Martens, Dahl - On the Importance of Initialization and Momentum in DL.pdf` | 14 | ingested → [[Init and momentum (Sutskever 2013)]] |  |
+| `Hornik, Stinchcombe, White - Multilayer Feedforward Networks are Universal Approximators.pdf` | 8 | ingested → [[Universal approximation (Hornik 1989)]] |  |
+| `Jacot, Gabriel, Hongler - Neural Tangent Kernel Convergence and Generalization in Neural Networks.pdf` | 10 | ingested → [[NTK (Jacot 2018)]] |  |
 | `Kingma, Lei Ba - Adam.pdf` | 15 | ingested → [[Adam paper (Kingma 2015)]] |  |
 | `Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick` |  | alias | points to papers/Bayesian/ copy |
+| `Krizhevsky et al - ImageNet Classification with Deep Convolutional Neural Networks.pdf` | 7 | ingested → [[AlexNet (Krizhevsky 2012)]] |  |
 | `Rahaman et.al. - On the Spectrial Bias of NNs.pdf` | 23 | ingested → [[Spectral bias (Rahaman 2019)]] |  |
+| `Schmidt, Lipson - Distilling Free-Form Natural Laws from Experimental Data.pdf` | 6 | ingested → [[Eureqa (Schmidt 2009)]] |  |
 | `Sitzmann - SIREN - Implicit Neural Representations with Periodic Activation Functions.pdf` | 35 | ingested → [[SIREN paper (Sitzmann 2020)]] |  |
 | `Sormani - How Riemannian Manifolds Converge.pdf` | 27 | ingested → [[Riemannian convergence (Sormani 2011)]] |  |
 | `Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf` | 24 | ingested → [[Fourier features (Tancik 2020)]] |  |
@@ -131,10 +139,14 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Brunton, Otto, Kutz - ML in Viscoelastic Fluids via Kernel Embeding.pdf` | 32 | ingested → [[Energy-based kernels for viscoelastic flow (Otto 2024)]] |  |
 | `Brunton, Pan, Kutz - NIF - Neural Implicit Flow.pdf` | 60 | ingested → [[NIF (Pan 2023)]] |  |
 | `Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf` | 18 | ingested → [[Neural ODEs (Chen 2018)]] |  |
+| `Costabal et al - Physics-Informed Neural Networks for Cardiac Activation Mapping.pdf` | 12 | ingested → [[Cardiac activation PINN (Sahli Costabal 2020)]] |  |
 | `Cranmer, Greydanus, Ho - LNNs.pdf` | 9 | ingested → [[LNNs (Cranmer 2020)]] |  |
 | `Greydanus, Dzamba, Yosinski - HNNs.pdf` | 16 | ingested → [[HNNs (Greydanus 2019)]] |  |
 | `Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf` | 20 | ingested → [[Physics-informed ML review (Karniadakis 2021)]] |  |
 | `Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf` | 45 | ingested → [[PINNs (Raissi 2019)]] |  |
+| `Kissas et al - Machine learning in cardiovascular flows modeling Predicting arterial blood pressure from non-invasive 4D flow MRI data.pdf` | 28 | ingested → [[Cardiovascular flow PINNs (Kissas 2020)]] |  |
+| `Lusch, Kutz, Brunton - Deep learning for universal linear embeddings of nonlinear dynamics.pdf` | 10 | ingested → [[Deep Koopman (Lusch 2018)]] |  |
+| `Raissi, Yazdani, Karniadakis - Hidden fluid mechanics Learning velocity and pressure fields from flow visualizations.pdf` | 5 | ingested → [[Hidden fluid mechanics (Raissi 2020)]] |  |
 | `Wang, Sankaran, Perdikaris - An Expert's Guide to Training PINNs.pdf` | 36 | ingested → [[Expert's guide to PINNs (Wang 2023)]] |  |
 | `Wang, Sankaran, Perdikaris - Respecting Causality is All You Need for Training PINNs.pdf` | 35 | ingested → [[Respecting causality (Wang 2022)]] |  |
 | `Wang, Yu, Perdikaris - When and Why PINNs Fail to Train - A Neural Tangent Kernel Perspective.pdf` | 29 | ingested → [[When and why PINNs fail (Wang 2022)]] |  |

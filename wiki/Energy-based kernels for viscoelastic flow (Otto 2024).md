@@ -79,7 +79,7 @@ The authors note the choice is only partially resolved: other energy-compatible 
 - Compare [[Navier-Stokes equations]] (the Newtonian limit).
 
 %% refs:start %%
-**Cites in this wiki**: [[SINDy autoencoders (Champion 2019)]]
+**Cites in this wiki**: [[SINDy (Brunton 2016)]], [[SINDy autoencoders (Champion 2019)]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Brunton, Otto, Kutz - ML in Viscoelastic Fluids via Kernel Embeding.pdf`.

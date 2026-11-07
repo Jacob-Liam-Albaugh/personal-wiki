@@ -10,7 +10,7 @@ tags: [ml, optimization, physics-informed]
 
 **Summary**: Supervised learning where the model space is closed-form analytic expressions. It is usually posed as a multi-objective search that trades prediction error against expression complexity, and returns a Pareto front of candidate formulas.
 
-**Sources**: `papers/ML/Cranmer - PySR.pdf`; `papers/ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`.
+**Sources**: `papers/ML/Schmidt, Lipson - Distilling Free-Form Natural Laws from Experimental Data.pdf`; `papers/ML/Cranmer - PySR.pdf`; `papers/ML/Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf`.
 **Last updated**: 2026-11-06
 
 ---
@@ -24,6 +24,7 @@ Why bother: the search space is discrete in structure but continuous in constant
 
 ## Approaches in the sources
 
+- **Eureqa**: the original physics-law demonstration is [[Eureqa (Schmidt 2009)]], which scores candidates by partial-derivative pairs and reports an accuracy-parsimony Pareto front.
 - **Genetic search on trees** (Eureqa, PySR): tournament selection, mutation, crossover. [[PySR (Cranmer 2023)]] adds simulated annealing, an evolve-simplify-optimize loop with BFGS on constants, and adaptive parsimony.
 - **Dictionary regression**: a sparse linear combination of fixed nonlinear terms, as in [[SINDy]] (PySR, §1).
 - **Distillation from a neural net**: train a [[Graph neural network]] with a compact latent, then fit symbolic regression to each internal function. This makes high-dimensional problems tractable and is an add-on to any SR engine (source: Cranmer 2020, p. 4; see [[Symbolic models from deep learning (Cranmer 2020)]]).
@@ -40,7 +41,8 @@ Symbolic regression returns a deterministic formula with no posterior over struc
 ## Related pages
 - [[PySR (Cranmer 2023)]]
 - [[Symbolic models from deep learning (Cranmer 2020)]]
-- [[SINDy]]
+- [[SINDy]] · [[SINDy (Brunton 2016)]]
+- [[Eureqa (Schmidt 2009)]]
 - [[Graph neural network]]
 - [[Physics-informed machine learning]]
 - [[Surrogate model]]

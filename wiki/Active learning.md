@@ -25,6 +25,7 @@ tags: [uq, gp, ml, bayesian]
 - **Multi-objective**: hypervolume improvement.
 
 ## Notes
+- PINN example: max-entropy acquisition from a prior-function ensemble for cardiac activation maps, fewer samples than random or Latin hypercube placement ([[Cardiac activation PINN (Sahli Costabal 2020)]], [[Randomized prior functions]]).
 - Needs a model with a usable predictive uncertainty: [[Gaussian process]] (closed form), generalized linear models, or neural networks with a Laplace approximation or samples.
 - Candidate points are found by random or space-filling search ([[Latin hypercube sampling]]) when the argmax is not analytic.
 - Wiki note: the information gain in the book is the small-variance form of $\tfrac12\log(1+\sigma_t^2/\sigma^2)$; the argmax is the same.

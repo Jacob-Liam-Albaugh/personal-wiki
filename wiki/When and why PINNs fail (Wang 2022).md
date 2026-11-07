@@ -32,7 +32,7 @@ with $L_b=\tfrac12\sum_{i\le N_b}|u(x_b^i,\theta)-g(x_b^i)|^2$ and $L_r=\tfrac12
 
 Networks use the NTK parameterization with $1/\sqrt{d_h}$ scaling and i.i.d. $N(0,1)$ weights (eqs. 2.1-2.3). As width grows the pre-activations become a Gaussian process with covariance $\Sigma^{(h)}$ (eq. 2.4), and the kernel of parameter gradients
 $$\mathrm{Ker}_t(x,x')=\Big\langle\tfrac{\partial f(x,\theta(t))}{\partial\theta},\tfrac{\partial f(x',\theta(t))}{\partial\theta}\Big\rangle$$
-converges to a deterministic $\Theta^{(L)}$ (eqs. 2.6-2.8, p. 3). Training then equals kernel regression (Jacot et al., cited as ref. 33). See [[Gaussian process]] and [[Kernel methods]].
+converges to a deterministic $\Theta^{(L)}$ (eqs. 2.6-2.8, p. 3). Training then equals kernel regression (Jacot et al., cited as ref. 33; see [[NTK (Jacot 2018)]]). See [[Gaussian process]] and [[Kernel methods]].
 
 ## Results
 
@@ -82,7 +82,7 @@ For the wave equation the NTK does not stay fixed: eigenvalues first move outwar
 - Related frameworks: [[Physics-informed machine learning]], [[Physics-informed prior]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[DeepONet (Lu 2021)]], [[Fourier features (Tancik 2020)]], [[Glorot init (Glorot 2010)]], [[PINNs (Raissi 2019)]], [[Spectral bias (Rahaman 2019)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[DeepONet (Lu 2021)]], [[Fourier features (Tancik 2020)]], [[Glorot init (Glorot 2010)]], [[Hidden fluid mechanics (Raissi 2020)]], [[NTK (Jacot 2018)]], [[PINNs (Raissi 2019)]], [[Spectral bias (Rahaman 2019)]], [[Wide networks as GPs (Matthews 2018)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[Respecting causality (Wang 2022)]]
 %% refs:end %%
 
@@ -92,5 +92,5 @@ For the wave equation the NTK does not stay fixed: eigenvalues first move outwar
 ---
 
 ## Related pages
-- [[Neural tangent kernel]] · [[PINN]] · [[PINNs (Raissi 2019)]] · [[Spectral bias]] · [[Gaussian process]]
+- [[NTK (Jacot 2018)]] · [[Neural tangent kernel]] · [[PINN]] · [[PINNs (Raissi 2019)]] · [[Spectral bias]] · [[Gaussian process]]
 - [[Respecting causality (Wang 2022)]] · [[Expert's guide to PINNs (Wang 2023)]] · [[Physics-informed machine learning]]

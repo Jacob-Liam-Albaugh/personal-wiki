@@ -34,3 +34,4 @@ tags: [generative, vi, ml]
 ## Related pages
 - [[Diffusion models]] · [[Normalizing flows]] · [[KL divergence]]
 - [[Variational graph auto-encoder (Kipf 2016)]] (graph-structured VAE with GCN encoder and inner-product decoder).
+- [[GAN paper (Goodfellow 2014)]]

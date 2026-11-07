@@ -64,7 +64,7 @@ $$
 
 ## Notes
 - DMD is an SVD/[[Proper orthogonal decomposition]] projection followed by a least-squares linear fit; the modes are not orthogonal, unlike POD modes.
-- For nonlinear dynamics a linear fit is a Koopman-style approximation **[unverified]**; compare [[SINDy]], which fits a sparse nonlinear model instead.
+- For nonlinear dynamics DMD approximates the [[Koopman operator]] using the identity observable $g(x)=x$, so it misses nonlinear transients (source: [[Deep Koopman (Lusch 2018)]], p. 3); compare [[SINDy]], which fits a sparse nonlinear model instead.
 
 **Wiki note**: the text writes $b=(\Lambda W)^{-1}\tilde x_1$; dimensionally and by the eigen-relation it should be $(W\Lambda)^{-1}\tilde x_1$ as in the algorithm list. The text also says data after step 100 are unused, but the notebook uses 140 snapshots.
 
@@ -76,4 +76,4 @@ $$
 
 ## Related pages
 - [[Proper orthogonal decomposition]] · [[Singular value decomposition]] · [[Principal component analysis]]
-- [[SINDy]] · [[Neural ODE]]
+- [[SINDy]] · [[Neural ODE]] · [[Koopman operator]] · [[Deep Koopman (Lusch 2018)]] · [[SINDy (Brunton 2016)]]

@@ -60,7 +60,7 @@ Authors: optimizer prone to local minima and over-fitting; unknown whether any l
 - Suggests invertible networks to enforce the diffeomorphism by construction.
 
 %% refs:start %%
-**Cites in this wiki**: [[PINNs (Raissi 2019)]], [[SINDy autoencoders (Champion 2019)]], [[Tensor basis NN turbulence (Ling 2016)]]
+**Cites in this wiki**: [[Deep Koopman (Lusch 2018)]], [[Eureqa (Schmidt 2009)]], [[PINNs (Raissi 2019)]], [[SINDy (Brunton 2016)]], [[SINDy autoencoders (Champion 2019)]], [[Tensor basis NN turbulence (Ling 2016)]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf`.
@@ -69,5 +69,5 @@ Authors: optimizer prone to local minima and over-fitting; unknown whether any l
 ---
 
 ## Related pages
-- [[SINDy]] · [[SINDy autoencoders (Champion 2019)]] · [[Singular value decomposition]] · [[Dynamic mode decomposition]]
+- [[SINDy (Brunton 2016)]] · [[SINDy]] · [[SINDy autoencoders (Champion 2019)]] · [[Singular value decomposition]] · [[Dynamic mode decomposition]]
 - [[Neural ODE]] · [[Physics-informed machine learning]] · [[Symbolic regression]]

@@ -54,10 +54,10 @@ Stated (§5, pp. 10-11): needs clean, nearly noise-free data because derivatives
 
 - Extended to partial observations in [[SINDy delay autoencoders (Bakarji 2022)]].
 - The latent ODE is a sparse analogue of a [[Neural ODE]] vector field; compare structured fields in [[Hamiltonian neural network]].
-- Related to [[Dynamic mode decomposition]] / Koopman (linear latent dynamics) and to [[Principal component analysis]] (linear coordinates).
+- Original SINDy: [[SINDy (Brunton 2016)]]. Related to [[Dynamic mode decomposition]] / [[Koopman operator]] (linear latent dynamics, see [[Deep Koopman (Lusch 2018)]]) and to [[Principal component analysis]] (linear coordinates).
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Glorot init (Glorot 2010)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[AlexNet (Krizhevsky 2012)]], [[Deep Koopman (Lusch 2018)]], [[Eureqa (Schmidt 2009)]], [[Glorot init (Glorot 2010)]], [[SINDy (Brunton 2016)]], [[Universal approximation (Hornik 1989)]]
 **Cited by in this wiki**: [[Energy-based kernels for viscoelastic flow (Otto 2024)]], [[NIF (Pan 2023)]], [[PySR (Cranmer 2023)]], [[SINDy delay autoencoders (Bakarji 2022)]]
 %% refs:end %%
 
@@ -67,5 +67,5 @@ Stated (§5, pp. 10-11): needs clean, nearly noise-free data because derivatives
 ---
 
 ## Related pages
-- [[SINDy]] · [[SINDy delay autoencoders (Bakarji 2022)]] · [[Neural ODE]] · [[Physics-informed machine learning]]
+- [[SINDy (Brunton 2016)]] · [[Deep Koopman (Lusch 2018)]] · [[SINDy]] · [[SINDy delay autoencoders (Bakarji 2022)]] · [[Neural ODE]] · [[Physics-informed machine learning]]
 - [[Dynamic mode decomposition]] · [[Principal component analysis]] · [[LASSO]] · [[Symbolic regression]]

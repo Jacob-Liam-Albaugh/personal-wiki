@@ -28,6 +28,7 @@ Set $\tilde x=x/L_x$, $\tilde y=y/L_y$, $\tilde u=u/u_s$, $\tilde f=f/f_s$. The 
 ## Why it matters
 - A small ratio such as $\tilde k_y/\tilde k_x=10^{-2}$ makes one direction nearly decoupled and is a hard case for training; it connects to [[Spectral bias]].
 - Mis-scaled terms in the loss let one term dominate; see the loss discussion in [[PINN]].
+- In arterial flow, raw $P\sim10^6$ Pa, $A\sim10^{-5}$ m$^2$, $u\sim10$ m/s make the PINN collapse; characteristic scales $L,U$ with $p_0=\rho U^2$ fix it without loss weights (source: Kissas et al. 2020, eqs. 13-14, p. 10; [[Cardiovascular flow PINNs (Kissas 2020)]]).
 
 **Wiki note**: the two notebooks use different scale choices, so their $k_x,k_y$ values are not comparable; the energy notebook also has a `kx`/`ky` slip in one energy term (flagged on the lecture page).
 

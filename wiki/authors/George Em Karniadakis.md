@@ -8,6 +8,7 @@ tags: []
 Pages in this wiki by George Em Karniadakis:
 
 - [[DeepONet (Lu 2021)]]
+- [[Hidden fluid mechanics (Raissi 2020)]]
 - [[LNO (Cao 2023)]]
 - [[PINNs (Raissi 2019)]]
 - [[Physics-informed ML review (Karniadakis 2021)]]

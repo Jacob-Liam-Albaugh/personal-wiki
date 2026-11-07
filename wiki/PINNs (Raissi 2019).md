@@ -69,8 +69,8 @@ Notes on Navier-Stokes: assuming $u=\psi_y$, $v=-\psi_x$ makes the continuity eq
 - Neural fields vs operators: [[NIF (Pan 2023)]], [[Operator learning]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[Tensor basis NN turbulence (Ling 2016)]]
-**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]], [[Respecting causality (Wang 2022)]], [[SINDy delay autoencoders (Bakarji 2022)]], [[SIREN paper (Sitzmann 2020)]], [[When and why PINNs fail (Wang 2022)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[AlexNet (Krizhevsky 2012)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[SINDy (Brunton 2016)]], [[Tensor basis NN turbulence (Ling 2016)]], [[Universal approximation (Hornik 1989)]]
+**Cited by in this wiki**: [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Expert's guide to PINNs (Wang 2023)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]], [[Respecting causality (Wang 2022)]], [[SINDy delay autoencoders (Bakarji 2022)]], [[SIREN paper (Sitzmann 2020)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf`.
@@ -81,3 +81,4 @@ Notes on Navier-Stokes: assuming $u=\psi_y$, $v=-\psi_x$ makes the continuity eq
 ## Related pages
 - [[PINN]] · [[Automatic differentiation]] · [[Burgers equation]] · [[Navier-Stokes equations]] · [[Physics-informed machine learning]]
 - [[When and why PINNs fail (Wang 2022)]] · [[Respecting causality (Wang 2022)]] · [[Expert's guide to PINNs (Wang 2023)]] · [[Neural tangent kernel]]
+- Applications building on it: [[Hidden fluid mechanics (Raissi 2020)]] · [[Cardiovascular flow PINNs (Kissas 2020)]] · [[Cardiac activation PINN (Sahli Costabal 2020)]]

@@ -14,12 +14,12 @@ from refs import R, WANTED, CACHE, entries_for, fold, load_pages, matches, words
 
 INBOX = R / "inbox"
 QUEUE = INBOX / "to-ingest.txt"
-BAD_TITLE = re.compile(r"^(untitled|microsoft word|document\d*|arxiv|paper)\b|\.(dvi|tex|docx?|pdf)$", re.I)
+BAD_TITLE = re.compile(r"^(untitled|microsoft word|document\d*|arxiv|paper|pii)\b|\.(dvi|tex|docx?|pdf)$", re.I)
 
 
 def topic_of(file):
     parts = Path(file).parts
-    return parts[1] if len(parts) > 2 and parts[0] == "papers" else None
+    return parts[1] if len(parts) > 2 and parts[0] == "papers" and parts[1] != "PSL Reading Group" else None
 
 
 def big_title(page):
@@ -39,13 +39,17 @@ def surnames(author_field):
     return out
 
 
+def dehyphen(s):
+    return re.sub(r"(\w)- (\w)", r"\1\2", s)
+
+
 def ref_surnames(entry):
-    body = re.sub(r"^\[?\d{1,3}[.\]]\s*", "", entry)
+    body = dehyphen(re.sub(r"^\[?\d{1,3}[.\]]\s*", "", entry))
     m = re.match(r"(.+?(?<!\b[A-Z])\.)\s", body)
     pieces = [x.strip(" .") for x in re.split(r",|\band\b|&", m.group(1) if m else "") if x.strip(" .")]
     initials = [x for x in pieces if re.fullmatch(r"(?:[A-Z]\.?\s*-?)+", x)]
     names = [x for x in pieces if x not in initials and not re.search(r"\d|et al", x)]
-    sur = [n.split()[0] if initials else n.split()[-1] for n in names if 0 < len(n.split()) <= 4]
+    sur = [n.split()[0] if initials else n.split()[-1] for n in names if 0 < len(n.split()) <= 5]
     return [x for x in sur if not re.fullmatch(r"[A-Z]\.?", x)]
 
 
@@ -63,7 +67,7 @@ def best_wanted(title, text, wanted):
     tw, head = words(title), fold(text[:4000])
     best, score = None, 0.8
     for c in wanted:
-        if len(tw) < 2 or not re.search(rf"\b{re.escape(c['sur'])}\b", head):
+        if len(tw) < 2 or c["sur"] not in head:
             continue
         s = len(c["ws"] & tw) / len(tw)
         if s >= score:
@@ -87,7 +91,9 @@ def place(pdf, wanted, pages, cache, known):
     text = "\n".join(p.get_text() for p in list(d)[:2])
     meta = d.metadata or {}
     title = meta.get("title") or ""
-    if len(title) < 10 or BAD_TITLE.search(title.strip()):
+    title = re.sub(r"^LNCS \d+\s*-\s*", "", title)
+    tw = words(title)
+    if len(title) < 10 or BAD_TITLE.search(title.strip()) or len(tw & words(text)) < 0.7 * len(tw):
         title = big_title(d[0]) or pdf.stem
     if dupe := existing(title, known):
         return None, None, f"DUPE of {dupe}"
@@ -97,7 +103,7 @@ def place(pdf, wanted, pages, cache, known):
     if c:
         votes.update(t for b in c["by"] if b in pages and (t := topic_of(pages[b]["file"])))
         why = f"wanted, cited by {len(c['by'])}"
-        sur = sur or ref_surnames(c["text"])
+        sur = max(sur, ref_surnames(c["text"]), key=len)
     if not votes:
         ents, _ = entries_for(pdf, cache)
         titles = {n: cache.get(str(R / pg["file"]), {}).get("title", "") for n, pg in pages.items()}
@@ -116,7 +122,7 @@ def main(dry):
         return
     wanted = json.loads(WANTED.read_text()) if WANTED.exists() else []
     for c in wanted:
-        c["ws"] = words(re.sub(r"^\[?\d{1,3}[.\]]\s*", "", c["text"]))
+        c["ws"] = words(dehyphen(re.sub(r"^\[?\d{1,3}[.\]]\s*", "", c["text"])))
     pages = load_pages()
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     known, moved = known_titles(pages), []

@@ -45,3 +45,4 @@ tags: [bayesian, vi]
 
 ## Related pages
 - [[ELBO]] · [[Wasserstein distance]]
+- [[GAN paper (Goodfellow 2014)]]: GAN value equals $-\log 4+2\,\mathrm{JSD}$

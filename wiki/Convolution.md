@@ -80,3 +80,4 @@ Zero padding recipe: pad $x$ (length $L$) and $h$ (length $K$) to $N\ge L+K-1$, 
 
 ## Related pages
 - [[LTI system]] · [[Digital filter]] · [[FFT]] · [[Spatial filtering]] · [[Discrete-time signal]]
+- [[Convolutional neural network]]: the learned 2D version used in deep nets

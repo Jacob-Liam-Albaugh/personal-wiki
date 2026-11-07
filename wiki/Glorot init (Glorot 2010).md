@@ -82,7 +82,7 @@ Wiki note: the analysis covers symmetric activations with $f'(0)=1$ (tanh, softs
 - The "standard" init here is the rule the ME 697 book labels He ([[Weight initialization]]).
 
 %% refs:start %%
-**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[Init and momentum (Sutskever 2013)]], [[LNNs (Cranmer 2020)]], [[ResNet paper (He 2016)]], [[Respecting causality (Wang 2022)]], [[SINDy autoencoders (Champion 2019)]], [[SIREN paper (Sitzmann 2020)]], [[Variational graph auto-encoder (Kipf 2016)]], [[When and why PINNs fail (Wang 2022)]]
+**Cited by in this wiki**: [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Expert's guide to PINNs (Wang 2023)]], [[Init and momentum (Sutskever 2013)]], [[LNNs (Cranmer 2020)]], [[ResNet paper (He 2016)]], [[Respecting causality (Wang 2022)]], [[SINDy autoencoders (Champion 2019)]], [[SIREN paper (Sitzmann 2020)]], [[Variational graph auto-encoder (Kipf 2016)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf`.

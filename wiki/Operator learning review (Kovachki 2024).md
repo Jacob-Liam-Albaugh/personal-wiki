@@ -259,7 +259,7 @@ Wiki notes (labelled): the review's scope is approximation and sample complexity
 - [[Gaussian process]] link: Thm 5.1 uses a Gaussian prior over eigenvalues and Gaussian input measure, so the estimator is a Gaussian posterior mean; the review also relates the RFM to kernel methods (p. 11).
 
 %% refs:start %%
-**Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]], [[Tensor basis NN turbulence (Ling 2016)]]
+**Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]], [[DeepONet (Lu 2021)]], [[FNO (Li 2021)]], [[Neural operator (Kovachki 2022)]], [[Tensor basis NN turbulence (Ling 2016)]], [[Universal approximation (Hornik 1989)]]
 %% refs:end %%
 
 **Sources**: `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`.

@@ -10,10 +10,20 @@ tags: [generative, ml]
 
 **Summary**: a generator $G(z)$ maps noise to samples and a discriminator $D$ tells real from fake. The two train against each other. No likelihood is computed. This wiki meets GANs as a baseline family and as the testbed for [[Equivariance|equivariant]] layers.
 
-**Sources**: `papers/Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`, `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
-**Last updated**: 2026-11-06
+**Sources**: `papers/Generative ML/Goodfellow et al - Generative Adversarial Nets.pdf`, `papers/Symmetries/Dey, Chen, Ghafurian - Group Equivariant GANs.pdf`, `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
+**Last updated**: 2026-11-07
 
 ---
+
+## Original formulation (Goodfellow 2014)
+
+> [!definition] Minimax game
+> $$\min_G\max_D\ \mathbb E_{x\sim p_{data}}[\log D(x)]+\mathbb E_{z\sim p_z}[\log(1-D(G(z)))]$$
+> For fixed $G$ the best discriminator is $D^*=p_{data}/(p_{data}+p_g)$; plugging it in gives $-\log4+2\,\mathrm{JSD}(p_{data}\Vert p_g)$, minimized iff $p_g=p_{data}$.
+>
+> (source: GAN paper, eqs. 1-2, 6, pp. 3-5)
+
+Training alternates $k$ discriminator steps and one generator step. The non-saturating variant trains $G$ to maximize $\log D(G(z))$ because $\log(1-D(G(z)))$ gives weak gradients early. Known failure: $G$ collapsing many $z$ to one $x$ if $D$ lags (the "Helvetica scenario"). No explicit $p_g(x)$. Full treatment on [[GAN paper (Goodfellow 2014)]].
 
 ## Losses tested by Dey et al. (pp. 6, 21-22)
 The paper names these and does not restate them:
@@ -39,7 +49,8 @@ The NCSN++ score network reuses BigGAN residual blocks and StyleGAN2 FIR resampl
 
 ## Where it appears
 - [[Group equivariant GANs (Dey 2021)]]: G-CNN generator and discriminator.
+- [[GAN paper (Goodfellow 2014)]]: the original minimax formulation, theory and MNIST/TFD/CIFAR-10 samples.
 - [[Score SDE (Song 2021)]]: as baselines.
 
 ## Related pages
-- [[Diffusion models]] · [[Equivariance]] · [[Normalizing flows]]
+- [[Diffusion models]] · [[Equivariance]] · [[Normalizing flows]] · [[VAE]] · [[KL divergence]] · [[Convolutional neural network]]

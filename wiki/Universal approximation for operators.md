@@ -52,3 +52,4 @@ None of these give rates. For lower bounds see [[Curse of parametric complexity]
 
 ## Related pages
 - [[DeepONet]] · [[Operator learning]] · [[Neural operator]]
+- Finite-dimensional case: [[Universal approximation theorem]] · [[Universal approximation (Hornik 1989)]]

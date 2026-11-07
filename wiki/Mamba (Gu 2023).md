@@ -90,7 +90,7 @@ I did not read the appendices or the later tables in full.
 The SSM here is the classical linear state space model of control with input-dependent discretisation, so [[Kalman filter]] and [[LTI system]] are the closest older relatives. The paper itself lists Kalman filters among the uses of the term (source: p. 4).
 
 %% refs:start %%
-**Cites in this wiki**: [[Attention is all you need (Vaswani 2017)]]
+**Cites in this wiki**: [[AlexNet (Krizhevsky 2012)]], [[Attention is all you need (Vaswani 2017)]]
 %% refs:end %%
 
 **Sources**: Gu & Dao PDF (pp. 1-11 read in detail).
