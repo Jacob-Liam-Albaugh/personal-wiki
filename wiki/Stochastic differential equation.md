@@ -32,6 +32,8 @@ Here $W$ is a [[Wiener process]] ([[Brownian motion]]), $a$ is the drift and $b$
 ## Inverse problems for SDEs
 Observed through noise, an SDE becomes a state-space model. Filtering and smoothing recover the state ([[Particle filter]]), calibration recovers parameters ([[Expectation-maximization]], [[Particle MCMC]]).
 
+Applied example: [[Diesel PM as OU process (Bolt 2026)]] fits an OU SDE with input-dependent coefficients to engine PM by exact transition likelihood.
+
 **Wiki note**: the book does not define the Itô integral or Itô's lemma beyond using the log transform for GBM. For a full treatment see the stochastic-methods pages linked from [[Brownian motion]].
 
 **Covered in**: ASML book sinverse/sodes (ME 697 6.1)
@@ -43,3 +45,4 @@ Observed through noise, an SDE becomes a state-space model. Filtering and smooth
 ## Related pages
 - [[Euler-Maruyama method]] · [[Geometric Brownian motion]] · [[Ornstein-Uhlenbeck process]]
 - [[Stochastic state-space model]] · [[Wiener process]] · [[Fokker-Planck equation]] · [[Langevin dynamics]]
+- [[Diesel PM as OU process (Bolt 2026)]]

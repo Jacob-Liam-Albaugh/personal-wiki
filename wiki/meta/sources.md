@@ -94,6 +94,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
+| `Bolt et al - Modeling diesel output particulate matter as the Ornstein-Uhlenbeck process.pdf` | 18 | ingested → [[Diesel PM as OU process (Bolt 2026)]] |  |
 | `Brunton, Proctor, Kutz - Discovering governing equations from data by sparse identification of nonlinear dynamical systems.pdf` | 6 | ingested → [[SINDy (Brunton 2016)]] |  |
 | `Cranmer - PySR.pdf` | 24 | ingested → [[PySR (Cranmer 2023)]] |  |
 | `Cranmer, Gonzalez, Ho - Discovering Symbolic Models from DL with Inductive Biases.pdf` | 14 | ingested → [[Symbolic models from deep learning (Cranmer 2020)]] |  |

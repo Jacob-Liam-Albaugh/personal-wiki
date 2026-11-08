@@ -26,6 +26,7 @@ Song et al. also note that for non-affine drift, the DSM transition kernel can b
 
 ## Where it appears
 - [[Score SDE (Song 2021)]].
+- [[Diesel PM as OU process (Bolt 2026)]]: the Gaussian Green's function of the OU Fokker-Planck equation gives the exact transition likelihood used for training.
 - [[Brownian motion]]: Einstein's diffusion equation for the particle density is the simplest case (source: Einstein 1905, eq. 10, [[Brownian movement (Einstein 1905)]]).
 - Random initial data: for $\dot x=f(x,t)$ with $x_0\sim p_0$ the density of $X_t$ obeys
 

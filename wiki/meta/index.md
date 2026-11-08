@@ -139,6 +139,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Classifier-free guidance (Ho 2022)]] | paper | Classifier-Free Diffusion Guidance (Ho 2022) |
 | [[DDIM (Song 2021)]] | paper | Denoising Diffusion Implicit Models (Song 2021) |
 | [[DDPM (Ho 2020)]] | paper | Denoising Diffusion Probabilistic Models (Ho 2020) |
+| [[Diesel PM as OU process (Bolt 2026)]] | paper | Modeling diesel output PM as the Ornstein-Uhlenbeck process (Bolt 2026) |
 | [[GAN paper (Goodfellow 2014)]] | paper | GAN paper (Goodfellow 2014) |
 | [[KL expansion note (Alexanderian 2015)]] | paper | KL expansion note (Alexanderian 2015) |
 | [[KL expansions of the Wiener process (Deheuvels 2006)]] | paper | KL expansions of the Wiener process (Deheuvels 2006) |

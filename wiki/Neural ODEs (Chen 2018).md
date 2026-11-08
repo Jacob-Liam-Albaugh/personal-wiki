@@ -84,7 +84,7 @@ Wiki note: the paper's "depth" is only the solver's evaluation count; it is inpu
 - Cites Raissi and Karniadakis on learning differential equations with networks (p. 9): see [[PINNs (Raissi 2019)]].
 
 %% refs:start %%
-**Cited by in this wiki**: [[DDPM (Ho 2020)]], [[DeepONet (Lu 2021)]], [[HNNs (Greydanus 2019)]], [[LNNs (Cranmer 2020)]]
+**Cited by in this wiki**: [[DDPM (Ho 2020)]], [[DeepONet (Lu 2021)]], [[Diesel PM as OU process (Bolt 2026)]], [[HNNs (Greydanus 2019)]], [[LNNs (Cranmer 2020)]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf`.

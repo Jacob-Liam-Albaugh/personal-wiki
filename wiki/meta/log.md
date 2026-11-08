@@ -139,3 +139,9 @@
 - New pages: [[Generalized random fields]], [[Operator calculus for free theory]], [[Model-form error detection]].
 - Updated: Information field theory, Physics-informed prior, PIFT (Alberts 2023), Nested SGLD, PINN, Identifiability, Bayesian inverse problems, IFT thermal conductivity (Alberts 2026).
 - Batch of two: discussion step skipped.
+
+## [2026-11-07] ingest | Diesel PM as OU process (Bolt 2026)
+- Paper: [[Diesel PM as OU process (Bolt 2026)]] (arXiv 2603.12356v1): OU SDE with engine-signal-driven mean and softplus volatility, MLE on the exact Gaussian transition, PIT/KS calibration on six Cummins cycles; 35 parameters beat GP, NN, LSTM, NARX and boosting baselines.
+- Updated: Ornstein-Uhlenbeck process, Stochastic differential equation, Fokker-Planck equation, Euler-Maruyama method, Gaussian process.
+- No new concept pages; PIT/KS calibration kept on the paper page.
+

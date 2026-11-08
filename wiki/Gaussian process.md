@@ -34,6 +34,7 @@ Hyperparameters fit by maximising the marginal likelihood (eq. 35).
 - Gradient-descent training in that limit follows the neural tangent kernel $k=JJ^\top$ (eqs. 10-11); the recursion is verified in [[NTK (Jacot 2018)]], Thm 1.
 
 ## Where it appears
+- [[Diesel PM as OU process (Bolt 2026)]]: sparse and deep-kernel GPs as benchmarks for engine PM; the 35-parameter OU model beats both on calibration.
 - [[Priors in Bayesian deep learning (Fortuin 2022)]] (GP priors and infinite-width limits).
 - [[Bayesian DenseED surrogate (Zhu 2018)]]: GPs as the surrogate baseline that scales badly in input dimension; the input field itself is a GP sampled by [[Karhunen-Loève expansion]].
 - [[Physics-informed ML review (Karniadakis 2021)]] — GP kernels as inductive bias and GP uncertainty for active learning (pp. 4, 9).

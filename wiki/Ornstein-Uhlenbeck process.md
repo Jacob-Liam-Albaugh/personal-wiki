@@ -43,6 +43,7 @@ As $t\to\infty$ the law tends to the stationary $N(\mu,\ \sigma^2/(2\lambda))$.
 - The OU process is the Gaussian-process SDE with exponential covariance; the discretized version is an AR(1) model. It is the simplest linear-Gaussian [[Stochastic state-space model]], so the [[Kalman filter]] is exact for it.
 - The stationary density solves the [[Fokker-Planck equation]]. The same drift with a potential $U$, $dX=-\nabla U\,dt+\sqrt2\,dW$, is [[Langevin dynamics]].
 - Contrast with [[Geometric Brownian motion]], whose noise scales with the state.
+- [[Diesel PM as OU process (Bolt 2026)]]: state-dependent $\mu_t,\sigma_t$ driven by engine signals, fit by maximum likelihood on the exact Gaussian transition (time-varying moments as integrals against $e^{-\lambda(t-s)}$).
 
 **Wiki note**: the notebook's `estimate_sigma` computes `sqrt((2*lam*var)/1 - exp(-2*lam*t))`; the intended formula is $\sqrt{2\lambda\,\mathrm{var}/(1-e^{-2\lambda t})}$. Also $\lambda$ is in rescaled time. The "AR(1)" and "exponential covariance" remarks are standard facts, not stated in the source **[unverified here]**.
 
@@ -55,3 +56,4 @@ As $t\to\infty$ the law tends to the stationary $N(\mu,\ \sigma^2/(2\lambda))$.
 ## Related pages
 - [[Stochastic differential equation]] · [[Geometric Brownian motion]] · [[Euler-Maruyama method]]
 - [[Brownian motion]] · [[Wiener process]] · [[Langevin dynamics]] · [[Fokker-Planck equation]] · [[Gaussian process]]
+- [[Diesel PM as OU process (Bolt 2026)]]
