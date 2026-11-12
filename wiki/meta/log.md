@@ -145,3 +145,11 @@
 - Updated: Ornstein-Uhlenbeck process, Stochastic differential equation, Fokker-Planck equation, Euler-Maruyama method, Gaussian process.
 - No new concept pages; PIT/KS calibration kept on the paper page.
 
+## [2026-11-11] ingest | Inflationary flows (de Albuquerque 2024) and Flow matching tutorial (Chen 2024)
+- Paper: [[Inflationary flows (de Albuquerque 2024)]] (NeurIPS 2024): a diffusion pfODE with full-covariance Gaussian noise $C(t)$ and rescaling $A(t)$ (eq. 6) as an invertible data-to-latent map. Noise proportional to each principal direction's variance (eq. 9) preserves the participation ratio; unequal rates (eq. 10) compress. CIFAR-10/AFHQv2 FID 12-28 down to one kept dimension; HMC in the latent space works but costs about 40 minutes per sample. Equivalent to full-covariance Gaussian-path flow matching (App. A.5). The 7-slide deck is recorded as a companion of the same page.
+- Slides: [[Flow matching tutorial (Chen 2024)]] (NeurIPS 2024 tutorial, 175 slides): conditional path/velocity, marginalization trick, CFM loss with Bregman divergences, affine and Gaussian paths, guidance, couplings, equivariant and Riemannian FM, shortcut models and bespoke solvers, training-free inverse problems and D-Flow, reward fine-tuning, Generator Matching and discrete FM.
+- New page: [[Participation ratio]].
+- Updated: Flow matching, Diffusion models, Normalizing flows, Diffusion posterior sampling, Classifier-free guidance, Equivariance, Hamiltonian Monte Carlo, Principal component analysis, Fokker-Planck equation.
+- Wiki note recorded on the paper page: eq. 9 is isotropic noise on PCA-whitened data; the paper itself never says "whiten".
+- Gaps: both sources read from extracted text (no page rendering available), so figures and image-set equations were not seen. Inflationary Flows references, hyperparameter tables (pp. 26-29) and checklist (pp. 39-45) not read. Works cited on the slides were not read. The tutorial's written companion ("Flow Matching Guide and Code", Lipman et al. 2024) is not in the folder.
+- Batch ingest from another session: discussion step skipped. PDFs copied from Downloads into `papers/Diffusion/`.

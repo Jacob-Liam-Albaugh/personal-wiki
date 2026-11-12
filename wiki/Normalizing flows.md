@@ -31,10 +31,12 @@ $$H=\tfrac d2\log(2\pi e)+\mathbb E\log|\det\partial G/\partial Z_0|.$$
 - [[Priors in Bayesian deep learning (Fortuin 2022)]]: flow priors for VAEs (eq. 39).
 - [[Score SDE (Song 2021)]]: the probability-flow ODE is a continuous flow with exact likelihood (eq. 39); Table 2 compares it with RealNVP, Glow, FFJORD and Flow++.
 - [[Intro to VAEs (Kingma 2019)]]: ch. 3 (IAF) is listed in the contents but missing from the PDF.
+- [[Inflationary flows (de Albuquerque 2024)]]: an invertible data-to-latent map built from a diffusion pfODE, with optional dimension reduction; beats injective flows (M-Flow, Rectangular Flows, Canonical Manifold Flows) on CIFAR-10 FID at 30-62 latent dimensions (Table 3).
+- [[Flow matching tutorial (Chen 2024)]]: flow matching trains a continuous flow by regression, with no simulation or likelihood.
 - [[Neural ODEs (Chen 2018)]] — continuous normalizing flows: log-density changes by an integral of a trace instead of a determinant (see [[Neural ODE]]).
 
-**Sources**: `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
-**Last updated**: 2026-11-06
+**Sources**: `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, `papers/Diffusion/de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models.pdf`.
+**Last updated**: 2026-11-11
 
 ---
 

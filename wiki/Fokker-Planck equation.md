@@ -26,6 +26,7 @@ Song et al. also note that for non-affine drift, the DSM transition kernel can b
 
 ## Where it appears
 - [[Score SDE (Song 2021)]].
+- [[Inflationary flows (de Albuquerque 2024)]]: Gaussian smoothing $p_0*\mathcal N(0,C(t))$ solves the equation with zero drift and $GG^\top=\dot C$ (eqs. 3, 5; App. A.1).
 - [[Diesel PM as OU process (Bolt 2026)]]: the Gaussian Green's function of the OU Fokker-Planck equation gives the exact transition likelihood used for training.
 - [[Brownian motion]]: Einstein's diffusion equation for the particle density is the simplest case (source: Einstein 1905, eq. 10, [[Brownian movement (Einstein 1905)]]).
 - Random initial data: for $\dot x=f(x,t)$ with $x_0\sim p_0$ the density of $X_t$ obeys

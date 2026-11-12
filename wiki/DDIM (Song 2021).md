@@ -163,6 +163,7 @@ Wiki notes:
 
 %% refs:start %%
 **Cites in this wiki**: [[DDPM (Ho 2020)]], [[GAN paper (Goodfellow 2014)]], [[Score SDE (Song 2021)]], [[U-Net paper (Ronneberger 2015)]]
+**Cited by in this wiki**: [[Inflationary flows (de Albuquerque 2024)]]
 %% refs:end %%
 
 **Sources**: `papers/Diffusion/Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf`.

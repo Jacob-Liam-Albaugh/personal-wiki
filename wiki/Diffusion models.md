@@ -2,7 +2,7 @@
 type: method
 area: stochastic
 areas: [stochastic, ml]
-source-ref: "Song et al. 2021, eqs. 5-7, 9, 11-13, 39; Alg. 1; Wang 2026, eqs. 3-5"
+source-ref: "Song et al. 2021, eqs. 5-7, 9, 11-13, 39; Alg. 1; Wang 2026, eqs. 3-5; de Albuquerque, Pearson 2024, eqs. 4-6, 9"
 tags: [diffusion, generative, sampling]
 ---
 
@@ -47,6 +47,9 @@ It has the same marginals as the SDE (eq. 13, p. 7). The proof rewrites the [[Fo
 $$\log p_0(x(0))=\log p_T(x(T))+\int_0^T\nabla\cdot\tilde f_\theta\,dt$$
 (eq. 39), with the divergence estimated by Hutchinson's trick. This links diffusion to continuous [[Normalizing flows]] and to [[Flow matching]]. Wang 2026 eq. 5 is the same ODE. [[DDIM]] with $\eta=0$ is an Euler discretization of an equivalent ODE (Song, Meng, Ermon, Prop. 1, p. 6).
 
+## Matrix-valued noise (de Albuquerque, Pearson 2024)
+With a matrix diffusion coefficient $G$ the ODE becomes $dx=\{f-\tfrac12\nabla\cdot[GG^\top]-\tfrac12GG^\top\nabla_x\log p_t\}dt$ (their eq. 4, p. 4). Taking $f=0$, $GG^\top=\dot C(t)$ smooths the data with $\mathcal N(0,C(t))$, and a rescaling $\tilde x=A(t)x$ gives the "inflationary" ODE (eq. 6). With $C(t)$ diagonal in the eigenbasis of the data covariance and $C_{jj}=\sigma_{0j}^2(e^{\rho t}-1)$ (eq. 9), each principal direction is noised in proportion to its own variance, which keeps the [[Participation ratio]] fixed; unequal rates compress the slower directions. Wiki note: this is the VE SDE applied to PCA-whitened data. Details on [[Inflationary flows (de Albuquerque 2024)]].
+
 ## Predictor-corrector sampler
 Alg. 1 (p. 22): at each step a predictor (a reverse-SDE solver) moves $x$ to the next time. Then $M$ corrector steps of score-based MCMC (Langevin) fix the marginal. SMLD is identity predictor plus Langevin corrector; DDPM is ancestral predictor plus identity corrector.
 
@@ -67,12 +70,14 @@ Conditional sampling can be sharpened at the cost of diversity:
 - [[DDPM (Ho 2020)]], [[DDIM (Song 2021)]], [[Classifier-free guidance (Ho 2022)]].
 - [[Step-by-step diffusion (Nakkiran 2025)]]: an elementary derivation, with the reverse SDE and PF-ODE as limits (Fig. 5.1, p. 50).
 - [[PISD (Gallon 2026)]]: EDM-style diffusion on data-scaled spectral coefficients with PDE-residual guidance; see [[Spectral diffusion]].
+- [[Inflationary flows (de Albuquerque 2024)]]: pfODE with full-covariance noise as an invertible, dimension-preserving or dimension-reducing map for calibrated latent inference.
+- [[Flow matching tutorial (Chen 2024)]]: diffusion as the Gaussian-path, independent-coupling case of flow matching (slides 31, 33).
 
-**Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.
-**Last updated**: 2026-11-06
+**Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`, `papers/Diffusion/de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models.pdf`, `papers/Diffusion/Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf`.
+**Last updated**: 2026-11-11
 
 ---
 
 ## Related pages
-- [[Score matching]] · [[Fokker-Planck equation]] · [[Langevin dynamics]] · [[Flow matching]] · [[Normalizing flows]] · [[GAN]] · [[DDPM]] · [[DDIM]]
+- [[Score matching]] · [[Fokker-Planck equation]] · [[Langevin dynamics]] · [[Flow matching]] · [[Normalizing flows]] · [[GAN]] · [[DDPM]] · [[DDIM]] · [[Participation ratio]]
 - [[U-Net]] · [[GAN paper (Goodfellow 2014)]]

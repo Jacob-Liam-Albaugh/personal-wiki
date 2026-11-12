@@ -46,6 +46,7 @@ To keep the parameter count equal to a CNN, the number of filters is divided by 
 - [[Group equivariant CNN]] ([[Group equivariant CNNs (Cohen 2016)]]): equivariance to p4 and p4m via G-correlation.
 - [[e3nn]] ([[e3nn Euclidean networks (Geiger 2022)]]): E(3) equivariance with irreps and tensor products.
 - [[Tensor basis NN turbulence (Ling 2016)]]: invariance built in through an integrity basis.
+- [[Flow matching tutorial (Chen 2024)]]: an invariant source density and an equivariant velocity, $u_t(g\cdot x)=g\cdot u_t(x)$, give an invariant generated density (slides 80-92).
 - [[Rotation augmentation for CNNs (Quiroga 2018)]]: augmentation as the alternative to built-in symmetry.
 - The [[e3nn]] page holds the tetris classifier (source: `02_e3nn.ipynb`).
 - Wiki note: the book's action $(\mathbf b,A)\mathbf x=A(\mathbf x+\mathbf b)$ does not match its composition law, which is that of $\mathbf x\mapsto A\mathbf x+\mathbf b$. Also, the e3nn notebook says the network "learned" to drop `1e` outputs; the `Linear` layer drops them by construction.

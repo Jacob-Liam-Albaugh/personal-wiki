@@ -27,9 +27,11 @@ Wiki note: source-space conditioning has the same shape as PIFT — a prior push
 ## Where it appears
 - [[Generative priors for turbulence (Wang 2026)]].
 - [[PISD (Gallon 2026)]]: DPS with an extra PDE-residual term, and the GD guidance step replaced by a frequency-aware Adam step (Alg. 1). On inverse Poisson this cuts error from 49% to 14% (Table 12); FunDPS also improves with Adam (21% → 17%, Table 10).
+- [[Flow matching tutorial (Chen 2024)]]: the same idea for flow models. The guided velocity is $u_t(x\mid y)=u_t(x)+\sigma_t^2\frac{d\log(\alpha_t/\sigma_t)}{dt}\nabla_x\log p_{Y|t}(y\mid x)$ with a heuristic likelihood score (slides 131-133); stated caveats are linear corruption, Gaussian paths and random failures (slide 134). D-Flow instead optimizes the source point through the flow (slides 135-140).
+- [[Inflationary flows (de Albuquerque 2024)]]: a different route to a posterior, pushing uncertainty through an invertible pfODE or running HMC in its latent space (very slow: about 40 minutes per sample, App. B.6).
 
-**Sources**: `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
-**Last updated**: 2026-11-06
+**Sources**: `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `papers/Diffusion/Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf`.
+**Last updated**: 2026-11-11
 
 ---
 

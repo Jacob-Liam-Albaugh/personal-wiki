@@ -7,6 +7,7 @@ tags: []
 
 Pages in this wiki by Ricky T. Q. Chen:
 
+- [[Flow matching tutorial (Chen 2024)]]
 - [[Neural ODEs (Chen 2018)]]
 - [[SDE-BNN (Xu 2022)]]
 

@@ -39,12 +39,15 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
+| `Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf` | 175 | ingested → [[Flow matching tutorial (Chen 2024)]] | NeurIPS 2024 tutorial slides; text extraction only |
 | `Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf` | 25 | ingested → [[DDPM (Ho 2020)]] |  |
 | `Ho, Salimans - Classifier-Free Diffusion Guidance.pdf` | 14 | ingested → [[Classifier-free guidance (Ho 2022)]] |  |
 | `Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf` | 77 | ingested → [[Step-by-step diffusion (Nakkiran 2025)]] |  |
 | `Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf` | 25 | ingested → [[CLIP (Radford 2021)]] |  |
 | `Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf` | 16 | ingested → [[CLIP (Radford 2021)]] |  |
 | `Ronneberger, Fischer, Brox - U-Net Convolutional Networks for Biomedical Image Segmentation.pdf` | 8 | ingested → [[U-Net paper (Ronneberger 2015)]] |  |
+| `de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models - Slides.pdf` | 7 | ingested → [[Inflationary flows (de Albuquerque 2024)]] | companion slide deck for the paper |
+| `de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models.pdf` | 45 | ingested → [[Inflationary flows (de Albuquerque 2024)]] |  |
 | `Song et al - Score-Based Generative Modeling through Stochastic Differential Equations.pdf` | 36 | ingested → [[Score SDE (Song 2021)]] | same ICLR 2021 text as the papers/Stochastic Methods/ copy (different file bytes) |
 | `Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf` | 22 | ingested → [[DDIM (Song 2021)]] |  |
 | `Wang - Generative priors for spatiotemporal turbulence.pdf` | 24 | ingested → [[Generative priors for turbulence (Wang 2026)]] | duplicate (identical file) of the papers/IFT/ copy |
@@ -417,4 +420,4 @@ Jupyter-book source in `text_books/advanced-scientific-machine-learning/book/`, 
 
 ## Totals
 
-alias: 8, ingested: 208, reference: 35
+alias: 8, ingested: 211, reference: 35

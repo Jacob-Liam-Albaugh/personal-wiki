@@ -52,3 +52,4 @@ Further wiki notes:
 ## Related pages
 - [[Singular value decomposition]] · [[Proper orthogonal decomposition]] · [[Karhunen-Loève expansion]] · [[PCA-Net]]
 - [[Surrogate model]]
+- [[Participation ratio]] · [[Inflationary flows (de Albuquerque 2024)]] (diffusion noise scaled per principal direction)

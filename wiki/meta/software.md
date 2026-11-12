@@ -27,7 +27,7 @@ Reference: Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, 
 
 ## scikit-learn
 
-Cited by 5: [[CLIP (Radford 2021)]], [[Diesel PM as OU process (Bolt 2026)]], [[PySR (Cranmer 2023)]], [[Symbolic models from deep learning (Cranmer 2020)]], [[Variational graph auto-encoder (Kipf 2016)]]
+Cited by 6: [[CLIP (Radford 2021)]], [[Diesel PM as OU process (Bolt 2026)]], [[Inflationary flows (de Albuquerque 2024)]], [[PySR (Cranmer 2023)]], [[Symbolic models from deep learning (Cranmer 2020)]], [[Variational graph auto-encoder (Kipf 2016)]]
 
 Reference: Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cour- napeau, D., Brucher, M., Perrot, M., and Duchesnay, E. Scikit-learn: Machine learning in Python. Journal of Machine Learning Resea [Scholar](https://scholar.google.com/scholar?q=Pedregosa%2C+F.%2C+Varoquaux%2C+G.%2C+Gramfort%2C+A.%2C+Michel%2C+V.%2C+Thirion%2C+B.%2C+Grisel%2C+O.%2C+Blondel%2C+M.%2C+Prettenhofer%2C+P.%2C+Weiss%2C+R.%2C+Dubourg%2C+V.%2C+Vanderplas%2C+J.%2C+Passos%2C+A.%2C+Cour-+napeau%2C+D.%2C+Brucher%2C+M.%2C+Perro)
 
@@ -223,4 +223,4 @@ Cited by 1: [[PySR (Cranmer 2023)]]
 
 Reference: Ankit Rohatgi. Webplotdigitizer: Version 4.6, 2022. [Scholar](https://scholar.google.com/scholar?q=%5B78%5D+Ankit+Rohatgi.+Webplotdigitizer%3A+Version+4.6%2C+2022.)
 
-**Last updated**: 2026-11-07
+**Last updated**: 2026-11-11

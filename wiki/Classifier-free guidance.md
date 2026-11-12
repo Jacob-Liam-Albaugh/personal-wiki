@@ -48,9 +48,10 @@ Classifier guidance with $ reproduces eq. 6. With learned networks $\epsilon_\th
 ## Where it appears
 - [[Classifier-free guidance (Ho 2022)]].
 - [[Step-by-step diffusion (Nakkiran 2025)]]: lists guidance among topics outside the tutorial's scope **[unverified]**.
+- [[Flow matching tutorial (Chen 2024)]]: for velocity fields trained with Gaussian paths, $\tilde u_t(x\mid y)=(1-w)\,u_t(x)+w\,u_t(x\mid y)$ (slide 43); guidance for non-Gaussian paths is listed as open (slide 46).
 
-**Sources**: `papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`.
-**Last updated**: 2026-11-06
+**Sources**: `papers/Diffusion/Ho, Salimans - Classifier-Free Diffusion Guidance.pdf`, `papers/Diffusion/Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf`.
+**Last updated**: 2026-11-11
 
 ---
 

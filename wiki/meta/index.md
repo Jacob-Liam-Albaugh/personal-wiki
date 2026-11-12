@@ -140,7 +140,9 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[DDIM (Song 2021)]] | paper | Denoising Diffusion Implicit Models (Song 2021) |
 | [[DDPM (Ho 2020)]] | paper | Denoising Diffusion Probabilistic Models (Ho 2020) |
 | [[Diesel PM as OU process (Bolt 2026)]] | paper | Modeling diesel output PM as the Ornstein-Uhlenbeck process (Bolt 2026) |
+| [[Flow matching tutorial (Chen 2024)]] | paper | Flow Matching Tutorial, NeurIPS 2024 slides (Chen 2024) |
 | [[GAN paper (Goodfellow 2014)]] | paper | GAN paper (Goodfellow 2014) |
+| [[Inflationary flows (de Albuquerque 2024)]] | paper | Inflationary Flows: Calibrated Bayesian Inference with Diffusion-Based Models (de Albuquerque 2024) |
 | [[KL expansion note (Alexanderian 2015)]] | paper | KL expansion note (Alexanderian 2015) |
 | [[KL expansions of the Wiener process (Deheuvels 2006)]] | paper | KL expansions of the Wiener process (Deheuvels 2006) |
 | [[Quantum option pricing KL (Prakash 2025)]] | paper | Quantum option pricing KL (Prakash 2025) |
@@ -163,6 +165,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Geometric Brownian motion]] | definition | Geometric Brownian motion |
 | [[Kalman filter]] | method | Kalman filter |
 | [[Karhunen-Loève expansion]] | definition | Karhunen-Loève expansion |
+| [[Participation ratio]] | definition | Participation ratio (intrinsic dimension from the covariance) |
 | [[Langevin dynamics]] | definition | Langevin dynamics |
 | [[Metropolis-Hastings correction]] | method | Metropolis-Hastings correction |
 | [[Noise prediction]] | method | Noise prediction (ε-parameterization) |

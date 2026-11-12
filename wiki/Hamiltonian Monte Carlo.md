@@ -27,6 +27,7 @@ tags: [mcmc, sampling, bayesian]
 
 ## Where it appears
 - [[Markov chain Monte Carlo]].
+- [[Inflationary flows (de Albuquerque 2024)]]: HMC (hamiltorch, $L=15$) in the latent space of a diffusion flow; about 40 minutes per sample (App. B.6).
 
 ## Related ideas
 - [[SGHMC]] is the stochastic-gradient version with friction.
