@@ -7,14 +7,14 @@ tags: [ml, optimization, signals]
 authors: ["[[Nasim Rahaman]]", "[[Aristide Baratin]]", "[[Devansh Arpit]]", "[[Felix Draxler]]", "[[Min Lin]]", "[[Fred Hamprecht]]", "[[Yoshua Bengio]]", "[[Aaron Courville]]"]
 year: 2019
 venue: "ICML 2019 (PMLR 97)"
-file: "papers/ML/Rahaman et.al. - On the Spectrial Bias of NNs.pdf"
+file: "[[papers/ML/Rahaman et.al. - On the Spectrial Bias of NNs.pdf]]"
 ---
 
 # Spectral bias (Rahaman 2019)
 
 **Summary**: Uses Fourier analysis of ReLU networks to show that gradient descent fits low-frequency components of a target first, whatever their amplitude. High frequencies need finely tuned parameters and large weight norms, so they arrive late. The shape of the data manifold changes this: high-frequency signals on a wiggly manifold need only low frequencies in input space.
 
-**Authors**: Nasim Rahaman, Aristide Baratin, Devansh Arpit, Felix Draxler, Min Lin, Fred Hamprecht, Yoshua Bengio, Aaron Courville · **Year**: 2019 · **File**: `papers/ML/Rahaman et.al. - On the Spectrial Bias of NNs.pdf`
+**Authors**: Nasim Rahaman, Aristide Baratin, Devansh Arpit, Felix Draxler, Min Lin, Fred Hamprecht, Yoshua Bengio, Aaron Courville · **Year**: 2019 · **File**: [[papers/ML/Rahaman et.al. - On the Spectrial Bias of NNs.pdf]]
 
 ---
 

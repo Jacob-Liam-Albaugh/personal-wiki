@@ -7,14 +7,14 @@ tags: [physics-informed, ml, mechanics, pde]
 authors: ["[[Samuel E. Otto]]", "[[Cassio M. Oishi]]", "[[Fabio Amaral]]", "[[Steven L. Brunton]]", "[[J. Nathan Kutz]]"]
 year: 2024
 venue: "SSRN preprint 4820054, not peer reviewed"
-file: "papers/Physics Informed Architectures/Brunton, Otto, Kutz - ML in Viscoelastic Fluids via Kernel Embeding.pdf"
+file: "[[papers/Physics Informed Architectures/Brunton, Otto, Kutz - ML in Viscoelastic Fluids via Kernel Embeding.pdf]]"
 ---
 
 # Machine learning in viscoelastic fluids via energy-based kernel embedding (Otto 2024)
 
 **Summary**: Builds, for a given viscoelastic stress model, a hyperparameter-free positive-definite kernel on flowfield snapshots whose RKHS squared norm equals the total mechanical energy. Kernel PCA with this kernel reconstructs the flow's energy far better than ordinary [[Principal component analysis]] on naively scaled state vectors.
 
-**Authors**: Samuel E. Otto, Cassio M. Oishi, Fabio Amaral, Steven L. Brunton, J. Nathan Kutz · **Year**: 2024 **[unverified]**: the PDF carries no date; the year is inferred from the SSRN id · **File**: `papers/Physics Informed Architectures/Brunton, Otto, Kutz - ML in Viscoelastic Fluids via Kernel Embeding.pdf`
+**Authors**: Samuel E. Otto, Cassio M. Oishi, Fabio Amaral, Steven L. Brunton, J. Nathan Kutz · **Year**: 2024 **[unverified]**: the PDF carries no date; the year is inferred from the SSRN id · **File**: [[papers/Physics Informed Architectures/Brunton, Otto, Kutz - ML in Viscoelastic Fluids via Kernel Embeding.pdf]]
 
 ---
 

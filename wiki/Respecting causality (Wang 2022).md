@@ -7,7 +7,7 @@ tags: [physics-informed, pde, optimization, ml]
 authors: ["[[Sifan Wang]]", "[[Shyam Sankaran]]", "[[Paris Perdikaris]]"]
 year: 2022
 venue: "arXiv:2203.07404"
-file: "papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - Respecting Causality is All You Need for Training PINNs.pdf"
+file: "[[papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - Respecting Causality is All You Need for Training PINNs.pdf]]"
 ---
 
 # Respecting causality is all you need for training PINNs (Wang 2022)

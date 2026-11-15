@@ -1,0 +1,170 @@
+{
+  "collapse-filter": false,
+  "search": "ml",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:authors",
+      "color": {
+        "a": 1,
+        "rgb": 8421504
+      }
+    },
+    {
+      "query": "tag:#diffusion",
+      "color": {
+        "a": 1,
+        "rgb": 10181046
+      }
+    },
+    {
+      "query": "tag:#generative",
+      "color": {
+        "a": 1,
+        "rgb": 15221651
+      }
+    },
+    {
+      "query": "tag:#sampling",
+      "color": {
+        "a": 1,
+        "rgb": 2600544
+      }
+    },
+    {
+      "query": "tag:#vi",
+      "color": {
+        "a": 1,
+        "rgb": 1482885
+      }
+    },
+    {
+      "query": "tag:#ift",
+      "color": {
+        "a": 1,
+        "rgb": 15105570
+      }
+    },
+    {
+      "query": "tag:#bayesian",
+      "color": {
+        "a": 1,
+        "rgb": 15844367
+      }
+    },
+    {
+      "query": "tag:#operators",
+      "color": {
+        "a": 1,
+        "rgb": 2719929
+      }
+    },
+    {
+      "query": "tag:#physics-informed",
+      "color": {
+        "a": 1,
+        "rgb": 52937
+      }
+    },
+    {
+      "query": "tag:#category-theory",
+      "color": {
+        "a": 1,
+        "rgb": 8359053
+      }
+    },
+    {
+      "query": "tag:#mechanics",
+      "color": {
+        "a": 1,
+        "rgb": 10506797
+      }
+    },
+    {
+      "query": "tag:#symmetry",
+      "color": {
+        "a": 1,
+        "rgb": 15158332
+      }
+    },
+    {
+      "query": "tag:#gp",
+      "color": {
+        "a": 1,
+        "rgb": 16632686
+      }
+    },
+    {
+      "query": "tag:#pde",
+      "color": {
+        "a": 1,
+        "rgb": 7649791
+      }
+    },
+    {
+      "query": "tag:#uq",
+      "color": {
+        "a": 1,
+        "rgb": 1482885
+      }
+    },
+    {
+      "query": "tag:#optimization",
+      "color": {
+        "a": 1,
+        "rgb": 12597547
+      }
+    },
+    {
+      "query": "tag:#software",
+      "color": {
+        "a": 1,
+        "rgb": 3426654
+      }
+    },
+    {
+      "query": "tag:#signals",
+      "color": {
+        "a": 1,
+        "rgb": 13849600
+      }
+    },
+    {
+      "query": "tag:#electromagnetics",
+      "color": {
+        "a": 1,
+        "rgb": 2719929
+      }
+    },
+    {
+      "query": "tag:#digital-logic",
+      "color": {
+        "a": 1,
+        "rgb": 9323693
+      }
+    },
+    {
+      "query": "tag:#ml",
+      "color": {
+        "a": 1,
+        "rgb": 11714243
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.8424468839750964,
+  "close": false
+}

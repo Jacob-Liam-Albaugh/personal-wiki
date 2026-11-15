@@ -7,14 +7,14 @@ tags: [ift, vi, bayesian, inverse-problems, physics-informed, uq]
 authors: ["[[Kairui Hao]]", "[[Ilias Bilionis]]"]
 year: 2024
 venue: "Journal of Computational Physics 512, 113139"
-file: "papers/IFT/Hao, Bilionis - An information field theory approach to Bayesian state and parameter estimation in dynamical systems.pdf"
+file: "[[papers/IFT/Hao, Bilionis - An information field theory approach to Bayesian state and parameter estimation in dynamical systems.pdf]]"
 ---
 
 # IFT approach to Bayesian state and parameter estimation in dynamical systems (Hao 2024)
 
 **Summary**: Extends [[Information field theory]] from boundary-value problems ([[PIFT (Alberts 2023)]]) to ODE initial-value problems. The state path is a linear basis expansion, the physics enters through a path-space prior $e^{-\beta H}$ on the ODE residual, and the posterior over state, initial condition, parameters and trust $\beta$ is fit by stochastic [[Variational inference]], with an inner VI loop for the gradient of the log partition function. It matches NUTS and SMC² on Lotka–Volterra at constant cost as the time window grows, learns a smaller $\beta$ under model-form error, and shows that a B-PINN gets the parameter posterior wrong because it drops the partition function.
 
-**Authors**: Kairui Hao, Ilias Bilionis · **Year**: 2024 · **File**: `papers/IFT/Hao, Bilionis - An information field theory approach to Bayesian state and parameter estimation in dynamical systems.pdf` · **Code**: github.com/PredictiveScienceLab/ift-dynamics-2024
+**Authors**: Kairui Hao, Ilias Bilionis · **Year**: 2024 · **File**: [[papers/IFT/Hao, Bilionis - An information field theory approach to Bayesian state and parameter estimation in dynamical systems.pdf]] · **Code**: github.com/PredictiveScienceLab/ift-dynamics-2024
 
 ---
 

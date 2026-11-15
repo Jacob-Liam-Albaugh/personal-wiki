@@ -7,14 +7,14 @@ tags: [sampling, mcmc, bayesian]
 authors: ["[[Max Welling]]", "[[Yee Whye Teh]]"]
 year: 2011
 venue: "ICML (Proceedings of the 28th International Conference on Machine Learning)"
-file: "papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf"
+file: "[[papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf]]"
 ---
 
 # Bayesian Learning via Stochastic Gradient Langevin Dynamics (Welling 2011)
 
 **Summary**: Adds Gaussian noise of variance equal to the step size to a Robbins-Monro mini-batch gradient step on the log posterior, and decays the step size. The iterates start as stochastic optimization and, argued heuristically, turn into samples from the full posterior as the step size goes to zero, without Metropolis-Hastings accept/reject steps. Demonstrated on a two-parameter Gaussian mixture, Bayesian logistic regression, and ICA with natural gradients.
 
-**Authors**: Max Welling, Yee Whye Teh · **Year**: 2011 · **File**: `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`
+**Authors**: Max Welling, Yee Whye Teh · **Year**: 2011 · **File**: [[papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf]]
 
 ---
 

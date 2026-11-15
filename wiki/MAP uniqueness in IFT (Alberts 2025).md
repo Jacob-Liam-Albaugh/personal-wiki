@@ -6,14 +6,14 @@ source-ref: "Alberts & Bilionis 2025, arXiv 2401.14224v3 [math-ph]"
 tags: [ift, bayesian, inverse-problems, physics-informed, gp, pde, uq]
 year: 2025
 venue: "arXiv 2401.14224v3"
-file: "papers/IFT/Alberts, Bilionis - Uniqueness of MAP estimates for inverse problems under information field theory.pdf"
+file: "[[papers/IFT/Alberts, Bilionis - Uniqueness of MAP estimates for inverse problems under information field theory.pdf]]"
 ---
 
 # Uniqueness of MAP estimates for inverse problems under IFT (Alberts 2025)
 
 **Summary**: For an [[Information field theory]] inverse problem with a [[Physics-informed prior]] $p(\phi|\lambda)\propto e^{-\beta E(\phi;u)}$, the field is integrated out and the question is whether the parameter posterior $p(\lambda|d)$ has a unique mode. The paper calls this *weakly well-posed*. The gradient and Hessian of $-\log p(\lambda|d)$ are written as prior-vs-posterior field expectations and covariances, so the partition function $Z(\lambda)$ never has to be computed. The main theorem: if the field potential is linear in $\lambda$, the parameter prior is flat and the data are *informative*, then any stationary point is the unique MAP. A Poisson example shows the inferred model trust $\beta^*$ is infinite for a correct model and finite, growing as the model improves, under model-form error.
 
-**Authors**: Alex Alberts, Ilias Bilionis (Purdue ME) · **Year**: 2025 (v1 2024) · **File**: `papers/IFT/Alberts, Bilionis - Uniqueness of MAP estimates for inverse problems under information field theory.pdf`
+**Authors**: Alex Alberts, Ilias Bilionis (Purdue ME) · **Year**: 2025 (v1 2024) · **File**: [[papers/IFT/Alberts, Bilionis - Uniqueness of MAP estimates for inverse problems under information field theory.pdf]]
 
 ---
 

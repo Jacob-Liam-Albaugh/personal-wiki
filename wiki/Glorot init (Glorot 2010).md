@@ -7,14 +7,14 @@ tags: [optimization, ml]
 authors: ["[[Xavier Glorot]]", "[[Yoshua Bengio]]"]
 year: 2010
 venue: "AISTATS 2010 (JMLR W&CP 9)"
-file: "papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf"
+file: "[[papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf]]"
 ---
 
 # Glorot init (Glorot 2010)
 
 **Summary**: Studies why plain SGD on deep feedforward nets from random initialization trains badly. Finds that sigmoid saturates the top hidden layer, that softsign saturates more gently, and that keeping layer-to-layer variances of activations and back-propagated gradients equal gives a "normalized initialization" with variance $2/(n_j+n_{j+1})$. This is the rule now called Xavier or Glorot initialization.
 
-**Authors**: Xavier Glorot, Yoshua Bengio · **Year**: 2010 · **File**: `papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf`
+**Authors**: Xavier Glorot, Yoshua Bengio · **Year**: 2010 · **File**: [[papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf]]
 
 ---
 

@@ -7,14 +7,14 @@ tags: [optimization]
 authors: []
 year: unknown
 venue: "Short self-contained note (3 pp.), author and date not stated in the PDF"
-file: "papers/Math/Convexity/Polyhedral_Representation_Theorem.pdf"
+file: "[[papers/Math/Convexity/Polyhedral_Representation_Theorem.pdf]]"
 ---
 
 # Polyhedral representation theorem (n.d.)
 
 **Summary**: A three-page explanation of the Minkowski-Weyl theorem. A nonempty set is a [[Polyhedron]] (finite intersection of halfspaces) iff it is the convex hull of finitely many points plus the cone of finitely many directions. The proof lifts to a cone, uses a lemma that cutting a finitely generated cone by one halfspace keeps it finitely generated, and goes back with Fourier-Motzkin elimination. It is an independent write-up of Basu Thms 2.77 and 2.81.
 
-**Authors**: not stated · **File**: `papers/Math/Convexity/Polyhedral_Representation_Theorem.pdf` · Further reading named in the note: Basu §2.5.1, Thms 2.76, 2.80, 2.81 ([[Convex set]])
+**Authors**: not stated · **File**: [[papers/Math/Convexity/Polyhedral_Representation_Theorem.pdf]] · Further reading named in the note: Basu §2.5.1, Thms 2.76, 2.80, 2.81 ([[Convex set]])
 
 ---
 

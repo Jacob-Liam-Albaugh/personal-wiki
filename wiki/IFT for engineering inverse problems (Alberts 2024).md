@@ -7,14 +7,14 @@ tags: [ift, bayesian, inverse-problems, physics-informed, pde, uq, sampling, mcm
 authors: ["[[Alexander Alberts]]"]
 year: 2024
 venue: "PhD dissertation, Purdue University"
-file: "papers/IFT/Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf"
+file: "[[papers/IFT/Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf]]"
 ---
 
 # IFT for engineering inverse problems (Alberts 2024)
 
 **Summary**: Dissertation that develops [[Information field theory]] as a Bayesian framework for infinite-dimensional inverse problems where a PDE is prior knowledge. The physics enters through a Boltzmann-type [[Physics-informed prior]] $p(\phi)\propto e^{-\beta U(\phi)}$, whose trust parameter $\beta$ is inferred from data. Chapters 3, 5 and 6 are the 2023 JCP paper ([[PIFT (Alberts 2023)]]) with fuller proofs; Chapter 4 is the well-posedness preprint ([[MAP uniqueness in IFT (Alberts 2025)]]). New here: the function-space background (Ch. 2), the free-theory operator calculus (Ch. 3), the PINN and B-PINN comparison with the Bayesian-asymptotics argument (Ch. 5), and four numerical examples (Ch. 6).
 
-**Authors**: Alexander Alberts · **Year**: 2024 · **File**: `papers/IFT/Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf`
+**Authors**: Alexander Alberts · **Year**: 2024 · **File**: [[papers/IFT/Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf]]
 
 Page numbers below are PDF page numbers (they equal the printed numbers). Chapters: 1 pp. 10-11, 2 pp. 12-35, 3 pp. 36-58, 4 pp. 59-86, 5 pp. 87-101, 6 pp. 102-118, 7 pp. 119-123, Appendix A p. 140 (derives eq. 4.20).
 

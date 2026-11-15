@@ -7,14 +7,14 @@ tags: [ml, optimization, bayesian]
 authors: ["[[Nitish Srivastava]]", "[[Geoffrey Hinton]]", "[[Alex Krizhevsky]]", "[[Ilya Sutskever]]", "[[Ruslan Salakhutdinov]]"]
 year: 2014
 venue: "JMLR 15 (2014) 1929-1958"
-file: "papers/ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf"
+file: "[[papers/ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf]]"
 ---
 
 # Dropout paper (Srivastava 2014)
 
 **Summary**: Randomly removes units (with their connections) during training, so each step trains a different "thinned" network. At test time one unthinned network with weights scaled by the retention probability $p$ approximates the average over all thinned nets. This cuts overfitting and set records on SVHN, ImageNet, CIFAR-100 and MNIST at the time.
 
-**Authors**: Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov · **Year**: 2014 · **File**: `papers/ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf` (the file name lists Hinton first; the first author is Srivastava)
+**Authors**: Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, Ruslan Salakhutdinov · **Year**: 2014 · **File**: [[papers/ML/Hinton, Srivastava, Krizhevsky, Sutskever, Salakhutdinov - Dropout.pdf]] (the file name lists Hinton first; the first author is Srivastava)
 
 ---
 

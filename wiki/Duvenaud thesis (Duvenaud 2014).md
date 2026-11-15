@@ -7,14 +7,14 @@ tags: [gp, bayesian, ml]
 authors: ["[[David Duvenaud]]"]
 year: 2014
 venue: "PhD thesis, University of Cambridge, June 2014"
-file: "papers/Guassian Processes/Duvenaud - Thesis - Automatic Model Construction with Gaussian Processes.pdf"
+file: "[[papers/Guassian Processes/Duvenaud - Thesis - Automatic Model Construction with Gaussian Processes.pdf]]"
 ---
 
 # Duvenaud thesis (Duvenaud 2014)
 
 **Summary**: Gaussian process models whose structure is chosen by writing sums and products of kernels. The thesis shows what each kernel and each combination means, automates the search over kernel expressions and describes the result in English, then studies deep GPs, additive GPs (and their link to dropout), and a GP-warped clustering model.
 
-**Authors**: David Duvenaud · **Year**: 2014 · **File**: `papers/Guassian Processes/Duvenaud - Thesis - Automatic Model Construction with Gaussian Processes.pdf`
+**Authors**: David Duvenaud · **Year**: 2014 · **File**: [[papers/Guassian Processes/Duvenaud - Thesis - Automatic Model Construction with Gaussian Processes.pdf]]
 
 ---
 

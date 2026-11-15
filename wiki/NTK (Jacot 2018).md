@@ -7,14 +7,14 @@ tags: [ml, gp, optimization]
 authors: ["[[Arthur Jacot]]", "[[Franck Gabriel]]", "[[Clément Hongler]]"]
 year: 2018
 venue: "NeurIPS 2018"
-file: "papers/ML/Jacot, Gabriel, Hongler - Neural Tangent Kernel Convergence and Generalization in Neural Networks.pdf"
+file: "[[papers/ML/Jacot, Gabriel, Hongler - Neural Tangent Kernel Convergence and Generalization in Neural Networks.pdf]]"
 ---
 
 # NTK (Jacot 2018)
 
 **Summary**: Shows that for fully connected networks in the infinite-width limit, gradient descent on the parameters is kernel gradient descent in function space with respect to the neural tangent kernel (NTK). The NTK is random at initialization and moving during training for finite width, but converges to a deterministic kernel that stays constant. For least-squares loss the network function then follows a linear ODE whose modes decay at rates given by the kernel eigenvalues, which motivates early stopping.
 
-**Authors**: Arthur Jacot, Franck Gabriel, Clément Hongler · **Year**: 2018 · **File**: `papers/ML/Jacot, Gabriel, Hongler - Neural Tangent Kernel Convergence and Generalization in Neural Networks.pdf`
+**Authors**: Arthur Jacot, Franck Gabriel, Clément Hongler · **Year**: 2018 · **File**: [[papers/ML/Jacot, Gabriel, Hongler - Neural Tangent Kernel Convergence and Generalization in Neural Networks.pdf]]
 
 ---
 

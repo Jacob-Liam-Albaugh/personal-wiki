@@ -1,0 +1,8 @@
+{
+  "userIgnoreFilters": [
+    "wiki/meta/",
+    "tools/",
+    "inbox/",
+    "graphify-out/"
+  ]
+}

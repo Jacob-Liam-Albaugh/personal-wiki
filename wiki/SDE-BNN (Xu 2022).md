@@ -7,14 +7,14 @@ tags: [bayesian, vi, ml]
 authors: ["[[Winnie Xu]]", "[[Ricky T. Q. Chen]]", "[[Xuechen Li]]", "[[David Duvenaud]]"]
 year: 2022
 venue: "AISTATS 2022 (PMLR 151); arXiv:2102.06559v4"
-file: "papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf"
+file: "[[papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf]]"
 ---
 
 # Infinitely Deep BNNs with SDEs (Xu 2022)
 
 **Summary**: The paper treats the weights of a continuous-depth residual network as a stochastic process with an Ornstein-Uhlenbeck prior and learns an implicit, non-Gaussian, non-factorised approximate posterior over weight paths, itself an SDE with a neural-network drift. Training maximises a path-space [[ELBO]] with a "sticking the landing" low-variance gradient estimator. On MNIST and CIFAR-10 it beats mean-field baselines on calibration and is competitive with discrete-depth BNNs.
 
-**Authors**: Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud (the filename lists Chen first; the paper's own order is Xu first) · **Year**: 2022 · **File**: `papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`
+**Authors**: Winnie Xu, Ricky T.Q. Chen, Xuechen Li, David Duvenaud (the filename lists Chen first; the paper's own order is Xu first) · **Year**: 2022 · **File**: [[papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf]]
 
 ---
 

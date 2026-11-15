@@ -7,14 +7,14 @@ tags: [ml]
 authors: ["[[Christina Sormani]]"]
 year: 2011
 venue: "arXiv:1006.0411v2 [math.DG] (survey)"
-file: "papers/ML/Sormani - How Riemannian Manifolds Converge.pdf"
+file: "[[papers/ML/Sormani - How Riemannian Manifolds Converge.pdf]]"
 ---
 
 # Riemannian convergence (Sormani 2011)
 
 **Summary**: An illustrated survey of ways a sequence of manifolds can converge when smooth convergence fails. Extrinsic notions (Hausdorff, flat, varifold) apply to submanifolds of Euclidean space. Intrinsic notions (Gromov-Hausdorff, metric measure, intrinsic flat, ultralimit) apply to abstract Riemannian manifolds. Each notion preserves some properties and loses others.
 
-**Authors**: Christina Sormani · **Year**: 2011 · **File**: `papers/ML/Sormani - How Riemannian Manifolds Converge.pdf`
+**Authors**: Christina Sormani · **Year**: 2011 · **File**: [[papers/ML/Sormani - How Riemannian Manifolds Converge.pdf]]
 
 ---
 

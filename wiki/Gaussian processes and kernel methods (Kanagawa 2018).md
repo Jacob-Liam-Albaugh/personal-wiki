@@ -7,14 +7,14 @@ tags: [gp, bayesian, ml]
 authors: ["[[Motonobu Kanagawa]]", "[[Philipp Hennig]]", "[[Dino Sejdinovic]]", "[[Bharath K. Sriperumbudur]]"]
 year: 2018
 venue: "arXiv review, 10 Jul 2018"
-file: "papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf"
+file: "[[papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf]]"
 ---
 
 # Gaussian processes and kernel methods (Kanagawa 2018)
 
 **Summary**: A review that matches up the Bayesian view ([[Gaussian process]]) and the frequentist view ([[Kernel methods]], [[RKHS]]) of the same positive definite kernel. GP posterior mean equals kernel ridge regression; posterior standard deviation equals a worst-case error; GP draws miss the RKHS but lie in a slightly larger "power" space; convergence rates, MMD and Bayesian quadrature match too.
 
-**Authors**: Motonobu Kanagawa, Philipp Hennig, Dino Sejdinovic, Bharath K. Sriperumbudur · **Year**: 2018 · **File**: `papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf`
+**Authors**: Motonobu Kanagawa, Philipp Hennig, Dino Sejdinovic, Bharath K. Sriperumbudur · **Year**: 2018 · **File**: [[papers/Guassian Processes/Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf]]
 
 ---
 

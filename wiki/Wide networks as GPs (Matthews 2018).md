@@ -7,14 +7,14 @@ tags: [gp, bayesian, ml]
 authors: ["[[Alexander G. de G. Matthews]]", "[[Mark Rowland]]", "[[Jiri Hron]]", "[[Richard E. Turner]]", "[[Zoubin Ghahramani]]"]
 year: 2018
 venue: "ICLR 2018 (this PDF: extended arXiv v2)"
-file: "papers/Guassian Processes/Matthews et al - Gaussian Process Behaviour in Wide Deep Neural Networks.pdf"
+file: "[[papers/Guassian Processes/Matthews et al - Gaussian Process Behaviour in Wide Deep Neural Networks.pdf]]"
 ---
 
 # Wide networks as GPs (Matthews 2018)
 
 **Summary**: Proves that a randomly initialized, fully connected network with any fixed number of hidden layers and independent Gaussian weights converges in distribution to a Gaussian process as all hidden widths grow together, extending Neal's one-hidden-layer result. The proof uses exchangeability and a central limit theorem for exchangeable arrays. Experiments measure the distance to the GP by maximum mean discrepancy (MMD) and compare finite Bayesian networks (gold-standard MCMC) with exact GP inference: close on five of six datasets.
 
-**Authors**: Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani · **Year**: 2018 · **File**: `papers/Guassian Processes/Matthews et al - Gaussian Process Behaviour in Wide Deep Neural Networks.pdf`
+**Authors**: Alexander G. de G. Matthews, Mark Rowland, Jiri Hron, Richard E. Turner, Zoubin Ghahramani · **Year**: 2018 · **File**: [[papers/Guassian Processes/Matthews et al - Gaussian Process Behaviour in Wide Deep Neural Networks.pdf]]
 
 ---
 

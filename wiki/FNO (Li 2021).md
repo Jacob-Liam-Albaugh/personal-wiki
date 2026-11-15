@@ -7,14 +7,14 @@ tags: [operators, ml, pde]
 authors: ["[[Zongyi Li]]", "[[Nikola B. Kovachki]]", "[[Kamyar Azizzadenesheli]]", "[[Burigede Liu]]", "[[Kaushik Bhattacharya]]", "[[Andrew M. Stuart]]", "[[Anima Anandkumar]]"]
 year: 2021
 venue: "ICLR 2021; arXiv:2010.08895v3"
-file: "papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf"
+file: "[[papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf]]"
 ---
 
 # Fourier Neural Operator for parametric PDEs (Li 2021)
 
 **Summary**: Parametrizes the kernel of an integral operator directly in Fourier space: FFT the features, multiply the lowest modes by a learned complex tensor, inverse FFT, add a pointwise linear term. The resulting [[FNO]] is mesh-independent, costs $O(n\log n)$ on a uniform grid, and beats the baselines on Burgers, Darcy and Navier-Stokes, with zero-shot super-resolution and a roughly 4-orders-of-magnitude cheaper forward pass than a pseudo-spectral solver.
 
-**Authors**: Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar · **Year**: 2021 (ICLR) · **File**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`
+**Authors**: Zongyi Li, Nikola Kovachki, Kamyar Azizzadenesheli, Burigede Liu, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar · **Year**: 2021 (ICLR) · **File**: [[papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf]]
 
 ---
 

@@ -38,7 +38,7 @@ courses/                       -- class material
   ME 697/                      -- syllabus, videos, homework, data
 text_books/                    -- textbooks; its own git repo (git-lfs) -- read only
   advanced-scientific-machine-learning/ -- ME 697 jupyter-book repo; its own git repo -- read only
-wiki/                          -- markdown pages maintained by Claude (flat; Obsidian vault root)
+wiki/                          -- markdown pages maintained by Claude (flat; the repo root is the Obsidian vault)
 wiki/meta/                     -- navigation / bookkeeping scaffolding (hidden from graph by path)
 wiki/meta/index.md             -- table of contents for the whole wiki, one section per area
 wiki/meta/log.md               -- append-only record of all operations
@@ -48,7 +48,8 @@ notes/                         -- project write-ups, numbered, indexed in notes/
 ```
 
 Substantive pages live directly in `wiki/`. Obsidian resolves `[[wiki-links]]` by filename
-alone, so links work regardless of subfolder.
+alone, so links work regardless of subfolder. The vault is the repo root so `file:` and
+**File** can link the PDF as `[[papers/...pdf]]`, which opens in Obsidian's PDF viewer.
 
 ### Duplicates and aliases
 
@@ -149,7 +150,7 @@ Paper pages add:
 authors: ["[[Max Welling]]", "[[Yee Whye Teh]]"]   # written by tools/authors.py
 year: 2011
 venue: "ICML"                 # if known from the PDF
-file: "papers/Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf"
+file: "[[papers/Bayesian/Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf]]"
 ```
 
 The body line `**Authors**: Max Welling, Yee Whye Teh · ...` must give full names in PDF order;
@@ -189,7 +190,7 @@ Navigation/bookkeeping pages (`index.md`, `log.md`, `sources.md`, `reading-group
 
 **Summary**: <2-3 sentences: problem, idea, result>.
 
-**Authors**: ... · **Year**: ... · **File**: `<path>`
+**Authors**: ... · **Year**: ... · **File**: [[<path>]]
 
 ---
 

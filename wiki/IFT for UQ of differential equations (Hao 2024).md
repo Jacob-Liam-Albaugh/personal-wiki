@@ -7,14 +7,14 @@ tags: [ift, vi, sampling, mcmc, bayesian, inverse-problems, physics-informed, uq
 authors: ["[[Kairui Hao]]"]
 year: 2024
 venue: "PhD dissertation, Purdue University (advisor Ilias Bilionis)"
-file: "papers/IFT/Hao - Information field theory approach to uncertainty quantification for differential equations.pdf"
+file: "[[papers/IFT/Hao - Information field theory approach to uncertainty quantification for differential equations.pdf]]"
 ---
 
 # IFT approach to UQ for differential equations (Hao 2024)
 
 **Summary**: Kairui Hao's dissertation (213 pp). It collects the IFT-for-dynamics work: Ch. 3 is [[IFT state and parameter estimation (Hao 2024)]], Ch. 6 is [[Neural information field filter (Hao 2025)]], and two chapters appear in neither paper: Ch. 4 (IFT with noisy system inputs, applied to a thermal RC digital twin of a lunar-habitat testbed) and Ch. 5 (1D boundary value problems, including conductivity reconstruction for fibrous insulation and an analytical GP form of the IFT prior). Motivation is fault detection for uncrewed extraterrestrial habitats (RETHi).
 
-**Authors**: Kairui Hao · **Year**: 2024 · **File**: `papers/IFT/Hao - Information field theory approach to uncertainty quantification for differential equations.pdf` · **Code**: JAX (no repository in the text)
+**Authors**: Kairui Hao · **Year**: 2024 · **File**: [[papers/IFT/Hao - Information field theory approach to uncertainty quantification for differential equations.pdf]] · **Code**: JAX (no repository in the text)
 
 ---
 

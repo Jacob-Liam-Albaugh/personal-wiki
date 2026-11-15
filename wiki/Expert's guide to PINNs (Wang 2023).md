@@ -7,7 +7,7 @@ tags: [physics-informed, pde, optimization, software]
 authors: ["[[Sifan Wang]]", "[[Shyam Sankaran]]", "[[Hanwen Wang]]", "[[Paris Perdikaris]]"]
 year: 2023
 venue: "arXiv:2308.08468"
-file: "papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - An Expert's Guide to Training PINNs.pdf"
+file: "[[papers/Physics Informed Architectures/Wang, Sankaran, Perdikaris - An Expert's Guide to Training PINNs.pdf]]"
 ---
 
 # An expert's guide to training PINNs (Wang 2023)

@@ -7,14 +7,14 @@ tags: [ml, optimization]
 authors: ["[[Miles Cranmer]]"]
 year: 2023
 venue: "arXiv:2305.01582v3 (astro-ph.IM)"
-file: "papers/ML/Cranmer - PySR.pdf"
+file: "[[papers/ML/Cranmer - PySR.pdf]]"
 ---
 
 # PySR (Cranmer 2023)
 
 **Summary**: Describes PySR and its Julia backend SymbolicRegression.jl, an open-source symbolic regression library built on a multi-population evolutionary search with an evolve-simplify-optimize loop. It also introduces EmpiricalBench, nine historical empirical laws used to test whether a method can rediscover them from noisy original data. PySR recovered 7 of 9 laws in all 5 trials.
 
-**Authors**: Miles Cranmer · **Year**: 2023 (arXiv v3, 5 May 2023) · **File**: `papers/ML/Cranmer - PySR.pdf`
+**Authors**: Miles Cranmer · **Year**: 2023 (arXiv v3, 5 May 2023) · **File**: [[papers/ML/Cranmer - PySR.pdf]]
 
 ---
 

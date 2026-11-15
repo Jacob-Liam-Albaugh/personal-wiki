@@ -7,14 +7,14 @@ tags: [operators, mechanics, ml]
 authors: ["[[Kaushik Bhattacharya]]", "[[Burigede Liu]]", "[[Andrew M. Stuart]]", "[[Margaret Trautner]]"]
 year: 2023
 venue: "SIAM Multiscale Modeling & Simulation 21(2), 641-679"
-file: "papers/PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf"
+file: "[[papers/PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf]]"
 ---
 
 # Learning Markovian homogenized models in viscoelasticity (Bhattacharya 2023)
 
 **Summary**: For 1D Kelvin-Voigt (KV) viscoelasticity with a rapidly varying periodic microstructure, the homogenized constitutive law has memory, but for piecewise-constant media that memory is exactly a finite set of exponentially decaying hidden variables (a Markovian ODE system). The authors prove this, prove a neural network (RNN) with the same structure can approximate it, and show numerically that an RNN trained on cell-problem data reproduces fine-scale FEM at far lower cost. The same architecture also learns a 1D elasto-viscoplastic law.
 
-**Authors**: Kaushik Bhattacharya, Burigede Liu, Andrew Stuart, Margaret Trautner · **Year**: 2023 · **File**: `papers/PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`
+**Authors**: Kaushik Bhattacharya, Burigede Liu, Andrew Stuart, Margaret Trautner · **Year**: 2023 · **File**: [[papers/PSL Reading Group/26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf]]
 
 Discussed in the PSL reading group on 2026-10-29.
 

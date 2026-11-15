@@ -7,14 +7,14 @@ tags: [bayesian, operators, ml]
 authors: ["[[Yinhao Zhu]]", "[[Nicholas Zabaras]]"]
 year: 2018
 venue: "Journal of Computational Physics (preprint submitted Jan 2018; arXiv:1801.06879v1)"
-file: "papers/Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf"
+file: "[[papers/Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf]]"
 ---
 
 # Bayesian DenseED Surrogates (Zhu 2018)
 
 **Summary**: Surrogate modelling of stochastic PDEs is cast as image-to-image regression with a dense convolutional encoder-decoder (DenseED), made Bayesian with a Student-t weight prior and trained by [[SVGD]] using 20 particles. On Darcy flow with log-permeability input dimension up to 4225, it gives accurate means and calibrated predictive variances from as few as 32 to 1024 training runs.
 
-**Authors**: Yinhao Zhu, Nicholas Zabaras (University of Notre Dame) · **Year**: 2018 · **File**: `papers/Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf`
+**Authors**: Yinhao Zhu, Nicholas Zabaras (University of Notre Dame) · **Year**: 2018 · **File**: [[papers/Bayesian/Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf]]
 
 ---
 

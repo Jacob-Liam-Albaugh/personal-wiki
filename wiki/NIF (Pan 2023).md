@@ -7,14 +7,14 @@ tags: [physics-informed, operators, ml, pde]
 authors: ["[[Shaowu Pan]]", "[[Steven L. Brunton]]", "[[J. Nathan Kutz]]"]
 year: 2023
 venue: "JMLR 24 (arXiv 2204.03216)"
-file: "papers/Physics Informed Architectures/Brunton, Pan, Kutz - NIF - Neural Implicit Flow.pdf"
+file: "[[papers/Physics Informed Architectures/Brunton, Pan, Kutz - NIF - Neural Implicit Flow.pdf]]"
 ---
 
 # Neural Implicit Flow: a mesh-agnostic dimensionality reduction paradigm (Pan 2023)
 
 **Summary**: A hypernetwork that represents a parametric spatio-temporal field as one small MLP in space (ShapeNet) whose weights are produced by a second MLP of time, parameters or sensor readings (ParameterNet). The bottleneck of ParameterNet is the latent code. Because only point samples $(x,u)$ are needed, it works on adaptive, moving or unstructured meshes where SVD and convolutional autoencoders need projection to a fixed grid. See [[Neural implicit flow]].
 
-**Authors**: Shaowu Pan, Steven L. Brunton, J. Nathan Kutz · **Year**: 2023 · **File**: `papers/Physics Informed Architectures/Brunton, Pan, Kutz - NIF - Neural Implicit Flow.pdf`
+**Authors**: Shaowu Pan, Steven L. Brunton, J. Nathan Kutz · **Year**: 2023 · **File**: [[papers/Physics Informed Architectures/Brunton, Pan, Kutz - NIF - Neural Implicit Flow.pdf]]
 
 ---
 

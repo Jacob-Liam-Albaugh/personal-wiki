@@ -7,14 +7,14 @@ tags: [generative, ml]
 authors: ["[[Ian J. Goodfellow]]", "[[Jean Pouget-Abadie]]", "[[Mehdi Mirza]]", "[[Bing Xu]]", "[[David Warde-Farley]]", "[[Sherjil Ozair]]", "[[Aaron Courville]]", "[[Yoshua Bengio]]"]
 year: 2014
 venue: "NeurIPS 2014"
-file: "papers/Generative ML/Goodfellow et al - Generative Adversarial Nets.pdf"
+file: "[[papers/Generative ML/Goodfellow et al - Generative Adversarial Nets.pdf]]"
 ---
 
 # GAN paper (Goodfellow 2014)
 
 **Summary**: Trains a generator $G$ and a discriminator $D$ as a two-player minimax game. In the non-parametric limit the unique solution has $p_g=p_{data}$ and $D=1/2$; the game value equals $-\log4+2\,\mathrm{JSD}(p_{data}\Vert p_g)$. With MLPs the whole system trains by backpropagation, with no Markov chains or inference networks.
 
-**Authors**: Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio · **Year**: 2014 · **File**: `papers/Generative ML/Goodfellow et al - Generative Adversarial Nets.pdf`
+**Authors**: Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio · **Year**: 2014 · **File**: [[papers/Generative ML/Goodfellow et al - Generative Adversarial Nets.pdf]]
 
 ---
 

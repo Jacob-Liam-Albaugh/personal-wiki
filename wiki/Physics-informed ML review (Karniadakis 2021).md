@@ -7,7 +7,7 @@ tags: [physics-informed, pde, ml, uq]
 authors: ["[[George Em Karniadakis]]", "[[Ioannis G. Kevrekidis]]", "[[Lu Lu]]", "[[Paris Perdikaris]]", "[[Sifan Wang]]", "[[Liu Yang]]"]
 year: 2021
 venue: "Nature Reviews Physics"
-file: "papers/Physics Informed Architectures/Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf"
+file: "[[papers/Physics Informed Architectures/Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf]]"
 ---
 
 # Physics-informed machine learning review (Karniadakis 2021)

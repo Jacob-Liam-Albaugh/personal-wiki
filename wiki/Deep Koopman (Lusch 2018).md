@@ -7,14 +7,14 @@ tags: [physics-informed, ml, mechanics]
 authors: ["[[Bethany Lusch]]", "[[J. Nathan Kutz]]", "[[Steven L. Brunton]]"]
 year: 2018
 venue: "Nature Communications 9:4950"
-file: "papers/Physics Informed Architectures/Lusch, Kutz, Brunton - Deep learning for universal linear embeddings of nonlinear dynamics.pdf"
+file: "[[papers/Physics Informed Architectures/Lusch, Kutz, Brunton - Deep learning for universal linear embeddings of nonlinear dynamics.pdf]]"
 ---
 
 # Deep Koopman (Lusch 2018)
 
 **Summary**: A modified autoencoder learns coordinates $y=\varphi(x)$ in which nonlinear dynamics advance by a linear map $K$, approximating Koopman eigenfunctions. An auxiliary network makes the eigenvalues depend on the state, so systems with a continuous spectrum (e.g. the pendulum) need only one conjugate pair of eigenfunctions instead of a long harmonic series.
 
-**Authors**: Bethany Lusch, J. Nathan Kutz, Steven L. Brunton · **Year**: 2018 · **File**: `papers/Physics Informed Architectures/Lusch, Kutz, Brunton - Deep learning for universal linear embeddings of nonlinear dynamics.pdf`
+**Authors**: Bethany Lusch, J. Nathan Kutz, Steven L. Brunton · **Year**: 2018 · **File**: [[papers/Physics Informed Architectures/Lusch, Kutz, Brunton - Deep learning for universal linear embeddings of nonlinear dynamics.pdf]]
 
 ---
 

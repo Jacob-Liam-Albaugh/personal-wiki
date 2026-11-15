@@ -7,14 +7,14 @@ tags: [ml, symmetry]
 authors: ["[[Manzil Zaheer]]", "[[Satwik Kottur]]", "[[Siamak Ravanbhakhsh]]", "[[Barnabas Poczos]]", "[[Ruslan Salakhutdinov]]", "[[Alexander Smola]]"]
 year: 2017
 venue: "NIPS 2017 (arXiv:1703.06114v3)"
-file: "papers/ML/Zaheer, Kottur, Ravanbhakhsh, Poczos, Salakhutdinov, Smola - Deep Sets.pdf"
+file: "[[papers/ML/Zaheer, Kottur, Ravanbhakhsh, Poczos, Salakhutdinov, Smola - Deep Sets.pdf]]"
 ---
 
 # Deep Sets paper (Zaheer 2017)
 
 **Summary**: Characterizes functions of sets that ignore element order. Any permutation-invariant function on a countable universe has the form $\rho(\sum_x \phi(x))$. Replacing $\phi,\rho$ by networks gives the DeepSets architecture. A layer is permutation-equivariant exactly when its weight matrix is $\lambda I+\gamma \mathbf{1}\mathbf{1}^{\top}$.
 
-**Authors**: Manzil Zaheer, Satwik Kottur, Siamak Ravanbhakhsh, Barnabas Poczos, Ruslan Salakhutdinov, Alexander Smola · **Year**: 2017 · **File**: `papers/ML/Zaheer, Kottur, Ravanbhakhsh, Poczos, Salakhutdinov, Smola - Deep Sets.pdf`
+**Authors**: Manzil Zaheer, Satwik Kottur, Siamak Ravanbhakhsh, Barnabas Poczos, Ruslan Salakhutdinov, Alexander Smola · **Year**: 2017 · **File**: [[papers/ML/Zaheer, Kottur, Ravanbhakhsh, Poczos, Salakhutdinov, Smola - Deep Sets.pdf]]
 
 ---
 

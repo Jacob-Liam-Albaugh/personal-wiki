@@ -177,7 +177,7 @@ def load_pages():
         fm = re.match(r"---\n(.*?)\n---\n", s, re.S)
         if not fm:
             continue
-        f = re.search(r'^file:\s*"?([^"\n]+\.pdf)"?', fm.group(1), re.M)
+        f = re.search(r'^file:\s*"?(?:\[\[)?([^"\n\[\]]+\.pdf)', fm.group(1), re.M)
         if not f or not (R / f.group(1)).exists():
             continue
         h1 = re.search(r"^# (.+)$", s, re.M)

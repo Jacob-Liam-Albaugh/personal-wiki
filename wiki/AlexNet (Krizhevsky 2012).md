@@ -7,14 +7,14 @@ tags: [ml, optimization]
 authors: ["[[Alex Krizhevsky]]", "[[Ilya Sutskever]]", "[[Geoffrey Hinton]]"]
 year: 2012
 venue: "NeurIPS 2012 (reprinted CACM 2017)"
-file: "papers/ML/Krizhevsky et al - ImageNet Classification with Deep Convolutional Neural Networks.pdf"
+file: "[[papers/ML/Krizhevsky et al - ImageNet Classification with Deep Convolutional Neural Networks.pdf]]"
 ---
 
 # AlexNet (Krizhevsky 2012)
 
 **Summary**: An 8-layer convolutional network (5 convolutional, 3 fully connected; 60M parameters) trained on 1.2M ImageNet images on two GPUs. ReLU units, data augmentation and dropout made training fast and overfitting tolerable. It cut the ILSVRC top-5 error from 26.2% (second place) to 15.3% in 2012.
 
-**Authors**: Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton · **Year**: 2012 · **File**: `papers/ML/Krizhevsky et al - ImageNet Classification with Deep Convolutional Neural Networks.pdf`
+**Authors**: Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton · **Year**: 2012 · **File**: [[papers/ML/Krizhevsky et al - ImageNet Classification with Deep Convolutional Neural Networks.pdf]]
 
 ---
 

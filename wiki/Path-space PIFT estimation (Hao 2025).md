@@ -7,14 +7,14 @@ tags: [ift, vi, sampling, bayesian, inverse-problems, physics-informed, uq]
 authors: ["[[Kairui Hao]]", "[[Ilias Bilionis]]"]
 year: 2025
 venue: "Model Validation and Uncertainty Quantification, Vol. 3 (Conf. Proc. SEM IMAC), Springer"
-file: "papers/IFT/Hao, Bilionis - Physics-informed information field theory approach to dynamical system parameter and state estimation in path space.pdf"
+file: "[[papers/IFT/Hao, Bilionis - Physics-informed information field theory approach to dynamical system parameter and state estimation in path space.pdf]]"
 ---
 
 # Physics-informed IFT for dynamical-system estimation in path space (Hao 2025)
 
 **Summary**: Five-page conference chapter restating [[IFT state and parameter estimation (Hao 2024)]] in path-space notation, $x=(x_0,x_{-0})$, and comparing the two inference routes: SGLD from [[PIFT (Alberts 2023)]] and stochastic VI. On Duffing both give similar posteriors, VI about 35× faster. It repeats the misspecified Lotka–Volterra result that the learned $\beta$ falls as model error grows.
 
-**Authors**: Kairui Hao, Ilias Bilionis · **Year**: 2025 · **File**: `papers/IFT/Hao, Bilionis - Physics-informed information field theory approach to dynamical system parameter and state estimation in path space.pdf`
+**Authors**: Kairui Hao, Ilias Bilionis · **Year**: 2025 · **File**: [[papers/IFT/Hao, Bilionis - Physics-informed information field theory approach to dynamical system parameter and state estimation in path space.pdf]]
 
 ---
 

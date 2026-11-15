@@ -7,14 +7,14 @@ tags: [ml, diffusion]
 authors: ["[[Olaf Ronneberger]]", "[[Philipp Fischer]]", "[[Thomas Brox]]"]
 year: 2015
 venue: "MICCAI 2015"
-file: "papers/Diffusion/Ronneberger, Fischer, Brox - U-Net Convolutional Networks for Biomedical Image Segmentation.pdf"
+file: "[[papers/Diffusion/Ronneberger, Fischer, Brox - U-Net Convolutional Networks for Biomedical Image Segmentation.pdf]]"
 ---
 
 # U-Net paper (Ronneberger 2015)
 
 **Summary**: A fully convolutional network with a contracting path, a symmetric expanding path and skip connections that concatenate high-resolution features into the decoder, for per-pixel biomedical segmentation. Heavy elastic-deformation augmentation and a border-weighted loss let it train from a few dozen annotated images. It won the ISBI 2012 EM segmentation ranking and the ISBI 2015 cell-tracking categories it entered. In this wiki it matters mainly because the same shape is the denoiser backbone of [[DDPM (Ho 2020)]].
 
-**Authors**: Olaf Ronneberger, Philipp Fischer, Thomas Brox · **Year**: 2015 · **File**: `papers/Diffusion/Ronneberger, Fischer, Brox - U-Net Convolutional Networks for Biomedical Image Segmentation.pdf`
+**Authors**: Olaf Ronneberger, Philipp Fischer, Thomas Brox · **Year**: 2015 · **File**: [[papers/Diffusion/Ronneberger, Fischer, Brox - U-Net Convolutional Networks for Biomedical Image Segmentation.pdf]]
 
 ---
 

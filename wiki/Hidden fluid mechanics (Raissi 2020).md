@@ -7,14 +7,14 @@ tags: [physics-informed, pde, inverse-problems, ml]
 authors: ["[[Maziar Raissi]]", "[[Alireza Yazdani]]", "[[George Em Karniadakis]]"]
 year: 2020
 venue: "Science 367(6481), 1026-1030"
-file: "papers/Physics Informed Architectures/Raissi, Yazdani, Karniadakis - Hidden fluid mechanics Learning velocity and pressure fields from flow visualizations.pdf"
+file: "[[papers/Physics Informed Architectures/Raissi, Yazdani, Karniadakis - Hidden fluid mechanics Learning velocity and pressure fields from flow visualizations.pdf]]"
 ---
 
 # Hidden fluid mechanics (Raissi 2020)
 
 **Summary**: Hidden fluid mechanics (HFM) is a [[PINN]] that takes only scattered space-time data on a passive scalar (dye, smoke, contrast agent) and infers the hidden velocity and pressure fields by enforcing the transport and incompressible [[Navier-Stokes equations]] through [[Automatic differentiation]]. No boundary or initial conditions are supplied. Demonstrated on a cylinder wake, a stenosed channel and a patient-specific 3D intracranial aneurysm.
 
-**Authors**: Maziar Raissi, Alireza Yazdani, George Em Karniadakis · **Year**: 2020 · **File**: `papers/Physics Informed Architectures/Raissi, Yazdani, Karniadakis - Hidden fluid mechanics Learning velocity and pressure fields from flow visualizations.pdf`
+**Authors**: Maziar Raissi, Alireza Yazdani, George Em Karniadakis · **Year**: 2020 · **File**: [[papers/Physics Informed Architectures/Raissi, Yazdani, Karniadakis - Hidden fluid mechanics Learning velocity and pressure fields from flow visualizations.pdf]]
 
 ---
 

@@ -7,7 +7,7 @@ tags: [ml, generative]
 authors: ["[[Alec Radford]]", "[[Jong Wook Kim]]", "[[Chris Hallacy]]", "[[Aditya Ramesh]]", "[[Gabriel Goh]]", "[[Sandhini Agarwal]]", "[[Girish Sastry]]", "[[Amanda Askell]]", "[[Pamela Mishkin]]", "[[Jack Clark]]", "[[Gretchen Krueger]]", "[[Ilya Sutskever]]"]
 year: 2021
 venue: "ICML 2021 (PMLR 139)"
-file: "papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf"
+file: "[[papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf]]"
 file-supplementary: "papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf"
 ---
 
@@ -15,7 +15,7 @@ file-supplementary: "papers/Diffusion/Radford et al - Learning Transferable Visu
 
 **Summary**: CLIP trains an image encoder and a text encoder jointly on 400 million (image, text) pairs from the internet to pick out which caption goes with which image in a batch, a symmetric InfoNCE-style loss ([[Contrastive learning]]). At test time the class names, wrapped in prompts, are embedded by the text encoder to form a linear classifier, which gives [[Zero-shot transfer]] to over 30 datasets. The best model reaches 76.2% zero-shot top-1 on ImageNet, matching the original ResNet50 without using any of its 1.28M labelled images.
 
-**Authors**: Alec Radford, Jong Wook Kim (equal contribution), Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever (OpenAI) · **Year**: 2021 · **File**: `papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf` · **Supplementary**: `papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf`
+**Authors**: Alec Radford, Jong Wook Kim (equal contribution), Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, Gretchen Krueger, Ilya Sutskever (OpenAI) · **Year**: 2021 · **File**: [[papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP).pdf]] · **Supplementary**: `papers/Diffusion/Radford et al - Learning Transferable Visual Models From Natural Language Supervision (CLIP) - Supplementary.pdf`
 
 **What the two files are.** The main file is the ICML 2021 camera-ready version (9 pages of text, then references; p. 1 carries the PMLR 139 footer). It is a condensed paper: it has no section on prompt engineering and no per-dataset tables. The "Supplementary" file is the appendix of that version, not the full arXiv version: it has no abstract or body, starts at "A. Linear-probe evaluation" (supp. p. 1), and runs to supp. p. 25 with Apps. A-I (linear-probe details, zero-shot analysis including prompt engineering, data overlap, robustness, broader impacts, human comparison, YFCC100M ablation, selected tasks, hyperparameters). Citations below are "main p. N" and "supp. p. N". The main paper has no numbered equations, so the key formula is the Fig. 3 pseudocode (main p. 3).
 

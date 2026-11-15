@@ -7,14 +7,14 @@ tags: [physics-informed, pde, inverse-problems, uq, ml]
 authors: ["[[Francisco Sahli Costabal]]", "[[Yibo Yang]]", "[[Paris Perdikaris]]", "[[Daniel E. Hurtado]]", "[[Ellen Kuhl]]"]
 year: 2020
 venue: "Frontiers in Physics 8, 42"
-file: "papers/Physics Informed Architectures/Costabal et al - Physics-Informed Neural Networks for Cardiac Activation Mapping.pdf"
+file: "[[papers/Physics Informed Architectures/Costabal et al - Physics-Informed Neural Networks for Cardiac Activation Mapping.pdf]]"
 ---
 
 # Cardiac activation PINN (Sahli Costabal 2020)
 
 **Summary**: A PINN for electro-anatomic mapping of the atria: two networks give activation time $T(x)$ and conduction velocity $V(x)$, tied by the [[Eikonal equation]] and trained on a few sparse activation-time measurements. An ensemble with [[Randomized prior functions]] gives epistemic uncertainty, whose entropy drives an [[Active learning]] rule choosing the next catheter location. Beats linear interpolation and GP regression on a synthetic benchmark and linear interpolation on a simulated left atrium.
 
-**Authors**: Francisco Sahli Costabal, Yibo Yang, Paris Perdikaris, Daniel E. Hurtado, Ellen Kuhl · **Year**: 2020 · **File**: `papers/Physics Informed Architectures/Costabal et al - Physics-Informed Neural Networks for Cardiac Activation Mapping.pdf`
+**Authors**: Francisco Sahli Costabal, Yibo Yang, Paris Perdikaris, Daniel E. Hurtado, Ellen Kuhl · **Year**: 2020 · **File**: [[papers/Physics Informed Architectures/Costabal et al - Physics-Informed Neural Networks for Cardiac Activation Mapping.pdf]]
 
 ---
 

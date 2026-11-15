@@ -7,14 +7,14 @@ tags: [physics-informed, pde, inverse-problems, ml]
 authors: ["[[Maziar Raissi]]", "[[Paris Perdikaris]]", "[[George Em Karniadakis]]"]
 year: 2019
 venue: "Journal of Computational Physics (preprint dated 26 Oct 2018)"
-file: "papers/Physics Informed Architectures/Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf"
+file: "[[papers/Physics Informed Architectures/Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf]]"
 ---
 
 # Physics-informed neural networks (Raissi 2019)
 
 **Summary**: Defines the PINN: a neural network $u(t,x)$ whose derivatives are taken by [[Automatic differentiation]] to form the PDE residual $f$, with both trained by one mean-squared loss on data plus residual at collocation points. Two classes of problems (data-driven solution, data-driven discovery of PDE parameters) and two time-handling schemes (continuous, discrete Runge-Kutta). See [[PINN]] for the Bayesian reading.
 
-**Authors**: Maziar Raissi, Paris Perdikaris, George E. Karniadakis · **Year**: 2019 · **File**: `papers/Physics Informed Architectures/Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf` (the file name puts Karniadakis first; the paper's byline is Raissi, Perdikaris, Karniadakis)
+**Authors**: Maziar Raissi, Paris Perdikaris, George E. Karniadakis · **Year**: 2019 · **File**: [[papers/Physics Informed Architectures/Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf]] (the file name puts Karniadakis first; the paper's byline is Raissi, Perdikaris, Karniadakis)
 
 ---
 

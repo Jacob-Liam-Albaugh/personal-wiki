@@ -7,14 +7,14 @@ tags: [ift, bayesian, physics-informed, inverse-problems]
 authors: ["[[Alexander Alberts]]", "[[Akshay Jacob Thomas]]", "[[Kamran Daryabeigi]]", "[[Ilias Bilionis]]"]
 year: 2026
 venue: "arXiv:2601.15427v1 (Jan 2026)"
-file: "papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf"
+file: "[[papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf]]"
 ---
 
 # IFT identification of fibrous insulation conductivity (Alberts 2026)
 
 **Summary**: The paper identifies the temperature-dependent thermal conductivity $k(T)$ of an Opacified Fibrous Insulation (OFI) for spacecraft thermal protection systems from NASA heat-flow-meter temperature data, with no finite-element solver in the inverse loop. It applies the [[Physics-informed prior]] of [[PIFT (Alberts 2023)]] to the 1D steady heat equation, puts a log-GP prior on $k$, and samples jointly over temperature field and conductivity with [[Nested SGLD]]. The posterior is then propagated through an ABAQUS model of a HIAD-like flexible TPS for Mars and Earth entry.
 
-**Authors**: Alex Alberts, Akshay Jacob Thomas, Kamran Daryabeigi, Ilias Bilionis · **Year**: 2026 · **File**: `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`
+**Authors**: Alex Alberts, Akshay Jacob Thomas, Kamran Daryabeigi, Ilias Bilionis · **Year**: 2026 · **File**: [[papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf]]
 
 ---
 

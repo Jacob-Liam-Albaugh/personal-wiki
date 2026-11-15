@@ -7,14 +7,14 @@ tags: [optimization, ml]
 authors: ["[[Diederik P. Kingma]]", "[[Jimmy Lei Ba]]"]
 year: 2015
 venue: "ICLR 2015 (arXiv 1412.6980v9)"
-file: "papers/ML/Kingma, Lei Ba - Adam.pdf"
+file: "[[papers/ML/Kingma, Lei Ba - Adam.pdf]]"
 ---
 
 # Adam paper (Kingma 2015)
 
 **Summary**: Adam keeps exponential moving averages of the gradient and of the squared gradient, corrects both for their zero initialization, and divides one by the root of the other. It gives per-parameter step sizes bounded by the step-size hyperparameter, comes with an $O(\sqrt T)$ regret bound for online convex problems, and works well on logistic regression, MLPs and CNNs.
 
-**Authors**: Diederik P. Kingma, Jimmy Lei Ba · **Year**: 2015 · **File**: `papers/ML/Kingma, Lei Ba - Adam.pdf`
+**Authors**: Diederik P. Kingma, Jimmy Lei Ba · **Year**: 2015 · **File**: [[papers/ML/Kingma, Lei Ba - Adam.pdf]]
 
 ---
 

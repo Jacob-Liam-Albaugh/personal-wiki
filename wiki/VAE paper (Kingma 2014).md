@@ -7,14 +7,14 @@ tags: [bayesian, vi, generative, ml]
 authors: ["[[Diederik P. Kingma]]", "[[Max Welling]]"]
 year: 2014
 venue: "ICLR 2014 (arXiv:1312.6114v10, 1 May 2014)"
-file: "papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf"
+file: "[[papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf]]"
 ---
 
 # Auto-Encoding Variational Bayes (Kingma, Welling 2014)
 
 **Summary**: Introduces the SGVB estimator, a reparameterized Monte Carlo estimate of the variational lower bound that is differentiable in the variational parameters, and the AEVB algorithm, which uses it to train a recognition (encoder) network jointly with a generative (decoder) model. With neural-network encoder and decoder this is the [[VAE]]. On MNIST and Frey Face it optimizes the bound faster and to better values than wake-sleep (p. 7) and converges faster than Monte Carlo EM in marginal likelihood (p. 8).
 
-**Authors**: Diederik P. Kingma, Max Welling (both Universiteit van Amsterdam, Machine Learning Group) · **Year**: 2014 · **File**: `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`
+**Authors**: Diederik P. Kingma, Max Welling (both Universiteit van Amsterdam, Machine Learning Group) · **Year**: 2014 · **File**: [[papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf]]
 
 The PDF is the arXiv v10 (1 May 2014). It carries no venue header; ICLR 2014 comes from the citation in the other two papers in this batch ([[Variational dropout (Kingma 2015)]] ref. [14], [[Intro to VAEs (Kingma 2019)]] reference list).
 

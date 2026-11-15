@@ -7,14 +7,14 @@ tags: [physics-informed, pde, inverse-problems, ml]
 authors: ["[[Georgios Kissas]]", "[[Yibo Yang]]", "[[Eileen Hwuang]]", "[[Walter R. Witschey]]", "[[John A. Detre]]", "[[Paris Perdikaris]]"]
 year: 2020
 venue: "Computer Methods in Applied Mechanics and Engineering 358, 112623"
-file: "papers/Physics Informed Architectures/Kissas et al - Machine learning in cardiovascular flows modeling Predicting arterial blood pressure from non-invasive 4D flow MRI data.pdf"
+file: "[[papers/Physics Informed Architectures/Kissas et al - Machine learning in cardiovascular flows modeling Predicting arterial blood pressure from non-invasive 4D flow MRI data.pdf]]"
 ---
 
 # Cardiovascular flow PINNs (Kissas 2020)
 
 **Summary**: One PINN per vessel of a 1D arterial network, trained on noisy area and velocity time series (no pressure data) and coupled at bifurcations by mass and momentum conservation. The area-pressure wall law makes absolute pressure identifiable. Non-dimensionalization is shown to be essential, and a trained network is used to calibrate [[Windkessel model]] outflow parameters by post-processing. First PINN applied to real noisy clinical data (4D flow MRI).
 
-**Authors**: Georgios Kissas, Yibo Yang, Eileen Hwuang, Walter R. Witschey, John A. Detre, Paris Perdikaris · **Year**: 2020 · **File**: `papers/Physics Informed Architectures/Kissas et al - Machine learning in cardiovascular flows modeling Predicting arterial blood pressure from non-invasive 4D flow MRI data.pdf`
+**Authors**: Georgios Kissas, Yibo Yang, Eileen Hwuang, Walter R. Witschey, John A. Detre, Paris Perdikaris · **Year**: 2020 · **File**: [[papers/Physics Informed Architectures/Kissas et al - Machine learning in cardiovascular flows modeling Predicting arterial blood pressure from non-invasive 4D flow MRI data.pdf]]
 
 ---
 

@@ -7,14 +7,14 @@ tags: [gp, uq, bayesian, ml]
 authors: ["[[Taeksang Lee]]", "[[Ilias Bilionis]]", "[[Adrian Buganza Tepole]]"]
 year: 2020
 venue: "Computer Methods in Applied Mechanics and Engineering 359 (2020) 112724"
-file: "papers/Guassian Processes/Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression.pdf"
+file: "[[papers/Guassian Processes/Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression.pdf]]"
 ---
 
 # Multi-fidelity GP for tissue expansion (Lee 2020)
 
 **Summary**: Trains a [[Multi-fidelity Gaussian process]] surrogate on finite element (FE) simulations of skin growth under a balloon expander, using three mesh refinements as three fidelity levels. The multi-fidelity surrogate beats single-fidelity GPs on held-out high-fidelity runs, and is then used for uncertainty propagation and Sobol sensitivity analysis. Lab paper (Bilionis is a co-author).
 
-**Authors**: Taeksang Lee, Ilias Bilionis, Adrian Buganza Tepole · **Year**: 2020 · **File**: `papers/Guassian Processes/Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression.pdf`
+**Authors**: Taeksang Lee, Ilias Bilionis, Adrian Buganza Tepole · **Year**: 2020 · **File**: [[papers/Guassian Processes/Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression.pdf]]
 
 ---
 

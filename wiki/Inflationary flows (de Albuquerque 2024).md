@@ -7,14 +7,14 @@ tags: [diffusion, generative, bayesian, uq]
 authors: ["[[Daniela de Albuquerque]]", "[[John Pearson]]"]
 year: 2024
 venue: "NeurIPS 2024 (DOI 10.52202/079017-3070)"
-file: "papers/Diffusion/de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models.pdf"
+file: "[[papers/Diffusion/de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models.pdf]]"
 ---
 
 # Inflationary Flows: Calibrated Bayesian Inference with Diffusion-Based Models (de Albuquerque 2024)
 
 **Summary**: Builds a deterministic, invertible map between data and a Gaussian latent space out of a diffusion model's probability-flow ODE, so that uncertainty in data space can be carried to the latent space (and back) by integrating an ODE. The noise is a Gaussian kernel with a full covariance $C(t)$, chosen in the eigenbasis of the data covariance so that a measure of intrinsic dimension, the [[Participation ratio]], is either kept or reduced. On CIFAR-10 and AFHQv2 the flows compress to as little as one nominal dimension with FID 12-28, far below injective-flow baselines (FID 280-544).
 
-**Authors**: Daniela de Albuquerque, John Pearson (Duke University) · **Year**: 2024 · **File**: `papers/Diffusion/de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models.pdf`
+**Authors**: Daniela de Albuquerque, John Pearson (Duke University) · **Year**: 2024 · **File**: [[papers/Diffusion/de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models.pdf]]
 
 Companion: the authors' 7-slide NeurIPS deck, `papers/Diffusion/de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models - Slides.pdf`. It restates the motivation, the three views of diffusion (SDE, Fokker-Planck, pfODE), eq. 6 in words and the participation ratio, and adds nothing beyond the paper.
 

@@ -7,14 +7,14 @@ tags: [ift, vi, sampling, mcmc, bayesian, inverse-problems, physics-informed, uq
 authors: ["[[Kairui Hao]]", "[[Ilias Bilionis]]"]
 year: 2025
 venue: "Mechanical Systems and Signal Processing 226, 112253"
-file: "papers/IFT/Hao, Bilionis - Neural information field filter.pdf"
+file: "[[papers/IFT/Hao, Bilionis - Neural information field filter.pdf]]"
 ---
 
 # Neural information field filter (Hao 2025)
 
 **Summary**: Removes the linear-basis restriction of [[IFT state and parameter estimation (Hao 2024)]]. Instead of solving one basis coefficient for the initial state, the prior couples the path's start $\hat x(0;w)$ to an auxiliary initial state $x_0$ through a kernel; a Gaussian kernel gives a "relaxed" prior that works for any parameterization, including a Fourier-encoded residual network. Inference is either nested stochastic VI (NSVI) or nested RMSprop-preconditioned SGLD (NPSGLD). Tested on Duffing, a two-DOF nonlinear oscillator, a 20-story Bouc–Wen frame (4660 unknowns) and experimental nonlinear-energy-sink data (16 000 unknowns).
 
-**Authors**: Kairui Hao, Ilias Bilionis · **Year**: 2025 · **File**: `papers/IFT/Hao, Bilionis - Neural information field filter.pdf` · **Code**: promised on acceptance (none linked)
+**Authors**: Kairui Hao, Ilias Bilionis · **Year**: 2025 · **File**: [[papers/IFT/Hao, Bilionis - Neural information field filter.pdf]] · **Code**: promised on acceptance (none linked)
 
 ---
 

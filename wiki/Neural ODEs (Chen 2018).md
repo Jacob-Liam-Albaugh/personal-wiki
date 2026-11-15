@@ -7,14 +7,14 @@ tags: [physics-informed, ml, optimization, generative]
 authors: ["[[Ricky T. Q. Chen]]", "[[Yulia Rubanova]]", "[[Jesse Bettencourt]]", "[[David Duvenaud]]"]
 year: 2018
 venue: "NeurIPS 2018"
-file: "papers/Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf"
+file: "[[papers/Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf]]"
 ---
 
 # Neural Ordinary Differential Equations (Chen 2018)
 
 **Summary**: Replaces a stack of discrete residual layers by an ODE whose right-hand side is a neural network, and evaluates the output with a black-box ODE solver. Gradients come from the adjoint sensitivity method (a second ODE solved backwards), giving constant memory in depth. Three uses: continuous-depth classifiers, continuous normalizing flows, and a latent-ODE model for irregularly sampled time series.
 
-**Authors**: Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud · **Year**: 2018 · **File**: `papers/Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf`
+**Authors**: Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud · **Year**: 2018 · **File**: [[papers/Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf]]
 
 ---
 

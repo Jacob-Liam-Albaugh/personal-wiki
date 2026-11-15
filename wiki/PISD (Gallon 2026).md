@@ -6,14 +6,14 @@ source-ref: "Gallon, von Wurstemberger, Cheridito, Jentzen 2026, ICML (PMLR 306)
 tags: [diffusion, generative, physics-informed, inverse-problems, pde, operators]
 year: 2026
 venue: "ICML 2026, PMLR 306"
-file: "papers/Operators/Gallon, Wurstemberger, Cheridito, Jentzen - Physics-Informed Diffusion Models in Spectral Space.pdf"
+file: "[[papers/Operators/Gallon, Wurstemberger, Cheridito, Jentzen - Physics-Informed Diffusion Models in Spectral Space.pdf]]"
 ---
 
 # Physics-informed diffusion models in spectral space (Gallon 2026)
 
 **Summary**: PISD (physics-informed spectral diffusion) trains a diffusion model on truncated Fourier or sine coefficients of (coefficient, solution) pairs, each coefficient divided by its standard deviation over the data. With this scaling, Gaussian noise in the latent space maps to a function with the same Sobolev regularity as the data, so the PDE residual is well defined at every noise level. At inference, observation and PDE-residual gradients are applied at every step, as in [[Diffusion posterior sampling]], but through a frequency-aware [[Adam]] update instead of plain gradient descent. On Poisson, Helmholtz and Navier–Stokes with sparse observations, it matches or beats DiffusionPDE and FunDPS on error, with PDE residuals 100–10 000× lower and 3–15× faster inference.
 
-**Authors**: Davide Gallon, Philippe von Wurstemberger, Patrick Cheridito, Arnulf Jentzen (ETH Zurich, Münster, CUHK-Shenzhen) · **Year**: 2026 · **File**: `papers/Operators/Gallon, Wurstemberger, Cheridito, Jentzen - Physics-Informed Diffusion Models in Spectral Space.pdf` · **Code**: github.com/deeplearningmethods/PISD
+**Authors**: Davide Gallon, Philippe von Wurstemberger, Patrick Cheridito, Arnulf Jentzen (ETH Zurich, Münster, CUHK-Shenzhen) · **Year**: 2026 · **File**: [[papers/Operators/Gallon, Wurstemberger, Cheridito, Jentzen - Physics-Informed Diffusion Models in Spectral Space.pdf]] · **Code**: github.com/deeplearningmethods/PISD
 
 ---
 

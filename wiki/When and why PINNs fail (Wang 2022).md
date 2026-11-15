@@ -7,7 +7,7 @@ tags: [physics-informed, pde, optimization, ml]
 authors: ["[[Sifan Wang]]", "[[Xinling Yu]]", "[[Paris Perdikaris]]"]
 year: 2022
 venue: "arXiv:2007.14527; journal version Journal of Computational Physics 2022 [unverified]"
-file: "papers/Physics Informed Architectures/Wang, Yu, Perdikaris - When and Why PINNs Fail to Train - A Neural Tangent Kernel Perspective.pdf"
+file: "[[papers/Physics Informed Architectures/Wang, Yu, Perdikaris - When and Why PINNs Fail to Train - A Neural Tangent Kernel Perspective.pdf]]"
 ---
 
 # When and why PINNs fail to train (Wang 2022)

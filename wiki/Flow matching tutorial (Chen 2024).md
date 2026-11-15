@@ -7,14 +7,14 @@ tags: [generative, diffusion, inverse-problems, symmetry, ml]
 authors: ["[[Ricky T. Q. Chen]]", "[[Yaron Lipman]]", "[[Heli Ben-Hamu]]"]
 year: 2024
 venue: "NeurIPS 2024 tutorial (slides)"
-file: "papers/Diffusion/Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf"
+file: "[[papers/Diffusion/Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf]]"
 ---
 
 # Flow Matching Tutorial (Chen 2024)
 
 **Summary**: A 175-slide NeurIPS 2024 tutorial on flow matching (FM) by three of the method's developers. It builds the method from the simplest linear-path regression up to the general recipe (conditional path, conditional velocity, marginalization, regression loss), then surveys design choices (couplings, symmetries, manifolds), ways to adapt a trained model (faster sampling, inverse problems, reward fine-tuning) and the extension to arbitrary Markov processes (Generator Matching, discrete flows). No experiments of its own; results are cited from the underlying papers.
 
-**Authors**: Ricky T. Q. Chen, Yaron Lipman, Heli Ben-Hamu (affiliations not given on the title slide) · **Year**: 2024 · **File**: `papers/Diffusion/Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf`
+**Authors**: Ricky T. Q. Chen, Yaron Lipman, Heli Ben-Hamu (affiliations not given on the title slide) · **Year**: 2024 · **File**: [[papers/Diffusion/Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf]]
 
 Wiki note on coverage: this is a slide deck, read from extracted text only. Figures, animations and any equation set as an image were not seen, and many slides are animation builds of the same content. Cites below are PDF slide numbers. The slides point to the written companion, "Flow Matching Guide and Code" (Lipman, Havasi, Holderrieth, Shaul, Le, Karrer, Chen, Lopez-Paz, Ben-Hamu, Gat, 2024; slide 3), which is not in this folder and was not read. Papers named on the slides are cited as the slides cite them; none were read for this page.
 

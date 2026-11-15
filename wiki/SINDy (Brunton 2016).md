@@ -7,14 +7,14 @@ tags: [physics-informed, ml, optimization]
 authors: ["[[Steven L. Brunton]]", "[[Joshua L. Proctor]]", "[[J. Nathan Kutz]]"]
 year: 2016
 venue: "PNAS 113(15):3932-3937"
-file: "papers/ML/Brunton, Proctor, Kutz - Discovering governing equations from data by sparse identification of nonlinear dynamical systems.pdf"
+file: "[[papers/ML/Brunton, Proctor, Kutz - Discovering governing equations from data by sparse identification of nonlinear dynamical systems.pdf]]"
 ---
 
 # SINDy (Brunton 2016)
 
 **Summary**: Recasts discovery of governing equations as sparse regression. Time derivatives of the state are regressed on a library of candidate nonlinear functions, and sparsity keeps only the few terms that matter. This is the original [[SINDy]] paper; it scales better than genetic [[Symbolic regression]] and handles chaos, a fluid PDE reduced by POD, and parameterized bifurcations.
 
-**Authors**: Steven L. Brunton, Joshua L. Proctor, J. Nathan Kutz · **Year**: 2016 · **File**: `papers/ML/Brunton, Proctor, Kutz - Discovering governing equations from data by sparse identification of nonlinear dynamical systems.pdf`
+**Authors**: Steven L. Brunton, Joshua L. Proctor, J. Nathan Kutz · **Year**: 2016 · **File**: [[papers/ML/Brunton, Proctor, Kutz - Discovering governing equations from data by sparse identification of nonlinear dynamical systems.pdf]]
 
 ---
 

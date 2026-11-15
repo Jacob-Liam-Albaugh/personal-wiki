@@ -6,6 +6,7 @@
 !/tools/
 !/README.md
 !/Makefile
+!/.obsidian/
 tools/.cache/
 __pycache__/
 .DS_Store

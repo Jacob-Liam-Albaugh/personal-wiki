@@ -6,14 +6,14 @@ source-ref: "Bolt, Alberts, Desai, Meckl, Bilionis 2026, arXiv 2603.12356v1 [sta
 tags: [uq, ml, gp, signals, optimization]
 year: 2026
 venue: "arXiv 2603.12356v1"
-file: "papers/ML/Bolt et al - Modeling diesel output particulate matter as the Ornstein-Uhlenbeck process.pdf"
+file: "[[papers/ML/Bolt et al - Modeling diesel output particulate matter as the Ornstein-Uhlenbeck process.pdf]]"
 ---
 
 # Modeling diesel output PM as the Ornstein-Uhlenbeck process (Bolt 2026)
 
 **Summary**: Engine-out particulate matter (PM) from a diesel engine is modelled as an [[Ornstein-Uhlenbeck process]] whose mean level $\mu_t$ and volatility $\sigma_t$ are linear functions (softplus for $\sigma_t$) of 16 engine signals, with one constant reversion rate $\lambda$. Because the engine signals are piecewise constant between samples, the transition density is the exact Gaussian OU transition, so the 35 parameters are fit by maximum likelihood with [[Adam]]. Evaluated by PIT/Kolmogorov–Smirnov calibration on six Cummins test cycles, it beats GPs, neural nets, LSTM, NARX and gradient boosting on average NRMSE and KS, with at least 100× fewer parameters. It fails on the steady-state-stepping RMCSET cycle, which is out of distribution for the training data.
 
-**Authors**: Maxwell Bolt, Alex Alberts, Akash S. Desai (Cummins), Peter Meckl, Ilias Bilionis (Purdue ME) · **Year**: 2026 · **File**: `papers/ML/Bolt et al - Modeling diesel output particulate matter as the Ornstein-Uhlenbeck process.pdf` · **Code** (synthetic example): github.com/PredictiveScienceLab/ou-pm-paper
+**Authors**: Maxwell Bolt, Alex Alberts, Akash S. Desai (Cummins), Peter Meckl, Ilias Bilionis (Purdue ME) · **Year**: 2026 · **File**: [[papers/ML/Bolt et al - Modeling diesel output particulate matter as the Ornstein-Uhlenbeck process.pdf]] · **Code** (synthetic example): github.com/PredictiveScienceLab/ou-pm-paper
 
 ---
 

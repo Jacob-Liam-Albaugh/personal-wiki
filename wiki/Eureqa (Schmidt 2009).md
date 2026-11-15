@@ -7,14 +7,14 @@ tags: [ml, physics-informed, mechanics, optimization]
 authors: ["[[Michael Schmidt]]", "[[Hod Lipson]]"]
 year: 2009
 venue: "Science 324(5923)"
-file: "papers/ML/Schmidt, Lipson - Distilling Free-Form Natural Laws from Experimental Data.pdf"
+file: "[[papers/ML/Schmidt, Lipson - Distilling Free-Form Natural Laws from Experimental Data.pdf]]"
 ---
 
 # Eureqa (Schmidt 2009)
 
 **Summary**: Uses evolutionary [[Symbolic regression]] to find conservation laws and equations of motion from motion-tracking data of physical systems, with no physics prior. The key idea is a fitness criterion, partial-derivative pairs, that rejects trivially invariant expressions. Recovers Hamiltonians, Lagrangians and momentum laws for oscillators and a chaotic double pendulum, and reports a Pareto front of accuracy against complexity.
 
-**Authors**: Michael Schmidt, Hod Lipson · **Year**: 2009 · **File**: `papers/ML/Schmidt, Lipson - Distilling Free-Form Natural Laws from Experimental Data.pdf`
+**Authors**: Michael Schmidt, Hod Lipson · **Year**: 2009 · **File**: [[papers/ML/Schmidt, Lipson - Distilling Free-Form Natural Laws from Experimental Data.pdf]]
 
 (The paper does not name its software; the wiki and [[Symbolic models from deep learning (Cranmer 2020)]] call the tool Eureqa.)
 

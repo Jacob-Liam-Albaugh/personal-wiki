@@ -7,14 +7,14 @@ tags: [diffusion, generative]
 authors: ["[[Preetum Nakkiran]]", "[[Arwen Bradley]]", "[[Hattie Zhou]]", "[[Madhu Advani]]"]
 year: 2025
 venue: "Foundations and Trends in Computer Graphics and Vision, Vol. 17, No. 1, pp. 1-75 (DOI 10.1561/0600000114)"
-file: "papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf"
+file: "[[papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf]]"
 ---
 
 # Step-by-Step Diffusion: An Elementary Tutorial (Nakkiran 2025)
 
 **Summary**: A 77-page tutorial that derives diffusion samplers and flow matching with no SDEs, ELBOs, Langevin dynamics or scores in the core argument. A Gaussian forward process reduces generative modelling to per-step regression of conditional means; the stochastic (DDPM-like) sampler is justified by a Bayes-rule/Taylor argument, the deterministic (DDIM-like) sampler by a "pointwise, then average" transport argument, and both are then subsumed by flow matching with pointwise flows. SDE/ODE views, noise schedules, parametrizations and error sources are covered as optional or practical material (Sections 2.4, 3.5, 5). No new experiments beyond one toy spiral figure.
 
-**Authors**: Preetum Nakkiran, Arwen Bradley, Hattie Zhou, Madhu Advani (Apple; Zhou also Mila) · **Year**: 2025 · **File**: `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`
+**Authors**: Preetum Nakkiran, Arwen Bradley, Hattie Zhou, Madhu Advani (Apple; Zhou also Mila) · **Year**: 2025 · **File**: [[papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf]]
 
 Wiki note: year is 2025 because the PDF's own citation line reads "Foundations and Trends in Computer Graphics and Vision: Vol. 17, No. 1, pp 1-75 ... (2025)" (PDF p. 1) and "(c)2025 P. Nakkiran et al." (PDF p. 3). The tutorial circulated earlier as a preprint (arXiv, 2024) **[unverified]**; the wiki slug follows the published year. Page cites below are the tutorial's printed page numbers (PDF page = printed + 2; the PDF has 77 pages, body ends printed p. 51, appendices pp. 53-68, references pp. 70-74).
 

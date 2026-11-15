@@ -7,14 +7,14 @@ tags: [uq]
 authors: ["[[Albert Einstein]]"]
 year: 1905
 venue: "Annalen der Physik 17, 549 (Dover translation by Cowper, 'Investigations on the Theory of the Brownian Movement')"
-file: "papers/Stochastic Methods/Einstein - Brownian Movement.pdf"
+file: "[[papers/Stochastic Methods/Einstein - Brownian Movement.pdf]]"
 ---
 
 # Brownian movement (Einstein 1905)
 
 **Summary**: Argues from the molecular-kinetic theory of heat that microscopically visible particles suspended in a liquid must move irregularly by thermal agitation, with a mean displacement growing as the square root of time. Links the diffusion coefficient to viscosity and particle size, which makes the atomic size (Avogadro's number) measurable from the motion.
 
-**Authors**: Albert Einstein · **Year**: 1905 · **File**: `papers/Stochastic Methods/Einstein - Brownian Movement.pdf`
+**Authors**: Albert Einstein · **Year**: 1905 · **File**: [[papers/Stochastic Methods/Einstein - Brownian Movement.pdf]]
 
 ---
 

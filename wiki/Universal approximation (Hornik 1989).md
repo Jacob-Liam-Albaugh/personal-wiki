@@ -7,14 +7,14 @@ tags: [ml]
 authors: ["[[Kurt Hornik]]", "[[Maxwell Stinchcombe]]", "[[Halbert White]]"]
 year: 1989
 venue: "Neural Networks 2"
-file: "papers/ML/Hornik, Stinchcombe, White - Multilayer Feedforward Networks are Universal Approximators.pdf"
+file: "[[papers/ML/Hornik, Stinchcombe, White - Multilayer Feedforward Networks are Universal Approximators.pdf]]"
 ---
 
 # Universal approximation (Hornik 1989)
 
 **Summary**: Proves that a feedforward network with one hidden layer and an arbitrary squashing (or, more generally, any continuous nonconstant) activation can approximate any continuous function on a compact set uniformly, and any Borel measurable function in probability, provided enough hidden units are allowed. The proof is a short application of the Stone-Weierstrass theorem. The paper gives no rate: it says nothing about how many units are needed.
 
-**Authors**: Kurt Hornik, Maxwell Stinchcombe, Halbert White · **Year**: 1989 · **File**: `papers/ML/Hornik, Stinchcombe, White - Multilayer Feedforward Networks are Universal Approximators.pdf`
+**Authors**: Kurt Hornik, Maxwell Stinchcombe, Halbert White · **Year**: 1989 · **File**: [[papers/ML/Hornik, Stinchcombe, White - Multilayer Feedforward Networks are Universal Approximators.pdf]]
 
 ---
 

@@ -7,14 +7,14 @@ tags: [ift, bayesian, physics-informed, inverse-problems, sampling]
 authors: ["[[Alexander Alberts]]", "[[Ilias Bilionis]]"]
 year: 2023
 venue: "Journal of Computational Physics 486, 112100"
-file: "papers/IFT/Bilionis, Alberts - IFT.pdf"
+file: "[[papers/IFT/Bilionis, Alberts - IFT.pdf]]"
 ---
 
 # Physics-informed information field theory (Alberts 2023)
 
 **Summary**: The paper builds a Bayesian prior over fields directly from a physical energy functional, $p(\phi) \propto e^{-\beta U[\phi]}$, using the language of [[Information field theory]]. Forward problems, inverse problems (unknown physics parameters, source terms and trust $\beta$) are solved by sampling with [[SGLD]] and a nested variant for the marginal posterior over hyperparameters. The authors show that a classical [[PINN]] is the MAP estimate of this posterior and that [[PINN]] agrees with it only under restrictive conditions.
 
-**Authors**: Alex Alberts, Ilias Bilionis · **Year**: 2023 · **File**: `papers/IFT/Bilionis, Alberts - IFT.pdf`
+**Authors**: Alex Alberts, Ilias Bilionis · **Year**: 2023 · **File**: [[papers/IFT/Bilionis, Alberts - IFT.pdf]]
 
 ---
 

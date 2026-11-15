@@ -7,14 +7,14 @@ tags: [physics-informed, mechanics, ml]
 authors: ["[[Sam Greydanus]]", "[[Misko Dzamba]]", "[[Jason Yosinski]]"]
 year: 2019
 venue: "NeurIPS 2019 (arXiv 1906.01563)"
-file: "papers/Physics Informed Architectures/Greydanus, Dzamba, Yosinski - HNNs.pdf"
+file: "[[papers/Physics Informed Architectures/Greydanus, Dzamba, Yosinski - HNNs.pdf]]"
 ---
 
 # Hamiltonian Neural Networks (Greydanus 2019)
 
 **Summary**: Parameterize the scalar Hamiltonian $H_\theta(q,p)$ with a network and obtain the dynamics as its symplectic gradient, trained by matching time derivatives. The learned flow conserves an energy-like quantity exactly, trains as fast as a baseline MLP and drifts far less in energy over long rollouts. Tested on mass-spring, pendulum, real pendulum, two-body, and a pixel pendulum with an autoencoder.
 
-**Authors**: Sam Greydanus, Misko Dzamba, Jason Yosinski · **Year**: 2019 · **File**: `papers/Physics Informed Architectures/Greydanus, Dzamba, Yosinski - HNNs.pdf`
+**Authors**: Sam Greydanus, Misko Dzamba, Jason Yosinski · **Year**: 2019 · **File**: [[papers/Physics Informed Architectures/Greydanus, Dzamba, Yosinski - HNNs.pdf]]
 
 ---
 
