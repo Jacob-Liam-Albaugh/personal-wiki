@@ -118,9 +118,13 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Cyclical SG-MCMC (Zhang 2020)]] | paper | Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning (Zhang 2020) |
 | [[Generative priors for turbulence (Wang 2026)]] | paper | Generative priors for spatiotemporal turbulence (Wang 2026) |
 | [[IFT for engineering inverse problems (Alberts 2024)]] | paper | An Information Field Theory Approach to Engineering Inverse Problems (Alberts 2024) |
+| [[IFT for UQ of differential equations (Hao 2024)]] | paper | Information Field Theory Approach to Uncertainty Quantification for Differential Equations (Hao 2024) |
+| [[IFT state and parameter estimation (Hao 2024)]] | paper | An IFT approach to Bayesian state and parameter estimation in dynamical systems (Hao 2024) |
 | [[IFT thermal conductivity (Alberts 2026)]] | paper | IFT identification of fibrous insulation conductivity (Alberts 2026) |
 | [[Low-precision SGLD (Zhang 2022)]] | paper | Low-Precision Stochastic Gradient Langevin Dynamics (Zhang 2022) |
 | [[MAP uniqueness in IFT (Alberts 2025)]] | paper | Uniqueness of MAP estimates for inverse problems under IFT (Alberts 2025) |
+| [[Neural information field filter (Hao 2025)]] | paper | Neural information field filter (Hao 2025) |
+| [[Path-space PIFT estimation (Hao 2025)]] | paper | Physics-informed IFT approach to dynamical system parameter and state estimation in path space (Hao 2025) |
 | [[PIFT (Alberts 2023)]] | paper | Physics-informed information field theory (Alberts 2023) |
 | [[SGLD (Welling 2011)]] | paper | Bayesian Learning via Stochastic Gradient Langevin Dynamics (Welling 2011) |
 | [[Generalized random fields]] | concept | Generalized random fields |

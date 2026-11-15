@@ -42,3 +42,4 @@ The setup is a 4-DOF arm (slider height plus three joint angles, link lengths $(
 - [[IFT for engineering inverse problems (Alberts 2024)]]
 - [[Bayesian inverse problems]] · [[Hierarchical Bayesian model]]
 - [[Sensitivity analysis]]
+- [[Neural information field filter (Hao 2025)]]

@@ -153,3 +153,10 @@
 - Wiki note recorded on the paper page: eq. 9 is isotropic noise on PCA-whitened data; the paper itself never says "whiten".
 - Gaps: both sources read from extracted text (no page rendering available), so figures and image-set equations were not seen. Inflationary Flows references, hyperparameter tables (pp. 26-29) and checklist (pp. 39-45) not read. Works cited on the slides were not read. The tutorial's written companion ("Flow Matching Guide and Code", Lipman et al. 2024) is not in the folder.
 - Batch ingest from another session: discussion step skipped. PDFs copied from Downloads into `papers/Diffusion/`.
+
+## [2026-11-15] ingest | Hao & Bilionis IFT for dynamical systems (4 sources)
+- Papers: [[IFT state and parameter estimation (Hao 2024)]] (JCP 2024): PIFT for ODE initial-value problems with nested stochastic VI; B-PINN = IFT without $Z_\beta$; matches NUTS and SMC² on Lotka–Volterra, learned $\beta$ detects model-form error. [[Neural information field filter (Hao 2025)]] (MSSP 2025): kernel-relaxed prior for neural paths, NSVI and RMSprop-preconditioned nested SGLD, up to 16k unknowns. [[Path-space PIFT estimation (Hao 2025)]] (IMAC chapter): SGLD vs SVI on Duffing. [[IFT for UQ of differential equations (Hao 2024)]] (Purdue dissertation): adds noisy-input IFT with a thermal RC twin, 1D BVPs and an analytic GP prior.
+- PDFs renamed from Downloads into `papers/IFT/`.
+- Updated: Physics-informed prior, Nested SGLD, Model-form error detection, Information field theory, PIFT (Alberts 2023), Duffing oscillator, Kalman filter, Particle filter, Stochastic state-space model, Variational inference, PINN, Euler-Maruyama method, NUTS, Fourier features, Spectral bias, SGLD, Identifiability, Gaussian process.
+- No new concept pages (no pages for Bouc–Wen, SMC², Lotka–Volterra, pSGLD).
+- Gaps: dissertation read via a subagent summary from extracted text; the chapter-to-paper mapping is inferred. Figures not seen.

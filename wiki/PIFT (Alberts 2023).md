@@ -155,7 +155,7 @@ Wiki note: the published values for the noise in Examples 2 and 4 (both printed 
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[DeepONet (Lu 2021)]], [[SGLD (Welling 2011)]]
-**Cited by in this wiki**: [[IFT for engineering inverse problems (Alberts 2024)]], [[IFT thermal conductivity (Alberts 2026)]], [[MAP uniqueness in IFT (Alberts 2025)]]
+**Cited by in this wiki**: [[IFT for UQ of differential equations (Hao 2024)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[IFT thermal conductivity (Alberts 2026)]], [[MAP uniqueness in IFT (Alberts 2025)]], [[Neural information field filter (Hao 2025)]], [[Path-space PIFT estimation (Hao 2025)]]
 **Software cited**: [[software#NumPyro|NumPyro]], [[software#UQLab|UQLab]]
 %% refs:end %%
 
@@ -178,3 +178,6 @@ Wiki note: the published values for the noise in Examples 2 and 4 (both printed 
 - [[IFT thermal conductivity (Alberts 2026)]]
 - [[Generative priors for turbulence (Wang 2026)]]
 - Gaussian-field priors share the [[Karhunen-Loève expansion]] machinery; see [[Mercer's theorem]].
+- [[IFT state and parameter estimation (Hao 2024)]]
+- [[Neural information field filter (Hao 2025)]]
+- [[Path-space PIFT estimation (Hao 2025)]]

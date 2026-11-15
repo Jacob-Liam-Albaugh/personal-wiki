@@ -40,3 +40,4 @@ The bootstrap smoother keeps whole trajectories and conditions on all data, givi
 ## Related pages
 - [[Stochastic state-space model]] · [[Kalman filter]] · [[Expectation-maximization]] · [[Particle MCMC]]
 - [[Markov chain Monte Carlo]] · [[Euler-Maruyama method]]
+- [[IFT state and parameter estimation (Hao 2024)]]

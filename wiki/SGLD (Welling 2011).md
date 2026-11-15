@@ -103,7 +103,7 @@ Wiki note: the experiments compare against corrected Langevin only, not against 
 
 %% refs:start %%
 **Cites in this wiki**: [[RMHMC (Girolami 2011)]]
-**Cited by in this wiki**: [[AMAGOLD (Zhang 2020)]], [[Cyclical SG-MCMC (Zhang 2020)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[IFT thermal conductivity (Alberts 2026)]], [[Low-precision SGLD (Zhang 2022)]], [[PIFT (Alberts 2023)]], [[Variational dropout (Kingma 2015)]]
+**Cited by in this wiki**: [[AMAGOLD (Zhang 2020)]], [[Cyclical SG-MCMC (Zhang 2020)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[IFT thermal conductivity (Alberts 2026)]], [[Low-precision SGLD (Zhang 2022)]], [[Neural information field filter (Hao 2025)]], [[PIFT (Alberts 2023)]], [[Path-space PIFT estimation (Hao 2025)]], [[Variational dropout (Kingma 2015)]]
 %% refs:end %%
 
 **Sources**: `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.

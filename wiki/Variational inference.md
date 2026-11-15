@@ -53,3 +53,4 @@ tags: [bayesian, vi]
 
 ## Related pages
 - [[ELBO]] · [[KL divergence]] · [[SG-MCMC]] · [[Bayesian inverse problems]]
+- [[IFT state and parameter estimation (Hao 2024)]]

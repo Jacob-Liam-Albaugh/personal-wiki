@@ -62,7 +62,7 @@ Networks can fit random labels yet generalize on natural data. The paper propose
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Universal approximation (Hornik 1989)]]
-**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[NIF (Pan 2023)]], [[When and why PINNs fail (Wang 2022)]]
+**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[IFT for UQ of differential equations (Hao 2024)]], [[NIF (Pan 2023)]], [[Neural information field filter (Hao 2025)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Rahaman et.al. - On the Spectrial Bias of NNs.pdf`.

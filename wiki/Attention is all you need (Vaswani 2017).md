@@ -95,7 +95,7 @@ Later work in this batch modifies each piece: [[Mixture of experts]] replaces th
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Dropout paper (Srivastava 2014)]]
-**Cited by in this wiki**: [[DDPM (Ho 2020)]], [[DeepONet (Lu 2021)]], [[Fourier features (Tancik 2020)]], [[MHA2MLA (Ji 2025)]], [[Mamba (Gu 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]]
+**Cited by in this wiki**: [[DDPM (Ho 2020)]], [[DeepONet (Lu 2021)]], [[Fourier features (Tancik 2020)]], [[IFT for UQ of differential equations (Hao 2024)]], [[MHA2MLA (Ji 2025)]], [[Mamba (Gu 2023)]], [[Neural operator (Kovachki 2022)]], [[Operator learning review (Kovachki 2024)]]
 %% refs:end %%
 
 **Sources**: Vaswani PDF (pp. 1-9).

@@ -39,3 +39,4 @@ $$\phi(x) = [\cos(Bx);\ \sin(Bx)].$$
 - [[Random features model]]
 - [[Kernel methods]]
 - [[Fourier transform]]
+- [[Neural information field filter (Hao 2025)]]

@@ -106,7 +106,7 @@ Wiki note: $\beta=1000$ is set rather than inferred; the paper defers justificat
 - Wiki note: [[Generative priors for turbulence (Wang 2026)]] treats the same inference pattern, a prior over fields conditioned on sparse measurements through $p(x|y)\propto p(x)p(y|x)$, with a learned diffusion prior in place of a physics-derived Gibbs prior.
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[PIFT (Alberts 2023)]], [[Physics-informed ML review (Karniadakis 2021)]], [[SGLD (Welling 2011)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[Neural information field filter (Hao 2025)]], [[PIFT (Alberts 2023)]], [[Physics-informed ML review (Karniadakis 2021)]], [[SGLD (Welling 2011)]]
 **Software cited**: [[software#JAX|JAX]]
 %% refs:end %%
 

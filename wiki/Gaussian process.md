@@ -53,3 +53,4 @@ Hyperparameters fit by maximising the marginal likelihood (eq. 35).
 - Fourier-feature networks in the NTK regime behave like kernel regression with a stationary kernel set by B (Tancik 2020). Link [[Fourier features]].
 - [[Kernel methods]], [[RKHS]], [[Kernel composition]], [[Multi-fidelity Gaussian process]].
 - Field-valued unknowns in the planned PDE inverse problems (empty in the book): [[Bayesian inverse problems]].
+- [[IFT for UQ of differential equations (Hao 2024)]]

@@ -37,3 +37,4 @@ tags: [mcmc, sampling, bayesian]
 
 ## Related pages
 - [[Hamiltonian Monte Carlo]] · [[Markov chain Monte Carlo]] · [[Riemannian manifold HMC]] · [[Automatic differentiation]]
+- [[IFT state and parameter estimation (Hao 2024)]]

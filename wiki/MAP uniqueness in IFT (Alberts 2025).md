@@ -83,7 +83,7 @@ $$\beta^{*-1}=\frac{(\phi^*-Gq)^\dagger L(\phi^*-Gq)}{\mathrm{tr}(I)}$$
 - Wiki note: compare the Bayesian well-posedness framework in [[Bayesian inverse problems]], which this deliberately weakens to MAP uniqueness.
 
 %% refs:start %%
-**Cites in this wiki**: [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[Physics-informed ML review (Karniadakis 2021)]]
+**Cites in this wiki**: [[IFT state and parameter estimation (Hao 2024)]], [[Neural information field filter (Hao 2025)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[Physics-informed ML review (Karniadakis 2021)]]
 %% refs:end %%
 
 **Sources**: `papers/IFT/Alberts, Bilionis - Uniqueness of MAP estimates for inverse problems under information field theory.pdf`.

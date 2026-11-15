@@ -45,3 +45,4 @@ This wiki writes SGLD as Welling-Teh do: drift $\frac\epsilon2\nabla\log p$, noi
 - [[Langevin dynamics]] · [[SG-MCMC]] · [[Metropolis-Hastings correction]]
 - [[RMHMC (Girolami 2011)]]: MMALA is the Riemannian Langevin step (source: Girolami 2011, §3).
 - [[Brownian motion]], [[Wiener process]].
+- [[Neural information field filter (Hao 2025)]]

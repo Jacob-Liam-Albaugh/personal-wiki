@@ -26,6 +26,8 @@ source-ref: "Alberts & Bilionis 2023, eqs. 24-27, Alg. 3, App. B; Alberts et al.
 - [[PIFT (Alberts 2023)]] — introduces it.
 - [[IFT for engineering inverse problems (Alberts 2024)]] — Sec. 5.1.2, eq. 5.4, Algorithm 3 (pp. 93-96). Note: the dissertation states $\tilde T=1$ is justified only because the field posterior was insensitive to the calibrated parameters; it would not be if they entered the likelihood (p. 96). It also flags Hessian preconditioning via Lemma 2 as future work (p. 122).
 - [[IFT thermal conductivity (Alberts 2026)]] — infers the 25 KLE coefficients of $k(u)$ and log-GP hyperparameters (eq. 13, log-density sign convention).
+- [[Neural information field filter (Hao 2025)]] — NPSGLD: RMSprop-preconditioned nested SGLD with the memory $\alpha$ annealed to 1.
+- [[Path-space PIFT estimation (Hao 2025)]] — SGLD vs SVI on Duffing: 5M steps in 321 s vs 0.1M in 9 s, similar posteriors.
 
 **Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`.
 **Last updated**: 2026-11-06

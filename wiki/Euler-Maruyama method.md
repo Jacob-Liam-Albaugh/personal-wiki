@@ -38,3 +38,4 @@ The Gaussian increment replaces $dW$ because $W(t+\Delta t)-W(t)\sim N(0,\Delta 
 - [[Stochastic differential equation]] · [[Stochastic state-space model]] · [[Langevin dynamics]] · [[SGLD]] · [[Brownian motion]]
 - [[Particle filter]]
 - [[Diesel PM as OU process (Bolt 2026)]] (EM was unstable at the data step; exact OU transition used instead)
+- [[IFT state and parameter estimation (Hao 2024)]]

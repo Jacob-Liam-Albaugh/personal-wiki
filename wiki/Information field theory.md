@@ -51,6 +51,9 @@ and the normalizing integral is the partition function. [[Brownian motion]] is t
 - [[IFT for engineering inverse problems (Alberts 2024)]] — dissertation: adds function-space background, full free-theory proofs and operator calculus (Chs. 2-3, pp. 12-58). Note: its Sec. 3.1 uses $S$ as covariance in the Gaussian density, unlike the precision convention above (pp. 37-44).
 - [[Generative priors for turbulence (Wang 2026)]] — Wiki note: generative priors play the role a physics prior plays here; the paper does not mention IFT.
 - ME 697 book, `ift/`: three takeaway-only sub-chapters (calibration, fields, physics); no derivations or code beyond headings (source: ift/).
+- [[IFT state and parameter estimation (Hao 2024)]] — extends PIFT to ODE initial-value problems with stochastic VI.
+- [[Neural information field filter (Hao 2025)]] — neural path parameterizations; NSVI and NPSGLD.
+- [[IFT for UQ of differential equations (Hao 2024)]] — Hao's dissertation: noisy inputs, 1D BVPs, analytic GP prior.
 
 ## Related pages
 - [[MAP uniqueness in IFT (Alberts 2025)]]

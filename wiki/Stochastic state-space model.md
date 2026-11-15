@@ -60,3 +60,4 @@ The likelihood $p_\theta(y_{1:T})$ is an integral over all state paths, which is
 ## Related pages
 - [[Particle filter]] · [[Expectation-maximization]]
 - [[Kalman filter]] · [[Particle MCMC]] · [[Euler-Maruyama method]]
+- [[IFT state and parameter estimation (Hao 2024)]]

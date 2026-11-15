@@ -24,6 +24,9 @@ Exact physics gives $\beta^*=\infty$; model-form error gives finite $\beta^*$, l
 ## Where it appears
 - [[IFT for engineering inverse problems (Alberts 2024)]] — Chs. 4 and 6.
 - [[MAP uniqueness in IFT (Alberts 2025)]] — theory.
+- [[IFT state and parameter estimation (Hao 2024)]] — Lotka–Volterra with an extra $\alpha x_1x_3$: learned $\beta$ falls as $\alpha$ grows, NUTS stays overconfident (Figs. 3–4).
+- [[Path-space PIFT estimation (Hao 2025)]] — same experiment, conference version.
+- [[IFT for UQ of differential equations (Hao 2024)]] — Ch. 5 calls $\beta$ the model-form-uncertainty hyperparameter for $k(T)$ reconstruction.
 
 **Sources**: `papers/IFT/Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf`.
 **Last updated**: 2026-11-07

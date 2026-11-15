@@ -33,3 +33,6 @@ A full-covariance Gaussian guide on a transformed space (with the Jacobian $|\de
 
 ## Related pages
 - [[Identifiability]] · [[Variational inference]] · [[Neural ODE]]
+- [[IFT state and parameter estimation (Hao 2024)]]
+- [[Neural information field filter (Hao 2025)]]
+- [[Path-space PIFT estimation (Hao 2025)]]

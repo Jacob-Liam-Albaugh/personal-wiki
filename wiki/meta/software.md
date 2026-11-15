@@ -9,21 +9,21 @@ Software, libraries and code archives cited by wiki sources, kept off [[wanted-p
 
 ## JAX
 
-Cited by 8: [[Diesel PM as OU process (Bolt 2026)]], [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[IFT thermal conductivity (Alberts 2026)]], [[LNNs (Cranmer 2020)]], [[PySR (Cranmer 2023)]], [[Respecting causality (Wang 2022)]], [[Symbolic models from deep learning (Cranmer 2020)]]
+Cited by 11: [[Diesel PM as OU process (Bolt 2026)]], [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[IFT thermal conductivity (Alberts 2026)]], [[LNNs (Cranmer 2020)]], [[Neural information field filter (Hao 2025)]], [[PySR (Cranmer 2023)]], [[Respecting causality (Wang 2022)]], [[Symbolic models from deep learning (Cranmer 2020)]]
 
 Reference: James Bradbury, Roy Frostig, Peter Hawkins, Matthew James Johnson, Chris Leary, Dougal Maclaurin, George Necula, Adam Paszke, Jake VanderPlas, Skye Wanderman-Milne, and Qiao Zhang. Jax: Composable transforma- tions of python+numpy programs, 2018. Available at: http://github.com/jax-ml/jax. [GitHub](http://github.com/jax-ml/jax)
 
-## TensorFlow
-
-Cited by 8: [[CLIP (Radford 2021)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Deep Koopman (Lusch 2018)]], [[LNO (Cao 2023)]], [[NIF (Pan 2023)]], [[PINNs (Raissi 2019)]], [[Symbolic models from deep learning (Cranmer 2020)]]
-
-Reference: Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., Dean, J., Devin, M., Ghemawat, S., Irving, G., Isard, M., et al. Tensorﬂow: A system for large-scale machine learning. In 12th {USENIX} symposium on operating systems design and implementation ({OSDI} 16), pp. 265–283, 2016. [Scholar](https://scholar.google.com/scholar?q=Abadi%2C+M.%2C+Barham%2C+P.%2C+Chen%2C+J.%2C+Chen%2C+Z.%2C+Davis%2C+A.%2C+Dean%2C+J.%2C+Devin%2C+M.%2C+Ghemawat%2C+S.%2C+Irving%2C+G.%2C+Isard%2C+M.%2C+et+al.+Tensor%EF%AC%82ow%3A+A+system+for+large-scale+machine+learning.+In+12th+%7BUSENIX%7D+symposium+)
-
 ## PyTorch
 
-Cited by 7: [[Amortized VI when and why (Margossian 2024)]], [[CLIP (Radford 2021)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Diesel PM as OU process (Bolt 2026)]], [[LNO (Cao 2023)]], [[PySR (Cranmer 2023)]], [[Symbolic models from deep learning (Cranmer 2020)]]
+Cited by 10: [[Amortized VI when and why (Margossian 2024)]], [[CLIP (Radford 2021)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Diesel PM as OU process (Bolt 2026)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[LNO (Cao 2023)]], [[Neural information field filter (Hao 2025)]], [[PySR (Cranmer 2023)]], [[Symbolic models from deep learning (Cranmer 2020)]]
 
 Reference: Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zem- ing Lin, Natalia Gimelshein, Luca Antiga, Alban Des- maison, Andreas Kopf, Edward Yang, Zachary DeVito, Martin Raison, Alykhan Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu Fang, Junjie Bai, a [Scholar](https://scholar.google.com/scholar?q=Adam+Paszke%2C+Sam+Gross%2C+Francisco+Massa%2C+Adam+Lerer%2C+James+Bradbury%2C+Gregory+Chanan%2C+Trevor+Killeen%2C+Zem-+ing+Lin%2C+Natalia+Gimelshein%2C+Luca+Antiga%2C+Alban+Des-+maison%2C+Andreas+Kopf%2C+Edward+Yang%2C+Zachar)
+
+## TensorFlow
+
+Cited by 9: [[CLIP (Radford 2021)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Deep Koopman (Lusch 2018)]], [[IFT for UQ of differential equations (Hao 2024)]], [[LNO (Cao 2023)]], [[NIF (Pan 2023)]], [[PINNs (Raissi 2019)]], [[Symbolic models from deep learning (Cranmer 2020)]]
+
+Reference: Abadi, M., Barham, P., Chen, J., Chen, Z., Davis, A., Dean, J., Devin, M., Ghemawat, S., Irving, G., Isard, M., et al. Tensorﬂow: A system for large-scale machine learning. In 12th {USENIX} symposium on operating systems design and implementation ({OSDI} 16), pp. 265–283, 2016. [Scholar](https://scholar.google.com/scholar?q=Abadi%2C+M.%2C+Barham%2C+P.%2C+Chen%2C+J.%2C+Chen%2C+Z.%2C+Davis%2C+A.%2C+Dean%2C+J.%2C+Devin%2C+M.%2C+Ghemawat%2C+S.%2C+Irving%2C+G.%2C+Isard%2C+M.%2C+et+al.+Tensor%EF%AC%82ow%3A+A+system+for+large-scale+machine+learning.+In+12th+%7BUSENIX%7D+symposium+)
 
 ## scikit-learn
 
@@ -43,11 +43,23 @@ Cited by 4: [[Expert's guide to PINNs (Wang 2023)]], [[PySR (Cranmer 2023)]], [[
 
 Reference: Charles R Harris, K Jarrod Millman, Stéfan J van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor, Sebastian Berg, Nathaniel J Smith, et al. Array programming with numpy. Nature, 585(7825):357–362, 2020. [DOI](https://doi.org/10.1038/s41586-020-2649-2)
 
+## NumPyro
+
+Cited by 4: [[IFT for UQ of differential equations (Hao 2024)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[PIFT (Alberts 2023)]]
+
+Reference: D. Phan, N. Pradhan, and M. Jankowiak, “Composable eﬀects for ﬂexible and ac- celerated probabilistic programming in numpyro,” arXiv preprint arXiv:1912.11554, 2019. [arXiv](https://arxiv.org/abs/1912.11554)
+
 ## DeepXDE
 
 Cited by 3: [[DeepONet (Lu 2021)]], [[Respecting causality (Wang 2022)]], [[When and why PINNs fail (Wang 2022)]]
 
 Reference: Lu, L., Meng, X., Mao, Z. & Karniadakis, G. E. DeepXDE: a deep learning library for solving diﬀerential equations. SIAM Rev. 63, 208–228 (2021). [DOI](https://doi.org/10.1137/19m1274067)
+
+## Pyro
+
+Cited by 3: [[Amortized VI for inverse problems (Karumuri 2024)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT state and parameter estimation (Hao 2024)]]
+
+Reference: E. Bingham, J. P. Chen, M. Jankowiak, F. Obermeyer, N. Pradhan, T. Karaletsos, R. Singh, P. Szerlip, P. Horsfall, N. D. Goodman, Pyro: Deep universal probabilistic programming, The Journal of Machine Learning Research 20 (1) (2019) 973–978. [Scholar](https://scholar.google.com/scholar?q=%5B80%5D+E.+Bingham%2C+J.+P.+Chen%2C+M.+Jankowiak%2C+F.+Obermeyer%2C+N.+Pradhan%2C+T.+Karaletsos%2C+R.+Singh%2C+P.+Szerlip%2C+P.+Horsfall%2C+N.+D.+Goodman%2C+Pyro%3A+Deep+universal+probabilistic+programming%2C+The+Journal+of+Mac)
 
 ## Theano
 
@@ -60,12 +72,6 @@ Reference: Theano Development Team, Theano: A Python framework for fast computat
 Cited by 2: [[ResNet paper (He 2016)]], [[U-Net paper (Ronneberger 2015)]]
 
 Reference: Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell. Caffe: Convolutional architecture for fast feature embedding. arXiv:1408.5093, 2014. [arXiv](https://arxiv.org/abs/1408.5093)
-
-## NumPyro
-
-Cited by 2: [[IFT for engineering inverse problems (Alberts 2024)]], [[PIFT (Alberts 2023)]]
-
-Reference: D. Phan, N. Pradhan, and M. Jankowiak, “Composable eﬀects for ﬂexible and ac- celerated probabilistic programming in numpyro,” arXiv preprint arXiv:1912.11554, 2019. [arXiv](https://arxiv.org/abs/1912.11554)
 
 ## PySINDy
 
@@ -175,12 +181,6 @@ Cited by 1: [[CLIP (Radford 2021)]]
 
 Reference: Learning Transferable Visual Models From Natural Language Supervision pandas development team, T. pandas-dev/pandas: Pan- das, February 2020. URL https://doi.org/10. 5281/zenodo.3509134. [Scholar](https://scholar.google.com/scholar?q=Learning+Transferable+Visual+Models+From+Natural+Language+Supervision+pandas+development+team%2C+T.+pandas-dev%2Fpandas%3A+Pan-+das%2C+February+2020.+URL+https%3A%2F%2Fdoi.org%2F10.+5281%2Fzenodo.3509134.)
 
-## Pyro
-
-Cited by 1: [[Amortized VI for inverse problems (Karumuri 2024)]]
-
-Reference: E. Bingham, J. P. Chen, M. Jankowiak, F. Obermeyer, N. Pradhan, T. Karaletsos, R. Singh, P. Szerlip, P. Horsfall, N. D. Goodman, Pyro: Deep universal probabilistic programming, The Journal of Machine Learning Research 20 (1) (2019) 973–978. [Scholar](https://scholar.google.com/scholar?q=%5B80%5D+E.+Bingham%2C+J.+P.+Chen%2C+M.+Jankowiak%2C+F.+Obermeyer%2C+N.+Pradhan%2C+T.+Karaletsos%2C+R.+Singh%2C+P.+Szerlip%2C+P.+Horsfall%2C+N.+D.+Goodman%2C+Pyro%3A+Deep+universal+probabilistic+programming%2C+The+Journal+of+Mac)
-
 ## PyTorch Geometric
 
 Cited by 1: [[Symbolic models from deep learning (Cranmer 2020)]]
@@ -223,4 +223,4 @@ Cited by 1: [[PySR (Cranmer 2023)]]
 
 Reference: Ankit Rohatgi. Webplotdigitizer: Version 4.6, 2022. [Scholar](https://scholar.google.com/scholar?q=%5B78%5D+Ankit+Rohatgi.+Webplotdigitizer%3A+Version+4.6%2C+2022.)
 
-**Last updated**: 2026-11-11
+**Last updated**: 2026-11-15

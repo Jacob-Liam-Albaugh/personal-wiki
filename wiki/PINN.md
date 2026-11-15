@@ -102,3 +102,4 @@ $$
 - [[Physics-informed machine learning]] · [[PINNs (Raissi 2019)]] · [[When and why PINNs fail (Wang 2022)]] · [[Respecting causality (Wang 2022)]] · [[Expert's guide to PINNs (Wang 2023)]] · [[Neural tangent kernel]] · [[Physics-informed ML review (Karniadakis 2021)]]
 - [[SIREN]] (smooth derivatives for PDE losses, Sitzmann 2020 §4), [[Spectral bias]], [[Fourier features]].
 - [[Poisson and Laplace equations]], [[Maxwell's equations]]: classical PDEs of electrostatics and electromagnetics that PINNs can solve (source: courses/ECE 311/Lectures Slides/lect_12.pdf).
+- [[IFT state and parameter estimation (Hao 2024)]]

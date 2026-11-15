@@ -55,7 +55,7 @@ Two conditions on the training domain (p. 3): the concentration field must be pr
 - Biomedical follow-ups from the same group: [[Cardiovascular flow PINNs (Kissas 2020)]], [[Cardiac activation PINN (Sahli Costabal 2020)]].
 
 %% refs:start %%
-**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[NIF (Pan 2023)]], [[Respecting causality (Wang 2022)]], [[When and why PINNs fail (Wang 2022)]]
+**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[NIF (Pan 2023)]], [[Respecting causality (Wang 2022)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
 **Sources**: `papers/Physics Informed Architectures/Raissi, Yazdani, Karniadakis - Hidden fluid mechanics Learning velocity and pressure fields from flow visualizations.pdf`.

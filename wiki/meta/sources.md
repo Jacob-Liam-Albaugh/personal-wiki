@@ -78,6 +78,10 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Alberts, Bilionis - Uniqueness of MAP estimates for inverse problems under information field theory.pdf` | 32 | ingested → [[MAP uniqueness in IFT (Alberts 2025)]] |  |
 | `Bilionis, Alberts - IFT Thermal Conductivity.pdf` | 25 | ingested → [[IFT thermal conductivity (Alberts 2026)]] |  |
 | `Bilionis, Alberts - IFT.pdf` | 30 | ingested → [[PIFT (Alberts 2023)]] |  |
+| `Hao - Information field theory approach to uncertainty quantification for differential equations.pdf` | 213 | ingested → [[IFT for UQ of differential equations (Hao 2024)]] | PhD dissertation; Chs. 3 and 6 = JCP and MSSP papers |
+| `Hao, Bilionis - An information field theory approach to Bayesian state and parameter estimation in dynamical systems.pdf` | 24 | ingested → [[IFT state and parameter estimation (Hao 2024)]] | JCP 512, 113139 |
+| `Hao, Bilionis - Neural information field filter.pdf` | 28 | ingested → [[Neural information field filter (Hao 2025)]] |  |
+| `Hao, Bilionis - Physics-informed information field theory approach to dynamical system parameter and state estimation in path space.pdf` | 5 | ingested → [[Path-space PIFT estimation (Hao 2025)]] | Springer IMAC proceedings chapter |
 | `Ruqi Zhang - AMAGOLD.pdf` | 10 | ingested → [[AMAGOLD (Zhang 2020)]] |  |
 | `Ruqi Zhang - Cyclical Stochastic Gradient MCMC.pdf` | 27 | ingested → [[Cyclical SG-MCMC (Zhang 2020)]] |  |
 | `Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf` | 21 | ingested → [[Low-precision SGLD (Zhang 2022)]] |  |

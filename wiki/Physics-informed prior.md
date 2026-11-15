@@ -43,6 +43,9 @@ A [[PINN]] is the MAP estimate under this prior (Wiki note).
 - [[IFT for engineering inverse problems (Alberts 2024)]] — Ch. 3 construction and Example 2 energies (cubic nonlinear ODE, pp. 105-107; Allen-Cahn, p. 114).
 - [[Physics-informed machine learning]] — the same physics-as-prior idea at the level of loss functions; [[Physics-informed ML review (Karniadakis 2021)]], p. 7: soft-penalty PINN equals MAP with a physics-based likelihood.
 - [[PINN]].
+- [[IFT state and parameter estimation (Hao 2024)]] — ODE-residual energy in time; prior is the Euler–Maruyama path density of $dX=f\,dt+(2\beta)^{-1/2}dB$ (App. A); B-PINN = this prior without $Z_\beta$.
+- [[Neural information field filter (Hao 2025)]] — kernel-relaxed version coupling $\hat x(0;w)$ to an auxiliary $x_0$, usable with neural paths.
+- [[IFT for UQ of differential equations (Hao 2024)]] — Ch. 5: closed-form GP prior (Green's-function covariance $G/\beta$) for a linear first-order BVP.
 
 **Covered in**: ASML book ift/physics (ME 697 IFT.3)
 **Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `text_books/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/physics/intro.md`.

@@ -57,3 +57,4 @@ $$
 
 ## Related pages
 - [[Particle filter]] · [[Stochastic state-space model]] · [[Ornstein-Uhlenbeck process]] · [[Gaussian process]]
+- [[IFT state and parameter estimation (Hao 2024)]]

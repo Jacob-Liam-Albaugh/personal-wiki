@@ -120,7 +120,7 @@ Examples 1-3 run in C++ for nested SGLD; Example 4 in NumPyro. Code: `Predictive
 - Wiki note: the beta behaviour in Example 2 is the same empirical-Bayes logic as marginal-likelihood hyperparameter fitting in a [[Gaussian process]], with $\beta$ as an amplitude.
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Cyclical SG-MCMC (Zhang 2020)]], [[DeepONet (Lu 2021)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[RMHMC (Girolami 2011)]], [[SGLD (Welling 2011)]], [[SINDy (Brunton 2016)]], [[VAE paper (Kingma 2014)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Cardiac activation PINN (Sahli Costabal 2020)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Cyclical SG-MCMC (Zhang 2020)]], [[DeepONet (Lu 2021)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[RMHMC (Girolami 2011)]], [[SGLD (Welling 2011)]], [[SINDy (Brunton 2016)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[IFT thermal conductivity (Alberts 2026)]]
 **Software cited**: [[software#NumPyro|NumPyro]]
 %% refs:end %%
