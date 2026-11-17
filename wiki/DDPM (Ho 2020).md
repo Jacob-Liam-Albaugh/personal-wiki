@@ -108,7 +108,7 @@ All numbers from the paper.
 > | Ours, $L_\text{simple}$ | 9.46 $\pm$ 0.11 | 3.17 | $\le$ 3.75 (3.72) |
 > | StyleGAN2 + ADA (v1), uncond. | 9.74 $\pm$ 0.05 | 3.26 | |
 > | NCSN | 8.87 $\pm$ 0.12 | 25.32 | |
-> | NCSNv2 | | 31.75 | |
+> | [[NCSNv2 (Song 2020)\|NCSNv2]] | | 31.75 | |
 > | SNGAN-DDLS | 9.09 $\pm$ 0.10 | 15.42 | |
 > | SNGAN | 8.22 $\pm$ 0.05 | 21.7 | |
 > | EBM (Du & Mordatch), uncond. | 6.78 | 38.2 | |
@@ -163,7 +163,7 @@ Wiki notes:
 - Method pages: [[DDPM]], [[Noise prediction]], [[Noise schedule]], [[Diffusion models]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Attention is all you need (Vaswani 2017)]], [[GAN paper (Goodfellow 2014)]], [[Neural ODEs (Chen 2018)]], [[U-Net paper (Ronneberger 2015)]], [[VAE paper (Kingma 2014)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Attention is all you need (Vaswani 2017)]], [[GAN paper (Goodfellow 2014)]], [[NCSNv2 (Song 2020)]], [[Neural ODEs (Chen 2018)]], [[U-Net paper (Ronneberger 2015)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Classifier-free guidance (Ho 2022)]], [[DDIM (Song 2021)]], [[IFT for UQ of differential equations (Hao 2024)]], [[Inflationary flows (de Albuquerque 2024)]], [[PISD (Gallon 2026)]]
 %% refs:end %%
 

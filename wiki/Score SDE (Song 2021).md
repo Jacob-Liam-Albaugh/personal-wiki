@@ -270,7 +270,7 @@ Wiki note (not in paper): FID/NLL comparisons depend on dequantization and check
 
 ## Connections
 
-- Unifies [[Diffusion models#SMLD and DDPM|smld]] (Song & Ermon 2019) and [[Diffusion models#SMLD and DDPM|ddpm]] (Ho et al. 2020) as discretizations of [[Diffusion models#VE, VP and sub-VP SDEs|variance exploding sde]] and [[Diffusion models#VE, VP and sub-VP SDEs|variance preserving sde]]; see [[Diffusion models]] for the broader family, [[Langevin dynamics]] for the corrector, and [[SGLD (Welling 2011)]] for the related Langevin-with-gradient-noise sampler.
+- Unifies [[Diffusion models#SMLD and DDPM|smld]] (Song & Ermon 2019; tuned in [[NCSNv2 (Song 2020)]]) and [[Diffusion models#SMLD and DDPM|ddpm]] (Ho et al. 2020) as discretizations of [[Diffusion models#VE, VP and sub-VP SDEs|variance exploding sde]] and [[Diffusion models#VE, VP and sub-VP SDEs|variance preserving sde]]; see [[Diffusion models]] for the broader family, [[Langevin dynamics]] for the corrector, and [[SGLD (Welling 2011)]] for the related Langevin-with-gradient-noise sampler.
 - The VP SDE is an [[SDE-BNN (Xu 2022)|ornstein uhlenbeck process]] with time-varying rate; $f$ affine gives Gaussian kernels.
 - The probability flow ODE is a neural ODE / continuous [[Normalizing flows]] model, used for exact likelihood and compared against flow baselines in Table 2. Later [[Flow matching]] works with the same ODE view (Wiki note).
 - Conditional SDE, eq. 14, and the inverse-problem recipe, eq. 50, anticipate [[Diffusion posterior sampling]] (Wiki note: that method is a later development) and fit the application in [[Generative priors for turbulence (Wang 2026)]] (Wiki note, check that page).

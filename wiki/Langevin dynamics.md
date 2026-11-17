@@ -24,6 +24,7 @@ In score-based generation the gradient comes from a learned score, $\nabla\log p
 
 ## Where it appears
 - [[Score SDE (Song 2021)]].
+- [[NCSNv2 (Song 2020)]]: annealed Langevin with step size and step count set from a closed-form variance ratio (Prop. 3).
 - [[SGLD (Welling 2011)]] · [[Cyclical SG-MCMC (Zhang 2020)]] · [[AMAGOLD (Zhang 2020)]] · [[Low-precision SGLD (Zhang 2022)]].
 - The noise term is increments of a [[Wiener process]]; origin in [[Brownian motion]] and [[Brownian movement (Einstein 1905)]].
 - [[Ornstein-Uhlenbeck process]] is the linear-drift Langevin/SDE case with a Gaussian stationary law; [[Euler-Maruyama method]] is the discretization used to simulate it (source: sinverse/sodes). [[Stochastic differential equation]] gives the general setting.

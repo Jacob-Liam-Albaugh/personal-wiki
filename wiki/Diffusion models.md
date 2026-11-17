@@ -68,6 +68,7 @@ Conditional sampling can be sharpened at the cost of diversity:
 - [[Score SDE (Song 2021)]]: the framework.
 - [[Generative priors for turbulence (Wang 2026)]]: a VP prior for turbulent fields.
 - [[DDPM (Ho 2020)]], [[DDIM (Song 2021)]], [[Classifier-free guidance (Ho 2022)]].
+- [[NCSNv2 (Song 2020)]]: how to set the noise scales and Langevin settings of SMLD.
 - [[Step-by-step diffusion (Nakkiran 2025)]]: an elementary derivation, with the reverse SDE and PF-ODE as limits (Fig. 5.1, p. 50).
 - [[PISD (Gallon 2026)]]: EDM-style diffusion on data-scaled spectral coefficients with PDE-residual guidance; see [[Spectral diffusion]].
 - [[Inflationary flows (de Albuquerque 2024)]]: pfODE with full-covariance noise as an invertible, dimension-preserving or dimension-reducing map for calibrated latent inference.

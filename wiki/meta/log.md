@@ -160,3 +160,10 @@
 - Updated: Physics-informed prior, Nested SGLD, Model-form error detection, Information field theory, PIFT (Alberts 2023), Duffing oscillator, Kalman filter, Particle filter, Stochastic state-space model, Variational inference, PINN, Euler-Maruyama method, NUTS, Fourier features, Spectral bias, SGLD, Identifiability, Gaussian process.
 - No new concept pages (no pages for Bouc–Wen, SMC², Lotka–Volterra, pSGLD).
 - Gaps: dissertation read via a subagent summary from extracted text; the chapter-to-paper mapping is inferred. Figures not seen.
+
+## [2026-11-17] ingest | NCSNv2 (Song 2020)
+- Paper: [[NCSNv2 (Song 2020)]] (NeurIPS 2020): five rules for score networks: $\sigma_1$ near the max pairwise data distance (Prop. 1), geometric scales with 3-sigma shell overlap (Prop. 2), $s_\theta(x)/\sigma$ conditioning, $T$ and $\epsilon$ from a closed-form variance ratio (Prop. 3), weight EMA 0.999. CIFAR-10 FID 10.87 with the denoising step; samples up to 256 px.
+- PDF renamed from Downloads into `papers/Diffusion/`. The second Downloads file (`2011.13456v2.pdf`) is byte-identical to the Score SDE PDF already filed, so it was skipped.
+- Updated: Score matching, Langevin dynamics, Diffusion models, Score SDE (Song 2021), DDPM (Ho 2020).
+- No new concept pages (NCSN 2019 and Tweedie's formula stay inside existing pages).
+- Gaps: read from extracted text; figures and the appendix (proofs, hyperparameters) not checked.

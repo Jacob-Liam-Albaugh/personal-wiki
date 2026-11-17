@@ -49,6 +49,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models - Slides.pdf` | 7 | ingested → [[Inflationary flows (de Albuquerque 2024)]] | companion slide deck for the paper |
 | `de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models.pdf` | 45 | ingested → [[Inflationary flows (de Albuquerque 2024)]] |  |
 | `Song et al - Score-Based Generative Modeling through Stochastic Differential Equations.pdf` | 36 | ingested → [[Score SDE (Song 2021)]] | same ICLR 2021 text as the papers/Stochastic Methods/ copy (different file bytes) |
+| `Song, Ermon - Improved Techniques for Training Score-Based Generative Models.pdf` | 11 | ingested → [[NCSNv2 (Song 2020)]] | from Downloads; `2011.13456v2.pdf` in the same batch was an identical copy of the Score SDE file, not filed |
 | `Song, Meng, Ermon - Denoising Diffusion Implicit Models.pdf` | 22 | ingested → [[DDIM (Song 2021)]] |  |
 | `Wang - Generative priors for spatiotemporal turbulence.pdf` | 24 | ingested → [[Generative priors for turbulence (Wang 2026)]] | duplicate (identical file) of the papers/IFT/ copy |
 

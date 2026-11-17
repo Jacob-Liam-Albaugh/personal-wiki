@@ -124,7 +124,7 @@ Wiki note: "nominal dimension 1" does not mean the image is stored in one number
 - [[Diffusion posterior sampling]] conditions a diffusion prior on data by guidance; here the posterior over latents is obtained by pushing uncertainty through the flow, or by MCMC in the latent space.
 
 %% refs:start %%
-**Cites in this wiki**: [[DDIM (Song 2021)]], [[DDPM (Ho 2020)]], [[Score SDE (Song 2021)]], [[VAE paper (Kingma 2014)]]
+**Cites in this wiki**: [[DDIM (Song 2021)]], [[DDPM (Ho 2020)]], [[NCSNv2 (Song 2020)]], [[Score SDE (Song 2021)]], [[VAE paper (Kingma 2014)]]
 **Software cited**: [[software#scikit-learn|scikit-learn]]
 %% refs:end %%
 
