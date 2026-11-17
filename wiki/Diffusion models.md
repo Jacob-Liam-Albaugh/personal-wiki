@@ -72,6 +72,8 @@ Conditional sampling can be sharpened at the cost of diversity:
 - [[Step-by-step diffusion (Nakkiran 2025)]]: an elementary derivation, with the reverse SDE and PF-ODE as limits (Fig. 5.1, p. 50).
 - [[PISD (Gallon 2026)]]: EDM-style diffusion on data-scaled spectral coefficients with PDE-residual guidance; see [[Spectral diffusion]].
 - [[Inflationary flows (de Albuquerque 2024)]]: pfODE with full-covariance noise as an invertible, dimension-preserving or dimension-reducing map for calibrated latent inference.
+- [[iDEM (Akhound-Sadegh 2024)]]: a VE diffusion sampler for Boltzmann densities trained from the energy alone, with an MC estimate of the noised score.
+- [[Path Integral Sampler (Zhang 2022)]]: a finite-time SDE sampler whose drift is a stochastic-control solution, trained from the energy.
 - [[Flow matching tutorial (Chen 2024)]]: diffusion as the Gaussian-path, independent-coupling case of flow matching (slides 31, 33).
 
 **Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `papers/IFT/Wang - Generative priors for spatiotemporal turbulence.pdf`, `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`, `papers/Diffusion/de Albuquerque, Pearson - Inflationary Flows Calibrated Bayesian Inference with Diffusion-Based Models.pdf`, `papers/Diffusion/Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf`.

@@ -26,6 +26,7 @@ tags: [mcmc, sampling, bayesian]
 > A curved target with $b=1$ and $\rho=0.9$ (high curvature), five chains of 200 samples, burn-in 50, run with `blackjax.hmc`.
 
 ## Where it appears
+- [[Path Integral Sampler (Zhang 2022)]]: HMC is a baseline for log Z estimation (Table 1).
 - [[Markov chain Monte Carlo]].
 - [[Inflationary flows (de Albuquerque 2024)]]: HMC (hamiltorch, $L=15$) in the latent space of a diffusion flow; about 40 minutes per sample (App. B.6).
 

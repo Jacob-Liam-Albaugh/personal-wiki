@@ -41,6 +41,7 @@ with $\mathbb E v=0$, $\mathrm{Cov}\,v=I$.
 ## Where it appears
 - [[Score SDE (Song 2021)]], [[Diffusion models]].
 - [[DDPM (Ho 2020)]], [[Step-by-step diffusion (Nakkiran 2025)]].
+- [[iDEM (Akhound-Sadegh 2024)]]: DEM replaces the DSM target with a Monte Carlo estimate of $\nabla\log p_t$ built from the energy (eq. 8).
 - [[NCSNv2 (Song 2020)]]: rules for the noise scales of multi-scale DSM, and $s_\theta(x,\sigma)=s_\theta(x)/\sigma$.
 
 **Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`, `papers/Diffusion/Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf`, `papers/Diffusion/Nakkiran, Bradley, Zhou, Advani - Step-by-Step Diffusion An Elementary Tutorial.pdf`.

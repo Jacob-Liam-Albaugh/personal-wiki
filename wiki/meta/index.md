@@ -148,8 +148,10 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Flow matching tutorial (Chen 2024)]] | paper | Flow Matching Tutorial, NeurIPS 2024 slides (Chen 2024) |
 | [[GAN paper (Goodfellow 2014)]] | paper | GAN paper (Goodfellow 2014) |
 | [[Inflationary flows (de Albuquerque 2024)]] | paper | Inflationary Flows: Calibrated Bayesian Inference with Diffusion-Based Models (de Albuquerque 2024) |
+| [[iDEM (Akhound-Sadegh 2024)]] | paper | Iterated Denoising Energy Matching for Sampling from Boltzmann Densities (Akhound-Sadegh 2024) |
 | [[KL expansion note (Alexanderian 2015)]] | paper | KL expansion note (Alexanderian 2015) |
 | [[KL expansions of the Wiener process (Deheuvels 2006)]] | paper | KL expansions of the Wiener process (Deheuvels 2006) |
+| [[Path Integral Sampler (Zhang 2022)]] | paper | Path Integral Sampler: A Stochastic Control Approach for Sampling (Zhang 2022) |
 | [[Quantum option pricing KL (Prakash 2025)]] | paper | Quantum option pricing KL (Prakash 2025) |
 | [[RMHMC (Girolami 2011)]] | paper | RMHMC (Girolami 2011) |
 | [[Random field discretization (Betz 2014)]] | paper | Random field discretization (Betz 2014) |

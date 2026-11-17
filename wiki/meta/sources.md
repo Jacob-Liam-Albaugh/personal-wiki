@@ -39,6 +39,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
+| `Akhound-Sadegh, Rector-Brooks, Bose et al - Iterated Denoising Energy Matching for Sampling from Boltzmann Densities.pdf` | 27 | ingested → [[iDEM (Akhound-Sadegh 2024)]] | from USB (`akhound-sadegh24a.pdf`); appendix not read |
 | `Chen, Lipman, Ben-Hamu - Flow Matching Tutorial.pdf` | 175 | ingested → [[Flow matching tutorial (Chen 2024)]] | NeurIPS 2024 tutorial slides; text extraction only |
 | `Ho, Jain, Abbeel - Denoising Diffusion Probabilistic Models.pdf` | 25 | ingested → [[DDPM (Ho 2020)]] |  |
 | `Ho, Salimans - Classifier-Free Diffusion Guidance.pdf` | 14 | ingested → [[Classifier-free guidance (Ho 2022)]] |  |
@@ -177,6 +178,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Li - Construction of Brownian Motion.pdf` | 12 | ingested → [[Brownian motion construction (Li n.d.)]] |  |
 | `Prakash, Sun, Chakrabarti, Che - Quantum Option Pricing via the Karhunen-Loéve Expansion.pdf` | 25 | ingested → [[Quantum option pricing KL (Prakash 2025)]] |  |
 | `Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics` |  | alias | points to papers/Bayesian/ copy |
+| `Zhang, Chen - Path Integral Sampler A Stochastic Control Approach for Sampling.pdf` | 26 | ingested → [[Path Integral Sampler (Zhang 2022)]] | from USB (`2111.15141v2.pdf`) |
 
 ## papers/Symmetries
 

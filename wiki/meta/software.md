@@ -15,7 +15,7 @@ Reference: James Bradbury, Roy Frostig, Peter Hawkins, Matthew James Johnson, Ch
 
 ## PyTorch
 
-Cited by 10: [[Amortized VI when and why (Margossian 2024)]], [[CLIP (Radford 2021)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Diesel PM as OU process (Bolt 2026)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[LNO (Cao 2023)]], [[Neural information field filter (Hao 2025)]], [[PySR (Cranmer 2023)]], [[Symbolic models from deep learning (Cranmer 2020)]]
+Cited by 11: [[Amortized VI when and why (Margossian 2024)]], [[CLIP (Radford 2021)]], [[Cardiovascular flow PINNs (Kissas 2020)]], [[Diesel PM as OU process (Bolt 2026)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[LNO (Cao 2023)]], [[Neural information field filter (Hao 2025)]], [[Path Integral Sampler (Zhang 2022)]], [[PySR (Cranmer 2023)]], [[Symbolic models from deep learning (Cranmer 2020)]]
 
 Reference: Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zem- ing Lin, Natalia Gimelshein, Luca Antiga, Alban Des- maison, Andreas Kopf, Edward Yang, Zachary DeVito, Martin Raison, Alykhan Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu Fang, Junjie Bai, a [Scholar](https://scholar.google.com/scholar?q=Adam+Paszke%2C+Sam+Gross%2C+Francisco+Massa%2C+Adam+Lerer%2C+James+Bradbury%2C+Gregory+Chanan%2C+Trevor+Killeen%2C+Zem-+ing+Lin%2C+Natalia+Gimelshein%2C+Luca+Antiga%2C+Alban+Des-+maison%2C+Andreas+Kopf%2C+Edward+Yang%2C+Zachar)
 

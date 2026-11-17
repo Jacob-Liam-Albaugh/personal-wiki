@@ -167,3 +167,10 @@
 - Updated: Score matching, Langevin dynamics, Diffusion models, Score SDE (Song 2021), DDPM (Ho 2020).
 - No new concept pages (NCSN 2019 and Tweedie's formula stay inside existing pages).
 - Gaps: read from extracted text; figures and the appendix (proofs, hyperparameters) not checked.
+
+## [2026-11-17] ingest | Path Integral Sampler (Zhang 2022), iDEM (Akhound-Sadegh 2024)
+- Papers: [[Path Integral Sampler (Zhang 2022)]] (ICLR 2022): sampling as stochastic control; the optimal drift gives the Schrödinger bridge from a point to $\mu$ (Thm. 1); trained on a Girsanov path-space KL; importance weights give unbiased $Z$ (eq. 19). [[iDEM (Akhound-Sadegh 2024)]] (ICML 2024): diffusion sampler for Boltzmann densities trained on a Monte Carlo estimate of the noised score from the energy, with a replay buffer; off-policy and simulation-free in the loss; beats FAB, PIS and DDS on LJ-55.
+- PDFs renamed from the USB drive into `papers/Stochastic Methods/` (PIS) and `papers/Diffusion/` (iDEM).
+- Updated: Diffusion models, Score matching, Langevin dynamics, Equivariance, Normalizing flows, KL divergence, Hamiltonian Monte Carlo, NUTS.
+- No new concept pages (none for Schrödinger bridge, Feynman-Kac, Girsanov, importance sampling, FAB, DDS or EGNN).
+- Gaps: read from extracted text; figures not seen; PIS appendix read only for App. G; iDEM appendix (pp. 10-27) not read.

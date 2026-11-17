@@ -28,6 +28,7 @@ tags: [bayesian, vi]
 - Function-space priors with mismatched supports give infinite KL (Fortuin §4.2), one reason Wasserstein is proposed instead ([[Wasserstein distance]]).
 
 ## Where it appears
+- [[Path Integral Sampler (Zhang 2022)]]: reverse KL between path measures via Girsanov is the training loss (eqs. 11-14).
 - [[Variational inverse problems (Tsilifis 2014)]] · [[Amortized VI for inverse problems (Karumuri 2024)]] (mode-seeking, p. 30) · [[Amortized VI when and why (Margossian 2024)]].
 - [[VAE paper (Kingma 2014)]] · [[Variational dropout (Kingma 2015)]] · [[Intro to VAEs (Kingma 2019)]] (ML as KL to the data, p. 10).
 - [[SDE-BNN (Xu 2022)]] · [[Bayesian DenseED surrogate (Zhu 2018)]] (SVGD derivative, p. 15) · [[Priors in Bayesian deep learning (Fortuin 2022)]].

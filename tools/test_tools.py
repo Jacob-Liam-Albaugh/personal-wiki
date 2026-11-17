@@ -1,4 +1,4 @@
-from authors import split_names
+from authors import firsts, norm, split_names
 from inbox import best_wanted, existing, filename, ref_surnames
 from refs import matches, software, words
 
@@ -10,6 +10,11 @@ assert not matches("Tero Karras, Samuli Laine. A style-based generator architect
 assert split_names("Max Welling and Yee Whye Teh (equal contribution)") == ["Max Welling", "Yee Whye Teh"]
 assert split_names("A. Smith, B. Jones, et al.") == ["A. Smith", "B. Jones"]
 assert split_names("Ben Mildenhall et al.") == ["Ben Mildenhall"]
+
+zs = firsts(["Qi Zhang", "Qinsheng Zhang", "Yang Song"])
+assert norm("Qi Zhang", zs) != norm("Qinsheng Zhang", zs)
+assert norm("Y. Song", zs) == norm("Song", zs) == ("song", "yang")
+assert norm("Q. Zhang", zs) == ("zhang", "q")
 glorot = dict(first="glorot", title="Glorot init", year="2010", file="papers/ML/Glorot, Bengio - Understanding the Difficulty of Training DFFNN.pdf")
 assert matches("Xavier Glorot and Yoshua Bengio. Understanding the difficulty of training deep feedforward neural networks. AISTATS 2010", glorot, "")
 odes = dict(first="chen", title="Neural ODEs", year="2018", file="P/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf")

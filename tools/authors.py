@@ -10,6 +10,7 @@ R = Path(__file__).resolve().parent.parent
 W = R / "wiki"
 A = W / "authors"
 DATE = "2026-11-06"
+ALIAS = {"Alex Alberts": "Alexander Alberts"}
 SKIP = {"et al", "et al.", "others", "equal contribution", "not stated", "unattributed", "anonymous", "unknown"}
 
 
@@ -29,10 +30,28 @@ def split_names(line):
 
 
 def key(name):
-    toks = name.replace(".", ". ").split()
+    toks = ALIAS.get(name, name).replace(".", ". ").split()
     sur = fold(toks[-1])
-    ini = fold(toks[0])[0] if len(toks) > 1 else ""
-    return sur, ini
+    first = fold(toks[0]).rstrip(".") if len(toks) > 1 else ""
+    return sur, first
+
+
+def firsts(names):
+    out = defaultdict(set)
+    for n in names:
+        sur, first = key(n)
+        if len(first) > 1:
+            out[sur].add(first)
+    return out
+
+
+def norm(n, full):
+    sur, first = key(n)
+    if len(first) <= 1:
+        match = [f for f in full[sur] if f.startswith(first)]
+        if len(match) == 1:
+            return sur, match[0]
+    return sur, first
 
 
 def pages():
@@ -51,25 +70,16 @@ def pages():
 
 
 def resolve(entries):
-    full = defaultdict(set)
-    for _, _, names in entries:
-        for n in names:
-            sur, ini = key(n)
-            if ini:
-                full[sur].add(ini)
+    full = firsts(n for _, _, names in entries for n in names)
     canon, unresolved = {}, set()
     for _, _, names in entries:
         for n in names:
-            sur, ini = key(n)
-            if not ini and len(full[sur]) == 1:
-                ini = next(iter(full[sur]))
-            elif not ini:
+            k = norm(n, full)
+            if not k[1]:
                 unresolved.add(n)
-            k = (sur, ini)
-            best = canon.get(k, "")
-            if len(n) > len(best):
+            if len(n) > len(canon.get(k, "")):
                 canon[k] = n
-    return canon, unresolved
+    return canon, unresolved, full
 
 
 def page_name(n):
@@ -78,19 +88,12 @@ def page_name(n):
 
 def main(dry):
     entries = list(pages())
-    canon, unresolved = resolve(entries)
-    full = defaultdict(set)
-    for sur, ini in canon:
-        if ini:
-            full[sur].add(ini)
+    canon, unresolved, full = resolve(entries)
     papers = defaultdict(list)
     for p, s, names in entries:
         links = []
         for n in names:
-            sur, ini = key(n)
-            if not ini and len(full[sur]) == 1:
-                ini = next(iter(full[sur]))
-            a = page_name(canon[(sur, ini)])
+            a = page_name(canon[norm(n, full)])
             if a not in links:
                 links.append(a)
             papers[a].append(p.stem)

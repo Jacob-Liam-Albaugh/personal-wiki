@@ -100,7 +100,7 @@ Wiki notes: the results cover fully connected networks, a finite dataset, and wi
 
 %% refs:start %%
 **Cites in this wiki**: [[Universal approximation (Hornik 1989)]]
-**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[Priors in Bayesian deep learning (Fortuin 2022)]], [[Respecting causality (Wang 2022)]], [[When and why PINNs fail (Wang 2022)]]
+**Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[Path Integral Sampler (Zhang 2022)]], [[Priors in Bayesian deep learning (Fortuin 2022)]], [[Respecting causality (Wang 2022)]], [[When and why PINNs fail (Wang 2022)]]
 %% refs:end %%
 
 **Sources**: `papers/ML/Jacot, Gabriel, Hongler - Neural Tangent Kernel Convergence and Generalization in Neural Networks.pdf`.

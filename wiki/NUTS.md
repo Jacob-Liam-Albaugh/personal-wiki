@@ -25,6 +25,7 @@ tags: [mcmc, sampling, bayesian]
 - Wiki note: funnel-shaped posteriors in hierarchical models are the usual reason for non-centered parameterizations; hbayes/02 contains both, and hbayes/03 ("bad posterior geometry") is an empty stub. **[unverified]**
 
 ## Where it appears
+- [[Path Integral Sampler (Zhang 2022)]]: NUTS is a baseline for log Z estimation (Table 1).
 - [[Markov chain Monte Carlo]]: banana target.
 - [[Hierarchical Bayesian model]]: cars on a bumpy road.
 - [[Identifiability]]: harmonic oscillator.
