@@ -47,6 +47,7 @@ L_0     = -log p_θ(x_0|x_1)
 - Derived in the book as $\mathrm{KL}(q\|p)=\log p(y)-\mathrm{ELBO}$, so maximizing the ELBO minimizes the KL; estimated by a sample average through reparameterization. (source: `inverse/vi/01_basics.md`; [[Variational inference]])
 - Expected ELBO over $p(y)$ is the amortized objective, used for the [[Duffing oscillator]]. (source: `inverse/odes/03_dyn_system_multiple_traj.ipynb`)
 
+**Examples**: [[Autoinjector FE surrogate]] · [[Catalysis kinetics]] · [[Planar arm inverse kinematics]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/vi (ME 697 4.3)
 **Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`.
 **Last updated**: 2026-11-06

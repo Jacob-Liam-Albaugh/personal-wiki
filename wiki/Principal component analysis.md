@@ -43,6 +43,7 @@ Further wiki notes:
 - `best_k = argmax(cum_var > alpha)` is a zero-based index, so $k$ = `best_k + 1` components are needed; the plotted label reports `best_k`. The "first 10 principal directions" cell plots 25.
 - In 06 the displayed expansion $c(x)\approx\sum\xi_i\sqrt{\lambda_i}\phi_i$ is really for $g=\log c$, the output expansion omits the PCA mean, and the same `subkey` is reused for every coefficient's GP. Batch size 100 exceeds the 90 training points.
 
+**Examples**: [[MNIST digits]] · [[Steel plates faults]] · [[Stochastic 1D heat equation]] (see [[Examples catalogue]])
 **Covered in**: ASML book hup/funcin (ME 697 3.1)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/hup/funcin/03_pca.ipynb`, `06_up_hout_example.ipynb`, `text_books/advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`.
 **Last updated**: 2026-11-06

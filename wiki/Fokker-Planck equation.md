@@ -43,6 +43,7 @@ Song et al. also note that for non-affine drift, the DSM transition kernel can b
 - [[Ornstein-Uhlenbeck process]] and [[Geometric Brownian motion]] are SDEs whose densities obey a Fokker-Planck equation (Wiki note; the book does not state it) (source: sinverse/sodes).
 - [[Brownian motion]]: Einstein's diffusion equation for the particle density is the simplest case (source: Einstein 1905, eq. 10, [[Brownian movement (Einstein 1905)]]).
 
+**Examples**: [[Exponential decay ODE with random inputs]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1)
 **Sources**: `papers/Stochastic Methods/Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf`.
 **Last updated**: 2026-11-06

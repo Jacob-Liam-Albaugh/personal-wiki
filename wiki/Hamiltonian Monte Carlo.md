@@ -35,6 +35,7 @@ tags: [mcmc, sampling, bayesian]
 - [[Riemannian manifold HMC]] replaces the constant mass matrix by a position-dependent metric.
 - [[Langevin dynamics]] is the overdamped, one-step limit.
 
+**Examples**: [[Banana density]] · [[Coal mining disasters]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/sampling (ME 697 4.2)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/sampling/03_hmc_blackjax.ipynb`.
 **Last updated**: 2026-11-06

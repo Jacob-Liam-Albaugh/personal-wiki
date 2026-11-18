@@ -29,6 +29,7 @@ tags: [physics-informed, optimization, ml]
 - [[Neural ODEs (Chen 2018)]] — derivation and Algorithm 1.
 - [[Neural ODE]] — training method.
 
+**Examples**: [[Catalysis kinetics]] (see [[Examples catalogue]])
 **Sources**: `papers/Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf`.
 **Last updated**: 2026-11-06
 

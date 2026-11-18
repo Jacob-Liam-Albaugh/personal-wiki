@@ -34,6 +34,7 @@ tags: [physics-informed, ml, optimization]
 - [[SINDy autoencoders (Champion 2019)]] — latent dynamics are a sparse ODE.
 - ME 697 `inverse/data/04_nodes.ipynb` is a title-only stub "Neural ODEs"; [[SINDy]].
 
+**Examples**: [[Planned and stub examples]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/data (ME 697 4.7)
 **Sources**: `papers/Physics Informed Architectures/Chen, Rubanova, Bettencourt, Duvenaud - Neural ODEs.pdf`, `Greydanus, Dzamba, Yosinski - HNNs.pdf`.
 **Last updated**: 2026-11-06

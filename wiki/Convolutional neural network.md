@@ -10,6 +10,7 @@ tags: [ml]
 
 **Summary**: A network built from convolutional layers (local, weight-shared filters), pointwise nonlinearities and pooling. Weight sharing encodes the prior that image statistics are stationary and pixel dependencies local, so a CNN has far fewer connections than a dense net of the same layer sizes.
 
+**Examples**: [[CIFAR10]] · [[Floor vibration activity recognition]] · [[MNIST digits]] (see [[Examples catalogue]])
 **Sources**: `papers/ML/Krizhevsky et al - ImageNet Classification with Deep Convolutional Neural Networks.pdf`, `papers/Diffusion/Ronneberger, Fischer, Brox - U-Net Convolutional Networks for Biomedical Image Segmentation.pdf`.
 **Last updated**: 2026-11-07
 

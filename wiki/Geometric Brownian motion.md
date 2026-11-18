@@ -55,6 +55,7 @@ With $R$ replicate series the sums run over replicates too and the denominators 
 
 **Wiki note**: the notebook text gives the increment variance as $\sigma^2X\Delta t$; it should be $\sigma^2X^2\Delta t$. Euler-Maruyama can go negative for large steps while the exact GBM stays positive, which is another reason to use the log form for fitting **[unverified]**.
 
+**Examples**: [[Tumour growth (GBM)]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/sodes (ME 697 6.1)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`.
 **Last updated**: 2026-11-06

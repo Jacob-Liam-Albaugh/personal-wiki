@@ -32,6 +32,7 @@ $$v_{t+1}=\beta v_t-\alpha\nabla f(x_t+\beta v_t)$$
 - Wiki note: the book's mass-and-friction derivation is not in Sutskever 2013, which motivates momentum through ill-conditioned curvature and the $\mu$ schedule (§2-3).
 - [[Init and momentum (Sutskever 2013)]].
 
+**Examples**: [[CIFAR10]] · [[Optimizer test problems]] (see [[Examples catalogue]])
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/03_momentum.ipynb`, `04_optax.ipynb`.
 **Last updated**: 2026-11-06

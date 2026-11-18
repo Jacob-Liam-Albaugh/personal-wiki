@@ -10,6 +10,7 @@ tags: [pde, operators]
 
 **Summary**: the steady elliptic PDE for flow through porous media. In operator learning the benchmark map is the permeability $a(x)$ to the pressure $u(x)$, which is nonlinear in $a$.
 
+**Examples**: [[Darcy flow FNO]] (see [[Examples catalogue]])
 **Sources**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 

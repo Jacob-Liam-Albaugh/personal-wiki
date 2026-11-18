@@ -41,6 +41,7 @@ Wiki notes:
 - Only one transformed piece is tested, and `test_transform` hard-codes the label 5 (unused in the prediction). The "reflection across the $y$ axis" example flips $y\to-y$, a reflection across the $xz$ plane.
 - Symmetry background (groups, $E(n)=T(n)\rtimes O(n)$) is on [[Equivariance]].
 
+**Examples**: [[Tetris shapes (e3nn)]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/symmetries (ME 697 2.6)
 **Sources**: Geiger & Smidt 2022, `text_books/advanced-scientific-machine-learning/book/up/symmetries/intro.md`, `01_symmetries.md`, `02_e3nn.ipynb`.
 **Last updated**: 2026-11-06

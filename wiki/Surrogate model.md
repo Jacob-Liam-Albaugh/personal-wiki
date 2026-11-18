@@ -63,6 +63,7 @@ Wiki notes:
 - The exact-GP hyperparameters in the notebook are fitted by Adam on minibatches. The exact marginal likelihood of a random subset treats the subset as the whole dataset, so this is a biased stochastic objective, not the unbiased minibatch estimate used for sparse variational GPs.
 - Workflow step 5 loops back to retraining while adding data, so the validation set is reused across iterations; that is why a separate test set (step 6) is kept.
 
+**Examples**: [[A to B to C reaction]] · [[Autoinjector FE surrogate]] · [[Branin function]] · [[Duffing oscillator examples]] · [[Multi-fidelity 2D synthetic function]] · [[Polynomial chaos 1D test functions]] · [[Stochastic 1D heat equation]] · [[Stochastic cylinder flow (multi-fidelity)]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/surrogates (ME 697 2.3); homework 4
 **Sources**: `text_books/advanced-scientific-machine-learning/book/up/surrogates/01_basics_of_surrogate_models.md`, `02_nn_surrogates.ipynb`, `03_gp_surrogates.ipynb`, `04_gpr_large_data.ipynb`, `text_books/advanced-scientific-machine-learning/book/up/surrogates/intro.md`.
 **Last updated**: 2026-11-06

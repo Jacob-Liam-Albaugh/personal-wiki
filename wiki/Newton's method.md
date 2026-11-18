@@ -28,6 +28,7 @@ Newton's method on the log-barrier problem and on the perturbed optimality syste
 - Newton step on the barrier: minimize the second-order Taylor model of $B_\mu(\mathbf x+\mathbf d)$ subject to $\mathbf A\mathbf d=\mathbf0$, a linear system.
 - Newton root finding $\mathbf F(\mathbf z^k)+\mathbf J(\mathbf z^k)\mathbf d=\mathbf0$ applied to the perturbed KKT system in $\mathbf z=(\mathbf x,\mathbf p,\mathbf s)$ ([[KKT conditions]]).
 
+**Examples**: [[Object tracking point mass]] · [[Optimizer test problems]] (see [[Examples catalogue]])
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4); Bertsimas-Tsitsiklis ch. 9 §9.4-9.5 (pp. 419-437); Bazaraa-Jarvis-Sherali ch. 8 §8.6 (pp. 433-434)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/07_second_order.ipynb`; `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 9); `text_books/Linear Optimization/BJS full book.pdf` (ch. 8).
 **Last updated**: 2026-11-06

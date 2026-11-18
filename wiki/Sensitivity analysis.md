@@ -35,6 +35,7 @@ Wiki note: this table is a summary of the lecture's structure, not a table from 
 - Local and global methods (SALib); [[Polynomial chaos]] (indices from coefficients), [[Surrogate model]] (indices from a surrogate).
 - Related idea in optimization: the gradient is a local sensitivity; see [[Automatic differentiation]].
 
+**Examples**: [[Autoinjector FE surrogate]] · [[California earthquakes]] · [[Duffing oscillator examples]] · [[Exponential decay ODE with random inputs]] · [[HMX drop-weight sensitivity]] · [[Lorenz system examples]] · [[Optimizer test problems]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/00_intro.md`, `01_theory.md`, `04_example_lorenz.ipynb`, `08_global_sensitivity_analysis.ipynb`.
 **Last updated**: 2026-11-06

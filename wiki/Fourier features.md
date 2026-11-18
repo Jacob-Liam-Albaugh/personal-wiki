@@ -25,6 +25,7 @@ $$\phi(x) = [\cos(Bx);\ \sin(Bx)].$$
 - NeRF's "positional encoding" is the deterministic, axis-aligned variant with log-spaced frequencies (source: Tancik 2020, §6).
 - Fixes [[Spectral bias]]. Alternative: periodic activations ([[SIREN]]).
 
+**Examples**: [[Manufactured 2D Poisson]] · [[Motorcycle crash (mcycle)]] · [[Neo-Hookean hyperelasticity PINN]] · [[Spectral bias 1D regression]] (see [[Examples catalogue]])
 **Covered in**: ASML book pinns/basics (ME 697 5.1)
 **Sources**: `papers/ML/Tanicik, Srinivasan, Midenhall, et. al. - Fourier Features Let Netowrks Learn High Frequency Functions in Low Dimensional Domains.pdf`.
 **Last updated**: 2026-11-06

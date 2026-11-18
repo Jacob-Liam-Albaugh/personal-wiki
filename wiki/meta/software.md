@@ -223,4 +223,4 @@ Cited by 1: [[PySR (Cranmer 2023)]]
 
 Reference: Ankit Rohatgi. Webplotdigitizer: Version 4.6, 2022. [Scholar](https://scholar.google.com/scholar?q=%5B78%5D+Ankit+Rohatgi.+Webplotdigitizer%3A+Version+4.6%2C+2022.)
 
-**Last updated**: 2026-11-17
+**Last updated**: 2026-11-18

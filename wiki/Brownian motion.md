@@ -30,6 +30,7 @@ The limit of a random walk with space step $1/\sqrt n$ and time step $1/n$ is th
 
 Wiki note: the same $\sqrt t$ growth appears as the noise term in [[Langevin dynamics]] and [[SGLD]]; the density's diffusion equation is a special case of the [[Fokker-Planck equation]].
 
+**Examples**: [[Brownian motion, bridge and sheet]] · [[Tumour growth (GBM)]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/sodes (ME 697 6.1)
 **Sources**: Einstein 1905; Li.
 **Last updated**: 2026-11-06

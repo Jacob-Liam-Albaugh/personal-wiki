@@ -38,6 +38,7 @@ Solve the original IVP, then this linear one with the same solver.
 > Duffing oscillator with $\alpha=1$, $\beta=5$, $\gamma=8$, $\delta=0.02$, $\omega=0.5$ for the attractor. With $\theta\sim N(\mu,\Sigma)$, get credible intervals for $x(t)$, and a Gaussian-process view with covariance
 > $$\mathrm{Cov}[x(t),x(0)]=\nabla_\theta x(t)\,\Sigma\,\nabla_\theta x(0)^T$$
 
+**Examples**: [[Duffing oscillator examples]] · [[Lorenz system examples]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1); homework 2
 **Sources**: `text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/01_theory.md`, `02_diff_ode.md`, `03_example_ode.ipynb`, `04_example_lorenz.ipynb`, `text_books/advanced-scientific-machine-learning/book/up/intro.md`, `up/sensitivity_analysis/00_intro.md`, `08_global_sensitivity_analysis.ipynb`.
 **Last updated**: 2026-11-06

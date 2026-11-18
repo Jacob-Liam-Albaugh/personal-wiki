@@ -10,6 +10,7 @@ tags: [gp, uq, ml]
 
 **Summary**: A GP model that fuses data from several simulators or experiments of increasing accuracy and cost, learning the expensive function from many cheap runs and few costly ones. This page covers the GP constructions; the general idea is [[Multi-fidelity modeling]].
 
+**Examples**: [[Branin function]] · [[Multi-fidelity 2D synthetic function]] · [[Stochastic cylinder flow (multi-fidelity)]] (see [[Examples catalogue]])
 **Sources**: `papers/Guassian Processes/Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression.pdf`.
 **Last updated**: 2026-11-06
 

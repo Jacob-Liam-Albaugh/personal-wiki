@@ -27,6 +27,7 @@ A charge near a grounded conductor is replaced by an image charge so that the bo
 ## Wiki note
 [[PINN]] training solves the same PDE with a network ansatz.
 
+**Examples**: [[California earthquakes]] · [[Coal mining disasters]] · [[Lagaris benchmarks]] · [[Manufactured 2D Poisson]] · [[Parametric Poisson]] · [[Stochastic 1D heat equation]] (see [[Examples catalogue]])
 **Covered in**: ECE 311 lect_12, lect_14 (courses/ECE 311/Lectures Slides/lect_12.pdf, courses/ECE 311/Lectures Slides/lect_14.pdf)
 **Sources**: ECE 311 lecture slides (Spring 2024, Prof. D. S. Elliott): `courses/ECE 311/Lectures Slides/lect_12.pdf`, `courses/ECE 311/Lectures Slides/lect_14.pdf`; lecture order from `courses/ECE 311/ECE311_Spring2024_Schedule.pdf`. Statements marked Wiki note are standard physics not read in the slides.
 **Last updated**: 2026-11-06

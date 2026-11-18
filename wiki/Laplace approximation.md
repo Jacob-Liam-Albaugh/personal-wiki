@@ -43,6 +43,7 @@ Put a Jeffreys prior $p(\sigma)\propto1/\sigma$ on $\sigma$. With $\theta=\log\s
 - [[Bayesian inverse problems]]: derivation and catalysis example.
 - [[Variational inference]]: the same problem solved by a full-rank Gaussian guide, a natural comparison.
 
+**Examples**: [[Gamma density (Laplace)]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/basics (ME 697 4.1)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/basics/04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`.
 **Last updated**: 2026-11-06

@@ -45,6 +45,7 @@ tags: [physics-informed, optimization, ml]
 > [!example] Homework 7, problems 1-2 (source: homework/07_homework.ipynb)
 > Partially observed Lorenz: SINDy fails on the observed coordinate alone; build a Hankel matrix, take its SVD to three dimensions, run degree-5 SINDy on the principal components. Then SINDy on noisy data with derivatives from the `derivative` package.
 
+**Examples**: [[Lorenz system examples]] · [[SINDy toy systems]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/data (ME 697 4.7); homework 7
 **Sources**: `papers/Physics Informed Architectures/Brunton, Champion, Lusch, Kutz - SINDy - Data-Driven Discovery of Coordinates and Governing Equations.pdf`, `Brunton, Bakarji, Champion, Kutz -SINDy - Discovering Governing Equations Deep Delay Autoencoders.pdf`, `text_books/advanced-scientific-machine-learning/book/inverse/data/intro.md`, `01_lasso.ipynb`, `02_sindy_1.ipynb`, `03_sindy_2.ipynb`, `04_nodes.ipynb`.
 **Last updated**: 2026-11-06

@@ -10,6 +10,7 @@ tags: [inverse-problems, bayesian, uq, mcmc]
 
 **Summary**: Parameters are identifiable when the data determine them uniquely (for infinite data). If only a combination is determined, the likelihood is flat along other directions and the posterior is a ridge governed by the prior.
 
+**Examples**: [[Harmonic oscillator identifiability]] · [[PK two-compartment IV bolus]] · [[Planar arm inverse kinematics]] · [[Trailer on a rough road]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/odes (ME 697 4.5)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`, `hbayes/04_amortized_vi.ipynb`, `text_books/advanced-scientific-machine-learning/book/inverse/odes/intro.md`, `01_basics.md`, `03_dyn_system_multiple_traj.ipynb`.
 **Last updated**: 2026-11-06

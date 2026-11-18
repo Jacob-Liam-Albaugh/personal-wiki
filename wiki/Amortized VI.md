@@ -35,6 +35,7 @@ tags: [bayesian, vi, ml]
 - Inverse kinematics example: guide $q_\phi(\xi|y)=\mathcal N(\mu_\phi(y),L_\phi L_\phi^T)$ with three MLPs, trained on prior samples. Discusses mode seeking and variational versus amortization gap. (source: `inverse/hbayes/04_amortized_vi.ipynb`; [[Hierarchical Bayesian model]])
 - Duffing oscillator: AVI is much faster at inference but its solution space is a subset of per-dataset VI. (source: `inverse/odes/03_dyn_system_multiple_traj.ipynb`; [[Identifiability]])
 
+**Examples**: [[Duffing oscillator examples]] · [[Planar arm inverse kinematics]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/hbayes (ME 697 4.4)
 **Sources**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`.
 **Last updated**: 2026-11-06

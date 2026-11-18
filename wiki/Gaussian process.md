@@ -17,6 +17,7 @@ tags: [gp, bayesian]
 - GP regression on a bounded domain can be run at O(N m^2) with a truncated KL basis computed once by Nystrom quadrature (source: Greengard-O'Neil 2022, Alg. 1, p. 6). See [[Reduced-rank GPs (Greengard 2022)]].
 - a two-fidelity GP surrogate for a tissue model is in [[Multi-fidelity GP for tissue expansion (Lee 2020)]].
 
+**Examples**: [[A to B to C reaction]] · [[Active learning test functions]] · [[Autoinjector FE surrogate]] · [[Bayesian optimisation 1D test function]] · [[Branin function]] · [[Chwirut1 ultrasonic calibration]] · [[Darcy flow FNO]] · [[Duffing oscillator examples]] · [[KLE of Gaussian processes]] · [[Motorcycle crash (mcycle)]] · [[Multi-fidelity 2D synthetic function]] · [[SPE10 permeability field]] · [[Stochastic 1D heat equation]] · [[Stochastic cylinder flow (multi-fidelity)]] (see [[Examples catalogue]])
 **Sources**: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
 **Last updated**: 2026-11-06
 

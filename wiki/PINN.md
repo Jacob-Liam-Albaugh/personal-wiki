@@ -91,6 +91,7 @@ $$
 - Wiki note, energy.ipynb: the `tE_term1` code uses `kx` for both gradient terms; the $y$ term should use `ky`. Also $f_s$ is computed from the untrained model.
 - Wiki note: the energy loss was less accurate than the residual loss in the book's Poisson example (source: pinns/basics/energy.ipynb).
 
+**Examples**: [[Manufactured 2D Poisson]] · [[Navier-Stokes POD (Wang-Perdikaris)]] · [[Neo-Hookean hyperelasticity PINN]] · [[Parametric Poisson]] · [[Planned and stub examples]] · [[Spectral bias 1D regression]] (see [[Examples catalogue]])
 **Covered in**: ASML book pinns/basics (ME 697 5.1); ASML book pinns/inverse (ME 697 5.3); homework 7
 **Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `text_books/advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/basics/forward.ipynb`, `pinns/basics/spectral_bias.ipynb`, `pinns/basics/energy.ipynb`, `text_books/advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/inverse/01_pinns_inverse_example.ipynb`, `pinns/inverse/02_example_Bayesian_pinns.ipynb`, `homework/00_intro.md`, `homework/01_homework.ipynb through 07_homework.ipynb`.
 **Last updated**: 2026-11-06

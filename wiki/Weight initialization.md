@@ -32,6 +32,7 @@ tags: [optimization, ml]
 - SIREN uses its own init U(-sqrt(6/n), sqrt(6/n)) with omega0=30 (source: Sitzmann 2020, §3.2). See [[SIREN]].
 - [[Glorot init (Glorot 2010)]].
 
+**Examples**: [[Optimizer test problems]] (see [[Examples catalogue]])
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/08_initialization.ipynb`, `01_optimization_problems.md`.
 **Last updated**: 2026-11-06

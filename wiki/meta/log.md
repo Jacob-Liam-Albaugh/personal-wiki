@@ -174,3 +174,9 @@
 - Updated: Diffusion models, Score matching, Langevin dynamics, Equivariance, Normalizing flows, KL divergence, Hamiltonian Monte Carlo, NUTS.
 - No new concept pages (none for Schrödinger bridge, Feynman-Kac, Girsanov, importance sampling, FAB, DDS or EGNN).
 - Gaps: read from extracted text; figures not seen; PIS appendix read only for App. G; iDEM appendix (pp. 10-27) not read.
+
+## [2026-11-18] index | Examples catalogue
+- Indexed `wiki/examples/` (62 pages and `examples.csv`): [[Examples catalogue]] plus one page per worked example or dataset from the ME 697 and ME 539 books (136 notebook uses grouped into 60 examples).
+- Added an Examples section to the index, and an `**Examples**:` back-link line on the 60 method and concept pages the examples link to.
+- CLAUDE.md: documented `wiki/examples/`, page type `example`, and area `me539`.
+- No new sources (the books were already listed); no source pages written.

@@ -460,6 +460,75 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Vector calculus for EM]] | concept | Vector calculus for EM |
 | [[Wave polarization]] | concept | Wave polarization |
 
+## Examples
+
+Worked examples and datasets from the ME 697 and ME 539 books, in `wiki/examples/`.
+
+| Page | Type | Title |
+|---|---|---|
+| [[Examples catalogue]] | overview | Examples catalogue |
+| [[A to B to C reaction]] | example | Tasks: inverse problem and calibration |
+| [[Active learning test functions]] | example | Tasks: active learning |
+| [[Airfoil self-noise]] | example | Tasks: regression |
+| [[Antiderivative operator (DeepONet)]] | example | Tasks: operator learning |
+| [[Autoinjector FE surrogate]] | example | Tasks: sensitivity analysis, surrogate modelling, variational inference |
+| [[Banana density]] | example | Tasks: sampling |
+| [[Bayesian optimisation 1D test function]] | example | Tasks: optimization |
+| [[Branin function]] | example | Tasks: surrogate modelling, optimization, active learning, regression |
+| [[Brownian motion, bridge and sheet]] | example | Tasks: stochastic simulation |
+| [[Burgers 1D operator benchmark]] | example | Tasks: operator learning |
+| [[California earthquakes]] | example | Tasks: inverse problem and calibration |
+| [[Cars on a bumpy road]] | example | Tasks: sampling, inverse problem and calibration |
+| [[Catalysis kinetics]] | example | Tasks: inverse problem and calibration, variational inference |
+| [[Challenger O-ring]] | example | Tasks: sampling, inverse problem and calibration, regression, variational inference |
+| [[Chwirut1 ultrasonic calibration]] | example | Tasks: regression |
+| [[CIFAR10]] | example | Tasks: classification |
+| [[Coal mining disasters]] | example | Tasks: sampling, inverse problem and calibration |
+| [[Cylinder flow Re 100 (DMD)]] | example | Tasks: system identification |
+| [[Darcy flow FNO]] | example | Tasks: operator learning, uncertainty propagation |
+| [[Duffing oscillator examples]] | example | Tasks: uncertainty propagation, surrogate modelling, sensitivity analysis, inverse problem and calibration, system identification, state estimation, sampling |
+| [[Exponential decay ODE with random inputs]] | example | Tasks: uncertainty propagation |
+| [[Fatigue life of 6061-T6 aluminium]] | example | Tasks: distribution fitting |
+| [[Floor vibration activity recognition]] | example | Tasks: classification |
+| [[Forced damped oscillator (Kalman)]] | example | Tasks: state estimation |
+| [[Gamma density (Laplace)]] | example | Tasks: inverse problem and calibration |
+| [[Gaussian random walk 2D]] | example | Tasks: stochastic simulation |
+| [[Handwritten digits (sklearn)]] | example | Tasks: classification |
+| [[Harmonic oscillator identifiability]] | example | Tasks: inverse problem and calibration, system identification |
+| [[HMX drop-weight sensitivity]] | example | Tasks: classification |
+| [[KLE of Gaussian processes]] | example | Tasks: dimensionality reduction |
+| [[Lagaris benchmarks]] | example | Tasks: physics-informed |
+| [[Lake Michigan waves]] | example | Tasks: distribution fitting |
+| [[Logistic map]] | example | Tasks: dynamical simulation |
+| [[Lorenz system examples]] | example | Tasks: uncertainty propagation, sensitivity analysis, system identification |
+| [[Manufactured 2D Poisson]] | example | Tasks: physics-informed |
+| [[MD stress-strain curve]] | example | Tasks: regression |
+| [[MNIST digits]] | example | Tasks: classification, dimensionality reduction, generative, clustering |
+| [[Motorcycle crash (mcycle)]] | example | Tasks: regression |
+| [[Multi-fidelity 2D synthetic function]] | example | Tasks: surrogate modelling |
+| [[Navier-Stokes POD (Wang-Perdikaris)]] | example | Tasks: dimensionality reduction |
+| [[Neo-Hookean hyperelasticity PINN]] | example | Tasks: physics-informed |
+| [[Object tracking point mass]] | example | Tasks: state estimation |
+| [[Optimizer test problems]] | example | Tasks: regression, optimization |
+| [[Parametric Poisson]] | example | Tasks: physics-informed |
+| [[PK two-compartment IV bolus]] | example | Tasks: inverse problem and calibration |
+| [[Planar arm inverse kinematics]] | example | Tasks: inverse problem and calibration, variational inference |
+| [[Planned and stub examples]] | example | Tasks: inverse problem and calibration, physics-informed |
+| [[Polynomial chaos 1D test functions]] | example | Tasks: surrogate modelling, uncertainty propagation |
+| [[Robert-Casella integral]] | example | Tasks: uncertainty propagation |
+| [[SINDy toy systems]] | example | Tasks: system identification |
+| [[Sparse regression (lasso and ridge)]] | example | Tasks: regression |
+| [[SPE10 permeability field]] | example | Tasks: dimensionality reduction |
+| [[Spectral bias 1D regression]] | example | Tasks: regression |
+| [[Steel plates faults]] | example | Tasks: dimensionality reduction, classification, clustering |
+| [[Stochastic 1D heat equation]] | example | Tasks: uncertainty propagation, surrogate modelling |
+| [[Stochastic cylinder flow (multi-fidelity)]] | example | Tasks: surrogate modelling |
+| [[SVD image compression]] | example | Tasks: dimensionality reduction |
+| [[Tetris shapes (e3nn)]] | example | Tasks: classification |
+| [[Trailer on a rough road]] | example | Tasks: uncertainty propagation, inverse problem and calibration |
+| [[Treasury yield (Vasicek)]] | example | Tasks: system identification |
+| [[Tumour growth (GBM)]] | example | Tasks: system identification |
+
 ## Planned pages (linked, not yet written)
 
 - [[confild-latent-diffusion]] — from Wang 2026; fill from Du et al. if added.

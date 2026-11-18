@@ -49,6 +49,7 @@ $$
 - The Gaussian marginal likelihood from the filter's innovations makes [[Expectation-maximization]] and likelihood calibration exact in the linear case.
 - The smoothing analogue is the Rauch-Tung-Striebel smoother **[unverified]**.
 
+**Examples**: [[Forced damped oscillator (Kalman)]] · [[Object tracking point mass]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/fs (ME 697 6.2)
 **Sources**: none in `text_books/advanced-scientific-machine-learning/book/`; context from `sinverse/fs/intro.md`.
 **Last updated**: 2026-11-06

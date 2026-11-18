@@ -45,6 +45,7 @@ tags: [optimization, ml]
 > [!example] Homework 1, problem 5: autoencoder (source: homework/01_homework.ipynb)
 > MNIST autoencoder, latent dimension 2, two hidden layers of 128 ReLU units, Equinox and Optax, Adam at $10^{-3}$, batch 32; then fit a 10-component Gaussian mixture to the latent space and sample from it.
 
+**Examples**: [[Airfoil self-noise]] · [[Autoinjector FE surrogate]] · [[Catalysis kinetics]] · [[Gamma density (Laplace)]] · [[Lagaris benchmarks]] · [[MNIST digits]] · [[Manufactured 2D Poisson]] · [[Multi-fidelity 2D synthetic function]] · [[Neo-Hookean hyperelasticity PINN]] · [[Optimizer test problems]] · [[PK two-compartment IV bolus]] · [[Planar arm inverse kinematics]] · [[Stochastic 1D heat equation]] · [[Tetris shapes (e3nn)]] (see [[Examples catalogue]])
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4); homework 1
 **Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`, `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `09_gpu_training.ipynb`.
 **Last updated**: 2026-11-06

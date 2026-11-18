@@ -47,6 +47,7 @@ As $t\to\infty$ the law tends to the stationary $N(\mu,\ \sigma^2/(2\lambda))$.
 
 **Wiki note**: the notebook's `estimate_sigma` computes `sqrt((2*lam*var)/1 - exp(-2*lam*t))`; the intended formula is $\sqrt{2\lambda\,\mathrm{var}/(1-e^{-2\lambda t})}$. Also $\lambda$ is in rescaled time. The "AR(1)" and "exponential covariance" remarks are standard facts, not stated in the source **[unverified here]**.
 
+**Examples**: [[Treasury yield (Vasicek)]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/sodes (ME 697 6.1)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`.
 **Last updated**: 2026-11-06

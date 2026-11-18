@@ -33,6 +33,7 @@ With an orthonormal expansion $f=\sum_\alpha c_\alpha\phi_\alpha$, variance is $
 > [!example] Homework 2, Duffing Sobol indices (source: homework/02_homework.ipynb)
 > Map each $\theta_i$ to a uniform $\xi_i$ through its CDF, then compute Sobol indices of the Duffing oscillator on $t\in[0,30]$ with step 0.1.
 
+**Examples**: [[Autoinjector FE surrogate]] · [[Branin function]] · [[Duffing oscillator examples]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1); homework 2
 **Sources**: `text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/07_sobol.ipynb`, `08_global_sensitivity_analysis.ipynb`; `up/surrogates/02_nn_surrogates.ipynb`, `text_books/advanced-scientific-machine-learning/book/up/intro.md`, `up/sensitivity_analysis/00_intro.md`.
 **Last updated**: 2026-11-06

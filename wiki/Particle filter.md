@@ -31,6 +31,7 @@ The bootstrap smoother keeps whole trajectories and conditions on all data, givi
 - The smoother is the E-step workhorse of [[Expectation-maximization]].
 - In the linear-Gaussian case the [[Kalman filter]] is exact and cheaper.
 
+**Examples**: [[Duffing oscillator examples]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/fs (ME 697 6.2)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `01_reading.md` (heading "Particle Filters" only), `text_books/advanced-scientific-machine-learning/book/sinverse/fs/intro.md`.
 **Last updated**: 2026-11-06

@@ -120,6 +120,7 @@ Lesson: PSNR compares pixels, so it penalises harmless geometric changes and is 
 
 
 
+**Examples**: [[SVD image compression]] (see [[Examples catalogue]])
 **Covered in**: ECE 438 IP.6, L34-L37 (courses/ECE 438/Topic IP.6 Image compression Apr 23, 2025.pdf); Reibman examples
 **Sources**: `courses/ECE 438/Topic IP.6 Image compression Apr 23, 2025.pdf`, `courses/ECE 438/reibman_purdue08-examples.pdf`, `courses/ECE 438/front page/L34 Apr 18, 2025.pdf`, `courses/ECE 438/front page/L35 Apr 21, 2025.pdf`, `courses/ECE 438/front page/L36 Apr 23, 2025.pdf`, `courses/ECE 438/front page/L37 Apr 25, 2025.pdf`.
 **Last updated**: 2026-11-06

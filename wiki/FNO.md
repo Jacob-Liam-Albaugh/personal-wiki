@@ -44,6 +44,7 @@ The JMLR Burgers numbers are about 8× lower than the ICLR ones. The JMLR run dr
 - [[Operator learning review (Kovachki 2024)]]: a nonlinear-manifold architecture.
 - Assigned reading and Burgers JAX tutorial link in [[Operator learning]] (source: `hup/op/01_reading.md`, `03_fno.ipynb`). Translation-equivariant convolution in Fourier space, compared with group symmetries in [[Equivariance]].
 
+**Examples**: [[Burgers 1D operator benchmark]] · [[Darcy flow FNO]] (see [[Examples catalogue]])
 **Sources**: `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`.
 **Last updated**: 2026-11-06
 

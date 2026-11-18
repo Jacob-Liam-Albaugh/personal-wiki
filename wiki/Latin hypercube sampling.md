@@ -28,6 +28,7 @@ tags: [uq, sampling]
 - Training and validation sets for a [[Surrogate model]]; multi-fidelity example data ([[Multi-fidelity modeling]]).
 - The Saltelli design behind [[Sobol indices]] in SALib.
 
+**Examples**: [[Exponential decay ODE with random inputs]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1)
 **Sources**: `text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/06_lhs.ipynb`, `07_sobol.ipynb`; `up/surrogates/01_basics_of_surrogate_models.md`.
 **Last updated**: 2026-11-06

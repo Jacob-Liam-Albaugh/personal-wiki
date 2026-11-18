@@ -26,6 +26,7 @@ It is fitted from 1000 points with noise 0.1 by an MLP of width 128, depth 4, ta
 - Data-manifold shape matters: high frequencies on a complex manifold can be low frequencies in input space (Rahaman 2019, §4).
 - Kernel-regime explanation: eigenvalues of the [[Neural tangent kernel]] decay with frequency, so high modes train slowly. Wiki note: this is the Tancik et al. argument.
 
+**Examples**: [[Manufactured 2D Poisson]] · [[Spectral bias 1D regression]] (see [[Examples catalogue]])
 **Covered in**: ASML book pinns/basics (ME 697 5.1)
 **Sources**: `papers/ML/Rahaman et.al. - On the Spectrial Bias of NNs.pdf`.
 **Last updated**: 2026-11-06

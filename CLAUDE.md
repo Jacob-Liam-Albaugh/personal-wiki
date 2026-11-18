@@ -39,6 +39,7 @@ courses/                       -- class material
 text_books/                    -- textbooks; its own git repo (git-lfs) -- read only
   advanced-scientific-machine-learning/ -- ME 697 jupyter-book repo; its own git repo -- read only
 wiki/                          -- markdown pages maintained by Claude (flat; the repo root is the Obsidian vault)
+wiki/examples/                 -- worked examples and datasets from the two Bilionis books; hub [[Examples catalogue]], raw rows examples.csv
 wiki/meta/                     -- navigation / bookkeeping scaffolding (hidden from graph by path)
 wiki/meta/index.md             -- table of contents for the whole wiki, one section per area
 wiki/meta/log.md               -- append-only record of all operations
@@ -79,6 +80,7 @@ Every content page has one primary `area` and may list more in `areas`. Area slu
 | `digital` | ECE 270 digital systems | `courses/ECE 270/` |
 | `em` | ECE 311 electromagnetics | `courses/ECE 311/` |
 | `me697` | ME 697 course book (`text_books/advanced-scientific-machine-learning/book/`) | course repo |
+| `me539` | ME 539 Intro SciML notebooks (`text_books/intro-to-scientific-machine-learning/notebooks/`) | course repo |
 
 A new folder gets a new slug, recorded here before it is used.
 
@@ -130,12 +132,14 @@ way as course notes (see Course notes).
 - `theorem` — a named theorem, proposition, or lemma worth a standalone page
 - `method` — an algorithm or model (SGLD, DeepONet, PINN, Adam, SINDy, ...)
 - `concept` — broader narrative pages: comparisons, families of methods, area overviews
+- `example` — one worked example or dataset and every notebook that uses it; lives in `wiki/examples/`,
+  frontmatter adds `data-origin`, `tasks` and `uses`. Method pages link back with an `**Examples**:` line.
 
 ### Frontmatter (required on every content page)
 
 ```yaml
 ---
-type: paper | definition | theorem | method | concept
+type: paper | definition | theorem | method | concept | example
 area: <slug>
 areas: [<slug>, ...]          # optional, extra areas
 source-ref: "<short pointer, e.g. 'Welling, Teh 2011, eq. 4' or 'Topic DSP.6, §3'>"

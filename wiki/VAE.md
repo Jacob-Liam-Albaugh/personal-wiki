@@ -26,6 +26,7 @@ tags: [generative, vi, ml]
 - [[VAE paper (Kingma 2014)]] (defines it) · [[Intro to VAEs (Kingma 2019)]] (background; VAE chapters missing from the PDF) · [[Priors in Bayesian deep learning (Fortuin 2022)]].
 - [[SINDy autoencoders (Champion 2019)]] and [[SINDy delay autoencoders (Bakarji 2022)]] use autoencoders to find latent coordinates where dynamics are sparse; [[Neural ODEs (Chen 2018)]] introduces a latent-ODE generative model.
 
+**Examples**: [[MNIST digits]] (see [[Examples catalogue]])
 **Sources**: `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `papers/Bayesian/Kingma, Welling - Intro to Variational Autoencoders.pdf`.
 **Last updated**: 2026-11-06
 
