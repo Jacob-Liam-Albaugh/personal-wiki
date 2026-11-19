@@ -508,6 +508,7 @@ Worked examples and datasets from the ME 697 and ME 539 books, in `wiki/examples
 | [[Dry friction (EMPS rig)]] | example | Planned. Tasks: system identification |
 | [[Duffing oscillator examples]] | example | Tasks: uncertainty propagation, surrogate modelling, sensitivity analysis, inverse problem and calibration, system identification, state estimation, sampling |
 | [[Dynamical systems table]] | overview | Dynamical system types with examples and gaps |
+| [[Lab evaluation metrics]] | overview | Metrics and baselines used across lab papers |
 | [[Earthquake aftershocks (Hawkes, ETAS)]] | example | Planned. Tasks: inverse problem and calibration |
 | [[Earthquake counts (Poisson hidden Markov model)]] | example | Planned. Tasks: inverse problem and calibration |
 | [[ENSO delayed oscillator]] | example | Planned. Tasks: inverse problem and calibration |
