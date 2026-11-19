@@ -8,7 +8,7 @@ tags: [uq, inverse-problems, bayesian, sampling, ml]
 
 # Examples catalogue
 
-**Summary**: Every worked example and dataset in the two Bilionis books, 136 notebook uses grouped into 60 examples. Pick a task below to see which examples the books use for it. Intro-book toy examples (coin flips, basic probability) are left out. A further 47 examples from lab papers, with source and data links, are in [[#Examples from lab papers]].
+**Summary**: Every worked example and dataset in the two Bilionis books, 136 notebook uses grouped into 60 examples. Pick a task below to see which examples the books use for it. Intro-book toy examples (coin flips, basic probability) are left out. A further 47 examples from lab papers, with source and data links, are in [[#Examples from lab papers]]. A further 51 planned examples that fill the gaps in the [[Dynamical systems table]] are in [[#Planned examples]].
 
 **Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book`, `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks`. Raw rows: `wiki/examples/examples.csv`.
 **Last updated**: 2026-11-19
@@ -215,6 +215,64 @@ Examples used in papers by Ilias, Alex, Max, Atharva, Abhishek, Motahareh and We
 | Synthetic aneurysm CFD, Poiseuille tube, in-vivo patient | yes | Atharva, Abhishek, Ilias | [SMURF 4D-flow MRI (2025)](https://arxiv.org/abs/2505.12494), [VAST 4D-flow MRI (2026)](https://arxiv.org/abs/2601.13393) | none found |  |
 | Burgers vortex, 3,000 particles | yes | Atharva, Ilias | [UOT particle tracking (2024)](https://arxiv.org/abs/2407.04583) | none found (generated in the paper) |  |
 | Pipe flow, Re 630 | yes | Atharva | [3D particle reconstruction (2024)](https://doi.org/10.1088/1361-6501/ad6624) | none found (journal's data statement not read) |  |
+
+## Planned examples
+
+Not built yet. Each fills a gap in the [[Dynamical systems table]] and has its own page. Every link was opened by script on 2026-11-19; "resolved" means the page loaded, not that the contents were read. Models and papers on the pages are **[unverified]**.
+
+| Example | Gap filled | Data | Links | Link check |
+|---|---|---|---|---|
+| [[Lévy-process asset returns]] | Jump process | real | [Kenneth French daily market factors](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_daily_CSV.zip) | all resolved |
+| [[Lévy option-smile calibration]] | Jump process | real | [CBOE delayed SPX option chain](https://cdn.cboe.com/api/global/delayed_quotes/options/_SPX.json) | all resolved |
+| [[Merton and Kou jump-diffusion]] | Jump noise | real | [Kenneth French daily market factors](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_daily_CSV.zip); [FRED SP500 (last 10 years)](https://fred.stlouisfed.org/series/SP500) | FRED SP500 (last 10 years): timed out for a script; open in a browser |
+| [[Bates stochastic volatility with jumps]] | Jump noise | real | [FRED VIXCLS](https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS); [Kenneth French daily market factors](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_daily_CSV.zip) | FRED VIXCLS: timed out for a script; open in a browser |
+| [[Intraday jumps (Bitcoin 1-minute)]] | Jump noise | real | [Binance public klines](https://data.binance.vision/data/spot/daily/klines/BTCUSDT/1m/BTCUSDT-1m-2024-01-02.zip) | all resolved |
+| [[Nagel-Schreckenberg traffic]] | Cellular automaton | real | [NGSIM vehicle trajectories](https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj) | all resolved |
+| [[Wildfire spread cellular automaton]] | Cellular automaton | real | [NIFC fire perimeters](https://data-nifc.opendata.arcgis.com/datasets/nifc::wfigs-interagency-fire-perimeters/about); [Grieshop and Wikle 2023](https://arxiv.org/abs/2306.03214) | all resolved |
+| [[RC thermal network (ecobee homes)]] | Hybrid / non-smooth | real | [ecobee Donate Your Data (OSTI record)](https://www.osti.gov/biblio/1854924) | all resolved |
+| [[RC thermal network (NIST Net-Zero house)]] | Hybrid / non-smooth | real | [NIST Net-Zero data](https://pages.nist.gov/netzero/data.html) | all resolved |
+| [[RC thermal network (Twin Houses)]] | Hybrid / non-smooth | real | [Twin Houses, Fraunhofer (CC BY-SA 4.0)](https://fordatis.fraunhofer.de/handle/fordatis/161); [Twin Houses experiment 1, Strathclyde (CC BY 4.0)](https://pureportal.strath.ac.uk/en/datasets/twin-houses-empirical-dataset-experiment-1) | all resolved |
+| [[Dry friction (EMPS rig)]] | Hybrid / non-smooth | real | [EMPS benchmark](https://www.nonlinearbenchmark.org/benchmarks/emps); [nonlinear_benchmarks loader](https://github.com/MaartenSchoukens/nonlinear_benchmarks) | all resolved |
+| [[Stick-slip laboratory earthquake]] | Hybrid / non-smooth | real | [LANL earthquake data on Kaggle](https://www.kaggle.com/c/LANL-Earthquake-Prediction/data); [Johnson et al. 2021](https://doi.org/10.1073/pnas.2011362118) | LANL earthquake data on Kaggle: page loads; download needs a Kaggle login; Johnson et al. 2021: publisher bot wall (403); not read |
+| [[Stochastic PDEs in time]] | SPDE in time | synthetic | [torchspde](https://github.com/crispitagorico/torchspde); [OSF copy](https://osf.io/ahn6v/); [Neural SPDEs paper](https://arxiv.org/abs/2110.10249) | OSF copy: page loads, but the OSF API asks for a login; may be private |
+| [[Ammonia inversion (double-well tunnelling)]] | Quantum | real | [JPL catalogue entry 17002](https://spec.jpl.nasa.gov/ftp/pub/catalog/doc/d017002.cat) | all resolved |
+| [[Rabi oscillation (trapped ion)]] | Quantum | real | [Zenodo record 15797402](https://zenodo.org/records/15797402) | all resolved |
+| [[Kuramoto oscillators (power grid)]] | Interacting particles | real | [Power grid frequency database](https://osf.io/by5hu/); [Rydin Gorjão et al. 2020](https://arxiv.org/abs/2006.01771) | all resolved |
+| [[Flocking (schooling fish)]] | Interacting particles | real | [Schooling-fish trajectories, Zenodo 10890112](https://zenodo.org/records/10890112); [Paper](https://arxiv.org/abs/2305.17108); [Chimney swift flock (3D, 897 MB)](https://zenodo.org/record/5084183); [Jülich pedestrian archive](https://ped.fz-juelich.de/da/doku.php) | all resolved |
+| [[Fermi-Pasta-Ulam-Tsingou chain]] | Interacting particles | synthetic | [Dauxois 2008 (history)](https://arxiv.org/abs/0801.1590) | all resolved |
+| [[Double pendulum]] | Conservative | real | [IBM double pendulum chaotic dataset](https://developer.ibm.com/exchanges/data/all/double-pendulum-chaotic/) | IBM double pendulum chaotic dataset: landing page loads, but the project page is gone and the download host does not resolve; the data may no longer be downloadable |
+| [[Two-body orbit (S2 star)]] | Conservative | real | [Gillessen et al. 2017](https://arxiv.org/abs/1611.09144); [JPL Horizons](https://ssd.jpl.nasa.gov/horizons/) | all resolved |
+| [[Hénon-Heiles]] | Conservative | synthetic | none | no links |
+| [[Old Faithful eruptions (Markov chain)]] | Markov chain | real | [R faithful](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/faithful.html) | all resolved |
+| [[Wet and dry day rainfall chain]] | Markov chain | real | [NOAA GHCN-Daily](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily) | all resolved |
+| [[Ion-channel gating (hidden Markov model)]] | Markov chain | real | [R ionChannelData](https://rolfturner.r-universe.dev/ionChannelData) | R ionChannelData: page refuses scripts (403); the r-universe API confirms the package, version 0.0-3 |
+| [[Earthquake counts (Poisson hidden Markov model)]] | Markov chain | real | [hmmlearn example with the counts](https://hmmlearn.readthedocs.io/en/stable/auto_examples/plot_poisson_hmm.html) | all resolved |
+| [[Ising model (retina spikes)]] | Markov chain | real | [ISTA record 5562](https://research-explorer.ista.ac.at/record/5562) | all resolved |
+| [[Earthquake aftershocks (Hawkes, ETAS)]] | Point process | real | [USGS ComCat API](https://earthquake.usgs.gov/fdsnws/event/1/); [R PtProcess catalogues](https://cran.r-project.org/web/packages/PtProcess/index.html); [R ETAS fitter](https://cran.r-project.org/web/packages/ETAS/index.html) | all resolved |
+| [[Nicholson's blowflies (delayed logistic)]] | Delay / memory | real | [pomp blowflies](https://kingaa.github.io/manuals/pomp/html/blowflies.html) | all resolved |
+| [[ENSO delayed oscillator]] | Delay / memory | real | [NOAA CPC indices](https://www.cpc.ncep.noaa.gov/data/indices/sstoi.indices) | all resolved |
+| [[Mackey-Glass]] | Delay / memory | synthetic | none | no links |
+| [[Generalised Langevin equation]] | Delay / memory | synthetic | none | no links |
+| [[Power-grid swing dynamics]] | Differential-algebraic | real | [ISO-NE oscillation cases](https://web.eecs.utk.edu/~kaisun/Oscillation/actualcases.html) | all resolved |
+| [[Tennessee Eastman process]] | Differential-algebraic | synthetic | [Rieth et al. dataset, Harvard Dataverse](https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/6C3JR1) | all resolved |
+| [[Constrained pendulum and RLC circuit]] | Differential-algebraic | synthetic | none | no links |
+| [[Tides (quasi-periodic)]] | Quasi-periodic | real | [NOAA CO-OPS API](https://api.tidesandcurrents.noaa.gov/api/prod/) | all resolved |
+| [[Blazhko RR Lyrae stars]] | Quasi-periodic | real | [Kepler at MAST](https://archive.stsci.edu/missions-and-data/kepler) | all resolved |
+| [[Sunspot cycle]] | Quasi-periodic | real | [SILSO data files](https://www.sidc.be/SILSO/datafiles) | all resolved |
+| [[Torus flow, circle map and standard map]] | Quasi-periodic | synthetic | none | no links |
+| [[FitzHugh-Nagumo (neuron voltage)]] | Multiscale / stiff | real | [Allen Cell Types database](https://celltypes.brain-map.org/) | all resolved |
+| [[Oregonator (Belousov-Zhabotinsky reaction)]] | Multiscale / stiff | real | [Lathrop and Kostelich series (UMD)](https://complex.umd.edu/data.html) | all resolved |
+| [[Stiff ODE test problems]] | Multiscale / stiff | synthetic | none | no links |
+| [[Van der Pol oscillator]] | Canonical | synthetic | [Silverbox benchmark](https://www.nonlinearbenchmark.org/benchmarks/silverbox); [Circuit paper, no data](https://arxiv.org/abs/1904.11289) | all resolved |
+| [[Lotka-Volterra (lynx and hare)]] | Canonical | real | [Stan CSV, 1900-1920](https://raw.githubusercontent.com/stan-dev/example-models/master/knitr/lotka-volterra/hudson-bay-lynx-hare.csv); [R pelt, 1845-1935](https://tsibbledata.tidyverts.org/reference/pelt.html); [Stan case study](https://mc-stan.org/learn-stan/case-studies/lotka-volterra-predator-prey.html) | all resolved |
+| [[SIR epidemic (boarding school influenza)]] | Canonical | real | [Boarding-school influenza data](https://r-packages.io/datasets/influenza_england_1978_school); [Eyam plague 1666 (8 rows)](https://rdrr.io/cran/MultiBD/man/Eyam.html) | all resolved |
+| [[Double-well SDE (ice-core record)]] | Canonical | real | [NGRIP d18O (NOAA)](https://www.ncei.noaa.gov/pub/data/paleo/icecore/greenland/summit/ngrip/gicc05-20yr.txt) | all resolved |
+| [[Kuramoto-Sivashinsky]] | Canonical | synthetic | none | no links |
+| [[Wave equation]] | Canonical | real | [Bowed cello string, Zenodo 1302894](https://doi.org/10.5281/zenodo.1302894); [SAGE seismic data centre](https://ds.iris.edu/ds/nodes/dmc/data/) | all resolved |
+| [[Fisher-KPP (scratch assay)]] | Canonical | real | [BINNs repository](https://github.com/jlager/BINNs); [Lagergren et al. 2020](https://arxiv.org/abs/2005.13073) | all resolved |
+| [[Gray-Scott]] | Canonical | synthetic | [xmorphia reference patterns](https://www.mrob.com/pub/comp/xmorphia/) | all resolved |
+| [[Korteweg-de Vries]] | Canonical | synthetic | none | no links |
+| [[Lorenz 96]] | Canonical | synthetic | [DAPPER](https://github.com/nansencenter/DAPPER) | all resolved |
 
 ## Related pages
 - [[Dynamical systems table]]

@@ -483,10 +483,13 @@ Worked examples and datasets from the ME 697 and ME 539 books, in `wiki/examples
 | [[A to B to C reaction]] | example | Tasks: inverse problem and calibration |
 | [[Active learning test functions]] | example | Tasks: active learning |
 | [[Airfoil self-noise]] | example | Tasks: regression |
+| [[Ammonia inversion (double-well tunnelling)]] | example | Planned. Tasks: inverse problem and calibration |
 | [[Antiderivative operator (DeepONet)]] | example | Tasks: operator learning |
 | [[Autoinjector FE surrogate]] | example | Tasks: sensitivity analysis, surrogate modelling, variational inference |
 | [[Banana density]] | example | Tasks: sampling |
+| [[Bates stochastic volatility with jumps]] | example | Planned. Tasks: inverse problem and calibration, state estimation |
 | [[Bayesian optimisation 1D test function]] | example | Tasks: optimization |
+| [[Blazhko RR Lyrae stars]] | example | Planned. Tasks: inverse problem and calibration |
 | [[Branin function]] | example | Tasks: surrogate modelling, optimization, active learning, regression |
 | [[Brownian motion, bridge and sheet]] | example | Tasks: stochastic simulation |
 | [[Burgers 1D operator benchmark]] | example | Tasks: operator learning |
@@ -497,50 +500,99 @@ Worked examples and datasets from the ME 697 and ME 539 books, in `wiki/examples
 | [[Chwirut1 ultrasonic calibration]] | example | Tasks: regression |
 | [[CIFAR10]] | example | Tasks: classification |
 | [[Coal mining disasters]] | example | Tasks: sampling, inverse problem and calibration |
+| [[Constrained pendulum and RLC circuit]] | example | Planned. Tasks: dynamical simulation |
 | [[Cylinder flow Re 100 (DMD)]] | example | Tasks: system identification |
 | [[Darcy flow FNO]] | example | Tasks: operator learning, uncertainty propagation |
+| [[Double pendulum]] | example | Planned. Tasks: system identification, dynamical simulation |
+| [[Double-well SDE (ice-core record)]] | example | Planned. Tasks: inverse problem and calibration, system identification |
+| [[Dry friction (EMPS rig)]] | example | Planned. Tasks: system identification |
 | [[Duffing oscillator examples]] | example | Tasks: uncertainty propagation, surrogate modelling, sensitivity analysis, inverse problem and calibration, system identification, state estimation, sampling |
+| [[Dynamical systems table]] | overview | Dynamical system types with examples and gaps |
+| [[Earthquake aftershocks (Hawkes, ETAS)]] | example | Planned. Tasks: inverse problem and calibration |
+| [[Earthquake counts (Poisson hidden Markov model)]] | example | Planned. Tasks: inverse problem and calibration |
+| [[ENSO delayed oscillator]] | example | Planned. Tasks: inverse problem and calibration |
 | [[Exponential decay ODE with random inputs]] | example | Tasks: uncertainty propagation |
 | [[Fatigue life of 6061-T6 aluminium]] | example | Tasks: distribution fitting |
+| [[Fermi-Pasta-Ulam-Tsingou chain]] | example | Planned. Tasks: dynamical simulation |
+| [[Fisher-KPP (scratch assay)]] | example | Planned. Tasks: inverse problem and calibration, physics-informed |
+| [[FitzHugh-Nagumo (neuron voltage)]] | example | Planned. Tasks: inverse problem and calibration, system identification |
+| [[Flocking (schooling fish)]] | example | Planned. Tasks: system identification |
 | [[Floor vibration activity recognition]] | example | Tasks: classification |
 | [[Forced damped oscillator (Kalman)]] | example | Tasks: state estimation |
 | [[Gamma density (Laplace)]] | example | Tasks: inverse problem and calibration |
 | [[Gaussian random walk 2D]] | example | Tasks: stochastic simulation |
+| [[Generalised Langevin equation]] | example | Planned. Tasks: stochastic simulation, system identification |
+| [[Gray-Scott]] | example | Planned. Tasks: dynamical simulation |
 | [[Handwritten digits (sklearn)]] | example | Tasks: classification |
 | [[Harmonic oscillator identifiability]] | example | Tasks: inverse problem and calibration, system identification |
 | [[HMX drop-weight sensitivity]] | example | Tasks: classification |
+| [[Hénon-Heiles]] | example | Planned. Tasks: dynamical simulation |
+| [[Intraday jumps (Bitcoin 1-minute)]] | example | Planned. Tasks: inverse problem and calibration |
+| [[Ion-channel gating (hidden Markov model)]] | example | Planned. Tasks: state estimation, inverse problem and calibration |
+| [[Ising model (retina spikes)]] | example | Planned. Tasks: inverse problem and calibration, sampling |
 | [[KLE of Gaussian processes]] | example | Tasks: dimensionality reduction |
+| [[Korteweg-de Vries]] | example | Planned. Tasks: dynamical simulation |
+| [[Kuramoto oscillators (power grid)]] | example | Planned. Tasks: system identification, inverse problem and calibration |
+| [[Kuramoto-Sivashinsky]] | example | Planned. Tasks: dynamical simulation, operator learning |
 | [[Lagaris benchmarks]] | example | Tasks: physics-informed |
 | [[Lake Michigan waves]] | example | Tasks: distribution fitting |
 | [[Logistic map]] | example | Tasks: dynamical simulation |
+| [[Lorenz 96]] | example | Planned. Tasks: state estimation, dynamical simulation |
 | [[Lorenz system examples]] | example | Tasks: uncertainty propagation, sensitivity analysis, system identification |
+| [[Lotka-Volterra (lynx and hare)]] | example | Planned. Tasks: inverse problem and calibration |
+| [[Lévy option-smile calibration]] | example | Planned. Tasks: inverse problem and calibration |
+| [[Lévy-process asset returns]] | example | Planned. Tasks: inverse problem and calibration, stochastic simulation |
+| [[Mackey-Glass]] | example | Planned. Tasks: dynamical simulation |
 | [[Manufactured 2D Poisson]] | example | Tasks: physics-informed |
 | [[MD stress-strain curve]] | example | Tasks: regression |
+| [[Merton and Kou jump-diffusion]] | example | Planned. Tasks: inverse problem and calibration, stochastic simulation |
 | [[MNIST digits]] | example | Tasks: classification, dimensionality reduction, generative, clustering |
 | [[Motorcycle crash (mcycle)]] | example | Tasks: regression |
 | [[Multi-fidelity 2D synthetic function]] | example | Tasks: surrogate modelling |
+| [[Nagel-Schreckenberg traffic]] | example | Planned. Tasks: inverse problem and calibration, dynamical simulation |
 | [[Navier-Stokes POD (Wang-Perdikaris)]] | example | Tasks: dimensionality reduction |
 | [[Neo-Hookean hyperelasticity PINN]] | example | Tasks: physics-informed |
+| [[Nicholson's blowflies (delayed logistic)]] | example | Planned. Tasks: inverse problem and calibration, system identification |
 | [[Object tracking point mass]] | example | Tasks: state estimation |
+| [[Old Faithful eruptions (Markov chain)]] | example | Planned. Tasks: inverse problem and calibration |
 | [[Optimizer test problems]] | example | Tasks: regression, optimization |
+| [[Oregonator (Belousov-Zhabotinsky reaction)]] | example | Planned. Tasks: inverse problem and calibration, system identification |
 | [[Parametric Poisson]] | example | Tasks: physics-informed |
 | [[PK two-compartment IV bolus]] | example | Tasks: inverse problem and calibration |
 | [[Planar arm inverse kinematics]] | example | Tasks: inverse problem and calibration, variational inference |
 | [[Planned and stub examples]] | example | Tasks: inverse problem and calibration, physics-informed |
 | [[Polynomial chaos 1D test functions]] | example | Tasks: surrogate modelling, uncertainty propagation |
+| [[Power-grid swing dynamics]] | example | Planned. Tasks: system identification |
+| [[Rabi oscillation (trapped ion)]] | example | Planned. Tasks: inverse problem and calibration |
+| [[RC thermal network (ecobee homes)]] | example | Planned. Tasks: system identification, state estimation |
+| [[RC thermal network (NIST Net-Zero house)]] | example | Planned. Tasks: system identification, state estimation |
+| [[RC thermal network (Twin Houses)]] | example | Planned. Tasks: system identification |
 | [[Robert-Casella integral]] | example | Tasks: uncertainty propagation |
 | [[SINDy toy systems]] | example | Tasks: system identification |
+| [[SIR epidemic (boarding school influenza)]] | example | Planned. Tasks: inverse problem and calibration |
 | [[Sparse regression (lasso and ridge)]] | example | Tasks: regression |
 | [[SPE10 permeability field]] | example | Tasks: dimensionality reduction |
 | [[Spectral bias 1D regression]] | example | Tasks: regression |
 | [[Steel plates faults]] | example | Tasks: dimensionality reduction, classification, clustering |
+| [[Stick-slip laboratory earthquake]] | example | Planned. Tasks: state estimation |
+| [[Stiff ODE test problems]] | example | Planned. Tasks: dynamical simulation |
 | [[Stochastic 1D heat equation]] | example | Tasks: uncertainty propagation, surrogate modelling |
 | [[Stochastic cylinder flow (multi-fidelity)]] | example | Tasks: surrogate modelling |
+| [[Stochastic PDEs in time]] | example | Planned. Tasks: stochastic simulation, operator learning |
+| [[Sunspot cycle]] | example | Planned. Tasks: inverse problem and calibration |
 | [[SVD image compression]] | example | Tasks: dimensionality reduction |
+| [[Tennessee Eastman process]] | example | Planned. Tasks: state estimation, classification |
 | [[Tetris shapes (e3nn)]] | example | Tasks: classification |
+| [[Tides (quasi-periodic)]] | example | Planned. Tasks: inverse problem and calibration |
+| [[Torus flow, circle map and standard map]] | example | Planned. Tasks: dynamical simulation |
 | [[Trailer on a rough road]] | example | Tasks: uncertainty propagation, inverse problem and calibration |
 | [[Treasury yield (Vasicek)]] | example | Tasks: system identification |
 | [[Tumour growth (GBM)]] | example | Tasks: system identification |
+| [[Two-body orbit (S2 star)]] | example | Planned. Tasks: inverse problem and calibration |
+| [[Van der Pol oscillator]] | example | Planned. Tasks: system identification, dynamical simulation |
+| [[Wave equation]] | example | Planned. Tasks: inverse problem and calibration |
+| [[Wet and dry day rainfall chain]] | example | Planned. Tasks: inverse problem and calibration, stochastic simulation |
+| [[Wildfire spread cellular automaton]] | example | Planned. Tasks: inverse problem and calibration, dynamical simulation |
 
 ## Planned pages (linked, not yet written)
 

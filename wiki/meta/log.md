@@ -197,3 +197,10 @@
 - [[Monte Carlo bounding for stochastic programs (Mak 1999)]] and new method page [[Sample average approximation]]: statistical optimality-gap bounds with common random numbers.
 - [[Amortized VI systematic review (Ganguly 2023)]]: survey; inference gap = approximation + amortization gap.
 - Back-links added on 16 concept and paper pages. The Neural information field filter PDF given was the accepted manuscript of the paper already ingested ([[Neural information field filter (Hao 2025)]]); not added.
+
+## [2026-11-19] examples | Lab-paper examples, dynamical systems table, planned examples
+- [[Examples catalogue]]: added 47 examples from lab papers (source and data links) and a Planned examples section; `examples.csv` gained 47 `paper` rows and 51 `planned` rows.
+- New overview [[Dynamical systems table]]: system types by axis, equation class and property, with the catalogue examples placed on it and the gaps listed.
+- 51 new `example` pages with `status: lead` for planned examples that fill those gaps (jump processes, cellular automata, hybrid and non-smooth, SPDEs, quantum, interacting particles, conservative, Markov chains, point processes, delay, differential-algebraic, quasi-periodic, multiscale, and ten canonical systems). Written from web search, not from ingested sources.
+- Link check: 62 data links opened by script; 55 resolved, 7 flagged on their pages (FRED times out for scripts, IBM double pendulum download looks dead, one OSF copy may be private, Kaggle needs a login, two bot walls).
+- Index: added the 51 pages and the table page to the Examples section. No sources added.
