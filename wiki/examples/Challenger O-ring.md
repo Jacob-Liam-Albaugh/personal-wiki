@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in Intro SciML (ME 539). Data: real. Tasks: sampling, inverse problem and calibration, regression, variational inference.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/27 - Sampling Methods/hands-on-27.4.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/27 - Sampling Methods/hands-on-27.4.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Challenger O-ring failure, logistic regression with NUTS
 
-`text_books/intro-to-scientific-machine-learning/notebooks/27 - Sampling Methods/hands-on-27.4.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/27 - Sampling Methods/hands-on-27.4.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Bayesian logistic regression
@@ -39,7 +39,7 @@ uses: 2
 
 ## Challenger O-ring with variational inference
 
-`text_books/intro-to-scientific-machine-learning/notebooks/28 - Variational Inference/hands-on-28.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/28 - Variational Inference/hands-on-28.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Bayesian logistic regression

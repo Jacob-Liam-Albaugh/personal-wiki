@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: analytic. Tasks: stochastic simulation.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/sodes/02_bm.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/02_bm.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Brownian motion, bridge and sheet
 
-`text_books/advanced-scientific-machine-learning/book/sinverse/sodes/02_bm.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/02_bm.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: sampling

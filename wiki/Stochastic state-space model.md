@@ -53,8 +53,9 @@ The likelihood $p_\theta(y_{1:T})$ is an integral over all state paths, which is
 
 **Examples**: [[Duffing oscillator examples]] · [[Object tracking point mass]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/fs (ME 697 6.2); ASML book sinverse/cali (ME 697 6.3)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `sinverse/cali/02_em_example.ipynb`, `04_pmcmc_example.ipynb`.
-**Last updated**: 2026-11-06
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `sinverse/cali/02_em_example.ipynb`, `04_pmcmc_example.ipynb`.
+**Further reading**: Särkkä 2013 ch. 4 (state-space models), ch. 12 (parameter estimation), `text_books/Machine Learning & Statistics/Sarkka - Bayseian Filtering and Smoothing.pdf`; Murphy PML2 ch. 29, `text_books/Machine Learning & Statistics/Murphy - Probabilistic Machine Learning Advanced Topics.pdf`; ME 539 book ch. 19-20, `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/intro-to-scientific-machine-learning.pdf`.
+**Last updated**: 2026-11-19
 
 ---
 

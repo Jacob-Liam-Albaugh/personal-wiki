@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in Intro SciML (ME 539). Data: real. Tasks: sampling, inverse problem and calibration.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/27 - Sampling Methods/hands-on-27.4.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/27 - Sampling Methods/hands-on-27.4.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Coal mining disasters change-point
 
-`text_books/intro-to-scientific-machine-learning/notebooks/27 - Sampling Methods/hands-on-27.4.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/27 - Sampling Methods/hands-on-27.4.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Bayesian change-point

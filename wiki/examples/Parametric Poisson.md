@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: analytic. Tasks: physics-informed.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/pinns/parametric/parametric_example.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/parametric/parametric_example.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Parametric Poisson on unit square (branch-trunk PINN)
 
-`text_books/advanced-scientific-machine-learning/book/pinns/parametric/parametric_example.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/parametric/parametric_example.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: PINN forward solve (parametric)

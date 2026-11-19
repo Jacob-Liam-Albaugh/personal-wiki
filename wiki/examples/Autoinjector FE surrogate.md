@@ -14,14 +14,14 @@ uses: 3
 **Summary**: 3 uses in ASML (ME 697). Data: simulated. Tasks: sensitivity analysis, surrogate modelling, variational inference.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/surrogates/02_nn_surrogates.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/surrogates/02_nn_surrogates.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Autoinjector FE model surrogate (neural network + Sobol)
 
-`text_books/advanced-scientific-machine-learning/book/up/surrogates/02_nn_surrogates.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/surrogates/02_nn_surrogates.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: surrogate modelling; sensitivity analysis
@@ -40,7 +40,7 @@ uses: 3
 
 ## Autoinjector FE model surrogate (exact GP)
 
-`text_books/advanced-scientific-machine-learning/book/up/surrogates/03_gp_surrogates.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/surrogates/03_gp_surrogates.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: surrogate modelling
@@ -59,7 +59,7 @@ uses: 3
 
 ## Autoinjector FE model surrogate (sparse variational GP)
 
-`text_books/advanced-scientific-machine-learning/book/up/surrogates/04_gpr_large_data.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/surrogates/04_gpr_large_data.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: surrogate modelling (large data)

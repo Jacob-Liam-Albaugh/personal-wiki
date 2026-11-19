@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: analytic. Tasks: inverse problem and calibration.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/basics/04_laplace_approximation_gen.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/basics/04_laplace_approximation_gen.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Gamma density Laplace approximation
 
-`text_books/advanced-scientific-machine-learning/book/inverse/basics/04_laplace_approximation_gen.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/basics/04_laplace_approximation_gen.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Posterior approximation (1D toy)

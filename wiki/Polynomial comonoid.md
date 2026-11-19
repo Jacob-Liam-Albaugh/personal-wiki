@@ -63,7 +63,7 @@ The book closes with fourteen unorganised questions (the authors say they may or
 - Databases: (7) how static databases and dynamical systems interact (reading and writing); (8) database aggregation done dynamically.
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 7 (pp. 228-277); ch. 8 (pp. 328-338); ch. 9 (pp. 349-350)
-**Sources**: Niu, Spivak, Polynomial Functors (2024), ch. 7, 8, 9; Spivak, Poly (2020); `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`. Page numbers are printed pages.
+**Sources**: Niu, Spivak, Polynomial Functors (2024), ch. 7, 8, 9; Spivak, Poly (2020); `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`. Page numbers are printed pages.
 **Last updated**: 2026-11-06
 
 ---

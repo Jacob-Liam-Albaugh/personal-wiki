@@ -39,7 +39,7 @@ Retrofunctors are exactly the comonoid morphisms of Def 7.49, so $\mathsf{Cat}^\
 Combinatorial description of limits in $\mathsf{Cat}^\sharp$, and whether $U$ (faithful, so it reflects monos) detects all monos: see the open questions on [[Polynomial comonoid]].
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 7 (pp. 254-270); ch. 8 (pp. 320-327)
-**Sources**: `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
+**Sources**: `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
 **Last updated**: 2026-11-06
 
 ---

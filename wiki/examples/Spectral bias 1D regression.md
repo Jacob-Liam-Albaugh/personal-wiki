@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: synthetic. Tasks: regression.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/pinns/basics/spectral_bias.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/basics/spectral_bias.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Spectral bias: 1D noisy two-frequency regression
 
-`text_books/advanced-scientific-machine-learning/book/pinns/basics/spectral_bias.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/basics/spectral_bias.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: regression

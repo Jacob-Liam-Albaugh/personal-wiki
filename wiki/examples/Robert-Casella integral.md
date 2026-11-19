@@ -14,14 +14,14 @@ uses: 7
 **Summary**: 7 uses in Intro SciML (ME 539). Data: analytic. Tasks: uncertainty propagation.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/08 - The Monte Carlo Method for Estimating Expectations/hands-on-08.3.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/08 - The Monte Carlo Method for Estimating Expectations/hands-on-08.3.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Robert-Casella 1D oscillatory integral
 
-`text_books/intro-to-scientific-machine-learning/notebooks/08 - The Monte Carlo Method for Estimating Expectations/hands-on-08.3.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/08 - The Monte Carlo Method for Estimating Expectations/hands-on-08.3.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Monte Carlo expectation
@@ -39,7 +39,7 @@ uses: 7
 
 ## Robert-Casella 1D oscillatory integral
 
-`text_books/intro-to-scientific-machine-learning/notebooks/08 - The Monte Carlo Method for Estimating Expectations/hands-on-08.4.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/08 - The Monte Carlo Method for Estimating Expectations/hands-on-08.4.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Monte Carlo variance
@@ -57,7 +57,7 @@ uses: 7
 
 ## Robert-Casella 1D oscillatory integral
 
-`text_books/intro-to-scientific-machine-learning/notebooks/09 - Monte Carlo Estimates of Various Statistics/hands-on-09.1.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/09 - Monte Carlo Estimates of Various Statistics/hands-on-09.1.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Monte Carlo CDF estimation
@@ -74,7 +74,7 @@ uses: 7
 
 ## Robert-Casella 1D oscillatory integral
 
-`text_books/intro-to-scientific-machine-learning/notebooks/09 - Monte Carlo Estimates of Various Statistics/hands-on-09.2.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/09 - Monte Carlo Estimates of Various Statistics/hands-on-09.2.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Monte Carlo PDF estimation
@@ -91,7 +91,7 @@ uses: 7
 
 ## Robert-Casella 1D oscillatory integral
 
-`text_books/intro-to-scientific-machine-learning/notebooks/09 - Monte Carlo Estimates of Various Statistics/hands-on-09.3.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/09 - Monte Carlo Estimates of Various Statistics/hands-on-09.3.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Monte Carlo quantile estimation
@@ -108,7 +108,7 @@ uses: 7
 
 ## Robert-Casella 1D oscillatory integral
 
-`text_books/intro-to-scientific-machine-learning/notebooks/10 - Quantify Uncertainty in Monte Carlo Estimates/hands-on-10.1.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/10 - Quantify Uncertainty in Monte Carlo Estimates/hands-on-10.1.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Monte Carlo error quantification
@@ -125,7 +125,7 @@ uses: 7
 
 ## Robert-Casella 1D oscillatory integral
 
-`text_books/intro-to-scientific-machine-learning/notebooks/10 - Quantify Uncertainty in Monte Carlo Estimates/hands-on-10.3.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/10 - Quantify Uncertainty in Monte Carlo Estimates/hands-on-10.3.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: Monte Carlo error quantification

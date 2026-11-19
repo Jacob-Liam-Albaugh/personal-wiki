@@ -58,7 +58,7 @@ Sample $(x,\xi)$ jointly and minimize with [[Adam]] using unbiased gradient esti
 
 **Examples**: [[Neo-Hookean hyperelasticity PINN]] · [[Parametric Poisson]] · [[Planned and stub examples]] (see [[Examples catalogue]])
 **Covered in**: ASML book pinns/parametric (ME 697 5.2); homework 7
-**Sources**: `text_books/advanced-scientific-machine-learning/book/pinns/parametric`, `text_books/advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/parametric/parametric_example.ipynb`, `pinns/parametric/physics-informed_nops.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/parametric`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/intro.md`, `pinns/parametric/parametric_example.ipynb`, `pinns/parametric/physics-informed_nops.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

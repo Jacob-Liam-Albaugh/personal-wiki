@@ -37,7 +37,7 @@ Applied example: [[Diesel PM as OU process (Bolt 2026)]] fits an OU SDE with inp
 **Wiki note**: the book does not define the Itô integral or Itô's lemma beyond using the log transform for GBM. For a full treatment see the stochastic-methods pages linked from [[Brownian motion]].
 
 **Covered in**: ASML book sinverse/sodes (ME 697 6.1)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/intro.md`, `sinverse/sodes/intro.md`, `02_bm.ipynb`, `03_stochastic_exponential_growth.ipynb`, `04_ornstein_uhlenbeck.ipynb`, `sinverse/sodes/01_reading.md`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/intro.md`, `sinverse/sodes/intro.md`, `02_bm.ipynb`, `03_stochastic_exponential_growth.ipynb`, `04_ornstein_uhlenbeck.ipynb`, `sinverse/sodes/01_reading.md`.
 **Last updated**: 2026-11-06
 
 ---

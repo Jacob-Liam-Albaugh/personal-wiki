@@ -49,7 +49,7 @@ As $t\to\infty$ the law tends to the stationary $N(\mu,\ \sigma^2/(2\lambda))$.
 
 **Examples**: [[Treasury yield (Vasicek)]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/sodes (ME 697 6.1)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

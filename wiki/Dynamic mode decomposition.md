@@ -70,7 +70,7 @@ $$
 
 **Examples**: [[Cylinder flow Re 100 (DMD)]] (see [[Examples catalogue]])
 **Covered in**: ASML book dynamics (ME 697 DMD); homework 7
-**Sources**: `text_books/advanced-scientific-machine-learning/book/dynamics/`, `text_books/advanced-scientific-machine-learning/book/dynamics/00_intro.md`, `dynamics/04_dmd.ipynb`, `dynamics/05_dmd_example.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/dynamics/`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/dynamics/00_intro.md`, `dynamics/04_dmd.ipynb`, `dynamics/05_dmd_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

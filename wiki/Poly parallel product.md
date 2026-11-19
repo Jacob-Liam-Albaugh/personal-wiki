@@ -49,7 +49,7 @@ Wiki note: Poly also has the composition product $\triangleright$ ([[Poly compos
 - Wiki note on notation: the book and Poly 2020 write the composition product $\circ$ (the book also $\triangleright$); see [[Poly composition product]].
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 3 (pp. 65-70); ch. 4 (pp. 113, 126-128); ch. 5 (pp. 157-165); ch. 6 (pp. 213-214); ch. 8 (pp. 326-327)
-**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
+**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
 **Last updated**: 2026-11-06
 
 ---

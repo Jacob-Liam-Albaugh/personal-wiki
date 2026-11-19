@@ -32,7 +32,7 @@ tags: [category-theory]
 Adjunctions have a unit and counit that are natural transformations: [[Adjunction]]. Naturality of $\mathrm{Set}$-valued diagrams over a [[Category]] is how data migration functors are compared.
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 3 (pp. 95-101, natural transformations, functor categories, instance homomorphisms)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 3; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 3; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

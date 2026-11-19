@@ -41,7 +41,7 @@ Ex. 2.102: Boolean matrix multiplication. Over Cost this computes shortest paths
 Basis for [[Enriched category]] and [[Profunctor]] (composition of profunctors is the $\mathcal V$-matrix product); a [[Monoidal category]] with extra structure.
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 2 (pp. 69-76, closed structure, quantales, V-matrices)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 2; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 2; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

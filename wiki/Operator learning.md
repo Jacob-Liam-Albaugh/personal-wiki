@@ -21,7 +21,7 @@ The book's operator-learning chapter (hup/op) is a reading list: [[DeepONet (Lu 
 
 **Examples**: [[Antiderivative operator (DeepONet)]] · [[Burgers 1D operator benchmark]] · [[Darcy flow FNO]] (see [[Examples catalogue]])
 **Covered in**: ASML book hup/op (ME 697 3.2)
-**Sources**: `26.10.22 - DeepONets.pdf`, `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, `text_books/advanced-scientific-machine-learning/book/hup/op/intro.md`, `01_reading.md`, `02_deeponet.ipynb`, `03_fno.ipynb`.
+**Sources**: `26.10.22 - DeepONets.pdf`, `26.10.29 - Learning Markovian Homogenized Models In Viscoelasticity.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - Neural Operators.pdf`, `papers/Operators/Li, Kovachki, Stuart, Anandkumar - FNO - Fourier Neural Operators.pdf`, `papers/Operators/Karniadakis, Cao, Goswami - LNO - Laplace Neural Operators.pdf`, `papers/Operators/Stuart - Operator Leraning - Algorithms and Analysis.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/op/intro.md`, `01_reading.md`, `02_deeponet.ipynb`, `03_fno.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

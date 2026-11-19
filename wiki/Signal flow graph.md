@@ -53,7 +53,7 @@ Ex. 5.61: two graphs, one matrix. The equations are summarised, not transcribed,
 Compact closed structure of the same kind arises for profunctors: [[Profunctor]]. The operad version of wiring: [[Operad]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 5 (pp. 147-181, props, port graphs, free props, rigs, signal flow graphs, matrices, monoid objects, relations with feedback)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 5; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 5; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

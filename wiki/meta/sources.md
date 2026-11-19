@@ -15,7 +15,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
-| `Baysian Data Analysis 3rd ed` |  | alias | points to text_books/Mathmatics/Baysian Data Analysis 3rd ed.pdf |
+| `Baysian Data Analysis 3rd ed` |  | alias | points to text_books/Machine Learning & Statistics/Baysian Data Analysis 3rd ed.pdf |
 | `Bilionis, Alberts - Physics Informed Information Field Theory.pdf` | 32 | ingested → [[PIFT (Alberts 2023)]] | arXiv preprint of the JCP 2023 paper in papers/IFT/ |
 | `Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf` | 49 | ingested → [[Amortized VI for inverse problems (Karumuri 2024)]] |  |
 | `Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression` |  | alias | points to papers/Guassian Processes/ copy |
@@ -67,7 +67,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 |---|---|---|---|
 | `Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression.pdf` | 22 | ingested → [[Multi-fidelity GP for tissue expansion (Lee 2020)]] |  |
 | `Duvenaud - Thesis - Automatic Model Construction with Gaussian Processes.pdf` | 157 | ingested → [[Duvenaud thesis (Duvenaud 2014)]] |  |
-| `Gaussian Processes for Machine Learning` |  | alias | points to text_books/Mathmatics/Gaussian Processes for Machine Learning.pdf |
+| `Gaussian Processes for Machine Learning` |  | alias | points to text_books/Machine Learning & Statistics/Gaussian Processes for Machine Learning.pdf |
 | `Greengard, O'Neil - Efficient reduced-rank methods for Gaussian processes with eigenfunction expansions.pdf` | 20 | ingested → [[Reduced-rank GPs (Greengard 2022)]] |  |
 | `Kanagawa, Hennig, Sejdinovic, Sriperumbudur - GPs & Kernel Methods.pdf` | 64 | ingested → [[Gaussian processes and kernel methods (Kanagawa 2018)]] |  |
 | `Matthews et al - Gaussian Process Behaviour in Wide Deep Neural Networks.pdf` | 36 | ingested → [[Wide networks as GPs (Matthews 2018)]] |  |
@@ -339,7 +339,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Homework/05_homework.pdf` |  | reference |  |
 | lecture videos, homework notebooks, data | | reference | 79 non-PDF files: syllabus, Modules 3-7 videos, HW 1-7 |
 
-## text_books/Category Theory
+## text_books/Mathmatics/Category Theory
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
@@ -380,20 +380,28 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `MIT (ch 1-2).pdf` | 80 | ingested → [[Linear programming]] |  |
 | `MIT (ch 1-5).pdf` | 605 | ingested → [[Linear programming]] | old OCR text layer (587/605 pages); math garbled, read equations from page images |
 
+## text_books/Machine Learning & Statistics
+
+| File | Pages | Status | Notes |
+|---|---|---|---|
+| `Baysian Data Analysis 3rd ed.pdf` |  | reference |  |
+| `Gaussian Processes for Machine Learning.pdf` |  | reference |  |
+| `Intro to Probability for Data Science.pdf` |  | reference |  |
+| `Murphy - Probabilistic Machine Learning Advanced Topics.pdf` | 1370 | reference | PML2 (2023). Cited from [[Kalman filter]] (ch. 8), [[Variational inference]] (ch. 10), [[Particle filter]] (ch. 13), [[Stochastic state-space model]] (ch. 29) |
+| `Prob & Stats & Random Processes.pdf` |  | reference |  |
+| `Sarkka - Bayseian Filtering and Smoothing.pdf` | 252 | reference | 1st ed. (2013). KF ch. 4, EKF/UKF ch. 5, Gaussian filters ch. 6, particle filter ch. 7, smoothers ch. 8-11, parameters ch. 12. Cited from [[Kalman filter]], [[Particle filter]], [[Stochastic state-space model]] |
+| `intro-to-scientific-machine-learning/intro-to-scientific-machine-learning.pdf` | 914 | reference | ME 539 book (28 chapters); `chapters/` holds the same book split per chapter; notebooks in `notebooks/` |
+
 ## text_books/Mathmatics
 
 | File | Pages | Status | Notes |
 |---|---|---|---|
 | `Basu - Intro to Convexity.pdf` | 94 | ingested → [[Lagrangian duality]] |  |
-| `Baysian Data Analysis 3rd ed.pdf` |  | reference |  |
 | `Differential Equations.pdf` |  | reference |  |
 | `Functional Inegration & Quantum Physics.pdf` |  | reference |  |
-| `Gaussian Processes for Machine Learning.pdf` |  | reference |  |
 | `Graph Theory.pdf` |  | reference |  |
-| `Intro to Probability for Data Science.pdf` |  | reference |  |
 | `Linear Alngebra.pdf` |  | reference |  |
 | `MIT Real Analysis.pdf` |  | reference |  |
-| `Prob & Stats & Random Processes.pdf` |  | reference |  |
 | `Random Fields & Geometry - Adler, Taylor.pdf` |  | reference |  |
 
 ## text_books/Programming
@@ -408,9 +416,9 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `cribsheets/net-http.pdf` |  | reference |  |
 | code, cribsheets, HTML books | | reference | 387 non-PDF files, not listed individually |
 
-## text_books/advanced-scientific-machine-learning (ME 697 book repo)
+## text_books/Machine Learning & Statistics/advanced-scientific-machine-learning (ME 697 book repo)
 
-Jupyter-book source in `text_books/advanced-scientific-machine-learning/book/`, chapters from `_toc.yml`, ingested chapter by chapter.
+Jupyter-book source in `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/`, chapters from `_toc.yml`, ingested chapter by chapter.
 
 | Chapter | Folder | Status |
 |---|---|---|
@@ -427,4 +435,4 @@ Jupyter-book source in `text_books/advanced-scientific-machine-learning/book/`, 
 
 ## Totals
 
-alias: 8, ingested: 211, reference: 35
+alias: 8, ingested: 211, reference: 38

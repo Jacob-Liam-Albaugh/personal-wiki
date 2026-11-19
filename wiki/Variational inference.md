@@ -47,8 +47,9 @@ tags: [bayesian, vi]
 
 **Examples**: [[Autoinjector FE surrogate]] · [[Catalysis kinetics]] · [[Challenger O-ring]] · [[Duffing oscillator examples]] · [[PK two-compartment IV bolus]] · [[Planar arm inverse kinematics]] · [[Planned and stub examples]] · [[Trailer on a rough road]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/vi (ME 697 4.3); homework 6
-**Sources**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, `text_books/advanced-scientific-machine-learning/book/inverse/vi/intro.md`, `01_basics.md`, `02_catalysis.ipynb`, `03_3d_reconstruction.ipynb`.
-**Last updated**: 2026-11-06
+**Sources**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/vi/intro.md`, `01_basics.md`, `02_catalysis.ipynb`, `03_3d_reconstruction.ipynb`.
+**Further reading**: Murphy PML2 ch. 10, `text_books/Machine Learning & Statistics/Murphy - Probabilistic Machine Learning Advanced Topics.pdf`; ME 539 book ch. 28, `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/intro-to-scientific-machine-learning.pdf`.
+**Last updated**: 2026-11-19
 
 ---
 

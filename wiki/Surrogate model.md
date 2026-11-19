@@ -65,7 +65,7 @@ Wiki notes:
 
 **Examples**: [[A to B to C reaction]] · [[Autoinjector FE surrogate]] · [[Branin function]] · [[Duffing oscillator examples]] · [[Multi-fidelity 2D synthetic function]] · [[Polynomial chaos 1D test functions]] · [[Stochastic 1D heat equation]] · [[Stochastic cylinder flow (multi-fidelity)]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/surrogates (ME 697 2.3); homework 4
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/surrogates/01_basics_of_surrogate_models.md`, `02_nn_surrogates.ipynb`, `03_gp_surrogates.ipynb`, `04_gpr_large_data.ipynb`, `text_books/advanced-scientific-machine-learning/book/up/surrogates/intro.md`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/surrogates/01_basics_of_surrogate_models.md`, `02_nn_surrogates.ipynb`, `03_gp_surrogates.ipynb`, `04_gpr_large_data.ipynb`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/surrogates/intro.md`.
 **Last updated**: 2026-11-06
 
 ---

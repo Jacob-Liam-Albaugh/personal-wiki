@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in ASML (ME 697) and Intro SciML (ME 539). Data: simulated, analytic. Tasks: surrogate modelling, optimization, active learning, regression.
 
 **Covered in**: ASML (ME 697), Intro SciML (ME 539)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/homework/04_homework.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/04_homework.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Branin surrogate of legacy C++ code
 
-`text_books/advanced-scientific-machine-learning/book/homework/04_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/04_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: surrogate modelling / active learning / optimization / multi-fidelity
@@ -35,7 +35,7 @@ uses: 2
 
 ## Branin function with ARD GP (2D, 3D, 4D variants)
 
-`text_books/intro-to-scientific-machine-learning/notebooks/22 - Gaussian Process Regression Conditioning on Data/hands-on-22.4.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/22 - Gaussian Process Regression Conditioning on Data/hands-on-22.4.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: regression / feature relevance

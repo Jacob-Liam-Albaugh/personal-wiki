@@ -12,7 +12,7 @@ tags: [inverse-problems, bayesian, uq, mcmc]
 
 **Examples**: [[Harmonic oscillator identifiability]] · [[PK two-compartment IV bolus]] · [[Planar arm inverse kinematics]] · [[Trailer on a rough road]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/odes (ME 697 4.5)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`, `hbayes/04_amortized_vi.ipynb`, `text_books/advanced-scientific-machine-learning/book/inverse/odes/intro.md`, `01_basics.md`, `03_dyn_system_multiple_traj.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`, `hbayes/04_amortized_vi.ipynb`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/odes/intro.md`, `01_basics.md`, `03_dyn_system_multiple_traj.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: real. Tasks: inverse problem and calibration.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/homework/06_homework.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/06_homework.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Two-compartment PK IV bolus calibration
 
-`text_books/advanced-scientific-machine-learning/book/homework/06_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/06_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: Bayesian inverse problem

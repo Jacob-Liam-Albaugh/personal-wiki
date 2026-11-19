@@ -34,7 +34,7 @@ $$v_{t+1}=\beta v_t-\alpha\nabla f(x_t+\beta v_t)$$
 
 **Examples**: [[CIFAR10]] · [[Optimizer test problems]] (see [[Examples catalogue]])
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/03_momentum.ipynb`, `04_optax.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/03_momentum.ipynb`, `04_optax.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

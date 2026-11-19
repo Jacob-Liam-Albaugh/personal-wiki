@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: synthetic. Tasks: classification.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/symmetries/02_e3nn.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/symmetries/02_e3nn.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Tetris 3D shape classification (E(3)-equivariant)
 
-`text_books/advanced-scientific-machine-learning/book/up/symmetries/02_e3nn.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/symmetries/02_e3nn.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: classification

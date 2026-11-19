@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in Intro SciML (ME 539). Data: simulated. Tasks: state estimation.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-06.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-06.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Position-only Kalman filter for forced damped oscillator
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-06.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-06.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: state estimation
@@ -36,7 +36,7 @@ uses: 2
 
 ## Kalman filter noise misspecification on the oscillator
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-06.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-06.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: filter diagnostics

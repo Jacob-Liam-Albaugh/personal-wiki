@@ -82,7 +82,7 @@ Poly is the full subcategory of $\mathsf{Set}^{\mathsf{Set}}$ on the polynomial 
 Questions 1, 9, 10, 11 in the book's closing list concern the generality of the structure (non-polynomial functors, homotopy types, monads in Poly): see [[Polynomial comonoid]].
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 1 (pp. 7-17); ch. 2 (pp. 25-36); ch. 3 (pp. 41-43, 65)
-**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
+**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
 **Last updated**: 2026-11-06
 
 ---

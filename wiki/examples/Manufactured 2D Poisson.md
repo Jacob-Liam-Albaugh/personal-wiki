@@ -14,14 +14,14 @@ uses: 3
 **Summary**: 3 uses in ASML (ME 697). Data: analytic. Tasks: physics-informed.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/pinns/basics/forward.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/basics/forward.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Manufactured 2D Poisson / steady heat (residual PINN)
 
-`text_books/advanced-scientific-machine-learning/book/pinns/basics/forward.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/basics/forward.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: PINN forward solve
@@ -39,7 +39,7 @@ uses: 3
 
 ## Manufactured 2D Poisson / steady heat (Ritz energy PINN)
 
-`text_books/advanced-scientific-machine-learning/book/pinns/basics/energy.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/basics/energy.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: PINN forward solve
@@ -56,7 +56,7 @@ uses: 3
 
 ## Manufactured 2D Poisson / steady heat (Fourier-feature residual PINN)
 
-`text_books/advanced-scientific-machine-learning/book/pinns/basics/spectral_bias.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/basics/spectral_bias.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: PINN forward solve

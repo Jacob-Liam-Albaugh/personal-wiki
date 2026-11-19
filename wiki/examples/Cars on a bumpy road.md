@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: synthetic. Tasks: sampling, inverse problem and calibration.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/hbayes/02_hbayes_example.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/hbayes/02_hbayes_example.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Cars on a bumpy road (hierarchical Bayes)
 
-`text_books/advanced-scientific-machine-learning/book/inverse/hbayes/02_hbayes_example.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/hbayes/02_hbayes_example.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Hierarchical Bayesian inverse problem + predictive forecast

@@ -44,7 +44,7 @@ Wiki note: Poly also has the composition product $\triangleright$ ([[Poly compos
 - Contrast with [[Poly parallel product]], which is closed but not cartesian.
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 3 (p. 65); ch. 5 (pp. 152-154)
-**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
+**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
 **Last updated**: 2026-11-06
 
 ---

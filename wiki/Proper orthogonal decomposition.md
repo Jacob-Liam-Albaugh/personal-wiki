@@ -62,7 +62,7 @@ Columns of $V$ are the modes; $Z$ holds the coefficients. Truncating at rank $r$
 
 **Examples**: [[Navier-Stokes POD (Wang-Perdikaris)]] (see [[Examples catalogue]])
 **Covered in**: ASML book reduced_order_modeling (ME 697 ROM); homework 5
-**Sources**: `text_books/advanced-scientific-machine-learning/book/reduced_order_modeling/`, `homework/05`, `text_books/advanced-scientific-machine-learning/book/reduced_order_modeling/01_svd.ipynb`, `02_pca.ipynb`, `03_pod.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/reduced_order_modeling/`, `homework/05`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/reduced_order_modeling/01_svd.ipynb`, `02_pca.ipynb`, `03_pod.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

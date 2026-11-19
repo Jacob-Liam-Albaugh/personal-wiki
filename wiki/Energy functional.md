@@ -36,7 +36,7 @@ Evaluate $E$ by quadrature on the network output, with the boundary condition im
 
 **Examples**: [[Manufactured 2D Poisson]] (see [[Examples catalogue]])
 **Covered in**: ASML book pinns/basics (ME 697 5.1)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/pinns/basics/energy.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/basics/energy.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

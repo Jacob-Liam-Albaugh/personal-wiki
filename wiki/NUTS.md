@@ -32,7 +32,7 @@ tags: [mcmc, sampling, bayesian]
 
 **Examples**: [[Banana density]] · [[Cars on a bumpy road]] · [[Challenger O-ring]] · [[Coal mining disasters]] · [[Harmonic oscillator identifiability]] · [[PK two-compartment IV bolus]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/sampling (ME 697 4.2); ASML book inverse/hbayes (ME 697 4.4); ASML book inverse/odes (ME 697 4.5)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/sampling/04_nuts_blackjax.ipynb`, `hbayes/02_hbayes_example.ipynb`, `odes/02_identifiability.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/sampling/04_nuts_blackjax.ipynb`, `hbayes/02_hbayes_example.ipynb`, `odes/02_identifiability.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

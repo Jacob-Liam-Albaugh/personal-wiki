@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in Intro SciML (ME 539). Data: simulated. Tasks: regression.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-04.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-04.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Molecular-dynamics stress-strain curve, ultimate strength
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-04.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-04.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: regression, latent peak inference

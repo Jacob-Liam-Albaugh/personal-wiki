@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in ASML (ME 697). Data: analytic. Tasks: dimensionality reduction.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/hup/funcin/04_kle.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/04_kle.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Karhunen-Loeve expansion of Gaussian processes
 
-`text_books/advanced-scientific-machine-learning/book/hup/funcin/04_kle.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/04_kle.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: dimensionality reduction (random field representation)
@@ -37,7 +37,7 @@ uses: 2
 
 ## Karhunen-Loeve expansion (older NumPy/SciPy version)
 
-`text_books/advanced-scientific-machine-learning/book/hup/funcin/_04_kle_original.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/_04_kle_original.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: dimensionality reduction (random field representation)

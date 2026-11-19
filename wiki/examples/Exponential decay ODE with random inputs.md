@@ -14,14 +14,14 @@ uses: 3
 **Summary**: 3 uses in ASML (ME 697). Data: analytic. Tasks: uncertainty propagation.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/05_pc_ode_1d.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/05_pc_ode_1d.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Linear ODE with uniform decay rate
 
-`text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/05_pc_ode_1d.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/05_pc_ode_1d.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: uncertainty propagation
@@ -35,7 +35,7 @@ uses: 3
 
 ## Exponential decay Fokker-Planck
 
-`text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/05_fokker_planck.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/sensitivity_analysis/05_fokker_planck.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: uncertainty propagation
@@ -49,7 +49,7 @@ uses: 3
 
 ## Exponential decay with uniform inputs (LHS vs MC)
 
-`text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/06_lhs.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/sensitivity_analysis/06_lhs.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: uncertainty propagation

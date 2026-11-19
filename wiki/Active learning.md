@@ -74,7 +74,7 @@ Wiki notes:
 
 **Examples**: [[Active learning test functions]] · [[Branin function]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/al (ME 697 2.5); homework 4
-**Sources**: ME 697 book `up/al/`, `text_books/advanced-scientific-machine-learning/book/up/al/intro.md`, `01_al_basics.md`, `02_al.ipynb`.
+**Sources**: ME 697 book `up/al/`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/al/intro.md`, `01_al_basics.md`, `02_al.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

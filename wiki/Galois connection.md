@@ -44,7 +44,7 @@ Every Galois connection gives the closure operator $g\circ f$, and conversely ev
 V-adjoints generalise Galois connections to enriched categories (Remark 4.39): see [[Profunctor]]. Closedness of a monoidal preorder, $a\otimes v\le w\iff a\le(v\multimap w)$, is a Galois connection in each variable: see [[Quantale]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 1 (pp. 27-34, Galois connections, adjoint functor theorem, closure operators)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 1; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 1; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in Intro SciML (ME 539). Data: real. Tasks: classification.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.5.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.5.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Handwritten digits (sklearn load_digits)
 
-`text_books/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.5.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.5.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: multi-class classification

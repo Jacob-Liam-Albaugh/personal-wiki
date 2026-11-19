@@ -29,7 +29,7 @@ With a constant $\alpha$ the iterates keep wandering around the optimum (book, 0
 
 **Examples**: [[CIFAR10]] · [[Lagaris benchmarks]] · [[Motorcycle crash (mcycle)]] · [[Optimizer test problems]] (see [[Examples catalogue]])
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/05_sgd.ipynb`, `01_optimization_problems.md`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/05_sgd.ipynb`, `01_optimization_problems.md`.
 **Last updated**: 2026-11-06
 
 ---

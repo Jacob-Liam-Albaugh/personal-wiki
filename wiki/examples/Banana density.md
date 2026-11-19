@@ -14,14 +14,14 @@ uses: 3
 **Summary**: 3 uses in ASML (ME 697). Data: analytic. Tasks: sampling.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/sampling/02_mcmc_blackjax.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/sampling/02_mcmc_blackjax.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Banana density
 
-`text_books/advanced-scientific-machine-learning/book/inverse/sampling/02_mcmc_blackjax.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/sampling/02_mcmc_blackjax.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Sampling
@@ -36,7 +36,7 @@ uses: 3
 
 ## Banana density, high curvature
 
-`text_books/advanced-scientific-machine-learning/book/inverse/sampling/03_hmc_blackjax.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/sampling/03_hmc_blackjax.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Sampling
@@ -52,7 +52,7 @@ uses: 3
 
 ## Banana density, high curvature (NUTS)
 
-`text_books/advanced-scientific-machine-learning/book/inverse/sampling/04_nuts_blackjax.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/sampling/04_nuts_blackjax.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Sampling

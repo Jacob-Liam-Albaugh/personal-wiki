@@ -50,7 +50,7 @@ Objects are resources, $x\le y$ reads "$y$ can be made from $x$" and $\otimes$ m
 - Wiring diagrams: [[Operad]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 2 (pp. 41-56, monoidal preorders), ch. 4 (pp. 134-146, monoidal categories and duals), ch. 5 (monoid objects); Niu-Spivak ch. 3, 6
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 2, 4, 5; Spivak (2020); file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 2, 4, 5; Spivak (2020); file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

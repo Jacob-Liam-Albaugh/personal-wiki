@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: synthetic. Tasks: stochastic simulation.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/functional_programming/04_random.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/functional_programming/04_random.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## 2D Gaussian random walk
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/functional_programming/04_random.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/functional_programming/04_random.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: sampling / simulation

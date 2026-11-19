@@ -45,7 +45,7 @@ The state system $Sy^S$ carries a do-nothing section $\epsilon$ and a transition
 [[Poly (Spivak 2020)]] · [[Dependent lens]]
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 4 (pp. 83-93, 103-118); ch. 6 (pp. 199-200); ch. 7 (pp. 228-239)
-**Sources**: Niu-Spivak, Polynomial Functors (2024), ch. 4, 6, 7; Spivak, Poly (2020), Prop. 3.1; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`. Page numbers are printed pages.
+**Sources**: Niu-Spivak, Polynomial Functors (2024), ch. 4, 6, 7; Spivak, Poly (2020), Prop. 3.1; `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`. Page numbers are printed pages.
 **Last updated**: 2026-11-06
 
 ---

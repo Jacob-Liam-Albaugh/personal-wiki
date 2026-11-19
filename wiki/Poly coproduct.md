@@ -40,7 +40,7 @@ Wiki note: Poly also has the composition product $\triangleright$ ([[Poly compos
 - Poly is extensive (source: Spivak - Poly.pdf, §2).
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 3 (pp. 42, 55); ch. 5 (pp. 156-158)
-**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
+**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
 **Last updated**: 2026-11-06
 
 ---

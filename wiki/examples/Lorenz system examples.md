@@ -14,14 +14,14 @@ uses: 5
 **Summary**: 5 uses in ASML (ME 697). Data: simulated, analytic, synthetic. Tasks: uncertainty propagation, sensitivity analysis, system identification.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/04_example_lorenz.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/sensitivity_analysis/04_example_lorenz.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Lorenz system sensitivity to initial conditions
 
-`text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/04_example_lorenz.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/sensitivity_analysis/04_example_lorenz.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: sensitivity analysis / uncertainty propagation
@@ -37,7 +37,7 @@ uses: 5
 
 ## SINDy: Lorenz system
 
-`text_books/advanced-scientific-machine-learning/book/inverse/data/03_sindy_2.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/data/03_sindy_2.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: System identification (chaotic)
@@ -55,7 +55,7 @@ uses: 5
 
 ## Lorenz system PCE
 
-`text_books/advanced-scientific-machine-learning/book/homework/03_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/03_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: uncertainty propagation
@@ -70,7 +70,7 @@ uses: 5
 
 ## Partially observed Lorenz system SINDy
 
-`text_books/advanced-scientific-machine-learning/book/homework/07_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/07_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: system identification
@@ -85,7 +85,7 @@ uses: 5
 
 ## Noisy Lorenz SINDy without derivatives
 
-`text_books/advanced-scientific-machine-learning/book/homework/07_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/07_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: system identification

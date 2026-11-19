@@ -43,7 +43,7 @@ Wiki notes:
 
 **Examples**: [[Tetris shapes (e3nn)]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/symmetries (ME 697 2.6)
-**Sources**: Geiger & Smidt 2022, `text_books/advanced-scientific-machine-learning/book/up/symmetries/intro.md`, `01_symmetries.md`, `02_e3nn.ipynb`.
+**Sources**: Geiger & Smidt 2022, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/symmetries/intro.md`, `01_symmetries.md`, `02_e3nn.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

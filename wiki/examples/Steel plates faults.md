@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in Intro SciML (ME 539). Data: real. Tasks: dimensionality reduction, classification, clustering.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-05.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-05.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Steel plates faults, PCA before classification
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-05.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-05.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: binary classification, dimensionality reduction
@@ -37,7 +37,7 @@ uses: 2
 
 ## Steel plates faults, k-means on geometry
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-05.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-05.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: clustering

@@ -47,7 +47,7 @@ tags: [optimization, ml]
 
 **Examples**: [[Airfoil self-noise]] · [[Autoinjector FE surrogate]] · [[Catalysis kinetics]] · [[Gamma density (Laplace)]] · [[Lagaris benchmarks]] · [[MNIST digits]] · [[Manufactured 2D Poisson]] · [[Multi-fidelity 2D synthetic function]] · [[Neo-Hookean hyperelasticity PINN]] · [[Optimizer test problems]] · [[PK two-compartment IV bolus]] · [[Planar arm inverse kinematics]] · [[Stochastic 1D heat equation]] · [[Tetris shapes (e3nn)]] (see [[Examples catalogue]])
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4); homework 1
-**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`, `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `09_gpu_training.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `09_gpu_training.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -33,7 +33,7 @@ Image compression and PCA ([[Principal component analysis]]), dimension reductio
 
 **Examples**: [[Cylinder flow Re 100 (DMD)]] · [[Lorenz system examples]] · [[MNIST digits]] · [[Navier-Stokes POD (Wang-Perdikaris)]] · [[SVD image compression]] (see [[Examples catalogue]])
 **Covered in**: ASML book hup/funcin (ME 697 3.1)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb`, `03_pca.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb`, `03_pca.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

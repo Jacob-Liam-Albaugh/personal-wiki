@@ -39,7 +39,7 @@ Wiki note: the general (any category) statement is standard; the digest only con
 A Yoneda lemma for preorders appears in the exercises of Seven Sketches ch. 1 (p. 20). Relatedly, monotone maps $P\to\mathbb B$ correspond to upper sets of $P$ (Seven Sketches Prop. 1.78, p. 22).
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 1 (pp. 3-7); Fong-Spivak (Seven Sketches) ch. 1 (pp. 20-22)
-**Sources**: Niu, Spivak, Polynomial Functors (2024), ch. 1; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf` (ch. 1).
+**Sources**: Niu, Spivak, Polynomial Functors (2024), ch. 1; `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf` (ch. 1).
 **Last updated**: 2026-11-06
 
 ---

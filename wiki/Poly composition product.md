@@ -75,7 +75,7 @@ $$(y^2+y)\circ(y^3+1) = y^6+3y^3+2$$
 [[Poly (Spivak 2020)]] · [[Polynomial equipment interfaces (Bilionis 2026)]]
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 6 (pp. 179-216)
-**Sources**: Niu-Spivak, Polynomial Functors (2024), ch. 6; Spivak, Poly (2020), §2; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`. Page numbers are printed pages. Proofs and exercises were not read.
+**Sources**: Niu-Spivak, Polynomial Functors (2024), ch. 6; Spivak, Poly (2020), §2; `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`. Page numbers are printed pages. Proofs and exercises were not read.
 **Last updated**: 2026-11-06
 
 ---

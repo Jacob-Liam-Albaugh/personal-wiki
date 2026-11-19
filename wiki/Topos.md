@@ -57,7 +57,7 @@ Ex. 7.36: the empty cover. Exs. 7.45-7.61: sections of a continuous map, vector 
 Dynamical systems as coalgebras and their logic are open questions in the Poly literature: [[Dynamical system as lens]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 7 (pp. 221-257, subobjects, presheaves, sheaves, logic in a topos, modalities, topos of behavior types)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 7; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 7; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in Intro SciML (ME 539). Data: simulated. Tasks: inverse problem and calibration.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-08.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-08.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## A->B->C reaction calibration under fixed budget
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-08.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-08.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: simulation calibration

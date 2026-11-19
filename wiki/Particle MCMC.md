@@ -37,7 +37,7 @@ Reusing the stored $\hat Z$ is what keeps the chain exact when $\hat Z$ is unbia
 
 **Examples**: [[Duffing oscillator examples]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/cali (ME 697 6.3)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/cali/04_pmcmc_example.ipynb`, `03_pmcmc_theory.md`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/cali/04_pmcmc_example.ipynb`, `03_pmcmc_theory.md`.
 **Last updated**: 2026-11-06
 
 ---

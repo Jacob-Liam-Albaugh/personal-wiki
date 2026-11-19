@@ -45,7 +45,7 @@ Further wiki notes:
 
 **Examples**: [[MNIST digits]] · [[Steel plates faults]] · [[Stochastic 1D heat equation]] (see [[Examples catalogue]])
 **Covered in**: ASML book hup/funcin (ME 697 3.1)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/hup/funcin/03_pca.ipynb`, `06_up_hout_example.ipynb`, `text_books/advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/03_pca.ipynb`, `06_up_hout_example.ipynb`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/intro.md`, `hup/funcin/intro.md`, `01_functional_inputs.md`, `02_svd.ipynb`, `04_kle.ipynb`, `05_up_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -12,7 +12,7 @@ tags: [bayesian, inverse-problems, uq, mcmc]
 
 **Examples**: [[Cars on a bumpy road]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/hbayes (ME 697 4.4)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/hbayes/intro.md`, `02_hbayes_example.ipynb`, `01_basics.md`, `03_bad_post_geometry.ipynb`, `04_amortized_vi.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/hbayes/intro.md`, `02_hbayes_example.ipynb`, `01_basics.md`, `03_bad_post_geometry.ipynb`, `04_amortized_vi.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

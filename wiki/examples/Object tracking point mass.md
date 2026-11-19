@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in Intro SciML (ME 539). Data: synthetic. Tasks: state estimation.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/19 - State Space Models - Filtering Basics/hands-on-19.1.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/19 - State Space Models - Filtering Basics/hands-on-19.1.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Object tracking, point mass with GPS-like position sensor
 
-`text_books/intro-to-scientific-machine-learning/notebooks/19 - State Space Models - Filtering Basics/hands-on-19.1.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/19 - State Space Models - Filtering Basics/hands-on-19.1.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: state-space simulation
@@ -37,7 +37,7 @@ uses: 2
 
 ## Kalman filtering and RTS smoothing of the tracked point mass
 
-`text_books/intro-to-scientific-machine-learning/notebooks/20 - State Space Models - Kalman Filters/hands-on-20.1.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/20 - State Space Models - Kalman Filters/hands-on-20.1.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: state estimation

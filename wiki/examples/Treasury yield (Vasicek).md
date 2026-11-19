@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: real. Tasks: system identification.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Vasicek / Ornstein-Uhlenbeck on 2-year Treasury yield
 
-`text_books/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: system identification / SDE parameter estimation

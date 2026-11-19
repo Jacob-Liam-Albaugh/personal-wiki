@@ -32,7 +32,7 @@ Every symmetric monoidal category $C$ has an underlying operad $O_C$: types are 
 - Operad functors are the [[Functor]]s of this setting; the signal-flow wiring diagrams are morphisms of a free prop: [[Signal flow graph]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 6 (pp. 213-219, operads and their algebras)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 6; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 6; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

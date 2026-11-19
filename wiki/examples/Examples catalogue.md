@@ -10,7 +10,7 @@ tags: [uq, inverse-problems, bayesian, sampling, ml]
 
 **Summary**: Every worked example and dataset in the two Bilionis books, 136 notebook uses grouped into 60 examples. Pick a task below to see which examples the books use for it. Intro-book toy examples (coin flips, basic probability) are left out.
 
-**Sources**: `text_books/advanced-scientific-machine-learning/book`, `text_books/intro-to-scientific-machine-learning/notebooks`. Raw rows: `wiki/examples/examples.csv`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book`, `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks`. Raw rows: `wiki/examples/examples.csv`.
 **Last updated**: 2026-11-18
 
 ---

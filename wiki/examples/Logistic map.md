@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: analytic. Tasks: dynamical simulation.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/homework/01_homework.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/01_homework.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Logistic map bifurcation
 
-`text_books/advanced-scientific-machine-learning/book/homework/01_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/01_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: dynamical system simulation

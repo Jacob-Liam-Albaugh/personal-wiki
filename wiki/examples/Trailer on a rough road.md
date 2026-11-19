@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in Intro SciML (ME 539). Data: analytic, none. Tasks: uncertainty propagation, inverse problem and calibration.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/01 - Introduction to Scientific Machine Learning/hands-on-01.1.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/01 - Introduction to Scientific Machine Learning/hands-on-01.1.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Trailer on rough road (suspension amplitude)
 
-`text_books/intro-to-scientific-machine-learning/notebooks/01 - Introduction to Scientific Machine Learning/hands-on-01.1.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/01 - Introduction to Scientific Machine Learning/hands-on-01.1.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: uncertainty propagation
@@ -39,7 +39,7 @@ uses: 2
 
 ## Trailer on rough road (calibration, conceptual)
 
-`text_books/intro-to-scientific-machine-learning/notebooks/01 - Introduction to Scientific Machine Learning/hands-on-01.2.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/01 - Introduction to Scientific Machine Learning/hands-on-01.2.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, partial
 - **Problem**: Bayesian inverse problem (stated, not solved)

@@ -33,8 +33,9 @@ The bootstrap smoother keeps whole trajectories and conditions on all data, givi
 
 **Examples**: [[Duffing oscillator examples]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/fs (ME 697 6.2)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `01_reading.md` (heading "Particle Filters" only), `text_books/advanced-scientific-machine-learning/book/sinverse/fs/intro.md`.
-**Last updated**: 2026-11-06
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`, `03_smoother.ipynb`, `01_reading.md` (heading "Particle Filters" only), `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/fs/intro.md`.
+**Further reading**: Särkkä 2013 ch. 7 (particle filter), ch. 11 (particle smoothers), `text_books/Machine Learning & Statistics/Sarkka - Bayseian Filtering and Smoothing.pdf`; Murphy PML2 ch. 13 (SMC), `text_books/Machine Learning & Statistics/Murphy - Probabilistic Machine Learning Advanced Topics.pdf`.
+**Last updated**: 2026-11-19
 
 ---
 

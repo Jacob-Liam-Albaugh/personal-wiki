@@ -45,7 +45,7 @@ Ex. 4.11: Bool-profunctors as bridges between preorders. Ex. 4.13: Cost-profunct
 Bicomodules are prafunctors (Thm. 8.100), which generalize profunctors: [[Polynomial comonoid]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 4 (pp. 117-133 and 144, feasibility relations, V-profunctors, Prof_V, companions, conjoints, collages); Niu-Spivak ch. 8
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 4; Niu, Spivak (2024), ch. 8; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 4; Niu, Spivak (2024), ch. 8; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

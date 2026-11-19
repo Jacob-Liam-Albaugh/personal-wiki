@@ -36,7 +36,7 @@ See [[Preorder]] and [[Monoidal category]] for the base.
 When $\mathcal V$ is closed with all joins it is a [[Quantale]]; then $\mathcal V$-matrices compose (Def. 2.100), computing shortest paths for Cost. $\mathcal V$-profunctors between $\mathcal V$-categories are the next step: [[Profunctor]]. Resource theories (monoidal preorders) are the source of the base $\mathcal V$.
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 2 (pp. 57-68, enrichment, Lawvere metric spaces, V-functors, V-products)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 2; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 2; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

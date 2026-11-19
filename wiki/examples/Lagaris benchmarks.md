@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in Intro SciML (ME 539). Data: analytic. Tasks: physics-informed.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/26 - Physics-informed Deep Neural Networks/hands-on-26.1.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/26 - Physics-informed Deep Neural Networks/hands-on-26.1.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Lagaris 1998 ODE benchmarks via trial-solution neural nets
 
-`text_books/intro-to-scientific-machine-learning/notebooks/26 - Physics-informed Deep Neural Networks/hands-on-26.1.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/26 - Physics-informed Deep Neural Networks/hands-on-26.1.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: forward ODE solve
@@ -36,7 +36,7 @@ uses: 2
 
 ## Lagaris 2D Poisson PDE benchmarks (Problems 5 and 6)
 
-`text_books/intro-to-scientific-machine-learning/notebooks/26 - Physics-informed Deep Neural Networks/hands-on-26.2.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/26 - Physics-informed Deep Neural Networks/hands-on-26.2.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: forward PDE solve

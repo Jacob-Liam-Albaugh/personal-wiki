@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: none. Tasks: operator learning.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/hup/op/03_fno.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/op/03_fno.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## 1D Burgers equation (FNO)
 
-`text_books/advanced-scientific-machine-learning/book/hup/op/03_fno.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/op/03_fno.ipynb`
 
 - **Source**: ASML (ME 697), lecture, external-link
 - **Problem**: operator learning

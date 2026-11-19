@@ -42,7 +42,7 @@ A schema is a category $C$; an instance is a functor $C\to\mathrm{Set}$ (Def. 3.
 [[Functor]]s map between categories, [[Natural transformation]]s map between functors, [[Adjunction]] relates two categories. A category with a tensor is a [[Monoidal category]]. Limits and colimits: [[Universal property]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 3 (pp. 81-90, categories, free categories, Set, isomorphism)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 3; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 3; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

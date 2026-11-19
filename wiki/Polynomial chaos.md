@@ -73,7 +73,7 @@ Term count grows quickly with input dimension; poor for discontinuities, singula
 
 **Examples**: [[Duffing oscillator examples]] · [[Lorenz system examples]] · [[Polynomial chaos 1D test functions]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/polynomial_chaos (ME 697 2.2); homework 3
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/00_intro.md` through `08_limitations.md`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/00_intro.md` through `08_limitations.md`.
 **Last updated**: 2026-11-06
 
 ---

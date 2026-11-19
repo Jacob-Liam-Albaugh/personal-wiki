@@ -14,14 +14,14 @@ uses: 10
 **Summary**: 10 uses in ASML (ME 697) and Intro SciML (ME 539). Data: simulated, synthetic, analytic. Tasks: uncertainty propagation, surrogate modelling, sensitivity analysis, inverse problem and calibration, system identification, state estimation, sampling.
 
 **Covered in**: ASML (ME 697), Intro SciML (ME 539)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/07_pce_dynamical_system.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/07_pce_dynamical_system.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Duffing oscillator with random initial state (PCE)
 
-`text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/07_pce_dynamical_system.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/07_pce_dynamical_system.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: uncertainty propagation / surrogate modelling
@@ -38,7 +38,7 @@ uses: 10
 
 ## Duffing oscillator local sensitivity
 
-`text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/03_example_ode.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/sensitivity_analysis/03_example_ode.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: sensitivity analysis / uncertainty propagation
@@ -54,7 +54,7 @@ uses: 10
 
 ## Duffing oscillator global sensitivity (Sobol indices)
 
-`text_books/advanced-scientific-machine-learning/book/up/sensitivity_analysis/08_global_sensitivity_analysis.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/sensitivity_analysis/08_global_sensitivity_analysis.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: sensitivity analysis
@@ -70,7 +70,7 @@ uses: 10
 
 ## Duffing oscillator system identification
 
-`text_books/advanced-scientific-machine-learning/book/inverse/odes/03_dyn_system_multiple_traj.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/odes/03_dyn_system_multiple_traj.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Bayesian system identification
@@ -87,7 +87,7 @@ uses: 10
 
 ## Stochastic Duffing oscillator state-space (filtering)
 
-`text_books/advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/fs/02_filter.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: filtering / prediction
@@ -104,7 +104,7 @@ uses: 10
 
 ## Stochastic Duffing oscillator state-space (smoothing)
 
-`text_books/advanced-scientific-machine-learning/book/sinverse/fs/03_smoother.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/fs/03_smoother.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: filtering/smoothing
@@ -119,7 +119,7 @@ uses: 10
 
 ## Duffing parameter identification by EM
 
-`text_books/advanced-scientific-machine-learning/book/sinverse/cali/02_em_example.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/cali/02_em_example.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: system identification
@@ -135,7 +135,7 @@ uses: 10
 
 ## Duffing Bayesian calibration by particle MCMC
 
-`text_books/advanced-scientific-machine-learning/book/sinverse/cali/04_pmcmc_example.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/cali/04_pmcmc_example.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Bayesian inverse problem
@@ -151,7 +151,7 @@ uses: 10
 
 ## Duffing oscillator sensitivity analysis
 
-`text_books/advanced-scientific-machine-learning/book/homework/02_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/02_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: sensitivity analysis
@@ -166,7 +166,7 @@ uses: 10
 
 ## Bistable Duffing oscillator uncertainty propagation
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-02.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-02.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: forward uncertainty propagation

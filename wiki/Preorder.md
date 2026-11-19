@@ -55,7 +55,7 @@ Generative effects are the failure of a map to preserve joins; whether a map has
 Maps between preorders can be [[Galois connection]]s. A preorder with a compatible product is a [[Monoidal category]] (resource theory). Adjoint-preserving structure and closure operators: [[Galois connection]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 1 (pp. 1-26, relations, preorders, monotone maps, meets and joins, generative effects)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 1, 2; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 1, 2; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

@@ -46,7 +46,7 @@ Prop. 5.29 (p. 156): prop functors $\mathrm{Free}(G)\to\mathcal C$ correspond on
 Wiki note: a universal property that holds for all inputs assembles into an [[Adjunction]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 3 (pp. 108-114, limits), ch. 6 (pp. 185-194, colimits), ch. 5 (free props)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 3, 5, 6; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 3, 5, 6; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

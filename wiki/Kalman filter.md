@@ -51,8 +51,9 @@ $$
 
 **Examples**: [[Forced damped oscillator (Kalman)]] · [[Object tracking point mass]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/fs (ME 697 6.2)
-**Sources**: none in `text_books/advanced-scientific-machine-learning/book/`; context from `sinverse/fs/intro.md`.
-**Last updated**: 2026-11-06
+**Sources**: none in `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/`; context from `sinverse/fs/intro.md`.
+**Further reading**: Särkkä 2013 ch. 4 (KF), ch. 5 (EKF, UKF), ch. 6 (Gaussian filters), ch. 8 (RTS smoother), `text_books/Machine Learning & Statistics/Sarkka - Bayseian Filtering and Smoothing.pdf`; Murphy PML2 ch. 8, `text_books/Machine Learning & Statistics/Murphy - Probabilistic Machine Learning Advanced Topics.pdf`; ME 539 book ch. 20, `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/intro-to-scientific-machine-learning.pdf`.
+**Last updated**: 2026-11-19
 
 ---
 

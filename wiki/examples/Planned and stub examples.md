@@ -14,14 +14,14 @@ uses: 9
 **Summary**: 9 uses in ASML (ME 697) and Intro SciML (ME 539). Data: none. Tasks: inverse problem and calibration, physics-informed.
 
 **Covered in**: ASML (ME 697), Intro SciML (ME 539)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/vi/03_3d_reconstruction.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/vi/03_3d_reconstruction.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## 3D particle position reconstruction from images
 
-`text_books/advanced-scientific-machine-learning/book/inverse/vi/03_3d_reconstruction.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/vi/03_3d_reconstruction.ipynb`
 
 - **Source**: ASML (ME 697), lecture, stub
 - **Data origin**: none
@@ -29,7 +29,7 @@ uses: 9
 
 ## Improving posterior geometry
 
-`text_books/advanced-scientific-machine-learning/book/inverse/hbayes/03_bad_post_geometry.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/hbayes/03_bad_post_geometry.ipynb`
 
 - **Source**: ASML (ME 697), lecture, stub
 - **Data origin**: none
@@ -37,7 +37,7 @@ uses: 9
 
 ## Neural ODEs
 
-`text_books/advanced-scientific-machine-learning/book/inverse/data/04_nodes.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/data/04_nodes.ipynb`
 
 - **Source**: ASML (ME 697), lecture, stub
 - **Data origin**: none
@@ -45,7 +45,7 @@ uses: 9
 
 ## PINN inverse problem
 
-`text_books/advanced-scientific-machine-learning/book/pinns/inverse/01_pinns_inverse_example.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/inverse/01_pinns_inverse_example.ipynb`
 
 - **Source**: ASML (ME 697), lecture, stub
 - **Data origin**: none
@@ -53,7 +53,7 @@ uses: 9
 
 ## Bayesian PINN
 
-`text_books/advanced-scientific-machine-learning/book/pinns/inverse/02_example_Bayesian_pinns.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/inverse/02_example_Bayesian_pinns.ipynb`
 
 - **Source**: ASML (ME 697), lecture, stub
 - **Data origin**: none
@@ -61,7 +61,7 @@ uses: 9
 
 ## Physics-informed neural operator
 
-`text_books/advanced-scientific-machine-learning/book/pinns/parametric/physics-informed_nops.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/parametric/physics-informed_nops.ipynb`
 
 - **Source**: ASML (ME 697), lecture, stub
 - **Data origin**: none
@@ -69,7 +69,7 @@ uses: 9
 
 ## Homework 10 placeholder
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-10.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-10.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, stub
 - **Data origin**: none
@@ -77,7 +77,7 @@ uses: 9
 
 ## Inferring thermal conductivity
 
-`text_books/advanced-scientific-machine-learning/book/inverse/pdes/02_thermal.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/pdes/02_thermal.ipynb`
 
 - **Source**: ASML (ME 697), lecture, stub
 - **Data origin**: none
@@ -85,7 +85,7 @@ uses: 9
 
 ## Inferring the location of a contaminant
 
-`text_books/advanced-scientific-machine-learning/book/inverse/pdes/03_contamination.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/pdes/03_contamination.ipynb`
 
 - **Source**: ASML (ME 697), lecture, stub
 - **Data origin**: none

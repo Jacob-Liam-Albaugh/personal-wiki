@@ -38,7 +38,7 @@ For $F : C\to D$, precomposition $\Delta_F : \mathrm{Set}^D\to\mathrm{Set}^C$ pu
 [[Natural transformation]] compares two functors; [[Adjunction]] pairs two functors; [[Yoneda lemma]] concerns representable functors. Hosts: [[Category]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 3 (pp. 91-107, functors, instances, pullback along a functor, data migration)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 3; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 3; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

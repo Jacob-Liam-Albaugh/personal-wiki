@@ -14,14 +14,14 @@ uses: 5
 **Summary**: 5 uses in ASML (ME 697). Data: analytic. Tasks: surrogate modelling, uncertainty propagation.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/04_orthpol_demo.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/04_orthpol_demo.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Orthogonal polynomials for bimodal Gaussian mixture
 
-`text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/04_orthpol_demo.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/04_orthpol_demo.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: surrogate modelling / basis construction
@@ -35,7 +35,7 @@ uses: 5
 
 ## Legendre projection of sinc function
 
-`text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/04_orthpol_demo.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/04_orthpol_demo.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: surrogate modelling
@@ -49,7 +49,7 @@ uses: 5
 
 ## PCE uncertainty propagation through sin(2X)/(2X)
 
-`text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/04_orthpol_demo.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/04_orthpol_demo.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: uncertainty propagation
@@ -64,7 +64,7 @@ uses: 5
 
 ## 2D tensor-product PC bases
 
-`text_books/advanced-scientific-machine-learning/book/up/polynomial_chaos/06_tensor_product.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/06_tensor_product.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: basis construction / quadrature check
@@ -78,7 +78,7 @@ uses: 5
 
 ## PCE of sin(xi), xi~Exp(1)
 
-`text_books/advanced-scientific-machine-learning/book/homework/03_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/03_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: uncertainty propagation

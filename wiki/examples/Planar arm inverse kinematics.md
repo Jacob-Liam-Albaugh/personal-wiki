@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: synthetic. Tasks: inverse problem and calibration, variational inference.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/hbayes/04_amortized_vi.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/hbayes/04_amortized_vi.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Planar multi-jointed arm inverse kinematics
 
-`text_books/advanced-scientific-machine-learning/book/inverse/hbayes/04_amortized_vi.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/hbayes/04_amortized_vi.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Bayesian inverse problem (amortized)

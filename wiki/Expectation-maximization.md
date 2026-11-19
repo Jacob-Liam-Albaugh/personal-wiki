@@ -37,7 +37,7 @@ The expectation is estimated with a bootstrap smoother ([[Particle filter]]); th
 
 **Examples**: [[Duffing oscillator examples]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/cali (ME 697 6.3)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/cali/02_em_example.ipynb`, `01_em_theory.md`, `text_books/advanced-scientific-machine-learning/book/sinverse/cali/intro.md`, `03_pmcmc_theory.md`, `04_pmcmc_example.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/cali/02_em_example.ipynb`, `01_em_theory.md`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/cali/intro.md`, `03_pmcmc_theory.md`, `04_pmcmc_example.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

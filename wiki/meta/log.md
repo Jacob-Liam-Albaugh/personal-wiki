@@ -73,7 +73,7 @@
 - Checked links across the rename: all 734 earlier page-to-page links survive, and there are 868 now. Restored graph.json, which Obsidian had overwritten (tag nodes on, colour groups gone).
 
 ## [2026-11-06] ingest | ME 697 book part 1 (ml-software)
-- Sources: `text_books/advanced-scientific-machine-learning/book/ml-software/` (functional_programming, types_and_models, differentiation, optimization).
+- Sources: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/` (functional_programming, types_and_models, differentiation, optimization).
 - Lecture pages: [[JIT compilation]], [[Pytree]], [[Automatic differentiation]], [[Gradient descent]].
 - Concept pages: [[JIT compilation]], [[vmap]], [[JAX random keys]], [[Pytree]], [[Automatic differentiation]], [[Gradient descent]], [[Momentum]], [[SGD]], [[Adam]], [[Newton's method]], [[Weight initialization]].
 - New topic tags: `optimization`, `software` (CLAUDE.md, graph colours).
@@ -180,3 +180,9 @@
 - Added an Examples section to the index, and an `**Examples**:` back-link line on the 60 method and concept pages the examples link to.
 - CLAUDE.md: documented `wiki/examples/`, page type `example`, and area `me539`.
 - No new sources (the books were already listed); no source pages written.
+
+## [2026-11-19] maintenance | Textbook moves, new reference books
+- The user reorganised `text_books/`: both Bilionis course books, plus the four statistics books formerly under `Mathmatics/`, now sit in `text_books/Machine Learning & Statistics/`; `Category Theory/` now sits under `Mathmatics/`. Rewrote the source paths in 149 files (all pages, `examples.csv`, CLAUDE.md, sources.md) to match.
+- Indexed new reference PDFs in [[sources]]: Särkkä, *Bayesian Filtering and Smoothing* (1st ed., 252 pp.), Murphy, *Probabilistic Machine Learning: Advanced Topics* (1370 pp.), and the ME 539 book PDF (914 pp., with a per-chapter split in `chapters/`). Status reference; not ingested.
+- Added **Further reading** chapter pointers to [[Kalman filter]], [[Particle filter]], [[Variational inference]] and [[Stochastic state-space model]].
+- Restored 25 textbook PDFs that were Git LFS pointer stubs (from the local LFS cache, no download).

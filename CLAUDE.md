@@ -37,7 +37,9 @@ courses/                       -- class material
   ECE 438/                     -- DSP course notes (+ ECE 301 review)
   ME 697/                      -- syllabus, videos, homework, data
 text_books/                    -- textbooks; its own git repo (git-lfs) -- read only
-  advanced-scientific-machine-learning/ -- ME 697 jupyter-book repo; its own git repo -- read only
+  Machine Learning & Statistics/ -- ML/stats books and both Bilionis course books:
+    advanced-scientific-machine-learning/ -- ME 697 jupyter-book repo; its own git repo -- read only
+    intro-to-scientific-machine-learning/ -- ME 539 book PDF, chapters/ split, notebooks/
 wiki/                          -- markdown pages maintained by Claude (flat; the repo root is the Obsidian vault)
 wiki/examples/                 -- worked examples and datasets from the two Bilionis books; hub [[Examples catalogue]], raw rows examples.csv
 wiki/meta/                     -- navigation / bookkeeping scaffolding (hidden from graph by path)
@@ -79,8 +81,8 @@ Every content page has one primary `area` and may list more in `areas`. Area slu
 | `dsp` | ECE 438 DSP and image processing | `courses/ECE 438/` |
 | `digital` | ECE 270 digital systems | `courses/ECE 270/` |
 | `em` | ECE 311 electromagnetics | `courses/ECE 311/` |
-| `me697` | ME 697 course book (`text_books/advanced-scientific-machine-learning/book/`) | course repo |
-| `me539` | ME 539 Intro SciML notebooks (`text_books/intro-to-scientific-machine-learning/notebooks/`) | course repo |
+| `me697` | ME 697 course book (`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/`) | course repo |
+| `me539` | ME 539 Intro SciML notebooks (`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/`) | course repo |
 
 A new folder gets a new slug, recorded here before it is used.
 
@@ -271,7 +273,7 @@ ch. 2`; when two books treat a topic, merge them on one page and note where they
 for their topic, with a plain-text line above `**Sources**:` naming where it was covered,
 e.g. `**Covered in**: ECE 438 IP.6, L34-L36` or `**Covered in**: ASML book up/polynomial_chaos
 (ME 697 2.2); homework 3`. ME 697 follows the Advanced Scientific Machine Learning book
-(`text_books/advanced-scientific-machine-learning/book/`). Homework and exam-review problems go on the
+(`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/`). Homework and exam-review problems go on the
 topic page they exercise as `> [!example]` callouts, cited to their file.
 
 ### Notation

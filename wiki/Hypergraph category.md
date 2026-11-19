@@ -47,7 +47,7 @@ See [[Monoidal category]], [[Category]].
 Cospan-algebras are equivalent to hypergraph props (Prop. 6.101): [[Operad]].
 
 **Covered in**: Fong-Spivak (Seven Sketches) ch. 6 (pp. 194-212, cospans, Frobenius monoids, hypergraph categories, decorated cospans)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 6; file `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 6; file `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf`.
 **Last updated**: 2026-11-06
 
 ---

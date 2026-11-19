@@ -42,7 +42,7 @@ tags: [category-theory]
 See [[Adjunction]].
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 5 (pp. 148-165); ch. 6 (p. 215); ch. 8 (pp. 323-324)
-**Sources**: `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages. Proofs and exercises were not read.
+**Sources**: `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages. Proofs and exercises were not read.
 **Last updated**: 2026-11-06
 
 ---

@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: synthetic. Tasks: inverse problem and calibration, system identification.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Structural identifiability: harmonic oscillator m x''=kx
 
-`text_books/advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/odes/02_identifiability.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Bayesian inverse problem / identifiability

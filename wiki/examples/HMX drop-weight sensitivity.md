@@ -14,14 +14,14 @@ uses: 4
 **Summary**: 4 uses in Intro SciML (ME 539). Data: real. Tasks: classification.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.1.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.1.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## HMX drop-weight explosion sensitivity
 
-`text_books/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.1.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.1.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: classification
@@ -40,7 +40,7 @@ uses: 4
 
 ## HMX drop-weight explosion sensitivity
 
-`text_books/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.2.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.2.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: classification
@@ -59,7 +59,7 @@ uses: 4
 
 ## HMX drop-weight explosion sensitivity
 
-`text_books/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.3.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.3.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: classification with decision making
@@ -78,7 +78,7 @@ uses: 4
 
 ## HMX drop-weight explosion sensitivity
 
-`text_books/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.4.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/16 - Classification/hands-on-16.4.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: classification diagnostics

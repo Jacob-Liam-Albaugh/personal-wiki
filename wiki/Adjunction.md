@@ -58,7 +58,7 @@ Data migration: for $F : C \to D$, precomposition $\Delta_F : \mathsf{Set}^D \to
 Every [[Universal property]] defines an adjoint when it holds for all inputs.
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 5 (pp. 146-148, 165); ch. 8 (pp. 315, 321-325); Fong-Spivak (Seven Sketches) ch. 3 (pp. 102-107); ch. 1 (pp. 27-34, Galois connections)
-**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 1, ch. 3; Niu, Spivak, Polynomial Functors (2024), ch. 5, ch. 8; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; `text_books/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf` (ch. 1, 3).
+**Sources**: Fong, Spivak, Seven Sketches (2019), ch. 1, ch. 3; Niu, Spivak, Polynomial Functors (2024), ch. 5, ch. 8; `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; `text_books/Mathmatics/Category Theory/Spivak, Fong - Seven Sketches in Compositionality.pdf` (ch. 1, 3).
 **Last updated**: 2026-11-06
 
 ---

@@ -38,7 +38,7 @@ See [[Adjunction]] and [[Retrofunctor]].
 - Cor 8.76 (p. 326): with Thm 5.33, this gives all small limits in $\mathsf{Cat}^\sharp$.
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 8 (pp. 292-320, 324-327)
-**Sources**: `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages. Proofs and exercises were not read.
+**Sources**: `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages. Proofs and exercises were not read.
 **Last updated**: 2026-11-06
 
 ---

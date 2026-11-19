@@ -37,7 +37,7 @@ tags: [mcmc, sampling, bayesian]
 
 **Examples**: [[Banana density]] · [[Coal mining disasters]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/sampling (ME 697 4.2)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/sampling/03_hmc_blackjax.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/sampling/03_hmc_blackjax.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

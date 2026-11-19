@@ -12,7 +12,7 @@ tags: [inverse-problems, bayesian, vi, uq]
 
 **Examples**: [[A to B to C reaction]] · [[Catalysis kinetics]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/basics (ME 697 4.1)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/basics/02_classic_example.ipynb`, `05_laplace_example.ipynb`, `vi/02_catalysis.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/basics/02_classic_example.ipynb`, `05_laplace_example.ipynb`, `vi/02_catalysis.ipynb`.
 **Last updated**: 2026-11-06
 
 ---

@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: simulated. Tasks: surrogate modelling.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/mf/02_mf_gps.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/mf/02_mf_gps.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Stochastic flow past a cylinder, base pressure superquantile (multi-fidelity)
 
-`text_books/advanced-scientific-machine-learning/book/up/mf/02_mf_gps.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/mf/02_mf_gps.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: surrogate modelling (multi-fidelity)

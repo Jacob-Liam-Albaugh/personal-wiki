@@ -38,7 +38,7 @@ The absolute-value trick of [[LP modelling]] turns $\min\sum c_i|x_i|$ with $c_i
 
 **Examples**: [[Lorenz system examples]] · [[SINDy toy systems]] · [[Sparse regression (lasso and ridge)]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/data (ME 697 4.7); Bertsimas-Tsitsiklis ch. 1 §1.3 (absolute values, p. 18)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/data/01_lasso.ipynb`, `02_sindy_1.ipynb`, `03_sindy_2.ipynb`; `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 1).
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/data/01_lasso.ipynb`, `02_sindy_1.ipynb`, `03_sindy_2.ipynb`; `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 1).
 **Last updated**: 2026-11-06
 
 ---

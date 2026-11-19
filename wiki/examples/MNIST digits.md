@@ -14,14 +14,14 @@ uses: 7
 **Summary**: 7 uses in ASML (ME 697) and Intro SciML (ME 539). Data: real. Tasks: classification, dimensionality reduction, generative, clustering.
 
 **Covered in**: ASML (ME 697), Intro SciML (ME 539)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/09_gpu_training.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/09_gpu_training.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## MNIST CNN classification
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/optimization/09_gpu_training.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/09_gpu_training.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: classification
@@ -38,7 +38,7 @@ uses: 7
 
 ## PCA on toy Gaussian and MNIST
 
-`text_books/advanced-scientific-machine-learning/book/hup/funcin/03_pca.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/03_pca.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: dimensionality reduction
@@ -55,7 +55,7 @@ uses: 7
 
 ## PCA on toy Gaussian and MNIST
 
-`text_books/advanced-scientific-machine-learning/book/reduced_order_modeling/02_pca.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/reduced_order_modeling/02_pca.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: dimensionality reduction
@@ -72,7 +72,7 @@ uses: 7
 
 ## MNIST autoencoder
 
-`text_books/advanced-scientific-machine-learning/book/homework/01_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/01_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: dimensionality reduction
@@ -89,7 +89,7 @@ uses: 7
 
 ## MNIST PCA on the digit 3
 
-`text_books/intro-to-scientific-machine-learning/notebooks/18 - Dimensionality Reduction/hands-on-18.1.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/18 - Dimensionality Reduction/hands-on-18.1.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: dimensionality reduction
@@ -106,7 +106,7 @@ uses: 7
 
 ## MNIST PCA to 2D plus k-means over all digits
 
-`text_books/intro-to-scientific-machine-learning/notebooks/18 - Dimensionality Reduction/hands-on-18.2.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/18 - Dimensionality Reduction/hands-on-18.2.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: dimensionality reduction + clustering
@@ -122,7 +122,7 @@ uses: 7
 
 ## MNIST threes: PCA + GMM generative sampling
 
-`text_books/intro-to-scientific-machine-learning/notebooks/18 - Dimensionality Reduction/hands-on-18.3.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/18 - Dimensionality Reduction/hands-on-18.3.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: density estimation / generative sampling

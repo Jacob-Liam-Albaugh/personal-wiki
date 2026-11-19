@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in ASML (ME 697). Data: real. Tasks: dimensionality reduction.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## SVD image compression
 
-`text_books/advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/02_svd.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: dimensionality reduction
@@ -38,7 +38,7 @@ uses: 2
 
 ## SVD image compression
 
-`text_books/advanced-scientific-machine-learning/book/reduced_order_modeling/01_svd.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/reduced_order_modeling/01_svd.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: dimensionality reduction

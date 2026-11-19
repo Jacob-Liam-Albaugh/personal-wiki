@@ -33,7 +33,7 @@ otherwise shrink $\alpha\leftarrow c_2\alpha$ and retry.
 > used for gradient descent, momentum and Nesterov.
 
 **Covered in**: ASML book ml-software/optimization (ME 697 1.4); Bertsimas-Tsitsiklis ch. 11 §11.4 (pp. 502-507) and ch. 9 (affine scaling step, p. 397), as cross-references only
-**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `02_gradient_descent.ipynb`, `03_momentum.ipynb`, `09_gpu_training.ipynb`; `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 9, 11).
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/01_optimization_problems.md`, `02_gradient_descent.ipynb`, `03_momentum.ipynb`, `09_gpu_training.ipynb`; `text_books/Linear Optimization/MIT (ch 1-5).pdf` (ch. 9, 11).
 **Last updated**: 2026-11-06
 
 ---

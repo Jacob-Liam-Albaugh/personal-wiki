@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in ASML (ME 697). Data: synthetic. Tasks: active learning.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/up/al/02_al.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/al/02_al.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Active learning 1D noisy function
 
-`text_books/advanced-scientific-machine-learning/book/up/al/02_al.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/al/02_al.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: active learning
@@ -39,7 +39,7 @@ uses: 2
 
 ## Active learning 2D piecewise-blended function
 
-`text_books/advanced-scientific-machine-learning/book/up/al/02_al.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/al/02_al.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: active learning

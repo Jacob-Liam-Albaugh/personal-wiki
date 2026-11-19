@@ -14,14 +14,14 @@ uses: 3
 **Summary**: 3 uses in ASML (ME 697). Data: simulated. Tasks: system identification.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/data/02_sindy_1.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/data/02_sindy_1.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## SINDy: 2D linear oscillator
 
-`text_books/advanced-scientific-machine-learning/book/inverse/data/02_sindy_1.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/data/02_sindy_1.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: System identification
@@ -38,7 +38,7 @@ uses: 3
 
 ## SINDy: 2D cubic system
 
-`text_books/advanced-scientific-machine-learning/book/inverse/data/02_sindy_1.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/data/02_sindy_1.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: System identification
@@ -55,7 +55,7 @@ uses: 3
 
 ## SINDy: 3D linear system
 
-`text_books/advanced-scientific-machine-learning/book/inverse/data/02_sindy_1.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/data/02_sindy_1.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: System identification

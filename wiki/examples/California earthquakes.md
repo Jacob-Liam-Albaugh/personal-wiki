@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in Intro SciML (ME 539). Data: real. Tasks: inverse problem and calibration.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-03.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-03.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Southern California and Baja M>=6.5 earthquake rate
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-03.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-03.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: Bayesian rate inference

@@ -14,14 +14,14 @@ uses: 3
 **Summary**: 3 uses in ASML (ME 697) and Intro SciML (ME 539). Data: simulated. Tasks: uncertainty propagation, surrogate modelling.
 
 **Covered in**: ASML (ME 697), Intro SciML (ME 539)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/hup/funcin/05_up_example.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/05_up_example.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Stochastic 1D heat equation, point QoI
 
-`text_books/advanced-scientific-machine-learning/book/hup/funcin/05_up_example.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/05_up_example.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: uncertainty propagation; surrogate modelling
@@ -39,7 +39,7 @@ uses: 3
 
 ## Stochastic 1D heat equation, full-field output
 
-`text_books/advanced-scientific-machine-learning/book/hup/funcin/06_up_hout_example.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/hup/funcin/06_up_hout_example.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: uncertainty propagation; surrogate modelling (high-dimensional output)
@@ -57,7 +57,7 @@ uses: 3
 
 ## Random-conductivity rod, steady 1D heat (uncertainty propagation through BVP)
 
-`text_books/intro-to-scientific-machine-learning/notebooks/10 - Quantify Uncertainty in Monte Carlo Estimates/hands-on-10.4.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/10 - Quantify Uncertainty in Monte Carlo Estimates/hands-on-10.4.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: uncertainty propagation

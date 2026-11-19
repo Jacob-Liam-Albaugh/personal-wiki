@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in Intro SciML (ME 539). Data: analytic, synthetic. Tasks: optimization.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/23 - Bayesian Global Optimization/hands-on-23.1.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/23 - Bayesian Global Optimization/hands-on-23.1.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## 1D Bayesian optimisation test function, noise-free
 
-`text_books/intro-to-scientific-machine-learning/notebooks/23 - Bayesian Global Optimization/hands-on-23.1.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/23 - Bayesian Global Optimization/hands-on-23.1.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: global optimisation
@@ -38,7 +38,7 @@ uses: 2
 
 ## 1D Bayesian optimisation, noisy observations
 
-`text_books/intro-to-scientific-machine-learning/notebooks/23 - Bayesian Global Optimization/hands-on-23.5.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/23 - Bayesian Global Optimization/hands-on-23.5.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: noisy global optimisation

@@ -14,14 +14,14 @@ uses: 3
 **Summary**: 3 uses in ASML (ME 697). Data: real. Tasks: inverse problem and calibration, variational inference.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/inverse/basics/02_classic_example.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/basics/02_classic_example.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Catalysis kinetics (classical calibration)
 
-`text_books/advanced-scientific-machine-learning/book/inverse/basics/02_classic_example.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/basics/02_classic_example.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Parameter calibration (point estimate)
@@ -40,7 +40,7 @@ uses: 3
 
 ## Catalysis kinetics (Bayesian Laplace, known and unknown noise)
 
-`text_books/advanced-scientific-machine-learning/book/inverse/basics/05_laplace_example.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/basics/05_laplace_example.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Bayesian inverse problem
@@ -59,7 +59,7 @@ uses: 3
 
 ## Catalysis kinetics (full-rank Gaussian VI)
 
-`text_books/advanced-scientific-machine-learning/book/inverse/vi/02_catalysis.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/vi/02_catalysis.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: Bayesian inverse problem

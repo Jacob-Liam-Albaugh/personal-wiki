@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in Intro SciML (ME 539). Data: real. Tasks: distribution fitting.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-02.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-02.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Lake Michigan wave height and period dependence
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-02.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-02.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: joint distribution / dependence

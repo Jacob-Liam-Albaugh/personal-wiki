@@ -14,14 +14,14 @@ uses: 2
 **Summary**: 2 uses in ASML (ME 697). Data: simulated, real. Tasks: operator learning, uncertainty propagation.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/homework/05_homework.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/05_homework.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Darcy flow operator learning (FNO)
 
-`text_books/advanced-scientific-machine-learning/book/homework/05_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/05_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: operator learning
@@ -37,7 +37,7 @@ uses: 2
 
 ## Darcy flow uncertainty propagation through FNO
 
-`text_books/advanced-scientific-machine-learning/book/homework/05_homework.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/homework/05_homework.ipynb`
 
 - **Source**: ASML (ME 697), homework, partial
 - **Problem**: uncertainty propagation

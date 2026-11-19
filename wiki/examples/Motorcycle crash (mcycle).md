@@ -14,14 +14,14 @@ uses: 3
 **Summary**: 3 uses in Intro SciML (ME 539). Data: real. Tasks: regression.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/13 - Linear Regression via Least Squares/hands-on-13.3.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/13 - Linear Regression via Least Squares/hands-on-13.3.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Motorcycle crash head acceleration (mcycle)
 
-`text_books/intro-to-scientific-machine-learning/notebooks/13 - Linear Regression via Least Squares/hands-on-13.3.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/13 - Linear Regression via Least Squares/hands-on-13.3.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: regression
@@ -40,7 +40,7 @@ uses: 3
 
 ## Motorcycle crash head acceleration (mcycle)
 
-`text_books/intro-to-scientific-machine-learning/notebooks/13 - Linear Regression via Least Squares/hands-on-13.4.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/13 - Linear Regression via Least Squares/hands-on-13.4.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: regression with held-out validation
@@ -59,7 +59,7 @@ uses: 3
 
 ## Motorcycle crash head acceleration (mcycle) neural regression
 
-`text_books/intro-to-scientific-machine-learning/notebooks/24 - Deep neural networks for regression/hands-on-24.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/24 - Deep neural networks for regression/hands-on-24.ipynb`
 
 - **Source**: Intro SciML (ME 539), lecture, complete
 - **Problem**: 1D regression

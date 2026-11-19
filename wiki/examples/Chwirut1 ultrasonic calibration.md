@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in Intro SciML (ME 539). Data: real. Tasks: regression.
 
 **Covered in**: Intro SciML (ME 539)
-**Sources**: `text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-07.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-07.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## NIST Chwirut1 ultrasonic calibration GP
 
-`text_books/intro-to-scientific-machine-learning/notebooks/homework/homework-07.ipynb`
+`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/homework/homework-07.ipynb`
 
 - **Source**: Intro SciML (ME 539), homework, complete
 - **Problem**: GP regression with replicates

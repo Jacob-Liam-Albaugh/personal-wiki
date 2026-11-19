@@ -14,14 +14,14 @@ uses: 1
 **Summary**: 1 use in ASML (ME 697). Data: real. Tasks: system identification.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`.
 **Last updated**: 2026-11-18
 
 ---
 
 ## Geometric Brownian motion tumour growth
 
-`text_books/advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: system identification / SDE parameter estimation

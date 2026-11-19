@@ -14,14 +14,14 @@ uses: 8
 **Summary**: 8 uses in ASML (ME 697). Data: synthetic, analytic. Tasks: regression, optimization.
 
 **Covered in**: ASML (ME 697)
-**Sources**: `text_books/advanced-scientific-machine-learning/book/ml-software/differentiation/04_jax_grad.ipynb` and the notebooks listed below.
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/differentiation/04_jax_grad.ipynb` and the notebooks listed below.
 **Last updated**: 2026-11-18
 
 ---
 
 ## RBF regression of noisy cubic
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/differentiation/04_jax_grad.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/differentiation/04_jax_grad.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: regression
@@ -37,7 +37,7 @@ uses: 8
 
 ## Quartic test functions (1D and 2D with saddle)
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/optimization/02_gradient_descent.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/02_gradient_descent.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: optimization
@@ -52,7 +52,7 @@ uses: 8
 
 ## Quartic test functions with momentum
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/optimization/03_momentum.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/03_momentum.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: optimization
@@ -67,7 +67,7 @@ uses: 8
 
 ## Quartic 2D function with optax SGD
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/optimization/04_optax.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/04_optax.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: optimization
@@ -81,7 +81,7 @@ uses: 8
 
 ## Quadratic regression (SGD)
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/optimization/05_sgd.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/05_sgd.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: regression
@@ -97,7 +97,7 @@ uses: 8
 
 ## Quadratic regression (adaptive optimizers)
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/06_adaptive.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: regression
@@ -113,7 +113,7 @@ uses: 8
 
 ## Quadratic regression (second order)
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/optimization/07_second_order.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/07_second_order.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: regression
@@ -129,7 +129,7 @@ uses: 8
 
 ## Weight initialization on 1D regression with MLP
 
-`text_books/advanced-scientific-machine-learning/book/ml-software/optimization/08_initialization.ipynb`
+`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ml-software/optimization/08_initialization.ipynb`
 
 - **Source**: ASML (ME 697), lecture, complete
 - **Problem**: regression

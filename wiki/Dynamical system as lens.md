@@ -52,7 +52,7 @@ The special case $p = Iy^A$ is a [[Moore machine]] (Def 4.4). Further examples:
 - Comonoid generalization (Def. 3.2): [[Polynomial comonoid]].
 
 **Covered in**: Niu-Spivak, Polynomial Functors ch. 4 (pp. 89-128); ch. 6 (pp. 191-200, 208)
-**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
+**Sources**: `Bilionis - Polynomial Equipment Interfaces and Experimental Protocols.pdf`; `text_books/Mathmatics/Category Theory/Spivak, Niu - Polynomial Functors.pdf`; page numbers are printed pages.
 **Last updated**: 2026-11-06
 
 ---
