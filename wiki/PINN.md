@@ -31,6 +31,7 @@ tags: [physics-informed, ml, pde]
 - [[Parametric PINN]]: branch-trunk ansatz $N=\sum_i b_i(\xi)\phi_i(x)$ with loss averaged over $p(\xi)$ (source: pinns/parametric).
 - Inverse problems: see the section below (the book's notebooks are stubs).
 - [[PISD (Gallon 2026)]]: the PINN residual used as guidance during diffusion sampling rather than as a training loss.
+- [[SMURF (Hans 2026)]]: contrast; coordinate-network fields fitted to 4D flow MRI by a measurement likelihood with no PDE loss; conservation residuals checked, not enforced.
 
 ## Forward problem (book, pinns/basics)
 PINNs encode the physics through a regularization term added to the loss (source: pinns/intro.md). The book's toy problem is a steady heat equation with zero Dirichlet data.

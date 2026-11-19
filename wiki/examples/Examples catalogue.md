@@ -8,10 +8,10 @@ tags: [uq, inverse-problems, bayesian, sampling, ml]
 
 # Examples catalogue
 
-**Summary**: Every worked example and dataset in the two Bilionis books, 136 notebook uses grouped into 60 examples. Pick a task below to see which examples the books use for it. Intro-book toy examples (coin flips, basic probability) are left out.
+**Summary**: Every worked example and dataset in the two Bilionis books, 136 notebook uses grouped into 60 examples. Pick a task below to see which examples the books use for it. Intro-book toy examples (coin flips, basic probability) are left out. A further 47 examples from lab papers, with source and data links, are in [[#Examples from lab papers]].
 
 **Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book`, `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks`. Raw rows: `wiki/examples/examples.csv`.
-**Last updated**: 2026-11-18
+**Last updated**: 2026-11-19
 
 ---
 
@@ -145,5 +145,77 @@ tags: [uq, inverse-problems, bayesian, sampling, ml]
 | [[Treasury yield (Vasicek)]] | real | system identification | asml | 1 |
 | [[Tumour growth (GBM)]] | real | system identification | asml | 1 |
 
+## Examples from lab papers
+
+Examples used in papers by Ilias, Alex, Max, Atharva, Abhishek, Motahareh and Wesley, sorted by spatial dimension. Links were collected by web search on 2026-11-19 and the downloads were not inspected **[unverified]**. "none found" means no public link turned up.
+
+### No spatial dimension
+
+| Example | Over time? | Who | Source | Data / code | In the books |
+|---|---|---|---|---|---|
+| Synthetic OU process with hidden mean | yes | Max, Alex, Ilias | [Diesel PM as OU process (2026)](https://arxiv.org/abs/2603.12356) | [code](https://github.com/PredictiveScienceLab/ou-pm-paper) |  |
+| Cummins B6.7L particulate matter | yes | Max, Alex, Ilias | [Diesel PM as OU process (2026)](https://arxiv.org/abs/2603.12356) | none found (proprietary) |  |
+| Cummins turbocharger and NOx | yes | Ilias | [Koopman turbine (2022)](https://arxiv.org/abs/2204.10421), [NOx causal GP (2024)](https://arxiv.org/abs/2410.18424), [NOx calibration (2025)](https://arxiv.org/abs/2511.18178) | none found (proprietary) |  |
+| Space-habitat thermal twin, 17 states | yes | Ilias | [Bayesian thermal digital twin (2026)](https://arxiv.org/abs/2609.04614) | none found (promised on acceptance) |  |
+| Pressure leak, synthetic and steel box | yes | Motahareh | [Leakage severity with EKF (2025)](https://doi.org/10.2514/1.J063825) | none found (synthetic case regenerable from stated parameters) |  |
+| Pressure chamber leak | yes | Motahareh | [Rapid leakage estimation (2023)](https://arxiv.org/abs/2212.03372) | none found |  |
+| HARSH habitat testbed | yes | Motahareh, Ilias | [Communication delays in habitats (2026)](https://ntrs.nasa.gov/citations/20260005281) | none found (data DOI promised, not found) |  |
+| Motorcycle crash, 94 points | yes | Alex, Ilias | [Mercer-kernel BNN priors (2025)](https://arxiv.org/abs/2510.23745) | [mcycle in R MASS](https://stat.ethz.ch/R-manual/R-devel/library/MASS/html/mcycle.html) | [[Motorcycle crash (mcycle)]] |
+| Mauna Loa CO2 | yes | Alex, Ilias | [Mercer-kernel BNN priors (2025)](https://arxiv.org/abs/2510.23745) | [NOAA record](https://gml.noaa.gov/ccgg/trends/) (may differ from the series the paper used) |  |
+| NASA fibrous insulation k(T), 51 temperatures | no | Alex, Ilias | [Mercer-kernel BNN priors (2025)](https://arxiv.org/abs/2510.23745) | [NASA report](https://ntrs.nasa.gov/citations/20240003609), [CSV in repo](https://github.com/PredictiveScienceLab/IFT-Thermal-Conductivity-Experiments) |  |
+| Damage location (EIT) and 4-DoF arm | no | Ilias | [Amortized VI for inverse problems (2023)](https://arxiv.org/abs/2305.20004) | [code and notebooks](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri) | [[Planar arm inverse kinematics]] |
+| Murine skin hyperelasticity | no | Ilias | [Generative hyperelasticity (2023)](https://arxiv.org/abs/2310.03745) | [data and code](https://github.com/tajtac/node_diffusion) |  |
+| Oxidation curves, 407 | yes | Ilias | [Oxidation mass uptake (2023)](https://arxiv.org/abs/2310.15083) | [refoxdb on nanoHUB](https://nanohub.org/tools/refoxdb/) |  |
+| Refractory alloy active learning | no | Ilias | [Alloy active learning (2025)](https://arxiv.org/abs/2512.15958) | [refoxdb](https://nanohub.org/tools/refoxdb/) (new measurements in the paper supplement) |  |
+| Nitrate kinetics | yes | Ilias | [Variational reformulation of inverse problems (2014)](https://arxiv.org/abs/1410.5522) | [code](https://github.com/ebilionis/variational-reformulation-of-inverse-problems) | [[Catalysis kinetics]] |
+| Thermal preferences | no | Ilias | [Unimodal GP thermal preferences (2019)](https://arxiv.org/abs/1903.09094) | [code](https://github.com/nawalgao/GPPrefElicit) (survey data not released) |  |
+| Synthetic design functions | no | Ilias | [BODE (2018)](https://arxiv.org/abs/1807.09979), [Bayesian sequential design (2019)](https://arxiv.org/abs/1912.07366) | [BODE code](https://github.com/piyushpandita92/bode), [AdaptiveSDOE](https://github.com/piyushpandita92/AdaptiveSDOE) (AdaptiveSDOE matched by author, not linked in the paper) |  |
+| Steel wire drawing | no | Ilias | [Multi-objective optimization on a budget (2017)](https://arxiv.org/abs/1706.01665) | [toy code only](https://github.com/piyushpandita92/pydes) (simulator not public) |  |
+| Lorenz and Hopf (SINDy) | yes | Atharva, Ilias | [Coding-agent paper replication (2026)](https://arxiv.org/abs/2607.02134) | [replication repo](https://github.com/PredictiveScienceLab/paper-replication-paper), [PySINDy](https://github.com/dynamicslab/pysindy) | [[SINDy toy systems]] |
+| Dual-moon posterior | no | Wesley | [GitHub repo only, no paper](https://github.com/wesleyjholt/multimodal-examples) | [repo](https://github.com/wesleyjholt/multimodal-examples) |  |
+| CF-PEI tensile tests | no | Ilias | [Fiber orientation inference (2022)](https://arxiv.org/abs/2202.12881) | none found |  |
+| WCA dimer, LJ38, 2D toy potential | no | Ilias | [Free energy by KL minimization (2010)](https://arxiv.org/abs/1011.2416) | none found |  |
+| 50 state-capital temperatures | yes | Ilias | [Bayesian reduced-order models (2010)](https://arxiv.org/abs/1001.2753) | none found (paper's link not opened, likely dead) |  |
+
+### 1D
+
+| Example | Over time? | Who | Source | Data / code | In the books |
+|---|---|---|---|---|---|
+| Steady heat and cubic nonlinear equation | no | Alex, Ilias | [Physics-informed IFT (2023)](https://arxiv.org/abs/2301.07609) | [code and observation CSVs](https://github.com/PredictiveScienceLab/pift-paper-2023) |  |
+| Elliptic PDE, log-normal conductivity | no | Ilias | [Simulator-free SPDE solver (2019)](https://arxiv.org/abs/1902.05200) | [code](https://github.com/PredictiveScienceLab/variational-elliptic-SPDE) (data on Purdue SharePoint, not opened) | [[Stochastic 1D heat equation]] |
+| Heat equation, Wiener-Levy conductivity | no | Ilias | [Amortized VI for inverse problems (2023)](https://arxiv.org/abs/2305.20004) | [code and notebooks](https://github.com/PredictiveScienceLab/paper-2023-inverse-map-karumuri) |  |
+| Burgers and Schrodinger (Raissi PINNs) | yes | Atharva, Ilias | [Coding-agent paper replication (2026)](https://arxiv.org/abs/2607.02134) | [Raissi PINNs data](https://github.com/maziarraissi/PINNs) |  |
+| Poisson with Brownian bridge prior | no | Alex, Ilias | [Brownian bridge prior for Poisson (2025)](https://arxiv.org/abs/2503.00213) | none found | [[Brownian motion, bridge and sheet]] |
+| Heat equation, probabilistic solver | no | Ilias | [Probabilistic PDE solvers (2016)](https://arxiv.org/abs/1607.03526) | none found |  |
+| Granular crystal chain (placement uncertain) | yes | Ilias | [GP dimensionality reduction (2016)](https://arxiv.org/abs/1602.04550), [Deep active subspaces (2019)](https://arxiv.org/abs/1902.10527) | [py-aspgp](https://github.com/PredictiveScienceLab/py-aspgp) (repo matched by name) |  |
+
+### 2D
+
+| Example | Over time? | Who | Source | Data / code | In the books |
+|---|---|---|---|---|---|
+| Elliptic PDE, log-normal and channelized fields | no | Ilias | [Simulator-free SPDE solver (2019)](https://arxiv.org/abs/1902.05200) | [code](https://github.com/PredictiveScienceLab/variational-elliptic-SPDE), [channelized data](https://github.com/cics-nd/pde-surrogate) |  |
+| Elliptic PDE, DNN surrogate | no | Ilias | [Deep UQ (2018)](https://arxiv.org/abs/1802.00850) | [code](https://github.com/rohitkt10/deep-uq-paper) |  |
+| Elliptic PDE, active subspaces | no | Ilias | [GP dimensionality reduction (2016)](https://arxiv.org/abs/1602.04550), [Deep active subspaces (2019)](https://arxiv.org/abs/1902.10527) | [py-aspgp](https://github.com/PredictiveScienceLab/py-aspgp), [dataset repo](https://github.com/paulcon/as-data-sets) (dataset folder may have moved) |  |
+| Allen-Cahn, bimodal (steady placement uncertain) | no | Alex, Ilias | [Physics-informed IFT (2023)](https://arxiv.org/abs/2301.07609) | [notebook](https://github.com/PredictiveScienceLab/pift-paper-2023) |  |
+| Insulation thermal conductivity, ABAQUS twin | yes | Alex, Ilias | [IFT thermal conductivity (2026)](https://arxiv.org/abs/2601.15427) | [data and code](https://github.com/PredictiveScienceLab/IFT-Thermal-Conductivity-Experiments) (ABAQUS licence needed) |  |
+| Navier-Stokes cylinder wake (Raissi PINNs) | yes | Atharva, Ilias | [Coding-agent paper replication (2026)](https://arxiv.org/abs/2607.02134) | [Raissi PINNs data](https://github.com/maziarraissi/PINNs) | [[Cylinder flow Re 100 (DMD)]] |
+| Contaminant source (time placement uncertain) | yes | Ilias | [Variational reformulation of inverse problems (2014)](https://arxiv.org/abs/1410.5522) | [code](https://github.com/ebilionis/variational-reformulation-of-inverse-problems) |  |
+| Skin flaps | no | Ilias | [Reconstructive surgery GP (2020)](https://arxiv.org/abs/2010.02800) | [repo](https://bitbucket.org/abuganzatepole/gp_anisotropy) (repo contents not opened) |  |
+| Poisson, analytic | no | Alex, Ilias | [MAP uniqueness in PIFT (2024)](https://arxiv.org/abs/2401.14224) | none found | [[Manufactured 2D Poisson]] |
+| Electromagnet PINN | no | Ilias | [Parametric magnetostatics PINN (2022)](https://arxiv.org/abs/2202.04041) | none found |  |
+| Oil well placement on SPE10 (placement uncertain) | no | Ilias | [Extended expected improvement (2016)](https://arxiv.org/abs/1604.01147) | none found (SPE10's public home not looked up) | [[SPE10 permeability field]] |
+
+### 3D
+
+| Example | Over time? | Who | Source | Data / code | In the books |
+|---|---|---|---|---|---|
+| Brindise in-vitro aneurysm flow | yes | Atharva, Abhishek, Ilias | [3D particle reconstruction (2024)](https://doi.org/10.1088/1361-6501/ad6624), [UOT particle tracking (2024)](https://arxiv.org/abs/2407.04583) | [particle velocimetry](https://doi.org/10.4231/M5F1-QC84), [MRI](https://doi.org/10.4231/C6DE-N845), [CFD](https://doi.org/10.4231/5RW6-4Z50) (Purdue PURR, CC0; zips not inspected) |  |
+| Aneurysm growth, 19 public aneurysms | yes | Atharva, Ilias | [Aneurysm growth detection (2026)](https://arxiv.org/abs/2604.06649) | [OpenNeuro ds005096](https://openneuro.org/datasets/ds005096) (paper does not say which 19) |  |
+| Aneurysm growth, UCSF 42 | yes | Atharva, Ilias | [Aneurysm growth detection (2026)](https://arxiv.org/abs/2604.06649) | none found (not public) |  |
+| Synthetic aneurysm CFD, Poiseuille tube, in-vivo patient | yes | Atharva, Abhishek, Ilias | [SMURF 4D-flow MRI (2025)](https://arxiv.org/abs/2505.12494), [VAST 4D-flow MRI (2026)](https://arxiv.org/abs/2601.13393) | none found |  |
+| Burgers vortex, 3,000 particles | yes | Atharva, Ilias | [UOT particle tracking (2024)](https://arxiv.org/abs/2407.04583) | none found (generated in the paper) |  |
+| Pipe flow, Re 630 | yes | Atharva | [3D particle reconstruction (2024)](https://doi.org/10.1088/1361-6501/ad6624) | none found (journal's data statement not read) |  |
+
 ## Related pages
+- [[Dynamical systems table]]
 - [[Planned and stub examples]]

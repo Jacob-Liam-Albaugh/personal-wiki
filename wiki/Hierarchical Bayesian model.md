@@ -11,6 +11,10 @@ tags: [bayesian, inverse-problems, uq, mcmc]
 **Summary**: A model in which each individual's parameters are drawn from a population distribution whose own parameters get a prior. Many related inverse problems are solved together, and the population level is learned from all of them.
 
 **Examples**: [[Cars on a bumpy road]] (see [[Examples catalogue]])
+## Where it appears
+
+- [[Communication delays in habitats (Mirfarah 2026)]]: Normal-Inverse-Gamma contrasts and GLM-ARD on resilience metrics.
+
 **Covered in**: ASML book inverse/hbayes (ME 697 4.4)
 **Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/hbayes/intro.md`, `02_hbayes_example.ipynb`, `01_basics.md`, `03_bad_post_geometry.ipynb`, `04_amortized_vi.ipynb`.
 **Last updated**: 2026-11-06

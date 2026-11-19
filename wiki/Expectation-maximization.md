@@ -28,6 +28,10 @@ The expectation is estimated with a bootstrap smoother ([[Particle filter]]); th
 > [!example] Duffing oscillator
 > Unknowns $\theta=[\alpha,\beta,\delta,\sigma]$ from $\alpha_0=\beta_0=\delta_0=0$, $\sigma_0=2$. Settings: 1000 particles, 100 EM iterations, 100 M-step iterations, learning rate $10^{-3}$, `BootstrapSmoother(1)`. Result: $\alpha=-0.91$ (true $-1$), $\beta=0.93$ (true $1$), $\delta=0.38$ (true $0.3$). The noise estimate is 0.15 against a "true" 0.01 in the notebook. Point estimate only, so no uncertainty (source: 02_em_example.ipynb).
 
+## Where it appears
+
+- [[EKF leak severity (Mirfarah 2025)]]: EM for the EKF noise covariances and initial state, run online on 3-s batches.
+
 ## Notes
 - Each EM step does not decrease the likelihood **[unverified: standard property, not stated in the source]**.
 - Cheaper than [[Particle MCMC]], but gives a point estimate where PMCMC gives a posterior.

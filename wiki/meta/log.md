@@ -186,3 +186,14 @@
 - Indexed new reference PDFs in [[sources]]: Särkkä, *Bayesian Filtering and Smoothing* (1st ed., 252 pp.), Murphy, *Probabilistic Machine Learning: Advanced Topics* (1370 pp.), and the ME 539 book PDF (914 pp., with a per-chapter split in `chapters/`). Status reference; not ingested.
 - Added **Further reading** chapter pointers to [[Kalman filter]], [[Particle filter]], [[Variational inference]] and [[Stochastic state-space model]].
 - Restored 25 textbook PDFs that were Git LFS pointer stubs (from the local LFS cache, no download).
+
+## [2026-11-19] ingest | Space-habitat papers, SMURF, Mak 1999, Ganguly 2023
+- New folder `papers/Space Habitats/` with new area slug `habitats` (recorded in CLAUDE.md, new index section).
+- [[EKF leak severity (Mirfarah 2025)]]: EKF on (cabin pressure, leak area) with EM or VB noise tuning; EKF+EM gives 10.05% experimental leak-area NRMSE against 27.07% for the plain EKF, but its 95% intervals under-cover (PICP 36.59-53.66%). VB does not beat the EKF.
+- [[EWARS leak estimation (Rautela 2023)]]: adaptive refined search with an exponentially weighted objective; 300 instead of 10,000 evaluations, under 1% error, no UQ.
+- [[Communication delays in habitats (Mirfarah 2026)]]: experiments on a habitat testbed; delay lowers every resilience metric (HRM, DMN, ABM), non-linearly under compound faults. Bayesian NIG contrasts.
+- [[Thermomechanical CPT for lunar habitats (Montoya 2025)]]: 3D thermomechanical cyber-physical testing; control errors J1-J4 under 5%, PM1-PM3 above 90%, a ~10 K residual at the regolith-structure interface.
+- [[SMURF (Hans 2026)]]: label-free per-patient implicit geometry and velocity fields for 4D flow MRI, segmentation and velocity in one likelihood; Dice ~75% vs ~50% for zero-shot MedSAM2, divergence and momentum residuals 70-80% below the clinical pipeline.
+- [[Monte Carlo bounding for stochastic programs (Mak 1999)]] and new method page [[Sample average approximation]]: statistical optimality-gap bounds with common random numbers.
+- [[Amortized VI systematic review (Ganguly 2023)]]: survey; inference gap = approximation + amortization gap.
+- Back-links added on 16 concept and paper pages. The Neural information field filter PDF given was the accepted manuscript of the paper already ingested ([[Neural information field filter (Hao 2025)]]); not added.

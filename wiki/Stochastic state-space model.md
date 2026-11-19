@@ -21,6 +21,10 @@ The transition comes from an [[Euler-Maruyama method]] step of an [[Stochastic d
 
 Not to be confused with the deep-learning "State space model" of the sequence-model literature (S4, Mamba), see [[State space model]].
 
+## Where it appears
+
+- [[EKF leak severity (Mirfarah 2025)]]: habitat pressure-leak state-space model.
+
 ## Example: stochastic Duffing oscillator
 The oscillator with white-noise forcing $\xi(t)$ is
 

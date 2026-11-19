@@ -107,7 +107,7 @@ dX = f dt + (2β)^{−1/2} dB
 
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Hidden fluid mechanics (Raissi 2020)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[SGLD (Welling 2011)]], [[VAE paper (Kingma 2014)]]
-**Cited by in this wiki**: [[IFT for UQ of differential equations (Hao 2024)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[MAP uniqueness in IFT (Alberts 2025)]], [[Neural information field filter (Hao 2025)]], [[Path-space PIFT estimation (Hao 2025)]]
+**Cited by in this wiki**: [[Communication delays in habitats (Mirfarah 2026)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[MAP uniqueness in IFT (Alberts 2025)]], [[Neural information field filter (Hao 2025)]], [[Path-space PIFT estimation (Hao 2025)]]
 **Software cited**: [[software#JAX|JAX]], [[software#NumPyro|NumPyro]], [[software#PyTorch|PyTorch]], [[software#Pyro|Pyro]]
 %% refs:end %%
 

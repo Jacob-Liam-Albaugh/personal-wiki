@@ -67,6 +67,8 @@ As stated (§4, pp. 24-25): training takes hours and must drop to minutes (trans
 - Wiki note: the authors call it "PDE-constrained filtering of scattered noisy data" (p. 25), close to the [[Physics-informed prior]] reading.
 - Companion cardiac paper by two of the same authors: [[Cardiac activation PINN (Sahli Costabal 2020)]].
 
+- Later work on the same modality: [[SMURF (Hans 2026)]] reconstructs 3D velocity and cardiac geometry from 4D flow MRI with a likelihood-only objective.
+
 %% refs:start %%
 **Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[Glorot init (Glorot 2010)]], [[PINNs (Raissi 2019)]]
 **Cited by in this wiki**: [[Expert's guide to PINNs (Wang 2023)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[PIFT (Alberts 2023)]], [[Respecting causality (Wang 2022)]], [[When and why PINNs fail (Wang 2022)]]

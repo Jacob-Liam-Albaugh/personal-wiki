@@ -17,6 +17,10 @@ Demo (spectral_bias.ipynb): the target is
 $$f(x) = \sin(2\pi x) + 0.5\sin(16\pi x).$$
 It is fitted from 1000 points with noise 0.1 by an MLP of width 128, depth 4, tanh, Adam, 300 epochs; the high-frequency part appears late.
 
+## Where it appears
+
+- [[SMURF (Hans 2026)]]: Fourier-feature embeddings on space-time inputs (§2.7).
+
 ## Why it matters
 
 - It acts as implicit regularization: early stopping keeps the smooth part and drops high-frequency noise (Rahaman 2019, Exp. 3-4).

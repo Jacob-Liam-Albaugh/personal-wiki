@@ -81,6 +81,7 @@ Every content page has one primary `area` and may list more in `areas`. Area slu
 | `dsp` | ECE 438 DSP and image processing | `courses/ECE 438/` |
 | `digital` | ECE 270 digital systems | `courses/ECE 270/` |
 | `em` | ECE 311 electromagnetics | `courses/ECE 311/` |
+| `habitats` | deep-space habitat resilience: leak estimation, cyber-physical testing, autonomy (Dyke, Mirfarah) | `papers/Space Habitats/` |
 | `me697` | ME 697 course book (`text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/`) | course repo |
 | `me539` | ME 539 Intro SciML notebooks (`text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/notebooks/`) | course repo |
 

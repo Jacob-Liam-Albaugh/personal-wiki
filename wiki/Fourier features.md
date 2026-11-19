@@ -15,6 +15,10 @@ tags: [ml, signals, gp]
 > $$\gamma(v) = \left[\cos(2\pi B v),\ \sin(2\pi B v)\right]$$
 > as the network input. Tune $\sigma$ on validation data (source: Tancik 2020, §6).
 
+## Where it appears
+
+- [[SMURF (Hans 2026)]]: Fourier-feature embeddings on (x, y, z, t) inputs to counter spectral bias.
+
 ## Key points
 
 - The book's PINN variant (no $2\pi$) feeds

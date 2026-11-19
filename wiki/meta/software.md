@@ -9,7 +9,7 @@ Software, libraries and code archives cited by wiki sources, kept off [[wanted-p
 
 ## JAX
 
-Cited by 11: [[Diesel PM as OU process (Bolt 2026)]], [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[IFT thermal conductivity (Alberts 2026)]], [[LNNs (Cranmer 2020)]], [[Neural information field filter (Hao 2025)]], [[PySR (Cranmer 2023)]], [[Respecting causality (Wang 2022)]], [[Symbolic models from deep learning (Cranmer 2020)]]
+Cited by 12: [[Diesel PM as OU process (Bolt 2026)]], [[Expert's guide to PINNs (Wang 2023)]], [[Fourier features (Tancik 2020)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT state and parameter estimation (Hao 2024)]], [[IFT thermal conductivity (Alberts 2026)]], [[LNNs (Cranmer 2020)]], [[Neural information field filter (Hao 2025)]], [[PySR (Cranmer 2023)]], [[Respecting causality (Wang 2022)]], [[SMURF (Hans 2026)]], [[Symbolic models from deep learning (Cranmer 2020)]]
 
 Reference: James Bradbury, Roy Frostig, Peter Hawkins, Matthew James Johnson, Chris Leary, Dougal Maclaurin, George Necula, Adam Paszke, Jake VanderPlas, Skye Wanderman-Milne, and Qiao Zhang. Jax: Composable transforma- tions of python+numpy programs, 2018. Available at: http://github.com/jax-ml/jax. [GitHub](http://github.com/jax-ml/jax)
 

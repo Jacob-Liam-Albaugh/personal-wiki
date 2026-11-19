@@ -48,6 +48,7 @@ L_0     = -log p_θ(x_0|x_1)
 - Expected ELBO over $p(y)$ is the amortized objective, used for the [[Duffing oscillator]]. (source: `inverse/odes/03_dyn_system_multiple_traj.ipynb`)
 
 **Examples**: [[Autoinjector FE surrogate]] · [[Catalysis kinetics]] · [[Planar arm inverse kinematics]] (see [[Examples catalogue]])
+- [[Amortized VI systematic review (Ganguly 2023)]]: ELBO for traditional and amortized VI, IWAE, Rényi and CUBO bounds on the evidence.
 **Covered in**: ASML book inverse/vi (ME 697 4.3)
 **Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`.
 **Last updated**: 2026-11-06

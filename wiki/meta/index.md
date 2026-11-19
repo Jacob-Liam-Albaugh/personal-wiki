@@ -92,6 +92,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[SINDy (Brunton 2016)]] | paper | SINDy (Brunton 2016) |
 | [[SINDy autoencoders (Champion 2019)]] | paper | Data-driven discovery of coordinates and governing equations (Champion 2019) |
 | [[SINDy delay autoencoders (Bakarji 2022)]] | paper | Discovering governing equations from partial measurements with deep delay autoencoders (Bakarji 2022) |
+| [[SMURF (Hans 2026)]] | paper | SMURF (Hans 2026) |
 | [[When and why PINNs fail (Wang 2022)]] | paper | When and why PINNs fail to train (Wang 2022) |
 | [[Adjoint sensitivity method]] | method | Adjoint sensitivity method |
 | [[Eikonal equation]] | definition | Eikonal equation |
@@ -143,6 +144,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Classifier-free guidance (Ho 2022)]] | paper | Classifier-Free Diffusion Guidance (Ho 2022) |
 | [[DDIM (Song 2021)]] | paper | Denoising Diffusion Implicit Models (Song 2021) |
 | [[DDPM (Ho 2020)]] | paper | Denoising Diffusion Probabilistic Models (Ho 2020) |
+| [[Monte Carlo bounding for stochastic programs (Mak 1999)]] | paper | Monte Carlo bounding for stochastic programs (Mak 1999) |
 | [[NCSNv2 (Song 2020)]] | paper | Improved Techniques for Training Score-Based Generative Models (Song 2020) |
 | [[Diesel PM as OU process (Bolt 2026)]] | paper | Modeling diesel output PM as the Ornstein-Uhlenbeck process (Bolt 2026) |
 | [[Flow matching tutorial (Chen 2024)]] | paper | Flow Matching Tutorial, NeurIPS 2024 slides (Chen 2024) |
@@ -180,6 +182,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Ornstein-Uhlenbeck process]] | definition | Ornstein-Uhlenbeck process |
 | [[Particle filter]] | method | Particle filter |
 | [[Riemannian manifold HMC]] | method | Riemannian manifold HMC |
+| [[Sample average approximation]] | method | Sample average approximation and optimality-gap bounds |
 | [[SG-MCMC]] | concept | Stochastic-gradient MCMC |
 | [[SGHMC]] | method | Stochastic-gradient HMC (and HMC) |
 | [[SGLD]] | method | Stochastic gradient Langevin dynamics (SGLD) |
@@ -195,6 +198,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | Page | Type | Title |
 |---|---|---|
 | [[Amortized VI for inverse problems (Karumuri 2024)]] | paper | Learning to solve Bayesian inverse problems with amortized VI (Karumuri 2024) |
+| [[Amortized VI systematic review (Ganguly 2023)]] | paper | Amortized VI systematic review (Ganguly 2023) |
 | [[Amortized VI when and why (Margossian 2024)]] | paper | Amortized variational inference: when and why? (Margossian 2024) |
 | [[Bayesian DenseED surrogate (Zhu 2018)]] | paper | Bayesian DenseED Surrogates (Zhu 2018) |
 | [[Intro to VAEs (Kingma 2019)]] | paper | An Introduction to Variational Autoencoders (Kingma, Welling 2019) |
@@ -459,6 +463,15 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Transmission line]] | concept | Transmission line |
 | [[Vector calculus for EM]] | concept | Vector calculus for EM |
 | [[Wave polarization]] | concept | Wave polarization |
+
+## Space habitats
+
+| Page | Type | Title |
+|---|---|---|
+| [[Communication delays in habitats (Mirfarah 2026)]] | paper | Communication delays in habitats (Mirfarah 2026) |
+| [[EKF leak severity (Mirfarah 2025)]] | paper | EKF leak severity (Mirfarah 2025) |
+| [[EWARS leak estimation (Rautela 2023)]] | paper | EWARS leak estimation (Rautela 2023) |
+| [[Thermomechanical CPT for lunar habitats (Montoya 2025)]] | paper | Thermomechanical CPT for lunar habitats (Montoya 2025) |
 
 ## Examples
 

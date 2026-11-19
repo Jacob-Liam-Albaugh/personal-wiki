@@ -33,6 +33,7 @@ tags: [bayesian, vi]
 - [[VAE paper (Kingma 2014)]] · [[Variational dropout (Kingma 2015)]] · [[Intro to VAEs (Kingma 2019)]] (ML as KL to the data, p. 10).
 - [[SDE-BNN (Xu 2022)]] · [[Bayesian DenseED surrogate (Zhu 2018)]] (SVGD derivative, p. 15) · [[Priors in Bayesian deep learning (Fortuin 2022)]].
 - Non-negativity proved via Jensen's inequality in the book. (source: `inverse/vi/01_basics.md`)
+- [[Amortized VI systematic review (Ganguly 2023)]]: reverse vs forward KL (zero-forcing) and alternatives (§6).
 
 ## Examples
 

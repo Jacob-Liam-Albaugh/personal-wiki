@@ -43,6 +43,10 @@ m_t = m^- + K\,(y_t - H m^-),
 P_t = (I-KH)\,P^-.
 $$
 
+## Where it appears
+
+- [[EKF leak severity (Mirfarah 2025)]]: EKF on the augmented state (cabin pressure, leak area), EM and VB noise tuning, time-to-critical by Monte Carlo first passage.
+
 ## Relation to the book
 - Exact for linear drift with additive Gaussian noise, such as an [[Ornstein-Uhlenbeck process]] observed with Gaussian noise.
 - The stochastic Duffing oscillator of [[Particle filter]] has the cubic term $\beta x^3$, so the state law is non-Gaussian and the book uses a bootstrap [[Particle filter]]. Extended and unscented Kalman filters are Gaussian approximations of that case **[unverified]**.

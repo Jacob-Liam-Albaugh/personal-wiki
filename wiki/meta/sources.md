@@ -22,6 +22,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf` | 23 | ingested → [[Variational inverse problems (Tsilifis 2014)]] |  |
 | `Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf` | 18 | ingested → [[SDE-BNN (Xu 2022)]] |  |
 | `Fortuin - Priors in Bayesian Deep Learning.pdf` | 28 | ingested → [[Priors in Bayesian deep learning (Fortuin 2022)]] |  |
+| `Ganguly, Jain, Watchareeruetai - Amortized Variational Inference A Systematic Review.pdf` | 49 | ingested → [[Amortized VI systematic review (Ganguly 2023)]] |  |
 | `Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf` | 14 | ingested → [[VAE paper (Kingma 2014)]] |  |
 | `Kingma, Welling - Intro to Variational Autoencoders.pdf` | 44 | ingested → [[Intro to VAEs (Kingma 2019)]] | incomplete: front matter, ch. 1 and appendix only; ch. 2-5 missing |
 | `Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf` | 9 | ingested → [[Variational dropout (Kingma 2015)]] | main text only; appendices A-F missing |
@@ -155,6 +156,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Costabal et al - Physics-Informed Neural Networks for Cardiac Activation Mapping.pdf` | 12 | ingested → [[Cardiac activation PINN (Sahli Costabal 2020)]] |  |
 | `Cranmer, Greydanus, Ho - LNNs.pdf` | 9 | ingested → [[LNNs (Cranmer 2020)]] |  |
 | `Greydanus, Dzamba, Yosinski - HNNs.pdf` | 16 | ingested → [[HNNs (Greydanus 2019)]] |  |
+| `Hans, Singh, Loke, Vlachos, Bilionis - Patient-specific unsupervised neural reconstruction of cardiac blood flow from 4D flow MRI.pdf` | 13 | ingested → [[SMURF (Hans 2026)]] |  |
 | `Karniadakis, Lu, Kevrekidis, Perdikaris - Physics-Informed Machine Learning.pdf` | 20 | ingested → [[Physics-informed ML review (Karniadakis 2021)]] |  |
 | `Karniadakis, Raissi, Perdikaris - PINNs - Physics-Informed Neural Networks.pdf` | 45 | ingested → [[PINNs (Raissi 2019)]] |  |
 | `Kissas et al - Machine learning in cardiovascular flows modeling Predicting arterial blood pressure from non-invasive 4D flow MRI data.pdf` | 28 | ingested → [[Cardiovascular flow PINNs (Kissas 2020)]] |  |
@@ -176,9 +178,19 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Karniadakis, Xiu - The Weiner - Askey Polynomial Chaos for Stochastic Differential Equations.pdf` | 26 | ingested → [[Wiener-Askey chaos (Xiu 2002)]] |  |
 | `Kingma, Song, Sohl-Dickstein, Kumar, Ermon, Poole - Score-Based Generative Modeling Through Stochastic Differential Equations.pdf` | 36 | ingested → [[Score SDE (Song 2021)]] |  |
 | `Li - Construction of Brownian Motion.pdf` | 12 | ingested → [[Brownian motion construction (Li n.d.)]] |  |
+| `Mak, Morton, Wood - Monte Carlo Bounding Techniques for Determining Solution Quality in Stochastic Programs.pdf` | 10 | ingested → [[Monte Carlo bounding for stochastic programs (Mak 1999)]] |  |
 | `Prakash, Sun, Chakrabarti, Che - Quantum Option Pricing via the Karhunen-Loéve Expansion.pdf` | 25 | ingested → [[Quantum option pricing KL (Prakash 2025)]] |  |
 | `Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics` |  | alias | points to papers/Bayesian/ copy |
 | `Zhang, Chen - Path Integral Sampler A Stochastic Control Approach for Sampling.pdf` | 26 | ingested → [[Path Integral Sampler (Zhang 2022)]] | from USB (`2111.15141v2.pdf`) |
+
+## papers/Space Habitats
+
+| File | Pages | Status | Notes |
+|---|---|---|---|
+| `Mirfarah, Bilionis, Dyke et al - Impact of long communication delays on autonomous decision-making in deep space habitats.pdf` | 26 | ingested → [[Communication delays in habitats (Mirfarah 2026)]] |  |
+| `Mirfarah, Lund, Dyke - Estimation of Pressure Leakage Severity for Space Habitats Using Extended Kalman Filter.pdf` | 28 | ingested → [[EKF leak severity (Mirfarah 2025)]] |  |
+| `Montoya, Salmeron, Silva, Mirfarah, Dyke - Experimental validation of thermomechanical cyber-physical testing for lunar habitats.pdf` | 16 | ingested → [[Thermomechanical CPT for lunar habitats (Montoya 2025)]] |  |
+| `Rautela, Mirfarah, Silva, Dyke et al - Real-time rapid leakage estimation for deep space habitats using exponentially-weighted adaptively-refined search.pdf` | 7 | ingested → [[EWARS leak estimation (Rautela 2023)]] |  |
 
 ## papers/Symmetries
 
@@ -435,4 +447,4 @@ Jupyter-book source in `text_books/Machine Learning & Statistics/advanced-scient
 
 ## Totals
 
-alias: 8, ingested: 211, reference: 38
+alias: 8, ingested: 218, reference: 38

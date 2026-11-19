@@ -1,0 +1,12 @@
+---
+type: author
+tags: []
+---
+
+# Ukrit Watchareeruetai
+
+Pages in this wiki by Ukrit Watchareeruetai:
+
+- [[Amortized VI systematic review (Ganguly 2023)]]
+
+**Last updated**: 2026-11-06
