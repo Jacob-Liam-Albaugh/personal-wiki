@@ -32,6 +32,7 @@ Reusing the stored $\hat Z$ is what keeps the chain exact when $\hat Z$ is unbia
 ## Notes
 - Gives a posterior, so it can reveal weak identifiability (wide or ridge-shaped marginals); the notebook asks "Do you think this system is identifiable?" See [[Identifiability]].
 - Cost per iteration is a full particle filter run.
+- [[SMC² (Chopin 2013)]] uses the PMMH kernel as the rejuvenation move inside a sequential sampler over parameters.
 
 **Wiki note**: in the notebook the code passes `s_0` in the control slot of `Duffing(...)`, and the markdown ratio has a stray parenthesis and no hat on $Z'$.
 

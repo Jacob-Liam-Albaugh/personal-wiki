@@ -17,6 +17,8 @@ Pages in this wiki by Ilias Bilionis:
 - [[Path-space PIFT estimation (Hao 2025)]]
 - [[Polynomial equipment interfaces (Bilionis 2026)]]
 - [[SMURF (Hans 2026)]]
+- [[Sobol sensitivity for identification experiments (Lund 2019)]]
+- [[UKF identification of a nonlinear energy sink (Lund 2020)]]
 - [[Variational inverse problems (Tsilifis 2014)]]
 
 **Last updated**: 2026-11-06

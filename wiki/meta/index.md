@@ -158,6 +158,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[RMHMC (Girolami 2011)]] | paper | RMHMC (Girolami 2011) |
 | [[Random field discretization (Betz 2014)]] | paper | Random field discretization (Betz 2014) |
 | [[Score SDE (Song 2021)]] | paper | Score-Based Generative Modeling Through SDEs (Song 2021) |
+| [[SMC² (Chopin 2013)]] | paper | SMC²: an efficient algorithm for sequential analysis of state space models (Chopin 2013) |
 | [[Step-by-step diffusion (Nakkiran 2025)]] | paper | Step-by-Step Diffusion: An Elementary Tutorial (Nakkiran 2025) |
 | [[U-Net paper (Ronneberger 2015)]] | paper | U-Net paper (Ronneberger 2015) |
 | [[Wiener-Askey chaos (Xiu 2002)]] | paper | Wiener-Askey chaos (Xiu 2002) |
@@ -203,7 +204,10 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Bayesian DenseED surrogate (Zhu 2018)]] | paper | Bayesian DenseED Surrogates (Zhu 2018) |
 | [[Intro to VAEs (Kingma 2019)]] | paper | An Introduction to Variational Autoencoders (Kingma, Welling 2019) |
 | [[Priors in Bayesian deep learning (Fortuin 2022)]] | paper | Priors in Bayesian Deep Learning (Fortuin 2022) |
+| [[Scalable VI for dynamical systems (Gorbach 2017)]] | paper | Scalable variational inference for dynamical systems (Gorbach 2017) |
 | [[SDE-BNN (Xu 2022)]] | paper | Infinitely Deep BNNs with SDEs (Xu 2022) |
+| [[Sobol sensitivity for identification experiments (Lund 2019)]] | paper | Global sensitivity analysis for the design of nonlinear identification experiments (Lund 2019) |
+| [[UKF identification of a nonlinear energy sink (Lund 2020)]] | paper | Identification of an experimental nonlinear energy sink device using the UKF (Lund 2020) |
 | [[VAE paper (Kingma 2014)]] | paper | Auto-Encoding Variational Bayes (Kingma, Welling 2014) |
 | [[Variational dropout (Kingma 2015)]] | paper | Variational Dropout and the Local Reparameterization Trick (Kingma, Salimans, Welling 2015) |
 | [[Variational inverse problems (Tsilifis 2014)]] | paper | Variational reformulation of Bayesian inverse problems (Tsilifis 2014) |

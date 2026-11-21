@@ -46,6 +46,8 @@ $$
 ## Where it appears
 
 - [[EKF leak severity (Mirfarah 2025)]]: EKF on the augmented state (cabin pressure, leak area), EM and VB noise tuning, time-to-critical by Monte Carlo first passage.
+- [[UKF identification of a nonlinear energy sink (Lund 2020)]]: joint unscented KF (UKF) over state and parameters of a Duffing-type energy sink; sigma points replace linearisation; 5000 prior trials show strong prior dependence.
+- [[Sobol sensitivity for identification experiments (Lund 2019)]]: same UKF, with the variance ratio shown to mislead about identifiability.
 
 ## Relation to the book
 - Exact for linear drift with additive Gaussian noise, such as an [[Ornstein-Uhlenbeck process]] observed with Gaussian noise.

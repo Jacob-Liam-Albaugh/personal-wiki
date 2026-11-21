@@ -88,7 +88,7 @@ dX = f dt + (2β)^{−1/2} dB
 > True $(a,b,c,d,e)=(0.1,0.02,0.1,0.02,0.1)$, $x_0=(10,10,10)$, data every 0.5 s with 5% noise; 20-term Fourier basis; 200k Adam steps, lr $10^{-3}\to10^{-4}$.
 > - **vs [[NUTS]]** (NumPyro, 1000 warm-up + 5000 samples): as $\beta$ rises from 10 to $10^5$ the IFT posterior converges to NUTS (Fig. 1). At $\beta=10^5$, lengthening $T$ keeps the posteriors matched; IFT time stays flat while NUTS time grows (Fig. 9).
 > - **Model-form error**: the truth adds $\alpha x_1x_3$; 100 s of data, $\beta$ learned from 1. Larger $\alpha$ gives smaller learned $\beta$ and wider posteriors, while NUTS on the wrong model stays overconfident (Figs. 3–4). See [[Model-form error detection]].
-> - **vs SMC²** (500 parameter × 1000 state particles, auxiliary [[Particle filter]], SDE diffusion $(2\beta)^{-1/2}$): parameters agree as $\beta$ grows; IFT state uncertainty is lower because it solves the smoothing problem while SMC² filters; IFT is faster for $T$ from 10 to 100 s. In SMC², $\beta$ is only a volatility, not a model-trust measure.
+> - **vs [[SMC² (Chopin 2013)|SMC²]]** (500 parameter × 1000 state particles, auxiliary [[Particle filter]], SDE diffusion $(2\beta)^{-1/2}$): parameters agree as $\beta$ grows; IFT state uncertainty is lower because it solves the smoothing problem while SMC² filters; IFT is faster for $T$ from 10 to 100 s. In SMC², $\beta$ is only a volatility, not a model-trust measure.
 
 > [!example] [[Duffing oscillator]] (Sec. 3.3)
 > $\dot x_1=x_2$, $\dot x_2=-\delta x_2-\alpha x_1-\rho x_1^3+\gamma\cos\omega t$ with $\gamma=0.37$, $\omega=1.2$; true $(\delta,\alpha,\rho)=(0.3,-1,1)$. Position only, 50 s at 0.1 s, $x_0=(1,0)$. RBF basis 2×100 (length scale 0.02), $\beta=200$, 100k steps. State and future response are recovered; velocity is more uncertain (Fig. 10).
@@ -106,7 +106,7 @@ dX = f dt + (2β)^{−1/2} dB
 - Wiki note: the App. A path density makes this a continuous-time smoother for a [[Stochastic state-space model]] whose process noise is $(2\beta)^{-1/2}$.
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Hidden fluid mechanics (Raissi 2020)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[SGLD (Welling 2011)]], [[VAE paper (Kingma 2014)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Hidden fluid mechanics (Raissi 2020)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[SGLD (Welling 2011)]], [[SMC² (Chopin 2013)]], [[Scalable VI for dynamical systems (Gorbach 2017)]], [[VAE paper (Kingma 2014)]]
 **Cited by in this wiki**: [[Communication delays in habitats (Mirfarah 2026)]], [[IFT for UQ of differential equations (Hao 2024)]], [[IFT for engineering inverse problems (Alberts 2024)]], [[MAP uniqueness in IFT (Alberts 2025)]], [[Neural information field filter (Hao 2025)]], [[Path-space PIFT estimation (Hao 2025)]]
 **Software cited**: [[software#JAX|JAX]], [[software#NumPyro|NumPyro]], [[software#PyTorch|PyTorch]], [[software#Pyro|Pyro]]
 %% refs:end %%

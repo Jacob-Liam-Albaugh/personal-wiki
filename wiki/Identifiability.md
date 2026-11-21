@@ -32,6 +32,9 @@ Wiki note: the book writes $m\ddot x=kx$, whose solutions are exponentials, not 
 ## Inverse kinematics (source: hbayes/04)
 The setup is a 4-DOF arm (slider height plus three joint angles, link lengths $(0.5,0.5,1.0)$, noise variance $10^{-4}$) with prior $\mathcal N(0,\mathrm{diag}(1/16,1/4,1/4,1/4))$. The guide is $q_\phi(\xi|y)=\mathcal N(\mu_\phi(y),L_\phi L_\phi^T)$ with three MLPs (2-20-10-out, relu; diagonal by softplus plus $10^{-6}$), trained on noisy prior samples with [[Adam]] (learning rate 0.01, times 0.1 at step 5000, 10000 steps, 5 particles, batch 30). The text discusses non-identifiability of the joint angles given the end position, mode seeking by VI, and the variational versus amortization gap; see [[Amortized VI]]. Wiki note: a redundant arm generally has several joint configurations for one end position, so the posterior can be multimodal. **[unverified]**
 
+## In experiment design
+- [[Sobol sensitivity for identification experiments (Lund 2019)]]: structural, practical and sensitivity-based identifiability compared on an energy sink; a parameter is identified tightly only when the signal excites it strongly and for long.
+
 ## Consequences
 - Sampling: slow mixing, large ESS loss; see [[NUTS]].
 - Laplace: singular Hessian along the flat direction; see [[Laplace approximation]].

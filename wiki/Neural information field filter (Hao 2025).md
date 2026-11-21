@@ -77,7 +77,7 @@ The network corrects a linear basis; the Fourier encoding addresses [[Spectral b
 > 40 states, stiffnesses $s_1..s_{20}\sim U[8,10]$, 5 s of El Centro, 1% noise, 100 RBFs + residual; $\dim w=4660$. NPSGLD (5 chains, 200k) recovers all stiffnesses in 325 s; NSVI (50k) in 196 s with a small error in $s_2$. A 30-s prediction is accurate apart from minor errors in $z_{15}$, $z_{20}$.
 
 > [!example] Experimental nonlinear energy sink (Sec. 5.4)
-> Lund et al. data, model $m\ddot x+c_\nu\dot x+c_f\tanh(200\dot x)+kx+zx^3=-m\ddot x_g$. Two datasets stacked, 4096 Hz, 4000 RBFs per signal, NSVI only; $\dim w=16\,000$, 827 s. Estimates close to Lund's ($c_\nu=0.344$, $k=33.1$, $z=6.54\times10^5$); validation NMSE comparable to Lund's.
+> Lund et al. data, model $m\ddot x+c_\nu\dot x+c_f\tanh(200\dot x)+kx+zx^3=-m\ddot x_g$. Two datasets stacked, 4096 Hz, 4000 RBFs per signal, NSVI only; $\dim w=16\,000$, 827 s. Estimates close to Lund's ($c_\nu=0.344$, $k=33.1$, $z=6.54\times10^5$) (the sub-modal model of [[UKF identification of a nonlinear energy sink (Lund 2020)]], not its min-MSE model); validation NMSE comparable to Lund's.
 
 ## Limitations
 - The authors: NPSGLD is too slow for the 16k-unknown case (hours); $\beta$ must be chosen; the inner-loop gradient of $\log Z$ is biased for NSVI.
@@ -88,9 +88,10 @@ The network corrects a linear basis; the Fourier encoding addresses [[Spectral b
 - NPSGLD is a preconditioned [[Nested SGLD]], the sampler of [[PIFT (Alberts 2023)]]; NSVI extends the JCP algorithm.
 - Same [[Physics-informed prior]] and B-PINN contrast as [[IFT state and parameter estimation (Hao 2024)]]; see [[PINN]].
 - Wiki note: despite the name it is a batch smoother, not a recursive filter like the [[Kalman filter]] or [[Particle filter]].
+- NES data and the UKF baseline: [[UKF identification of a nonlinear energy sink (Lund 2020)]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Fourier features (Tancik 2020)]], [[IFT state and parameter estimation (Hao 2024)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[Path-space PIFT estimation (Hao 2025)]], [[SGLD (Welling 2011)]], [[Spectral bias (Rahaman 2019)]], [[VAE paper (Kingma 2014)]], [[When and why PINNs fail (Wang 2022)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Fourier features (Tancik 2020)]], [[IFT state and parameter estimation (Hao 2024)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[Path-space PIFT estimation (Hao 2025)]], [[SGLD (Welling 2011)]], [[SMC² (Chopin 2013)]], [[Spectral bias (Rahaman 2019)]], [[UKF identification of a nonlinear energy sink (Lund 2020)]], [[VAE paper (Kingma 2014)]], [[When and why PINNs fail (Wang 2022)]]
 **Cited by in this wiki**: [[IFT thermal conductivity (Alberts 2026)]], [[MAP uniqueness in IFT (Alberts 2025)]]
 **Software cited**: [[software#JAX|JAX]], [[software#PyTorch|PyTorch]]
 %% refs:end %%

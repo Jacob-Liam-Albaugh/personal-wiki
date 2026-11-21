@@ -84,7 +84,7 @@ Duffing uses Fourier $K=50$ and 5 SGLD chains; a "neural state function" example
 - App. A.2 derives the prior as the path density of $dX=f\,dt+(2\beta)^{-1/2}dB$; see [[Stochastic differential equation]].
 
 %% refs:start %%
-**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Attention is all you need (Vaswani 2017)]], [[DDPM (Ho 2020)]], [[Fourier features (Tancik 2020)]], [[GAN paper (Goodfellow 2014)]], [[Glorot init (Glorot 2010)]], [[Hidden fluid mechanics (Raissi 2020)]], [[IFT state and parameter estimation (Hao 2024)]], [[Neural ODEs (Chen 2018)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[SGLD (Welling 2011)]], [[Score SDE (Song 2021)]], [[Spectral bias (Rahaman 2019)]], [[U-Net paper (Ronneberger 2015)]], [[VAE paper (Kingma 2014)]], [[When and why PINNs fail (Wang 2022)]]
+**Cites in this wiki**: [[Adam paper (Kingma 2015)]], [[Attention is all you need (Vaswani 2017)]], [[DDPM (Ho 2020)]], [[Fourier features (Tancik 2020)]], [[GAN paper (Goodfellow 2014)]], [[Glorot init (Glorot 2010)]], [[Hidden fluid mechanics (Raissi 2020)]], [[IFT state and parameter estimation (Hao 2024)]], [[Neural ODEs (Chen 2018)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[SGLD (Welling 2011)]], [[SMC² (Chopin 2013)]], [[Scalable VI for dynamical systems (Gorbach 2017)]], [[Score SDE (Song 2021)]], [[Spectral bias (Rahaman 2019)]], [[U-Net paper (Ronneberger 2015)]], [[VAE paper (Kingma 2014)]], [[When and why PINNs fail (Wang 2022)]]
 **Cited by in this wiki**: [[IFT for engineering inverse problems (Alberts 2024)]]
 **Software cited**: [[software#JAX|JAX]], [[software#NumPyro|NumPyro]], [[software#PyTorch|PyTorch]], [[software#Pyro|Pyro]], [[software#TensorFlow|TensorFlow]]
 %% refs:end %%

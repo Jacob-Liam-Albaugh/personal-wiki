@@ -26,6 +26,10 @@ $X_{\sim i}$ is all inputs except $X_i$.
 ## From polynomial chaos
 With an orthonormal expansion $f=\sum_\alpha c_\alpha\phi_\alpha$, variance is $\sum_{\alpha\ne0}c_\alpha^2$, and each index is the sum of $c_\alpha^2$ over multi-indices involving the input(s), divided by that total. Wiki note: standard PCE result, the lecture only says the indices can be read off the expansion (source: `05_pc_ode_1d.ipynb`, `07_pce_dynamical_system.ipynb`).
 
+## Where it appears
+- [[Sobol sensitivity for identification experiments (Lund 2019)]]: time-varying first-order indices (Saltelli, SALib) to choose excitation signals for identification.
+- [[UKF identification of a nonlinear energy sink (Lund 2020)]]: Sobol ranking sets which signal trains and which selects.
+
 ## Wiki notes
 - "Indices sum to 1" holds only for additive models. In general first-order indices sum to at most 1.
 - The inputs must be independent for these definitions to apply **[unverified]** for the book's usage, which does not say.

@@ -23,9 +23,12 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf` | 18 | ingested → [[SDE-BNN (Xu 2022)]] |  |
 | `Fortuin - Priors in Bayesian Deep Learning.pdf` | 28 | ingested → [[Priors in Bayesian deep learning (Fortuin 2022)]] |  |
 | `Ganguly, Jain, Watchareeruetai - Amortized Variational Inference A Systematic Review.pdf` | 49 | ingested → [[Amortized VI systematic review (Ganguly 2023)]] |  |
+| `Gorbach, Bauer, Buhmann - Scalable Variational Inference for Dynamical Systems.pdf` | 10 | ingested → [[Scalable VI for dynamical systems (Gorbach 2017)]] | from `NIPS-2017-scalable-variational-inference-for-dynamical-systems-Paper.pdf` |
 | `Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf` | 14 | ingested → [[VAE paper (Kingma 2014)]] |  |
 | `Kingma, Welling - Intro to Variational Autoencoders.pdf` | 44 | ingested → [[Intro to VAEs (Kingma 2019)]] | incomplete: front matter, ch. 1 and appendix only; ch. 2-5 missing |
 | `Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf` | 9 | ingested → [[Variational dropout (Kingma 2015)]] | main text only; appendices A-F missing |
+| `Lund, Dyke, Song, Bilionis - Global sensitivity analysis for the design of nonlinear identification experiments.pdf` | 20 | ingested → [[Sobol sensitivity for identification experiments (Lund 2019)]] |  |
+| `Lund, Dyke, Song, Bilionis - Identification of an experimental nonlinear energy sink device using the unscented Kalman filter.pdf` | 19 | ingested → [[UKF identification of a nonlinear energy sink (Lund 2020)]] |  |
 | `Margossian, Blei - Amortized Variational Inference When & Why.pdf` | 16 | ingested → [[Amortized VI when and why (Margossian 2024)]] |  |
 | `Welling, Teh - Baysian Learning via Stochastic Gradient Langevin Dynamics.pdf` | 8 | ingested → [[SGLD (Welling 2011)]] | duplicate (identical file) of the papers/IFT/ copy |
 | `Zhu, Zabaras - Bayseian Deep Convolutional Encoder-Decoder Networks for Surrogate Modeling and Uncertainty Quantification.pdf` | 52 | ingested → [[Bayesian DenseED surrogate (Zhu 2018)]] |  |
@@ -173,6 +176,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Alexanderian - the Karhunen-Loéve Expansion.pdf` | 14 | ingested → [[KL expansion note (Alexanderian 2015)]] |  |
 | `Betz, Papaioannou, Straub - Karhunen-Loève Expansion for Discretization of RFs.pdf` | 21 | ingested → [[Random field discretization (Betz 2014)]] |  |
 | `Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns` |  | alias | points to papers/Bayesian/ copy |
+| `Chopin, Jacob, Papaspiliopoulos - SMC2 An efficient algorithm for sequential analysis of state space models.pdf` | 30 | ingested → [[SMC² (Chopin 2013)]] | from the JRSS-B download (filename says 2012; published 2013) |
 | `Deheuvels - Karhunen-Loeve Expantions of mean-centered Wiener Processes.pdf` | 15 | ingested → [[KL expansions of the Wiener process (Deheuvels 2006)]] |  |
 | `Einstein - Brownian Movement.pdf` | 11 | ingested → [[Brownian movement (Einstein 1905)]] |  |
 | `Karniadakis, Xiu - The Weiner - Askey Polynomial Chaos for Stochastic Differential Equations.pdf` | 26 | ingested → [[Wiener-Askey chaos (Xiu 2002)]] |  |

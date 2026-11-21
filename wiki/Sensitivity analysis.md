@@ -34,6 +34,7 @@ Wiki note: this table is a summary of the lecture's structure, not a table from 
 ## Where it appears
 - Local and global methods (SALib); [[Polynomial chaos]] (indices from coefficients), [[Surrogate model]] (indices from a surrogate).
 - Related idea in optimization: the gradient is a local sensitivity; see [[Automatic differentiation]].
+- [[Sobol sensitivity for identification experiments (Lund 2019)]]: global sensitivity as a design tool for identification experiments.
 
 **Examples**: [[Autoinjector FE surrogate]] · [[California earthquakes]] · [[Duffing oscillator examples]] · [[Exponential decay ODE with random inputs]] · [[HMX drop-weight sensitivity]] · [[Lorenz system examples]] · [[Optimizer test problems]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/sensitivity_analysis (ME 697 2.1)

@@ -204,3 +204,11 @@
 - 51 new `example` pages with `status: lead` for planned examples that fill those gaps (jump processes, cellular automata, hybrid and non-smooth, SPDEs, quantum, interacting particles, conservative, Markov chains, point processes, delay, differential-algebraic, quasi-periodic, multiscale, and ten canonical systems). Written from web search, not from ingested sources.
 - Link check: 62 data links opened by script; 55 resolved, 7 flagged on their pages (FRED times out for scripts, IBM double pendulum download looks dead, one OSF copy may be private, Kaggle needs a login, two bot walls).
 - Index: added the 51 pages and the table page to the Examples section. No sources added.
+
+## [2026-11-21] ingest | Lund NES papers, SMC², Gorbach 2017
+- [[UKF identification of a nonlinear energy sink (Lund 2020)]]: joint UKF on a lab Duffing-type energy sink; 5000 prior trials; training on the less sensitive signal and selecting on the more sensitive one (Sobol order) is most robust. The "Lund" values quoted by [[Neural information field filter (Hao 2025)]] are this paper's sub-modal model, not its min-MSE model; noted on both pages.
+- [[Sobol sensitivity for identification experiments (Lund 2019)]]: time-varying Sobol indices pick excitation signals; tight estimates need strong and long sensitivity; the UKF variance ratio wrongly flags $c_f$ as unidentifiable.
+- [[SMC² (Chopin 2013)]]: SMC over parameters with a particle filter per particle and PMMH moves; exact for any $N_x$, evidence for free, cost grows with $t$. Now linked as the baseline in [[IFT state and parameter estimation (Hao 2024)]].
+- [[Scalable VI for dynamical systems (Gorbach 2017)]]: GP gradient matching with closed-form mean-field updates for mass-action ODEs; about 10x faster than splines on Lotka-Volterra, 1000-state Lorenz-96 in under 400 s.
+- Back-links on [[Kalman filter]] (UKF), [[Sobol indices]], [[Sensitivity analysis]], [[Identifiability]], [[Particle filter]], [[Particle MCMC]], [[Variational inference]].
+- Skipped as already ingested (same files): Rautela EWARS, Mirfarah communication delays, Mirfarah EKF, Mak 1999, Ganguly 2023, SMURF, Montoya CPT. The Neural information field filter manuscript is again the accepted copy of the ingested paper; not added.

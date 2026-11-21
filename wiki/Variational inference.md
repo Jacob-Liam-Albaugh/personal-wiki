@@ -41,6 +41,7 @@ tags: [bayesian, vi]
 - Wiki note, vi/02: the text says $\lambda=1/0.1$ but the code uses `lambda_=1/0.005`; the text says $\mu_\phi\in\mathbb R_+^5$ although it is six real numbers; `k_transformation` is defined but `T` uses `exp(gamma*x)`; the text's $\tilde k=180k/500$ is only a time rescaling for a linear system.
 - [[EKF leak severity (Mirfarah 2025)]]: mean-field inverse-gamma VB for the EKF noise variances; does not beat the plain EKF.
 - [[Amortized VI systematic review (Ganguly 2023)]]: survey of CAVI, SVI, black-box and amortized VI, and chi, Rényi and Stein alternatives to reverse KL.
+- [[Scalable VI for dynamical systems (Gorbach 2017)]]: closed-form mean-field CAVI for ODE gradient matching with a GP on the states.
 
 ## Examples
 

@@ -30,6 +30,7 @@ The bootstrap smoother keeps whole trajectories and conditions on all data, givi
 - Generic limits: weight degeneracy in high dimensions, cost grows with $N$ **[unverified]**.
 - The smoother is the E-step workhorse of [[Expectation-maximization]].
 - In the linear-Gaussian case the [[Kalman filter]] is exact and cheaper.
+- [[SMC² (Chopin 2013)]] nests one filter per parameter particle; the filter's unbiased likelihood keeps the outer sampler exact.
 
 **Examples**: [[Duffing oscillator examples]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/fs (ME 697 6.2)
