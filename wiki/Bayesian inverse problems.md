@@ -15,10 +15,11 @@ tags: [bayesian, inverse-problems]
 - Worked examples: [[Catalysis problem]], [[Duffing oscillator]], [[Identifiability]], [[Hierarchical Bayesian model]]; samplers [[Markov chain Monte Carlo]], [[Hamiltonian Monte Carlo]], [[NUTS]].
 - Prior view of regularization: an L1 penalty is the negative log posterior under a Laplace prior, see [[LASSO]]. (source: `inverse/data/01_lasso.ipynb`)
 - [[EWARS leak estimation (Rautela 2023)]]: deterministic leak-area inversion by adaptive search, no UQ.
+- [[Embedded model bias with noise (Andres Arcones 2025)]]: when the forward model is wrong, embeds the error in the parameters so the posterior does not collapse and can be pushed to unobserved QoIs ([[Embedded model inadequacy]]).
 
 **Covered in**: ASML book inverse/basics (ME 697 4.1); ASML book inverse/pdes (ME 697 4.6)
-**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/intro.md`, `inverse/basics/intro.md`, `01_classic_formulation.md`, `02_classic_example.ipynb`, `03_bayesian_formulation.md`, `04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/pdes/intro.md`, `01_reading.md`, `02_thermal.ipynb`, `03_contamination.ipynb`.
-**Last updated**: 2026-11-06
+**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/intro.md`, `inverse/basics/intro.md`, `01_classic_formulation.md`, `02_classic_example.ipynb`, `03_bayesian_formulation.md`, `04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/pdes/intro.md`, `01_reading.md`, `02_thermal.ipynb`, `03_contamination.ipynb`, `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 

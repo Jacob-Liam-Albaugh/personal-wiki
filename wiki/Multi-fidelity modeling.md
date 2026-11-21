@@ -57,11 +57,12 @@ Wiki notes:
 - The markdown gives $f_\ell=1.5f_h+\tfrac13\sin(x_1+x_2)+\tfrac12e^{-x_1}\sin(x_1+7x_2)$, but the code uses $2.5f_h+\tfrac13\big(\sin(x_1+x_2)+\tfrac12e^{-x_1}\sin(x_1+7x_2)\big)$: the scale and the factor on the last term differ.
 - "$f_h\mid f_l=\mathrm{GP}(\tilde m_h,\tilde k_h)$" with mean $\rho\tilde m_l$ is already the result after integrating out $f_l$ given $\mathbf y_l$. Conditional on $f_l$ itself the mean is $\rho f_l+m_\epsilon$ and the covariance is $k_\epsilon$.
 - The Kennedy-O'Hagan reference is cited by the book as 2000 (Biometrika 87).
+- The same Kennedy-O'Hagan discrepancy, used for model calibration, only corrects the observed output. [[Embedded model bias with noise (Andres Arcones 2025)]] embeds the error in the parameters instead so it carries over to other QoIs ([[Embedded model inadequacy]]).
 - The nonlinear kernel on $(x,\tilde m_l(x))$ is a warping of the input, a form of [[Kernel composition]].
 
 **Covered in**: ASML book up/mf (ME 697 2.4); homework 4
-**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/mf/intro.md`, `01_mf_basics.md`, `02_mf_gps.ipynb`.
-**Last updated**: 2026-11-06
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/mf/intro.md`, `01_mf_basics.md`, `02_mf_gps.ipynb`, `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 

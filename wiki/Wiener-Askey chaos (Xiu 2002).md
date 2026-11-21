@@ -128,7 +128,7 @@ For any random input the Wiener-Askey chaos converges in general. The exponentia
 - The Wiener-Hermite chaos refers back to the [[Wiener process]].
 
 %% refs:start %%
-**Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]]
+**Cited by in this wiki**: [[Amortized VI for inverse problems (Karumuri 2024)]], [[Bayesian DenseED surrogate (Zhu 2018)]], [[Embedded model bias with noise (Andres Arcones 2025)]]
 %% refs:end %%
 
 **Sources**: Karniadakis-Xiu PDF, §2-7 and Appendix A (appendix recurrences not summarised here).

@@ -218,3 +218,9 @@
 - New pages: [[Boltzmann distribution]], [[Partition function]], [[Statistical entropy]], [[Free energy]], [[Ising model]], [[Mean-field theory]], [[Phase transition]], [[Equipartition theorem]], [[Fluctuation-dissipation theorem]], [[Liouville's theorem]], [[Ergodicity]], [[Central limit theorem]].
 - [[Information field theory]]: new stat-mech dictionary section (energy ↔ information Hamiltonian, Z ↔ evidence, free energy ↔ −ELBO, mean field, tempering, metastability ↔ mixing). Inference links are marked **[unverified]**: the book is pure physics.
 - Back-links and Covered-in lines on [[Langevin dynamics]], [[Brownian motion]], [[Ornstein-Uhlenbeck process]], [[Hamiltonian Monte Carlo]], [[Variational inference]], [[Laplace approximation]], [[Markov chain Monte Carlo]], [[ELBO]], [[KL divergence]], [[Energy functional]], [[Ising model (retina spikes)]], [[Generalised Langevin equation]].
+
+## [2026-11-21] ingest | Embedded model bias quantification with measurement noise (Andrés Arcones 2025)
+- Source: arXiv:2410.12037v2, filed as `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf`.
+- New pages: [[Embedded model bias with noise (Andres Arcones 2025)]], [[Embedded model inadequacy]].
+- Takeaways: additive Gaussian embedding θ̃ = θ_m + δ with PCE moments; noise-aware ABC (γ = √(π/2)) and IN likelihoods plus new GMM/RGMM; ABC is near-exact and the most sensitive to σ_N and outliers, IN the most robust; pushing the full posterior gives honest spread on an unobserved heat QoI. Wiki note flags a sample-variance typo in eqs. 36 and 47.
+- Back-links on [[Model-form error detection]], [[Hierarchical Bayesian model]], [[Polynomial chaos]], [[Bayesian inverse problems]], [[Multi-fidelity modeling]].

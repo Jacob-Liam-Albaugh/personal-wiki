@@ -210,6 +210,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | Page | Type | Title |
 |---|---|---|
 | [[Amortized VI for inverse problems (Karumuri 2024)]] | paper | Learning to solve Bayesian inverse problems with amortized VI (Karumuri 2024) |
+| [[Embedded model bias with noise (Andres Arcones 2025)]] | paper | Embedded model bias quantification with measurement noise (Andrés Arcones 2025) |
 | [[Amortized VI systematic review (Ganguly 2023)]] | paper | Amortized VI systematic review (Ganguly 2023) |
 | [[Amortized VI when and why (Margossian 2024)]] | paper | Amortized variational inference: when and why? (Margossian 2024) |
 | [[Bayesian DenseED surrogate (Zhu 2018)]] | paper | Bayesian DenseED Surrogates (Zhu 2018) |
@@ -231,6 +232,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Expectation-maximization]] | method | Expectation-maximization |
 | [[Hamiltonian Monte Carlo]] | method | Hamiltonian Monte Carlo |
 | [[Hierarchical Bayesian model]] | concept | Hierarchical Bayesian model |
+| [[Embedded model inadequacy]] | method | Embedded model inadequacy |
 | [[Identifiability]] | concept | Identifiability |
 | [[Laplace approximation]] | method | Laplace approximation |
 | [[Markov chain Monte Carlo]] | method | Markov chain Monte Carlo |

@@ -14,10 +14,11 @@ tags: [bayesian, inverse-problems, uq, mcmc]
 ## Where it appears
 
 - [[Communication delays in habitats (Mirfarah 2026)]]: Normal-Inverse-Gamma contrasts and GLM-ARD on resilience metrics.
+- [[Embedded model bias with noise (Andres Arcones 2025)]]: [[Embedded model inadequacy]] as a non-sampled alternative. θ̃ is marginalised through PCE moments instead of sampled per data point (eqs. 17-18, Fig. 1).
 
 **Covered in**: ASML book inverse/hbayes (ME 697 4.4)
-**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/hbayes/intro.md`, `02_hbayes_example.ipynb`, `01_basics.md`, `03_bad_post_geometry.ipynb`, `04_amortized_vi.ipynb`.
-**Last updated**: 2026-11-06
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/hbayes/intro.md`, `02_hbayes_example.ipynb`, `01_basics.md`, `03_bad_post_geometry.ipynb`, `04_amortized_vi.ipynb`, `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 
@@ -47,3 +48,4 @@ $$p(\theta)=\int p(\theta|\theta_{pop})\,p(\theta_{pop})\,d\theta_{pop}.$$
 ## Related pages
 - [[Bayesian inverse problems]] · [[Markov chain Monte Carlo]] · [[Identifiability]]
 - [[Gaussian process]]
+- [[Embedded model inadequacy]]

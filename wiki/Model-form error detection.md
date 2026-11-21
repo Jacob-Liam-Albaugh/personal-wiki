@@ -27,9 +27,10 @@ Exact physics gives $\beta^*=\infty$; model-form error gives finite $\beta^*$, l
 - [[IFT state and parameter estimation (Hao 2024)]] — Lotka–Volterra with an extra $\alpha x_1x_3$: learned $\beta$ falls as $\alpha$ grows, NUTS stays overconfident (Figs. 3–4).
 - [[Path-space PIFT estimation (Hao 2025)]] — same experiment, conference version.
 - [[IFT for UQ of differential equations (Hao 2024)]] — Ch. 5 calls $\beta$ the model-form-uncertainty hyperparameter for $k(T)$ reconstruction.
+- Non-IFT counterpart: [[Embedded model bias with noise (Andres Arcones 2025)]] puts the model error inside a parameter as θ̃ = θ_m + δ and infers the spread of δ ([[Embedded model inadequacy]]). The spread plays a role like 1/β: large when the model is poor.
 
-**Sources**: `papers/IFT/Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf`.
-**Last updated**: 2026-11-07
+**Sources**: `papers/IFT/Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf`, `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 
@@ -40,3 +41,4 @@ Exact physics gives $\beta^*=\infty$; model-form error gives finite $\beta^*$, l
 - [[Bayesian inverse problems]]
 - [[Nested SGLD]]
 - [[IFT for engineering inverse problems (Alberts 2024)]]
+- [[Embedded model inadequacy]]

@@ -67,17 +67,19 @@ Term count grows quickly with input dimension; poor for discontinuities, singula
 ## Where it appears
 - [[Wiener-Askey chaos (Xiu 2002)]]: generalises Wiener's Hermite chaos to the Askey scheme, matching the polynomial family to the input distribution.
 - KL coefficients of a Gaussian field are the random inputs of the chaos expansion ([[KL expansion note (Alexanderian 2015)]]).
+- [[Embedded model bias with noise (Andres Arcones 2025)]]: a degree-1 or 2 Hermite PCE in the embedded model-error germ gives the predicted mean (α_0) and variance (Σ α_j²) inside every likelihood call ([[Embedded model inadequacy]]).
 
 > [!example] Homework 3 (source: homework/03_homework.ipynb)
 > Pythagoras $\|x+y\|^2=\|x\|^2+\|y\|^2$ for orthogonal $x,y$ and its $n$-term form; the map $T:H\to\ell^2$ from an orthonormal basis is linear, onto, one-to-one and preserves the inner product. Orthogonal polynomials for $\Xi\sim\exp(1)$ with `orthojax`, projection of $\sin$, mean and variance of $\sin(\Xi)$. Lorenz system ($\sigma=10$, $\beta=8/3$, $\rho=28$) with $x(0)\sim N(0,0.1)$, $y(0)\sim N(5,0.1)$, $z(0)\sim N(20,0.1)$: build a PCE surrogate, compare mean and variance with Monte Carlo, make three predictions, and plot densities at $t=1,2,5,10$ from 100,000 samples.
 
 **Examples**: [[Duffing oscillator examples]] · [[Lorenz system examples]] · [[Polynomial chaos 1D test functions]] (see [[Examples catalogue]])
 **Covered in**: ASML book up/polynomial_chaos (ME 697 2.2); homework 3
-**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/00_intro.md` through `08_limitations.md`.
-**Last updated**: 2026-11-06
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/polynomial_chaos/00_intro.md` through `08_limitations.md`, `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 
 ## Related pages
 - [[Sensitivity analysis]] · [[Local sensitivity analysis of ODEs]] · [[Sobol indices]] · [[Surrogate model]]
 - [[Karhunen-Loève expansion]] · [[Gaussian process]]
+- [[Embedded model inadequacy]]
