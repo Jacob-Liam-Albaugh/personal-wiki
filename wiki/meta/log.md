@@ -212,3 +212,9 @@
 - [[Scalable VI for dynamical systems (Gorbach 2017)]]: GP gradient matching with closed-form mean-field updates for mass-action ODEs; about 10x faster than splines on Lotka-Volterra, 1000-state Lorenz-96 in under 400 s.
 - Back-links on [[Kalman filter]] (UKF), [[Sobol indices]], [[Sensitivity analysis]], [[Identifiability]], [[Particle filter]], [[Particle MCMC]], [[Variational inference]].
 - Skipped as already ingested (same files): Rautela EWARS, Mirfarah communication delays, Mirfarah EKF, Mak 1999, Ganguly 2023, SMURF, Montoya CPT. The Neural information field filter manuscript is again the accepted copy of the ingested paper; not added.
+
+## [2026-11-21] ingest | Eastman statistical mechanics book
+- Source: Peter Eastman, *Introduction to Statistical Mechanics* (github.com/peastman/statmech @cdf566e, CC BY-ND 4.0), 8 chapters. Cited externally: `text_books/` is read only. Folded into topic pages, no book page.
+- New pages: [[Boltzmann distribution]], [[Partition function]], [[Statistical entropy]], [[Free energy]], [[Ising model]], [[Mean-field theory]], [[Phase transition]], [[Equipartition theorem]], [[Fluctuation-dissipation theorem]], [[Liouville's theorem]], [[Ergodicity]], [[Central limit theorem]].
+- [[Information field theory]]: new stat-mech dictionary section (energy ↔ information Hamiltonian, Z ↔ evidence, free energy ↔ −ELBO, mean field, tempering, metastability ↔ mixing). Inference links are marked **[unverified]**: the book is pure physics.
+- Back-links and Covered-in lines on [[Langevin dynamics]], [[Brownian motion]], [[Ornstein-Uhlenbeck process]], [[Hamiltonian Monte Carlo]], [[Variational inference]], [[Laplace approximation]], [[Markov chain Monte Carlo]], [[ELBO]], [[KL divergence]], [[Energy functional]], [[Ising model (retina spikes)]], [[Generalised Langevin equation]].

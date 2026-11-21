@@ -46,10 +46,11 @@ Put a Jeffreys prior $p(\sigma)\propto1/\sigma$ on $\sigma$. With $\theta=\log\s
 **Examples**: [[Gamma density (Laplace)]] (see [[Examples catalogue]])
 **Covered in**: ASML book inverse/basics (ME 697 4.1)
 **Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/basics/04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`.
-**Last updated**: 2026-11-06
+**Last updated**: 2026-11-21
 
 ---
 
 ## Related pages
 - [[Bayesian inverse problems]] · [[Variational inference]] · [[Markov chain Monte Carlo]] · [[Catalysis problem]]
 - [[Newton's method]] · [[Automatic differentiation]] · [[KL divergence]]
+- [[Partition function]] (Laplace estimate of Z) · [[Central limit theorem]]

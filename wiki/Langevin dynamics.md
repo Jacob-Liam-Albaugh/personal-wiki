@@ -35,11 +35,13 @@ In score-based generation the gradient comes from a learned score, $\nabla\log p
 ## Riemannian extension
 - Girolami 2011 defines the manifold Langevin diffusion with metric G(theta), and MMALA as its discretization with a Metropolis correction (source: Girolami 2011, §3). Link [[Riemannian manifold HMC]].
 
-**Sources**: `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`.
-**Last updated**: 2026-11-06
+**Covered in**: Eastman statmech ch. 7 (Friction and dissipation: physical Langevin equation)
+**Sources**: `papers/IFT/Ruqi Zhang - Low Precision Stochastic Gradient Langevin Dynamics.pdf`, `papers/IFT/Welling - Bayesian Learning via Stochastic Gradient Langevin Dynamics.pdf`, Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e, `source/friction.rst`.
+**Last updated**: 2026-11-21
 
 ---
 
 ## Related pages
 - [[Wasserstein distance]] · [[SGHMC]]
 - Book sampler progression: random-walk MH, [[Hamiltonian Monte Carlo]], [[NUTS]] ([[Markov chain Monte Carlo]]). Wiki note: Langevin methods are the gradient-only relative; the book does not treat them in Part 4.
+- [[Fluctuation-dissipation theorem]] (why the noise is √2 at kT = 1) · [[Equipartition theorem]] · [[Boltzmann distribution]] · [[Ergodicity]]

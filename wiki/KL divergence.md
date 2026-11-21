@@ -41,10 +41,11 @@ tags: [bayesian, vi]
 > Show $D_{KL}(p\|q)\ge0$ using Jensen's inequality.
 
 **Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`.
-**Last updated**: 2026-11-06
+**Last updated**: 2026-11-21
 
 ---
 
 ## Related pages
 - [[ELBO]] · [[Wasserstein distance]]
 - [[GAN paper (Goodfellow 2014)]]: GAN value equals $-\log 4+2\,\mathrm{JSD}$
+- [[Free energy]]

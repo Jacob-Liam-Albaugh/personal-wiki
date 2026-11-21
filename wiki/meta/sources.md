@@ -449,6 +449,14 @@ Jupyter-book source in `text_books/Machine Learning & Statistics/advanced-scient
 | Dynamics and reduced-order models (not in `_toc.yml`) | `dynamics/` | ingested → [[Dynamic mode decomposition]] |
 | (not in `_toc.yml`) | `reduced_order_modeling/` | ingested → [[Proper orthogonal decomposition]] |
 
+## External textbooks (not in text_books/)
+
+Cited by URL and commit; no local copy, because `text_books/` is read only.
+
+| Source | Status | Notes |
+|---|---|---|
+| Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e (CC BY-ND 4.0) | ingested → [[Boltzmann distribution]], [[Partition function]], [[Statistical entropy]], [[Free energy]], [[Ising model]], [[Mean-field theory]], [[Phase transition]], [[Equipartition theorem]], [[Fluctuation-dissipation theorem]], [[Liouville's theorem]], [[Ergodicity]], [[Central limit theorem]] | 8 chapters, `source/*.rst`; online at peastman.github.io/statmech |
+
 ## Totals
 
-alias: 8, ingested: 218, reference: 38
+alias: 8, ingested: 219, reference: 38

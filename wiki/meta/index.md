@@ -134,6 +134,14 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Nested SGLD]] | method | Nested SGLD |
 | [[Operator calculus for free theory]] | method | Operator calculus for free theory |
 | [[Physics-informed prior]] | definition | Physics-informed functional prior |
+| [[Boltzmann distribution]] | definition | Boltzmann (canonical) distribution |
+| [[Partition function]] | definition | Partition function |
+| [[Statistical entropy]] | definition | Statistical (Boltzmann) entropy |
+| [[Free energy]] | concept | Free energy and thermodynamic potentials |
+| [[Ising model]] | definition | Ising model |
+| [[Mean-field theory]] | method | Mean-field theory |
+| [[Phase transition]] | concept | Phase transitions |
+| [[Equipartition theorem]] | theorem | Equipartition theorem |
 
 ## Stochastic methods & SG-MCMC
 
@@ -193,6 +201,9 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[U-Net]] | method | U-Net |
 | [[Variance-corrected quantization]] | method | Variance-corrected quantization (low-precision SGLD) |
 | [[Wiener process]] | definition | Wiener process |
+| [[Fluctuation-dissipation theorem]] | theorem | Fluctuation-dissipation theorem |
+| [[Liouville's theorem]] | theorem | Liouville's theorem |
+| [[Ergodicity]] | definition | Ergodicity |
 
 ## Bayesian methods
 
@@ -366,6 +377,7 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Transportation problem]] | method | Transportation problem |
 | [[Wasserstein distance]] | definition | Wasserstein-2 distance |
 | [[Wavelet transform]] | concept | Wavelet transform |
+| [[Central limit theorem]] | theorem | Central limit theorem |
 
 ## Scientific ML
 

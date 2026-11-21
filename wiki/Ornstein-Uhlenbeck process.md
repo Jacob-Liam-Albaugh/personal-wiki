@@ -50,7 +50,7 @@ As $t\to\infty$ the law tends to the stationary $N(\mu,\ \sigma^2/(2\lambda))$.
 **Examples**: [[Treasury yield (Vasicek)]] (see [[Examples catalogue]])
 **Covered in**: ASML book sinverse/sodes (ME 697 6.1)
 **Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`.
-**Last updated**: 2026-11-06
+**Last updated**: 2026-11-21
 
 ---
 
@@ -58,3 +58,4 @@ As $t\to\infty$ the law tends to the stationary $N(\mu,\ \sigma^2/(2\lambda))$.
 - [[Stochastic differential equation]] · [[Geometric Brownian motion]] · [[Euler-Maruyama method]]
 - [[Brownian motion]] · [[Wiener process]] · [[Langevin dynamics]] · [[Fokker-Planck equation]] · [[Gaussian process]]
 - [[Diesel PM as OU process (Bolt 2026)]]
+- [[Fluctuation-dissipation theorem]]: the Langevin velocity process with white noise is OU.

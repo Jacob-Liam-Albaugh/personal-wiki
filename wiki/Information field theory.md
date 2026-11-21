@@ -10,9 +10,9 @@ source-ref: "Alberts & Bilionis 2023, eqs. 2-11, 18, pp. 4-7"
 
 **Summary**: Bayesian inference over fields, written as path integrals. A quadratic action gives a closed-form free theory equal to Wiener filtering / GP regression; physics enters through the prior energy.
 
-**Covered in**: ASML book ift/calibration (ME 697 IFT.1); ASML book ift/fields (ME 697 IFT.2)
+**Covered in**: ASML book ift/calibration (ME 697 IFT.1); ASML book ift/fields (ME 697 IFT.2); Eastman statmech ch. 2, 4, 6 (background for the dictionary)
 **Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/calibration/intro.md`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/fields/intro.md`.
-**Last updated**: 2026-11-06
+**Last updated**: 2026-11-21
 
 ---
 
@@ -38,6 +38,22 @@ and the normalizing integral is the partition function. [[Brownian motion]] is t
 ## Information Hamiltonian
 > [!definition] (p. 6; eq. 18, p. 7)
 > $H[\phi|d]=-\log p(\phi|d)$ up to a constant. Gaussian case: $\tfrac12[\phi^\dagger S\phi+(R\phi-d)^\top N^{-1}(R\phi-d)]$. General: $H[\phi|d]=\ell(d,R\phi)+\beta U[\phi]$.
+
+## Statistical-mechanics dictionary
+Wiki note: IFT borrows its language from statistical mechanics at kT = 1. Physics side from Eastman's book; the identifications are standard but **[unverified]** against an IFT source.
+
+| Stat mech | IFT / Bayes |
+|---|---|
+| energy E(s) | information Hamiltonian H[φ\|d] |
+| [[Boltzmann distribution]] exp(−βE)/Z | posterior exp(−H)/Z |
+| [[Partition function]] Z | evidence p(d) |
+| log Z derivatives = averages | generating functional Z[q], cumulants |
+| [[Free energy]] −kT log Z | −log evidence; variational free energy = −ELBO |
+| [[Mean-field theory]] | mean-field VI |
+| temperature T | tempering, β ≠ 1 |
+| [[Phase transition]], metastability | multimodal posteriors, poor mixing ([[Ergodicity]]) |
+| [[Fluctuation-dissipation theorem]] | Langevin sampler noise scale ([[SGLD]]) |
+| [[Liouville's theorem]] | HMC volume preservation |
 
 ## Physics-informed IFT
 - Prior from a PDE energy: [[Physics-informed prior]].

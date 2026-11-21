@@ -17,7 +17,7 @@ uses: 0
 Lead page written from web search and background knowledge, not from an ingested source. The model and the papers named are **[unverified]**.
 
 **Sources**: the links below.
-**Last updated**: 2026-11-19
+**Last updated**: 2026-11-21
 
 ---
 
@@ -37,3 +37,4 @@ Lead page written from web search and background knowledge, not from an ingested
 - [[Examples catalogue]]
 - [[Dynamical systems table]]
 - [[Markov chain Monte Carlo]]
+- [[Ising model]] · [[Mean-field theory]] · [[Partition function]]
