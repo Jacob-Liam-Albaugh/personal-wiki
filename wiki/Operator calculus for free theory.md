@@ -27,8 +27,18 @@ Eq. 4.20 (Gaussian expectation of $\nabla H^\top\nabla H$) is derived in Appendi
 ## Where it appears
 - [[IFT for engineering inverse problems (Alberts 2024)]] — Ch. 3 and Lemma 3.
 
-**Sources**: `papers/IFT/Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf`.
-**Last updated**: 2026-11-07
+## Enßlin's operator version (IT & IFT §12.2, pp. 138-145)
+Enßlin's book builds the same calculus on a different footing, with the Gaussian itself as the object acted on. Here $D$ is the covariance of the Gaussian and $m$ its mean (the notes above use precision-style conventions; compare before mixing formulas).
+- Field operator $\Phi=D\,	frac{d}{dm}+m$ acting on the vacuum $1$, with $[a_x,a_y^\dagger]=D_{xy}$ for annihilation and creation operators $a=D\,d/dm$ and $a^\dagger=m$-multiplication.
+- Moments of the free theory follow by applying $\Phi$ repeatedly; exponentials of $\Phi$ are handled with the Baker-Campbell-Hausdorff formula, giving for example $\langle e^{s_x}
+angle=e^{m_x+D_{xx}/2}$ (the lognormal mean used in [[Lognormal Poisson model]]).
+- Perturbation theory in [[Interacting information field theory]] is the same algebra applied to the interaction terms.
+
+(source: Ensslin - Information Theory & Information Field Theory.pdf, §12.2, pp. 138-145; p. = PDF page)
+
+**Covered in**: Enßlin IT & IFT §12.2 (pp. 138-145)
+**Sources**: `papers/IFT/Alberts - An Information Field Theory Approach to Engineering Inverse Problems.pdf`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 
@@ -38,3 +48,4 @@ Eq. 4.20 (Gaussian expectation of $\nabla H^\top\nabla H$) is derived in Appendi
 - [[MAP uniqueness in IFT (Alberts 2025)]]
 - [[Generalized random fields]]
 - [[IFT for engineering inverse problems (Alberts 2024)]]
+- [[Free theory (IFT)]] · [[Interacting information field theory]]

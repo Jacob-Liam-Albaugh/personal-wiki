@@ -40,8 +40,17 @@ tags: [bayesian, vi]
 > [!example] Homework 6, problem 2 (source: homework/06_homework.ipynb)
 > Show $D_{KL}(p\|q)\ge0$ using Jensen's inequality.
 
-**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`.
+## KL in IFT variational schemes (Enßlin)
+The Gibbs free energy $G$ with a Gaussian ansatz satisfies $G\,\widehat=\,D_{\rm KL}(Q\|P)$ up to $-\ln P(d)$ ([[Gibbs free energy]]); [[Metric Gaussian variational inference]] minimises the sample estimate of the same KL with the covariance fixed by the Fisher metric.
+
+(source: Ensslin - Information Theory & Information Field Theory.pdf, §11.3, §17.1, pp. 133-137, 171-173; p. = PDF page)
+
+**Covered in**: Enßlin IT & IFT ch. 2 §2.6 (pp. 42-47), ch. 3 (pp. 53-69); Enßlin IT & IFT §11.3, §17.1 (pp. 133-137, 171-173)
+**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma Welling - Auto-Encoding Variational Bays - Bayesian Variational Inference & Reparametrization Trick.pdf`, `papers/Bayesian/Chen, Xu, Li, Duvenaud - inf Deep Bayseian NN with Stochastic Diff. Eqns.pdf`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
+
+## Information-theoretic reading (Enßlin)
+Enßlin derives the KL divergence as the *ideal achieved information gain*: the expected log ratio of what Bob's updated knowledge says to what his prior said, averaged over what Alice knows, from five criteria (additivity, locality, analyticality, properness, calibration) (source: Ensslin - Information Theory & Information Field Theory.pdf, §2.6, pp. 42-47; PDF page). Notation: the book writes $D_S(I_A,I_B)$ with the *first* argument the distribution averaged over; this is $D_{\mathrm{KL}}(P(\cdot\mid I_A)\,\|\,P(\cdot\mid I_B))$. Its second-order expansion is the [[Fisher information]]. Choosing the update that minimizes the KL to the prior under a moment constraint is the [[Maximum entropy principle]]; see [[Achieved information gain]].
 
 ---
 
@@ -49,3 +58,5 @@ tags: [bayesian, vi]
 - [[ELBO]] · [[Wasserstein distance]]
 - [[GAN paper (Goodfellow 2014)]]: GAN value equals $-\log 4+2\,\mathrm{JSD}$
 - [[Free energy]]
+- [[Achieved information gain]] · [[Maximum entropy principle]] · [[Fisher information]]
+- [[Gibbs free energy]] · [[Metric Gaussian variational inference]]

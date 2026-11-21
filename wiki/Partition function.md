@@ -50,8 +50,16 @@ All four are standard **[unverified]** identifications, not from Eastman.
 - [[Laplace approximation]]: a Gaussian estimate of Z around the mode.
 - [[Variational inference]], [[ELBO]], [[KL divergence]]: bounds on log Z.
 
-**Covered in**: Eastman statmech ch. 2 (The statistical description of physical systems), ch. 4 (Interpretation)
-**Sources**: Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e, `source/statisticaldescription.rst`, `source/interpretation.rst`.
+## Evidence as partition sum (Enßlin)
+Enßlin writes Bayes' theorem as $P(s|d)=e^{-\mathcal H(d,s)}/\mathcal Z(d)$ with $\mathcal Z(d)=\int ds\,e^{-\mathcal H(d,s)}=P(d)$, the evidence (source: Ensslin - Information Theory & Information Field Theory.pdf, §5, eqs. 285-289, p. 79; PDF page). For a linear Gaussian measurement it equals $e^{-\mathcal H_0'}\sqrt{|2\pi D|}$ (§5.1, p. 81). See [[Information Hamiltonian]].
+
+## Generating functional (Enßlin ch. 11-12)
+In IFT the partition function with source, $Z(d,J)=\int\mathcal Ds\,e^{-H(d,s)+J^\dagger s}$, is the generating function of posterior moments; $\ln Z$ generates cumulants and, by the linked-cluster theorem, is the sum of connected Feynman diagrams. For the free theory it is a closed Gaussian expression. See [[Free theory (IFT)]] and [[Interacting information field theory]].
+
+(source: Ensslin - Information Theory & Information Field Theory.pdf, §11.1, §12.1, pp. 129-138; p. = PDF page)
+
+**Covered in**: Eastman statmech ch. 2 (The statistical description of physical systems), ch. 4 (Interpretation); Enßlin IT & IFT ch. 5 (pp. 79-81); Enßlin IT & IFT ch. 3 §3.3 (pp. 55-57); Enßlin IT & IFT ch. 11-12 (pp. 129-138)
+**Sources**: Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e, `source/statisticaldescription.rst`, `source/interpretation.rst`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
 
 ---
@@ -59,3 +67,6 @@ All four are standard **[unverified]** identifications, not from Eastman.
 ## Related pages
 - [[Boltzmann distribution]] · [[Free energy]] · [[Statistical entropy]]
 - [[Operator calculus for free theory]] · [[Gaussian process]]
+- [[Information Hamiltonian]]
+- [[Maximum entropy principle]] (normalizer of the MaxEnt solution)
+- [[Free theory (IFT)]] · [[Interacting information field theory]] · [[Gibbs free energy]]

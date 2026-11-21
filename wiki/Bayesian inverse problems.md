@@ -17,8 +17,8 @@ tags: [bayesian, inverse-problems]
 - [[EWARS leak estimation (Rautela 2023)]]: deterministic leak-area inversion by adaptive search, no UQ.
 - [[Embedded model bias with noise (Andres Arcones 2025)]]: when the forward model is wrong, embeds the error in the parameters so the posterior does not collapse and can be pushed to unobserved QoIs ([[Embedded model inadequacy]]).
 
-**Covered in**: ASML book inverse/basics (ME 697 4.1); ASML book inverse/pdes (ME 697 4.6)
-**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/intro.md`, `inverse/basics/intro.md`, `01_classic_formulation.md`, `02_classic_example.ipynb`, `03_bayesian_formulation.md`, `04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/pdes/intro.md`, `01_reading.md`, `02_thermal.ipynb`, `03_contamination.ipynb`, `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf`.
+**Covered in**: ASML book inverse/basics (ME 697 4.1); ASML book inverse/pdes (ME 697 4.6); Enßlin IT & IFT ch. 2 (pp. 33-41)
+**Sources**: `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/intro.md`, `inverse/basics/intro.md`, `01_classic_formulation.md`, `02_classic_example.ipynb`, `03_bayesian_formulation.md`, `04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/pdes/intro.md`, `01_reading.md`, `02_thermal.ipynb`, `03_contamination.ipynb`, `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
 
 ---
@@ -36,7 +36,11 @@ Karumuri fixes the noise: $p(y\mid\xi)=N(y\mid f(\xi),\gamma^2I)$.
 - [[Variational inference]] per dataset (Tsilifis) or [[Amortized VI]] across datasets (Karumuri).
 - Field-valued unknowns: [[Information field theory]] and [[Physics-informed prior]].
 
+## Estimators from decision theory (Enßlin)
+Which point estimate to report from a posterior depends on the loss: quadratic gives the mean, absolute the median, delta the MAP (source: Ensslin - Information Theory & Information Field Theory.pdf, §2.3, eqs. 77-94, pp. 38-39; PDF page). See [[Bayesian decision theory]], [[Bayesian inference]].
+
 ## Related pages
 - [[MAP uniqueness in IFT (Alberts 2025)]]
 - [[IFT for engineering inverse problems (Alberts 2024)]]
 - [[Variational inverse problems (Tsilifis 2014)]] · [[Amortized VI for inverse problems (Karumuri 2024)]] · [[PIFT (Alberts 2023)]] · [[Karhunen-Loève expansion]]
+- [[Bayesian decision theory]] · [[Bayesian inference]]

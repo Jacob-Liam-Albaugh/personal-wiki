@@ -407,6 +407,7 @@ Regenerate the file list when files are added; keep the status column in sync on
 | `Murphy - Probabilistic Machine Learning Advanced Topics.pdf` | 1370 | reference | PML2 (2023). Cited from [[Kalman filter]] (ch. 8), [[Variational inference]] (ch. 10), [[Particle filter]] (ch. 13), [[Stochastic state-space model]] (ch. 29) |
 | `Prob & Stats & Random Processes.pdf` |  | reference |  |
 | `Sarkka - Bayseian Filtering and Smoothing.pdf` | 252 | reference | 1st ed. (2013). KF ch. 4, EKF/UKF ch. 5, Gaussian filters ch. 6, particle filter ch. 7, smoothers ch. 8-11, parameters ch. 12. Cited from [[Kalman filter]], [[Particle filter]], [[Stochastic state-space model]] |
+| `Ensslin - Information Theory & Information Field Theory.pdf` | 186 | ingested | Enßlin lecture notes (LMU / MPA, PDF dated July 2026), 17 chapters. Folded into topic pages, no book page. Part I: [[Cox's theorem]], [[Bayesian inference]], [[Bayesian decision theory]], [[Achieved information gain]], [[Fisher information]], [[Maximum entropy principle]], [[Multivariate Gaussian]]. Part II: [[Information Hamiltonian]], [[Wiener filter]], [[Signal response]], [[Wiener-Khinchin theorem]], [[Lognormal Poisson model]], [[Free theory (IFT)]], [[Interacting information field theory]], [[Gibbs free energy]], [[Critical filter]], [[Jeffreys prior]], [[Information field dynamics]]. Part III: [[Conjugate gradient]], [[Power spectrum estimation]], [[Correlated field model]], [[Metric Gaussian variational inference]], [[Geometric variational inference]]. Printed page = PDF page minus 6 |
 | `intro-to-scientific-machine-learning/intro-to-scientific-machine-learning.pdf` | 914 | reference | ME 539 book (28 chapters); `chapters/` holds the same book split per chapter; notebooks in `notebooks/` |
 
 ## text_books/Mathmatics
@@ -460,4 +461,4 @@ Cited by URL and commit; no local copy, because `text_books/` is read only.
 
 ## Totals
 
-alias: 8, ingested: 220, reference: 38
+alias: 8, ingested: 221, reference: 38

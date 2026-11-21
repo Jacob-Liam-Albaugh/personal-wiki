@@ -35,8 +35,11 @@ Evaluate $E$ by quadrature on the network output, with the boundary condition im
 **Wiki note**: the energy notebook contains a `kx`/`ky` slip in `tE_term1`; see [[PINN]]. The energy form is the quadratic case of a [[Physics-informed prior]] energy.
 
 **Examples**: [[Manufactured 2D Poisson]] (see [[Examples catalogue]])
-**Covered in**: ASML book pinns/basics (ME 697 5.1)
-**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/basics/energy.ipynb`.
+## Information Hamiltonian (Enßlin)
+In Bayesian inference the energy is the information Hamiltonian $\mathcal H(d,s)=-\ln P(d,s)$ (source: Ensslin - Information Theory & Information Field Theory.pdf, §5, eq. 286, p. 79; PDF page). See [[Information Hamiltonian]].
+
+**Covered in**: ASML book pinns/basics (ME 697 5.1); Enßlin IT & IFT ch. 5 (p. 79)
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/pinns/basics/energy.ipynb`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
 
 ---
@@ -44,3 +47,4 @@ Evaluate $E$ by quadrature on the network output, with the boundary condition im
 ## Related pages
 - [[PINN]] · [[Physics-informed prior]] · [[Non-dimensionalization]] · [[Information field theory]]
 - [[Boltzmann distribution]] · [[Free energy]]
+- [[Information Hamiltonian]]

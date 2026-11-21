@@ -42,11 +42,15 @@ Wiki note: Gibbs/Shannon entropy −Σ p log p reduces to k log Ω for a uniform
 - [[Free energy]], [[Phase transition]], [[Ising model]] (binomial entropy of spins).
 - [[KL divergence]], [[ELBO]]: entropy term of the variational distribution.
 
-**Covered in**: Eastman statmech ch. 2 (The statistical description of physical systems), ch. 3 (Large numbers), ch. 5 (Thermodynamics)
-**Sources**: Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e, `source/statisticaldescription.rst`, `source/largenumbers.rst`, `source/thermodynamics.rst`.
+**Covered in**: Eastman statmech ch. 2 (The statistical description of physical systems), ch. 3 (Large numbers), ch. 5 (Thermodynamics); Enßlin IT & IFT ch. 3 §3.1, §3.5 (pp. 53, 65-69)
+**Sources**: Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e, `source/statisticaldescription.rst`, `source/largenumbers.rst`, `source/thermodynamics.rst`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
+
+## Entropy in information theory (Enßlin)
+Enßlin separates *surprise* $H(s\mid I)=-\ln P(s\mid I)$ from Shannon entropy, its expectation, and uses entropy relative to a prior, $S[q\mid r]=-D_{\mathrm{KL}}(q\|r)$, which stays valid under change of variables (source: Ensslin - Information Theory & Information Field Theory.pdf, §3.5.1, eq. 211, p. 67; PDF page). Maximizing it under constraints is the [[Maximum entropy principle]], which reproduces the exponential-family form of the [[Boltzmann distribution]] with $\ln Z$ as free energy.
 
 ---
 
 ## Related pages
 - [[Boltzmann distribution]] · [[Partition function]] · [[Ergodicity]]
+- [[Maximum entropy principle]] · [[Achieved information gain]]

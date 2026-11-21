@@ -59,12 +59,16 @@ Eastman separates two kinds of probability: the ensemble probability of a wavefu
 - [[Equipartition theorem]], [[Ising model]], [[Mean-field theory]] are all computed from it.
 - [[Ising model (retina spikes)]]: a fitted Boltzmann distribution over spike patterns.
 
-**Covered in**: Eastman statmech ch. 2 (The statistical description of physical systems)
-**Sources**: Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e, `source/statisticaldescription.rst`.
+**Covered in**: Eastman statmech ch. 2 (The statistical description of physical systems); Enßlin IT & IFT ch. 3 §3.3 (pp. 55-57)
+**Sources**: Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e, `source/statisticaldescription.rst`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
+
+## MaxEnt connection (Enßlin)
+The [[Maximum entropy principle]] gives $P(s\mid I_B)=P(s\mid I_0)\,e^{\mu^\dagger f(s)}/\mathcal Z(\mu)$ for a message fixing $\langle f\rangle$ (source: Ensslin - Information Theory & Information Field Theory.pdf, §3.3.3, eqs. 131-135, pp. 55-57; PDF page): the Boltzmann form with the prior as reference measure and $\mu$ as inverse temperature-like multipliers.
 
 ---
 
 ## Related pages
 - [[Partition function]] · [[Statistical entropy]] · [[Free energy]] · [[Ergodicity]]
 - [[Energy functional]] · [[Information field theory]] · [[Markov chain Monte Carlo]]
+- [[Maximum entropy principle]]

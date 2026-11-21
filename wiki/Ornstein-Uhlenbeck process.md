@@ -48,8 +48,24 @@ As $t\to\infty$ the law tends to the stationary $N(\mu,\ \sigma^2/(2\lambda))$.
 **Wiki note**: the notebook's `estimate_sigma` computes `sqrt((2*lam*var)/1 - exp(-2*lam*t))`; the intended formula is $\sqrt{2\lambda\,\mathrm{var}/(1-e^{-2\lambda t})}$. Also $\lambda$ is in rescaled time. The "AR(1)" and "exponential covariance" remarks are standard facts, not stated in the source **[unverified here]**.
 
 **Examples**: [[Treasury yield (Vasicek)]] (see [[Examples catalogue]])
-**Covered in**: ASML book sinverse/sodes (ME 697 6.1)
-**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`.
+## Spectral view and parameter fitting (Enßlin)
+Page numbers here are PDF pages of the lecture notes (printed page = PDF page minus 6).
+
+The notes write the OU process as $\dot s_t+\eta s_t=\xi_t$ ($a_0=\eta$, $a_1=1$), a linear SDE with transfer function $P_R(\omega)=(\eta^2+\omega^2)^{-1}$; for white noise $P_s(\omega)=P_R(\omega)$ (source: Ensslin - Information Theory & Information Field Theory.pdf, §10.3.2, p. 122). This page writes $dX=-\lambda(X-\mu)dt+\sigma dW$; Enßlin's equation is the zero-mean case. With a free coefficient $a_1$ in $a_1\dot s+\eta s=\xi$, dividing by $a_1$ gives $\lambda=\eta/a_1$ and $\sigma=1/a_1$ (Wiki note), and $P_s=(\eta^2+a_1^2\omega^2)^{-1}$.
+
+> [!algorithm] Parameter determination (source: §10.4, p. 123)
+> For a signal $s$ whose process class is known, $P(a|s)\propto P(s|a)P(a)$ with Hamiltonian, for a flat prior on $a$,
+> $$\mathcal H(s,a)\hat=\tfrac12\int\frac{d\omega}{2\pi}\Big(\frac{|s^\omega|^2}{P_s(\omega)}+\ln P_s(\omega)\Big),$$
+> minimized over $a=(a_0,\dots,a_N)$.
+
+In the book's example (Fig. 17, p. 123) the minimum for one OU realization is at $(\eta,a_1)\approx(0.96,1.024)$ (in the figure's units) against the true $(1,1)$, and the truth lies on the $1\sigma$ contour $\Delta\mathcal H=\tfrac12$.
+
+The same chapter gives the damped harmonic oscillator $\ddot s+\kappa\dot s+\omega_0^2s=f\xi$ with the transfer spectrum below (§10.3.3, pp. 122-123); see [[Stochastic differential equation]].
+
+$$P_R=f^2\big[\omega_0^4+(\kappa^2-2\omega_0^2)\omega^2+\omega^4\big]^{-1}.$$
+
+**Covered in**: ASML book sinverse/sodes (ME 697 6.1); Enßlin IT & IFT ch. 10.3-10.4 (pp. 121-123)
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/04_ornstein_uhlenbeck.ipynb`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
 
 ---
@@ -59,3 +75,4 @@ As $t\to\infty$ the law tends to the stationary $N(\mu,\ \sigma^2/(2\lambda))$.
 - [[Brownian motion]] · [[Wiener process]] · [[Langevin dynamics]] · [[Fokker-Planck equation]] · [[Gaussian process]]
 - [[Diesel PM as OU process (Bolt 2026)]]
 - [[Fluctuation-dissipation theorem]]: the Langevin velocity process with white noise is OU.
+- [[Wiener filter]] · [[Wiener-Khinchin theorem]] (spectrum of a stationary linear SDE)

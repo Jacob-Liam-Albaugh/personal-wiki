@@ -49,8 +49,15 @@ tags: [bayesian, vi]
 > Rank-$k$ covariance parameterization is positive semi-definite, multi-point convexity, Jensen's inequality. Then mean-field and full-rank Gaussian VI for the acetaminophen model.
 
 **Examples**: [[Autoinjector FE surrogate]] · [[Catalysis kinetics]] · [[Challenger O-ring]] · [[Duffing oscillator examples]] · [[PK two-compartment IV bolus]] · [[Planar arm inverse kinematics]] · [[Planned and stub examples]] · [[Trailer on a rough road]] (see [[Examples catalogue]])
-**Covered in**: ASML book inverse/vi (ME 697 4.3); homework 6
-**Sources**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/vi/intro.md`, `01_basics.md`, `02_catalysis.ipynb`, `03_3d_reconstruction.ipynb`.
+## IFT variational methods (Enßlin ch. 11, 17)
+- [[Gibbs free energy]]: Gaussian-ansatz variational objective $G=U-TS_B$ from a Legendre transform, equal to KL up to a constant.
+- [[Metric Gaussian variational inference]] (MGVI): Gaussian whose covariance is the inverse of $1+M$ with $M$ the likelihood's Fisher metric, mean optimised with sample-based KL; posterior samples via [[Conjugate gradient]].
+- [[Geometric variational inference]] (geoVI): same metric, but in coordinates that flatten the Fisher metric (for Poisson data $x=2\sqrt\lambda$).
+
+(source: Ensslin - Information Theory & Information Field Theory.pdf, §11.3, ch. 17, pp. 133-137, 171-178; p. = PDF page)
+
+**Covered in**: ASML book inverse/vi (ME 697 4.3); homework 6; Enßlin IT & IFT ch. 17 (pp. 171-178), §11.3 (pp. 133-137)
+**Sources**: `papers/Bayesian/Margossian, Blei - Amortized Variational Inference When & Why.pdf`, `papers/Bayesian/Bilionis, Tsilifis - Variational Reformulation of Bayesian Inverse Problems.pdf`, `papers/Bayesian/Kingma, Welling, Salimans - Variational Dropout & Local Reparameterizing Trick.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/vi/intro.md`, `01_basics.md`, `02_catalysis.ipynb`, `03_3d_reconstruction.ipynb`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Further reading**: Murphy PML2 ch. 10, `text_books/Machine Learning & Statistics/Murphy - Probabilistic Machine Learning Advanced Topics.pdf`; ME 539 book ch. 28, `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/intro-to-scientific-machine-learning.pdf`.
 **Last updated**: 2026-11-21
 
@@ -60,3 +67,4 @@ tags: [bayesian, vi]
 - [[ELBO]] · [[KL divergence]] · [[SG-MCMC]] · [[Bayesian inverse problems]]
 - [[IFT state and parameter estimation (Hao 2024)]]
 - [[Free energy]] (variational free energy = −ELBO) · [[Mean-field theory]] (physics origin of mean-field VI) · [[Partition function]]
+- [[Metric Gaussian variational inference]] · [[Geometric variational inference]] · [[Gibbs free energy]]

@@ -10,8 +10,8 @@ source-ref: "Alberts & Bilionis 2023, eqs. 2-11, 18, pp. 4-7"
 
 **Summary**: Bayesian inference over fields, written as path integrals. A quadratic action gives a closed-form free theory equal to Wiener filtering / GP regression; physics enters through the prior energy.
 
-**Covered in**: ASML book ift/calibration (ME 697 IFT.1); ASML book ift/fields (ME 697 IFT.2); Eastman statmech ch. 2, 4, 6 (background for the dictionary)
-**Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/calibration/intro.md`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/fields/intro.md`.
+**Covered in**: ASML book ift/calibration (ME 697 IFT.1); ASML book ift/fields (ME 697 IFT.2); Eastman statmech ch. 2, 4, 6 (background for the dictionary); Enßlin IT & IFT ch. 5-17 (pp. 77-184, PDF pages)
+**Sources**: `papers/IFT/Bilionis, Alberts - IFT.pdf`, `papers/IFT/Bilionis, Alberts - IFT Thermal Conductivity.pdf`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/calibration/intro.md`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/ift/intro.md`, `ift/fields/intro.md`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
 
 ---
@@ -54,6 +54,19 @@ Wiki note: IFT borrows its language from statistical mechanics at kT = 1. Physic
 | [[Phase transition]], metastability | multimodal posteriors, poor mixing ([[Ergodicity]]) |
 | [[Fluctuation-dissipation theorem]] | Langevin sampler noise scale ([[SGLD]]) |
 | [[Liouville's theorem]] | HMC volume preservation |
+
+## Enßlin's lecture notes
+Enßlin's book builds IFT from probability theory up; its content is held on the topic pages below (source: Ensslin - Information Theory & Information Field Theory.pdf, ch. 5-17, PDF pp. 77-184).
+
+Notation: Enßlin writes $S$, $N$, $D$ for the prior, noise and posterior **covariances**, so $D^{-1}=S^{-1}+R^\dagger N^{-1}R$, $j=R^\dagger N^{-1}d$, $m=Dj$; this page (after Alberts & Bilionis) uses $S$ as a precision. Enßlin's $H(d,s)=-\ln P(d,s)$ is the joint, and his $\beta=1/T$ tempers the whole Hamiltonian, while the $\beta$ above multiplies only the physics energy $U$.
+
+- Foundations: [[Information Hamiltonian]] · [[Signal response]] · [[Wiener filter]] · [[Wiener-Khinchin theorem]] · [[Free theory (IFT)]]
+- Non-Gaussian problems: [[Lognormal Poisson model]] · [[Interacting information field theory]] (Feynman diagrams; MAP is tree level) · [[Gibbs free energy]] (thermodynamical inference)
+- Unknown spectra and dynamics: [[Critical filter]] · [[Power spectrum estimation]] · [[Correlated field model]] · [[Information field dynamics]]
+- Numerics: [[Conjugate gradient]] · [[Metric Gaussian variational inference]] · [[Geometric variational inference]]
+- Probability background from Part I: [[Cox's theorem]] · [[Bayesian inference]] · [[Bayesian decision theory]] · [[Achieved information gain]] · [[Fisher information]] · [[Maximum entropy principle]] · [[Multivariate Gaussian]]
+
+The stat-mech dictionary above is used explicitly in the book: evidence as partition function (ch. 5, 11), $G=\mathrm{KL}-\ln P(d)$ at $T=1$ (ch. 12).
 
 ## Physics-informed IFT
 - Prior from a PDE energy: [[Physics-informed prior]].

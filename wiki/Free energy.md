@@ -10,8 +10,13 @@ tags: [ift, mechanics, bayesian]
 
 **Summary**: Thermodynamic potentials are minus log probabilities of macrostates: p ∝ exp(−Φ/kT). The stable state minimises the potential, and the Helmholtz free energy is the maximum extractable work. In inference the same quantity is −log evidence, which variational inference bounds.
 
-**Covered in**: Eastman statmech ch. 2 (The statistical description of physical systems), ch. 4 (Interpretation), ch. 5 (Thermodynamics), ch. 6 (Phase transitions)
-**Sources**: Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e, `source/statisticaldescription.rst`, `source/interpretation.rst`, `source/thermodynamics.rst`, `source/phasetransitions.rst`.
+## Enßlin's Gibbs free energy (ch. 11-12)
+In IFT the free energy of the tempered posterior is $F=-T\ln Z$ with $Z$ the evidence, and the Legendre transform to the Gibbs free energy $G=U-TS_B$ over a Gaussian ansatz is the objective of [[Gibbs free energy]]; at $T=1$ it equals $D_{\rm KL}$ of the ansatz from the posterior up to the constant $-\ln P(d)$. See also [[Free theory (IFT)]] and [[Interacting information field theory]] (generating functional, $\ln Z$ as sum of connected diagrams).
+
+(source: Ensslin - Information Theory & Information Field Theory.pdf, pp. 133-137; p. = PDF page)
+
+**Covered in**: Eastman statmech ch. 2 (The statistical description of physical systems), ch. 4 (Interpretation), ch. 5 (Thermodynamics), ch. 6 (Phase transitions); Enßlin IT & IFT ch. 11-12 (pp. 129-138)
+**Sources**: Eastman, *Introduction to Statistical Mechanics*, github.com/peastman/statmech @cdf566e, `source/statisticaldescription.rst`, `source/interpretation.rst`, `source/thermodynamics.rst`, `source/phasetransitions.rst`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
 
 ---
@@ -62,3 +67,4 @@ Wiki note, standard identifications **[unverified]** (not in Eastman):
 ## Related pages
 - [[Partition function]] · [[Statistical entropy]] · [[Variational inference]] · [[ELBO]] · [[KL divergence]]
 - [[Information field theory]] · [[Laplace approximation]]
+- [[Gibbs free energy]] · [[Free theory (IFT)]] · [[Interacting information field theory]]

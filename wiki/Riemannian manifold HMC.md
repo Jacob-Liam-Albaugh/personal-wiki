@@ -24,8 +24,12 @@ tags: [sampling, mcmc, bayesian]
 
 Wiki note: in large neural networks the full metric is infeasible, which is why stochastic-gradient samplers ([[SGLD]], [[SGHMC]]) and diagonal preconditioners ([[Adam]]) dominate.
 
-**Sources**: `papers/ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf`.
-**Last updated**: 2026-11-06
+**Covered in**: Enßlin IT & IFT ch. 2 §2.9 (pp. 50-51)
+**Sources**: `papers/ML/Girolami, Calderhead - Riemann Manifold Langevin & Hamiltonian Monte Carlo Methods.pdf`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
+**Last updated**: 2026-11-21
+
+## Fisher metric origin (Enßlin)
+The Fisher metric is the quadratic term of the KL expansion, $D(\theta+\varepsilon,\theta)=\tfrac12\varepsilon_ig_{ij}\varepsilon_j$ (source: Ensslin - Information Theory & Information Field Theory.pdf, §2.9, p. 50; PDF page). See [[Fisher information]].
 
 ---
 
@@ -38,3 +42,4 @@ Wiki note: in large neural networks the full metric is infeasible, which is why 
 - [[Langevin dynamics]]
 - [[Metropolis-Hastings correction]]
 - [[Riemannian convergence (Sormani 2011)]]
+- [[Fisher information]]

@@ -82,12 +82,19 @@ $$\beta^{*-1}=\frac{(\phi^*-Gq)^\dagger L(\phi^*-Gq)}{\mathrm{tr}(I)}$$
 - Wiki note: under free theory with a flat trust prior this is type-II maximum likelihood for one GP scale parameter; the $\mathrm{tr}(I)$ dependence is the usual "number of effective modes" in evidence maximisation for [[Gaussian process]] amplitude.
 - Wiki note: compare the Bayesian well-posedness framework in [[Bayesian inverse problems]], which this deliberately weakens to MAP uniqueness.
 
+## Enßlin's treatment of MAP vs thermodynamical inference
+The book obtains MAP as the tree-level / zero-temperature limit ([[Interacting information field theory]]) and contrasts it with minimising the Gibbs free energy ([[Gibbs free energy]]); in the [[Critical filter]] the MAP choice ($\delta=0$) and the thermodynamical choice ($\delta=1$) give different spectral estimates. Notation differs: Enßlin's $\beta$ tempers the whole Hamiltonian, whereas the trust parameter here multiplies only the model-form term.
+
+(source: Ensslin - Information Theory & Information Field Theory.pdf, §12.4, §14, pp. 133-148; p. = PDF page)
+
+**Covered in**: Enßlin IT & IFT §12.4, ch. 14 (pp. 133-148)
+
 %% refs:start %%
 **Cites in this wiki**: [[IFT state and parameter estimation (Hao 2024)]], [[Neural information field filter (Hao 2025)]], [[PIFT (Alberts 2023)]], [[PINNs (Raissi 2019)]], [[Physics-informed ML review (Karniadakis 2021)]]
 %% refs:end %%
 
-**Sources**: `papers/IFT/Alberts, Bilionis - Uniqueness of MAP estimates for inverse problems under information field theory.pdf`.
-**Last updated**: 2026-11-07
+**Sources**: `papers/IFT/Alberts, Bilionis - Uniqueness of MAP estimates for inverse problems under information field theory.pdf`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 
@@ -103,3 +110,4 @@ $$\beta^{*-1}=\frac{(\phi^*-Gq)^\dagger L(\phi^*-Gq)}{\mathrm{tr}(I)}$$
 - [[RKHS]]
 - [[Poisson and Laplace equations]]
 - [[SGLD]]
+- [[Critical filter]] · [[Gibbs free energy]]

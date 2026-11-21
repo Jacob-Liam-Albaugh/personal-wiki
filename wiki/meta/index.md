@@ -142,6 +142,21 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Mean-field theory]] | method | Mean-field theory |
 | [[Phase transition]] | concept | Phase transitions |
 | [[Equipartition theorem]] | theorem | Equipartition theorem |
+| [[Information Hamiltonian]] | definition | Information Hamiltonian |
+| [[Wiener filter]] | method | Wiener filter |
+| [[Wiener-Khinchin theorem]] | theorem | Wiener-Khinchin theorem |
+| [[Signal response]] | concept | Signal response |
+| [[Lognormal Poisson model]] | method | Lognormal Poisson model |
+| [[Free theory (IFT)]] | method | Free theory (IFT) |
+| [[Interacting information field theory]] | method | Interacting information field theory |
+| [[Gibbs free energy]] | method | Gibbs free energy (thermodynamical inference) |
+| [[Critical filter]] | method | Critical filter |
+| [[Information field dynamics]] | method | Information field dynamics |
+| [[Conjugate gradient]] | method | Conjugate gradient |
+| [[Metric Gaussian variational inference]] | method | Metric Gaussian variational inference |
+| [[Geometric variational inference]] | method | Geometric variational inference |
+| [[Correlated field model]] | method | Correlated field model |
+| [[Power spectrum estimation]] | method | Power spectrum estimation |
 
 ## Stochastic methods & SG-MCMC
 
@@ -241,6 +256,14 @@ Every wiki page, by primary area. Papers first, then the other page types. Inven
 | [[Reparameterization trick]] | method | Reparameterization trick |
 | [[SVGD]] | method | Stein variational gradient descent (SVGD) |
 | [[Variational inference]] | method | Variational inference |
+| [[Cox's theorem]] | theorem | Cox's theorem |
+| [[Bayesian inference]] | method | Bayesian inference |
+| [[Maximum entropy principle]] | method | Maximum entropy principle |
+| [[Achieved information gain]] | definition | Achieved information gain |
+| [[Bayesian decision theory]] | concept | Bayesian decision theory |
+| [[Jeffreys prior]] | definition | Jeffreys prior |
+| [[Fisher information]] | definition | Fisher information |
+| [[Multivariate Gaussian]] | definition | Multivariate Gaussian |
 
 ## Machine learning
 

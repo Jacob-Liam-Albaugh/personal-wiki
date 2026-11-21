@@ -72,12 +72,16 @@ Zero padding recipe: pad $x$ (length $L$) and $h$ (length $K$) to $N\ge L+K-1$, 
 >
 > (source: Topic DSP.3.D, pp. 4-6)
 
-**Covered in**: ECE 438 DSP.3.D (Topic DSP.3.D Convolution with DFT); convolution recipe from DSP.2
-**Sources**: `courses/ECE 438/Topic DSP.2 DT systems UPDATED Jan 22, 2025.pdf`, `courses/ECE 438/Topic DSP.3.D Convolution with DFT Feb 9, 2025.pdf`, `courses/ECE 438/exam_1_review_transcribed.pdf`, `courses/ECE 438/301 Review/ece301final_equation-sheet.pdf`, `courses/ECE 438/301 Review/Topic 2.2 time transformations.pdf`.
-**Last updated**: 2026-11-06
+## Deconvolution as a Wiener filter (Enßlin)
+A translation-invariant response $d=b*s+n$ is diagonal in Fourier space, so the optimal reconstruction divides by $b(k)$ only where the fidelity $P_sP_R/P_n$ is large and damps the rest (source: Ensslin - Information Theory & Information Field Theory.pdf, §8.3.6, pp. 105-107; PDF pages). See [[Wiener filter]].
+
+**Covered in**: ECE 438 DSP.3.D (Topic DSP.3.D Convolution with DFT); convolution recipe from DSP.2; Enßlin IT & IFT ch. 8.3.6 (pp. 105-107)
+**Sources**: `courses/ECE 438/Topic DSP.2 DT systems UPDATED Jan 22, 2025.pdf`, `courses/ECE 438/Topic DSP.3.D Convolution with DFT Feb 9, 2025.pdf`, `courses/ECE 438/exam_1_review_transcribed.pdf`, `courses/ECE 438/301 Review/ece301final_equation-sheet.pdf`, `courses/ECE 438/301 Review/Topic 2.2 time transformations.pdf`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 
 ## Related pages
 - [[LTI system]] · [[Digital filter]] · [[FFT]] · [[Spatial filtering]] · [[Discrete-time signal]]
 - [[Convolutional neural network]]: the learned 2D version used in deep nets
+- [[Wiener filter]] · [[Signal response]]

@@ -56,12 +56,16 @@ With $R$ replicate series the sums run over replicates too and the denominators 
 **Wiki note**: the notebook text gives the increment variance as $\sigma^2X\Delta t$; it should be $\sigma^2X^2\Delta t$. Euler-Maruyama can go negative for large steps while the exact GBM stays positive, which is another reason to use the log form for fitting **[unverified]**.
 
 **Examples**: [[Tumour growth (GBM)]] (see [[Examples catalogue]])
-**Covered in**: ASML book sinverse/sodes (ME 697 6.1)
-**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`.
-**Last updated**: 2026-11-06
+## Lognormal drift (Enßlin)
+If the log-price $s$ is a Wiener process, $\langle e^{s^f}\rangle=e^{s^t+\Sigma/2}$ with $\Sigma=\int_t^fdt'\,\sigma^2$: variance of the log-price gives a positive drift of the price (source: Ensslin - Information Theory & Information Field Theory.pdf, §10.1.4, pp. 118-119; PDF pages). See [[Wiener process]].
+
+**Covered in**: ASML book sinverse/sodes (ME 697 6.1); Enßlin IT & IFT ch. 10.1.4 (pp. 117-119)
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/sinverse/sodes/03_stochastic_exponential_growth.ipynb`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 
 ## Related pages
 - [[Stochastic differential equation]]
 - [[Ornstein-Uhlenbeck process]] · [[Euler-Maruyama method]] · [[Brownian motion]] · [[Wiener process]]
+- [[Lognormal Poisson model]] (a different lognormal construction: log-density Gaussian)

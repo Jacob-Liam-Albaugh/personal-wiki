@@ -44,9 +44,17 @@ Put a Jeffreys prior $p(\sigma)\propto1/\sigma$ on $\sigma$. With $\theta=\log\s
 - [[Variational inference]]: the same problem solved by a full-rank Gaussian guide, a natural comparison.
 
 **Examples**: [[Gamma density (Laplace)]] (see [[Examples catalogue]])
-**Covered in**: ASML book inverse/basics (ME 697 4.1)
-**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/basics/04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`.
+## Tree level and beyond (Enßlin)
+In [[Interacting information field theory]] the MAP (Laplace) solution is the tree-level truncation of the diagram series; loops add corrections, for the lognormal Poisson model $\kappa\to\kappa e^{\hat D/2}$. [[Metric Gaussian variational inference]] replaces the Hessian at the mode by the expected (Fisher) Hessian at the mean and fits the mean by KL instead.
+
+(source: Ensslin - Information Theory & Information Field Theory.pdf, §12.3-12.4, §17.1, pp. 130-138, 171-173; p. = PDF page)
+
+**Covered in**: ASML book inverse/basics (ME 697 4.1); Enßlin IT & IFT ch. 4 (pp. 71-76); Enßlin IT & IFT §12.3-12.4, §17.1 (pp. 130-138, 171-173)
+**Sources**: `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/inverse/basics/04_laplace_approximation_gen.ipynb`, `05_laplace_example.ipynb`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Last updated**: 2026-11-21
+
+## Gaussian target (Enßlin)
+The approximating density is a [[Multivariate Gaussian]], the maximum-entropy law for a known mean and covariance (source: Ensslin - Information Theory & Information Field Theory.pdf, §4.3, pp. 74-76; PDF page).
 
 ---
 
@@ -54,3 +62,5 @@ Put a Jeffreys prior $p(\sigma)\propto1/\sigma$ on $\sigma$. With $\theta=\log\s
 - [[Bayesian inverse problems]] · [[Variational inference]] · [[Markov chain Monte Carlo]] · [[Catalysis problem]]
 - [[Newton's method]] · [[Automatic differentiation]] · [[KL divergence]]
 - [[Partition function]] (Laplace estimate of Z) · [[Central limit theorem]]
+- [[Multivariate Gaussian]] · [[Maximum entropy principle]]
+- [[Interacting information field theory]] · [[Metric Gaussian variational inference]]

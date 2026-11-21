@@ -117,11 +117,15 @@ Wiki note: the IP.3 handwriting gives the replica prefactor as $1/T$; for spacin
 
 
 
-**Covered in**: ECE 438 DSP.4.A, IP.3, L16, L26, L27 (courses/ECE 438/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf)
-**Sources**: `courses/ECE 438/301 Review/ece301final_equation-sheet.pdf`, `courses/ECE 438/Topic DSP.4.A Sampling CT.pdf`, `courses/ECE 438/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf`, `courses/ECE 438/front page/L16 Feb 21, 2025.pdf`, `courses/ECE 438/front page/L26 Mar 26, 2025.pdf`, `courses/ECE 438/front page/L27 Mar 31, 2025.pdf`.
-**Last updated**: 2026-11-06
+## Enßlin's convention
+Enßlin first writes the symmetric form $f(\tilde k)=\int dx\,e^{2\pi i\tilde kx}f(x)$, then absorbs $2\pi$ into $k$: $f(k)=\int d^ux\,e^{ikx}f(x)$, $f(x)=\int d^uk/(2\pi)^u\,e^{-ikx}f(k)$, with positive exponent in the forward transform. The transform is an orthonormal operator, $F^{-1}=F^\dagger$ (source: Ensslin - Information Theory & Information Field Theory.pdf, §8.2, pp. 97-98; PDF pages). Under it a stationary covariance becomes diagonal: [[Wiener-Khinchin theorem]].
+
+**Covered in**: ECE 438 DSP.4.A, IP.3, L16, L26, L27 (courses/ECE 438/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf); Enßlin IT & IFT ch. 8.2 (pp. 97-98)
+**Sources**: `courses/ECE 438/301 Review/ece301final_equation-sheet.pdf`, `courses/ECE 438/Topic DSP.4.A Sampling CT.pdf`, `courses/ECE 438/Topic IP.3 Continuous-space FT Mar 25, 2025.pdf`, `courses/ECE 438/front page/L16 Feb 21, 2025.pdf`, `courses/ECE 438/front page/L26 Mar 26, 2025.pdf`, `courses/ECE 438/front page/L27 Mar 31, 2025.pdf`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 
 ## Related pages
 - [[DTFT]] · [[DFT]] · [[FFT]] · [[Z-transform]] · [[Laplace transform]] · [[Convolution]] · [[LTI system]] · [[Sampling theorem]] · [[Wavelet transform]] · [[Spectral bias]] · [[Aliasing]] · [[Digital image]]
+- [[Wiener-Khinchin theorem]] · [[Wiener filter]]

@@ -73,12 +73,16 @@ Wiki notes:
 - The multi-fidelity example subtracts a cost from a dimensionless variance ratio, so $\lambda$ also sets the exchange rate between them.
 
 **Examples**: [[Active learning test functions]] · [[Branin function]] (see [[Examples catalogue]])
-**Covered in**: ASML book up/al (ME 697 2.5); homework 4
-**Sources**: ME 697 book `up/al/`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/al/intro.md`, `01_al_basics.md`, `02_al.ipynb`.
-**Last updated**: 2026-11-06
+**Covered in**: ASML book up/al (ME 697 2.5); homework 4; Enßlin IT & IFT ch. 2 §2.6-2.9 (pp. 42-51)
+**Sources**: ME 697 book `up/al/`, `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/up/al/intro.md`, `01_al_basics.md`, `02_al.ipynb`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
+**Last updated**: 2026-11-21
+
+## Information-theoretic view (Enßlin)
+Value of a measurement can be scored by the expected [[Achieved information gain]], estimated by sampling $s_i\sim P(s\mid I_0)$, $d_i\sim P(d\mid s_i)$ and averaging $H(s_i\mid I_0)-H(s_i\mid I_B(d_i))$ (source: Ensslin - Information Theory & Information Field Theory.pdf, §2.8, p. 50; PDF page). For parameters of interest the [[Fisher information]] gives the sensitivity of that gain for little extra data (§2.9, pp. 50-51). Utility-based alternatives: [[Bayesian decision theory]].
 
 ---
 
 ## Related pages
 - [[Multi-fidelity modeling]]
 - [[Surrogate model]] · [[Gaussian process]] · [[KL divergence]]
+- [[Achieved information gain]] · [[Fisher information]] · [[Bayesian decision theory]]

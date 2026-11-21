@@ -18,8 +18,33 @@ tags: [gp, bayesian]
 - a two-fidelity GP surrogate for a tissue model is in [[Multi-fidelity GP for tissue expansion (Lee 2020)]].
 
 **Examples**: [[A to B to C reaction]] · [[Active learning test functions]] · [[Autoinjector FE surrogate]] · [[Bayesian optimisation 1D test function]] · [[Branin function]] · [[Chwirut1 ultrasonic calibration]] · [[Darcy flow FNO]] · [[Duffing oscillator examples]] · [[KLE of Gaussian processes]] · [[Motorcycle crash (mcycle)]] · [[Multi-fidelity 2D synthetic function]] · [[SPE10 permeability field]] · [[Stochastic 1D heat equation]] · [[Stochastic cylinder flow (multi-fidelity)]] (see [[Examples catalogue]])
-**Sources**: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`.
-**Last updated**: 2026-11-06
+## Gaussian fields and Wiener filtering (Enßlin)
+Page numbers here are PDF pages of the lecture notes (printed page = PDF page minus 6).
+
+- **Gaussian field** (source: Ensslin - Information Theory & Information Field Theory.pdf, §7, pp. 95-96): a field $\phi:\mathbb R^u\to\mathbb R$ is Gaussian if every finite set of pixel values is multivariate Gaussian with $\Phi_{ij}=\langle\phi(x_i)\phi(x_j)\rangle$. The density $\mathcal G(\phi,\Phi)$ is the $n\to\infty$ limit; the field is a vector in a Hilbert space with delta-function basis and scalar product $\psi^\dagger\phi=\int dx\,\psi(x)\phi(x)$. This is a GP in the notes' vocabulary, with covariance $\Phi$ as the kernel.
+- **Wick theorem** for the fourth moment (§7.1, p. 96), with $\Phi_{xy}$ the covariance of $\phi_x,\phi_y$:
+
+$$\langle\phi_x\phi_y\phi_z\phi_w\rangle=\Phi_{xy}\Phi_{zw}+\Phi_{xz}\Phi_{yw}+\Phi_{xw}\Phi_{yz}.$$
+
+  The printed text ends with $\Phi_{yw}\Phi_{yz}$, which looks like a typo for $\Phi_{xw}\Phi_{yz}$.
+- **Field calculus** (§7.1, p. 96; eqs. 300-301): the discrete rules carry over to fields.
+  - Scalar product: $j^\dagger\phi=j_i\phi^i$ becomes $\int dx\,j(x)\phi(x)$.
+  - Derivative: $\partial_\phi\,j^\dagger\phi=j$ in both cases (functional derivative for fields).
+  - Determinant: $|\Phi|=\prod_i\lambda_i$, and its $n\to\infty$ limit may be undetermined.
+  - Inverse covariance: $\int dy\,(\Phi^{-1})^x{}_y\Phi^y{}_z=\delta(x-z)$.
+  - Expectations are path integrals defined as the pixel limit:
+
+$$\langle f(\phi)\rangle=\int\mathcal D\phi\,P(\phi|\Phi)f(\phi)=\lim_{n\to\infty}\Big[\prod_{i=1}^n\int d\phi^i_{(n)}\Big]\mathcal G(\phi_{(n)},\Phi_{(n)})f_n(\phi_{(n)}).$$
+
+  - Field components are contravariant: rescaling the basis by $A$ changes the components by $A^{-1}$, so $\phi$ itself is unchanged (p. 95).
+- **Regression is Wiener filtering** (§5.1, p. 81): the posterior mean $m=(S^{-1}+R^\dagger N^{-1}R)^{-1}R^\dagger N^{-1}d$ is GP regression when $R$ samples the field; see [[Wiener filter]] and [[Information Hamiltonian]]. The notes call $S$ a covariance; [[Information field theory]] uses $S$ for a precision.
+- **Stationary GPs** are diagonal in Fourier space by the [[Wiener-Khinchin theorem]].
+- **Markov GPs**: the Wiener process and Ornstein-Uhlenbeck process are Gaussian Markov processes whose covariance obeys $S^{fp}=S^{ft}S^{tp}/S^{tt}$ (§10.1.3, p. 116); linear SDEs give GPs with spectrum $P_\xi/|\sum a_n(-i\omega)^n|^2$ (§10.3, p. 121). See [[Wiener process]], [[Stochastic differential equation]].
+- **Sampling** a zero-mean Gaussian with covariance $S$: $s=S^{1/2}\xi$, $\xi\sim\mathcal G(\xi,\mathbb 1)$ (§9, p. 112).
+
+**Covered in**: Enßlin IT & IFT chs. 7, 9, 10 (pp. 95-96, 111-123); Enßlin IT & IFT ch. 4 (pp. 71-76)
+**Sources**: `papers/Bayesian/Fortuin - Priors in Bayesian Deep Learning.pdf`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
+**Last updated**: 2026-11-21
 
 ---
 
@@ -55,3 +80,5 @@ Hyperparameters fit by maximising the marginal likelihood (eq. 35).
 - [[Kernel methods]], [[RKHS]], [[Kernel composition]], [[Multi-fidelity Gaussian process]].
 - Field-valued unknowns in the planned PDE inverse problems (empty in the book): [[Bayesian inverse problems]].
 - [[IFT for UQ of differential equations (Hao 2024)]]
+- [[Wiener filter]] · [[Information Hamiltonian]] · [[Wiener-Khinchin theorem]] · [[Lognormal Poisson model]]
+- [[Multivariate Gaussian]]

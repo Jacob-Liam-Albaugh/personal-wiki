@@ -56,13 +56,17 @@ $$
 - The smoothing analogue is the Rauch-Tung-Striebel smoother **[unverified]**.
 
 **Examples**: [[Forced damped oscillator (Kalman)]] · [[Object tracking point mass]] (see [[Examples catalogue]])
-**Covered in**: ASML book sinverse/fs (ME 697 6.2)
-**Sources**: none in `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/`; context from `sinverse/fs/intro.md`.
+## Relation to the Wiener filter (Enßlin)
+The Wiener filter is the Gaussian posterior mean for a linear measurement; the Markov property of ch. 10 (the present isolates the future from the past) is what lets a time-sequential filter such as the Kalman filter reproduce it recursively (source: Ensslin - Information Theory & Information Field Theory.pdf, §5.1, p. 81 and §10.1.1, p. 115; PDF pages). The book does not derive the Kalman filter in these chapters. See [[Wiener filter]].
+
+**Covered in**: ASML book sinverse/fs (ME 697 6.2); Enßlin IT & IFT chs. 5, 10.1 (pp. 79-82, 115)
+**Sources**: none in `text_books/Machine Learning & Statistics/advanced-scientific-machine-learning/book/`; context from `sinverse/fs/intro.md`, `text_books/Machine Learning & Statistics/Ensslin - Information Theory & Information Field Theory.pdf`.
 **Further reading**: Särkkä 2013 ch. 4 (KF), ch. 5 (EKF, UKF), ch. 6 (Gaussian filters), ch. 8 (RTS smoother), `text_books/Machine Learning & Statistics/Sarkka - Bayseian Filtering and Smoothing.pdf`; Murphy PML2 ch. 8, `text_books/Machine Learning & Statistics/Murphy - Probabilistic Machine Learning Advanced Topics.pdf`; ME 539 book ch. 20, `text_books/Machine Learning & Statistics/intro-to-scientific-machine-learning/intro-to-scientific-machine-learning.pdf`.
-**Last updated**: 2026-11-19
+**Last updated**: 2026-11-21
 
 ---
 
 ## Related pages
 - [[Particle filter]] · [[Stochastic state-space model]] · [[Ornstein-Uhlenbeck process]] · [[Gaussian process]]
 - [[IFT state and parameter estimation (Hao 2024)]]
+- [[Wiener filter]] · [[Wiener process]]
