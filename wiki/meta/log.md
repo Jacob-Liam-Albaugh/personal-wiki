@@ -235,3 +235,7 @@
 - Wiki notes flag book typos: Wick theorem index (p. 96), x = ½√λ should be 2√λ (p. 183, checked against the page), n(n−1)/2 covariance parameters (p. 177), CG bound without the factor 4 and square (p. 171), a garbled log-determinant line in ch. 16 (result reconstructed, marked **[unverified]**).
 - Equations were checked against page images on about 20 pages; the rest were transcribed from extracted text.
 - Follow-up: added [[Jeffreys prior]] (scale case from §13.3; general form is a Wiki note, **[unverified]**) and the ch. 7 field-calculus rules on [[Gaussian process]].
+
+## [2026-11-22] examples | How each example is judged
+- [[Examples catalogue]]: added a judging column to the All examples, lab papers and Planned examples tables. `examples.csv` gained `metric`, `compared_against` and `judging_basis`.
+- Lab-paper rows use the metrics and baselines on [[Lab evaluation metrics]]; papers not on that page are marked "not surveyed". Book and planned rows carry a suggested metric by task, not one read from the notebooks.
