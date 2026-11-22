@@ -11,7 +11,7 @@ tags: [uq, inverse-problems, gp, sampling, ml]
 **Summary**: How the Predictive Science Lab judges its models: the metrics each paper reports and what it compares against. The overall picture comes first, then each person. The aim is a reference for building new lab models that will be judged the same way.
 
 **Sources**: 18 lab papers in this wiki (full text) and 33 found online (full text unless marked **[unverified]**, which means abstract only). Work notes: `notes/002-lab-evaluation-metrics.md`.
-**Last updated**: 2026-11-19
+**Last updated**: 2026-11-22
 
 ---
 
@@ -188,6 +188,24 @@ Signature: the only person who reports numeric interval coverage and width (PICP
 ### Anubhav Dey
 
 No papers found. A Purdue Anubhav Dey is in the Vlachos lab, with nothing published yet that could be found.
+
+### Further papers behind catalogue examples
+
+Added 2026-11-22 for the [[Examples catalogue]]. Read from the arXiv text; "partly read" means the experiments section was only partly reached, and **[unverified]** means abstract only.
+
+| Paper | Metrics | Compared against |
+|---|---|---|
+| Alloy active learning (arXiv 2512.15958) | measured oxidation mass gain against a 1 mg/cm² target; predicted vs measured (partly read) | 81-alloy literature set; no ML baseline |
+| Bayesian reduced-order models (arXiv 1001.2753) | normalized error in identified parameters; posterior mean and 5-95% quantiles vs exact, by eye | reference parameter values, switching linear dynamical system, exact heat-equation solution |
+| Bayesian thermal digital twin (arXiv 2609.04614) | configuration accuracy, first detection time, 95% intervals by eye, run time (partly read) | no outside baseline; one testbed scenario |
+| Extended expected improvement (arXiv 1604.01147) | 95% bounds on the optimum and iterations to converge, by eye | none |
+| Free energy by KL minimization (arXiv 1011.2416) | free-energy profile vs reference, by eye; reduction in KL divergence; ESS | reference free energy |
+| Multi-objective optimization on a budget (arXiv 1706.01665) | Pareto front and Vorob'ev expectation, by eye | none (a 100-sample average at the final designs) |
+| Oxidation mass uptake (arXiv 2310.15083) | BIC ranking of oxidation models **[unverified]** | the models chosen by the original authors |
+| Probabilistic PDE solvers (arXiv 1607.03526) | predicted discretization error (2σ) vs exact absolute error, by eye | exact solution, fine finite-difference solve |
+| GitHub repo only, no paper (github.com/wesleyjholt/multimodal-examples) | none stated in the repository | none stated |
+
+Seven of the eight papers judge results by eye or against a reference; none runs a competing method.
 
 ## Connections
 
