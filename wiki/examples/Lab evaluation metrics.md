@@ -158,7 +158,7 @@ His only paper so far. It has the broadest baseline field in the lab. NRMSE is u
 | [[SMURF (Hans 2026)]] | Dice, surface distance, divergence and momentum residuals, minutes per case | MedSAM2, Tempus, Tempus+DFW, sequential ablation |
 | Paper replication by coding agents, 2026 (arXiv 2607.02134) | targets matched; discrepancy ratio vs the paper's own threshold; hours | the source papers' own numbers |
 | Unbalanced OT particle tracking, Hao 2024 (arXiv 2407.04583) | yield and reliability rates | own α and prediction-order ablations |
-| BVR particle reconstruction, MST 2024 | detection rate, ghost fraction, RMS pixel error **[unverified]** | synthetic truth, Poiseuille flow |
+| BVR particle reconstruction, MST 2024 | share of correct reconstructions, ghost-particle share, RMS position error vs seeding density (synthetic); model uncertainty vs RMS error; velocity profile vs theory (pipe) | synthetic truth; Poiseuille profile; earlier aneurysm tracks, by eye; no other method run |
 | Causal-knowledge model, IDETC 2020 / JCISE 2022 | not stated in the abstract **[unverified]** | 3PL item-response model |
 
 Signature: the field's own scalar metrics, judged first on synthetic sweeps, then on an in-vitro case with an analytic answer. In the replication paper the unit of evaluation is a claim that matches a threshold set by the source paper.
