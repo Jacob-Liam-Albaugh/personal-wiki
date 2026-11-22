@@ -82,7 +82,7 @@ tags: [uq, inverse-problems, bayesian, sampling, ml]
 
 ## All examples
 
-**How to judge it**: the "suggested" columns are a rule by task that follows lab practice on [[Lab evaluation metrics]] (first two tasks only); they are not what the notebook does. The lab-paper columns are what each paper reports, taken from that page; "not surveyed" means the paper is not on it. `examples.csv` holds the same in `metric`, `compared_against` and `judging_basis`. Added 2026-11-22.
+**How to judge it**: the "suggested" columns are a rule by task that follows lab practice on [[Lab evaluation metrics]] (first two tasks only); they are not what the notebook does. The lab-paper columns are what each paper reports, taken from that page. `examples.csv` holds the same in `metric`, `compared_against` and `judging_basis`. Added 2026-11-22.
 
 | Example | Data | Tasks | Book | Uses | How to judge it (suggested) |
 |---|---|---|---|---|---|

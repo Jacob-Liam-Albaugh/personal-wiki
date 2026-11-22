@@ -205,7 +205,7 @@ Added 2026-11-22 for the [[Examples catalogue]]. Read from the arXiv text; "part
 | Probabilistic PDE solvers (arXiv 1607.03526) | predicted discretization error (2σ) vs exact absolute error, by eye | exact solution, fine finite-difference solve |
 | GitHub repo only, no paper (github.com/wesleyjholt/multimodal-examples) | none stated in the repository | none stated |
 
-Seven of the eight papers judge results by eye or against a reference; none runs a competing method.
+Most of these papers judge results by eye against a reference or exact solution. Only the reduced-order model paper runs another method (a switching linear dynamical system).
 
 ## Connections
 
