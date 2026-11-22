@@ -191,17 +191,17 @@ No papers found. A Purdue Anubhav Dey is in the Vlachos lab, with nothing publis
 
 ### Further papers behind catalogue examples
 
-Added 2026-11-22 for the [[Examples catalogue]]. Read from the arXiv text; "partly read" means the experiments section was only partly reached, and **[unverified]** means abstract only.
+Added 2026-11-22 for the [[Examples catalogue]]. Read from the arXiv text; the results sections of all eight papers have been read.
 
 | Paper | Metrics | Compared against |
 |---|---|---|
-| Alloy active learning (arXiv 2512.15958) | measured oxidation mass gain against a 1 mg/cm² target; predicted vs measured (partly read) | 81-alloy literature set; no ML baseline |
+| Alloy active learning (arXiv 2512.15958) | measured 24 h mass gain at 1000°C against a 1 mg/cm² target; GP prediction ± σ vs measurement, by eye, for 30 alloys in six batches; two follow-up alloys predicted 0.93 and 0.79, measured 4.76 and 5.87 mg/cm² | own measurements only; starts from 81 literature alloys; no other method |
 | Bayesian reduced-order models (arXiv 1001.2753) | normalized error in identified parameters; posterior mean and 5-95% quantiles vs exact, by eye | reference parameter values, switching linear dynamical system, exact heat-equation solution |
-| Bayesian thermal digital twin (arXiv 2609.04614) | configuration accuracy, first detection time, 95% intervals by eye, run time (partly read) | no outside baseline; one testbed scenario |
-| Extended expected improvement (arXiv 1604.01147) | 95% bounds on the optimum and iterations to converge, by eye | none |
-| Free energy by KL minimization (arXiv 1011.2416) | free-energy profile vs reference, by eye; reduction in KL divergence; ESS | reference free energy |
-| Multi-objective optimization on a budget (arXiv 1706.01665) | Pareto front and Vorob'ev expectation, by eye | none (a 100-sample average at the final designs) |
-| Oxidation mass uptake (arXiv 2310.15083) | BIC ranking of oxidation models **[unverified]** | the models chosen by the original authors |
+| Bayesian thermal digital twin (arXiv 2609.04614) | configuration accuracy, posterior probability of the health state, first detection time, time-to-critical 95% interval vs truth, run time; held-out 95% intervals by eye | synthetic truth and one testbed scenario; no other method |
+| Extended expected improvement (arXiv 1604.01147) | 95% bounds on the optimum and maximum EEI vs iteration, by eye | known optimum of two synthetic problems; none for the oil-well problem; no other method |
+| Free energy by KL minimization (arXiv 1011.2416) | free-energy curve vs reference, by eye; reduction in KL divergence per added kernel | analytic free energy (toy); dimer potential (WCA); own 1D run vs integrated 2D surface (LJ38); no other method |
+| Multi-objective optimization on a budget (arXiv 1706.01665) | Pareto front, Vorob'ev expectation and symmetric deviation, by eye | Monte Carlo reference Pareto front (synthetic); 100-sample average only for wire drawing; no other method |
+| Oxidation mass uptake (arXiv 2310.15083) | BIC rank of the original authors' model among 42 fitted models (top for 29%, top three for 44% of 130 alloys at 2.5% noise); MSE and R² per model | the models chosen by the original authors |
 | Probabilistic PDE solvers (arXiv 1607.03526) | predicted discretization error (2σ) vs exact absolute error, by eye | exact solution, fine finite-difference solve |
 | GitHub repo only, no paper (github.com/wesleyjholt/multimodal-examples) | none stated in the repository | none stated |
 
