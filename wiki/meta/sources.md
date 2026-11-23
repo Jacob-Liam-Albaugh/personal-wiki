@@ -16,7 +16,8 @@ Regenerate the file list when files are added; keep the status column in sync on
 | File | Pages | Status | Notes |
 |---|---|---|---|
 | `Baysian Data Analysis 3rd ed` |  | alias | points to text_books/Machine Learning & Statistics/Baysian Data Analysis 3rd ed.pdf |
-| `Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf` | 37 | ingested → [[Embedded model bias with noise (Andres Arcones 2025)]] | from `2410.12037v2.pdf` |
+| `Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf` | 37 | ingested → [[Embedded model bias with noise (Andres Arcones 2025)]] | from `2410.12037v2.pdf`; arXiv v2 preprint of the journal version below |
+| `Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Form Uncertainty Quantification with Measurement Noise for Bayesian Model Calibration.pdf` | 45 | ingested → [[Embedded model bias with noise (Andres Arcones 2025)]] | journal version (DCE 2026, 7:e7), canonical; added 2026-11-23 |
 | `Bilionis, Alberts - Physics Informed Information Field Theory.pdf` | 32 | ingested → [[PIFT (Alberts 2023)]] | arXiv preprint of the JCP 2023 paper in papers/IFT/ |
 | `Bilionis, Karumuri - Learning to solve Baysian inverse problems An Amortizeed Variational Inferece approach useing Gaussian and Flow guides.pdf` | 49 | ingested → [[Amortized VI for inverse problems (Karumuri 2024)]] |  |
 | `Bilionis, Lee, Buganza - Propagation of Uncertainty in Tissues Reponse via multi-fidelity GP Regression` |  | alias | points to papers/Guassian Processes/ copy |

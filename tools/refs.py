@@ -83,7 +83,11 @@ def software(entry):
 def ref_section(text):
     heads = list(re.finditer(r"^\s*(?:\d+\.?\s*)?(references|bibliography|literature cited)\s*$",
                              text, re.I | re.M))
-    return text[heads[-1].end():] if heads else ""
+    if not heads:
+        return ""
+    sec = text[heads[-1].end():]
+    app = re.search(r"^\s*(?:Appendix\s+)?A\.\s+[A-Z][A-Za-z-]+(?:[ -][A-Za-z-]+){2,}\s*$", sec, re.M)
+    return sec[:app.start()] if app else sec
 
 
 def split_entries(sec):
@@ -98,7 +102,7 @@ def split_entries(sec):
                     out[-1] += " " + l
             return out
     out = []
-    starts = r"^[A-Z][A-Za-z'\-]+,?\s+(?:[A-Z]\.|[A-Z][a-z]+[ ,])"
+    starts = r"^[A-Z][A-Za-z'\-]+,?\s+(?:[A-Z]\.|[A-Z][a-z]+[ ,]|[A-Z]{1,3}[ ,])"
     for l in lines:
         if not out or (re.match(starts, l) and re.search(r"[.\d)]$", out[-1])):
             out.append(l)

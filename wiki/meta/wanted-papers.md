@@ -23,4 +23,4 @@ Link is the publisher DOI where Crossref finds a confident title match, else arX
 | 4 | 1997 |  13  Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation, 9(8):1735–1780, 1997. | [DOI](https://doi.org/10.1162/neco.1997.9.8.1735) | [[Attention is all you need (Vaswani 2017)]], [[Diesel PM as OU process (Bolt 2026)]], [[Mamba (Gu 2023)]], [[SINDy autoencoders (Champion 2019)]] |
 | 4 | 2009 |  15  Torsten A Enßlin, Mona Frommert, and Francisco S Kitaura. “Information field theory for cosmological perturbation reconstruction and nonlinear signal analysis”. In: Physical Review D—Particles, F | [DOI](https://doi.org/10.1103/physrevd.80.105005) | [[IFT thermal conductivity (Alberts 2026)]], [[MAP uniqueness in IFT (Alberts 2025)]], [[Neural information field filter (Hao 2025)]], [[PIFT (Alberts 2023)]] |
 
-**Last updated**: 2026-11-21
+**Last updated**: 2026-11-23

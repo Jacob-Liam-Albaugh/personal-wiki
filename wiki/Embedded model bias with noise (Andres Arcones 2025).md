@@ -2,19 +2,21 @@
 type: paper
 area: bayesian
 areas: [bayesian, inverse-problems]
-source-ref: "Andrés Arcones, Weiser, Koutsourelakis, Unger 2025, arXiv:2410.12037v2"
+source-ref: "Andrés Arcones, Weiser, Koutsourelakis, Unger 2026, Data-Centric Engineering 7:e7"
 tags: [bayesian, inverse-problems, uq, mcmc]
 authors: ["[[Daniel Andrés Arcones]]", "[[Martin Weiser]]", "[[Phaedon-Stelios Koutsourelakis]]", "[[Jörg F. Unger]]"]
-year: 2025
-venue: "arXiv:2410.12037v2, 23 June 2025 (preprint; no journal given in the PDF)"
-file: "[[papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf]]"
+year: 2026
+venue: "Data-Centric Engineering 7:e7 (2026), doi:10.1017/dce.2025.10035; preprint arXiv:2410.12037"
+file: "[[papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Form Uncertainty Quantification with Measurement Noise for Bayesian Model Calibration.pdf]]"
 ---
 
 # Embedded model bias with noise (Andres Arcones 2025)
 
 **Summary**: Calibrating a wrong model with only a noise term gives an overconfident posterior, and an external Kennedy-O'Hagan discrepancy cannot be carried to other quantities of interest (QoIs). The paper puts the model error inside a parameter as an additive Gaussian, θ̃ = θ_m + δ, and fits the predicted mean and variance to data. It adds measurement noise to Sargsyan's ABC and independent-normal likelihoods and proposes two new ones (GMM, RGMM). Pushing the full posterior through the model gives honest uncertainty on an unobserved QoI.
 
-**Authors**: Daniel Andrés Arcones, Martin Weiser, Phaedon-Stelios Koutsourelakis, Jörg F. Unger (BAM Berlin, TU Munich, Zuse Institute Berlin) · **Year**: 2025 · **File**: [[papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf]] · **Code**: probeye (BAMResearch, Python)
+**Authors**: Daniel Andrés Arcones, Martin Weiser, Phaedon-Stelios Koutsourelakis, Jörg F. Unger (BAM Berlin, TU Munich, Zuse Institute Berlin) · **Year**: 2026 · **File**: [[papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Form Uncertainty Quantification with Measurement Noise for Bayesian Model Calibration.pdf]] · **Code**: probeye (BAMResearch, Python) · **Data**: Zenodo 10.5281/zenodo.15720780
+
+**Version**: the journal version, titled "Embedded model form uncertainty quantification with measurement noise for Bayesian model calibration" (received 23 June 2025, accepted 9 December 2025, CC-BY). The arXiv v2 preprint is kept as [[papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf|the preprint]]. Equation numbers below follow the journal version.
 
 Wiki note: the first author's surname is "Andrés Arcones" (the paper cites its own earlier work that way); the filename drops the accent.
 
@@ -51,14 +53,14 @@ y = f(θ, x)
   μ_i  = α_i0              (15)
   σ_i² = Σ_{j≥1} α_ij²     (16)
   ```
-- **Versus hierarchical Bayes**: the embedded posterior π(θ_m, θ_b | y) (eq. 17) never samples θ̃. The [[Hierarchical Bayesian model]] version (eq. 18, Fig. 1) samples θ̃ per data point with a deterministic f. Pernot and Cailliez 2017 found the ABC-embedded version better (p. 7).
+- **Versus hierarchical Bayes** (§2.4): the embedded posterior π(θ_m, θ_b | y) never samples θ̃. The [[Hierarchical Bayesian model]] version (Fig. 1) samples θ̃ per data point with a deterministic f. Pernot and Cailliez 2017 found the ABC-embedded version better (p. 7).
 - **Sampler**: emcee stretch-move ensemble [[Markov chain Monte Carlo]], stopped at an estimated effective sample size of 837 (App. A).
 
 ### Likelihoods (§2.5, Table 1)
 
 All four match the predicted mean μ_i and standard deviation σ_i to the data. σ_N is the known noise.
 
-> [!algorithm] ABC with noise (eq. 26)
+> [!algorithm] ABC with noise (eq. 24)
 > ```
 > log L = Σ_i [
 >   -(μ_i - y_i)² / (2σ_N²)
@@ -66,15 +68,15 @@ All four match the predicted mean μ_i and standard deviation σ_i to the data. 
 >     - γ|μ_i - y_i|)² / (2ε²) ]
 > γ = √(π/2)
 > ```
-> Without noise (eq. 21, Sargsyan) the first term uses ε and γ = 1. The paper's γ = √(π/2) comes from the half-normal mean: E|r| = σ√(2/π) (eq. 24). The noise version follows Wilkinson 2013 (App. B).
+> Without noise (eq. 21, Sargsyan) the first term uses ε and γ = 1. The paper's γ = √(π/2) comes from the half-normal mean: E|r| = σ√(2/π) (eq. 22). The noise version follows Wilkinson 2013 (§2.5.2, eq. 23). Eq. 24 assumes additive homoscedastic Gaussian noise; other noise models are left for future work.
 
-> [!algorithm] Independent normal, IN (eq. 28)
+> [!algorithm] Independent normal, IN (eq. 26)
 > ```
 > y_i ~ N(μ_i, σ_i² + σ_N²)
 > ```
-> Sargsyan's eq. 27 without σ_N.
+> Sargsyan's eq. 25 without σ_N.
 
-> [!algorithm] Global moment matching, GMM (eqs. 29-41)
+> [!algorithm] Global moment matching, GMM (eqs. 27-40)
 > Treat the residuals u_i = y_i - μ_i as draws from one equal-weight mixture F = (1/n) Σ N(0, σ_i² + σ_N²). It has mean 0 and variance
 > ```
 > σ_F² = mean_i(σ_i²) + σ_N²
@@ -84,9 +86,9 @@ All four match the predicted mean μ_i and standard deviation σ_i to the data. 
 > ū ~ N(0, σ_F²/n)
 > n s²/σ_F² ~ χ²_{n-1}
 > ```
-> The likelihood is the product of these two densities (eqs. 37, 39).
+> The likelihood is the product of these two densities (eqs. 36, 38, 39).
 
-> [!algorithm] Relative GMM, RGMM (eqs. 42-50)
+> [!algorithm] Relative GMM, RGMM (eqs. 41-49)
 > GMM applied to the scaled residuals
 > ```
 > r_i = (y_i - μ_i)
@@ -94,9 +96,9 @@ All four match the predicted mean μ_i and standard deviation σ_i to the data. 
 > ```
 > so σ_F = 1. Meant for strongly heteroscedastic errors, where a few high-variance points would dominate GMM.
 
-Wiki note: eqs. 36 and 47 print the sample variance as Σ u_i / (n-1), with no square or mean subtracted, and a sum from i = 0. This is a typo in the paper. The intended form is Σ(u_i - ū)² / (n-1).
+Wiki note: the GMM sample variance (eq. 35) divides Σ(u_i - ū)² by n-1, the RGMM one (eq. 46) by n (checked against the page). The χ² statement n s²/σ_F² ~ χ²_{n-1} is exact for the divide-by-n form. The arXiv v2 printed this variance with no square and no mean subtracted; the journal version fixes that.
 
-- **Noise check (App. C)**: if the prescribed σ_N exceeds the residuals, the moment-matching likelihoods prefer *larger* residuals so σ_i + σ_N can match them. The posterior then drifts away from the true system. Inferring σ_N as a latent parameter is possible for the noisy ABC likelihood (p. 10).
+- **Noise check (App. B)**: if the prescribed σ_N exceeds the residuals, the moment-matching likelihoods prefer *larger* residuals so σ_i + σ_N can match them. The posterior then drifts away from the true system. App. B derives this from the gradient and Hessian of the noisy ABC log-likelihood (eqs. B2-B9): the Hessian is negative definite, and Table B1 sorts the behaviour into seven cases by how the mean residual compares with the mean predicted deviation. Inferring σ_N as a latent parameter is possible for the noisy moment-matching likelihood (p. 13).
 
 ### Pushing to QoIs (§2.7)
 
@@ -122,9 +124,9 @@ Wiki note: eqs. 36 and 47 print the sample variance as Σ u_i / (n-1), with no s
 > - z-value of the point y(1.0) = 5.04 is below 1.96 for every likelihood. Without the embedding (noise only) it is 104.
 > - Over 20 datasets ABC's t varies most and needs the most variable chain length. GMM underestimates σ_b because the shared-mixture assumption fails on a small dataset (Figs. 5-6).
 
-- **Noise misspecification** (Figs. 7-8, σ_N from 0.001 to 10): ABC is the most sensitive. Above σ_N ≈ 0.4 the prescribed noise exceeds the spread at some points and its parameters shift. Above 1 its likelihood grows local optima and chains stop early. IN is the most robust; GMM and RGMM drift in t but keep narrow intervals.
-- **Constant offset Δy** (Figs. 9-10, the model cannot reproduce it): t rises and σ_b inflates to cover the data. IN and RGMM move most, because low-variance points carry the most weight in them.
-- **Outliers on a subset** (Figs. 11-12): ABC moves most, because it weighs every point equally.
+- **Noise misspecification** (Figs. 7-8, σ_N from 0.001 to 10): ABC is the most sensitive. Above σ_N ≈ 0.4 the prescribed noise exceeds the spread at some points and its parameters shift. Above σ_N = 1 the noise exceeds the spread at every point; the likelihood grows local optima and chains stop early. IN is the most robust; GMM and RGMM drift in t but keep narrow intervals.
+- **Constant offset Δy** (eq. 55, Figs. 9-10, the model cannot reproduce it): t rises and σ_b inflates to cover the data. IN and RGMM move most, because low-variance points carry the most weight in them.
+- **Outliers on a subset** (eq. 56, Figs. 11-12; offset 0 to 2 in 21 steps): ABC moves most, because it weighs every point equally.
 
 > [!example] Reinforced concrete heat transfer (§3.2)
 > - **Setup**: 2D transient heat equation on a 0.4 m square, solved with FE (20×20 linear elements, backward Euler, 5 min steps).
@@ -150,7 +152,7 @@ As stated by the authors (§4):
 - Update cost goes up: one PCE fit per likelihood call.
 
 Wiki notes:
-- ε, the ABC tolerance, is a free knob that sets the posterior width directly (p. 14). So ABC's near-zero posterior spread mostly reflects the chosen ε, not the information in the data.
+- ε, the ABC tolerance, sets the posterior width directly. The paper takes ε = 1e-6, just above machine precision, and says larger ε inflates the posterior and has "no real fundament" (§3.3). So ABC's near-zero posterior spread reflects that tiny ε, not the information in the data.
 - The z-test on QoIs checks coverage of a single held-out value. It is not a calibration check over many values.
 
 ## Connections
@@ -165,8 +167,8 @@ Wiki notes:
 **Cites in this wiki**: [[Wiener-Askey chaos (Xiu 2002)]]
 %% refs:end %%
 
-**Sources**: `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf` (37 pp.).
-**Last updated**: 2026-11-21
+**Sources**: `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Form Uncertainty Quantification with Measurement Noise for Bayesian Model Calibration.pdf` (45 pp., journal version); `papers/Bayesian/Andres Arcones, Weiser, Koutsourelakis, Unger - Embedded Model Bias Quantification with Measurement Noise for Bayesian Model Calibration.pdf` (37 pp., arXiv v2).
+**Last updated**: 2026-11-23
 
 ---
 
