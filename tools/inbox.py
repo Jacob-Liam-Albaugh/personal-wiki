@@ -10,6 +10,7 @@ from pathlib import Path
 
 import fitz
 
+from letter import to_letter
 from refs import R, WANTED, CACHE, dehyphen, entries_for, fold, load_pages, matches, words
 
 INBOX = R / "inbox"
@@ -137,6 +138,8 @@ def main(dry):
         print(f"MOVE  {pdf.name}  ->  {dest.relative_to(R)}  ({why})")
         if not dry:
             pdf.rename(dest)
+            if to_letter(dest) == "converted":
+                print("      converted to Letter")
             moved.append(str(dest.relative_to(R)))
     if moved:
         with QUEUE.open("a") as f:

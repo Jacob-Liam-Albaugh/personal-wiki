@@ -1,6 +1,9 @@
 N ?= 4
 
-all: authors refs graph
+all: letter authors refs graph
+
+letter:
+	python3 tools/letter.py
 
 authors:
 	python3 tools/authors.py
@@ -17,4 +20,4 @@ sort:
 test:
 	cd tools && python3 test_tools.py
 
-.PHONY: all authors refs graph sort test
+.PHONY: all letter authors refs graph sort test

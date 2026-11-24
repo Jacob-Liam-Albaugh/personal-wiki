@@ -1,3 +1,8 @@
+import tempfile
+
+import fitz
+
+from letter import convert, fingerprint, status
 from authors import firsts, norm, split_names
 from inbox import best_wanted, existing, filename, ref_surnames
 from refs import matches, software, words
@@ -32,4 +37,16 @@ assert not existing("Generative Modeling by Estimating Gradients of the Data Dis
 assert software("[35] James Bradbury, Roy Frostig. JAX: compos- able transformations of Python+NumPy programs, 2018.") == "JAX"
 assert software("Fabian Pedregosa et al. Scikit- learn: Machine Learning in Python. JMLR 2011.") == "scikit-learn"
 assert software("Shashank Vadyala. Physics-informed neural network method for advection using pytorch. Array 2022.") is None
+with tempfile.TemporaryDirectory() as t:
+    a4 = fitz.open()
+    for _ in range(2):
+        a4.new_page(width=595, height=842).insert_text((72, 72), "Letter test")
+    a4[0].insert_image(fitz.Rect(100, 100, 200, 200), pixmap=fitz.Pixmap(fitz.csRGB, fitz.IRect(0, 0, 4, 4), 1))
+    a4[0].insert_link(dict(kind=fitz.LINK_URI, uri="https://example.org", **{"from": fitz.Rect(72, 60, 150, 80)}))
+    a4[0].insert_link(dict(kind=fitz.LINK_GOTO, page=1, to=fitz.Point(72, 72), **{"from": fitz.Rect(72, 300, 150, 320)}))
+    a4.save(f"{t}/a4.pdf", deflate=True)
+    convert(f"{t}/a4.pdf", f"{t}/letter.pdf")
+    with fitz.open(f"{t}/a4.pdf") as a, fitz.open(f"{t}/letter.pdf") as b:
+        assert status(a) == "convert" and status(b) == "letter"
+        assert fingerprint(a) == fingerprint(b) and len(fingerprint(b)[2]) == 2
 print("ok")

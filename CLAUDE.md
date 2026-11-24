@@ -27,7 +27,7 @@ not content; content goes in `wiki/`.
 relative to this folder (`papers/IFT/...`).
 
 ```
-papers/                        -- research papers, by topic (source documents; never modify)
+papers/                        -- research papers, by topic (source documents; never modify, except Letter conversion by tools/letter.py)
   PSL Reading Group/           -- lab reading group, files named YY.MM.DD - <title>.pdf
   Bayesian/ DSL/ Diffusion/ Generative ML/ Guassian Processes/ IFT/ LLMs/ ML/ Math/ Operators/
   Physics Informed Architectures/ Stochastic Methods/ Symmetries/ Transforms/
@@ -92,7 +92,9 @@ A new folder gets a new slug, recorded here before it is used.
 When the user adds a source or asks you to ingest one:
 
 0. If `inbox/` holds PDFs, run `make sort`, report any DUPE/KEEP lines, then ingest every path in
-   `inbox/to-ingest.txt` and empty that file once they are ingested.
+   `inbox/to-ingest.txt` and empty that file once they are ingested. `make sort` also converts A4
+   and other non-Letter PDFs to US Letter in place (vector, links kept; originals in
+   `../personal-wiki-backups/pre-letter/`); report any FAILED line. Slides and rotated scans stay.
 
 1. Read the full source document (PDFs via PyMuPDF; handwritten or scanned notes visually).
 2. Discuss key takeaways with the user before writing anything. When the user has asked
@@ -107,7 +109,7 @@ When the user adds a source or asks you to ingest one:
 6. Update `wiki/meta/index.md`, `wiki/meta/sources.md` (status → ingested), and for reading
    group papers `wiki/meta/reading-group.md`.
 7. Append an entry to `wiki/meta/log.md` with the date, sources, and pages touched.
-8. Run `make` from the repo root. `make authors` builds `wiki/authors/` and links each paper's
+8. Run `make` from the repo root. `make letter` converts any PDF still not Letter. `make authors` builds `wiki/authors/` and links each paper's
    `authors`. `make refs` rewrites each paper's `%% refs:start %%` block (Cites / Cited by in this
    wiki) and `wiki/meta/wanted-papers.md`, which lists works outside the wiki cited by at least
    n wiki sources (default 4; `make refs N=3` to change it). Tell the user about new wanted entries.
@@ -334,7 +336,8 @@ When asked to lint or audit the wiki:
 
 ## Rules
 
-- Never modify, rename or move anything outside `wiki/`, `notes/`, `CLAUDE.md` and `.gitignore`.
+- Never modify, rename or move anything outside `wiki/`, `notes/`, `CLAUDE.md` and `.gitignore`,
+  except the PDF moves and Letter conversions done by `make sort` and `make letter`.
 - Always update `wiki/meta/index.md` and `wiki/meta/log.md` after changes.
 - Git tracks only `wiki/`, `notes/`, `CLAUDE.md`, `.gitignore`; commit after each ingest or
   batch of edits on `main`. Local only: no remotes, no pushes. The nested repos in

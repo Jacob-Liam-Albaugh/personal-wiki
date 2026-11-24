@@ -250,3 +250,9 @@
 - Table 2, Table 5, ESS 837, the z-values and the true heat 91 338 J were checked against the journal text and are unchanged.
 - [[MAP uniqueness in IFT (Alberts 2025)]]: the downloaded copy is byte-identical to the ingested `papers/IFT/` PDF; nothing added.
 - `tools/refs.py`: the reference section now stops at an "A. <heading>" appendix line, and author-year entries with bare initials ("Xiu D and Karniadakis GE (2002)") now split. This restores the [[Wiener-Askey chaos (Xiu 2002)]] citation from the journal PDF. Cached parses of other PDFs were not redone.
+
+## [2026-11-24] tooling | Papers converted to US Letter
+- New `tools/letter.py`: each non-Letter page is embedded as a vector Form XObject, scaled to fit and centred on 612x792. Fonts, figures and image streams are copied byte for byte. Links and bookmarks are kept; named links become direct page jumps.
+- Converted all 43 non-Letter PDFs in `papers/` in place. The originals are in `../personal-wiki-backups/pre-letter/`. Each conversion was checked for equal page count, visible text, link targets, image hashes and bookmarks before replacing the file.
+- Left as is: Flow Matching Tutorial and Inflationary Flows slides (landscape), and the Einstein Brownian movement scan (rotated book spread).
+- `make sort` now converts each PDF after moving it, and `make` runs `make letter` first. `make test` covers an A4 round trip.
